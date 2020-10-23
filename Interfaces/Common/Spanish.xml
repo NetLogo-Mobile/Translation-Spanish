@@ -6,26 +6,26 @@
     <String ID="意见反馈" Status="1" English="Feedback">Retroalimentación</String>
     <String ID="实验设置" Status="1" English="Preferences">Preferencias</String>
     <String ID="我的实验室" Status="1" English="My Lab">Mi laboratorio</String>
-    <String ID="返回应用" Status="1" English="Return">Regreso</String>
+    <String ID="返回应用" Status="1" English="Return">Regresar</String>
     <String ID="消息推送" Status="1" English="Physics News">Noticias de física</String>
-    <String ID="是" Status="1" English="Yes">si</String>
+    <String ID="是" Status="1" English="Yes">Si</String>
     <String ID="否" Status="1" English="No">No</String>
     <String ID="菜单" Status="1" English="Menu">Menú</String>
-    <String ID="返回" Status="1" English="Return">Regreso</String>
+    <String ID="返回" Status="1" English="Return">Regresar</String>
     <String ID="离开" Status="1" English="Leave">Salir</String>
     <String ID="提交" Status="1" English="Submit">Enviar</String>
-    <String ID="确定" Status="1" English="OK">Okay</String>
+    <String ID="确定" Status="1" English="OK">OK</String>
     <String ID="取消" Status="1" English="Cancel">Cancelar</String>
     <String ID="取消操作" Status="1" English="Cancel">Cancelar</String>
-    <String ID="开始" Status="1" English="Start">comienzo</String>
-    <String ID="继续" Status="1" English="Resume">Currículum</String>
+    <String ID="开始" Status="1" English="Start">Iniciar</String>
+    <String ID="继续" Status="1" English="Resume">Continuar</String>
     <String ID="领取" Status="1" English="Receive">Recibir</String>
     <String ID="积分" Status="1" English="Point">Punto</String>
     <String ID="钻石" Status="1" English="Diamond">Diamante</String>
     <String ID="经验值" Status="1" English="Experience">Experiencia</String>
     <String ID="碎片" Status="1" English="Fragment">Fragmento</String>
     <String ID="活动" Status="1" English="Events">Eventos</String>
-    <String ID="通知" Status="1" English="Notice">aviso</String>
+    <String ID="通知" Status="1" English="Notice">Aviso</String>
     <String ID="好友" Status="1" English="Friend">Amigo</String>
     <String ID="首页" Status="1" English="Home">Casa</String>
     <String ID="实验室" Status="1" English="Laboratory">Laboratorio</String>
@@ -33,12 +33,12 @@
     <String ID="模型库" Status="1" English="Library">Biblioteca</String>
     <String ID="列表" Status="1" English="List">Lista</String>
     <String ID="更多 »" Status="1" English="More »">Más &amp;quot;</String>
-    <String ID="请更新版本" Status="1" English="Please update">Por favor actualice</String>
+    <String ID="请更新版本" Status="1" English="Please update">Actualice por favor</String>
     <String ID="等级" Status="1" English="Level">Nivel</String>
     <String ID="截图分享" Status="1" English="Screenshot">Captura de pantalla</String>
     <String ID="录屏分享" Status="1" English="Recording">Grabación</String>
     <String ID="确认" Status="1" English="Confirm">Confirmar</String>
-    <String ID="后退" Status="1" English="Back">atrás</String>
+    <String ID="后退" Status="1" English="Back">Atrás</String>
     <String ID="删除" Status="1" English="Delete">Eliminar</String>
     <String ID="键盘" Status="1" English="Keyboard">Teclado</String>
     <String ID="获得奖励" Status="1" English="Get rewards">Obtener recompensas</String>
@@ -47,7 +47,7 @@
     <String ID="已领取" Status="1" English="Received">Recibido</String>
     <String ID="未达成" Status="1" English="Not reached">No alcanzado</String>
     <String ID="第 {0} 天" Status="1" English="{0} Days">{0} días</String>
-    <String ID="保存" Status="1" English="Save">Salvar</String>
+    <String ID="保存" Status="1" English="Save">Guardar</String>
     <String ID="分享到" Status="1" English="Share to">Compartir a</String>
     <String ID="读取实验" Status="1" English="Load experiment">Cargar experimento</String>
     <String ID="开始实验" Status="1" English="Start experiment">Iniciar experimento</String>
@@ -56,19 +56,19 @@
     <String ID="离开实验" Status="1" English="Leave experiment">Dejar el experimento</String>
     <String ID="发布内容" Status="1" English="Publish content">Publicar contenido</String>
     <String ID="实验模式" Status="1" English="Experimental mode">Modo experimental</String>
-    <String ID="离线模式" Status="1" English="Offline Mode">Modo offline</String>
+    <String ID="离线模式" Status="1" English="Offline Mode">Modo Offline</String>
     <String ID="未命名" Status="1" English="Untitled">Intitulado</String>
     <String ID="加载中" Status="1" English="Loading">Cargando</String>
-    <String ID="保存于 {0}" Status="1" English="Saved at {0}">Guardado a las {0}</String>
+    <String ID="保存于 {0}" Status="1" English="Saved at {0}">Guardado a {0}</String>
     <String ID="连接错误" Status="1" English="Connection error">Error de conexión</String>
     <String ID="访问" Status="1" English="Visit">Visitar</String>
     <String ID="开" Status="1" English="On">En</String>
     <String ID="关" Status="1" English="Off">Apagado</String>
     <String ID="完全同意" Status="1" English="Totally agree">Totalmente de acuerdo</String>
     <String ID="完全不同意" Status="1" English="Totally disagree">Totalmente en desacuerdo</String>
-    <String ID="随机范围" Status="1" English="Random range">Rango aleatorio</String>
+    <String ID="随机范围" Status="1" English="Random range">Alcance aleatorio</String>
     <String ID="数值选择" Status="1" English="Numerical slide">Diapositiva numérica</String>
-    <String ID="键盘输入" Status="1" English="Keyboard input">Entrada de teclado</String>
+    <String ID="键盘输入" Status="1" English="Keyboard input">Input del teclado</String>
     <String ID="剪切" Status="1" English="Cut">Cortar</String>
     <String ID="复制" Status="1" English="Copy">Copiar</String>
     <String ID="粘贴" Status="1" English="Paste">Pegar</String>
@@ -79,120 +79,120 @@
     <String ID="更多功能将于后续版本中更新。" Status="1" English="More features will be updated in a future release.">Se actualizarán más funciones en una versión futura.</String>
     <String ID="没有适合目前实验模式的 AR 体验！" Status="1" English="No AR experience is found for current experiment!">¡No se encontró experiencia de RA para el experimento actual!</String>
     <String ID="没有可供撤销的操作。" Status="1" English="There are no actions to undo.">No hay acciones para deshacer.</String>
-    <String ID="您的版本 {0} 已经太旧，需要更新以体验下列功能。" Status="1" English="Version {0} is outdated and needs updating to enjoy the features below.">La versión {0} está desactualizada y debe actualizarse para disfrutar de las siguientes funciones.</String>
-    <String ID="感谢您的分享，我们会做得更好！" Status="1" English="Thank you for sharing, we will do better!">Gracias por compartir, ¡lo haremos mejor!</String>
-    <String ID="分享出现问题，重新试试或许能解决……" Status="1" English="Share problems, please try to share again...">Compartir problemas, intente compartir de nuevo ...</String>
-    <String ID="正在提交您的反馈，请稍候……" Status="1" English="Submitting your feedback, please wait ...">Enviando sus comentarios, espere ...</String>
+    <String ID="您的版本 {0} 已经太旧，需要更新以体验下列功能。" Status="1" English="Version {0} is outdated and needs updating to enjoy the features below.">La versión {0} está desactualizada y es necesario actualizar para disfrutar de las siguientes funciones.</String>
+    <String ID="感谢您的分享，我们会做得更好！" Status="1" English="Thank you for sharing, we will do better!">Gracias por compartir, ¡nosotros lo haremos mejor!</String>
+    <String ID="分享出现问题，重新试试或许能解决……" Status="1" English="Share problems, please try to share again...">Comparte problemas, intente compartir de nuevo ...</String>
+    <String ID="正在提交您的反馈，请稍候……" Status="1" English="Submitting your feedback, please wait ...">Enviando sus comentarios, espere por favor...</String>
     <String ID="感谢您的反馈！我们会认真考虑您的意见。" Status="1" English="Thanks for your feedback! We will consider your opinion.">¡Gracias por tus comentarios! Consideraremos su opinión.</String>
-    <String ID="服务器遇到问题，联网功能可能无法使用。" Status="1" English="The server is under maintenance, while local features are unaffected.">El servidor está en mantenimiento, mientras que las funciones locales no se ven afectadas.</String>
-    <String ID="您已经提交过反馈了。" Status="1" English="You have already submitted feedback.">Ya ha enviado comentarios.</String>
-    <String ID="一次实验中只能存在一个该种元件。" Status="1" English="Only one such element can exist in an experiment.">Solo uno de esos elementos puede existir en un experimento.</String>
-    <String ID="当前模式暂不支持保存……" Status="1" English="Current mode does not support saving for now...">El modo actual no admite guardar por ahora ...</String>
-    <String ID="您取消了保存操作。" Status="1" English="You canceled the save operation.">Canceló la operación de guardado.</String>
+    <String ID="服务器遇到问题，联网功能可能无法使用。" Status="1" English="The server is under maintenance, while local features are unaffected.">El servidor está en mantenimiento, mientras que las funciones locales no están afectadas.</String>
+    <String ID="您已经提交过反馈了。" Status="1" English="You have already submitted feedback.">Ya has enviado comentarios.</String>
+    <String ID="一次实验中只能存在一个该种元件。" Status="1" English="Only one such element can exist in an experiment.">Solo uno de estos elementos puede existir en un experimento.</String>
+    <String ID="当前模式暂不支持保存……" Status="1" English="Current mode does not support saving for now...">El modo actual no te permite guardar por ahora ...</String>
+    <String ID="您取消了保存操作。" Status="1" English="You canceled the save operation.">Cancelaste la operación guardada.</String>
     <String ID="为你的实验命名" Status="1" English="Name your experiment">Nombra tu experimento</String>
-    <String ID="请输入存档名称" Status="1" English="Enter the name of this archive">Ingrese el nombre de este archivo</String>
-    <String ID="请输入元件名称" Status="1" English="Enter the name of this component">Ingrese el nombre de este componente</String>
-    <String ID="成功保存了您的实验进度！" Status="1" English="Successfully saved your experiment progress!">Se guardó correctamente el progreso de su experimento.</String>
-    <String ID="实验存档读取失败！" Status="1" English="Failed to load the experimental archive!">¡Error al cargar el archivo experimental!</String>
-    <String ID="实验存档读取成功！" Status="1" English="Successfully loaded your experimental archive!">¡Cargó correctamente su archivo experimental!</String>
+    <String ID="请输入存档名称" Status="1" English="Enter the name of this archive">Escribe el nombre de este archivo</String>
+    <String ID="请输入元件名称" Status="1" English="Enter the name of this component">Escribe el nombre de este componente</String>
+    <String ID="成功保存了您的实验进度！" Status="1" English="Successfully saved your experiment progress!">El progreso de su experimento fue guardado con éxito!</String>
+    <String ID="实验存档读取失败！" Status="1" English="Failed to load the experimental archive!">¡No se pudo cargar el archivo experimental!</String>
+    <String ID="实验存档读取成功！" Status="1" English="Successfully loaded your experimental archive!">¡Se pudo cargar tu archivo experimental con éxito!</String>
     <String ID="这将覆盖您之前的实验。" Status="1" English="This will overwrite your previous experiment.">Esto sobrescribirá su experimento anterior.</String>
-    <String ID="创建一个新的实验！你将无法撤销这一操作。" Status="1" English="Will create a new experiment! This cannot be undone.">¡Creará un nuevo experimento! Esto no se puede deshacer.</String>
-    <String ID="是否读取实验 {0}？" Status="1" English="Do you like to read the experiment {0}?">¿Le gusta leer el experimento {0}?</String>
-    <String ID="您还没有保存任何实验。为您展示离线实验……" Status="1" English="You have not saved any experiments yet. Showing offline selections...">Aún no ha guardado ningún experimento. Mostrando selecciones sin conexión ...</String>
-    <String ID="已存在同名实验" Status="1" English="Same name already exists">El mismo nombre ya existe</String>
-    <String ID="服务器发生错误，请稍候再试……" Status="1" English="An error occurred on the server. Please try again later...">Ocurrió un error en el servidor. Por favor, inténtelo de nuevo más tarde...</String>
-    <String ID="您输入的名称已被使用，请重新选择。" Status="1" English="The name you entered has already been used. ">El nombre que ingresó ya se usó.</String>
-    <String ID="您输入的内容不合法，请检查输入。" Status="1" English="The content you entered is illegal.">El contenido que ingresó es ilegal.</String>
-    <String ID="您输入的内容长度超限，请检查输入。" Status="1" English="The length of your input exceeds the limit.">La longitud de su entrada excede el límite.</String>
+    <String ID="创建一个新的实验！你将无法撤销这一操作。" Status="1" English="Will create a new experiment! This cannot be undone.">¡Esto creará un experimento nuevo ! Esto no se puede deshacer.</String>
+    <String ID="是否读取实验 {0}？" Status="1" English="Do you like to read the experiment {0}?">¿Le gustó leer el experimento {0}?</String>
+    <String ID="您还没有保存任何实验。为您展示离线实验……" Status="1" English="You have not saved any experiments yet. Showing offline selections..."> No has guardado ningún experimento. Mostrando selecciones offline ...</String>
+    <String ID="已存在同名实验" Status="1" English="Same name already exists">Ese mismo nombre ya existe</String>
+    <String ID="服务器发生错误，请稍候再试……" Status="1" English="An error occurred on the server. Please try again later...">Ocurrió un error en el servidor. Por favor, inténtalo de nuevo más tarde...</String>
+    <String ID="您输入的名称已被使用，请重新选择。" Status="1" English="The name you entered has already been used. ">El nombre que escriviste ya está en uso.</String>
+    <String ID="您输入的内容不合法，请检查输入。" Status="1" English="The content you entered is illegal.">El contenido que escriviste es ilegal.</String>
+    <String ID="您输入的内容长度超限，请检查输入。" Status="1" English="The length of your input exceeds the limit.">Su entrada excede el límite de longitud.</String>
     <String ID="网络断开，部分功能可能无法使用！" Status="1" English="Network is disconnected and some features may not work!">La red está desconectada y es posible que algunas funciones no funcionen.</String>
     <String ID="有些功能可能无法使用。是否再试一次？" Status="1" English="Some features may not be available. Try again?">Es posible que algunas funciones no estén disponibles. ¿Inténtalo de nuevo?</String>
-    <String ID="登录失败，部分功能可能无法使用！" Status="1" English="Login failed. Some features may not be available!">Error de inicio de sesion. ¡Es posible que algunas funciones no estén disponibles!</String>
-    <String ID="活动还没有开始，请稍候再来。" Status="1" English="The activity has not yet begun. Please come back later.">La actividad aún no ha comenzado. Por favor regresa más tarde.</String>
-    <String ID="活动已经结束了，下次记得参与～" Status="1" English="The activity is over, try to participate in the next time~">La actividad ha terminado, intenta participar en la próxima vez ~</String>
-    <String ID="您尚未达成获取奖励的条件。" Status="1" English="You have not yet reached conditions of the reward.">Aún no has alcanzado las condiciones de la recompensa.</String>
+    <String ID="登录失败，部分功能可能无法使用！" Status="1" English="Login failed. Some features may not be available!">Error de login. ¡Es posible que algunas funciones no estén disponibles!</String>
+    <String ID="活动还没有开始，请稍候再来。" Status="1" English="The activity has not yet begun. Please come back later.">La actividad no ha comenzado. Por favor regresa más tarde.</String>
+    <String ID="活动已经结束了，下次记得参与～" Status="1" English="The activity is over, try to participate in the next time~">La actividad ya ha terminado, intenta participar en la próxima vez~</String>
+    <String ID="您尚未达成获取奖励的条件。" Status="1" English="You have not yet reached conditions of the reward.">No has alcanzado las condiciones de la recompensa.</String>
     <String ID="您已经领取到相关奖励了。" Status="1" English="You have received the rewards.">Has recibido las recompensas.</String>
-    <String ID="成功重设了您的密码并切换帐户！" Status="1" English="Successfully reset your password and logon!">¡Restablezca correctamente su contraseña e inicie sesión!</String>
+    <String ID="成功重设了您的密码并切换帐户！" Status="1" English="Successfully reset your password and logon!">¡El reinicio de su contraseña e login fue exitoso!</String>
     <String ID="成功更改了您的密码！" Status="1" English="Successfully changed your password!">¡Cambió su contraseña con éxito!</String>
-    <String ID="请输入介于 6 到 20 字符之间的密码。" Status="1" English="Enter a password between 6 and 20 characters.">Ingrese una contraseña entre 6 y 20 caracteres.</String>
+    <String ID="请输入介于 6 到 20 字符之间的密码。" Status="1" English="Enter a password between 6 and 20 characters.">Escribe una contraseña entre 6 y 20 caracteres.</String>
     <String ID="找回密码" Status="1" English="Forget Password?">¿Contraseña olvidada?</String>
     <String ID="您输入的密码不正确。是否尝试找回密码？" Status="1" English="The password entered is incorrect. Try retrieving your password?">La contraseña ingresada es incorrecta. ¿Intente recuperar su contraseña?</String>
-    <String ID="输入验证码" Status="1" English="Enter Verification">Ingresar verificación</String>
-    <String ID="请输入您获得的验证码：" Status="1" English="Please enter the verification code you obtained:">Ingrese el código de verificación que obtuvo:</String>
-    <String ID="成功绑定了指定的登录方式！" Status="1" English="Successfully bound the specified login method!">¡Se vinculó con éxito el método de inicio de sesión especificado!</String>
+    <String ID="输入验证码" Status="1" English="Enter Verification">Escribe verificación</String>
+    <String ID="请输入您获得的验证码：" Status="1" English="Please enter the verification code you obtained:">Por favor escribe el código de verificación que obtuvo:</String>
+    <String ID="成功绑定了指定的登录方式！" Status="1" English="Successfully bound the specified login method!">¡Se vinculó con éxito el método de login especificado!</String>
     <String ID="您需要绑定帐户以使用这项功能。" Status="1" English="You need to bind your account to use this feature.">Debe vincular su cuenta para utilizar esta función.</String>
     <String ID="您需要连接网络来解锁内容。" Status="1" English="You need to connect to the network to unlock the content.">Necesita conectarse a la red para desbloquear el contenido.</String>
     <String ID="限时免费内容需要连接网络解锁。" Status="1" English="Limited free content needs the network to unlock.">El contenido gratuito limitado necesita la red para desbloquearse.</String>
-    <String ID="订阅期内您可以免费使用所有元件。" Status="1" English="Enjoy all components during subscription.">Disfrute de todos los componentes durante la suscripción.</String>
+    <String ID="订阅期内您可以免费使用所有元件。" Status="1" English="Enjoy all components during subscription.">Disfrute de todos los componentes en quanto tiene la suscripción.</String>
     <String ID="限时免费内容每周都会更换。" Status="1" English="Limited free content is changed every week.">El contenido gratuito limitado se cambia cada semana.</String>
-    <String ID="客户端版本和服务器不兼容，请升级。" Status="1" English="The client version is not compatible. Please upgrade.">La versión del cliente no es compatible. Actualice.</String>
-    <String ID="验证邮件或短信已经发送，请稍候再试。" Status="1" English="The verification email or SMS has been sent. Try again later.">Se ha enviado el correo electrónico o SMS de verificación. Inténtelo de nuevo más tarde.</String>
+    <String ID="客户端版本和服务器不兼容，请升级。" Status="1" English="The client version is not compatible. Please upgrade.">La versión del cliente no es compatible. Actualiza, por favor.</String>
+    <String ID="验证邮件或短信已经发送，请稍候再试。" Status="1" English="The verification email or SMS has been sent. Try again later.">El correo electrónico o SMS de verificación ha sido enviado. Inténtelo de nuevo más tarde.</String>
     <String ID="您输入的验证码不正确，请重试。" Status="1" English="The verification code is incorrect. Please try again.">El código de verificación es incorrecto. Inténtalo de nuevo.</String>
-    <String ID="您回到了匿名状态，部分功能可能需要绑定帐户。" Status="1" English="Some features may require you to login again.">Algunas funciones pueden requerir que inicie sesión nuevamente.</String>
+    <String ID="您回到了匿名状态，部分功能可能需要绑定帐户。" Status="1" English="Some features may require you to login again.">Algunas funciones pueden requerir que haga su login nuevamente.</String>
     <String ID="您正处于演示版本中，部分功能无法使用！" Status="1" English="Some features are not available in demo version!">¡Algunas funciones no están disponibles en la versión de demostración!</String>
-    <String ID="您输入的密码不正确。" Status="1" English="The password you entered is incorrect.">La contraseña que ha ingresado es incorrecta.</String>
-    <String ID="您输入的登录名或密码不正确。" Status="1" English="The login or password you entered is incorrect.">El nombre de usuario o contraseña que ingresó es incorrecto.</String>
-    <String ID="您的登录已经过期，现在切换为匿名用户。" Status="1" English="Your login has expired and is now switched back to anonymous.">Su inicio de sesión ha expirado y ahora se ha cambiado a anónimo.</String>
+    <String ID="您输入的密码不正确。" Status="1" English="The password you entered is incorrect.">La contraseña que ha escribido es incorrecta.</String>
+    <String ID="您输入的登录名或密码不正确。" Status="1" English="The login or password you entered is incorrect.">El nombre de usuario o contraseña que escrivió es incorrecto.</String>
+    <String ID="您的登录已经过期，现在切换为匿名用户。" Status="1" English="Your login has expired and is now switched back to anonymous.">Su login ha expirado y ahora se ha cambiado a anónimo.</String>
     <String ID="再次按下返回键以退出应用。" Status="1" English="Press the Back button again to exit the app.">Presione el botón Atrás nuevamente para salir de la aplicación.</String>
     <String ID="您的帐户已经和 {0} 绑定！" Status="1" English="Your account is bound to {0}!">¡Su cuenta está vinculada a {0}!</String>
     <String ID="解除了您的帐户和 {0} 的绑定！" Status="1" English="Unbind your account from {0}!">¡Desvincula tu cuenta de {0}!</String>
     <String ID="彩蛋模式" Status="1" English="Easter Egg">Huevo de Pascua</String>
     <String ID="是否进入隐藏的彩蛋模式？" Status="1" English="Would you like to have some easter eggs?">¿Te gustaría tener unos huevos de pascua?</String>
-    <String ID="确认登录" Status="1" English="Confirm login">Confirmar inicio de sesión</String>
-    <String ID="需要注册来保留钻石、积分等。是否继续？" Status="1" English="Registration is required to retain diamonds, etc. Whether to continue?">Se requiere registro para retener diamantes, etc. ¿Continuar?</String>
+    <String ID="确认登录" Status="1" English="Confirm login">Confirmar login</String>
+    <String ID="需要注册来保留钻石、积分等。是否继续？" Status="1" English="Registration is required to retain diamonds, etc. Whether to continue?">Se requiere registro para retener diamantes, etc. ¿Quieres continuar?</String>
     <String ID="目前没有进行中的活动，请明天再试！" Status="1" English="There are no ongoing activities now, please try again tomorrow!">No hay actividades en curso en este momento. Vuelve a intentarlo mañana.</String>
     <String ID="未能验证您的社交网络帐户，请重试。" Status="1" English="Failed to verify your social network ID.">No se pudo verificar su ID de red social.</String>
     <String ID="社交网络帐户已被绑定过了。" Status="1" English="The social identity has been bound to another account.">La identidad social ha estado ligada a otra cuenta.</String>
-    <String ID="您取消了第三方授权操作……" Status="1" English="The third party authorization is canceled.">Se cancela la autorización de terceros.</String>
+    <String ID="您取消了第三方授权操作……" Status="1" English="The third party authorization is canceled.">La autorización de terceros está cancelado.</String>
     <String ID="抱歉，第三方授权遇到问题。" Status="1" English="Sorry, there is a problem with third-party authorization.">Lo sentimos, hay un problema con la autorización de terceros.</String>
-    <String ID="抱歉，您执行的操作已超时！" Status="1" English="Sorry, the executed action has timed out!">Lo sentimos, la acción ejecutada ha expirado.</String>
-    <String ID="地址已被注册过了，请尝试登录。" Status="1" English="The address has already been registered. Please try to log in.">La dirección ya ha sido registrada. Intente iniciar sesión.</String>
-    <String ID="未能找到兼容的第三方社交平台" Status="1" English="Failed to find compatible social platforms">No se pudo encontrar plataformas sociales compatibles</String>
+    <String ID="抱歉，您执行的操作已超时！" Status="1" English="Sorry, the executed action has timed out!">Lo sentimos, ¡la acción ejecutada ha expirado!</String>
+    <String ID="地址已被注册过了，请尝试登录。" Status="1" English="The address has already been registered. Please try to log in.">La dirección ya ha sido registrada. Intente iniciar sesión por favor.</String>
+    <String ID="未能找到兼容的第三方社交平台" Status="1" English="Failed to find compatible social platforms">No se pudo encontrar plataformas sociales compatibles.</String>
     <String ID="成功完成第三方授权！" Status="1" English="Third party authorization completed!">¡Autorización de terceros completada!</String>
     <String ID="点击查看我们的&lt;internal=termofuse&gt;使用条款&lt;/internal&gt;和&lt;internal=privacy&gt;隐私协议&lt;/internal&gt;" Status="1" English="View our &lt;internal=termofuse&gt;Terms of use&lt;/internal&gt; and &lt;internal=privacy&gt;Privacy Agreement&lt;/internal&gt;">Ver nuestro&lt;internal=termofuse&gt; Términos de Uso&lt;/internal&gt; y&lt;internal=privacy&gt; Acuerdo de privacidad&lt;/internal&gt;</String>
     <String ID="待上传的内容不合要求，请重试。" Status="1" English="The content to be uploaded is illegal. Try again.">El contenido que se subirá es ilegal. Inténtalo de nuevo.</String>
-    <String ID="抱歉，暂时未能完成上传……" Status="1" English="Sorry, the upload failed for now...">Lo siento, la carga falló por ahora ...</String>
-    <String ID="成功完成了内容上传！" Status="1" English="Successfully uploaded the content!">¡Subió el contenido con éxito!</String>
+    <String ID="抱歉，暂时未能完成上传……" Status="1" English="Sorry, the upload failed for now...">Lo sentimos, la carga ha fallado por ahora ...</String>
+    <String ID="成功完成了内容上传！" Status="1" English="Successfully uploaded the content!">¡El contenido fue subido con éxito!</String>
     <String ID="随机化世界内容？" Status="1" English="Randomize the world?">¿Aleatorizar el mundo?</String>
     <String ID="确定将使每次加载模型时重置 (Setup) 世界！" Status="1" English="Confirm to reset the world every time when loaded!">Confirme para restablecer el mundo cada vez que se cargue.</String>
     <String ID="更新实验状态？" Status="1" English="Update experiment status?">¿Actualizar el estado del experimento?</String>
     <String ID="确定将覆盖原内容中的实验状态！" Status="1" English="Confirm to overwrite the experiment status in the original content!">Confirme para sobrescribir el estado del experimento en el contenido original.</String>
-    <String ID="演示模式中不可用的功能" Status="1" English="Feature not enabled for this demo">Función no habilitada para esta demostración</String>
+    <String ID="演示模式中不可用的功能" Status="1" English="Feature not enabled for this demo">Función no permitido para esta demostración</String>
     <String ID="1. 商店版本 {0} 以后更新的实验内容。\n2. 本地 / 云端实验和设置的保存功能。\n3. 活动与成就等用户系统有关的功能。\n4. 充值内购、内容解锁等商城相关功能。" Status="1" English="1. The experimental content updated after the store version {0}. \n2. Local/Cloud Experiment and Settings save function. \n3. Activities related to user systems such as achievements. \n4. Recharge the in-app purchase, content unlock and other mall related functions.">1. El contenido experimental actualizado después de la versión de la tienda {0}. \ n2. Función de guardado de configuración y experimento local / en la nube. \ n3. Actividades relacionadas con los sistemas de los usuarios, como los logros. \ n4. Recargue la compra en la aplicación, el desbloqueo de contenido y otras funciones relacionadas con el centro comercial.</String>
-    <String ID="未能找到实验，以下显示离线内容" Status="1" English="No contents found, showing offline contents..">No se encontraron contenidos, se muestran contenidos sin conexión.</String>
-    <String ID="未能查询到符合条件的实验。为您展示离线实验……" Status="1" English="Failed to find eligible experiments. Showing offline selections...">No se pudieron encontrar los experimentos aptos. Mostrando selecciones sin conexión ...</String>
+    <String ID="未能找到实验，以下显示离线内容" Status="1" English="No contents found, showing offline contents..">No se encontraron contenidos, se muestran contenidos offline.</String>
+    <String ID="未能查询到符合条件的实验。为您展示离线实验……" Status="1" English="Failed to find eligible experiments. Showing offline selections...">No se pudieron encontrar los experimentos aptos. Mostrando selecciones offline ...</String>
     <String ID="你没有访问内容的权限。" Status="1" English="You don't have permission for the content.">No tienes permiso para el contenido.</String>
-    <String ID="这项内容不能被评论。" Status="1" English="This content cannot be commented on.">Este contenido no se puede comentar.</String>
+    <String ID="这项内容不能被评论。" Status="1" English="This content cannot be commented on.">No puede comentar en este contenido.</String>
     <String ID="请填写{0}的标题。" Status="1" English="Please fill in the title of the {0}.">Complete el título del {0}.</String>
     <String ID="请填写{0}的介绍内容。" Status="1" English="Please fill out the introduction of the {0}.">Complete la introducción de {0}.</String>
-    <String ID="请选择至少一个标签。" Status="1" English="Please choose at least one tag.">Elija al menos una etiqueta.</String>
-    <String ID="请选择下列标签中的一个：{1}。" Status="1" English="Please choose one of tags: {1}.">Elija una de las etiquetas: {1}.</String>
-    <String ID="请选择正确的分类。" Status="1" English="Please choose the correct category.">Elija la categoría correcta.</String>
-    <String ID="你输入的内容中包含不适宜字句。" Status="1" English="The content you entered contains inappropriate words.">El contenido que ingresó contiene palabras inapropiadas.</String>
+    <String ID="请选择至少一个标签。" Status="1" English="Please choose at least one tag.">Por favor elija al menos una etiqueta.</String>
+    <String ID="请选择下列标签中的一个：{1}。" Status="1" English="Please choose one of tags: {1}.">Por favor elija una de las etiquetas: {1}.</String>
+    <String ID="请选择正确的分类。" Status="1" English="Please choose the correct category.">Por favor elija la categoría correcta.</String>
+    <String ID="你输入的内容中包含不适宜字句。" Status="1" English="The content you entered contains inappropriate words.">El contenido que escriviste contiene palabras inapropiadas.</String>
     <String ID="{0}至少需要包含两个元件。" Status="1" English="{0} must contain at least two components.">{0} debe contener al menos dos componentes.</String>
-    <String ID="成功发布了您的{0}！" Status="1" English="Successfully published your {0}!">¡Publicó correctamente su {0}!</String>
+    <String ID="成功发布了您的{0}！" Status="1" English="Successfully published your {0}!">¡Publicó su {0} con exitó!</String>
     <String ID="删除过程中遇到错误。" Status="1" English="An error was encountered during the deletion.">Se encontró un error durante la eliminación.</String>
     <String ID="删除内容" Status="1" English="Delete content">Eliminar contenido</String>
     <String ID="删除回复" Status="1" English="Delete">Eliminar</String>
-    <String ID="是否确定删除内容？除非您留有本地存档，否则将无法找回！" Status="1" English="Do you want to delete the content? Unless you have a local save, you won&amp;#39;t be able to retrieve it!">¿Quieres eliminar el contenido? A menos que tenga un guardado local, ¡no podrá recuperarlo!</String>
+    <String ID="是否确定删除内容？除非您留有本地存档，否则将无法找回！" Status="1" English="Do you want to delete the content? Unless you have a local save, you won&amp;#39;t be able to retrieve it!">¿Quieres eliminar el contenido? A menos que tengas un guardado local, ¡no podrás recuperarlo!</String>
     <String ID="是否确定删除回复？" Status="1" English="Are you sure to delete the reply?">¿Estás seguro de eliminar la respuesta?</String>
     <String ID="设为封面" Status="1" English="Set as cover">Establecer como portada</String>
     <String ID="成功设置为你的封面作品！" Status="1" English="Successfully set as your profile cover!">¡Establecido correctamente como portada de tu perfil!</String>
     <String ID="即将读取的实验版本比您的客户端更新，可能遇到不兼容问题。是否继续？" Status="1" English="The experiment version is newer than your client and may cause incompatibilities. Whether to continue?">La versión del experimento es más reciente que la de su cliente y puede causar incompatibilidades. ¿Continuar?</String>
-    <String ID="您需要填写昵称来使用特定功能。" Status="1" English="You need to fill in the nickname to use a specific feature.">Debe completar el apodo para usar una función específica.</String>
+    <String ID="您需要填写昵称来使用特定功能。" Status="1" English="You need to fill in the nickname to use a specific feature.">Necesitas completar el apodo para usar una función específica.</String>
     <String ID="编辑 {0}" Status="1" English="Edit {0}">Editar {0}</String>
-    <String ID="您可以竖屏使用输入界面。" Status="1" English="This screen supports portrait mode.">Esta pantalla admite el modo retrato.</String>
-    <String ID="点击这里开始编辑" Status="1" English="Click to start editing">Haga clic para comenzar a editar</String>
-    <String ID="内容区域中有未保存的修改。是否继续？" Status="1" English="There are unsaved changes in the content area. Whether to continue?">Hay cambios sin guardar en el área de contenido. ¿Continuar?</String>
+    <String ID="您可以竖屏使用输入界面。" Status="1" English="This screen supports portrait mode.">Esta pantalla permite el modo retrato.</String>
+    <String ID="点击这里开始编辑" Status="1" English="Click to start editing">Haz clic para comenzar a editar</String>
+    <String ID="内容区域中有未保存的修改。是否继续？" Status="1" English="There are unsaved changes in the content area. Whether to continue?">Hay cambios no guardados en el área de contenido. ¿Continuar?</String>
     <String ID="离开编辑" Status="1" English="Cancel editing">Cancelar la edición</String>
     <String ID="其他希望改进的建议：" Status="1" English="Any other suggestions:">Cualquier otra sugerencia:</String>
     <String ID="作品已经被删除！" Status="1" English="The work has already been deleted!">¡El trabajo ya ha sido eliminado!</String>
-    <String ID="周一" Status="1" English="Monday">lunes</String>
-    <String ID="周二" Status="1" English="Tuesday">martes</String>
-    <String ID="周三" Status="1" English="Wednesday">miércoles</String>
-    <String ID="周四" Status="1" English="Thursday">jueves</String>
-    <String ID="周五" Status="1" English="Friday">viernes</String>
-    <String ID="周六" Status="1" English="Saturday">sábado</String>
-    <String ID="周日" Status="1" English="Sunday">domingo</String>
+    <String ID="周一" Status="1" English="Monday">Lunes</String>
+    <String ID="周二" Status="1" English="Tuesday">Martes</String>
+    <String ID="周三" Status="1" English="Wednesday">Miércoles</String>
+    <String ID="周四" Status="1" English="Thursday">Jueves</String>
+    <String ID="周五" Status="1" English="Friday">Viernes</String>
+    <String ID="周六" Status="1" English="Saturday">Sábado</String>
+    <String ID="周日" Status="1" English="Sunday">Domingo</String>
     <String ID="刚刚" Status="1" English="Just now">Justo ahora</String>
     <String ID="{0} 分钟前" Status="1" English="{0} minutes ago">Hace {0} minutos</String>
     <String ID="{0} 小时前" Status="1" English="{0} hours ago">Hace {0} horas</String>
@@ -203,9 +203,9 @@
     <String ID="关注和粉丝" Status="1" English="Followers">Seguidores</String>
     <String ID="评论和回复" Status="1" English="Comments">Comentarios</String>
     <String ID="系统邮件" Status="1" English="Letters">Letras</String>
-    <String ID="管理记录" Status="1" English="Management">administración</String>
-    <String ID="通知邮件已经过期" Status="1" English="Sorry, the letter has expired.">Lo siento, la carta ha caducado.</String>
-    <String ID="通知邮件已经过期，点击可以清除未读状态……" Status="1" English="Expired letter: click to remove unread status.">Carta vencida: haga clic para eliminar el estado no leído.</String>
+    <String ID="管理记录" Status="1" English="Management">Administración</String>
+    <String ID="通知邮件已经过期" Status="1" English="Sorry, the letter has expired.">Lo sentimos, la carta ha vencido.</String>
+    <String ID="通知邮件已经过期，点击可以清除未读状态……" Status="1" English="Expired letter: click to remove unread status.">Carta vencida: haz clic para eliminar el estado no leído.</String>
     <String ID="你尚未关注该用户……" Status="1" English="You hasn't follow this user.">No has seguido a este usuario.</String>
     <String ID="取消关注了指定用户。" Status="1" English="Unfollowed this user.">Dejó de seguir a este usuario.</String>
     <String ID="你已经关注了该用户！" Status="1" English="You have already followed this user!">¡Ya has seguido a este usuario!</String>
@@ -216,21 +216,21 @@
     <String ID="请升级到最新版本以继续……" Status="1" English="Upgrade to the latest version to continue...">Actualice a la última versión para continuar ...</String>
     <String ID="展现尺度已实时调整为 {0}！" Status="1" English="The display scale has been adjusted to {0}!">¡La escala de visualización se ha ajustado a {0}!</String>
     <String ID="您的奖励物品已成功兑换！" Status="1" English="Your code has been successfully redeemed!">¡Tu código ha sido canjeado con éxito!</String>
-    <String ID="您输入的兑换码不存在或已被使用！" Status="1" English="The code you entered does not exist or has been used!">El código que ingresó no existe o se ha utilizado.</String>
-    <String ID="接收到不兼容的数据，请升级应用版本。" Status="1" English="Incompatible data received, please upgrade the app.">Se recibieron datos incompatibles, actualice la aplicación.</String>
-    <String ID="感谢您的支持！我们会做得更好……" Status="1" English="Thanks for your support! We will do better...">¡Gracias por su apoyo! Lo haremos mejor ...</String>
+    <String ID="您输入的兑换码不存在或已被使用！" Status="1" English="The code you entered does not exist or has been used!">El código que entraste no existe o se ha utilizado.</String>
+    <String ID="接收到不兼容的数据，请升级应用版本。" Status="1" English="Incompatible data received, please upgrade the app.">Datos incompatibles fueron recibidos, actualice la aplicación.</String>
+    <String ID="感谢您的支持！我们会做得更好……" Status="1" English="Thanks for your support! We will do better...">¡Gracias por su apoyo! Nosotros lo haremos mejor ...</String>
     <String ID="感谢您的支持。奖励已经发送到您的帐户！" Status="1" English="Thanks for your support. The reward has been sent!">Gracias por su apoyo. ¡La recompensa ha sido enviada!</String>
-    <String ID="点击输入你的答案……" Status="1" English="Enter your answer...">Ingrese su respuesta ...</String>
-    <String ID="请输入您的答复内容……" Status="1" English="Please enter your reply...">Por favor ingrese su respuesta ...</String>
+    <String ID="点击输入你的答案……" Status="1" English="Enter your answer...">Escribe su respuesta ...</String>
+    <String ID="请输入您的答复内容……" Status="1" English="Please enter your reply...">Por favor escribe su respuesta ...</String>
     <String ID="请至少从选项中选择一项……" Status="1" English="Please select at least one option...">Seleccione al menos una opción ...</String>
-    <String ID="关于应用" Status="1" English="About the App">Acerca de la aplicación</String>
+    <String ID="关于应用" Status="1" English="About the App">Sobre la aplicación</String>
     <String ID="请将每个选项排好顺序……" Status="1" English="Please arrange each option in order...">Organice cada opción en orden ...</String>
     <String ID="已将序号复制到剪贴板！" Status="1" English="The ID has been copied to the clipboard!">¡La identificación se ha copiado en el portapapeles!</String>
     <String ID="请将下列所有选项排序：" Status="1" English="Please sort the following options:">Ordene las siguientes opciones:</String>
     <String ID="您无法在被封禁的状态下退出登录。" Status="1" English="You cannot log out while banned.">No puede cerrar sesión mientras está prohibido.</String>
     <String ID="您无法在匿名状态下退出登录。" Status="1" English="You cannot log out anonymously.">No puede cerrar la sesión de forma anónima.</String>
-    <String ID="教程完成后才能开始发布实验。" Status="1" English="Once the tutorial is completed, you may publish experiments to the community.">Una vez que se complete el tutorial, puede publicar experimentos en la comunidad.</String>
-    <String ID="可能需要继续或重启实验以应用你的设置。" Status="1" English="You may need to continue or restart the experiment to apply the settings.">Es posible que deba continuar o reiniciar el experimento para aplicar la configuración.</String>
+    <String ID="教程完成后才能开始发布实验。" Status="1" English="Once the tutorial is completed, you may publish experiments to the community.">Cuando el tutorial ya ha sido completado, puede publicar experimentos en la comunidad.</String>
+    <String ID="可能需要继续或重启实验以应用你的设置。" Status="1" English="You may need to continue or restart the experiment to apply the settings.">Es posible que necesitas continuar o reiniciar el experimento para aplicar la configuración.</String>
   </Messages>
   <Regions>
     <String ID="中国区" Status="1" English="China">China</String>
@@ -252,27 +252,27 @@
   <Hierarchies>
     <String ID="认证管理员" Status="1" English="Administrator">Administrador</String>
     <String ID="认证教师" Status="1" English="Teacher">Profesor</String>
-    <String ID="认证编辑" Status="1" English="Editorial Board">Consejo editorial</String>
-    <String ID="见习编辑" Status="1" English="Junior Editor">Editor junior</String>
+    <String ID="认证编辑" Status="1" English="Editorial Board">Consejo Editorial</String>
+    <String ID="见习编辑" Status="1" English="Junior Editor">Editor Junior</String>
     <String ID="编辑和管理员" Status="1" English="Editors">Editores</String>
     <String ID="志愿者" Status="1" English="Volunteer">Voluntario</String>
     <String ID="已被封禁" Status="1" English="Banned">Prohibido</String>
     <String ID="封禁" Status="1" English="Ban">Prohibición</String>
-    <String ID="解封" Status="1" English="Unban">Una moneda de diez centavos</String>
+    <String ID="解封" Status="1" English="Unban">Levantar la prohibición</String>
     <String ID="封禁用户" Status="1" English="Ban user">Prohibir usuario</String>
-    <String ID="解封用户" Status="1" English="Unban user">Desbancar usuario</String>
+    <String ID="解封用户" Status="1" English="Unban user">Levantar la prohibición del usuario</String>
     <String ID="任命见习编辑" Status="1" English="Appoint junior editor">Nombrar editor junior</String>
     <String ID="解除见习编辑" Status="1" English="Dismissed junior editor">Editor junior despedido</String>
     <String ID="任命志愿者" Status="1" English="Appoint volunteer">Nombrar voluntario</String>
     <String ID="解除志愿者" Status="1" English="Dismiss volunteer">Despedir voluntario</String>
-    <String ID="请慎重考虑任命和解除的决定！你需要提供合理的理由。" Status="1" English="Please carefully consider the appointment and dismissal decision! You need to provide a reasonable reason.">¡Considere cuidadosamente la decisión de nombramiento y despido! Debe proporcionar una razón razonable.</String>
-    <String ID="请输入任命或解除理由" Status="1" English="Please enter a reason for appointment or dismissal">Ingrese el motivo de la cita o el despido</String>
-    <String ID="请重新为作品选择标签并提交！" Status="1" English="Please select new tags for the work and submit!">¡Seleccione nuevas etiquetas para el trabajo y envíelo!</String>
-    <String ID="作为见习编辑，你可以将实验归入正确的标签。" Status="1" English="As a junior editor, you can group experiments into correct tags.">Como editor junior, puede agrupar experimentos en etiquetas correctas.</String>
-    <String ID="作为认证编辑，你可以编辑实验内容，但最好征求对方的同意。" Status="1" English="As an editor, you can edit the content, but it is best to ask the author&amp;#39;s consent.">Como editor, puede editar el contenido, pero es mejor pedir el consentimiento del autor.</String>
+    <String ID="请慎重考虑任命和解除的决定！你需要提供合理的理由。" Status="1" English="Please carefully consider the appointment and dismissal decision! You need to provide a reasonable reason.">¡Considere cuidadosamente la decisión de nombramiento y despido! Necesita proporcionar una razón razonable.</String>
+    <String ID="请输入任命或解除理由" Status="1" English="Please enter a reason for appointment or dismissal">Por favor escribe el motivo de la cita o el despido</String>
+    <String ID="请重新为作品选择标签并提交！" Status="1" English="Please select new tags for the work and submit!">¡Por favor Seleccione nuevas etiquetas para el trabajo y envíelo!</String>
+    <String ID="作为见习编辑，你可以将实验归入正确的标签。" Status="1" English="As a junior editor, you can group experiments into correct tags.">Como editor junior, puedes agrupar experimentos en etiquetas correctas.</String>
+    <String ID="作为认证编辑，你可以编辑实验内容，但最好征求对方的同意。" Status="1" English="As an editor, you can edit the content, but it is best to ask the author&amp;#39;s consent.">Como editor, puedes editar el contenido, pero es mejor pedir el consentimiento del autor.</String>
     <String ID="作为管理员，你可以编辑任何内容，但最好征求对方的同意。" Status="1" English="As an administrator, you can edit anything, but it&amp;#39;s best to ask for their consent.">Como administrador, puede editar cualquier cosa, pero es mejor pedir su consentimiento.</String>
     <String ID="确定要进行管理操作吗？" Status="1" English="Do you really want to do it?">¿De verdad quieres hacerlo?</String>
-    <String ID="是否使用管理权限隐藏内容？只有在违反法律法规或不合适内容时可以这样做！" Status="1" English="Are you going to hide this content? Only when it violates our guidelines!">¿Vas a ocultar este contenido? ¡Solo cuando viole nuestras pautas!</String>
+    <String ID="是否使用管理权限隐藏内容？只有在违反法律法规或不合适内容时可以这样做！" Status="1" English="Are you going to hide this content? Only when it violates our guidelines!">¿Vas a esconder este contenido? ¡Solo cuando viole nuestras pautas!</String>
     <String ID="是否确认要封禁 {0}？你需要提供合理的理由。" Status="1" English="Do you want to ban {0}? A reason is needed.">¿Quieres prohibir {0}? Se necesita una razón.</String>
     <String ID="请输入封禁理由" Status="1" English="The reason for the ban">El motivo de la prohibición</String>
     <String ID="请输入封禁天数 (1-{0})" Status="1" English="The days of ban (1-{0})">Los días de la prohibición (1- {0})</String>
@@ -286,56 +286,56 @@
   </Hierarchies>
   <AugmentedReality>
     <String ID="您可以拖动陀螺仪来调整视角。" Status="1" English="Drag the gyroscope to adjust the angle of view.">Arrastre el giroscopio para ajustar el ángulo de visión.</String>
-    <String ID="AR 体验已被中断。" Status="1" English="AR has been interrupted.">AR ha sido interrumpido.</String>
+    <String ID="AR 体验已被中断。" Status="1" English="AR has been interrupted.">RA ha sido interrumpido.</String>
     <String ID="正在重新定位环境。" Status="1" English="Repositioning the environment.">Reposicionando el ambiente.</String>
     <String ID="避免过快移动设备。" Status="1" English="Try moving your phone slower.">Intente mover su teléfono más lento.</String>
-    <String ID="试着多打开几盏灯。" Status="1" English="Try turning on more lights.">Intente encender más luces.</String>
+    <String ID="试着多打开几盏灯。" Status="1" English="Try turning on more lights.">Intente prender más luces.</String>
     <String ID="变换角度可以加速定位。" Status="1" English="Moving around to speed up positioning.">Moverse para acelerar el posicionamiento.</String>
     <String ID="扫描地面，放置你的传送门。" Status="1" English="Scan the ground and place your portal.">Escanea el suelo y coloca tu portal.</String>
     <String ID="扫描桌面，放置你的 AR 实验。" Status="1" English="Scan the desktop and place your AR experiments.">Escanee el escritorio y coloque sus experimentos de RA.</String>
     <String ID="扫描课本，让实验跃然纸上。" Status="1" English="Scan the textbook and see the experiment.">Escanee el libro de texto y vea el experimento.</String>
     <String ID="举起你的设备向前平视。" Status="1" English="Try to look forward now.">Trate de mirar hacia adelante ahora.</String>
-    <String ID="点击或长按屏幕可以发射天体。" Status="1" English="Click on the screen to launch the celestial body.">Haga clic en la pantalla para lanzar el cuerpo celeste.</String>
-    <String ID="天体传送门" Status="1" English="Celestial Portal">Portal celestial</String>
+    <String ID="点击或长按屏幕可以发射天体。" Status="1" English="Click on the screen to launch the celestial body.">Haz clic en la pantalla para lanzar el cuerpo celeste.</String>
+    <String ID="天体传送门" Status="1" English="Celestial Portal">Portal Celestial</String>
     <String ID="保持你的摄像头水平向前" Status="1" English="Keep your camera forward">Mantén tu cámara hacia adelante</String>
     <String ID="你身边的星空" Status="1" English="Sky around you">Cielo a tu alrededor</String>
     <String ID="桌上实验" Status="1" English="Desktop Experiment">Experimento de escritorio</String>
     <String ID="将摄像头对准纹理丰富的桌面" Status="1" English="Point the camera at a textured desktop">Apunta la cámara a un escritorio texturizado</String>
-    <String ID="四周移动，寻找适合的地面" Status="1" English="Move around to find the right ground">Muévete para encontrar el terreno adecuado</String>
-    <String ID="实验室传送门" Status="1" English="Laboratory Portal">Portal de laboratorio</String>
-    <String ID="扫描课本" Status="1" English="Textbook Scanner">Escáner de libros de texto</String>
+    <String ID="四周移动，寻找适合的地面" Status="1" English="Move around to find the right ground">Muévese para encontrar el terreno adecuado</String>
+    <String ID="实验室传送门" Status="1" English="Laboratory Portal">Portal de Laboratorio</String>
+    <String ID="扫描课本" Status="1" English="Textbook Scanner">Escáner de Libros de Texto</String>
     <String ID="目前仅支持特定版本的课本" Status="1" English="Only support specific textbooks">Solo admite libros de texto específicos</String>
     <String ID="可以将实验器材拖动到现实中了！" Status="1" English="Drag components into the real world now!">¡Arrastre componentes al mundo real ahora!</String>
-    <String ID="结束发射" Status="1" English="Return back">Devolver</String>
+    <String ID="结束发射" Status="1" English="Return back">Regresar</String>
     <String ID="现实轨道" Status="1" English="Realistic orbit">Órbita realista</String>
     <String ID="开始扫描" Status="1" English="Starting">Comenzando</String>
     <String ID="状态受限" Status="1" English="Limited">Limitado</String>
     <String ID="体验良好" Status="1" English="Good">Bueno</String>
     <String ID="难以识别" Status="1" English="Difficult">Difícil</String>
-    <String ID="您的设备不支持 AR 体验……" Status="1" English="Your device does not support AR experience...">Su dispositivo no es compatible con la experiencia AR ...</String>
-    <String ID="您的 EMUI 版本不支持 AR 体验……" Status="1" English="Your EMUI does not support AR experience...">Su EMUI no es compatible con la experiencia AR ...</String>
-    <String ID="您未选择安装 AR 引擎，请重启应用再试。" Status="1" English="You declined to install AR engine. Please restart the app and try again.">Rechazó instalar el motor AR. Reinicie la aplicación y vuelva a intentarlo.</String>
-    <String ID="您未提供 AR 需要的相机授权！" Status="1" English="You have not provided the camera permission!">¡No ha proporcionado el permiso de la cámara!</String>
-    <String ID="您的设备不支持进阶 AR 模式！" Status="1" English="Your device does not support advanced AR mode!">¡Su dispositivo no es compatible con el modo AR avanzado!</String>
+    <String ID="您的设备不支持 AR 体验……" Status="1" English="Your device does not support AR experience...">Su aparato no es compatible con la experiencia RA ...</String>
+    <String ID="您的 EMUI 版本不支持 AR 体验……" Status="1" English="Your EMUI does not support AR experience...">Su EMUI no es compatible con la experiencia RA ...</String>
+    <String ID="您未选择安装 AR 引擎，请重启应用再试。" Status="1" English="You declined to install AR engine. Please restart the app and try again.">Rechazó instalar el motor RA. Reinicie la aplicación y vuelva a intentarlo.</String>
+    <String ID="您未提供 AR 需要的相机授权！" Status="1" English="You have not provided the camera permission!">¡No has proporcionado el permiso de la cámara!</String>
+    <String ID="您的设备不支持进阶 AR 模式！" Status="1" English="Your device does not support advanced AR mode!">¡Su aparato no es compatible con el modo RA avanzado!</String>
   </AugmentedReality>
   <Preferences>
-    <String ID="应用设置" Status="1" English="App Settings">Ajustes de Aplicacion</String>
+    <String ID="应用设置" Status="1" English="App Settings">Configuración de Aplicacion</String>
     <String ID="通用设置" Status="1" English="General Settings">Configuración general</String>
-    <String ID="显示通知数量" Status="1" English="Badge Number">Numero de placa</String>
+    <String ID="显示通知数量" Status="1" English="Badge Number">Numero de Placa</String>
     <String ID="画面抗锯齿" Status="1" English="Antialiasing">Antialiasing</String>
-    <String ID="隐私设置" Status="1" English="Privacy Setting">Configuración de privacidad</String>
-    <String ID="高光效果" Status="1" English="Bloom Effect">Efecto resplandor</String>
-    <String ID="高帧率模式" Status="1" English="High Framerate">Cuadros por segundo elevado</String>
-    <String ID="图形设置" Status="1" English="Graphic Settings">Configuración gráfica</String>
-    <String ID="推送通知" Status="1" English="Push Notifications">Notificaciones push</String>
-    <String ID="推送频率" Status="1" English="Push Frequency">Frecuencia de empuje</String>
-    <String ID="实时阴影" Status="1" English="Real-time Shadows">Sombras en tiempo real</String>
-    <String ID="边缘虚化" Status="1" English="Vignette Effect">Efecto viñeta</String>
+    <String ID="隐私设置" Status="1" English="Privacy Setting">Configuración de Privacidad</String>
+    <String ID="高光效果" Status="1" English="Bloom Effect">Efecto Resplandor</String>
+    <String ID="高帧率模式" Status="1" English="High Framerate">Cuadros por Segundo Elevado</String>
+    <String ID="图形设置" Status="1" English="Graphic Settings">Configuración Fráfica</String>
+    <String ID="推送通知" Status="1" English="Push Notifications">Notificaciones Push</String>
+    <String ID="推送频率" Status="1" English="Push Frequency">Frecuencia de Empuje</String>
+    <String ID="实时阴影" Status="1" English="Real-time Shadows">Sombras en Tiempo Real</String>
+    <String ID="边缘虚化" Status="1" English="Vignette Effect">Efecto Viñeta</String>
     <String ID="模拟精度" Status="1" English="Accuracy">Exactitud</String>
-    <String ID="背景音乐" Status="1" English="Background Music">Música de fondo</String>
+    <String ID="背景音乐" Status="1" English="Background Music">Música de Fondo</String>
     <String ID="实验亮度" Status="1" English="Brightness">Brillo</String>
     <String ID="自动保存" Status="1" English="Autosave">Autoguardado</String>
-    <String ID="动态缩放" Status="1" English="Dynamic Zoom">Zoom dinámico</String>
+    <String ID="动态缩放" Status="1" English="Dynamic Zoom">Zoom Dinámico</String>
     <String ID="低" Status="1" English="Low">Bajo</String>
     <String ID="中" Status="1" English="Medium">Medio</String>
     <String ID="高" Status="1" English="High">Alto</String>
@@ -347,16 +347,16 @@
     <String ID="发表评论 {1}/{0}" Status="1" English="Post comments {1}/{0}">Publicar comentarios {1} / {0}</String>
     <String ID="点赞实验 {1}/{0}" Status="1" English="Star {1}/{0}">Estrella {1} / {0}</String>
     <String ID="发布实验 {1}/{0}" Status="1" English="Publish {1}/{0}">Publicar {1} / {0}</String>
-    <String ID="破坏元件 {1}/{0}" Status="1" English="Destroy {1}/{0}">Destruye {1} / {0}</String>
+    <String ID="破坏元件 {1}/{0}" Status="1" English="Destroy {1}/{0}">Destruir {1} / {0}</String>
     <String ID="充值钻石 {2}" Status="1" English="Buy diamonds {2}">Compre diamantes {2}</String>
     <String ID="访问链接" Status="1" English="Access Link">Enlace de acceso</String>
     <String ID="注册帐号" Status="1" English="Register">Registrarse</String>
   </Activities>
   <Users>
     <String ID="匿名用户" Status="1" English="Anonymous User">Usuario anónimo</String>
-    <String ID="点击登录" Status="1" English="Click to Login">Haga clic para iniciar sesión</String>
+    <String ID="点击登录" Status="1" English="Click to Login">Haz clic para iniciar sesión</String>
     <String ID="点击修改昵称" Status="1" English="Click to edit">Haz click para editar</String>
-    <String ID="请输入你的昵称" Status="1" English="Please enter your nickname">Introduzca su apodo</String>
+    <String ID="请输入你的昵称" Status="1" English="Please enter your nickname">Escribe su apodo</String>
     <String ID="请输入你的签名" Status="1" English="Please enter your signature">Por favor ingrese su firma</String>
     <String ID="长度介于 2 到 10 汉字之间" Status="1" English="Between 2 and 10 characters">Entre 2 y 10 caracteres</String>
     <String ID="长度不超过 20 字符" Status="1" English="No more than 20 characters">No más de 20 caracteres</String>
@@ -366,11 +366,11 @@
     <String ID="请选择待上传的{0}" Status="1" English="Please select {0} to be uploaded">Seleccione {0} para cargar</String>
     <String ID="登录名" Status="1" English="Login">Iniciar sesión</String>
     <String ID="暂无认证信息" Status="1" English="Not verified">No verificado</String>
-    <String ID="去认证" Status="1" English="Verify Now">verifica ahora</String>
+    <String ID="去认证" Status="1" English="Verify Now">Verifica Ahora</String>
     <String ID="密码" Status="1" English="Password">Contraseña</String>
     <String ID="邮箱" Status="1" English="Email">Correo electrónico</String>
     <String ID="手机" Status="1" English="Mobile">Móvil</String>
-    <String ID="中国大陆" Status="1" English="Mainland China">China continental</String>
+    <String ID="中国大陆" Status="1" English="Mainland China">China Continental</String>
     <String ID="密码 6~20 位" Status="1" English="Password 6~20 digits">Contraseña 6 ~ 20 dígitos</String>
     <String ID="安全中心" Status="1" English="Security">Seguridad</String>
     <String ID="用户角色" Status="1" English="Role">Papel</String>
@@ -378,12 +378,12 @@
     <String ID="个性签名" Status="1" English="Signature">Firma</String>
     <String ID="个人资料" Status="1" English="Profile">Perfil</String>
     <String ID="等级提升" Status="1" English="Level Up!">¡Elevar a mismo nivel!</String>
-    <String ID="未绑定" Status="1" English="Unbound">Sin consolidar</String>
+    <String ID="未绑定" Status="1" English="Unbound">Suelto</String>
     <String ID="已绑定" Status="1" English="Bound">Ligado</String>
-    <String ID="关联登录" Status="1" English="Associated Login">Inicio de sesión asociado</String>
+    <String ID="关联登录" Status="1" English="Associated Login">Login asociado</String>
     <String ID="绑定手机" Status="1" English="Bind phone">Vincular teléfono</String>
     <String ID="登出帐号" Status="1" English="Log out ">Cerrar sesión</String>
-    <String ID="绑定邮箱" Status="1" English="Bind email">Enlazar correo electrónico</String>
+    <String ID="绑定邮箱" Status="1" English="Bind email">Vincular correo electrónico</String>
     <String ID="登录密码" Status="1" English="Password">Contraseña</String>
     <String ID="尚未设置签名" Status="1" English="No signature">Sin firma</String>
     <String ID="选择教育程度" Status="1" English="Choose Education Level">Elija el nivel de educación</String>
@@ -391,16 +391,16 @@
     <String ID="初中" Status="1" English="Junior high school">Secundaria</String>
     <String ID="高中" Status="1" English="Senior high school">Escuela secundaria superior</String>
     <String ID="大学或以上" Status="1" English="Academic">Académico</String>
-    <String ID="选择用户角色" Status="1" English="Choose Role">Elegir rol</String>
+    <String ID="选择用户角色" Status="1" English="Choose Role">Elegir papel</String>
     <String ID="选择目标语言" Status="1" English="Select language">Seleccione el idioma</String>
     <String ID="学校教师" Status="1" English="Teacher">Profesor</String>
     <String ID="在校学生" Status="1" English="Student">Estudiante</String>
     <String ID="学生家长" Status="1" English="Parents">Padres</String>
     <String ID="爱好者" Status="1" English="Enthusiast">Entusiasta</String>
     <String ID="绑定登录" Status="1" English="Bind Login">Vincular inicio de sesión</String>
-    <String ID="修改密码" Status="1" English="Change Password">Cambia la contraseña</String>
+    <String ID="修改密码" Status="1" English="Change Password">Cambiar la contraseña</String>
     <String ID="旧密码" Status="1" English="Old password">Contraseña anterior</String>
-    <String ID="新密码" Status="1" English="New password">Nueva contraseña</String>
+    <String ID="新密码" Status="1" English="New password">Contraseña nueva</String>
     <String ID="重置密码" Status="1" English="Reset Password">Restablecer la contraseña</String>
     <String ID="验证码" Status="1" English="Verification">Verificación</String>
     <String ID="您收到的验证码" Status="1" English="Verification">Verificación</String>
@@ -412,7 +412,7 @@
     <String ID="好友列表" Status="1" English="Friends">Amigos</String>
     <String ID="我的粉丝" Status="1" English="Followers">Seguidores</String>
     <String ID="搜索好友" Status="1" English="Search friends">Buscar amigos</String>
-    <String ID="请输入好友昵称" Status="1" English="Please enter the friend&amp;#39;s nickname">Ingrese el apodo del amigo</String>
+    <String ID="请输入好友昵称" Status="1" English="Please enter the friend&amp;#39;s nickname">Escribe el apodo del amigo</String>
     <String ID="我的关注" Status="1" English="Following">Siguiendo</String>
     <String ID="留言" Status="1" English="Messages">Mensajes</String>
     <String ID="给我留言" Status="1" English="Leave a message">Deja un mensaje</String>
@@ -424,31 +424,31 @@
     <String ID="{0} 的关注" Status="1" English="{0}'s following">{0} sigue</String>
     <String ID="{0} 的留言板" Status="1" English="{0}'s messages">Mensajes de {0}</String>
     <String ID="下一题" Status="1" English="Next question">Próxima pregunta</String>
-    <String ID="其他（点击输入）" Status="1" English="Other (Click to enter)">Otro (haga clic para entrar)</String>
+    <String ID="其他（点击输入）" Status="1" English="Other (Click to enter)">Otro (Haz clic para entrar)</String>
     <String ID="领取奖励" Status="1" English="Receive award">Recibir premio</String>
-    <String ID="微信登录" Status="1" English="WeChat login">Inicio de sesión en WeChat</String>
-    <String ID="QQ 登录" Status="1" English="QQ login">Inicio de sesión QQ</String>
-    <String ID="Facebook 登录" Status="1" English="Facebook login">Iniciar sesión en Facebook</String>
-    <String ID="Google 登录" Status="1" English="Google login">Inicio de sesión de Google</String>
+    <String ID="微信登录" Status="1" English="WeChat login">Login de WeChat</String>
+    <String ID="QQ 登录" Status="1" English="QQ login">Login de QQ</String>
+    <String ID="Facebook 登录" Status="1" English="Facebook login">Login de Facebook</String>
+    <String ID="Google 登录" Status="1" English="Google login">Login de Google</String>
     <String ID="或连接社交帐号" Status="1" English="Or sign-in with">O inicia sesión con</String>
   </Users>
   <Markets>
     <String ID="特惠" Status="1" English="Offer">Oferta</String>
-    <String ID="体验" Status="1" English="Trial">Juicio</String>
+    <String ID="体验" Status="1" English="Trial">Prueba</String>
     <String ID="体验 {0} 天" Status="1" English="{0} days trial">Prueba de {0} días</String>
-    <String ID="已拥有" Status="1" English="Already owned">Ya tiene dueño</String>
+    <String ID="已拥有" Status="1" English="Already owned">Ya eres dueño de esto</String>
     <String ID="永久购买" Status="1" English="Purchase">Compra</String>
-    <String ID="钻石充值" Status="1" English="Diamond recharge">Recarga de diamantes</String>
-    <String ID="尚未拥有" Status="1" English="Not yet owned">Aún no es propiedad</String>
+    <String ID="钻石充值" Status="1" English="Diamond recharge">Recargar los diamantes</String>
+    <String ID="尚未拥有" Status="1" English="Not yet owned">No eres dueño de esto </String>
     <String ID="订阅" Status="1" English="Subscription">Suscripción</String>
     <String ID="订阅状态" Status="1" English="Subscription">Suscripción</String>
-    <String ID="购买订阅" Status="1" English="Purchase subscription">Suscripción de compra</String>
+    <String ID="购买订阅" Status="1" English="Purchase subscription">Comprar suscripción</String>
     <String ID="有效期至 {0}" Status="1" English="Until {0}">Hasta {0}</String>
-    <String ID="兑换永久内容" Status="1" English="Redeem Permanent Content">Canjear contenido permanente</String>
+    <String ID="兑换永久内容" Status="1" English="Redeem Permanent Content">Canjear Contenido Permanente</String>
     <String ID="畅享付费元件特权" Status="1" English="Enjoy all paid components">Disfrute de todos los componentes pagos</String>
     <String ID="成功兑换了永久内容 {0}！" Status="1" English="Successfully redeemed permanent content {0}!">Contenido permanente {0} canjeado con éxito.</String>
     <String ID="兑换礼品码" Status="1" English="Redeem gift">Canjear regalo</String>
-    <String ID="请输入您得到的礼品码：" Status="1" English="Please enter the gift code:">Introduzca el código de regalo:</String>
+    <String ID="请输入您得到的礼品码：" Status="1" English="Please enter the gift code:">Escribe el código de regalo:</String>
     <String ID="目前没有可供兑换的元件，请稍候再试。" Status="1" English="No components are available for redemption. Please try again later.">No hay componentes disponibles para canje. Por favor, inténtelo de nuevo más tarde.</String>
     <String ID="免费体验将在 {0} 过期。" Status="1" English="The trial period will expire on {0}.">El período de prueba vencerá el {0}.</String>
     <String ID="您拥有的 {0} 数量不足。" Status="1" English="You have not enough {0}.">No tienes suficiente {0}.</String>
@@ -456,58 +456,58 @@
     <String ID="未找到价格信息，请确保您的网络连接正常。" Status="1" English="No price information found, make sure your network is working.">No se encontró información de precios, asegúrese de que su red esté funcionando.</String>
     <String ID="未能成功连接到应用商店，请检查您的网络……" Status="1" English="Unable to connect to the app store, please check your network...">No se puede conectar a la tienda de aplicaciones, verifique su red ...</String>
     <String ID="正在处理您的上一次购买请求，请勿取消操作！" Status="1" English="Processing your last purchase. Do not cancel the operation!">Procesando su última compra. ¡No cancele la operación!</String>
-    <String ID="您的设备上未启用应用内购功能！" Status="1" English="In-app purchases are not enabled on your device!">¡Las compras en la aplicación no están habilitadas en su dispositivo!</String>
+    <String ID="您的设备上未启用应用内购功能！" Status="1" English="In-app purchases are not enabled on your device!">¡Las compras dentro la aplicación no están permitidos en su aparato!</String>
     <String ID="您主动取消了本次充值！" Status="1" English="You have cancelled this recharge!">¡Has cancelado esta recarga!</String>
     <String ID="正在等待您的家长同意本次付费……" Status="1" English="Waiting for your parents to agree...">Esperando a que tus padres estén de acuerdo ...</String>
-    <String ID="成功为您恢复内购订单！" Status="1" English="Successfully restored your purchase order for you!">¡Restableció con éxito su orden de compra!</String>
-    <String ID="正在验证您的付费订单……" Status="1" English="Verifying your paid order...">Verificando su pedido pagado ...</String>
-    <String ID="您提交的购买标识符不合法，请重试……" Status="1" English="The receipt you submitted is not valid. Please try again...">El recibo que envió no es válido. Inténtalo de nuevo...</String>
-    <String ID="您的设备未被允许发起充值。" Status="1" English="Your device is not allowed to initiate a recharge.">Su dispositivo no puede iniciar una recarga.</String>
+    <String ID="成功为您恢复内购订单！" Status="1" English="Successfully restored your purchase order for you!">¡Su orden de compra ha sido restablecido!</String>
+    <String ID="正在验证您的付费订单……" Status="1" English="Verifying your paid order...">Verificando su ordén pagado ...</String>
+    <String ID="您提交的购买标识符不合法，请重试……" Status="1" English="The receipt you submitted is not valid. Please try again...">El recibo que enviaste no es válido. Inténtalo de nuevo...</String>
+    <String ID="您的设备未被允许发起充值。" Status="1" English="Your device is not allowed to initiate a recharge.">Su aparato no puede iniciar una recarga.</String>
     <String ID="充值项目在您所在的区域不可用。" Status="1" English="Recharge items are not available in your region.">Los artículos de recarga no están disponibles en su región.</String>
     <String ID="没有找到可供恢复的内购订单。" Status="1" English="No purchase orders have been found for recovery.">No se han encontrado órdenes de compra para recuperar.</String>
     <String ID="正在等待商城服务准备就绪，请稍候……" Status="1" English="Waiting for the store service to be ready, please wait...">Esperando que el servicio de la tienda esté listo, espere ...</String>
-    <String ID="成功完成了您的充值订单！" Status="1" English="Successfully completed your recharge order!">¡Completó con éxito su pedido de recarga!</String>
+    <String ID="成功完成了您的充值订单！" Status="1" English="Successfully completed your recharge order!">¡Su pedido de recarga fue completado con exitó!</String>
     <String ID="将在应用重启后尝试恢复您的充值订单。" Status="1" English="Your recharge order will be restored after the app restarts.">Su orden de recarga se restaurará después de que se reinicie la aplicación.</String>
     <String ID="未能验证您的内购订单，请与我们联系。" Status="1" English="Failed to verify your purchase order, please contact us.">No se pudo verificar su orden de compra, por favor contáctenos.</String>
-    <String ID="我们建议您注册或登录后进行内购。" Status="1" English="We recommend that you log-in or register first.">Le recomendamos que inicie sesión o se registre primero.</String>
+    <String ID="我们建议您注册或登录后进行内购。" Status="1" English="We recommend that you log-in or register first.">Le recomendamos que haga su login o se registre primero.</String>
     <String ID="正在为您准备商店界面，请稍候……" Status="1" English="Preparing the store interface for you...">Preparando la interfaz de la tienda para usted ...</String>
-    <String ID="您确定要在未绑定登录方式的情况下购买订阅吗？" Status="1" English="Do you want to purchase a subscription without a login binded?">¿Quieres comprar una suscripción sin un inicio de sesión vinculado?</String>
+    <String ID="您确定要在未绑定登录方式的情况下购买订阅吗？" Status="1" English="Do you want to purchase a subscription without a login binded?">¿Quieres comprar una suscripción sin un login vinculado?</String>
     <String ID="和 App Store 服务器的连接失败。是否再试一次？" Status="1" English="Failed to connect to the App Store. Try again?">No se pudo conectar a la App Store. ¿Inténtalo de nuevo?</String>
     <String ID="问卷还没有完成，现在离开将无法得到奖励！" Status="1" English="Please finish the questionnaire in order to get the reward!">¡Complete el cuestionario para obtener la recompensa!</String>
-    <String ID="离开问卷" Status="1" English="Leave the questionnaire">Deja el cuestionario</String>
+    <String ID="离开问卷" Status="1" English="Leave the questionnaire">Salir el cuestionario</String>
   </Markets>
   <Forums>
-    <String ID="我的实验" Status="1" English="My Experiment">Mi experimento</String>
-    <String ID="我收藏的{0}" Status="1" English="My Favorite {0}">Mi favorito {0}</String>
+    <String ID="我的实验" Status="1" English="My Experiment">Mi Experimento</String>
+    <String ID="我收藏的{0}" Status="1" English="My Favorite {0}">Mi Favorito {0}</String>
     <String ID="我发布的{0}" Status="1" English="My {0}">Mi {0}</String>
-    <String ID="我支持的{0}" Status="1" English="Supported {0}">{0} admitido</String>
-    <String ID="本地实验" Status="1" English="Local Experiment">Experimento local</String>
-    <String ID="搜索作品" Status="1" English="Search Works">Buscar obras</String>
-    <String ID="最新实验" Status="1" English="Latest Experiment">Experimento más reciente</String>
-    <String ID="热门实验" Status="1" English="Popular Experiment">Experimento popular</String>
-    <String ID="精选实验" Status="1" English="Editor's Choice">Selección del editor</String>
-    <String ID="黑洞精选" Status="1" English="Featured Discussion">Discusión destacada</String>
-    <String ID="最新讨论" Status="1" English="Latest Discussion">Última discusión</String>
-    <String ID="热门讨论" Status="1" English="Popular Discussion">Discusión popular</String>
-    <String ID="精选讨论" Status="1" English="Featured Discussion">Discusión destacada</String>
+    <String ID="我支持的{0}" Status="1" English="Supported {0}">{0} Soportado</String>
+    <String ID="本地实验" Status="1" English="Local Experiment">Experimento Local</String>
+    <String ID="搜索作品" Status="1" English="Search Works">Buscar Obras</String>
+    <String ID="最新实验" Status="1" English="Latest Experiment">Experimento más Reciente</String>
+    <String ID="热门实验" Status="1" English="Popular Experiment">Experimento Popular</String>
+    <String ID="精选实验" Status="1" English="Editor's Choice">Selección del Editor</String>
+    <String ID="黑洞精选" Status="1" English="Featured Discussion">Discusión Destacada</String>
+    <String ID="最新讨论" Status="1" English="Latest Discussion">Última Discusión</String>
+    <String ID="热门讨论" Status="1" English="Popular Discussion">Discusión Popular</String>
+    <String ID="精选讨论" Status="1" English="Featured Discussion">Discusión Destacada</String>
     <String ID="最新模型" Status="1" English="Latest Model">Ultimo Modelo</String>
-    <String ID="热门模型" Status="1" English="Popular Model">Modelo popular</String>
-    <String ID="精选模型" Status="1" English="Featured Model">Modelo destacado</String>
+    <String ID="热门模型" Status="1" English="Popular Model">Modelo Popular</String>
+    <String ID="精选模型" Status="1" English="Featured Model">Modelo Destacado</String>
     <String ID="我的点赞" Status="1" English="My Favorites">Mis favoritos</String>
     <String ID="我点赞的实验" Status="1" English="My favorite experiments">Mis experimentos favoritos</String>
     <String ID="我点赞的交流" Status="1" English="My favorite discussions">Mis discusiones favoritas</String>
-    <String ID="已发布实验" Status="1" English="Published Experiments">Experimentos publicados</String>
-    <String ID="已发布交流" Status="1" English="Published Discussions">Discusiones publicadas</String>
+    <String ID="已发布实验" Status="1" English="Published Experiments">Experimentos Publicados</String>
+    <String ID="已发布交流" Status="1" English="Published Discussions">Discusiones Publicadas</String>
     <String ID="按时间排序" Status="1" English="By date">Por fecha</String>
     <String ID="按热度排序" Status="1" English="By popularity">Por popularidad</String>
     <String ID="进入" Status="1" English="Enter">Entrar</String>
     <String ID="进入实验" Status="1" English="Enter Experiment">Entrar Experimento</String>
-    <String ID="进入教程" Status="1" English="Enter Tutorial">Entrar en el tutorial</String>
-    <String ID="沙盒模式" Status="1" English="Sandbox Mode">modo sandbox</String>
+    <String ID="进入教程" Status="1" English="Enter Tutorial">Entrar en el Tutorial</String>
+    <String ID="沙盒模式" Status="1" English="Sandbox Mode">Modo de Sandbox</String>
     <String ID="参与讨论" Status="1" English="Join Discussion">Unirse a la discusión</String>
     <String ID="改编来源" Status="1" English="Remixed From">Remezclado de</String>
-    <String ID="基于模型" Status="1" English="Parent Model">Modelo padre</String>
-    <String ID="衍生模型" Status="1" English="Child Models">Modelos infantiles</String>
+    <String ID="基于模型" Status="1" English="Parent Model">Modelo Raiz</String>
+    <String ID="衍生模型" Status="1" English="Child Models">Modelos Infantiles</String>
     <String ID="搜索 {0}" Status="1" English="Search {0}">Buscar {0}</String>
     <String ID="评论内容" Status="1" English="Comments">Comentarios</String>
     <String ID="发布" Status="1" English="Release">Lanzamiento</String>
@@ -525,13 +525,13 @@
     <String ID="发布到官方模型库" Status="1" English="Publish to the model library">Publicar en la biblioteca de modelos</String>
     <String ID="分享你的科学实验" Status="1" English="Share your scientific experiments">Comparte tus experimentos científicos</String>
     <String ID="参与贡献社区讨论" Status="1" English="Participate in discussions">Participar en discusiones</String>
-    <String ID="点击输入标题" Status="1" English="Click to enter title">Haga clic para ingresar el título</String>
-    <String ID="点击输入介绍" Status="1" English="Click to enter description">Haga clic para ingresar la descripción</String>
-    <String ID="改编自 {0}" Status="1" English="Remixed from {0}">Mezclado de {0}</String>
-    <String ID="发布为实验" Status="1" English="Publish as Experiment">Publicar como experimento</String>
-    <String ID="发布为讨论" Status="1" English="Post as Discussion">Publicar como discusión</String>
-    <String ID="发布为模型" Status="1" English="Publish as Model">Publicar como modelo</String>
-    <String ID="发布到黑洞" Status="1" English="Post to Black Hole">Publicar en Black Hole</String>
+    <String ID="点击输入标题" Status="1" English="Click to enter title">Haz clic para escribir el título</String>
+    <String ID="点击输入介绍" Status="1" English="Click to enter description">Haz clic para escribir la descripción</String>
+    <String ID="改编自 {0}" Status="1" English="Remixed from {0}">Remixclado  de {0}</String>
+    <String ID="发布为实验" Status="1" English="Publish as Experiment">Publicar como Experimento</String>
+    <String ID="发布为讨论" Status="1" English="Post as Discussion">Publicar como Discusión</String>
+    <String ID="发布为模型" Status="1" English="Publish as Model">Publicar como Modelo</String>
+    <String ID="发布到黑洞" Status="1" English="Post to Black Hole">Publicar en Agujero Negro</String>
     <String ID="松手即可刷新" Status="1" English="Release to refresh">Suéltelo para actualizar</String>
     <String ID="已经为您展示了所有实验……" Status="1" English="All the experiments have been shown...">Se han mostrado todos los experimentos ...</String>
     <String ID="为你收藏了这个作品！" Status="1" English="You have favorited this work!">¡Has marcado este trabajo como favorito!</String>
@@ -539,7 +539,7 @@
     <String ID="支持作品" Status="1" English="Support this work">Apoya este trabajo</String>
     <String ID="你不能支持自己的作品。" Status="1" English="You cannot support your own work.">No puedes apoyar tu propio trabajo.</String>
     <String ID="是否消耗 {0} 金币支持作品，提高作品的热度？" Status="1" English="Do you want to support the work by {0} coins and boost the popularity of it?">¿Quieres apoyar el trabajo con {0} monedas y aumentar su popularidad?</String>
-    <String ID="点击标签搜索实验" Status="1" English="Click the label to search experiment">Haga clic en la etiqueta para buscar el experimento</String>
+    <String ID="点击标签搜索实验" Status="1" English="Click the label to search experiment">Haz clic en la etiqueta para buscar el experimento</String>
     <String ID="{0} 的{1}" Status="1" English="{1} by {0}">{1} de {0}</String>
     <String ID="最新{0}{1}" Status="1" English="Latest {0} {1}">Último {0} {1}</String>
     <String ID="精选{0}{1}" Status="1" English="Featured {0} {1}">Destacado {0} {1}</String>
@@ -548,14 +548,14 @@
     <String ID="{0} 的黑洞" Status="1" English="Black hole of {0}">Agujero negro de {0}</String>
     <String ID="讨论{0}" Status="1" English="Discussion{0}">Discusión {0}</String>
     <String ID="评论{0}" Status="1" English="Comment{0}">Comentar {0}</String>
-    <String ID="改编{0}" Status="1" English="Remix{0}">Remix {0}</String>
+    <String ID="改编{0}" Status="1" English="Remix{0}">Remixar {0}</String>
     <String ID="{0} 的评论区" Status="1" English="{0}'s Comments">Comentarios de {0}</String>
     <String ID="简介" Status="1" English="Intro">Intro</String>
     <String ID="在这里开始讨论吧" Status="1" English="Let&amp;#39;s start the discussion here.">Comencemos la discusión aquí.</String>
     <String ID="发布时最多只能选择 {0} 个标签。" Status="1" English="You can only select up to {0} tags when publishing.">Solo puede seleccionar hasta {0} etiquetas al publicar.</String>
-    <String ID="管理权限" Status="1" English="Editorial Privilege">Privilegio editorial</String>
-    <String ID="创建改编" Status="1" English="Create Remix">Crear remezcla</String>
-    <String ID="编辑内容" Status="1" English="Edit Content">Contenido editado</String>
+    <String ID="管理权限" Status="1" English="Editorial Privilege">Privilegio Editorial</String>
+    <String ID="创建改编" Status="1" English="Create Remix">Crear Remezcla</String>
+    <String ID="编辑内容" Status="1" English="Edit Content">Editar Contenido</String>
     <String ID="改编并发布" Status="1" English="Remix and Publish">Mezclar y publicar</String>
     <String ID="拍摄一张截图作为封面" Status="1" English="Take a screenshot as cover">Tomar una captura de pantalla como portada</String>
     <String ID="管理权限允许您编辑原始内容，也可以改编并发布内容。您的计划是？" Status="1" English="Editorial privileges allow you to edit the original content, or you can remix and publish a new one. What is your plan?">Los privilegios editoriales le permiten editar el contenido original, o puede mezclar y publicar uno nuevo. ¿Cual es tu plan?</String>
@@ -566,12 +566,12 @@
   <Tutorials>
     <String ID="跳过教程" Status="1" English="Skip tutorial">Saltar tutorial</String>
     <String ID="是否希望跳过当前教程？你可以随时从左上角的教程按钮返回。" Status="1" English="Do you want to skip the tutorial? You can return at any time from the tutorial button.">¿Quieres saltarte el tutorial? Puede regresar en cualquier momento desde el botón de tutorial.</String>
-    <String ID="隐藏教程" Status="1" English="Hide tutorial">Ocultar tutorial</String>
-    <String ID="是否希望隐藏当前教程？" Status="1" English="Do you want to hide the tutorial?">¿Quieres ocultar el tutorial?</String>
-    <String ID="点击记录你的想法" Status="1" English="Click to record your thoughts">Haga clic para registrar sus pensamientos</String>
+    <String ID="隐藏教程" Status="1" English="Hide tutorial">Esconder tutorial</String>
+    <String ID="是否希望隐藏当前教程？" Status="1" English="Do you want to hide the tutorial?">¿Quieres esconder el tutorial?</String>
+    <String ID="点击记录你的想法" Status="1" English="Click to record your thoughts">Haz clic para registrar sus pensamientos</String>
     <String ID="跳过问题" Status="1" English="Skip question">Saltar pregunta</String>
-    <String ID="是否希望跳过这个问题？你还可以回来回答。" Status="1" English="Do you want to skip this question? You can come back to answer later.">¿Quieres saltarte esta pregunta? Puedes volver para responder más tarde.</String>
+    <String ID="是否希望跳过这个问题？你还可以回来回答。" Status="1" English="Do you want to skip this question? You can come back to answer later.">¿Quieres saltar esta pregunta? Puedes volver para responder más tarde.</String>
     <String ID="分享答案" Status="1" English="Share your answer">Comparte tu respuesta</String>
-    <String ID="是否愿意和大家分享你的答案？被点赞将获得奖励！" Status="1" English="Would you like to share your answers? You will get rewards whenever it is liked!">¿Le gustaría compartir sus respuestas? ¡Obtendrás recompensas siempre que te guste!</String>
+    <String ID="是否愿意和大家分享你的答案？被点赞将获得奖励！" Status="1" English="Would you like to share your answers? You will get rewards whenever it is liked!">¿Le gustaría compartir sus respuestas? ¡Siempre obtendrás recompensas cuando es gustado!</String>
   </Tutorials>
 </Strings>
