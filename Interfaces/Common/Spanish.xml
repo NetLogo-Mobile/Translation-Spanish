@@ -326,8 +326,8 @@
     <String ID="隐私设置" Status="1" English="Privacy Setting">Configuración de Privacidad</String>
     <String ID="高光效果" Status="1" English="Bloom Effect">Efecto Resplandor</String>
     <String ID="高帧率模式" Status="1" English="High Framerate">Cuadros por Segundo Elevado</String>
-    <String ID="图形设置" Status="1" English="Graphic Settings">Configuración Fráfica</String>
-    <String ID="推送通知" Status="1" English="Push Notifications">Notificaciones Push</String>
+    <String ID="图形设置" Status="1" English="Graphic Settings">Configuración Gráfica</String>
+    <String ID="推送通知" Status="1" English="Push Notifications">Notificaciones Empujadas</String>
     <String ID="推送频率" Status="1" English="Push Frequency">Frecuencia de Empuje</String>
     <String ID="实时阴影" Status="1" English="Real-time Shadows">Sombras en Tiempo Real</String>
     <String ID="边缘虚化" Status="1" English="Vignette Effect">Efecto Viñeta</String>
