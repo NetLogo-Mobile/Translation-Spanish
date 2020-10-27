@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Strings>
   <Interfaces>
-    <String ID="点击了" Status="1" English="Clicked">Hizo clic</String>
+    <String ID="点击了" Status="1" English="Clicked">Hiciste clic</String>
     <String ID="加载错误" Status="1" English="Loading error">Error de carga</String>
     <String ID="模型消息" Status="1" English="Message from the model">Mensaje del modelo</String>
     <String ID="模型输出" Status="1" English="Output from the model">Salida del modelo</String>
@@ -22,15 +22,15 @@
     <String ID="代码" Status="1" English="Code">Código</String>
     <String ID="重置" Status="1" English="Reset">Reiniciar</String>
     <String ID="控制台" Status="1" English="Console">Consola</String>
-    <String ID="编程区 {0}" Status="1" English="Blockspace {0}">Blockspace {0}</String>
+    <String ID="编程区 {0}" Status="1" English="Blockspace {0}">Espacio de Bloques {0}</String>
     <String ID="重置代码" Status="1" English="Reset Code">Restablecer Código</String>
     <String ID="是否将代码重置到最后一次成功编译的状态？" Status="1" English="Do you want to reset the code to the last successful compilation?">¿Quieres restablecer el código a la última compilación exitosa?</String>
     <String ID="正在进行编译……" Status="1" English="Compiling your model...">Compilando su modelo ...</String>
-    <String ID="你的模型编译成功！" Status="1" English="Successfully compiled your model!">¡Compilado exitosamente su modelo!</String>
+    <String ID="你的模型编译成功！" Status="1" English="Successfully compiled your model!">¡Su modelo fue compilado exitosamente!</String>
     <String ID="编译过程遇到错误。" Status="1" English="An error occurs during the compilation.">Se produce un error durante la compilación.</String>
   </Toolbar>
   <Editors>
-    <String ID="编辑器支持竖屏使用。旋转屏幕获得最佳体验！" Status="1" English="Rotate your device for better experience!">¡Gire su dispositivo para una mejor experiencia!</String>
+    <String ID="编辑器支持竖屏使用。旋转屏幕获得最佳体验！" Status="1" English="Rotate your device for better experience!">¡Gire su aparato para una mejor experiencia!</String>
     <String ID="编译错误" Status="1" English="Compile Error">Error de compilación</String>
     <String ID="执行错误" Status="1" English="Runtime Error">Error de tiempo de ejecución</String>
     <String ID="成功执行了命令。" Status="1" English="The command was executed successfully.">El comando se ejecutó con éxito.</String>
@@ -39,12 +39,12 @@
     <String ID="所有瓦片 (Patches)" Status="1" English="Patches">Parches</String>
     <String ID="所有链接 (Links)" Status="1" English="Links">Enlaces</String>
     <String ID="在这里执行 NetLogo 命令来影响模型状态" Status="1" English="Execute NetLogo commands here to play with the model">Ejecute los comandos de NetLogo aquí para jugar con el modelo</String>
-    <String ID="例如将模型的背景改为黑色，你可以让观察者执行" Status="1" English="If you want to change the background to black, you can ask the observer to">Si desea cambiar el fondo a negro, puede pedirle al observador que</String>
-    <String ID="不同的主语会带来不同的效果。试试让所有海龟执行" Status="1" English="Commands will be carried out by different subjects. Try to ask turtles to">Los comandos serán ejecutados por diferentes sujetos. Trate de pedirle a las tortugas que</String>
+    <String ID="例如将模型的背景改为黑色，你可以让观察者执行" Status="1" English="If you want to change the background to black, you can ask the observer to">Si desea cambiar el fondo a negro, puede pedirle al observador para que lo haga</String>
+    <String ID="不同的主语会带来不同的效果。试试让所有海龟执行" Status="1" English="Commands will be carried out by different subjects. Try to ask turtles to">Los comandos serán ejecutados por diferentes sujetos. Trate de pedirle a las tortugas que lo hagan</String>
   </Editors>
   <NetTango>
     <String ID="拖到这里删除" Status="1" English="Drag here to delete">Arrastra aquí para borrar</String>
-    <String ID="松手取消操作" Status="1" English="Leave here to cancel">Sal de aquí para cancelar</String>
-    <String ID="请输入 {0}" Status="1" English="Please enter {0}">Ingrese {0}</String>
+    <String ID="松手取消操作" Status="1" English="Leave here to cancel">Sal por aquí para cancelar</String>
+    <String ID="请输入 {0}" Status="1" English="Please enter {0}">Escribe {0}</String>
   </NetTango>
 </Strings>
