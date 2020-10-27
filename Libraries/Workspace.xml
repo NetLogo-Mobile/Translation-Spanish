@@ -2,6 +2,7 @@
 <Library>
   <Identifier>Workspace</Identifier>
   <Subject>My Workspace</Subject>
+    <!-- To translate: Subject -->
   <Language>Spanish</Language>
   <IsNavigation>True</IsNavigation>
   <Block>
@@ -13,7 +14,9 @@
   <Block>
     <Type>Topic</Type>
     <Header>PUBLISHED</Header>
+    <!-- To translate: Header -->
     <Subject>My Models</Subject>
+    <!-- To translate: Subject -->
     <TargetLink>models://UserID/Mine</TargetLink>
     <FetchSource>User</FetchSource>
     <FetchConfiguration>
@@ -23,8 +26,10 @@
   <Block>
     <Type>List</Type>
     <Header>MY FAVORITE MODELS</Header>
+    <!-- To translate: Header -->
     <TargetLink>models://UserID/Mine/Special/Star</TargetLink>
     <DefaultText>Browse Models</DefaultText>
+    <!-- To translate: DefaultText -->
     <DefaultLink>models://Sort/Popularity</DefaultLink>
     <FetchSource>User</FetchSource>
     <FetchConfiguration>

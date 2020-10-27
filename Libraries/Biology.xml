@@ -2,10 +2,12 @@
 <Library>
   <Identifier>Biology</Identifier>
   <Subject>Biology</Subject>
+  <!-- To translate: Subject -->
   <Language>Spanish</Language>
   <Block>
     <Type>Topic</Type>
     <Header>FEATURED</Header>
+    <!-- To translate: Header -->
     <FetchSource>Individual</FetchSource>
     <FetchConfiguration>
       <ID>5eb997fef6954b93209189e3</ID>
@@ -15,6 +17,7 @@
   <Block>
     <Type>List</Type>
     <Header>CLASSIC MODELS</Header>
+    <!-- To translate: Header -->
     <TargetLink>models://Tags/生物/Sort/Popularity</TargetLink>
     <TargetJson></TargetJson>
     <FetchSource>Community</FetchSource>
@@ -27,6 +30,7 @@
   <Block>
     <Type>List</Type>
     <Header>TRENDING EXPERIMENTS</Header>
+    <!-- To translate: Header -->
     <TargetLink>experiments://ModelTags/生物/Days/14/Sort/Popularity</TargetLink>
     <TargetJson></TargetJson>
     <FetchSource>Community</FetchSource>
@@ -40,6 +44,7 @@
   <Block>
     <Type>List</Type>
     <Header>FEATURED EXPERIMENTS</Header>
+    <!-- To translate: Header -->
     <TargetLink>experiments://ModelTags/生物/Tags/精选</TargetLink>
     <TargetJson></TargetJson>
     <FetchSource>Community</FetchSource>
@@ -52,6 +57,7 @@
   <Block>
     <Type>List</Type>
     <Header>LATEST EXPERIMENTS</Header>
+    <!-- To translate: Header -->
     <TargetLink>experiments://ModelTags/生物</TargetLink>
     <TargetJson></TargetJson>
     <FetchSource>Community</FetchSource>
