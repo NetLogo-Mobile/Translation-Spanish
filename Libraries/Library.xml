@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Library>
+  <Identifier>Library</Identifier>
+  <Subject>Model Library</Subject>
+  <Language>Spanish</Language>
+  <IsNavigation>True</IsNavigation>
+  <Block>
+    <Type>List</Type>
+    <Header>SOCIAL SCIENCE</Header>
+    <TargetLink>library://SocialScience</TargetLink>
+    <TargetJson></TargetJson>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Model</Category>
+      <Sort>Popularity</Sort>
+      <Tags>社会科学</Tags>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>BIOLOGY</Header>
+    <TargetLink>library://Biology</TargetLink>
+    <TargetJson></TargetJson>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Model</Category>
+      <Sort>Popularity</Sort>
+      <Tags>生物</Tags>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>CHEMISTRY</Header>
+    <TargetLink>library://Chemistry</TargetLink>
+    <TargetJson></TargetJson>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Model</Category>
+      <Sort>Popularity</Sort>
+      <Tags>化学</Tags>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>MATHEMATICS</Header>
+    <TargetLink>library://Mathematics</TargetLink>
+    <TargetJson></TargetJson>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Model</Category>
+      <Sort>Popularity</Sort>
+      <Tags>数学</Tags>
+    </FetchConfiguration>
+  </Block>
+</Library>

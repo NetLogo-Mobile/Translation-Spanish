@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Library>
+  <Identifier>Homepage</Identifier>
+  <Language>Spanish</Language>
+  <IsNavigation>True</IsNavigation>
+  <Block>
+    <Type>Topic</Type>
+    <Header>FEATURED</Header>
+    <FetchSource>Individual</FetchSource>
+    <FetchConfiguration>
+      <ID>5ec6c6139f303f00016e4c31</ID>
+      <Category>Model</Category>
+    </FetchConfiguration>
+    <AuxiliaryText>GIVE US FEEDBACK</AuxiliaryText>
+    <AuxiliaryLink>mailto:civitas@u.northwestern.edu</AuxiliaryLink>
+    <AuxiliaryImage>Assets/Offlines/Textures/Support.png</AuxiliaryImage>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>POPULAR MODELS</Header>
+    <TargetLink>models://Sort/Popularity</TargetLink>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Model</Category>
+      <Sort>Popularity</Sort>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>LATEST MODELS</Header>
+    <TargetLink>models://Sort/Default</TargetLink>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Model</Category>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>ANNOUNCEMENTS</Header>
+    <TargetLink>experiments://Tags/公告</TargetLink>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Experiment</Category>
+      <Tags>公告</Tags>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>TRENDING EXPERIMENTS</Header>
+    <TargetLink>experiments://Days/14/Sort/Popularity</TargetLink>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Experiment</Category>
+      <Sort>Popularity</Sort>
+      <Days>14</Days>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>LATEST EXPERIMENTS</Header>
+    <TargetLink>experiments://Sort/Default</TargetLink>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Experiment</Category>
+      <Sort>Default</Sort>
+    </FetchConfiguration>
+  </Block>
+</Library>

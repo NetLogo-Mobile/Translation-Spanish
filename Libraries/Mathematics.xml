@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Library>
+  <Identifier>Mathematics</Identifier>
+  <Subject>Mathematics</Subject>
+  <Language>Spanish</Language>
+  <Block>
+    <Type>Topic</Type>
+    <Header>FEATURED</Header>
+    <FetchSource>Individual</FetchSource>
+    <FetchConfiguration>
+      <ID>5ec6c6139f303f00016e4c31</ID>
+      <Category>Model</Category>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>CLASSIC MODELS</Header>
+    <TargetLink>models://Tags/数学/Sort/Popularity</TargetLink>
+    <TargetJson></TargetJson>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Model</Category>
+      <Sort>Popularity</Sort>
+      <Tags>数学</Tags>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>TRENDING EXPERIMENTS</Header>
+    <TargetLink>experiments://ModelTags/数学/Days/14/Sort/Popularity</TargetLink>
+    <TargetJson></TargetJson>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Experiment</Category>
+      <Sort>Popularity</Sort>
+      <Days>14</Days>
+      <ModelTags>数学</ModelTags>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>FEATURED EXPERIMENTS</Header>
+    <TargetLink>experiments://ModelTags/数学/Tags/精选</TargetLink>
+    <TargetJson></TargetJson>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Experiment</Category>
+      <Tags>精选</Tags>
+      <ModelTags>数学</ModelTags>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>LATEST EXPERIMENTS</Header>
+    <TargetLink>experiments://ModelTags/数学</TargetLink>
+    <TargetJson></TargetJson>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Experiment</Category>
+      <ModelTags>数学</ModelTags>
+    </FetchConfiguration>
+  </Block>
+</Library>

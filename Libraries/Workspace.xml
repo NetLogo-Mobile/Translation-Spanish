@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Library>
+  <Identifier>Workspace</Identifier>
+  <Subject>My Workspace</Subject>
+  <Language>Spanish</Language>
+  <IsNavigation>True</IsNavigation>
+  <Block>
+    <Type>List</Type>
+    <Header>LOCAL EXPERIMENTS</Header>
+    <TargetLink>experiments://Local</TargetLink>
+    <FetchSource>Local</FetchSource>
+  </Block>
+  <Block>
+    <Type>Topic</Type>
+    <Header>PUBLISHED</Header>
+    <Subject>My Models</Subject>
+    <TargetLink>models://UserID/Mine</TargetLink>
+    <FetchSource>User</FetchSource>
+    <FetchConfiguration>
+      <Category>Model</Category>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>MY FAVORITE MODELS</Header>
+    <TargetLink>models://UserID/Mine/Special/Star</TargetLink>
+    <DefaultText>Browse Models</DefaultText>
+    <DefaultLink>models://Sort/Popularity</DefaultLink>
+    <FetchSource>User</FetchSource>
+    <FetchConfiguration>
+      <Category>Model</Category>
+      <Special>Star</Special>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>SUPPORTED MODELS</Header>
+    <TargetLink>models://UserID/Mine/Special/Support</TargetLink>
+    <FetchSource>User</FetchSource>
+    <FetchConfiguration>
+      <Category>Model</Category>
+      <Special>Support</Special>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>Topic</Type>
+    <Header>PUBLISHED</Header>
+    <Subject>My Experiments</Subject>
+    <TargetLink>experiments://UserID/Mine</TargetLink>
+    <FetchSource>User</FetchSource>
+    <FetchConfiguration>
+      <Category>Experiment</Category>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>MY FAVORITE EXPERIMENTS</Header>
+    <TargetLink>experiments://UserID/Mine/Special/Star</TargetLink>
+    <DefaultText>Browse Experiments</DefaultText>
+    <DefaultLink>experiments://Days/14/Sort/Popularity</DefaultLink>
+    <FetchSource>User</FetchSource>
+    <FetchConfiguration>
+      <Category>Experiment</Category>
+      <Special>Star</Special>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>SUPPORTED EXPERIMENTS</Header>
+    <TargetLink>experiments://UserID/Mine/Special/Support</TargetLink>
+    <FetchSource>User</FetchSource>
+    <FetchConfiguration>
+      <Category>Experiment</Category>
+      <Special>Support</Special>
+    </FetchConfiguration>
+  </Block>
+</Library>
