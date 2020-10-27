@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+  <Message>
+    <ID>5c912015890d955280649a44</ID>
+    <Identifier>Content-Management-Featured</Identifier>
+    <CategoryID>Experiment</CategoryID>
+    <Subject>
+      <Chinese>{Experiment} 被评为精选！</Chinese>
+      <English>{Experiment} has been featured!</English>
+      <ChineseTraditional>{Experiment} 被評為精選！</ChineseTraditional>
+      <German>{Experiment} wurde vorgestellt!</German>
+      <French>{Experiment} a été présenté!</French>
+      <Japanese>{Experiment} が特集されました！</Japanese>
+      <Italian>{Experiment} è stato presentato!</Italian>
+      <Polish>{Experiment} został wyróżniony!</Polish>
+      <Spanish>¡Se ha destacado {Experiment}!</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>编辑 {Users} 执行了这一操作。</Chinese>
+      <English>Editor {Users} did it.</English>
+      <ChineseTraditional>編輯 {Users} 執行了這一操作。</ChineseTraditional>
+      <German>Der Editor {Users} hat es geschafft.</German>
+      <French>L'éditeur {Users} l'a fait.</French>
+      <Japanese>エディタ {Users} がやりました。</Japanese>
+      <Italian>L'editor {Users} l'ha fatto.</Italian>
+      <Polish>Redaktor {Users} to zrobił.</Polish>
+      <Spanish>El editor {Users} lo hizo.</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Both</Push>
+  </Message>
+  <Message>
+    <ID>5c9120436fd2c143b8afcad7</ID>
+    <Identifier>Content-Management-Unfeatured</Identifier>
+    <CategoryID>Experiment</CategoryID>
+    <Subject>
+      <Chinese>{Experiment} 被解除精选状态！</Chinese>
+      <English>{Experiment}'s feature status has been cancelled!</English>
+      <ChineseTraditional>{Experiment} 被解除精選狀態！</ChineseTraditional>
+      <German>Der Funktionsstatus von {Experiment} wurde abgebrochen!</German>
+      <French>Le statut de fonctionnalité de {Experiment} a été annulé!</French>
+      <Japanese>{Experiment} の機能ステータスはキャンセルされました。</Japanese>
+      <Italian>Lo stato delle funzioni di {Experiment} è stato annullato!</Italian>
+      <Polish>Stan funkcji {Experiment} został anulowany!</Polish>
+      <Spanish>¡El estado de la función de {Experiment} ha sido cancelado!</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>编辑 {Users} 执行了这一操作。</Chinese>
+      <English>Editor {Users} did it.</English>
+      <ChineseTraditional>編輯 {Users} 執行了這一操作。</ChineseTraditional>
+      <German>Der Editor {Users} hat es geschafft.</German>
+      <French>L'éditeur {Users} l'a fait.</French>
+      <Japanese>エディタ {Users} がやりました。</Japanese>
+      <Italian>L'editor {Users} l'ha fatto.</Italian>
+      <Polish>Redaktor {Users} to zrobił.</Polish>
+      <Spanish>El editor {Users} lo hizo.</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Both</Push>
+  </Message>
+  <Message>
+    <ID>5e1634ef42f76f2f3c6c2967</ID>
+    <Identifier>Content-Management-Moved-Discussion</Identifier>
+    <CategoryID>Experiment</CategoryID>
+    <Subject>
+      <Chinese>{Experiment} 被移动到黑洞区！</Chinese>
+      <English>{Experiment} has been moved to Black hole!</English>
+      <ChineseTraditional>{Experiment} 被移動到黑洞區！</ChineseTraditional>
+      <German>{Experiment} wurde nach Schwarzes Loch verschoben!</German>
+      <French>{Experiment} a été déplacé dans le trou noir!</French>
+      <Japanese>{Experiment}はブラックホールに移動しました！</Japanese>
+      <Italian>{Experiment} è stato spostato nel buco nero!</Italian>
+      <Polish>{Experiment} został przeniesiony do Black Hole!</Polish>
+      <Spanish>{Experiment} se ha trasladado a Black Hole.</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>编辑/志愿者 {Users} 执行了这一操作。</Chinese>
+      <English>Editor/Volunteer {Users} did it.</English>
+      <ChineseTraditional>編輯/志願者 {Users} 執行了這一操作。</ChineseTraditional>
+      <German>Editor / Volunteer {Users} hat es geschafft.</German>
+      <French>Le rédacteur / bénévole {Users} l'a fait.</French>
+      <Japanese>編集者/ボランティア{ユーザー}がやった。</Japanese>
+      <Italian>L'editore / volontario {Users} lo ha fatto.</Italian>
+      <Polish>Redaktor / ochotnik {Users} to zrobił.</Polish>
+      <Spanish>El editor / voluntario {Users} lo hizo.</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Both</Push>
+  </Message>
+  <Message>
+    <ID>5e1634f242f76f2f3c6c2968</ID>
+    <Identifier>Content-Management-Moved-Experiment</Identifier>
+    <CategoryID>Experiment</CategoryID>
+    <Subject>
+      <Chinese>{Experiment} 被移动到实验区！</Chinese>
+      <English>{Experiment} has been moved to Experiment!</English>
+      <ChineseTraditional>{Experiment} 被移動到實驗區！</ChineseTraditional>
+      <German>{Experiment} wurde nach Experiment verschoben!</German>
+      <French>{Experiment} a été déplacé vers Experiment!</French>
+      <Japanese>{実験}は実験に移動しました！</Japanese>
+      <Italian>{Experiment} è stato spostato in Experiment!</Italian>
+      <Polish>{Experiment} został przeniesiony do Experiment!</Polish>
+      <Spanish>{Experiment} se ha movido a Experiment.</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>编辑/志愿者 {Users} 执行了这一操作。</Chinese>
+      <English>Editor/Volunteer {Users} did it.</English>
+      <ChineseTraditional>編輯/志願者 {Users} 執行了這一操作。</ChineseTraditional>
+      <German>Editor / Volunteer {Users} hat es geschafft.</German>
+      <French>Le rédacteur / bénévole {Users} l'a fait.</French>
+      <Japanese>編集者/ボランティア{ユーザー}がやった。</Japanese>
+      <Italian>L'editore / volontario {Users} lo ha fatto.</Italian>
+      <Polish>Redaktor / ochotnik {Users} to zrobił.</Polish>
+      <Spanish>El editor / voluntario {Users} lo hizo.</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Both</Push>
+  </Message>
+  <Message>
+    <ID>5e102f4499c5b93b10bbbd7f</ID>
+    <Identifier>Content-Management-Modified</Identifier>
+    <CategoryID>Comment</CategoryID>
+    <Subject>
+      <Chinese>编辑 {Users} 调整了你的实验。</Chinese>
+      <English>Editor {Users} modified your experiment.</English>
+      <ChineseTraditional>編輯 {Users} 調整了你的實驗。</ChineseTraditional>
+      <German>Der Editor {Users} hat Ihr Experiment geändert.</German>
+      <French>L'éditeur {Users} a modifié votre test.</French>
+      <Japanese>編集者 {Users} が実験を変更しました。</Japanese>
+      <Italian>L'editor {Users} ha modificato il tuo esperimento.</Italian>
+      <Polish>Redaktor {Users} zmodyfikował Twój eksperyment.</Polish>
+      <Spanish>El editor {Users} modificó su experimento.</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>如果你认为对 {Experiment} 的编辑不适当，请与编辑联系。</Chinese>
+      <English>If you feel the modification on {Experiment} isn't appropriate, please contact the editor.</English>
+      <ChineseTraditional>如果你認為對 {Experiment} 的編輯不適當，請與編輯聯繫。</ChineseTraditional>
+      <German>Wenn Sie der Meinung sind, dass die Änderung in {Experiment} nicht angemessen ist, wenden Sie sich an den Herausgeber.</German>
+      <French>Si vous pensez que la modification de {Experiment} n'est pas appropriée, veuillez contacter l'éditeur.</French>
+      <Japanese>{Experiment} の変更が適切でないと思われる場合は、編集者にお問い合わせください。</Japanese>
+      <Italian>Se ritieni che la modifica di {Experiment} non sia appropriata, contatta l'editor.</Italian>
+      <Polish>Jeśli uważasz, że modyfikacja w {Experiment} nie jest odpowiednia, skontaktuj się z redaktorem.</Polish>
+      <Spanish>Si cree que la modificación en {Experiment} no es apropiada, comuníquese con el editor.</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Both</Push>
+  </Message>
+  <Message>
+    <ID>5c9c955b82349b3cecdbc77c</ID>
+    <Identifier>Content-Management-Hidden</Identifier>
+    <CategoryID>Experiment</CategoryID>
+    <Subject>
+      <Chinese>{Experiment} 被隐藏了。</Chinese>
+      <English>{Experiment} has been made hidden.</English>
+      <ChineseTraditional>{Experiment} 被隱藏了。</ChineseTraditional>
+      <German>{Experiment} wurde ausgeblendet.</German>
+      <French>{Experiment} a été caché.</French>
+      <Japanese>{Experiment} は非表示にされました。</Japanese>
+      <Italian>{Experiment} è stato reso nascosto.</Italian>
+      <Polish>{Experiment} został ukryty.</Polish>
+      <Spanish>{Experiment} se ha ocultado.</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>编辑 {Users} 执行了这一操作。请注意不要发布可能违反法律法规或涉嫌抄袭的内容。</Chinese>
+      <English>Editor {Users} did it. Please don't release any experiment that violate laws, regulations or involve plagiarism.</English>
+      <ChineseTraditional>編輯 {Users} 執行了這一操作。請注意不要發布可能違反法律法規或涉嫌抄襲的內容。</ChineseTraditional>
+      <German>Der Editor {Users} hat es geschafft. Bitte lassen Sie keine Experimente frei, die gegen Gesetze, Vorschriften oder Plagiate verstoßen.</German>
+      <French>L'éditeur {Users} l'a fait. S'il vous plaît, ne publiez aucune expérience qui enfreindrait les lois, les réglementations ou le plagiat.</French>
+      <Japanese>エディタ {Users} がやりました。法律、規制に違反する、または盗作を含むような実験は公開しないでください。</Japanese>
+      <Italian>L'editor {Users} l'ha fatto. Si prega di non rilasciare alcun esperimento che violi le leggi, i regolamenti o implichi il plagio.</Italian>
+      <Polish>Redaktor {Users} to zrobił. Prosimy nie publikować żadnych eksperymentów, które naruszają przepisy, regulacje lub wiążą się z plagiatem.</Polish>
+      <Spanish>El editor {Users} lo hizo. Por favor, no publique ningún experimento que viole las leyes, regulaciones o implique plagio.</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Both</Push>
+  </Message>
+  <Message>
+    <ID>5d57f3be39523f0f640c220f</ID>
+    <Identifier>User-Banned</Identifier>
+    <CategoryID>Attention</CategoryID>
+    <Subject>
+      <Chinese>编辑 {Users} 暂停你的社区权限到 {$Until}。</Chinese>
+      <English>Editor {Users} suspended your community rights until {$Until}.</English>
+      <ChineseTraditional>編輯 {Users} 暫停你的社區權限到 {$Until}。</ChineseTraditional>
+      <German>Der Editor {Users} hat Ihre Community-Rechte bis zum {$Until} gesperrt.</German>
+      <French>L'éditeur {Users} a suspendu vos droits de communauté jusqu'au {$Until}.</French>
+      <Japanese>編集者 {Users} は、コミュニティの権利を {$Until} まで停止しました。</Japanese>
+      <Italian>L'editor {Users} ha sospeso i diritti della tua comunità fino a {$Until}.</Italian>
+      <Polish>Redaktor {Users} zawiesił Twoje prawa społeczności do {$ Until}.</Polish>
+      <Spanish>El editor {Users} suspendió sus derechos comunitarios hasta el {$ Hasta}.</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>{$Content}</Chinese>
+      <English>{$Content}</English>
+      <ChineseTraditional>{$Content}</ChineseTraditional>
+      <German>{$Content}</German>
+      <French>{$Content}</French>
+      <Japanese>{$Content}</Japanese>
+      <Italian>{$Content}</Italian>
+      <Polish>{$Content}</Polish>
+      <Spanish>{$Content}</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Subject</Push>
+  </Message>
+  <Message>
+    <ID>5d57f3bf39523f0f640c2210</ID>
+    <Identifier>User-Unbanned</Identifier>
+    <CategoryID>Attention</CategoryID>
+    <Subject>
+      <Chinese>编辑 {Users} 恢复了你的社区权限。</Chinese>
+      <English>Editor {Users} restored your community rights.</English>
+      <ChineseTraditional>編輯 {Users} 恢復了你的社區權限。</ChineseTraditional>
+      <German>Der Editor {Users} hat Ihre Community-Rechte wiederhergestellt.</German>
+      <French>L'éditeur {Users} a restauré vos droits de communauté.</French>
+      <Japanese>編集者 {Users} がコミュニティの権利を回復しました。</Japanese>
+      <Italian>L'editor {Users} ha ripristinato i diritti della community.</Italian>
+      <Polish>Redaktor {Users} przywrócił Twoje prawa społeczności.</Polish>
+      <Spanish>El editor {Users} restauró sus derechos de comunidad.</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>{$Content}</Chinese>
+      <English>{$Content}</English>
+      <ChineseTraditional>{$Content}</ChineseTraditional>
+      <German>{$Content}</German>
+      <French>{$Content}</French>
+      <Japanese>{$Content}</Japanese>
+      <Italian>{$Content}</Italian>
+      <Polish>{$Content}</Polish>
+      <Spanish>{$Content}</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Subject</Push>
+  </Message>
+  <Message>
+    <ID>5db3d033fafb810fe0fca8b1</ID>
+    <Identifier>User-Unbanned-Automatic</Identifier>
+    <CategoryID>Attention</CategoryID>
+    <Subject>
+      <Chinese>你的社区权限已被自动恢复。</Chinese>
+      <English>Your community rights have been automatically restored.</English>
+      <ChineseTraditional>你的社區權限已被自動恢復。</ChineseTraditional>
+      <German>Ihre Community-Rechte wurden automatisch wiederhergestellt.</German>
+      <French>Vos droits de communauté ont été restaurés automatiquement.</French>
+      <Japanese>コミュニティの権利は自動的に復元されました。</Japanese>
+      <Italian>I diritti della tua comunità sono stati ripristinati automaticamente.</Italian>
+      <Polish>Twoje prawa społeczności zostały automatycznie przywrócone.</Polish>
+      <Spanish>Sus derechos comunitarios se han restaurado automáticamente.</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>{$Content}</Chinese>
+      <English>{$Content}</English>
+      <ChineseTraditional>{$Content}</ChineseTraditional>
+      <German>{$Content}</German>
+      <French>{$Content}</French>
+      <Japanese>{$Content}</Japanese>
+      <Italian>{$Content}</Italian>
+      <Polish>{$Content}</Polish>
+      <Spanish>{$Content}</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Subject</Push>
+  </Message>
+  <Message>
+    <ID>5d57f3c139523f0f640c2211</ID>
+    <Identifier>User-Banned-Record</Identifier>
+    <CategoryID>Management</CategoryID>
+    <Subject>
+      <Chinese>{Users} 的社区权限被暂停到 {$Until}。</Chinese>
+      <English>{Users}'s community rights are suspended until {$Until}.</English>
+      <ChineseTraditional>{Users} 的社區權限被暫停到 {$Until}。</ChineseTraditional>
+      <German>Die Community-Rechte von {Users} werden ausgesetzt, bis {$Until}.</German>
+      <French>Les droits de communauté de {Users} sont suspendus jusqu'au {$Until}.</French>
+      <Japanese>{Users} のコミュニティの権利は {$Until} まで停止されます。</Japanese>
+      <Italian>I diritti della community di {Users} sono sospesi fino al {$Until}.</Italian>
+      <Polish>Prawa społeczności użytkownika {Users} są zawieszone do {$ Do}.</Polish>
+      <Spanish>Los derechos de la comunidad de {Users} están suspendidos hasta el {$ Hasta}.</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>@{$Editor}: {$Content}</Chinese>
+      <English>@{$Editor}: {$Content}</English>
+      <ChineseTraditional>@{$Editor}: {$Content}</ChineseTraditional>
+      <German>@{$Editor}: {$Content}</German>
+      <French>@{$Editor}: {$Content}</French>
+      <Japanese>@{$Editor}: {$Content}</Japanese>
+      <Italian>@{$Editor}: {$Content}</Italian>
+      <Polish>@{$Editor}: {$Content}</Polish>
+      <Spanish>@{$Editor}: {$Content}</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Subject</Push>
+  </Message>
+  <Message>
+    <ID>5d57f3c239523f0f640c2212</ID>
+    <Identifier>User-Unbanned-Record</Identifier>
+    <CategoryID>Management</CategoryID>
+    <Subject>
+      <Chinese>{Users} 的社区权限被恢复。</Chinese>
+      <English>{Users}'s community rights are restored.</English>
+      <ChineseTraditional>{Users} 的社區權限被恢復。</ChineseTraditional>
+      <German>Die Community-Rechte von {Users} werden wiederhergestellt.</German>
+      <French>Les droits de communauté de {Users} sont restaurés.</French>
+      <Japanese>{Users} のコミュニティの権利が復元されます。</Japanese>
+      <Italian>I diritti della community di {Users} sono stati ripristinati.</Italian>
+      <Polish>Prawa wspólnoty {Users} zostały przywrócone.</Polish>
+      <Spanish>Se restauran los derechos de la comunidad de {Users}.</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>@{$Editor}: {$Content}</Chinese>
+      <English>@{$Editor}: {$Content}</English>
+      <ChineseTraditional>@{$Editor}: {$Content}</ChineseTraditional>
+      <German>@{$Editor}: {$Content}</German>
+      <French>@{$Editor}: {$Content}</French>
+      <Japanese>@{$Editor}: {$Content}</Japanese>
+      <Italian>@{$Editor}: {$Content}</Italian>
+      <Polish>@{$Editor}: {$Content}</Polish>
+      <Spanish>@{$Editor}: {$Content}</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Subject</Push>
+  </Message>
+</Messages>

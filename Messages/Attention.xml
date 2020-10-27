@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+  <Message>
+    <ID>5c9114e9ce50092ed4453fd5</ID>
+    <Identifier>Attention-Followed</Identifier>
+    <CategoryID>Attention</CategoryID>
+    <Subject>
+      <Chinese>新的关注者！</Chinese>
+      <English>New follower!</English>
+      <ChineseTraditional>新的關注者！</ChineseTraditional>
+      <German>Neuer Anhänger</German>
+      <French>Nouveau disciple!</French>
+      <Japanese>新しいフォロワー！</Japanese>
+      <Italian>Nuovo follower!</Italian>
+      <Polish>Nowy obserwujący!</Polish>
+      <Spanish>¡Nuevo seguidor!</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>{Users} 关注了你。</Chinese>
+      <English>{Users} followed you.</English>
+      <ChineseTraditional>{Users} 關注了你。</ChineseTraditional>
+      <German>{Users} ist dir gefolgt.</German>
+      <French>{Users} vous a suivi.</French>
+      <Japanese>{Users} さんがあなたをフォローしました。</Japanese>
+      <Italian>{Users} ti hanno seguito.</Italian>
+      <Polish>{Users} obserwują Cię.</Polish>
+      <Spanish>{Users} te siguió.</Spanish>
+    </Content>
+    <CombineLimit>10</CombineLimit>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Content</Push>
+  </Message>
+</Messages>

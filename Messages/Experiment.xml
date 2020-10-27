@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+  <Message>
+    <ID>5c925ba2c493d936e0aec788</ID>
+    <Identifier>Experiment-Starred</Identifier>
+    <CategoryID>Experiment</CategoryID>
+    <Subject>
+      <Chinese>作品被人收藏了！</Chinese>
+      <English>Your work is starred!</English>
+      <ChineseTraditional>作品被人收藏了！</ChineseTraditional>
+      <German>Ihre Arbeit ist in der Hauptrolle!</German>
+      <French>Votre travail est mis en vedette!</French>
+      <Japanese>あなたの作品にスターを付けました！</Japanese>
+      <Italian>Il tuo lavoro è protagonista!</Italian>
+      <Polish>Twoja praca została oznaczona gwiazdką!</Polish>
+      <Spanish>¡Tu trabajo está destacado!</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>{Users} 收藏了你的作品 {Experiment}。</Chinese>
+      <English>{Users} starred your work {Experiment}.</English>
+      <ChineseTraditional>{Users} 收藏了你的作品 {Experiment}。</ChineseTraditional>
+      <German>{Users} haben Ihre Arbeit mit {Experiment} markiert.</German>
+      <French>{Users} a mis en vedette votre travail {Experiment}.</French>
+      <Japanese>{Users} があなたの作品 {Experiment} にスターを付けました。</Japanese>
+      <Italian>{Users} ha recitato nel tuo lavoro {Experiment}.</Italian>
+      <Polish>{Users} oznaczyli Twoją pracę gwiazdką {Experiment}.</Polish>
+      <Spanish>{Users} destacó tu trabajo {Experiment}.</Spanish>
+    </Content>
+    <CombineLimit>10</CombineLimit>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Content</Push>
+  </Message>
+  <Message>
+    <ID>5ef573e0bc9f1c8ca0828f05</ID>
+    <Identifier>Experiment-Supported</Identifier>
+    <CategoryID>Experiment</CategoryID>
+    <Subject>
+      <Chinese>作品被人支持了！</Chinese>
+      <English>Your work is supported!</English>
+      <ChineseTraditional>作品被人支持了！</ChineseTraditional>
+      <German>Ihre Arbeit wird unterstützt!</German>
+      <French>Votre travail est soutenu!</French>
+      <Japanese>あなたの仕事はサポートされています！</Japanese>
+      <Italian>Il tuo lavoro è supportato!</Italian>
+      <Polish>Twoja praca jest wspierana!</Polish>
+      <Spanish>¡Tu trabajo está respaldado!</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>{Users} 支持了你的作品 {Experiment}，并且带来了 {$Gold} 金币收入！</Chinese>
+      <English>{Users} supported your work {Experiment}, which brings you {$Gold} gold!</English>
+      <ChineseTraditional>{Users} 支持了你的作品 {Experiment}，並且帶來了 {$Gold} 金幣收入！</ChineseTraditional>
+      <German>{Users} haben Ihre Arbeit {Experiment} unterstützt, was Ihnen {$Gold} Gold bringt!</German>
+      <French>{Users} a soutenu votre travail {Experiment}, ce qui vous apporte {$Gold} or!</French>
+      <Japanese>{Users} があなたの仕事 {Experiment} をサポートし、{$Gold} の金を獲得しました！</Japanese>
+      <Italian>{Users} ha supportato il tuo lavoro {Experiment}, che ti offre {$Gold} oro!</Italian>
+      <Polish>{Users} wsparli Twoją pracę {Experiment}, która przyniosła Ci {$Gold} złota!</Polish>
+      <Spanish>{Users} apoyó su trabajo {Experiment}, ¡lo que le brinda {$Gold} oro!</Spanish>
+    </Content>
+    <CombineLimit>10</CombineLimit>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Content</Push>
+  </Message>
+  <Message>
+    <ID>5e17c3b3dc48bb4e58b2be9d</ID>
+    <Identifier>Experiment-Liked</Identifier>
+    <CategoryID>Experiment</CategoryID>
+    <Subject>
+      <Chinese>作品被人点赞了！</Chinese>
+      <English>Your work is liked!</English>
+      <ChineseTraditional>作品被人點讚了！</ChineseTraditional>
+      <German>Ihre Arbeit wird gemocht!</German>
+      <French>Votre travail est aimé!</French>
+      <Japanese>あなたの作品が好きです！</Japanese>
+      <Italian>Il tuo lavoro è piaciuto!</Italian>
+      <Polish>Twoja praca jest lubiana!</Polish>
+      <Spanish>¡Tu trabajo ha gustado!</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>{Users} 点赞了你的作品 {Experiment}，并且带来了 {$Gold} 金币收入！</Chinese>
+      <English>{Users} starred your work {Experiment}, which brings you {$Gold} gold!</English>
+      <ChineseTraditional>{Users} 點讚了你的作品 {Experiment}，並且帶來了 {$Gold} 金幣收入！</ChineseTraditional>
+      <German>{Users} hat Ihre Arbeit {Experiment} in der Hauptrolle gespielt, was Ihnen {$Gold} Gold bringt!</German>
+      <French>{Users} a mis en vedette votre travail {Experiment}, ce qui vous apporte {$Gold} or!</French>
+      <Japanese>{Users} があなたの作品 {Experiment} にスターを付け、{$Gold} ゴールドを獲得しました！</Japanese>
+      <Italian>{Users} ha recitato nel tuo lavoro {Experiment}, che ti porta {$Gold} oro!</Italian>
+      <Polish>{Users} oznaczyli twoją pracę {Experiment} gwiazdką, co daje Ci {$Gold} złota!</Polish>
+      <Spanish>{Users} destacó tu trabajo {Experiment}, ¡lo que te trae {$Gold} oro!</Spanish>
+    </Content>
+    <CombineLimit>10</CombineLimit>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Content</Push>
+  </Message>
+</Messages>

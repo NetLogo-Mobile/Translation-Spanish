@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+  <Message>
+    <ID>5ed6d3cbe5654e0ec0d0ed77</ID>
+    <Identifier>Appointment-Volunteer</Identifier>
+    <CategoryID>Attention</CategoryID>
+    <Subject>
+      <Chinese>{Users} 被任命为志愿者！</Chinese>
+      <English>{Users} was appointed as a volunteer!</English>
+      <ChineseTraditional>{Users} 被任命為志願者！</ChineseTraditional>
+      <German>{Users} wurde als Freiwilliger ernannt!</German>
+      <French>{Users} a été nommé bénévole!</French>
+      <Japanese>{Users} がボランティアとして任命されました！</Japanese>
+      <Italian>{Users} è stato nominato volontario!</Italian>
+      <Polish>{Users} został wyznaczony jako wolontariusz!</Polish>
+      <Spanish>¡{Users} fue nombrado voluntario!</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>@{$Editor}: {$Content}</Chinese>
+      <English>@{$Editor}: {$Content}</English>
+      <ChineseTraditional>@{$Editor}: {$Content}</ChineseTraditional>
+      <German>@{$Editor}: {$Content}</German>
+      <French>@{$Editor}: {$Content}</French>
+      <Japanese>@{$Editor}: {$Content}</Japanese>
+      <Italian>@{$Editor}: {$Content}</Italian>
+      <Polish>@{$Editor}: {$Content}</Polish>
+      <Spanish>@{$Editor}: {$Content}</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Subject</Push>
+  </Message>
+  <Message>
+    <ID>5ed6d3cce5654e0ec0d0ed78</ID>
+    <Identifier>Dismissal-Volunteer</Identifier>
+    <CategoryID>Attention</CategoryID>
+    <Subject>
+      <Chinese>{Users} 被解除志愿者身份！</Chinese>
+      <English>{Users} was dismissed as a volunteer!</English>
+      <ChineseTraditional>{Users} 被解除志願者身份！</ChineseTraditional>
+      <German>{Users} wurde als Freiwilliger entlassen!</German>
+      <French>{Users} a été licencié en tant que bénévole!</French>
+      <Japanese>{Users} はボランティアとして解任されました！</Japanese>
+      <Italian>{Users} è stato licenziato come volontario!</Italian>
+      <Polish>{Users} został zwolniony jako ochotnik!</Polish>
+      <Spanish>¡{Users} fue despedido como voluntario!</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>@{$Editor}: {$Content}</Chinese>
+      <English>@{$Editor}: {$Content}</English>
+      <ChineseTraditional>@{$Editor}: {$Content}</ChineseTraditional>
+      <German>@{$Editor}: {$Content}</German>
+      <French>@{$Editor}: {$Content}</French>
+      <Japanese>@{$Editor}: {$Content}</Japanese>
+      <Italian>@{$Editor}: {$Content}</Italian>
+      <Polish>@{$Editor}: {$Content}</Polish>
+      <Spanish>@{$Editor}: {$Content}</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Subject</Push>
+  </Message>
+  <Message>
+    <ID>5ed6d3cde5654e0ec0d0ed79</ID>
+    <Identifier>Appointment-Junior</Identifier>
+    <CategoryID>Attention</CategoryID>
+    <Subject>
+      <Chinese>{Users} 被任命为见习编辑！</Chinese>
+      <English>{Users} was appointed as a junior editor!</English>
+      <ChineseTraditional>{Users} 被任命為見習編輯！</ChineseTraditional>
+      <German>{Users} wurde zum Junior Editor ernannt!</German>
+      <French>{Users} a été nommé rédacteur junior!</French>
+      <Japanese>{Users} がジュニアエディターに任命されました。</Japanese>
+      <Italian>{Users} è stato nominato editor junior!</Italian>
+      <Polish>{Users} został mianowany młodszym redaktorem!</Polish>
+      <Spanish>¡{Users} fue nombrado editor junior!</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>@{$Editor}: {$Content}</Chinese>
+      <English>@{$Editor}: {$Content}</English>
+      <ChineseTraditional>@{$Editor}: {$Content}</ChineseTraditional>
+      <German>@{$Editor}: {$Content}</German>
+      <French>@{$Editor}: {$Content}</French>
+      <Japanese>@{$Editor}: {$Content}</Japanese>
+      <Italian>@{$Editor}: {$Content}</Italian>
+      <Polish>@{$Editor}: {$Content}</Polish>
+      <Spanish>@{$Editor}: {$Content}</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Subject</Push>
+  </Message>
+  <Message>
+    <ID>5ed6d3cde5654e0ec0d0ed7a</ID>
+    <Identifier>Dismissal-Junior</Identifier>
+    <CategoryID>Attention</CategoryID>
+    <Subject>
+      <Chinese>{Users} 被解除见习编辑身份！</Chinese>
+      <English>{Users} was dismissed as a junior editor!</English>
+      <ChineseTraditional>{Users} 被解除見習編輯身份！</ChineseTraditional>
+      <German>{Users} wurde als Junior Editor entlassen!</German>
+      <French>{Users} a été licencié en tant que rédacteur junior!</French>
+      <Japanese>{Users} はジュニアエディターとして解任されました！</Japanese>
+      <Italian>{Users} è stato licenziato come editore junior!</Italian>
+      <Polish>{Users} został zwolniony jako młodszy redaktor!</Polish>
+      <Spanish>¡{Users} fue despedido como editor junior!</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>@{$Editor}: {$Content}</Chinese>
+      <English>@{$Editor}: {$Content}</English>
+      <ChineseTraditional>@{$Editor}: {$Content}</ChineseTraditional>
+      <German>@{$Editor}: {$Content}</German>
+      <French>@{$Editor}: {$Content}</French>
+      <Japanese>@{$Editor}: {$Content}</Japanese>
+      <Italian>@{$Editor}: {$Content}</Italian>
+      <Polish>@{$Editor}: {$Content}</Polish>
+      <Spanish>@{$Editor}: {$Content}</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Subject</Push>
+  </Message>
+  <Message>
+    <ID>5ed6d3cee5654e0ec0d0ed7b</ID>
+    <Identifier>Appointment-Editor</Identifier>
+    <CategoryID>Attention</CategoryID>
+    <Subject>
+      <Chinese>{Users} 被任命为正式编辑！</Chinese>
+      <English>{Users} was appointed as an editor!</English>
+      <ChineseTraditional>{Users} 被任命為正式編輯！</ChineseTraditional>
+      <German>{Users} wurde zum Editor ernannt!</German>
+      <French>{Users} a été nommé éditeur!</French>
+      <Japanese>{Users} が編集者に任命されました！</Japanese>
+      <Italian>{Users} è stato nominato editore!</Italian>
+      <Polish>{Users} został wyznaczony na redaktora!</Polish>
+      <Spanish>¡{Users} fue nombrado editor!</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>@{$Editor}: {$Content}</Chinese>
+      <English>@{$Editor}: {$Content}</English>
+      <ChineseTraditional>@{$Editor}: {$Content}</ChineseTraditional>
+      <German>@{$Editor}: {$Content}</German>
+      <French>@{$Editor}: {$Content}</French>
+      <Japanese>@{$Editor}: {$Content}</Japanese>
+      <Italian>@{$Editor}: {$Content}</Italian>
+      <Polish>@{$Editor}: {$Content}</Polish>
+      <Spanish>@{$Editor}: {$Content}</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Subject</Push>
+  </Message>
+  <Message>
+    <ID>5ed6d3cfe5654e0ec0d0ed7c</ID>
+    <Identifier>Dismissal-Editor</Identifier>
+    <CategoryID>Attention</CategoryID>
+    <Subject>
+      <Chinese>{Users} 被解除编辑身份！</Chinese>
+      <English>{Users} was dismissed as an editor!</English>
+      <ChineseTraditional>{Users} 被解除編輯身份！</ChineseTraditional>
+      <German>{Users} wurde als Editor entlassen!</German>
+      <French>{Users} a été révoqué en tant qu'éditeur!</French>
+      <Japanese>{Users} は編集者として解任されました！</Japanese>
+      <Italian>{Users} è stato licenziato come editore!</Italian>
+      <Polish>{Users} został odrzucony jako redaktor!</Polish>
+      <Spanish>¡{Users} fue despedido como editor!</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>@{$Editor}: {$Content}</Chinese>
+      <English>@{$Editor}: {$Content}</English>
+      <ChineseTraditional>@{$Editor}: {$Content}</ChineseTraditional>
+      <German>@{$Editor}: {$Content}</German>
+      <French>@{$Editor}: {$Content}</French>
+      <Japanese>@{$Editor}: {$Content}</Japanese>
+      <Italian>@{$Editor}: {$Content}</Italian>
+      <Polish>@{$Editor}: {$Content}</Polish>
+      <Spanish>@{$Editor}: {$Content}</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Subject</Push>
+  </Message>
+</Messages>

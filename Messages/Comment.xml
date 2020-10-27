@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+  <Message>
+    <ID>5ca8a56f3707367078f962ce</ID>
+    <Identifier>Comment-At-Experiment</Identifier>
+    <CategoryID>Comment</CategoryID>
+    <Subject>
+      <Chinese>{Users} 在 {Experiment} 中提到了你。</Chinese>
+      <English>{Users} mentioned you in {Experiment}.</English>
+      <ChineseTraditional>{Users} 在 {Experiment} 中提到了你。</ChineseTraditional>
+      <German>{Users} hat Sie in {Experiment} erwähnt.</German>
+      <French>{Users} vous a mentionné dans {Experiment}.</French>
+      <Japanese>{Users} が {Experiment} であなたのことを言っています。</Japanese>
+      <Italian>{Users} ti ha menzionato in {Experiment}.</Italian>
+      <Polish>{Users} wspomnieli o Tobie w {Experiment}.</Polish>
+      <Spanish>{Users} te mencionó en {Experiment}.</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>{$Content}</Chinese>
+      <English>{$Content}</English>
+      <ChineseTraditional>{$Content}</ChineseTraditional>
+      <German>{$Content}</German>
+      <French>{$Content}</French>
+      <Japanese>{$Content}</Japanese>
+      <Italian>{$Content}</Italian>
+      <Polish>{$Content}</Polish>
+      <Spanish>{$Content}</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Both</Push>
+  </Message>
+  <Message>
+    <ID>5ca8a56f3707367078f962cf</ID>
+    <Identifier>Comment-At-Comment</Identifier>
+    <CategoryID>Comment</CategoryID>
+    <Subject>
+      <Chinese>{Users} 在评论中提到了你。</Chinese>
+      <English>{Users} mentioned you in comment.</English>
+      <ChineseTraditional>{Users} 在評論中提到了你。</ChineseTraditional>
+      <German>{Users} haben Sie in einem Kommentar erwähnt.</German>
+      <French>{Users} vous a mentionné dans un commentaire.</French>
+      <Japanese>{Users} からコメントがありました。</Japanese>
+      <Italian>{Users} ti ha menzionato nel commento.</Italian>
+      <Polish>{Users} wspomnieli o Tobie w komentarzu.</Polish>
+      <Spanish>{Users} te mencionaron en un comentario.</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>{$Content}</Chinese>
+      <English>{$Content}</English>
+      <ChineseTraditional>{$Content}</ChineseTraditional>
+      <German>{$Content}</German>
+      <French>{$Content}</French>
+      <Japanese>{$Content}</Japanese>
+      <Italian>{$Content}</Italian>
+      <Polish>{$Content}</Polish>
+      <Spanish>{$Content}</Spanish>
+    </Content>
+    <Action>ShowComment</Action>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Both</Push>
+  </Message>
+  <Message>
+    <ID>5ce0092a64f5021d74bed1fd</ID>
+    <Identifier>Comment-Experiment</Identifier>
+    <CategoryID>Comment</CategoryID>
+    <Subject>
+      <Chinese>{Users} 评论了你的 {Experiment}。</Chinese>
+      <English>{Users} commented on your {Experiment}.</English>
+      <ChineseTraditional>{Users} 評論了你的 {Experiment}。</ChineseTraditional>
+      <German>{Users} hat Ihr {Experiment} kommentiert.</German>
+      <French>{Users} ont commenté votre {Experiment}.</French>
+      <Japanese>{Users} があなたの {Experiment} にコメントしました。</Japanese>
+      <Italian>{Users} ha commentato il tuo {Experiment}.</Italian>
+      <Polish>{Users} skomentowali Twój {Experiment}.</Polish>
+      <Spanish>{Users} comentaron su {Experimento}.</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>{$Content}</Chinese>
+      <English>{$Content}</English>
+      <ChineseTraditional>{$Content}</ChineseTraditional>
+      <German>{$Content}</German>
+      <French>{$Content}</French>
+      <Japanese>{$Content}</Japanese>
+      <Italian>{$Content}</Italian>
+      <Polish>{$Content}</Polish>
+      <Spanish>{$Content}</Spanish>
+    </Content>
+    <Action>ShowComment</Action>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Both</Push>
+  </Message>
+  <Message>
+    <ID>5ef8df952a9939aaac8bf97d</ID>
+    <Identifier>Comment-Discussion</Identifier>
+    <CategoryID>Comment</CategoryID>
+    <Subject>
+      <Chinese>{Users} 评论了你的 {Experiment}。</Chinese>
+      <English>{Users} commented on your {Experiment}.</English>
+      <ChineseTraditional>{Users} 評論了你的 {Experiment}。</ChineseTraditional>
+      <German>{Users} hat Ihr {Experiment} kommentiert.</German>
+      <French>{Users} ont commenté votre {Experiment}.</French>
+      <Japanese>{Users} があなたの {Experiment} にコメントしました。</Japanese>
+      <Italian>{Users} ha commentato il tuo {Experiment}.</Italian>
+      <Polish>{Users} skomentowali Twój {Experiment}.</Polish>
+      <Spanish>{Users} comentaron su {Experimento}.</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>{$Content}</Chinese>
+      <English>{$Content}</English>
+      <ChineseTraditional>{$Content}</ChineseTraditional>
+      <German>{$Content}</German>
+      <French>{$Content}</French>
+      <Japanese>{$Content}</Japanese>
+      <Italian>{$Content}</Italian>
+      <Polish>{$Content}</Polish>
+      <Spanish>{$Content}</Spanish>
+    </Content>
+    <Action>ShowComment</Action>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>s
+    <Push>Both</Push></Message>
+  <Message>
+    <ID>5ef8df962a9939aaac8bf97e</ID>
+    <Identifier>Comment-Model</Identifier>
+    <CategoryID>Comment</CategoryID>
+    <Subject>
+      <Chinese>{Users} 评论了你的 {Experiment}。</Chinese>
+      <English>{Users} commented on your {Experiment}.</English>
+      <ChineseTraditional>{Users} 評論了你的 {Experiment}。</ChineseTraditional>
+      <German>{Users} hat Ihr {Experiment} kommentiert.</German>
+      <French>{Users} ont commenté votre {Experiment}.</French>
+      <Japanese>{Users} があなたの {Experiment} にコメントしました。</Japanese>
+      <Italian>{Users} ha commentato il tuo {Experiment}.</Italian>
+      <Polish>{Users} skomentowali Twój {Experiment}.</Polish>
+      <Spanish>{Users} comentaron su {Experimento}.</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>{$Content}</Chinese>
+      <English>{$Content}</English>
+      <ChineseTraditional>{$Content}</ChineseTraditional>
+      <German>{$Content}</German>
+      <French>{$Content}</French>
+      <Japanese>{$Content}</Japanese>
+      <Italian>{$Content}</Italian>
+      <Polish>{$Content}</Polish>
+      <Spanish>{$Content}</Spanish>
+    </Content>
+    <Action>ShowComment</Action>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Both</Push>
+  </Message>
+  <Message>
+    <ID>5ce0092c64f5021d74bed1fe</ID>
+    <Identifier>Comment-User</Identifier>
+    <CategoryID>Comment</CategoryID>
+    <Subject>
+      <Chinese>{Users} 在你的主页留言了。</Chinese>
+      <English>{Users} commented on your homepage.</English>
+      <ChineseTraditional>{Users} 在你的主頁留言了。</ChineseTraditional>
+      <German>{Users} hat Ihre Homepage kommentiert.</German>
+      <French>{Users} ont commenté sur votre page d'accueil.</French>
+      <Japanese>{Users} があなたのホームページにコメントしました。</Japanese>
+      <Italian>{Users} ha commentato la tua home page.</Italian>
+      <Polish>{Users} skomentowali Twoją stronę główną.</Polish>
+      <Spanish>{Users} comentaron en su página de inicio.</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>{$Content}</Chinese>
+      <English>{$Content}</English>
+      <ChineseTraditional>{$Content}</ChineseTraditional>
+      <German>{$Content}</German>
+      <French>{$Content}</French>
+      <Japanese>{$Content}</Japanese>
+      <Italian>{$Content}</Italian>
+      <Polish>{$Content}</Polish>
+      <Spanish>{$Content}</Spanish>
+    </Content>
+    <Action>ShowComment</Action>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Both</Push>
+  </Message>
+  <Message>
+    <ID>5ce0092f64f5021d74bed1ff</ID>
+    <Identifier>Comment-Replied</Identifier>
+    <CategoryID>Comment</CategoryID>
+    <Subject>
+      <Chinese>{Users} 回复了你的评论。</Chinese>
+      <English>{Users} replied your comment.</English>
+      <ChineseTraditional>{Users} 回復了你的評論。</ChineseTraditional>
+      <German>{Users} hat auf Ihren Kommentar geantwortet.</German>
+      <French>{Users} a répondu à votre commentaire.</French>
+      <Japanese>{Users} からあなたのコメントが返信されました。</Japanese>
+      <Italian>{Users} ha risposto al tuo commento.</Italian>
+      <Polish>{Users} odpowiedzieli na Twój komentarz.</Polish>
+      <Spanish>{Users} respondieron tu comentario.</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>{$Content}</Chinese>
+      <English>{$Content}</English>
+      <ChineseTraditional>{$Content}</ChineseTraditional>
+      <German>{$Content}</German>
+      <French>{$Content}</French>
+      <Japanese>{$Content}</Japanese>
+      <Italian>{$Content}</Italian>
+      <Polish>{$Content}</Polish>
+      <Spanish>{$Content}</Spanish>
+    </Content>
+    <Action>ShowComment</Action>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+    <Push>Both</Push>
+  </Message>
+</Messages>
