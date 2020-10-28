@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Library>
   <Identifier>Mathematics</Identifier>
-  <Subject>Mathematics</Subject>
+  <Subject>Matemáticas</Subject>
   <Language>Spanish</Language>
   <Block>
     <Type>Topic</Type>
-    <Header>FEATURED</Header>
+    <Header>DESTACADO</Header>
     <FetchSource>Individual</FetchSource>
     <FetchConfiguration>
       <ID>5ec6c6139f303f00016e4c31</ID>
@@ -14,7 +14,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>CLASSIC MODELS</Header>
+    <Header>MODELOS CLÁSICOS</Header>
     <TargetLink>models://Tags/数学/Sort/Popularity</TargetLink>
     <TargetJson></TargetJson>
     <FetchSource>Community</FetchSource>
@@ -26,7 +26,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>TRENDING EXPERIMENTS</Header>
+    <Header>EXPERIMENTOS EN TENDENCIA</Header>
     <TargetLink>experiments://ModelTags/数学/Days/14/Sort/Popularity</TargetLink>
     <TargetJson></TargetJson>
     <FetchSource>Community</FetchSource>
@@ -39,7 +39,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>FEATURED EXPERIMENTS</Header>
+    <Header>EXPERIMENTOS DESTACADOS</Header>
     <TargetLink>experiments://ModelTags/数学/Tags/精选</TargetLink>
     <TargetJson></TargetJson>
     <FetchSource>Community</FetchSource>
@@ -51,7 +51,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>LATEST EXPERIMENTS</Header>
+    <Header>ULTIMOS EXPERIMENTOS</Header>
     <TargetLink>experiments://ModelTags/数学</TargetLink>
     <TargetJson></TargetJson>
     <FetchSource>Community</FetchSource>

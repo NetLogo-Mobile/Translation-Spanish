@@ -5,7 +5,7 @@
   <IsNavigation>True</IsNavigation>
   <Block>
     <Type>Topic</Type>
-    <Header>FEATURED</Header>
+    <Header>DESTACADO</Header>
     <FetchSource>Individual</FetchSource>
     <FetchConfiguration>
       <ID>5ec6c6139f303f00016e4c31</ID>
@@ -17,7 +17,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>POPULAR MODELS</Header>
+    <Header>MODELOS POPULARES</Header>
     <TargetLink>models://Sort/Popularity</TargetLink>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>
@@ -27,7 +27,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>LATEST MODELS</Header>
+    <Header>ULTIMOS MODELOS</Header>
     <TargetLink>models://Sort/Default</TargetLink>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>
@@ -36,7 +36,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>ANNOUNCEMENTS</Header>
+    <Header>ANUNCIOS</Header>
     <TargetLink>experiments://Tags/公告</TargetLink>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>
@@ -46,7 +46,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>TRENDING EXPERIMENTS</Header>
+    <Header>EXPERIMENTOS EN TENDENCIA</Header>
     <TargetLink>experiments://Days/14/Sort/Popularity</TargetLink>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>
@@ -57,7 +57,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>LATEST EXPERIMENTS</Header>
+    <Header>ULTIMOS EXPERIMENTOS</Header>
     <TargetLink>experiments://Sort/Default</TargetLink>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>

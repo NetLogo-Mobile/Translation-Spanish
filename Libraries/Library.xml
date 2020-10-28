@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Library>
   <Identifier>Library</Identifier>
-  <Subject>Model Library</Subject>
+  <Subject>Biblioteca de Modelos</Subject>
   <Language>Spanish</Language>
   <IsNavigation>True</IsNavigation>
   <Block>
     <Type>List</Type>
-    <Header>SOCIAL SCIENCE</Header>
+    <Header>CIENCIA SOCIALES</Header>
     <TargetLink>library://SocialScience</TargetLink>
     <TargetJson></TargetJson>
     <FetchSource>Community</FetchSource>
@@ -18,7 +18,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>BIOLOGY</Header>
+    <Header>BIOLOGÍA</Header>
     <TargetLink>library://Biology</TargetLink>
     <TargetJson></TargetJson>
     <FetchSource>Community</FetchSource>
@@ -30,7 +30,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>CHEMISTRY</Header>
+    <Header>QUÍMICA</Header>
     <TargetLink>library://Chemistry</TargetLink>
     <TargetJson></TargetJson>
     <FetchSource>Community</FetchSource>
@@ -42,7 +42,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>MATHEMATICS</Header>
+    <Header>MATEMÁTICAS</Header>
     <TargetLink>library://Mathematics</TargetLink>
     <TargetJson></TargetJson>
     <FetchSource>Community</FetchSource>

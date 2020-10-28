@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Library>
   <Identifier>Workspace</Identifier>
-  <Subject>My Workspace</Subject>
+  <Subject>Mi Espacio de Trabajo</Subject>
     <!-- To translate: Subject -->
   <Language>Spanish</Language>
   <IsNavigation>True</IsNavigation>
   <Block>
     <Type>List</Type>
-    <Header>LOCAL EXPERIMENTS</Header>
+    <Header>EXPERIMENTOS LOCALES</Header>
     <TargetLink>experiments://Local</TargetLink>
     <FetchSource>Local</FetchSource>
   </Block>
   <Block>
     <Type>Topic</Type>
-    <Header>PUBLISHED</Header>
+    <Header>PUBLICADO</Header>
     <!-- To translate: Header -->
-    <Subject>My Models</Subject>
+    <Subject>Mis modelos</Subject>
     <!-- To translate: Subject -->
     <TargetLink>models://UserID/Mine</TargetLink>
     <FetchSource>User</FetchSource>
@@ -25,10 +25,10 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>MY FAVORITE MODELS</Header>
+    <Header>MIS MODELOS FAVORITOS</Header>
     <!-- To translate: Header -->
     <TargetLink>models://UserID/Mine/Special/Star</TargetLink>
-    <DefaultText>Browse Models</DefaultText>
+    <DefaultText>Navegar Modelos</DefaultText>
     <!-- To translate: DefaultText -->
     <DefaultLink>models://Sort/Popularity</DefaultLink>
     <FetchSource>User</FetchSource>
@@ -39,7 +39,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>SUPPORTED MODELS</Header>
+    <Header>MODELOS COMPATIBLES</Header>
     <TargetLink>models://UserID/Mine/Special/Support</TargetLink>
     <FetchSource>User</FetchSource>
     <FetchConfiguration>
@@ -49,8 +49,8 @@
   </Block>
   <Block>
     <Type>Topic</Type>
-    <Header>PUBLISHED</Header>
-    <Subject>My Experiments</Subject>
+    <Header>PUBLICADO</Header>
+    <Subject>Mis Experimentos</Subject>
     <TargetLink>experiments://UserID/Mine</TargetLink>
     <FetchSource>User</FetchSource>
     <FetchConfiguration>
@@ -59,9 +59,9 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>MY FAVORITE EXPERIMENTS</Header>
+    <Header>MIS EXPERIMENTOS FAVORITOS</Header>
     <TargetLink>experiments://UserID/Mine/Special/Star</TargetLink>
-    <DefaultText>Browse Experiments</DefaultText>
+    <DefaultText>Navegar Experimentos</DefaultText>
     <DefaultLink>experiments://Days/14/Sort/Popularity</DefaultLink>
     <FetchSource>User</FetchSource>
     <FetchConfiguration>
@@ -71,7 +71,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>SUPPORTED EXPERIMENTS</Header>
+    <Header>EXPERIMENTOS COMPATIBLES</Header>
     <TargetLink>experiments://UserID/Mine/Special/Support</TargetLink>
     <FetchSource>User</FetchSource>
     <FetchConfiguration>
