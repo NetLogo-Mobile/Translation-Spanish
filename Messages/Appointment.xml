@@ -13,7 +13,7 @@
       <Japanese>{Users} がボランティアとして任命されました！</Japanese>
       <Italian>{Users} è stato nominato volontario!</Italian>
       <Polish>{Users} został wyznaczony jako wolontariusz!</Polish>
-      <Spanish>¡{Users} fue nombrado voluntario!</Spanish>
+      <Spanish>¡{Users} fue nombrado como unvoluntario!</Spanish>
     </Subject>
     <Content>
       <Chinese>@{$Editor}: {$Content}</Chinese>
@@ -43,7 +43,7 @@
       <Japanese>{Users} はボランティアとして解任されました！</Japanese>
       <Italian>{Users} è stato licenziato come volontario!</Italian>
       <Polish>{Users} został zwolniony jako ochotnik!</Polish>
-      <Spanish>¡{Users} fue despedido como voluntario!</Spanish>
+      <Spanish>¡{Users} fue despedido como un voluntario!</Spanish>
     </Subject>
     <Content>
       <Chinese>@{$Editor}: {$Content}</Chinese>
@@ -73,7 +73,7 @@
       <Japanese>{Users} がジュニアエディターに任命されました。</Japanese>
       <Italian>{Users} è stato nominato editor junior!</Italian>
       <Polish>{Users} został mianowany młodszym redaktorem!</Polish>
-      <Spanish>¡{Users} fue nombrado editor junior!</Spanish>
+      <Spanish>¡{Users} fue nombrado como un editor junior!</Spanish>
     </Subject>
     <Content>
       <Chinese>@{$Editor}: {$Content}</Chinese>
@@ -103,7 +103,7 @@
       <Japanese>{Users} はジュニアエディターとして解任されました！</Japanese>
       <Italian>{Users} è stato licenziato come editore junior!</Italian>
       <Polish>{Users} został zwolniony jako młodszy redaktor!</Polish>
-      <Spanish>¡{Users} fue despedido como editor junior!</Spanish>
+      <Spanish>¡{Users} fue despedido como un editor junior!</Spanish>
     </Subject>
     <Content>
       <Chinese>@{$Editor}: {$Content}</Chinese>
@@ -133,7 +133,7 @@
       <Japanese>{Users} が編集者に任命されました！</Japanese>
       <Italian>{Users} è stato nominato editore!</Italian>
       <Polish>{Users} został wyznaczony na redaktora!</Polish>
-      <Spanish>¡{Users} fue nombrado editor!</Spanish>
+      <Spanish>¡{Users} fue nombrado como un editor!</Spanish>
     </Subject>
     <Content>
       <Chinese>@{$Editor}: {$Content}</Chinese>
@@ -163,7 +163,7 @@
       <Japanese>{Users} は編集者として解任されました！</Japanese>
       <Italian>{Users} è stato licenziato come editore!</Italian>
       <Polish>{Users} został odrzucony jako redaktor!</Polish>
-      <Spanish>¡{Users} fue despedido como editor!</Spanish>
+      <Spanish>¡{Users} fue despedido como un editor!</Spanish>
     </Subject>
     <Content>
       <Chinese>@{$Editor}: {$Content}</Chinese>

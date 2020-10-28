@@ -13,7 +13,7 @@
       <Japanese>{Experiment} が特集されました！</Japanese>
       <Italian>{Experiment} è stato presentato!</Italian>
       <Polish>{Experiment} został wyróżniony!</Polish>
-      <Spanish>¡Se ha destacado {Experiment}!</Spanish>
+      <Spanish>¡{Experiment} ha sido destacado!</Spanish>
     </Subject>
     <Content>
       <Chinese>编辑 {Users} 执行了这一操作。</Chinese>
@@ -43,7 +43,7 @@
       <Japanese>{Experiment} の機能ステータスはキャンセルされました。</Japanese>
       <Italian>Lo stato delle funzioni di {Experiment} è stato annullato!</Italian>
       <Polish>Stan funkcji {Experiment} został anulowany!</Polish>
-      <Spanish>¡El estado de la función de {Experiment} ha sido cancelado!</Spanish>
+      <Spanish>¡El estado destacado de {Experiment} ha sido cancelado!</Spanish>
     </Subject>
     <Content>
       <Chinese>编辑 {Users} 执行了这一操作。</Chinese>
@@ -73,7 +73,7 @@
       <Japanese>{Experiment}はブラックホールに移動しました！</Japanese>
       <Italian>{Experiment} è stato spostato nel buco nero!</Italian>
       <Polish>{Experiment} został przeniesiony do Black Hole!</Polish>
-      <Spanish>{Experiment} se ha trasladado a Black Hole.</Spanish>
+      <Spanish>{Experiment} ha sido movido a la área del Agujero Negro.</Spanish>
     </Subject>
     <Content>
       <Chinese>编辑/志愿者 {Users} 执行了这一操作。</Chinese>
@@ -84,7 +84,7 @@
       <Japanese>編集者/ボランティア{ユーザー}がやった。</Japanese>
       <Italian>L'editore / volontario {Users} lo ha fatto.</Italian>
       <Polish>Redaktor / ochotnik {Users} to zrobił.</Polish>
-      <Spanish>El editor / voluntario {Users} lo hizo.</Spanish>
+      <Spanish>El editor/voluntario {Users} lo hizo.</Spanish>
     </Content>
     <From>2019-01-01</From>
     <Until>2030-01-01</Until>
@@ -103,7 +103,7 @@
       <Japanese>{実験}は実験に移動しました！</Japanese>
       <Italian>{Experiment} è stato spostato in Experiment!</Italian>
       <Polish>{Experiment} został przeniesiony do Experiment!</Polish>
-      <Spanish>{Experiment} se ha movido a Experiment.</Spanish>
+      <Spanish>{Experiment} a sido movido a Experimento.</Spanish>
     </Subject>
     <Content>
       <Chinese>编辑/志愿者 {Users} 执行了这一操作。</Chinese>
@@ -114,7 +114,7 @@
       <Japanese>編集者/ボランティア{ユーザー}がやった。</Japanese>
       <Italian>L'editore / volontario {Users} lo ha fatto.</Italian>
       <Polish>Redaktor / ochotnik {Users} to zrobił.</Polish>
-      <Spanish>El editor / voluntario {Users} lo hizo.</Spanish>
+      <Spanish>El editor/voluntario {Users} lo hizo.</Spanish>
     </Content>
     <From>2019-01-01</From>
     <Until>2030-01-01</Until>
@@ -144,7 +144,7 @@
       <Japanese>{Experiment} の変更が適切でないと思われる場合は、編集者にお問い合わせください。</Japanese>
       <Italian>Se ritieni che la modifica di {Experiment} non sia appropriata, contatta l'editor.</Italian>
       <Polish>Jeśli uważasz, że modyfikacja w {Experiment} nie jest odpowiednia, skontaktuj się z redaktorem.</Polish>
-      <Spanish>Si cree que la modificación en {Experiment} no es apropiada, comuníquese con el editor.</Spanish>
+      <Spanish>Si cree que la modificación en {Experiment} no es apropiada, por favor contacta el editor.</Spanish>
     </Content>
     <From>2019-01-01</From>
     <Until>2030-01-01</Until>
@@ -163,7 +163,7 @@
       <Japanese>{Experiment} は非表示にされました。</Japanese>
       <Italian>{Experiment} è stato reso nascosto.</Italian>
       <Polish>{Experiment} został ukryty.</Polish>
-      <Spanish>{Experiment} se ha ocultado.</Spanish>
+      <Spanish>{Experiment} se ha escondido.</Spanish>
     </Subject>
     <Content>
       <Chinese>编辑 {Users} 执行了这一操作。请注意不要发布可能违反法律法规或涉嫌抄袭的内容。</Chinese>
@@ -174,7 +174,7 @@
       <Japanese>エディタ {Users} がやりました。法律、規制に違反する、または盗作を含むような実験は公開しないでください。</Japanese>
       <Italian>L'editor {Users} l'ha fatto. Si prega di non rilasciare alcun esperimento che violi le leggi, i regolamenti o implichi il plagio.</Italian>
       <Polish>Redaktor {Users} to zrobił. Prosimy nie publikować żadnych eksperymentów, które naruszają przepisy, regulacje lub wiążą się z plagiatem.</Polish>
-      <Spanish>El editor {Users} lo hizo. Por favor, no publique ningún experimento que viole las leyes, regulaciones o implique plagio.</Spanish>
+      <Spanish>El editor {Users} lo hizo. Por favor no publique experimentos que infrinjan las leyes, regulaciones o implique plagio.</Spanish>
     </Content>
     <From>2019-01-01</From>
     <Until>2030-01-01</Until>
@@ -193,7 +193,7 @@
       <Japanese>編集者 {Users} は、コミュニティの権利を {$Until} まで停止しました。</Japanese>
       <Italian>L'editor {Users} ha sospeso i diritti della tua comunità fino a {$Until}.</Italian>
       <Polish>Redaktor {Users} zawiesił Twoje prawa społeczności do {$ Until}.</Polish>
-      <Spanish>El editor {Users} suspendió sus derechos comunitarios hasta el {$ Hasta}.</Spanish>
+      <Spanish>El editor {Users} suspendió sus derechos comunitarios hasta {$ Hasta}.</Spanish>
     </Subject>
     <Content>
       <Chinese>{$Content}</Chinese>
@@ -223,7 +223,7 @@
       <Japanese>編集者 {Users} がコミュニティの権利を回復しました。</Japanese>
       <Italian>L'editor {Users} ha ripristinato i diritti della community.</Italian>
       <Polish>Redaktor {Users} przywrócił Twoje prawa społeczności.</Polish>
-      <Spanish>El editor {Users} restauró sus derechos de comunidad.</Spanish>
+      <Spanish>El editor {Users} restauró sus derechos comunitarios.</Spanish>
     </Subject>
     <Content>
       <Chinese>{$Content}</Chinese>
@@ -253,7 +253,7 @@
       <Japanese>コミュニティの権利は自動的に復元されました。</Japanese>
       <Italian>I diritti della tua comunità sono stati ripristinati automaticamente.</Italian>
       <Polish>Twoje prawa społeczności zostały automatycznie przywrócone.</Polish>
-      <Spanish>Sus derechos comunitarios se han restaurado automáticamente.</Spanish>
+      <Spanish>Sus derechos comunitarios han sido restaurados automáticamente.</Spanish>
     </Subject>
     <Content>
       <Chinese>{$Content}</Chinese>
@@ -283,7 +283,7 @@
       <Japanese>{Users} のコミュニティの権利は {$Until} まで停止されます。</Japanese>
       <Italian>I diritti della community di {Users} sono sospesi fino al {$Until}.</Italian>
       <Polish>Prawa społeczności użytkownika {Users} są zawieszone do {$ Do}.</Polish>
-      <Spanish>Los derechos de la comunidad de {Users} están suspendidos hasta el {$ Hasta}.</Spanish>
+      <Spanish>Los derechos comunitarios de {Users} están suspendidos hasta el {$ Hasta}.</Spanish>
     </Subject>
     <Content>
       <Chinese>@{$Editor}: {$Content}</Chinese>
@@ -313,7 +313,7 @@
       <Japanese>{Users} のコミュニティの権利が復元されます。</Japanese>
       <Italian>I diritti della community di {Users} sono stati ripristinati.</Italian>
       <Polish>Prawa wspólnoty {Users} zostały przywrócone.</Polish>
-      <Spanish>Se restauran los derechos de la comunidad de {Users}.</Spanish>
+      <Spanish>Los derechos comunitarios de {Users} han sido restaurados.</Spanish>
     </Subject>
     <Content>
       <Chinese>@{$Editor}: {$Content}</Chinese>
