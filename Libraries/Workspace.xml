@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Library>
+  <ID>5fac3b6a7b4386e93cf61e56</ID>
   <Identifier>Workspace</Identifier>
   <Subject>Mi Espacio de Trabajo</Subject>
-    <!-- To translate: Subject -->
+  <!-- To translate: Subject -->
   <Language>Spanish</Language>
   <IsNavigation>True</IsNavigation>
   <Block>
