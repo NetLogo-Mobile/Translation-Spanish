@@ -354,8 +354,8 @@
   </Activities>
   <Users>
     <String ID="匿名用户" Status="0" English="Anonymous User">Usuario anónimo</String>
-    <String ID="点击登录" Status="0" English="Click to Login">Haz clic para iniciar sesión</String>
-    <String ID="点击修改昵称" Status="0" English="Click to edit">Haz click para editar</String>
+    <String ID="点击登录" Status="0" English="Click to Login">Iniciar sesión</String>
+    <String ID="点击修改昵称" Status="0" English="Click to edit">Editar apodo</String>
     <String ID="请输入你的昵称" Status="0" English="Please enter your nickname">Escribe su apodo</String>
     <String ID="请输入你的签名" Status="0" English="Please enter your signature">Por favor ingrese su firma</String>
     <String ID="长度介于 2 到 10 汉字之间" Status="0" English="Between 2 and 10 characters">Entre 2 y 10 caracteres</String>
