@@ -1,55 +1,61 @@
-﻿WHAT IS IT?
-The interlocking spirals found in the seeds, petals and even branches of many plants occur naturally through the growth of the flower. This model attempts to demonstrate the growth of these naturally occurring spirals.
+﻿¿QUÉ ES?
 
-When a new seed emerges, the older ones grow slightly and move further from the center--the source--and the youngest seed finds the largest gap between existing seeds, in which it can grow. This gap can be found by turning counter clockwise. The angle made by this turn is a multiple of the golden ratio (1.618). The golden ratio, based on the Fibonacci series (1, 1, 2, 3, 5, 8, 13...), equals the limit of F(n)/F(n-1). Thus, these spirals can be mathematically generated, using the golden ratio.
+Las espirales entrelazadas que se pueden ver en las semillas, pétalos y hasta las ramas de muchas plantas ocurren naturalmente a través del crecimiento de la flor. Este modelo trata demostrar el crecimiento de estas espirales que ocurren naturalmente.
 
-HOW IT WORKS
-For each clock-tick, a new turtle (can be seen as a seed or a petal) is created. As in nature, the turtle finds the appropriate position and begins growing. The 'appropriate position' is defined as the number of clock-ticks times the 'turn increment'. All of the other existing turtles move forward and grow slightly, with each clock-tick. If a turtle gets too close to the edge of the world, it dies.
+Cuando una semilla nueva emerge, las más viejas crecen un poco y se alejan del centro--la fuente--y la semilla más joven encuentra la brecha más grande entre las semillas existentes, en la que puede crecer. Esta brecha se puede encontrar girando en sentido antihorario. El ángulo creado por este giro es un múltiplo de la proporción áurea (1.618). La proporción áurea, la cual se basa en la serie de Fibonacci (1, 1, 2, 3, 5, 8, 13…), es igual al límite de F(n)/F(n-1). Entonces, las espirales se pueden generar matemáticamente, usando la proporción áurea.
 
-HOW TO USE IT
-The NUM-COLORS slider controls how many colors the turtles can be. (Using this will make some of the spirals stand out more, other stand out less.)
+COMO FUNCIONA
 
-The STEP-SIZE slider controls how far away the turtle moves from the center, for each clock-tick.
+Para cada tic del reloj, una tortuga nueva (se puede ver como una semilla o una pétalo) se crea. Como en la naturaleza, la tortuga encuentra una posición adecuada y empieza a crecer. La “posición adecuada” se define como el número de tics del reloj por el “incremento de giro”. Todas las otras tortugas existentes avanzan y crecen un poco, con cada tic del reloj. Si una tortuga se arrima al borde del mundo demasiado, se muere.
 
-The TURN-INCREMENT slider dictates the degree that each new turtle will turn to set its position in the spiral.
+COMO USARLO
 
-The SET TURN-INCREMENT buttons help to set the TURN-INCREMENT slider to specific values at and around the golden ratio. They are simply there to help achieve precision that can be difficult with the slider.
+El control deslizador NUM-COLORES controla cuántos colores las tortugas pueden ser. (Usando esto hará que algunas de las espirales se destaquen más, y que otras se destaquen menos.)
 
-THINGS TO NOTICE
-Think about the spirals that you see. How many different ways can you make a pattern of spirals?
+El control deslizador PASO-TAMANO controla qué tan lejos se mueve la tortuga del centro, para cada tic del reloj.
 
-THINGS TO TRY
-How does adding colors change the spirals you see? Does this change the phenomena, or only what you see?
+El control deslizante INCREMENTO-DE-GIRO dicta el grado en que cada nueva tortuga girará para establecer su posición en la espiral.
 
-EXTENDING THE MODEL
-Make the spirals go counter-clockwise.
+Los botones de ESTABLECER INCREMENTO-DE-GIRO ayudan a configurar el control deslizante INCREMENTO-DE-GIRO a valores específicos en y alrededor de la proporción áurea. 
 
-Make the model draw your favorite flower's petal or seed pattern. For example, a buttercup or columbine could be made by creating 5 large petals of the appropriate colors.
+COSAS PARA NOTAR
 
-In nature, real plants don't have the golden ratio "programmed" into them. Rather, the spirals form as the result of an emergent process, described in Conway and Guy's book (see below) and other sources. Can you extend this model to capture this emergent process?
+Piensa en las espirales que ves. ¿De cuántas formas diferentes puedes hacer un patrón de espirales?
 
-NETLOGO FEATURES
-Note in the code that the turtles "die" when they get too far from the center of the world, so they make a circular pattern.
+COSAS PARA INTENTAR
 
-CREDITS AND REFERENCES
-This is based on pp. 113-24 of John H. Conway and Richard K. Guy's "The Book of Numbers".
+¿Si añades más colores, cómo afectan las espirales que ves? ¿Cambia el fenómeno o solo lo que ves?
 
-HOW TO CITE
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+EXTENDIENDO EL MODELO
 
-For the model itself:
+Haz que las espirales vayan en sentido antihorario.
 
-Wilensky, U. (2003). NetLogo Sunflower model. http://ccl.northwestern.edu/netlogo/models/Sunflower. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
-Please cite the NetLogo software as:
+Haz que el modelo dibuje el pétalo o la patrona de semillas de tu flor favorita. Por ejemplo, un botón de oro o flor de aguileña se pueden hacer creando 5 pétalos grandes de los colores apropiados. 
+
+En la naturaleza, las plantas reales no tienen la proporción áurea “programada” en ellas. Mejor dicho, las espirales se forman como resultado de un proceso emergente, descrito en el libro de Conway y Guy (ver más abajo) y otras fuentes. ¿Puedes extender este modelo para capturar este proceso emergente?
+
+CARACTERÍSTICAS DE NETLOGO
+
+Tenga en cuenta que en el código, las tortugas “mueren” cuando se alejan demasiado del centro del mundo, entonces hace un patrón circular.
+
+MODELOS RELACIONADOS
+
+Esto se basa en las pp. 113-24 de “The Book of Numbers” por John H. Conway y Richard K. Guy.
+COMO CITAR
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
+
+Para el modelo:
+Wilensky, U. (1997). NetLogo Sunflower model. http://ccl.northwestern.edu/netlogo/models/Sunflower. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Por favor cita el software de NetLogo como:
 
 Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
-COPYRIGHT AND LICENSE
-Copyright 2003 Uri Wilensky.
 
-CC BY-NC-SA 3.0
+DERECHOS DE AUTOR Y LICENCIA
+Derechos de Autor 1997 Uri Wilensky
 
-This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+Este trabajo tiene licencia bajo Creative Commons Attribution–NonCommercial-ShareAlike 3.0 License. Para ver una copia de esta licencia, visita https://creativecommons.org/licenses/by-nc-sa/3.0/ o manda una carta a Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
 
-Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+Licencias comerciales también están disponibles. Para preguntar sobre licencias comerciales, por favor contacta Uri Wilensky a uri@northwestern.edu.
 
-This model was created as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227.
+Traductora: Chelsea Guzman
