@@ -1,84 +1,85 @@
-﻿WHAT IS IT?
-This model explores the stability of predator-prey ecosystems. Such a system is called unstable if it tends to result in extinction for one or more species involved. In contrast, a system is stable if it tends to maintain itself over time, despite fluctuations in population sizes.
+﻿¿QUÉ ES?
 
-HOW IT WORKS
-There are two main variations to this model.
+Este modelo explora la estabilidad de depredador-presa ecosistemas. Tal sistema se puede categorizar inestable si tiende a resultar en la extinción de uno o más especies involucrados. Por el contrario, si un sistema es estable si tiende a mantenerse con el tiempo, a pesar de fluctuaciones en los tamaños de población.
 
-In the first variation, the "sheep-wolves" version, wolves and sheep wander randomly around the landscape, while the wolves look for sheep to prey on. Each step costs the wolves energy, and they must eat sheep in order to replenish their energy - when they run out of energy they die. To allow the population to continue, each wolf or sheep has a fixed probability of reproducing at each time step. In this variation, we model the grass as "infinite" so that sheep always have enough to eat, and we don't explicitly model the eating or growing of grass. As such, sheep don't either gain or lose energy by eating or moving. This variation produces interesting population dynamics, but is ultimately unstable. This variation of the model is particularly well-suited to interacting species in a rich nutrient environment, such as two strains of bacteria in a petri dish (Gause, 1934).
+COMO FUNCIONA
 
-The second variation, the "sheep-wolves-grass" version explictly models grass (green) in addition to wolves and sheep. The behavior of the wolves is identical to the first variation, however this time the sheep must eat grass in order to maintain their energy - when they run out of energy they die. Once grass is eaten it will only regrow after a fixed amount of time. This variation is more complex than the first, but it is generally stable. It is a closer match to the classic Lotka Volterra population oscillation models. The classic LV models though assume the populations can take on real values, but in small populations these models underestimate extinctions and agent-based models such as the ones here, provide more realistic results. (See Wilensky & Rand, 2015; chapter 4).
+Hay dos variaciones principales en este modelo. 
 
-The construction of this model is described in two papers by Wilensky & Reisman (1998; 2006) referenced below.
+En la primera variación, la versión “ovejas-lobos”, lobos y ovejas vagando por el paisaje, mientras que los lobos buscan ovejas para cazar. Cada paso les cuesta energía a los lobos, y necesitan comer ovejas para que puedan reponer su energía - cuando ya no tienen energía se mueren. Para que la población continúe, cada lobo o oveja tiene una probabilidad fija de reproducir en cada paso de tiempo. En esta variación, modelamos el pasto como “infinito” para que las ovejas siempre tengan suficiente para comer, y nosotros no modelamos explícitamente la alimentación o el cultivo de pasto. Como tal, las ovejas no ganan ni pierden energía al comer o moverse. Esta variación produce una interesante dinámica de población, pero en última instancia es inestable. Esta variación del modelo es particularmente bien adaptada para especies interactuando en un ambiente rico en nutrientes, tal como dos cepas de bacterias en una placa de Petri. (Gause, 1934)
 
-HOW TO USE IT
-Set the model-version chooser to "sheep-wolves-grass" to include grass eating and growth in the model, or to "sheep-wolves" to only include wolves (black) and sheep (white).
-Adjust the slider parameters (see below), or use the default settings.
-Press the SETUP button.
-Press the GO button to begin the simulation.
-Look at the monitors to see the current population sizes
-Look at the POPULATIONS plot to watch the populations fluctuate over time
-Parameters: MODEL-VERSION: Whether we model sheep wolves and grass or just sheep and wolves INITIAL-NUMBER-SHEEP: The initial size of sheep population INITIAL-NUMBER-WOLVES: The initial size of wolf population SHEEP-GAIN-FROM-FOOD: The amount of energy sheep get for every grass patch eaten (Note this is not used in the sheep-wolves model version) WOLF-GAIN-FROM-FOOD: The amount of energy wolves get for every sheep eaten SHEEP-REPRODUCE: The probability of a sheep reproducing at each time step WOLF-REPRODUCE: The probability of a wolf reproducing at each time step GRASS-REGROWTH-TIME: How long it takes for grass to regrow once it is eaten (Note this is not used in the sheep-wolves model version) SHOW-ENERGY?: Whether or not to show the energy of each animal as a number
+En la segunda variación, la versión “ovejas-lobos-pasto” explícitamente modela pasto (verde) además de lobos y ovejas. El comportamiento de los lobos es idéntico a la primera versión, sin embargo este tiempo las ovejas necesitan comer pasto para que puedan mantener su energía - cuando ya no tienen energía se mueren. En cuanto el pasto sea comido, volverá a crecer después de un periodo de tiempo fijo. Esta variación es más compleja que la primera, pero es estable en general. Es un partido más similar a los modelos clásicos de oscilación de población Lotka Volterra. Sin embargo, los modelos clásicos de LV suponen que las poblaciones pueden tomar valores reales, pero en poblaciones pequeñas estos modelos subestiman las extinciones y los modelos basados en agentes, como los que se muestran aquí, proporcionan resultados más realistas. (Consulta Wilensky & Rand, 2015; capítulo 4)
 
-Notes: - one unit of energy is deducted for every step a wolf takes - when running the sheep-wolves-grass model version, one unit of energy is deducted for every step a sheep takes
+COMO USARLO
 
-There are three monitors to show the populations of the wolves, sheep and grass and a populations plot to display the population values over time.
+Establezca el selector de versión de modelo en “ovejas-lobos-pasto” para incluir pasto y crecimiento en el modelo, o en “ovejas-lobos” para solo incluir lobos (negro) y ovejas (blanco).
+Ajuste los parámetros del control deslizante (vea abajo) o utilice la configuración predeterminada.
+Presiona el botón PREPARAR.
+Presiona el botón IR para empezar la simulación. 
+Mira los monitores para ver los tamaños de población actuales.
+Mira la gráfica POBLACIONES para ver las poblaciones fluctuar con el tiempo.
 
-If there are no wolves left and too many sheep, the model run stops.
+Parámetros: VERSION-MODELO: Si queremos modelar ovejas, lobos y pasto, o solamente ovejas y lobos NÚMERO-INICIAL-OVEJAS: El tamaño inicial de la población de ovejas NÚMERO-INICIAL-LOBOS: El tamaño inicial de la población de lobos. OVEJAS-BENEFICIO-DE-COMIDA: La cantidad de energía que las ovejas obtienen por cada parcela de pasto comido. (Tenga en cuenta que esto no se utiliza en la versión del modelo ovejas-lobos) LOBOS-BENEFICIO-DE-COMIDA: La cantidad de energía que los lobos obtienen por cada oveja comido. OVEJAS-REPRODUCIR: La probabilidad que una oveja reproduzca en un paso de tiempo LOBOS-PRODUCIR: La probabilidad que un lobo reproduzca en un paso de tiempo PASTO-CRECIMIENTO: Cuánto tiempo tarda el pasto en volver a crecer después de que ha sido comido. ENSEÑA-ENERGÍA?: Si queremos mostrar la energía de cada animal como un número o no.
 
-THINGS TO NOTICE
-When running the sheep-wolves model variation, watch as the sheep and wolf populations fluctuate. Notice that increases and decreases in the sizes of each population are related. In what way are they related? What eventually happens?
+Apuntes: - se deduce una unidad de energía para cada paso que el lobo toma - cuando ejecutas la versión del modelo ovejas-lobos-pasto, se deduce una unidad de energía para cada paso que la oveja toma
 
-In the sheep-wolves-grass model variation, notice the green line added to the population plot representing fluctuations in the amount of grass. How do the sizes of the three populations appear to relate now? What is the explanation for this?
+Hay tres diferentes monitores que enseñan la población de los lobos, ovejas y pasto y una gráfica de población para disponer los valores de población a lo largo del tiempo.
 
-Why do you suppose that some variations of the model might be stable while others are not?
+Si ya no hay lobos y quedan demasiadas ovejas, la ejecución del modelo se termina.
 
-THINGS TO TRY
-Try adjusting the parameters under various settings. How sensitive is the stability of the model to the particular parameters?
+COSAS PARA NOTAR
 
-Can you find any parameters that generate a stable ecosystem in the sheep-wolves model variation?
+Al ejecutar la variación del modelo ovejas-lobos, observe cómo fluctúan las poblaciones de las ovejas y los lobos. Observe que las aumentas y disminuciones en el tamaño de cada población están relacionados. ¿De qué manera están relacionadas? ¿Qué pasa finalmente?
 
-Try running the sheep-wolves-grass model variation, but setting INITIAL-NUMBER-WOLVES to 0. This gives a stable ecosystem with only sheep and grass. Why might this be stable while the variation with only sheep and wolves is not?
+En la variación del modelos ovejas-lobos-pasto, observe la línea verde añadida a la gráfica de población representando fluctuación de la cantidad del pasto. ¿Cómo aparece que los tamaños de las tres poblaciones están relacionados ahora? ¿Cuál es la explicación para esto?
 
-Notice that under stable settings, the populations tend to fluctuate at a predictable pace. Can you find any parameters that will speed this up or slow it down?
+¿Por qué supones que algunas variaciones del modelo pueden ser estables mientras que otras no lo sean?
 
-EXTENDING THE MODEL
-There are a number ways to alter the model so that it will be stable with only wolves and sheep (no grass). Some will require new elements to be coded in or existing behaviors to be changed. Can you develop such a version?
+COSAS PARA INTENTAR
 
-Try changing the reproduction rules -- for example, what would happen if reproduction depended on energy rather than being determined by a fixed probability?
+Intenta ajustar los parámetros de varias configuraciones. ¿Qué tan sensible es la estabilidad del modelo a los parámetros particulares?
 
-Can you modify the model so the sheep will flock?
+¿Puedes encontrar algunos parámetros que generan un ecosistema estable en la variación del modelo ovejas-lobos?
 
-Can you modify the model so that wolves actively chase sheep?
+Intenta ejecutar la variación del modelo ovejas-lobos-pasto, pero ajustando NÚMERO-INICIAL-LOBOS a 0. Esto resulta en un ecosistema estable con solo ovejas y lobos. ¿Por qué esto podría ser estable mientras que la variación con solo ovejas y lobos no lo es?
 
-NETLOGO FEATURES
-Note the use of breeds to model two different kinds of "turtles": wolves and sheep. Note the use of patches to model grass.
+Observe que en las configuración en la tabla, las poblaciones tienden fluctuar en un ritmo predecible. ¿Puedes encontrar algunos parámetros que aceleran o ralentizan este ritmo?
 
-Note use of the ONE-OF agentset reporter to select a random sheep to be eaten by a wolf.
+EXTENDIENDO EL MODELO
 
-RELATED MODELS
-Look at Rabbits Grass Weeds for another model of interacting populations with different rules.
+Hay varias formas de alterar el modelo para que sea estable con solo lobos y ovejas (sin pasto). Algunos requerirán que nuevos elementos sean codificados o que los comportamientos existentes sean modificados. ¿Puedes desarrollar una versión así?
 
-CREDITS AND REFERENCES
+Intenta cambiar las reglas de reproducción -- por ejemplo, ¿qué pasaría si reproducción dependiera en energía en vez de ser determinada por una probabilidad fija?
+
+¿Puedes modificar el modelo para que las ovejas se junten en un rebaño?
+
+¿Puedes modificar el modelo para que los lobos persigan activamente a las ovejas?
+
+CARACTERÍSTICAS DE NETLOGO
+
+Observa el uso de razas para modelar dos diferentes tipos de “tortugas”: lobos y ovejas. Observa el uso de parcelas para modelar el pasto.
+
+Observa el uso de los UNO-DE conjuntos de agentes para escoger una oveja al azar para ser comido por un lobo.
+
+MODELOS RELACIONADOS
+
+Consulta Conejos Pasto Hierbajos para otro modelo de poblaciones interactuando con diferentes reglas. 
+
+CRÉDITOS Y REFERENCIAS
 Wilensky, U. & Reisman, K. (1998). Connected Science: Learning Biology through Constructing and Testing Computational Theories -- an Embodied Modeling Approach. International Journal of Complex Systems, M. 234, pp. 1 - 12. (The Wolf-Sheep-Predation model is a slightly extended version of the model described in the paper.)
-
 Wilensky, U. & Reisman, K. (2006). Thinking like a Wolf, a Sheep or a Firefly: Learning Biology through Constructing and Testing Computational Theories -- an Embodied Modeling Approach. Cognition & Instruction, 24(2), pp. 171-209. http://ccl.northwestern.edu/papers/wolfsheep.pdf .
-
 Wilensky, U., & Rand, W. (2015). An introduction to agent-based modeling: Modeling natural, social and engineered complex systems with NetLogo. Cambridge, MA: MIT Press.
-
 Lotka, A. J. (1925). Elements of physical biology. New York: Dover.
-
 Volterra, V. (1926, October 16). Fluctuations in the abundance of a species considered mathematically. Nature, 118, 558–560.
-
 Gause, G. F. (1934). The struggle for existence. Baltimore: Williams & Wilkins.
+COMO CITAR
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
 
-HOW TO CITE
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
-
-For the model itself:
-
+Para el modelo:
 Wilensky, U. (1997). NetLogo Wolf Sheep Predation model. http://ccl.northwestern.edu/netlogo/models/WolfSheepPredation. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
-Please cite the NetLogo software as:
+
+Por favor cita el software de NetLogo como:
 
 Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
-COPYRIGHT AND LICENSE
-Copyright 1997 Uri Wilensky.
+
+Traductora: Chelsea Guzman
