@@ -1,72 +1,70 @@
-﻿WHAT IS IT?
-This project models the behavior of two types of agents in a neighborhood. The orange agents and blue agents get along with one another. But each agent wants to make sure that it lives near some of "its own." That is, each orange agent wants to live near at least some orange agents, and each blue agent wants to live near at least some blue agents. The simulation shows how these individual preferences ripple through the neighborhood, leading to large-scale patterns.
+﻿¿QUÉ ES?
 
-This project was inspired by Thomas Schelling's writings about social systems (such as housing patterns in cities).
+Este proyecto modela el comportamiento de dos tipos de agentes en un barrio. Los agentes anaranjados y agentes azules se llevan bien. Pero cada agente se quiere asegurar que vive cerca de “lo suyo”. Es decir, cada agente anaranjado quiere vivir cerca de a lo menos algunos agentes anaranjados, y cada agente azul quiere vivir cerca de a lo menos algunos agentes azules. La simulación muestra cómo estas preferencias individuales se propagan por el barrio, lo cual resulta en patrones a gran escala.
 
-HOW TO USE IT
-Click the SETUP button to set up the agents. There are approximately equal numbers of orange and blue agents. The agents are set up so no patch has more than one agent. Click GO to start the simulation. If agents don't have enough same-color neighbors, they move to a nearby patch. (The topology is wrapping, so that patches on the bottom edge are neighbors with patches on the top and similar for left and right).
+Este proyecto se inspiró en las escrituras de Thomas Schelling sobre los sistemas sociales (como los patrones de vivienda en ciudades).
 
-The DENSITY slider controls the occupancy density of the neighborhood (and thus the total number of agents). (It takes effect the next time you click SETUP.) The %-SIMILAR-WANTED slider controls the percentage of same-color agents that each agent wants among its neighbors. For example, if the slider is set at 30, each blue agent wants at least 30% of its neighbors to be blue agents.
+COMO USARLO
 
-The % SIMILAR monitor shows the average percentage of same-color neighbors for each agent. It starts at about 50%, since each agent starts (on average) with an equal number of orange and blue agents as neighbors. The NUM-UNHAPPY monitor shows the number of unhappy agents, and the % UNHAPPY monitor shows the percent of agents that have fewer same-color neighbors than they want (and thus want to move). The % SIMILAR and the NUM-UNHAPPY monitors are also plotted.
+Haz clic en el botón PREPARAR para preparar los agentes. Hay aproximadamente el mismo número de agentes anaranjados y agentes azules. Los agentes están configurados para que ninguna parcela tenga más de un agente. Haz clic en IR para iniciar la simulación. Si los agentes no tienen suficientes vecinos del mismo color, se mueven a una parcela cercana. (Lo topología se ajusta, para que las parcelas en el borde inferior sean vecinos con parches en la parte superior y similares para la izquierda y derecha).
 
-The VISUALIZATION chooser gives two options for visualizing the agents. The OLD option uses the visualization that was used by the segregation model in the past. The SQUARE-X option visualizes the agents as squares. Unhappy agents are visualized as Xs.
+El control deslizante DENSIDAD controla la densidad de ocupación del barrio (y entonces el número de agentes en total). (Tiene efecto la próxima vez que haces clic en PREPARAR.) El control deslizante %-SIMILAR-DESEADO controla el porcentaje de agentes mismo-color que cada agente desea entre sus vecinos. Por ejemplo, si el control deslizante está configurado en 30, cada agente azul quiere que a lo menos 30% de sus vecinos sean agentes azules.
 
-THINGS TO NOTICE
-When you execute SETUP, the orange and blue agents are randomly distributed throughout the neighborhood. But many agents are "unhappy" since they don't have enough same-color neighbors. The unhappy agents move to new locations in the vicinity. But in the new locations, they might tip the balance of the local population, prompting other agents to leave. If a few agents move into an area, the local blue agents might leave. But when the blue agents move to a new area, they might prompt orange agents to leave that area.
+El monitor % SIMILAR muestra el porcentaje promedio de mismo-color vecinos para cada agente. Empieze aproximadamente en 50%, porque cada agente (en promedio) con un número igual de agentes anaranjados y azules como vecinos. El monitor NÚM-INFELIZ muestra el número de agentes descontentos, y el monitor % INFELIZ muestra el porcentaje de agentes que tienen menos vecinos del mismo color de los que quieren (y entonces se quieren mudar). También se grafican los monitores % SIMILAR y NÚM-INFELIZ.
 
-Over time, the number of unhappy agents decreases. But the neighborhood becomes more segregated, with clusters of orange agents and clusters of blue agents.
+El seleccionador VISUALIZACIÓN ofrece dos opciones para visualizar a los agentes. La opción VIEJO usa la visualización que fue utilizada por el modelo de segregación en el pasado. La opción CUADRADO-X visualiza a los agentes como cuadrados. Los agentes descontentos se visualizan como Xs.
 
-In the case where each agent wants at least 30% same-color neighbors, the agents end up with (on average) 70% same-color neighbors. So relatively small individual preferences can lead to significant overall segregation.
+COSAS PARA NOTAR
 
-THINGS TO TRY
-Try different values for %-SIMILAR-WANTED. How does the overall degree of segregation change?
+Cuando ejecutas SETUP, los agentes anaranjados y azules se distribuyen aleatoriamente por el barrio. Pero muchos agentes están “descontentos” porque no tienen suficientes vecinos del mismo color. Los agentes descontentos se mudan a nuevas ubicaciones en las cercanías. Pero en las nuevas ubicaciones, es posible que cambien la balanza de la población local, lo que causará que otros agentes salgan del barrio. Si algunos agentes se mudan a una área, es posible que los agentes azules se mudan. Pero cuando los agentes azules se mudan a una nueva área, es posible que causen que agentes anaranjados se mudan.
 
-If each agent wants at least 40% same-color neighbors, what percentage (on average) do they end up with?
+Con el tiempo, el número de agentes descontentos disminuye. Pero el barrio se pone más segregado, con grupos de agentes anaranjados y grupos de agentes azules.
 
-Try different values of DENSITY. How does the initial occupancy density affect the percentage of unhappy agents? How does it affect the time it takes for the model to finish?
+En el caso de que cada agente quiera a lo menos un 30% de vecinos del mismo-color, los agentes terminan con (en promedio) un 70% de vecinos del mismo-color. Entonces, preferencias individuales relativamente pequeñas pueden resultar en una segregación general significativa.
 
-Can you set sliders so that the model never finishes running, and agents keep looking for new locations?
+COSAS PARA INTENTAR
 
-EXTENDING THE MODEL
-The find-new-spot procedure has the agents move locally till they find a spot. Can you rewrite this procedure so the agents move directly to an appropriate new spot?
+Trata diferentes valores para %-SIMILAR-DESEADO. ¿Cómo cambia el exento general de segregación?
 
-Incorporate social networks into this model. For instance, have unhappy agents decide on a new location based on information about what a neighborhood is like from other agents in their network.
+Si cada agente quiere a lo menos un 40% de vecinos del mismo-color, ¿con qué porcentaje (en promedio) terminan?
 
-Change the rules for agent happiness. One idea: suppose that the agents need some minimum threshold of "good neighbors" to be happy with their location. Suppose further that they don't always know if someone makes a good neighbor. When they do, they use that information. When they don't, they use color as a proxy -- i.e., they assume that agents of the same color make good neighbors.
+Trata diferentes valores de DENSIDAD. ¿Cómo afecta la densidad de ocupación inicial al porcentaje de agentes descontentos? ¿Cómo afecta el tiempo que tarda el modelo en terminar?
 
-The two different visualizations emphasize different aspects of the model. The SQUARE-X visualization shows whether an agent is happy or not. Can you design a different visualization that emphasizes different aspects?
+Puedes configurar los controles deslizantes para que el modelo nunca termine de ejecutar y que los agentes siguen buscando nuevas ubicaciones.
 
-NETLOGO FEATURES
-sprout is used to create agents while ensuring no patch has more than one agent on it.
+EXTENDIENDO EL MODELO
 
-When an agent moves, move-to is used to move the agent to the center of the patch it eventually finds.
+El encontrar-nuevo-lugar procedimiento hace que los agentes se mudan localmente hasta que encuentren un lugar. ¿Puedes reescribir este procedimiento para que los agentes se muevan directamente a un nuevo lugar apropiado?
 
-Note two different methods that can be used for find-new-spot, one of them (the one we use) is recursive.
+Incorpora redes sociales en este modelo. Por ejemplo, haga que los agentes descontentos decidan una nueva ubicación basada en información sobre cómo un barrio es según otros agentes en su red.
 
-CREDITS AND REFERENCES
+Cambia las reglas para la felicidad de un agente. Una idea: Suponga que los agentes necesitan un umbral mínimo de “buenos vecinos” para estar felices con su ubicación. Supone además que no siempre saben si alguien es un buen vecino. Cuando lo hacen, usan esa información. Cuando no lo hacen, usan el color como proxy -- es decir, ellos asumen que los agentes del mismo-color son buenos vecinos.
+
+Las dos visualizaciones diferentes enfatizan diferentes aspectos del modelo. La visualización CUADRADO muestra si un agente está contento o no. ¿Puedes diseñar una visualización diferente que enfatiza diferentes aspectos?
+
+CARACTERÍSTICAS DE NETLOGO
+
+Brotar se usa para crear agentes mientras asegurando que ninguna parcela tiene más de solo un agente en ella.
+
+Cuando un agente se mueve, moverse-a se usa para mover el agente al centro de la parcela que eventualmente encuentra.
+
+Tenga en cuenta que las dos métodos diferentes que se pueden usar para encontrar-nuevo-lugar, una de ellos (el que usamos) es recursivo. 
+
+
+CRÉDITOS Y REFERENCIAS
+
 Schelling, T. (1978). Micromotives and Macrobehavior. New York: Norton.
+También Consulte: Rauch, J. (2002). Seeing Around Corners; The Atlantic Monthly; April 2002;Volume 289, No. 4; 35-48. https://www.theatlantic.com/magazine/archive/2002/04/seeing-around-corners/30247
 
-See also: Rauch, J. (2002). Seeing Around Corners; The Atlantic Monthly; April 2002;Volume 289, No. 4; 35-48. https://www.theatlantic.com/magazine/archive/2002/04/seeing-around-corners/302471/
+COMO CITAR
 
-HOW TO CITE
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
 
-For the model itself:
+Para el modelo:
+Wilensky, U. (1997). NetLogo Segregation model. https://ccl.northwestern.edu/netlogo/models/Segregation. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Wilensky, U. (1997). NetLogo Segregation model. http://ccl.northwestern.edu/netlogo/models/Segregation. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
-COPYRIGHT AND LICENSE
-Copyright 1997 Uri Wilensky.
 
-CC BY-NC-SA 3.0
-
-This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
-
-Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
-
-This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML). The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
-
-This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+Traductora: Chelsea Guzman
