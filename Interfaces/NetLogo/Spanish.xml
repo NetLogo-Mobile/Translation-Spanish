@@ -31,8 +31,8 @@
   </Toolbar>
   <Editors>
     <String ID="编辑器支持竖屏使用。旋转屏幕获得最佳体验！" Status="0" English="Rotate your device for better experience!">¡Gire tu aparato para una mejor experiencia!</String>
-    <String ID="编译错误" Status="0" English="Compile Error">Error de compilación</String>
-    <String ID="执行错误" Status="0" English="Runtime Error">Error de tiempo de ejecución</String>
+    <String ID="编译错误" Status="0" English="Compile Error">Error de Compilación</String>
+    <String ID="执行错误" Status="0" English="Runtime Error">Error de Tiempo de Ejecución</String>
     <String ID="成功执行了命令。" Status="0" English="The command was executed successfully.">El comando se ejecutó con éxito.</String>
     <String ID="观察者 (Observer)" Status="0" English="Observer">Observador</String>
     <String ID="所有海龟 (Turtles)" Status="0" English="Turtles">Tortugas</String>
