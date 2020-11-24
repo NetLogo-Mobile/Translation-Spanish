@@ -1,110 +1,92 @@
-﻿WHAT IS IT?
-This model is a more sophisticated two-lane version of the "Traffic Basic" model. Much like the simpler model, this model demonstrates how traffic jams can form. In the two-lane version, drivers have a new option; they can react by changing lanes, although this often does little to solve their problem.
+﻿¿QUÉ ES?
 
-As in the Traffic Basic model, traffic may slow down and jam without any centralized cause.
+Este proyecto es una versión más sofisticada del modelo “Tráfico Básico”. Similar al modelo más simple, este modelo demuestra cómo se pueden formar los atascos. En esta versión de dos-carriles, los conductores tienen una nueva opción; pueden reaccionar con cambiar de carril, aunque esto a menudo no resuelve su problema.
 
-HOW TO USE IT
-Click on the SETUP button to set up the cars. Click on GO to start the cars moving. The GO ONCE button drives the cars for just one tick of the clock.
+Como en el modelo Tráfico Básico, tráfico puede ralentizar o formar atascos sin una causa centralizada.
 
-The NUMBER-OF-CARS slider controls the number of cars on the road. If you change the value of this slider while the model is running, cars will be added or removed "on the fly", so you can see the impact on traffic right away.
+COMO USARLO
 
-The SPEED-UP slider controls the rate at which cars accelerate when there are no cars ahead.
+Haz clic al botón PREPARAR para preparar los carros. Haz clic en IR para empezar el movimiento de los carros. El botón IR UNA VEZ maneja los carros para solo un tic del reloj.
 
-The SLOW-DOWN slider controls the rate at which cars decelerate when there is a car close ahead.
+El control deslizante NÚMERO-DE-CARROS controla el número de carros en la carretera. Si cambias el valor de este control deslizante mientras que el modelo se está ejecutando, carros serían agregados o eliminados “sobre la marcha”, para que puedas ver el impacto en el tráfico inmediatamente.
 
-The MAX-PATIENCE slider controls how many times a car can slow down before a driver loses their patience and tries to change lanes.
+El control deslizante ACELERAR controla la tasa a la que los carros aceleran cuando no hay carros delante.
 
-You may wish to slow down the model with the speed slider to watch the behavior of certain cars more closely.
+El control deslizante RALENTIZAR controla la tasa a la que los carros ralentizan cuando hay un carro cerca delante.
 
-The SELECT CAR button allows you to highlight a particular car. It turns that car red, so that it is easier to keep track of it. SELECT CAR is easier to use while GO is turned off. If the user does not select a car manually, a car is chosen at random to be the "selected car".
+El control deslizante MÁXIMO-PACIENCIA controla cuántas veces un carro puede ralentizar antes de que el conductor pierda paciencia y trate de cambiar carriles.
 
-You can either watch or follow the selected car using the WATCH SELECTED CAR and FOLLOW SELECTED CAR buttons. The RESET PERSPECTIVE button brings the view back to its normal state.
+Puedes ralentizar el modelo con el control deslizante de rapidez para observar el comportamiento de ciertos carros más de cerca.
 
-The SELECTED CAR SPEED monitor displays the speed of the selected car. The MEAN-SPEED monitor displays the average speed of all the cars.
+El botón SELECCIONAR CARRO te permite resaltar un carro particular. Hace que ese carro se ponga rojo para que sea más fácil seguirle la pista. SELECCIONAR CARRO es más fácil de usar mientras que IR está apagado. Si el usuario no selecciona un carro manualmente, se elige un carro al azar para ser el “carro seleccionado”.
 
-The YCOR OF CARS plot shows a histogram of how many cars are in each lane, as determined by their y-coordinate. The histogram also displays the amount of cars that are in between lanes while they are trying to change lanes.
+Puedes mirar o seguir el carro seleccionado usando los botones VER CARRO SELECCIONADO y SEGUIR CARRO SELECCIONADO. El botón RESTABLECER PERSPECTIVA devuelve la vista a su estado normal.
 
-The CAR SPEEDS plot displays four quantities over time:
+El monitor VELOCIDAD CARRO SELECCIONADO muestra la velocidad del carro seleccionado. El monitor VELOCIDAD-MEDIA muestra la velocidad media de todos los carros.
 
-the maximum speed of any car - CYAN
-the minimum speed of any car - BLUE
-the average speed of all cars - GREEN
-the speed of the selected car - RED
-The DRIVER PATIENCE plot shows four quantities for the current patience of drivers: the max, the min, the average and the current patience of the driver of the selected car.
+El gráfico YCOR DE CARROS muestra un histograma de cuantos carros hay en cada carril, lo cual se puede determinar con su y-coordinate. La histograma también muestra el número de carros que están entre los dos carriles mientras que están tratando de cambiar de carriles.
 
-THINGS TO NOTICE
-Traffic jams can start from small "seeds." Cars start with random positions. If some cars are clustered together, they will move slowly, causing cars behind them to slow down, and a traffic jam forms.
+El gráfico CARRO VELOCIDADES muestra cuatro cantidades con el tiempo: 
 
-Even though all of the cars are moving forward, the traffic jams tend to move backwards. This behavior is common in wave phenomena: the behavior of the group is often very different from the behavior of the individuals that make up the group.
+La velocidad máxima de cualquier carro - CIAN
+La velocidad mínima de cualquier carro - AZUL
+La velocidad media de todos los carros - VERDE
+La velocidad del carro seleccionado - ROJO
 
-Just as each car has a current speed, each driver has a current patience. Each time the driver has to hit the brakes to avoid hitting the car in front of them, they loose a little patience. When a driver's patience expires, the driver tries to change lane. The driver's patience gets reset to the maximum patience.
+El gráfico PACIENCIA CONDUCTOR muestra cuatro cantidades para la paciencia actual de los conductores: lo máximo, lo mínimo, el promedio, y la paciencia actual del conductor del carro seleccionado.
 
-When the number of cars in the model is high, drivers lose their patience quickly and start weaving in and out of lanes. This phenomenon is called "snaking" and is common in congested highways. And if the number of cars is high enough, almost every car ends up trying to change lanes and the traffic slows to a crawl, making the situation even worse, with cars getting momentarily stuck between lanes because they are unable to change. Does that look like a real life situation to you?
+COSAS PARA NOTAR
 
-Watch the MEAN-SPEED monitor, which computes the average speed of the cars. What happens to the speed over time? What is the relation between the speed of the cars and the presence (or absence) of traffic jams?
+Los atascos pueden comenzar con pequeñas “semillas”. Los carros comienzan con posiciones aleatorias. Si algunos carros están agrupados, se moverán lentamente, lo que hará que los carros detrás de ellos disminuyan la velocidad y se forme un atasco.
 
-Look at the two plots. Can you detect discernible patterns in the plots?
+Aunque todos los carros están avanzando, los atascos tienden a retroceder. Este comportamiento es común en los fenómenos ondulatorios: el comportamiento del grupo suele ser muy diferente al comportamiento de los individuos que lo componen.
 
-The grass patches on each side of the road are all a slightly different shade of green. The road patches, to a lesser extent, are different shades of grey. This is not just about making the model look nice: it also helps create an impression of movement when using the FOLLOW SELECTED CAR button.
+Así como cada carro tiene una velocidad actual, cada conductor tiene una paciencia actual. Cada vez que el conductor tiene que frenar para evitar chocar con el carro que tiene delante, pierde un poco de paciencia. Cuando se agota la paciencia de un conductor, el conductor intenta cambiar de carril. La paciencia del conductor se restablece al máximo.
+Cuando la cantidad de autos en el modelo es alta, los conductores pierden la paciencia rápidamente y comienzan a entrar y salir de los carriles. Este fenómeno se llama “serpenteo” y es común en carreteras congestionadas. Y si la cantidad de autos es lo suficientemente alta, casi todos terminan tratando de cambiar de carril y el tráfico se ralentiza, empeorando la situación, y los autos se quedan atascados momentáneamente entre carriles porque no pueden cambiar. ¿Te parece una situación de la vida real?
 
-THINGS TO TRY
-What could you change to minimize the chances of traffic jams forming, besides just the number of cars? What is the relationship between number of cars, number of lanes, and (in this case) the length of each lane?
+Mire el monitor VELOCIDAD-MEDIA, el que calcula la velocidad media de los carros. ¿Qué pasa con la velocidad a lo largo del tiempo? ¿Cuál es la relación entre la velocidad de los carros y la presencia (o ausencia de atascos?
 
-Explore changes to the sliders SLOW-DOWN and SPEED-UP. How do these affect the flow of traffic? Can you set them so as to create maximal snaking?
+Mira las dos gráficas. ¿Puedes detectar patrones discernibles en las parcelas?
 
-Change the code so that all cars always start on the same lane. Does the proportion of cars on each lane eventually balance out? How long does it take?
+Las parcelas de pasto a cada lado de la carretera tienen un tono de verde ligeramente diferente. Las parcelas de carretera, en menor medida, son de diferentes tonalidades de gris. No se trata solo de hacer que el modelo se vea bonito: también ayuda crear una impresión de movimiento cuando se usa el botón SEGUIR CARRO SELECCIONADO.
 
-Try using the "default" turtle shape instead of the car shape, either by changing the code or by typing ask turtles [ set shape "default" ] in the command center after clicking SETUP. This will allow you to quickly spot the cars trying to change lanes. What happens to them when there is a lot of traffic?
+COSAS PARA INTENTAR
 
-EXTENDING THE MODEL
-The way this model is written makes it easy to add more lanes. Look for the number-of-lanes reporter in the code and play around with it.
+¿Qué podrías cambiar para minimizar las posibilidades de que se formen atascos, además del número de carros? ¿Cuál es la relación entre la cantidad de carros, la cantidad de carriles y (en este caso) la longitud de cada carril?
 
-Try to create a "Traffic Crossroads" (where two sets of cars might meet at a traffic light), or "Traffic Bottleneck" model (where two lanes might merge to form one lane).
+Explora cambios a los controles deslizantes RALENTIZAR y ACELERAR. ¿Cómo afectan estos al flujo del tráfico? ¿Puedes configurarlos para un serpenteo máximo?
 
-Note that the cars never crash into each other: a car will never enter a patch or pass through a patch containing another car. Remove this feature, and have the turtles that collide die upon collision. What will happen to such a model over time?
+Cambia el código para que todos los carros siempre comienzan en el mismo carril.¿Se equilibra finalmente la proporción de carros en cada carril? ¿Cuánto tiempo se tarda?
 
-NETLOGO FEATURES
-Note the use of mouse-down? and mouse-xcor/mouse-ycor to enable selecting a car for special attention.
+Intenta usar la forma de tortuga “predeterminada” en lugar de la forma de carro, puede ser con cambiar el código o escribiendo “ask turtles” [configura forma predeterminada] en el centro de comando después de hacer clic en PREPARAR. Esto le permitirá detectar rápidamente los carros que intentan cambiar de carril. ¿Qué les pasa cuando hay mucho tráfico?
 
-Each turtle has a shape, unlike in some other models. NetLogo uses set shape to alter the shapes of turtles. You can, using the shapes editor in the Tools menu, create your own turtle shapes or modify existing ones. Then you can modify the code to use your own shapes.
+EXTENDIENDO EL MODELO
 
-RELATED MODELS
-"Traffic Basic": a simple model of the movement of cars on a highway.
+Tenga en mente el uso de ratón-abajo? y ratón-xcor/ratón-ycor para permitir seleccionar un carro para atención especial.
 
-"Traffic Basic Utility": a version of "Traffic Basic" including a utility function for the cars.
+Cada tortuga tiene una forma, a diferencia de otros modelos. NetLogo usa una forma determinada para alterar las formas de las tortugas. Puedes, usando el editor de formas en el menú Herramientas, crear tus propias formas de tortuga o modificar las existentes. Después puedes modificar el código para usar sus propias formas.
 
-"Traffic Basic Adaptive": a version of "Traffic Basic" where cars adapt their acceleration to try and maintain a smooth flow of traffic.
+CARACTERÍSTICAS DE NETLOGO
 
-"Traffic Basic Adaptive Individuals": a version of "Traffic Basic Adaptive" where each car adapts individually, instead of all cars adapting in unison.
+“Tráfico Básico”: un modelo simple del movimiento de carros en una carretera.
+“Tráfico Básico Utilidad”: una versión de “Tráfico Básico” que incluye la función de utilidad para los carros.
+“Tráfico Básico Adaptado”: una versión de “Tráfico Básico” en la que los carros adaptan su aceleración para intentar mantener un flujo de tráfico fluido.
+“Tráfico Básico Adaptado Individuos”: una versión de “Tráfico Básico Adaptado” en la que cada carro se adapta individualmente, en lugar de que todos los carros se adapten al unísono. 
+“Tráfico Intersección”: un modelo de carros manejando por una sola intersección.
+“Tráfico Cuadrícula”: un modelo de tráfico moviéndose por una cuadrícula de ciudad, con semáforos en las intersecciones. 
+“Tráfico Cuadrícula Objetivo”: una versión de “Tráfico Cuadrícula” en el que los carros tienen objetivos, es decir, manejar hacia y desde el trabajo.
+“Embotellamiento de Tráfico HubNet”: una versión de “Tráfico Cuadrícula” en el que estudiantes controlan semáforos en tiempo real.
+“Embotellamiento de Tráfico HubNet Alterno”: una versión de :“Embotellamiento de Tráfico HubNet” en el que estudiantes pueden entrar código de NetLogo para graficar métricas personalizadas.
 
-"Traffic Intersection": a model of cars traveling through a single intersection.
+COMO CITAR
 
-"Traffic Grid": a model of traffic moving in a city grid, with stoplights at the intersections.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
 
-"Traffic Grid Goal": a version of "Traffic Grid" where the cars have goals, namely to drive to and from work.
-
-"Gridlock HubNet": a version of "Traffic Grid" where students control traffic lights in real-time.
-
-"Gridlock Alternate HubNet": a version of "Gridlock HubNet" where students can enter NetLogo code to plot custom metrics.
-
-HOW TO CITE
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
-
-For the model itself:
-
+Para el modelo:
 Wilensky, U. & Payette, N. (1998). NetLogo Traffic 2 Lanes model. http://ccl.northwestern.edu/netlogo/models/Traffic2Lanes. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
-Please cite the NetLogo software as:
+
+Por favor cita el software de NetLogo como:
 
 Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
-COPYRIGHT AND LICENSE
-Copyright 1998 Uri Wilensky.
 
-CC BY-NC-SA 3.0
-
-This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
-
-Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
-
-This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML). The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
-
-This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+Traductora: Chelsea Guzman
