@@ -42,6 +42,7 @@ Los atascos pueden comenzar con pequeñas “semillas”. Los carros comienzan c
 Aunque todos los carros están avanzando, los atascos tienden a retroceder. Este comportamiento es común en los fenómenos ondulatorios: el comportamiento del grupo suele ser muy diferente al comportamiento de los individuos que lo componen.
 
 Así como cada carro tiene una velocidad actual, cada conductor tiene una paciencia actual. Cada vez que el conductor tiene que frenar para evitar chocar con el carro que tiene delante, pierde un poco de paciencia. Cuando se agota la paciencia de un conductor, el conductor intenta cambiar de carril. La paciencia del conductor se restablece al máximo.
+
 Cuando la cantidad de autos en el modelo es alta, los conductores pierden la paciencia rápidamente y comienzan a entrar y salir de los carriles. Este fenómeno se llama “serpenteo” y es común en carreteras congestionadas. Y si la cantidad de autos es lo suficientemente alta, casi todos terminan tratando de cambiar de carril y el tráfico se ralentiza, empeorando la situación, y los autos se quedan atascados momentáneamente entre carriles porque no pueden cambiar. ¿Te parece una situación de la vida real?
 
 Mire el monitor VELOCIDAD-MEDIA, el que calcula la velocidad media de los carros. ¿Qué pasa con la velocidad a lo largo del tiempo? ¿Cuál es la relación entre la velocidad de los carros y la presencia (o ausencia de atascos?
@@ -62,11 +63,20 @@ Intenta usar la forma de tortuga “predeterminada” en lugar de la forma de ca
 
 EXTENDIENDO EL MODELO
 
+La forma en que este modelo está escrito facilita la adición de más carriles. Busque el reportero número-de-carriles en el código y juegue con él.
+
+Trata de crear un modelo de “Cruce de Caminos” (donde dos conjuntos de carros pueden encontrarse en un semáforo) o “Embotellamiento de Tráfico” (donde dos carriles pueden unirse para formar un carril).
+
+Tenga en cuenta que los carros nunca chocan: un carro nunca entrará una parcela ni pasará a través de una parcela que contenga otro carro. Elimine esta característica y haga que las tortugas que chocan mueren al chocar. ¿Qué pasará con un modelo así con el tiempo?
+
+
+CARACTERÍSTICAS DE NETLOGO
+
 Tenga en mente el uso de ratón-abajo? y ratón-xcor/ratón-ycor para permitir seleccionar un carro para atención especial.
 
 Cada tortuga tiene una forma, a diferencia de otros modelos. NetLogo usa una forma determinada para alterar las formas de las tortugas. Puedes, usando el editor de formas en el menú Herramientas, crear tus propias formas de tortuga o modificar las existentes. Después puedes modificar el código para usar sus propias formas.
 
-CARACTERÍSTICAS DE NETLOGO
+MODELOS RELACIONADOS
 
 “Tráfico Básico”: un modelo simple del movimiento de carros en una carretera.
 “Tráfico Básico Utilidad”: una versión de “Tráfico Básico” que incluye la función de utilidad para los carros.
