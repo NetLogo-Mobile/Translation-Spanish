@@ -1,95 +1,90 @@
-﻿WHAT IS IT?
-This is a model of traffic moving in a city grid. It allows you to control traffic lights and global variables, such as the speed limit and the number of cars, and explore traffic dynamics.
+﻿¿QUÉ ES?
 
-Try to develop strategies to improve traffic and to understand the different ways to measure the quality of traffic.
+Esto es un modelo de tráfico moviéndose en una cuadrícula de ciudad. Te deja controlar los semáforos y variables globales, como el límite de velocidad y el número de carros, y también explorar los dinámicos de tráfico.
 
-HOW IT WORKS
-Each time step, the cars attempt to move forward at their current speed. If their current speed is less than the speed limit and there is no car directly in front of them, they accelerate. If there is a slower car in front of them, they match the speed of the slower car and deccelerate. If there is a red light or a stopped car in front of them, they stop.
+Trata de desarrollar estrategias para mejorar el tráfico y entender las diferentes maneras para que puedas medir la calidad del tráfico.
 
-There are two different ways the lights can change. First, the user can change any light at any time by making the light current, and then clicking CHANGE LIGHT. Second, lights can change automatically, once per cycle. Initially, all lights will automatically change at the beginning of each cycle.
+COMO FUNCIONA
 
-HOW TO USE IT
-Change the traffic grid (using the sliders GRID-SIZE-X and GRID-SIZE-Y) to make the desired number of lights. Change any other of the settings that you would like to change. Press the SETUP button.
+Cada paso de tiempo, los carros tratan de mover hacia adelante en su velocidad actual. Si su velocidad actual es menos que el límite de velocidad y no hay ningún carro directamente frente a ellos, aceleran. Si hay un carro más lento delante del carro, igualan la velocidad del carro del carro más lento y desaceleran. Si hay una luz roja o un carro detenido frente a ellos, se detienen.
 
-At this time, you may configure the lights however you like, with any combination of auto/manual and any phase. Changes to the state of the current light are made using the CURRENT-AUTO?, CURRENT-PHASE and CHANGE LIGHT controls. You may select the current intersection using the SELECT INTERSECTION control. See below for details.
+Hay dos maneras de cambiar las luces. Primero, el usuario puede cambiar cualquier luz en cualquier momento si haces que las luces sean corrientes y luego hagas clic en CAMBIAR LUZ. En segundo lugar, las luces pueden cambiar automáticamente, una vez por ciclo. Inicialmente, todas las luces cambiarán automáticamente al comienzo de cada ciclo.
 
-Start the simulation by pressing the GO button. You may continue to make changes to the lights while the simulation is running.
+COMO USARLO
 
-Buttons
-SETUP - generates a new traffic grid based on the current GRID-SIZE-X and GRID-SIZE-Y and NUM-CARS number of cars. This also clears all the plots. All lights are set to auto, and all phases are set to 0. GO - runs the simulation indefinitely CHANGE LIGHT - changes the direction traffic may flow through the current light. A light can be changed manually even if it is operating in auto mode. SELECT INTERSECTION - allows you to select a new "current" light. When this button is depressed, click in the intersection which you would like to make current. When you've selected an intersection, the "current" label will move to the new intersection and this button will automatically pop up.
+Cambia la cuadrícula de tráfico (usando los controles deslizantes TAMAÑO-CUADRÍCULA-X y TAMAÑO-CUADRÍCULA-Y) para crear el número deseado de luces. Cambie cualquier otra configuración que quieras cambiar. Presiona el botón PREPARAR.
 
-Sliders
-SPEED-LIMIT - sets the maximum speed for the cars NUM-CARS - the number of cars in the simulation (you must press the SETUP button to see the change) TICKS-PER-CYCLE - sets the number of ticks that will elapse for each cycle. This has no effect on manual lights. This allows you to increase or decrease the granularity with which lights can automatically change. GRID-SIZE-X - sets the number of vertical roads there are (you must press the SETUP button to see the change) GRID-SIZE-Y - sets the number of horizontal roads there are (you must press the SETUP button to see the change) CURRENT-PHASE - controls when the current light changes, if it is in auto mode. The slider value represents the percentage of the way through each cycle at which the light should change. So, if the TICKS-PER-CYCLE is 20 and CURRENT-PHASE is 75%, the current light will switch at tick 15 of each cycle.
+En este momento, puedes configurar las luces como desees, con cualquier combinación de automático/manual y cualquier fase. Los cambios al estado de la luz actual se realizan usando los controles ACTUAL-AUTO?, ACTUAL-FASE y CAMBIAR-LUZ. Puedes seleccionar la intersección actual usando el control SELECCIONAR INTERSECCIÓN. Consulte los detalles abajo.
 
-Switches
-POWER? - toggles the presence of traffic lights CURRENT-AUTO? - toggles the current light between automatic mode, where it changes once per cycle (according to CURRENT-PHASE), and manual, in which you directly control it with CHANGE LIGHT.
+Inicia la simulación presionando el botón IR. Puedes continuar realizando cambios en las luces mientras que se está ejecutando la simulación.
 
-Plots
-STOPPED CARS - displays the number of stopped cars over time AVERAGE SPEED OF CARS - displays the average speed of cars over time AVERAGE WAIT TIME OF CARS - displays the average time cars are stopped over time
+Botones
 
-THINGS TO NOTICE
-When cars have stopped at a traffic light, and then they start moving again, the traffic jam will move backwards even though the cars are moving forwards. Why is this?
+PREPARAR - genera una cuadrícula de tráfico basada en TAMAÑO-CUADRÍCULA-X y TAMAÑO-CUADRÍCULA-Y y NÚM-CARROS actuales. Esto también borra todas las parcelas. Todas las luces están configuradas en automático y todas las fases están configuradas en 0. IR - ejecuta la simulación indefinidamente. CAMBIAR LUZ - cambia la dirección en la que el tráfico puede fluir a través de la luz actual. Una luz se puede cambiar manualmente incluso si está funcionando en modo automático. SELECCIONAR INTERSECCIÓN - te permite seleccionar una nueva luz “actual”. Cuando se presiona este botón, haz clic en la intersección que le gustaría hacer actual. Cuando hayas seleccionado una intersección, la etiqueta “actual” se moverá a la nueva intersección y este botón aparecerá automáticamente.
 
-When POWER? is turned off and there are quite a few cars on the roads, "gridlock" usually occurs after a while. In fact, gridlock can be so severe that traffic stops completely. Why is it that no car can move forward and break the gridlock? Could this happen in the real world?
+Controles Deslizantes
 
-Gridlock can occur when the power is turned on, as well. What kinds of situations can lead to gridlock?
+LIMITE-VELOCIDAD - establece la velocidad máxima para los carros. NÚM-CARROS - el número de carros en la simulación (tienes que presionar PREPARAR para ver el cambio). TICS-POR-CICLO - establece el número de tics que transcurrirá para cada ciclo. Esto no tiene ningún efecto en las luces manuales. Esto te permite aumentar o disminuir la granularidad con la que las luces pueden cambiar automáticamente. TAMAÑO-CUADRÍCULA-X - establece el número de calles verticales que hay (tienes que presionar PREPARAR para ver el cambio). TAMAÑO-CUADRÍCULA-Y - establece el número de calles horizontales que hay (tienes que presionar PREPARAR para ver el cambio). ACTUAL-FASE - controla cuando las luces cambian, si están en el modo automático. El valor del control deslizante representa el porcentaje del camino a través de cada ciclo en el que la luz debe cambiar. Entonces, si el TICS-POR-CICLO es 20 y ACTUAL-FASE es 75%, la luz actual va a cambiar en el tic 15 de cada ciclo.
 
-THINGS TO TRY
-Try changing the speed limit for the cars. How does this affect the overall efficiency of the traffic flow? Are fewer cars stopping for a shorter amount of time? Is the average speed of the cars higher or lower than before?
+Interruptores
 
-Try changing the number of cars on the roads. Does this affect the efficiency of the traffic flow?
+ALIMENTAR? - alterna la presencia de semáforos. ACTUAL-AUTO? - alterna la luz entre modo automático, donde cambia una vez por ciclo (según ACTUAL-FASE), y manual, en el que las controlas directamente con CAMBIAR LUZ. 
 
-How about changing the speed of the simulation? Does this affect the efficiency of the traffic flow?
+Gráficas
 
-Try running this simulation with all lights automatic. Is it harder to make the traffic move well using this scheme than controlling one light manually? Why?
+CARROS PARADOS - muestra el número de carros parados con el tiempo. VELOCIDAD MEDIA DE CARROS - muestra la velocidad media de carros con el tiempo. TIEMPO PROMEDIO DE ESPERA DE CARROS - muestra el tiempo promedio de espera de carros con el tiempo.
 
-Try running this simulation with all lights automatic. Try to find a way of setting the phases of the traffic lights so that the average speed of the cars is the highest. Now try to minimize the number of stopped cars. Now try to decrease the average wait time of the cars. Is there any correlation between these different metrics?
+COSAS PARA NOTAR
 
-EXTENDING THE MODEL
-Currently, the maximum speed limit (found in the SPEED-LIMIT slider) for the cars is 1.0. This is due to the fact that the cars must look ahead the speed that they are traveling to see if there are cars ahead of them. If there aren't, they speed up. If there are, they slow down. Looking ahead for a value greater than 1 is a little bit tricky. Try implementing the correct behavior for speeds greater than 1.
+Cuando los carros se detienen en un semáforo y luego empiezan a moverse otra vez, el atasco se hacia atras aunque los carros se mueven hacia adelante. ¿Por qué?
 
-When a car reaches the edge of the world, it reappears on the other side. What if it disappeared, and if new cars entered the city at random locations and intervals?
+Cuando ALIMENTAR? está apagado y hay muchos carros en las calles, “embotellamiento” típicamente ocurre después de un poco de tiempo. De hecho, el embotellamiento puede ser tan grave que el tráfico se para completamente. ¿Por qué es que ningún carro puede avanzar y romper el embotellamiento? ¿Podría suceder esto en el mundo real?
 
-NETLOGO FEATURES
-This model uses two forever buttons which may be active simultaneously, to allow the user to select a new current intersection while the model is running.
+El atasco puede ocurrir cuando el alimento está prendido, también. ¿Qué tipo de situaciones pueden provocar un embotellamiento?
 
-It also uses a chooser to allow the user to choose between several different possible plots, or to display all of them at once.
+COSAS PARA INTENTAR
 
-RELATED MODELS
-"Traffic Basic": a simple model of the movement of cars on a highway.
+Trata de cambiar el límite de velocidad. ¿Cómo afecta esto la eficiencia general del flujo de tráfico? ¿Se paran menos carros durante un periodo de tiempo más corto? ¿La velocidad media de los carros es mayor o menor que antes?
 
-"Traffic Basic Utility": a version of "Traffic Basic" including a utility function for the cars.
+Trata de cambiar el número de carros en las calles. ¿Esto afecta la eficiencia del flujo de tráfico?
 
-"Traffic Basic Adaptive": a version of "Traffic Basic" where cars adapt their acceleration to try and maintain a smooth flow of traffic.
+¿Y si cambias la velocidad de la simulación? ¿Afecta esto la eficiencia del flujo de tráfico?
 
-"Traffic Basic Adaptive Individuals": a version of "Traffic Basic Adaptive" where each car adapts individually, instead of all cars adapting in unison.
+Intenta ejecutar esta simulación con todas las luces automáticas. Trata de encontrar una manera de configurar las fases de los semáforos para que la velocidad media de los carros sea lo más alta. Ahora intenta reducir el tiempo medio de espera de los carros. ¿Existe alguna correlación entre estas diferentes métricas?
 
-"Traffic 2 Lanes": a more sophisticated two-lane version of the "Traffic Basic" model.
+EXTENDIENDO EL MODELO
 
-"Traffic Intersection": a model of cars traveling through a single intersection.
+En este momento, el límite máximo de velocidad (que se encuentra en el control deslizante LÍMITE-VELOCIDAD) para los carros es 1.0. Esto es porque los carros tienen que mirar hacia adelante a la velocidad a la que están viajando para ver si hay carros delante de ellos. Si no hay carros, aceleran. Si hay carros, disminuyen la velocidad. Mirar hacia el futuro en busca de un valor mayor que 1 es un poco complicado. Intenta implementar el comportamiento correcto para velocidades superiores a 1.
 
-"Traffic Grid Goal": a version of "Traffic Grid" where the cars have goals, namely to drive to and from work.
+Cuando un carro llega al borde del mundo, reaparece en el otro lado. ¿Qué pasaría si desapareciera y si nuevos carros entraran a la ciudad en ubicaciones e intervalos aleatorios?
 
-"Gridlock HubNet": a version of "Traffic Grid" where students control traffic lights in real-time.
+CARACTERÍSTICAS DE NETLOGO
 
-"Gridlock Alternate HubNet": a version of "Gridlock HubNet" where students can enter NetLogo code to plot custom metrics.
+Este modelo usa dos botones de tipo continuamente que pueden estar activos simultáneamente, para permitir al usuario seleccionar una nueva intersección actual mientras que el modelo está en ejecución. 
 
-HOW TO CITE
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+También usa un seleccionador que permite al usuario escoger entre dos diferentes gráficas, o a mostrar todas al mismo tiempo.
 
-For the model itself:
+MODELOS RELACIONADOS
 
+“Tráfico Básico”: un modelo simple del movimiento de carros en una carretera.
+“Tráfico Básico Utilidad”: una versión de “Tráfico Básico” que incluye la función de utilidad para los carros.
+“Tráfico Básico Adaptado”: una versión de “Tráfico Básico” en la que los carros adaptan su aceleración para intentar mantener un flujo de tráfico fluido.
+“Tráfico Básico Adaptado Individuos”: una versión de “Tráfico Básico Adaptado” en la que cada carro se adapta individualmente, en lugar de que todos los carros se adapten al unísono. 
+“Tráfico Intersección”: un modelo de carros manejando por una sola intersección.
+“Tráfico 2 Carriles”: es una versión de dos-carriles más sofisticada del modelo “Tráfico Básico”.
+“Tráfico Cuadrícula Objetivo”: una versión de “Tráfico Cuadrícula” en el que los carros tienen objetivos, es decir, manejar hacia y desde el trabajo.
+“Embotellamiento de Tráfico HubNet”: una versión de “Tráfico Cuadrícula” en el que estudiantes controlan semáforos en tiempo real.
+“Embotellamiento de Tráfico HubNet Alterno”: una versión de :“Embotellamiento de Tráfico HubNet” en el que estudiantes pueden entrar código de NetLogo para graficar métricas personalizadas.
+
+COMO CITAR
+
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
+
+Para el modelo:
 Wilensky, U. (2003). NetLogo Traffic Grid model. http://ccl.northwestern.edu/netlogo/models/TrafficGrid. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
-Please cite the NetLogo software as:
+
+Por favor cita el software de NetLogo como:
 
 Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
-COPYRIGHT AND LICENSE
-Copyright 2003 Uri Wilensky.
 
-CC BY-NC-SA 3.0
-
-This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
-
-Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
-
-This model was created as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227.
+Traductora: Chelsea Guzman

@@ -66,7 +66,7 @@ MODELOS RELACIONADOS
 “Tráfico Básico Utilidad”: una versión de “Tráfico Básico” que incluye la función de utilidad para los carros.
 “Tráfico Básico Adaptado”: una versión de “Tráfico Básico” en la que los carros adaptan su aceleración para intentar mantener un flujo de tráfico fluido.
 “Tráfico Básico Adaptado Individuos”: una versión de “Tráfico Básico Adaptado” en la que cada carro se adapta individualmente, en lugar de que todos los carros se adapten al unísono. 
-“Tráfico 2 Carriles”: es una versión de dos-carriles más sophisticada con  del modelo “Tráfico Básico”.
+“Tráfico 2 Carriles”: es una versión de dos-carriles más sofisticada del modelo “Tráfico Básico”.
 “Tráfico Intersección”: un modelo de carros manejando por una sola intersección.
 “Tráfico Cuadrícula”: un modelo de tráfico moviéndose por una cuadrícula de ciudad, con semáforos en las intersecciones. 
 “Tráfico Cuadrícula Objetivo”: una versión de “Tráfico Cuadrícula” en el que los carros tienen objetivos, es decir, manejar hacia y desde el trabajo.
