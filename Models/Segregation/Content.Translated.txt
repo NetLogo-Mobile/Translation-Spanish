@@ -61,6 +61,7 @@ COMO CITAR
 Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
 
 Para el modelo:
+
 Wilensky, U. (1997). NetLogo Segregation model. https://ccl.northwestern.edu/netlogo/models/Segregation. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
 Por favor cita el software de NetLogo como:
