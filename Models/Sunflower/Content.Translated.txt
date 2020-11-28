@@ -41,17 +41,21 @@ Tenga en cuenta que en el código, las tortugas “mueren” cuando se alejan de
 MODELOS RELACIONADOS
 
 Esto se basa en las pp. 113-24 de “The Book of Numbers” por John H. Conway y Richard K. Guy.
+
 COMO CITAR
+
 Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
 
 Para el modelo:
-Wilensky, U. (1997). NetLogo Sunflower model. http://ccl.northwestern.edu/netlogo/models/Sunflower. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Wilensky, U. (2003). NetLogo Sunflower model. http://ccl.northwestern.edu/netlogo/models/Sunflower. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
 Por favor cita el software de NetLogo como:
 
 Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
 DERECHOS DE AUTOR Y LICENCIA
+
 Derechos de Autor 1997 Uri Wilensky
 
 Este trabajo tiene licencia bajo Creative Commons Attribution–NonCommercial-ShareAlike 3.0 License. Para ver una copia de esta licencia, visita https://creativecommons.org/licenses/by-nc-sa/3.0/ o manda una carta a Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.

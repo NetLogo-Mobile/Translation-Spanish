@@ -66,16 +66,19 @@ MODELOS RELACIONADOS
 Consulta Conejos Pasto Hierbajos para otro modelo de poblaciones interactuando con diferentes reglas. 
 
 CRÉDITOS Y REFERENCIAS
+
 Wilensky, U. & Reisman, K. (1998). Connected Science: Learning Biology through Constructing and Testing Computational Theories -- an Embodied Modeling Approach. International Journal of Complex Systems, M. 234, pp. 1 - 12. (The Wolf-Sheep-Predation model is a slightly extended version of the model described in the paper.)
 Wilensky, U. & Reisman, K. (2006). Thinking like a Wolf, a Sheep or a Firefly: Learning Biology through Constructing and Testing Computational Theories -- an Embodied Modeling Approach. Cognition & Instruction, 24(2), pp. 171-209. http://ccl.northwestern.edu/papers/wolfsheep.pdf .
 Wilensky, U., & Rand, W. (2015). An introduction to agent-based modeling: Modeling natural, social and engineered complex systems with NetLogo. Cambridge, MA: MIT Press.
 Lotka, A. J. (1925). Elements of physical biology. New York: Dover.
 Volterra, V. (1926, October 16). Fluctuations in the abundance of a species considered mathematically. Nature, 118, 558–560.
 Gause, G. F. (1934). The struggle for existence. Baltimore: Williams & Wilkins.
+
 COMO CITAR
 Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
 
 Para el modelo:
+
 Wilensky, U. (1997). NetLogo Wolf Sheep Predation model. http://ccl.northwestern.edu/netlogo/models/WolfSheepPredation. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
 Por favor cita el software de NetLogo como:

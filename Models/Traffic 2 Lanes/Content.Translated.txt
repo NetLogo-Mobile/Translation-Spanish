@@ -69,7 +69,6 @@ Trata de crear un modelo de “Cruce de Caminos” (donde dos conjuntos de carro
 
 Tenga en cuenta que los carros nunca chocan: un carro nunca entrará una parcela ni pasará a través de una parcela que contenga otro carro. Elimine esta característica y haga que las tortugas que chocan mueren al chocar. ¿Qué pasará con un modelo así con el tiempo?
 
-
 CARACTERÍSTICAS DE NETLOGO
 
 Tenga en mente el uso de ratón-abajo? y ratón-xcor/ratón-ycor para permitir seleccionar un carro para atención especial.
@@ -93,6 +92,7 @@ COMO CITAR
 Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
 
 Para el modelo:
+
 Wilensky, U. & Payette, N. (1998). NetLogo Traffic 2 Lanes model. http://ccl.northwestern.edu/netlogo/models/Traffic2Lanes. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
 Por favor cita el software de NetLogo como:
