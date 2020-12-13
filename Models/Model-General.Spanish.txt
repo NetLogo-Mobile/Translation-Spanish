@@ -1,0 +1,176 @@
+# Language = Spanish
+## Tutorial
+### Source
+Great! Your model is now running. 
+Do you see those moving objects on the screen? We call them <b>turtles</b> in general. These turtles construct the whole universe.
+Now <b>tap one of the turtles</b> to inspect it.
+### Spanish
+
+
+### Source
+Inspection of the "turtles"
+### Spanish
+
+
+### Source
+Here, you can pause, restart the model, or change its running speed. <b>Tap the first button</b> to start the model.
+### Spanish
+
+
+### Source
+Control the Model
+### Spanish
+
+
+### Source
+Let's go!
+### Spanish
+
+
+### Source
+Don't know where to start your exploration in the microworld? Confused by the buttons? Master the basics of Turtle Universe in just two minutes!
+### Spanish
+
+
+### Source
+Learn the basics of Turtle Universe
+### Spanish
+
+
+### Source
+Look at the magnifying glass! You are now following the turtle in the universe. 
+Many models also offer <b>turtle variables</b> for you to inspect the properties of it.
+### Spanish
+
+
+### Source
+Statistics Panel
+### Spanish
+
+
+### Source
+What's even better? You can keep track of turtles changing numbers in this panel.
+
+### Spanish
+
+
+### Source
+Visit the plots
+### Spanish
+
+
+### Source
+Want to see the overall trend?
+<b>Tap the button</b> to see the plot!
+
+### Spanish
+
+
+### Source
+Close the plots
+### Spanish
+
+
+### Source
+Want to exit the plot?
+<b>Tap the close button</b> to turn the plot off.
+### Spanish
+
+
+### Source
+Widgets
+### Spanish
+
+
+### Source
+Want to manipulate the model? 
+<b>Tap the button</b> to change the parameters of the model. 
+### Spanish
+
+
+### Source
+Here we have the <b>widgets</b> to help you manipulate the model. Play with them to see how the model behaves differently!
+Sometimes you need to restart the model for the effects to take place.
+### Spanish
+
+
+### Source
+Coding Blocks
+### Spanish
+
+
+### Source
+Not familiar with coding? Coding blocks would be the right choice. <b>Tap the button</b> to check how it works.
+### Spanish
+
+
+### Source
+Block by block, they tell the turtles how to move. By editing, adding, or removing these blocks, you can give turtles your instructions and manipulate the model!
+<b>Tap the edit button</b> to start!
+### Spanish
+
+
+### Source
+Codes Panel
+### Spanish
+
+
+### Source
+Good Job! It's time to dig deeper.
+<b>Tap this button</b> to check the model in a developer's perspective. 
+### Spanish
+
+
+### Source
+Codes
+### Spanish
+
+
+### Source
+Want to play with the model on a deeper level?
+Modify the code to create your own versions!
+### Spanish
+
+
+### Source
+Information Panel
+### Spanish
+
+
+### Source
+Any questions? <b>Tap this button</b> and seek the answer from the documentation or others in the community! 
+### Spanish
+
+
+### Source
+The description is too long? Don't worry! Feel free to ask questions in the <b>Comment</b> tab. 
+### Spanish
+
+
+### Source
+More Panel
+### Spanish
+
+
+### Source
+<b>Tap the button</b> to check what else you can do with your model.
+### Spanish
+
+
+### Source
+Here you can share, save, read, or leave the model. 
+The best part? Once you create something cool, publish it to the community! 
+### Spanish
+
+
+### Source
+Congratulations!
+### Spanish
+
+
+### Source
+Well done! You have finished the tutorial. 
+Time to mess with the model! Have fun!
+### Spanish
+
+
