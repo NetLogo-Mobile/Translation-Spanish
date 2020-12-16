@@ -1,10 +1,10 @@
-﻿¿QUÉ ES?
+﻿## ¿QUÉ ES?
 
 Este proyecto modela el comportamiento de dos tipos de agentes en un barrio. Los agentes anaranjados y agentes azules se llevan bien. Pero cada agente se quiere asegurar que vive cerca de “lo suyo”. Es decir, cada agente anaranjado quiere vivir cerca de a lo menos algunos agentes anaranjados, y cada agente azul quiere vivir cerca de a lo menos algunos agentes azules. La simulación muestra cómo estas preferencias individuales se propagan por el barrio, lo cual resulta en patrones a gran escala.
 
 Este proyecto se inspiró en las escrituras de Thomas Schelling sobre los sistemas sociales (como los patrones de vivienda en ciudades).
 
-COMO USARLO
+## COMO USARLO
 
 Haz clic en el botón PREPARAR para preparar los agentes. Hay aproximadamente el mismo número de agentes anaranjados y agentes azules. Los agentes están configurados para que ninguna parcela tenga más de un agente. Haz clic en IR para iniciar la simulación. Si los agentes no tienen suficientes vecinos del mismo color, se mueven a una parcela cercana. (Lo topología se ajusta, para que las parcelas en el borde inferior sean vecinos con parches en la parte superior y similares para la izquierda y derecha).
 
@@ -14,7 +14,7 @@ El monitor % SIMILAR muestra el porcentaje promedio de mismo-color vecinos para 
 
 El seleccionador VISUALIZACIÓN ofrece dos opciones para visualizar a los agentes. La opción VIEJO usa la visualización que fue utilizada por el modelo de segregación en el pasado. La opción CUADRADO-X visualiza a los agentes como cuadrados. Los agentes descontentos se visualizan como Xs.
 
-COSAS PARA NOTAR
+## COSAS PARA NOTAR
 
 Cuando ejecutas SETUP, los agentes anaranjados y azules se distribuyen aleatoriamente por el barrio. Pero muchos agentes están “descontentos” porque no tienen suficientes vecinos del mismo color. Los agentes descontentos se mudan a nuevas ubicaciones en las cercanías. Pero en las nuevas ubicaciones, es posible que cambien la balanza de la población local, lo que causará que otros agentes salgan del barrio. Si algunos agentes se mudan a una área, es posible que los agentes azules se mudan. Pero cuando los agentes azules se mudan a una nueva área, es posible que causen que agentes anaranjados se mudan.
 
@@ -22,7 +22,7 @@ Con el tiempo, el número de agentes descontentos disminuye. Pero el barrio se p
 
 En el caso de que cada agente quiera a lo menos un 30% de vecinos del mismo-color, los agentes terminan con (en promedio) un 70% de vecinos del mismo-color. Entonces, preferencias individuales relativamente pequeñas pueden resultar en una segregación general significativa.
 
-COSAS PARA INTENTAR
+## COSAS PARA INTENTAR
 
 Trata diferentes valores para %-SIMILAR-DESEADO. ¿Cómo cambia el exento general de segregación?
 
@@ -32,7 +32,7 @@ Trata diferentes valores de DENSIDAD. ¿Cómo afecta la densidad de ocupación i
 
 Puedes configurar los controles deslizantes para que el modelo nunca termine de ejecutar y que los agentes siguen buscando nuevas ubicaciones.
 
-EXTENDIENDO EL MODELO
+## EXTENDIENDO EL MODELO
 
 El encontrar-nuevo-lugar procedimiento hace que los agentes se mudan localmente hasta que encuentren un lugar. ¿Puedes reescribir este procedimiento para que los agentes se muevan directamente a un nuevo lugar apropiado?
 
@@ -42,7 +42,7 @@ Cambia las reglas para la felicidad de un agente. Una idea: Suponga que los agen
 
 Las dos visualizaciones diferentes enfatizan diferentes aspectos del modelo. La visualización CUADRADO muestra si un agente está contento o no. ¿Puedes diseñar una visualización diferente que enfatiza diferentes aspectos?
 
-CARACTERÍSTICAS DE NETLOGO
+## CARACTERÍSTICAS DE NETLOGO
 
 Brotar se usa para crear agentes mientras asegurando que ninguna parcela tiene más de solo un agente en ella.
 
@@ -50,13 +50,12 @@ Cuando un agente se mueve, moverse-a se usa para mover el agente al centro de la
 
 Tenga en cuenta que las dos métodos diferentes que se pueden usar para encontrar-nuevo-lugar, una de ellos (el que usamos) es recursivo. 
 
-
-CRÉDITOS Y REFERENCIAS
+## CRÉDITOS Y REFERENCIAS
 
 Schelling, T. (1978). Micromotives and Macrobehavior. New York: Norton.
 También Consulte: Rauch, J. (2002). Seeing Around Corners; The Atlantic Monthly; April 2002;Volume 289, No. 4; 35-48. https://www.theatlantic.com/magazine/archive/2002/04/seeing-around-corners/30247
 
-COMO CITAR
+## COMO CITAR
 
 Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
 

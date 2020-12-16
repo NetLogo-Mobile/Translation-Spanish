@@ -1,16 +1,16 @@
-﻿¿QUÉ ES?
+﻿## ¿QUÉ ES?
 
 Esto es un modelo de tráfico moviéndose en una cuadrícula de ciudad. Te deja controlar los semáforos y variables globales, como el límite de velocidad y el número de carros, y también explorar los dinámicos de tráfico.
 
 Trata de desarrollar estrategias para mejorar el tráfico y entender las diferentes maneras para que puedas medir la calidad del tráfico.
 
-COMO FUNCIONA
+## COMO FUNCIONA
 
 Cada paso de tiempo, los carros tratan de mover hacia adelante en su velocidad actual. Si su velocidad actual es menos que el límite de velocidad y no hay ningún carro directamente frente a ellos, aceleran. Si hay un carro más lento delante del carro, igualan la velocidad del carro del carro más lento y desaceleran. Si hay una luz roja o un carro detenido frente a ellos, se detienen.
 
 Hay dos maneras de cambiar las luces. Primero, el usuario puede cambiar cualquier luz en cualquier momento si haces que las luces sean corrientes y luego hagas clic en CAMBIAR LUZ. En segundo lugar, las luces pueden cambiar automáticamente, una vez por ciclo. Inicialmente, todas las luces cambiarán automáticamente al comienzo de cada ciclo.
 
-COMO USARLO
+## COMO USARLO
 
 Cambia la cuadrícula de tráfico (usando los controles deslizantes TAMAÑO-CUADRÍCULA-X y TAMAÑO-CUADRÍCULA-Y) para crear el número deseado de luces. Cambie cualquier otra configuración que quieras cambiar. Presiona el botón PREPARAR.
 
@@ -18,23 +18,23 @@ En este momento, puedes configurar las luces como desees, con cualquier combinac
 
 Inicia la simulación presionando el botón IR. Puedes continuar realizando cambios en las luces mientras que se está ejecutando la simulación.
 
-Botones
+## Botones
 
 PREPARAR - genera una cuadrícula de tráfico basada en TAMAÑO-CUADRÍCULA-X y TAMAÑO-CUADRÍCULA-Y y NÚM-CARROS actuales. Esto también borra todas las parcelas. Todas las luces están configuradas en automático y todas las fases están configuradas en 0. IR - ejecuta la simulación indefinidamente. CAMBIAR LUZ - cambia la dirección en la que el tráfico puede fluir a través de la luz actual. Una luz se puede cambiar manualmente incluso si está funcionando en modo automático. SELECCIONAR INTERSECCIÓN - te permite seleccionar una nueva luz “actual”. Cuando se presiona este botón, haz clic en la intersección que le gustaría hacer actual. Cuando hayas seleccionado una intersección, la etiqueta “actual” se moverá a la nueva intersección y este botón aparecerá automáticamente.
 
-Controles Deslizantes
+## Controles Deslizantes
 
 LIMITE-VELOCIDAD - establece la velocidad máxima para los carros. NÚM-CARROS - el número de carros en la simulación (tienes que presionar PREPARAR para ver el cambio). TICS-POR-CICLO - establece el número de tics que transcurrirá para cada ciclo. Esto no tiene ningún efecto en las luces manuales. Esto te permite aumentar o disminuir la granularidad con la que las luces pueden cambiar automáticamente. TAMAÑO-CUADRÍCULA-X - establece el número de calles verticales que hay (tienes que presionar PREPARAR para ver el cambio). TAMAÑO-CUADRÍCULA-Y - establece el número de calles horizontales que hay (tienes que presionar PREPARAR para ver el cambio). ACTUAL-FASE - controla cuando las luces cambian, si están en el modo automático. El valor del control deslizante representa el porcentaje del camino a través de cada ciclo en el que la luz debe cambiar. Entonces, si el TICS-POR-CICLO es 20 y ACTUAL-FASE es 75%, la luz actual va a cambiar en el tic 15 de cada ciclo.
 
-Interruptores
+## Interruptores
 
 ALIMENTAR? - alterna la presencia de semáforos. ACTUAL-AUTO? - alterna la luz entre modo automático, donde cambia una vez por ciclo (según ACTUAL-FASE), y manual, en el que las controlas directamente con CAMBIAR LUZ. 
 
-Gráficas
+## Gráficas
 
 CARROS PARADOS - muestra el número de carros parados con el tiempo. VELOCIDAD MEDIA DE CARROS - muestra la velocidad media de carros con el tiempo. TIEMPO PROMEDIO DE ESPERA DE CARROS - muestra el tiempo promedio de espera de carros con el tiempo.
 
-COSAS PARA NOTAR
+## COSAS PARA NOTAR
 
 Cuando los carros se detienen en un semáforo y luego empiezan a moverse otra vez, el atasco se hacia atras aunque los carros se mueven hacia adelante. ¿Por qué?
 
@@ -42,7 +42,7 @@ Cuando ALIMENTAR? está apagado y hay muchos carros en las calles, “embotellam
 
 El atasco puede ocurrir cuando el alimento está prendido, también. ¿Qué tipo de situaciones pueden provocar un embotellamiento?
 
-COSAS PARA INTENTAR
+## COSAS PARA INTENTAR
 
 Trata de cambiar el límite de velocidad. ¿Cómo afecta esto la eficiencia general del flujo de tráfico? ¿Se paran menos carros durante un periodo de tiempo más corto? ¿La velocidad media de los carros es mayor o menor que antes?
 
@@ -52,19 +52,19 @@ Trata de cambiar el número de carros en las calles. ¿Esto afecta la eficiencia
 
 Intenta ejecutar esta simulación con todas las luces automáticas. Trata de encontrar una manera de configurar las fases de los semáforos para que la velocidad media de los carros sea lo más alta. Ahora intenta reducir el tiempo medio de espera de los carros. ¿Existe alguna correlación entre estas diferentes métricas?
 
-EXTENDIENDO EL MODELO
+## EXTENDIENDO EL MODELO
 
 En este momento, el límite máximo de velocidad (que se encuentra en el control deslizante LÍMITE-VELOCIDAD) para los carros es 1.0. Esto es porque los carros tienen que mirar hacia adelante a la velocidad a la que están viajando para ver si hay carros delante de ellos. Si no hay carros, aceleran. Si hay carros, disminuyen la velocidad. Mirar hacia el futuro en busca de un valor mayor que 1 es un poco complicado. Intenta implementar el comportamiento correcto para velocidades superiores a 1.
 
 Cuando un carro llega al borde del mundo, reaparece en el otro lado. ¿Qué pasaría si desapareciera y si nuevos carros entraran a la ciudad en ubicaciones e intervalos aleatorios?
 
-CARACTERÍSTICAS DE NETLOGO
+## CARACTERÍSTICAS DE NETLOGO
 
 Este modelo usa dos botones de tipo continuamente que pueden estar activos simultáneamente, para permitir al usuario seleccionar una nueva intersección actual mientras que el modelo está en ejecución. 
 
 También usa un seleccionador que permite al usuario escoger entre dos diferentes gráficas, o a mostrar todas al mismo tiempo.
 
-MODELOS RELACIONADOS
+## MODELOS RELACIONADOS
 
 “Tráfico Básico”: un modelo simple del movimiento de carros en una carretera.
 “Tráfico Básico Utilidad”: una versión de “Tráfico Básico” que incluye la función de utilidad para los carros.
@@ -76,7 +76,7 @@ MODELOS RELACIONADOS
 “Embotellamiento de Tráfico HubNet”: una versión de “Tráfico Cuadrícula” en el que estudiantes controlan semáforos en tiempo real.
 “Embotellamiento de Tráfico HubNet Alterno”: una versión de :“Embotellamiento de Tráfico HubNet” en el que estudiantes pueden entrar código de NetLogo para graficar métricas personalizadas.
 
-COMO CITAR
+## COMO CITAR
 
 Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
 

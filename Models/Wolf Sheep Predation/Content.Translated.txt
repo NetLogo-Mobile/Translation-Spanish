@@ -1,8 +1,8 @@
-﻿¿QUÉ ES?
+﻿## ¿QUÉ ES?
 
 Este modelo explora la estabilidad de depredador-presa ecosistemas. Tal sistema se puede categorizar inestable si tiende a resultar en la extinción de uno o más especies involucrados. Por el contrario, si un sistema es estable si tiende a mantenerse con el tiempo, a pesar de fluctuaciones en los tamaños de población.
 
-COMO FUNCIONA
+## COMO FUNCIONA
 
 Hay dos variaciones principales en este modelo. 
 
@@ -10,7 +10,7 @@ En la primera variación, la versión “ovejas-lobos”, lobos y ovejas vagando
 
 En la segunda variación, la versión “ovejas-lobos-pasto” explícitamente modela pasto (verde) además de lobos y ovejas. El comportamiento de los lobos es idéntico a la primera versión, sin embargo este tiempo las ovejas necesitan comer pasto para que puedan mantener su energía - cuando ya no tienen energía se mueren. En cuanto el pasto sea comido, volverá a crecer después de un periodo de tiempo fijo. Esta variación es más compleja que la primera, pero es estable en general. Es un partido más similar a los modelos clásicos de oscilación de población Lotka Volterra. Sin embargo, los modelos clásicos de LV suponen que las poblaciones pueden tomar valores reales, pero en poblaciones pequeñas estos modelos subestiman las extinciones y los modelos basados en agentes, como los que se muestran aquí, proporcionan resultados más realistas. (Consulta Wilensky & Rand, 2015; capítulo 4)
 
-COMO USARLO
+## COMO USARLO
 
 Establezca el selector de versión de modelo en “ovejas-lobos-pasto” para incluir pasto y crecimiento en el modelo, o en “ovejas-lobos” para solo incluir lobos (negro) y ovejas (blanco).
 Ajuste los parámetros del control deslizante (vea abajo) o utilice la configuración predeterminada.
@@ -27,7 +27,7 @@ Hay tres diferentes monitores que enseñan la población de los lobos, ovejas y 
 
 Si ya no hay lobos y quedan demasiadas ovejas, la ejecución del modelo se termina.
 
-COSAS PARA NOTAR
+## COSAS PARA NOTAR
 
 Al ejecutar la variación del modelo ovejas-lobos, observe cómo fluctúan las poblaciones de las ovejas y los lobos. Observe que las aumentas y disminuciones en el tamaño de cada población están relacionados. ¿De qué manera están relacionadas? ¿Qué pasa finalmente?
 
@@ -35,7 +35,7 @@ En la variación del modelos ovejas-lobos-pasto, observe la línea verde añadid
 
 ¿Por qué supones que algunas variaciones del modelo pueden ser estables mientras que otras no lo sean?
 
-COSAS PARA INTENTAR
+## COSAS PARA INTENTAR
 
 Intenta ajustar los parámetros de varias configuraciones. ¿Qué tan sensible es la estabilidad del modelo a los parámetros particulares?
 
@@ -45,7 +45,7 @@ Intenta ejecutar la variación del modelo ovejas-lobos-pasto, pero ajustando NÚ
 
 Observe que en las configuración en la tabla, las poblaciones tienden fluctuar en un ritmo predecible. ¿Puedes encontrar algunos parámetros que aceleran o ralentizan este ritmo?
 
-EXTENDIENDO EL MODELO
+## EXTENDIENDO EL MODELO
 
 Hay varias formas de alterar el modelo para que sea estable con solo lobos y ovejas (sin pasto). Algunos requerirán que nuevos elementos sean codificados o que los comportamientos existentes sean modificados. ¿Puedes desarrollar una versión así?
 
@@ -55,17 +55,17 @@ Intenta cambiar las reglas de reproducción -- por ejemplo, ¿qué pasaría si r
 
 ¿Puedes modificar el modelo para que los lobos persigan activamente a las ovejas?
 
-CARACTERÍSTICAS DE NETLOGO
+## CARACTERÍSTICAS DE NETLOGO
 
 Observa el uso de razas para modelar dos diferentes tipos de “tortugas”: lobos y ovejas. Observa el uso de parcelas para modelar el pasto.
 
 Observa el uso de los UNO-DE conjuntos de agentes para escoger una oveja al azar para ser comido por un lobo.
 
-MODELOS RELACIONADOS
+## MODELOS RELACIONADOS
 
 Consulta Conejos Pasto Hierbajos para otro modelo de poblaciones interactuando con diferentes reglas. 
 
-CRÉDITOS Y REFERENCIAS
+## CRÉDITOS Y REFERENCIAS
 
 Wilensky, U. & Reisman, K. (1998). Connected Science: Learning Biology through Constructing and Testing Computational Theories -- an Embodied Modeling Approach. International Journal of Complex Systems, M. 234, pp. 1 - 12. (The Wolf-Sheep-Predation model is a slightly extended version of the model described in the paper.)
 Wilensky, U. & Reisman, K. (2006). Thinking like a Wolf, a Sheep or a Firefly: Learning Biology through Constructing and Testing Computational Theories -- an Embodied Modeling Approach. Cognition & Instruction, 24(2), pp. 171-209. http://ccl.northwestern.edu/papers/wolfsheep.pdf .
@@ -74,7 +74,7 @@ Lotka, A. J. (1925). Elements of physical biology. New York: Dover.
 Volterra, V. (1926, October 16). Fluctuations in the abundance of a species considered mathematically. Nature, 118, 558–560.
 Gause, G. F. (1934). The struggle for existence. Baltimore: Williams & Wilkins.
 
-COMO CITAR
+## COMO CITAR
 Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
 
 Para el modelo:

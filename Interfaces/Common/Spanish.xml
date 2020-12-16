@@ -1,24 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Strings>
+  <Shared>
+    <String ID="是" Status="0" English="Yes">Si</String>
+    <String ID="否" Status="0" English="No">No</String>
+    <String ID="开" Status="0" English="On">En</String>
+    <String ID="关" Status="0" English="Off">Apagado</String>
+    <String ID="返回" Status="0" English="Return">Regresar</String>
+    <String ID="后退" Status="0" English="Back">Atrás</String>
+    <String ID="下一步" Status="1" English="Next">Siguiente</String>
+    <String ID="离开" Status="0" English="Leave">Salir</String>
+    <String ID="提交" Status="0" English="Submit">Enviar</String>
+    <String ID="跳过" Status="1" English="Skip">Omitir</String>
+    <String ID="确定" Status="0" English="OK">OK</String>
+    <String ID="确认" Status="0" English="Confirm">Confirmar</String>
+    <String ID="取消" Status="0" English="Cancel">Cancelar</String>
+    <String ID="菜单" Status="0" English="Menu">Menú</String>
+    <String ID="开始" Status="0" English="Start">Iniciar</String>
+    <String ID="继续" Status="0" English="Resume">Continuar</String>
+    <String ID="剪切" Status="0" English="Cut">Cortar</String>
+    <String ID="复制" Status="0" English="Copy">Copiar</String>
+    <String ID="粘贴" Status="0" English="Paste">Pegar</String>
+    <String ID="全选" Status="0" English="Select all">Seleccionar todo</String>
+    <String ID="应用" Status="0" English="Apply">Aplicar</String>
+    <String ID="列表" Status="0" English="List">Lista</String>
+    <String ID="删除" Status="0" English="Delete">Eliminar</String>
+    <String ID="保存" Status="0" English="Save">Guardar</String>
+    <String ID="读取" Status="1" English="Load">Carga</String>
+    <String ID="选项" Status="1" English="Options">Opciones</String>
+    <String ID="行动" Status="1" English="Actions">Comportamiento</String>
+    <String ID="设置" Status="1" English="Settings">Configuraciones</String>
+    <String ID="数据" Status="1" English="Data">Datos</String>
+    <String ID="隐藏" Status="1" English="Hide">Esconder</String>
+    <String ID="结束教程" Status="1" English="Exit tutorial">Salir del tutorial</String>
+    <String ID="跳过教程" Status="0" English="Skip tutorial">Saltar tutorial</String>
+    <String ID="隐藏教程" Status="0" English="Hide tutorial">Esconder tutorial</String>
+  </Shared>
   <Interfaces>
     <String ID="进入应用" Status="0" English="Enter app">Entrar en la aplicación</String>
     <String ID="退出应用" Status="0" English="Quit app">Salir de la aplicación</String>
     <String ID="意见反馈" Status="0" English="Feedback">Retroalimentación</String>
     <String ID="实验设置" Status="0" English="Preferences">Preferencias</String>
-    <String ID="我的实验室" Status="0" English="My Lab">Mi laboratorio</String>
     <String ID="返回应用" Status="0" English="Return">Regresar</String>
-    <String ID="消息推送" Status="0" English="Physics News">Noticias de Física</String>
-    <String ID="是" Status="0" English="Yes">Si</String>
-    <String ID="否" Status="0" English="No">No</String>
-    <String ID="菜单" Status="0" English="Menu">Menú</String>
-    <String ID="返回" Status="0" English="Return">Regresar</String>
-    <String ID="离开" Status="0" English="Leave">Salir</String>
-    <String ID="提交" Status="0" English="Submit">Enviar</String>
-    <String ID="确定" Status="0" English="OK">OK</String>
-    <String ID="取消" Status="0" English="Cancel">Cancelar</String>
+    <String ID="消息推送" Status="0" English="Physics News">Noticias de física</String>
     <String ID="取消操作" Status="0" English="Cancel">Cancelar</String>
-    <String ID="开始" Status="0" English="Start">Iniciar</String>
-    <String ID="继续" Status="0" English="Resume">Continuar</String>
     <String ID="领取" Status="0" English="Receive">Recibir</String>
     <String ID="积分" Status="0" English="Point">Punto</String>
     <String ID="钻石" Status="0" English="Diamond">Diamante</String>
@@ -29,17 +53,14 @@
     <String ID="好友" Status="0" English="Friend">Amigo</String>
     <String ID="首页" Status="0" English="Home">Casa</String>
     <String ID="实验室" Status="0" English="Laboratory">Laboratorio</String>
+    <String ID="我的实验室" Status="0" English="My Lab">Mi laboratorio</String>
     <String ID="我的" Status="0" English="Workspace">Espacio de trabajo</String>
     <String ID="模型库" Status="0" English="Library">Biblioteca</String>
-    <String ID="列表" Status="0" English="List">Lista</String>
     <String ID="更多 »" Status="0" English="More »">Más &amp;quot;</String>
     <String ID="请更新版本" Status="0" English="Please update">Actualice por favor</String>
     <String ID="等级" Status="0" English="Level">Nivel</String>
     <String ID="截图分享" Status="0" English="Screenshot">Captura de pantalla</String>
     <String ID="录屏分享" Status="0" English="Recording">Grabación</String>
-    <String ID="确认" Status="0" English="Confirm">Confirmar</String>
-    <String ID="后退" Status="0" English="Back">Atrás</String>
-    <String ID="删除" Status="0" English="Delete">Eliminar</String>
     <String ID="键盘" Status="0" English="Keyboard">Teclado</String>
     <String ID="获得奖励" Status="0" English="Get rewards">Obtener recompensas</String>
     <String ID="活动日期" Status="0" English="Event Date">Fecha del evento</String>
@@ -47,7 +68,6 @@
     <String ID="已领取" Status="0" English="Received">Recibido</String>
     <String ID="未达成" Status="0" English="Not reached">No alcanzado</String>
     <String ID="第 {0} 天" Status="0" English="{0} Days">{0} días</String>
-    <String ID="保存" Status="0" English="Save">Guardar</String>
     <String ID="分享到" Status="0" English="Share to">Compartir a</String>
     <String ID="读取实验" Status="0" English="Load experiment">Cargar experimento</String>
     <String ID="开始实验" Status="0" English="Start experiment">Iniciar experimento</String>
@@ -62,18 +82,11 @@
     <String ID="保存于 {0}" Status="0" English="Saved at {0}">Guardado a {0}</String>
     <String ID="连接错误" Status="0" English="Connection error">Error de conexión</String>
     <String ID="访问" Status="0" English="Visit">Visitar</String>
-    <String ID="开" Status="0" English="On">En</String>
-    <String ID="关" Status="0" English="Off">Apagado</String>
     <String ID="完全同意" Status="0" English="Totally agree">Totalmente de acuerdo</String>
     <String ID="完全不同意" Status="0" English="Totally disagree">Totalmente en desacuerdo</String>
     <String ID="随机范围" Status="0" English="Random range">Alcance aleatorio</String>
     <String ID="数值选择" Status="0" English="Numerical slide">Diapositiva numérica</String>
     <String ID="键盘输入" Status="0" English="Keyboard input">Input del teclado</String>
-    <String ID="剪切" Status="0" English="Cut">Cortar</String>
-    <String ID="复制" Status="0" English="Copy">Copiar</String>
-    <String ID="粘贴" Status="0" English="Paste">Pegar</String>
-    <String ID="全选" Status="0" English="Select all">Seleccionar todo</String>
-    <String ID="应用" Status="0" English="Apply">Aplicar</String>
   </Interfaces>
   <Messages>
     <String ID="更多功能将于后续版本中更新。" Status="0" English="More features will be updated in a future release.">Se actualizarán más funciones en una versión futura.</String>
@@ -148,7 +161,7 @@
     <String ID="地址已被注册过了，请尝试登录。" Status="0" English="The address has already been registered. Please try to log in.">La dirección ya ha sido registrada. Intente iniciar sesión por favor.</String>
     <String ID="未能找到兼容的第三方社交平台" Status="0" English="Failed to find compatible social platforms">No se pudo encontrar plataformas sociales compatibles.</String>
     <String ID="成功完成第三方授权！" Status="0" English="Third party authorization completed!">¡Autorización de terceros completada!</String>
-    <String ID="使用 Turtle Sim 帐号" Status="0" English="With Turtle Sim account">Con cuenta Turtle Sim</String>
+    <String ID="使用 Turtle Sim 帐号" Status="1" English="With Turtle Sim account">Con cuenta Turtle Sim</String>
     <String ID="点击查看我们的&lt;internal=termofuse&gt;使用条款&lt;/internal&gt;和&lt;internal=privacy&gt;隐私协议&lt;/internal&gt;" Status="0" English="View our &lt;internal=termofuse&gt;Terms of use&lt;/internal&gt; and &lt;internal=privacy&gt;Privacy Agreement&lt;/internal&gt;">Ver nuestro&lt;internal=termofuse&gt; Términos de Uso&lt;/internal&gt; y&lt;internal=privacy&gt; Acuerdo de privacidad&lt;/internal&gt;</String>
     <String ID="待上传的内容不合要求，请重试。" Status="0" English="The content to be uploaded is illegal. Try again.">El contenido que se subirá es ilegal. Inténtalo de nuevo.</String>
     <String ID="抱歉，暂时未能完成上传……" Status="0" English="Sorry, the upload failed for now...">Lo sentimos, la carga ha fallado por ahora ...</String>
@@ -234,21 +247,21 @@
     <String ID="可能需要继续或重启实验以应用你的设置。" Status="0" English="You may need to continue or restart the experiment to apply the settings.">Es posible que necesitas continuar o reiniciar el experimento para aplicar la configuración.</String>
   </Messages>
   <Regions>
-    <String ID="中文区" Status="0" English="Chinese">Chino</String>
+    <String ID="中文区" Status="1" English="Chinese">Chino</String>
     <String ID="全球区" Status="0" English="Global">Global</String>
     <String ID="切换区域" Status="0" English="Switch region">Cambiar región</String>
     <String ID="条款和政策" Status="0" English="Terms and Policies">Términos y Políticas</String>
     <String ID="使用条款" Status="0" English="Terms of Use">Términos de Uso</String>
     <String ID="隐私政策" Status="0" English="Privacy Policy">Política de privacidad</String>
-    <String ID="请你务必审慎阅读、充分理解我们的《{0}》和《{1}》。为提供科学实验及学习交流等服务，我们需要收集经过匿名化的设备型号及操作日志等信息。你可以在设置界面管理你的个人信息授权。如果你同意上述条款，请点击确认开始使用服务。" Status="0" English="Please read and accept our &quot;{0}&quot; and &quot;{1}&quot;. To provide learning services, we need to collect information such as anonymized device information and logs. You can manage your personal information authorization in settings. If you agree to the above terms, please click Confirm to start using the service.">Lea y acepte nuestros &amp;quot;{0}&amp;quot; y &amp;quot;{1}&amp;quot;. Para proporcionar servicios de aprendizaje, necesitamos recopilar información como registros e información anónima del dispositivo. Puede administrar la autorización de su información personal en la configuración. Si acepta los términos anteriores, haga clic en Confirmar para comenzar a utilizar el servicio.</String>
-    <String ID="你正在进行的操作需要切换到中文区。中文区由 Turtle Sim LLC 运营，按美国和伊利诺伊州法律法规的要求运作。" Status="0" English="The operation requires you to switch to the Chinese region, which is operated by Turtle Sim LLC, in accordance with the laws and regulations of the United States and Illinois.">La operación requiere que se cambie a la región china, que es operada por Turtle Sim LLC, de acuerdo con las leyes y regulaciones de los Estados Unidos e Illinois.</String>
-    <String ID="你正在进行的操作需要切换到中文区，并且创建一个关联的帐号。如果你希望在中文区登录应用，需要重新绑定邮箱、手机或其他登录方式。中文区由 Turtle Sim LLC 运营，按美国和伊利诺伊州法律法规的要求运作。" Status="0" English="The operation requires you to switch to the Chinese region, which is operated by Turtle Sim LLC, in accordance with the laws and regulations of the United States and Illinois. You need to rebind your email, mobile phone or other login methods to sign-in in this region. ">La operación requiere que se cambie a la región china, que es operada por Turtle Sim LLC, de acuerdo con las leyes y regulaciones de los Estados Unidos e Illinois. Debe volver a vincular su correo electrónico, teléfono móvil u otros métodos de inicio de sesión para iniciar sesión en esta región.</String>
+    <String ID="请你务必审慎阅读、充分理解我们的《{0}》和《{1}》。为提供科学实验及学习交流等服务，我们需要收集经过匿名化的设备型号及操作日志等信息。你可以在设置界面管理你的个人信息授权。如果你同意上述条款，请点击确认开始使用服务。" Status="1" English="Please read and accept our &quot;{0}&quot; and &quot;{1}&quot;. To provide learning services, we need to collect information such as anonymized device information and logs. You can manage your personal information authorization in settings. If you agree to the above terms, please click Confirm to start using the service.">Lea y acepte nuestros &amp;quot;{0}&amp;quot; y &amp;quot;{1}&amp;quot;. Para proporcionar servicios de aprendizaje, necesitamos recopilar información como registros e información anónima del dispositivo. Puede administrar la autorización de su información personal en la configuración. Si acepta los términos anteriores, haga clic en Confirmar para comenzar a utilizar el servicio.</String>
+    <String ID="你正在进行的操作需要切换到中文区。中文区由 Turtle Sim LLC 运营，按美国和伊利诺伊州法律法规的要求运作。" Status="1" English="The operation requires you to switch to the Chinese region, which is operated by Turtle Sim LLC, in accordance with the laws and regulations of the United States and Illinois.">La operación requiere que se cambie a la región china, que es operada por Turtle Sim LLC, de acuerdo con las leyes y regulaciones de los Estados Unidos e Illinois.</String>
+    <String ID="你正在进行的操作需要切换到中文区，并且创建一个关联的帐号。如果你希望在中文区登录应用，需要重新绑定邮箱、手机或其他登录方式。中文区由 Turtle Sim LLC 运营，按美国和伊利诺伊州法律法规的要求运作。" Status="1" English="The operation requires you to switch to the Chinese region, which is operated by Turtle Sim LLC, in accordance with the laws and regulations of the United States and Illinois. You need to rebind your email, mobile phone or other login methods to sign-in in this region. ">La operación requiere que se cambie a la región china, que es operada por Turtle Sim LLC, de acuerdo con las leyes y regulaciones de los Estados Unidos e Illinois. Debe volver a vincular su correo electrónico, teléfono móvil u otros métodos de inicio de sesión para iniciar sesión en esta región.</String>
     <String ID="你正在进行的操作需要切换到全球区。全球区由 Turtle Sim LLC 运营，按美国和伊利诺伊州法律法规的要求运作。" Status="0" English="The operation requires you to switch to the Global region, which is operated by Turtle Sim LLC, in accordance with the laws and regulations of the United States and Illinois.">La operación requiere que se cambie a la región Global, que es operada por Turtle Sim LLC, de acuerdo con las leyes y regulaciones de los Estados Unidos e Illinois.</String>
-    <String ID="你正在进行的操作需要切换到全球区，并且创建一个关联的帐号。如果你希望在全球区登录应用，需要重新绑定邮箱、手机或其他登录方式。全球区由 Turtle Sim LLC 运营，按美国和伊利诺伊州法律法规的要求运作。" Status="0" English="The operation requires you to switch to the Chinese region, which is operated by Turtle Sim LLC, in accordance with the laws and regulations of the United States and Illinois. You need to rebind your email, mobile phone or other login methods to sign-in in this region.">La operación requiere que se cambie a la región china, que es operada por Turtle Sim LLC, de acuerdo con las leyes y regulaciones de los Estados Unidos e Illinois. Debe volver a vincular su correo electrónico, teléfono móvil u otros métodos de inicio de sesión para iniciar sesión en esta región.</String>
+    <String ID="你正在进行的操作需要切换到全球区，并且创建一个关联的帐号。如果你希望在全球区登录应用，需要重新绑定邮箱、手机或其他登录方式。全球区由 Turtle Sim LLC 运营，按美国和伊利诺伊州法律法规的要求运作。" Status="1" English="The operation requires you to switch to the Chinese region, which is operated by Turtle Sim LLC, in accordance with the laws and regulations of the United States and Illinois. You need to rebind your email, mobile phone or other login methods to sign-in in this region.">La operación requiere que se cambie a la región china, que es operada por Turtle Sim LLC, de acuerdo con las leyes y regulaciones de los Estados Unidos e Illinois. Debe volver a vincular su correo electrónico, teléfono móvil u otros métodos de inicio de sesión para iniciar sesión en esta región.</String>
     <String ID="转移记录" Status="0" English="Transfer Record">Registro de transferencia</String>
     <String ID="当前帐号" Status="0" English="Current Account">Cuenta actual</String>
     <String ID="首次迁移帐号时，你可以将所有金币、钻石、订阅和购买记录转移到另一个区域。原区的相应记录则会清空。同时，我们将同步你的登录方式和密码到新区。是否确定要这样做？" Status="0" English="When you migrate your account for the first time, you can transfer all credits, diamonds, subscriptions, and purchase records to another area. The corresponding records in the original area will be cleared. At the same time, we will synchronize your login methods and password to the new area. Do you want to do this?">Cuando migra su cuenta por primera vez, puede transferir todos los créditos, diamantes, suscripciones y registros de compras a otra área. Se borrarán los registros correspondientes en el área original. Al mismo tiempo, sincronizaremos sus métodos de inicio de sesión y contraseña con la nueva área. ¿Quieres hacer esto?</String>
-    <String ID="欢迎来到全球区！我们的美国服务器将带来更稳定和流畅的访问体验。点击确认将迁移你的帐号，点击取消将留在中文区。全球区由 Turtle Sim LLC 运营，按美国和伊利诺伊州法律法规的要求运作。" Status="0" English="Welcome to our new Global region! Our US server will bring a more stable and smooth experience for you. Click Confirm to transfer your account, click Cancel to stay in the Chinese region. The Global region is operated by Turtle Sim LLC in accordance with the laws and regulations of the United States and Illinois.">¡Bienvenido a nuestra nueva región global! Nuestro servidor de EE. UU. Le brindará una experiencia más estable y fluida. Haga clic en Confirmar para transferir su cuenta, haga clic en Cancelar para permanecer en la región china. Turtle Sim LLC opera la región global de acuerdo con las leyes y regulaciones de los Estados Unidos e Illinois.</String>
+    <String ID="欢迎来到全球区！我们的美国服务器将带来更稳定和流畅的访问体验。点击确认将迁移你的帐号，点击取消将留在中文区。全球区由 Turtle Sim LLC 运营，按美国和伊利诺伊州法律法规的要求运作。" Status="1" English="Welcome to our new Global region! Our US server will bring a more stable and smooth experience for you. Click Confirm to transfer your account, click Cancel to stay in the Chinese region. The Global region is operated by Turtle Sim LLC in accordance with the laws and regulations of the United States and Illinois.">¡Bienvenido a nuestra nueva región global! Nuestro servidor de EE. UU. Le brindará una experiencia más estable y fluida. Haga clic en Confirmar para transferir su cuenta, haga clic en Cancelar para permanecer en la región china. Turtle Sim LLC opera la región global de acuerdo con las leyes y regulaciones de los Estados Unidos e Illinois.</String>
   </Regions>
   <Hierarchies>
     <String ID="认证管理员" Status="0" English="Administrator">Administrador</String>
@@ -340,6 +353,7 @@
     <String ID="低" Status="0" English="Low">Bajo</String>
     <String ID="中" Status="0" English="Medium">Medio</String>
     <String ID="高" Status="0" English="High">Alto</String>
+    <String ID="你需要重新启动应用使设置生效。" Status="1" English="Restarting is needed for the settings to take effect.">Es necesario reiniciar para que la configuración surta efecto.</String>
   </Preferences>
   <Activities>
     <String ID="累计登录 {0} 天" Status="0" English="Login {0} days">Iniciar sesión {0} días</String>
@@ -356,10 +370,11 @@
   <Users>
     <String ID="匿名用户" Status="0" English="Anonymous User">Usuario anónimo</String>
     <String ID="点击登录" Status="0" English="Click to Login">Iniciar sesión</String>
-    <String ID="点击修改昵称" Status="0" English="Click to edit">Editar apodo</String>
+    <String ID="修改昵称" Status="1" English="Change username">Cambie el nombre de usuario</String>
     <String ID="请输入你的昵称" Status="0" English="Please enter your nickname">Escribe su apodo</String>
+    <String ID="请输入修改后的昵称" Status="1" English="Please enter the new nickname">Ingrese el nuevo apodo</String>
     <String ID="请输入你的签名" Status="0" English="Please enter your signature">Por favor ingrese su firma</String>
-    <String ID="长度介于 2 到 10 汉字之间" Status="0" English="Between 2 and 10 characters">Entre 2 y 10 caracteres</String>
+    <String ID="长度介于 2 到 10 汉字之间" Status="1" English="Between 2 and 20 characters">Entre 2 y 20 caracteres</String>
     <String ID="长度不超过 20 字符" Status="0" English="No more than 20 characters">No más de 20 caracteres</String>
     <String ID="绑定帐户" Status="0" English="Bind Account">Vincular cuenta</String>
     <String ID="已有账号登录" Status="0" English="Login">Iniciar sesión</String>
@@ -378,6 +393,7 @@
     <String ID="学习阶段" Status="0" English="Education">Educación</String>
     <String ID="个性签名" Status="0" English="Signature">Firma</String>
     <String ID="个人资料" Status="0" English="Profile">Perfil</String>
+    <String ID="界面语言" Status="1" English="Interface Language">Lenguaje de interfaz</String>
     <String ID="等级提升" Status="0" English="Level Up!">¡Elevar a mismo nivel!</String>
     <String ID="未绑定" Status="0" English="Unbound">Suelto</String>
     <String ID="已绑定" Status="0" English="Bound">Ligado</String>
@@ -503,9 +519,9 @@
     <String ID="按热度排序" Status="0" English="By popularity">Por popularidad</String>
     <String ID="进入" Status="0" English="Enter">Entrar</String>
     <String ID="进入实验" Status="0" English="Enter Experiment">Entrar Experimento</String>
-    <String ID="进入教程" Status="0" English="Guided Intro">Introducción Guiada</String>
-    <String ID="探索模式" Status="0" English="Free Exploration">Exploración Libre</String>
-    <String ID="参与讨论" Status="0" English="Join Discussion">Unirse a la Discusión</String>
+    <String ID="打开指南" Status="1" English="Guided Intro">Introducción guiada</String>
+    <String ID="开始探索" Status="1" English="Free Exploration">Exploración libre</String>
+    <String ID="参与讨论" Status="0" English="Join Discussion">Unirse a la discusión</String>
     <String ID="改编来源" Status="0" English="Remixed From">Remezclado de</String>
     <String ID="基于模型" Status="0" English="Parent Model">Modelo Raiz</String>
     <String ID="衍生模型" Status="0" English="Child Models">Modelos Infantiles</String>
@@ -565,9 +581,7 @@
     <String ID="原作者不允许您改编并发布。您需要重新创作才能发布。" Status="0" English="The original author does not allow you to adapt and publish. You need to re-author to publish.">El autor original no le permite adaptar y publicar. Necesita volver a escribir para publicar.</String>
   </Forums>
   <Tutorials>
-    <String ID="跳过教程" Status="0" English="Skip tutorial">Saltar tutorial</String>
     <String ID="是否希望跳过当前教程？你可以随时从左上角的教程按钮返回。" Status="0" English="Do you want to skip the tutorial? You can return at any time from the tutorial button.">¿Quieres saltarte el tutorial? Puede regresar en cualquier momento desde el botón de tutorial.</String>
-    <String ID="隐藏教程" Status="0" English="Hide tutorial">Esconder tutorial</String>
     <String ID="是否希望隐藏当前教程？" Status="0" English="Do you want to hide the tutorial?">¿Quieres esconder el tutorial?</String>
     <String ID="点击记录你的想法" Status="0" English="Click to record your thoughts">Haz clic para registrar sus pensamientos</String>
     <String ID="跳过问题" Status="0" English="Skip question">Saltar pregunta</String>

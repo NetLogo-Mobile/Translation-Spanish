@@ -1,10 +1,10 @@
-﻿¿QUÉ ES?
+﻿## ¿QUÉ ES?
 
 Este proyecto es una versión más sofisticada del modelo “Tráfico Básico”. Similar al modelo más simple, este modelo demuestra cómo se pueden formar los atascos. En esta versión de dos-carriles, los conductores tienen una nueva opción; pueden reaccionar con cambiar de carril, aunque esto a menudo no resuelve su problema.
 
 Como en el modelo Tráfico Básico, tráfico puede ralentizar o formar atascos sin una causa centralizada.
 
-COMO USARLO
+## COMO USARLO
 
 Haz clic al botón PREPARAR para preparar los carros. Haz clic en IR para empezar el movimiento de los carros. El botón IR UNA VEZ maneja los carros para solo un tic del reloj.
 
@@ -35,7 +35,7 @@ La velocidad del carro seleccionado - ROJO
 
 El gráfico PACIENCIA CONDUCTOR muestra cuatro cantidades para la paciencia actual de los conductores: lo máximo, lo mínimo, el promedio, y la paciencia actual del conductor del carro seleccionado.
 
-COSAS PARA NOTAR
+## COSAS PARA NOTAR
 
 Los atascos pueden comenzar con pequeñas “semillas”. Los carros comienzan con posiciones aleatorias. Si algunos carros están agrupados, se moverán lentamente, lo que hará que los carros detrás de ellos disminuyan la velocidad y se forme un atasco.
 
@@ -51,7 +51,7 @@ Mira las dos gráficas. ¿Puedes detectar patrones discernibles en las parcelas?
 
 Las parcelas de pasto a cada lado de la carretera tienen un tono de verde ligeramente diferente. Las parcelas de carretera, en menor medida, son de diferentes tonalidades de gris. No se trata solo de hacer que el modelo se vea bonito: también ayuda crear una impresión de movimiento cuando se usa el botón SEGUIR CARRO SELECCIONADO.
 
-COSAS PARA INTENTAR
+## COSAS PARA INTENTAR
 
 ¿Qué podrías cambiar para minimizar las posibilidades de que se formen atascos, además del número de carros? ¿Cuál es la relación entre la cantidad de carros, la cantidad de carriles y (en este caso) la longitud de cada carril?
 
@@ -61,7 +61,7 @@ Cambia el código para que todos los carros siempre comienzan en el mismo carril
 
 Intenta usar la forma de tortuga “predeterminada” en lugar de la forma de carro, puede ser con cambiar el código o escribiendo “ask turtles” [configura forma predeterminada] en el centro de comando después de hacer clic en PREPARAR. Esto le permitirá detectar rápidamente los carros que intentan cambiar de carril. ¿Qué les pasa cuando hay mucho tráfico?
 
-EXTENDIENDO EL MODELO
+## EXTENDIENDO EL MODELO
 
 La forma en que este modelo está escrito facilita la adición de más carriles. Busque el reportero número-de-carriles en el código y juegue con él.
 
@@ -69,13 +69,13 @@ Trata de crear un modelo de “Cruce de Caminos” (donde dos conjuntos de carro
 
 Tenga en cuenta que los carros nunca chocan: un carro nunca entrará una parcela ni pasará a través de una parcela que contenga otro carro. Elimine esta característica y haga que las tortugas que chocan mueren al chocar. ¿Qué pasará con un modelo así con el tiempo?
 
-CARACTERÍSTICAS DE NETLOGO
+## CARACTERÍSTICAS DE NETLOGO
 
 Tenga en mente el uso de ratón-abajo? y ratón-xcor/ratón-ycor para permitir seleccionar un carro para atención especial.
 
 Cada tortuga tiene una forma, a diferencia de otros modelos. NetLogo usa una forma determinada para alterar las formas de las tortugas. Puedes, usando el editor de formas en el menú Herramientas, crear tus propias formas de tortuga o modificar las existentes. Después puedes modificar el código para usar sus propias formas.
 
-MODELOS RELACIONADOS
+## MODELOS RELACIONADOS
 
 “Tráfico Básico”: un modelo simple del movimiento de carros en una carretera.
 “Tráfico Básico Utilidad”: una versión de “Tráfico Básico” que incluye la función de utilidad para los carros.
@@ -87,7 +87,7 @@ MODELOS RELACIONADOS
 “Embotellamiento de Tráfico HubNet”: una versión de “Tráfico Cuadrícula” en el que estudiantes controlan semáforos en tiempo real.
 “Embotellamiento de Tráfico HubNet Alterno”: una versión de :“Embotellamiento de Tráfico HubNet” en el que estudiantes pueden entrar código de NetLogo para graficar métricas personalizadas.
 
-COMO CITAR
+## COMO CITAR
 
 Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
 

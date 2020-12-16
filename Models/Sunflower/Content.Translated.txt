@@ -1,14 +1,14 @@
-﻿¿QUÉ ES?
+﻿## ¿QUÉ ES?
 
 Las espirales entrelazadas que se pueden ver en las semillas, pétalos y hasta las ramas de muchas plantas ocurren naturalmente a través del crecimiento de la flor. Este modelo trata demostrar el crecimiento de estas espirales que ocurren naturalmente.
 
 Cuando una semilla nueva emerge, las más viejas crecen un poco y se alejan del centro--la fuente--y la semilla más joven encuentra la brecha más grande entre las semillas existentes, en la que puede crecer. Esta brecha se puede encontrar girando en sentido antihorario. El ángulo creado por este giro es un múltiplo de la proporción áurea (1.618). La proporción áurea, la cual se basa en la serie de Fibonacci (1, 1, 2, 3, 5, 8, 13…), es igual al límite de F(n)/F(n-1). Entonces, las espirales se pueden generar matemáticamente, usando la proporción áurea.
 
-COMO FUNCIONA
+## COMO FUNCIONA
 
 Para cada tic del reloj, una tortuga nueva (se puede ver como una semilla o una pétalo) se crea. Como en la naturaleza, la tortuga encuentra una posición adecuada y empieza a crecer. La “posición adecuada” se define como el número de tics del reloj por el “incremento de giro”. Todas las otras tortugas existentes avanzan y crecen un poco, con cada tic del reloj. Si una tortuga se arrima al borde del mundo demasiado, se muere.
 
-COMO USARLO
+## COMO USARLO
 
 El control deslizador NUM-COLORES controla cuántos colores las tortugas pueden ser. (Usando esto hará que algunas de las espirales se destaquen más, y que otras se destaquen menos.)
 
@@ -18,15 +18,15 @@ El control deslizante INCREMENTO-DE-GIRO dicta el grado en que cada nueva tortug
 
 Los botones de ESTABLECER INCREMENTO-DE-GIRO ayudan a configurar el control deslizante INCREMENTO-DE-GIRO a valores específicos en y alrededor de la proporción áurea. 
 
-COSAS PARA NOTAR
+## COSAS PARA NOTAR
 
 Piensa en las espirales que ves. ¿De cuántas formas diferentes puedes hacer un patrón de espirales?
 
-COSAS PARA INTENTAR
+## COSAS PARA INTENTAR
 
 ¿Si añades más colores, cómo afectan las espirales que ves? ¿Cambia el fenómeno o solo lo que ves?
 
-EXTENDIENDO EL MODELO
+## EXTENDIENDO EL MODELO
 
 Haz que las espirales vayan en sentido antihorario.
 
@@ -34,15 +34,15 @@ Haz que el modelo dibuje el pétalo o la patrona de semillas de tu flor favorita
 
 En la naturaleza, las plantas reales no tienen la proporción áurea “programada” en ellas. Mejor dicho, las espirales se forman como resultado de un proceso emergente, descrito en el libro de Conway y Guy (ver más abajo) y otras fuentes. ¿Puedes extender este modelo para capturar este proceso emergente?
 
-CARACTERÍSTICAS DE NETLOGO
+## CARACTERÍSTICAS DE NETLOGO
 
 Tenga en cuenta que en el código, las tortugas “mueren” cuando se alejan demasiado del centro del mundo, entonces hace un patrón circular.
 
-MODELOS RELACIONADOS
+## MODELOS RELACIONADOS
 
 Esto se basa en las pp. 113-24 de “The Book of Numbers” por John H. Conway y Richard K. Guy.
 
-COMO CITAR
+## COMO CITAR
 
 Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
 

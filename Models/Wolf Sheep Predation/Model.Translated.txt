@@ -1,0 +1,485 @@
+﻿# Language = Spanish
+## Plots
+### Source
+grass / 4
+### Spanish
+
+
+### Source
+pop.
+### Spanish
+
+
+### Source
+populations
+### Spanish
+
+
+### Source
+sheep
+### Spanish
+
+
+### Source
+time
+### Spanish
+
+
+### Source
+wolves
+### Spanish
+
+
+## Tutorial
+### Excessive
+"Want to look at the community's or your answers to the questions asked in this model? Click on <b>Go to Q&A Panel</b>."
+
+### Source
+A biological species is a group of organisms that can <trigger=reproduction>reproduce</trigger> with one another in nature and produce fertile offspring .
+### Spanish
+
+
+### Source
+A population is the number of organisms of the same <trigger=species>species</trigger> that live in a particular geographic area  at the same time , with the capability of producing fertile offspring .
+### Spanish
+
+
+### Source
+An <trigger=ecosystem>ecosystem</trigger>  is said to possess ecological <color=blue>stability </color> (or equilibrium) if it is capable of returning to its equilibrium state after a perturbation (a capacity known as resilience) or does not experience unexpected large changes in its characteristics across time .
+### Spanish
+
+
+### Source
+An ecosystem  or biome describes a single environment and every <color=green>living (biotic)</color> organism  and <color=#555555ff>non-living (abiotic)</color> factor  that is contained within it or characterizes it. An ecosystem  embodies every aspect of a single habitat, including all interactions between its different elements.
+### Spanish
+
+
+### Source
+Can you find any parameters that generate a <color=blue>stable </color> <trigger=ecosystem>ecosystem</trigger>  in the <color=grey>sheep </color>-<color=#a07348ff>wolves </color> model variation?
+### Spanish
+
+
+### Source
+Can you modify the model so that <color=#a07348ff>wolves </color> actively chase <color=grey>sheep </color>?
+### Spanish
+
+
+### Source
+Can you modify the model so the <color=grey>sheep </color> will flock?
+### Spanish
+
+
+### Source
+Changing the Reproduction Rules 
+### Spanish
+
+
+### Source
+Congratulations! 
+### Spanish
+
+
+### Source
+Ecosystem 
+### Spanish
+
+
+### Source
+Extinction 
+### Spanish
+
+
+### Source
+Extinction  is the dying out or extermination of a <trigger=species>species</trigger>. Extinction  occurs when species are diminished because of environmental forces (habitat fragmentation, global  change, natural disaster , overexploitation of species for human use ) or because of evolutionary changes in their members (genetic  inbreeding, poor <trigger=reproduction>reproduction</trigger>, decline in <trigger=population>population</trigger> numbers).
+### Spanish
+
+
+### Source
+First Variation of Model 
+### Spanish
+
+
+### Source
+Goals 
+### Spanish
+
+
+### Source
+grass 
+### Spanish
+
+
+### Source
+grass-regrowth-time 
+### Spanish
+
+
+### Source
+Here, you can watch the <color=#a07348ff>wolf </color>, <color=grey>sheep </color>, and <color=green>grass </color> <trigger=population>populations</trigger> fluctuate  over time . When running the <color=grey>sheep </color>-<color=#a07348ff>wolves </color> model variation, watch as the <color=grey>sheep </color> and <color=#a07348ff>wolf </color> populations fluctuate . Notice that increases and decreases in the sizes of each population are related. In what way are they related? What eventually happens?
+### Spanish
+
+
+### Source
+How long it takes for <color=green>grass </color> to regrow once it is eaten (note this is not used in the <color=grey>sheep </color>-<color=#a07348ff>wolves </color> model version)
+### Spanish
+
+
+### Source
+Imagine you are standing in a <color=green>green pasture </color> on a beautiful, <color=#b3b300ff>sunny </color> day. A few hundred feet away, you observe a <color=grey>flock of sheep </color> meandering in the <color=#654321ff>fields</color>, feasting on the plentiful <color=green>grass </color>. Suddenly, a <color=#a07348ff>pack of wolves </color> appear and begin chasing the <color=grey>sheep </color> that have already begun to disperse. How do the <trigger=population>populations</trigger> of the <trigger=predator,#a07348ff>predator</trigger> and <trigger=prey,grey>prey</trigger> change over time  due to predation? Click <b>next</b> to explore this further more.
+### Spanish
+
+
+### Source
+In ecology, <color=#a07348ff>predators</color> are organisms that live by <trigger=prey,grey>preying</trigger> on other organisms for food .
+### Spanish
+
+
+### Source
+In ecology, <color=grey>preys</color> are organisms that <trigger=predator,#a07348ff>predator</trigger> kill for food .
+### Spanish
+
+
+### Source
+In the <color=grey>sheep </color>-<color=#a07348ff>wolves </color>-<color=green>grass </color> model variation, notice the <color=green>green line</color> added to the <trigger=population>population</trigger> plot representing fluctuations  in the amount of <color=green>grass </color>. How do the sizes of the three populations appear to relate now? What is the explanation for this?
+### Spanish
+
+
+### Source
+In what condition is this variation well-suited for?
+### Spanish
+
+
+### Source
+initial-number-sheep 
+### Spanish
+
+
+### Source
+initial-number-wolves 
+### Spanish
+
+
+### Source
+Introduction
+### Spanish
+
+
+### Source
+model-version
+### Spanish
+
+
+### Source
+Notice that under <color=blue>stable </color> settings, the <trigger=population>populations</trigger> tend to fluctuate  at a predictable pace. Can you find any parameters that will speed this up  or slow it down ?
+### Spanish
+
+
+### Source
+Plot 
+### Spanish
+
+
+### Source
+Population
+### Spanish
+
+
+### Source
+Predator
+### Spanish
+
+
+### Source
+Prey
+### Spanish
+
+
+### Source
+Questions?
+### Spanish
+
+
+### Source
+Reproduction
+### Spanish
+
+
+### Source
+Reproduction is a biological process by which an organism reproduces an offspring  who is biologically similar to the organism. Reproduction enables and ensures the continuity  of <trigger=species>species</trigger>, generation after generation.
+### Spanish
+
+
+### Source
+Second Variation of Model 
+### Spanish
+
+
+### Source
+Sensitivity of Parameters 
+### Spanish
+
+
+### Source
+Sheep Flock 
+### Spanish
+
+
+### Source
+sheep 
+### Spanish
+
+
+### Source
+sheep-gain-from-food 
+### Spanish
+
+
+### Source
+sheep-reproduce 
+### Spanish
+
+
+### Source
+show-energy? 
+### Spanish
+
+
+### Source
+Species
+### Spanish
+
+
+### Source
+Stability When Wolf Population is Zero 
+### Spanish
+
+
+### Source
+Stability With Only Wolves and Sheep (No Grass) 
+### Spanish
+
+
+### Source
+Stability 
+### Spanish
+
+
+### Source
+The amount of <color=#b3b300ff>energy </color> <color=#a07348ff>wolves </color> get for every <color=grey>sheep </color> eaten
+### Spanish
+
+
+### Source
+The amount of <color=#b3b300ff>energy </color> <color=grey>sheep </color> get for every <color=green>grass patch </color> eaten (note this is not used in the <color=grey>sheep </color>-<color=#a07348ff>wolves </color> model version)
+### Spanish
+
+
+### Source
+The current size of the <color=#a07348ff>wolf </color> <trigger=population>population</trigger>
+### Spanish
+
+
+### Source
+The current size of the <color=green>grass </color> <trigger=population>population</trigger>
+### Spanish
+
+
+### Source
+The current size of the <color=grey>sheep </color> <trigger=population>population</trigger>
+### Spanish
+
+
+### Source
+The initial size of <color=#a07348ff>wolf </color> <trigger=population>population</trigger>
+### Spanish
+
+
+### Source
+The initial size of <color=grey>sheep </color> <trigger=population>population</trigger>
+### Spanish
+
+
+### Source
+The probability of a <color=#a07348ff>wolf </color> <trigger=reproduction>reproducing</trigger> at each time  step
+### Spanish
+
+
+### Source
+The probability of a <color=grey>sheep </color> <trigger=reproduction>reproducing</trigger> at each time  step
+### Spanish
+
+
+### Source
+The second variation, the "<color=grey>sheep </color>-<color=#a07348ff>wolves </color>-<color=green>grass </color>" version explictly models <color=green>grass </color> in addition to <color=#a07348ff>wolves </color> and <color=grey>sheep </color>. The behavior of the <color=#a07348ff>wolves </color> is identical to the first variation, however this time the <color=grey>sheep </color> must eat <color=green>grass </color> in order to maintain their <color=#b3b300ff>energy </color> - when they run out of <color=#b3b300ff>energy </color> they die . One unit of <color=#b3b300ff>energy </color> is deducted for every step a <color=grey>sheep </color> takes. Once <color=green>grass </color> is eaten it will only regrow after a fixed amount of time .
+### Spanish
+
+
+### Source
+There are a number ways to alter the model so that it will be <color=blue>stable </color> with only <color=#a07348ff>wolves </color> and <color=grey>sheep </color> (no <color=green>grass </color>). Some will require new elements to be coded in or existing behaviors to be changed. Can you develop such a version?
+### Spanish
+
+
+### Source
+There are two main variations to this model. In the first variation, the "<color=grey>sheep </color>-<color=#a07348ff>wolves </color>" version, <color=#a07348ff>wolves </color> and <color=grey>sheep </color> wander randomly around the <color=#654321ff>landscape </color>, while the <color=#a07348ff>wolves </color> look for <color=grey>sheep </color> to prey on. Each step costs the <color=#a07348ff>wolves </color> one unit of <color=#b3b300ff>energy </color>, and they must eat <color=grey>sheep </color> in order to replenish their <color=#b3b300ff>energy </color> - when they run out of <color=#b3b300ff>energy </color> they die . To allow the <trigger=population>population</trigger> to continue, each <color=#a07348ff>wolf </color> or <color=grey>sheep </color> has a fixed probability of <trigger=reproduction>reproducing</trigger> at each time  step. In this variation, we model the <color=green>grass </color> as "infinite " so that <color=grey>sheep </color> always have enough to eat, and we don't explicitly model the eating or growing of <color=green>grass </color>. As such, <color=grey>sheep </color> don't either gain or lose <color=#b3b300ff>energy </color> by eating or moving.
+### Spanish
+
+
+### Source
+Things to Try
+### Spanish
+
+
+### Source
+This model explores the <trigger=stability,blue>stability </trigger> of <trigger=predator,#a07348ff>predator</trigger>-<trigger=prey,grey>prey</trigger> <trigger=ecosystem>ecosystems</trigger> . Such a system is called <color=red>unstable </color> if it tends to result in <trigger=extinction>extinction </trigger> for one or more <trigger=species>species</trigger> involved. In contrast, a system is <color=blue>stable </color> if it tends to maintain itself over time , despite fluctuations  in <trigger=population>population</trigger> sizes.
+### Spanish
+
+
+### Source
+This variation is more complex than the first, but it is generally <color=blue>stable </color>. It is a closer match to the classic Lotka Volterra <trigger=population>population</trigger> oscillation models. The classic LV models though assume the populations can take on real values, but in small populations these models underestimate <trigger=extinction>extinctions </trigger> and agent-based models such as the ones here, provide more realistic results.
+### Spanish
+
+
+### Source
+This variation produces interesting <trigger=population>population</trigger> dynamics, but is ultimately <color=red>unstable </color>. This variation of the model is particularly well-suited to interacting <trigger=species>species</trigger> in a <color=green>rich nutrient</color> environment, such as two strains of bacteria in a petri dish.
+### Spanish
+
+
+### Source
+To further explore the model, click on any of the following topics.
+### Spanish
+
+
+### Source
+Try adjusting the parameters under various settings. How sensitive is the <color=blue>stability </color> of the model to the particular parameters?
+### Spanish
+
+
+### Source
+Try changing the <trigger=reproduction>reproduction</trigger> rules -- for example, what would happen if reproduction depended on <color=#b3b300ff>energy </color> rather than being determined by a fixed probability?
+### Spanish
+
+
+### Source
+Try running the <color=grey>sheep </color>-<color=#a07348ff>wolves </color>-<color=green>grass </color> model variation, but setting <I>initial-number-wolves</I> to 0. This gives a <color=blue>stable </color> <trigger=ecosystem>ecosystem</trigger>  with only <color=grey>sheep </color> and <color=green>grass </color>. Why might this be <color=blue>stable </color> while the variation with only <color=grey>sheep </color> and <color=#a07348ff>wolves </color> is not?
+### Spanish
+
+
+### Source
+Want to look at the community's or your answers to the questions asked in this model? Click on <b>Go to Q&A Panel</b>.
+### Spanish
+
+
+### Source
+Welcome to the Wolf Sheep Predation Model! 
+### Spanish
+
+
+### Source
+Well done! You have completed the Wolf Sheep Predation model tutorial! Time to play with the model!
+### Spanish
+
+
+### Source
+Whether or not to show the <color=#b3b300ff>energy </color> of each animal in the world
+### Spanish
+
+
+### Source
+Whether we model <color=grey>sheep </color> <color=#a07348ff>wolves </color> and <color=green>grass </color> or just <color=grey>sheep </color> and <color=#a07348ff>wolves </color>
+### Spanish
+
+
+### Source
+Why do you suppose that some variations of the model might be <color=blue>stable </color> while others are not?
+### Spanish
+
+
+### Source
+wolf-gain-from-food 
+### Spanish
+
+
+### Source
+wolf-reproduce 
+### Spanish
+
+
+### Source
+Wolves Chasing Sheep 
+### Spanish
+
+
+### Source
+wolves 
+### Spanish
+
+
+### Source
+ Understand the <trigger=population>population</trigger> dynamics between <trigger=predator,#a07348ff>predator</trigger> and <trigger=prey,grey>prey</trigger> <trigger=species>species</trigger> 
+ Observe the difference between modeling in a <color=green>nutrient rich </color> environment and a <color=#654321ff>non-ideal</color> environment
+ Examine factors that when changed, result in differing dynamics between <color=#a07348ff>predator</color> and <color=grey>prey</color> 
+ Explore how manipulating these factors affect populations over time  and their <trigger=stability,blue>stability </trigger>
+### Spanish
+
+
+## Widgets
+### Source
+grass
+### Spanish
+
+
+### Source
+grass-regrowth-time
+### Spanish
+
+
+### Source
+initial-number-sheep
+### Spanish
+
+
+### Source
+initial-number-wolves
+### Spanish
+
+
+### Source
+model-version
+### Spanish
+
+
+### Source
+sheep
+### Spanish
+
+
+### Source
+sheep-gain-from-food
+### Spanish
+
+
+### Source
+sheep-reproduce
+### Spanish
+
+
+### Source
+show-energy?
+### Spanish
+
+
+### Source
+wolf-gain-from-food
+### Spanish
+
+
+### Source
+wolf-reproduce
+### Spanish
+
+
+### Source
+wolves
+### Spanish
+
+
