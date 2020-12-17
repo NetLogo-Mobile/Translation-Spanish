@@ -142,9 +142,14 @@ In the <color=grey>sheep </color>-<color=#a07348ff>wolves </color>-<color=
 En la variación del modelo <color=grey>ovejas </color>-<color=#a07348ff>lobos </color>-<color=green>pasto </color>, tenga en cuenta que <color=green>la línea verde</color> agregada a la <trigger=población>población</trigger> gráfica representando fluctuaciones  en la cantidad del <color=green>pasto </color>. ¿Ahora, como parecen que los tamaños de las tres poblaciones están relacionadas? ¿Por qué es esto?
 
 ### Source
+In this variation, we model the <color=green>grass </color> as "infinite " so that <color=grey>sheep </color> always have enough to eat, and we don't explicitly model the eating or growing of <color=green>grass </color>. As such, <color=grey>sheep </color> don't either gain or lose <color=#b3b300ff>energy </color> by eating or moving.
+### Spanish
+En esta variación, modelamos el <color=green>pasto </color> como "infinito " para que las <color=grey>ovejas </color> siempre tengan suficiente para comer, y no modelamos explicítamente el comer o resurgimiento del <color=green>pasto </color>. Como tal, <color=grey>ovejas </color> no ganan ni pierden <color=#b3b300ff>energía </color> al comer o mover.
+
+### Source
 In what condition is this variation well-suited for?
 ### Spanish
-¿En qué condicion es adecuada esta variación? 
+¿En qué condicion es adecuada esta variación?
 
 ### Source
 initial-number-sheep 
@@ -184,7 +189,7 @@ Población 
 ### Source
 Predator
 ### Spanish
-Depredador 
+Depredador
 
 ### Source
 Prey
@@ -269,7 +274,7 @@ La cantidad de <color=#b3b300ff>energía </color> <color=#a07348ff>lobos <
 ### Source
 The amount of <color=#b3b300ff>energy </color> <color=grey>sheep </color> get for every <color=green>grass patch </color> eaten (note this is not used in the <color=grey>sheep </color>-<color=#a07348ff>wolves </color> model version)
 ### Spanish
-La cantidad de <color=#b3b300ff>energía </color> <color=grey>ovejas </color> obtienen para cada <color=parcela verde patch </color> comida (tenga en cuenta que esto no se usa en la versión del modelo de <color=grey>ovejas </color>-<color=#a07348ff>lobos </color>)
+La cantidad de <color=#b3b300ff>energía </color> <color=grey>ovejas </color> obtienen para cada <color=parcela> verde patch </color> comida (tenga en cuenta que esto no se usa en la versión del modelo de <color=grey>ovejas </color>-<color=#a07348ff>lobos </color>)
 
 ### Source
 The current size of the <color=#a07348ff>wolf </color> <trigger=population>population</trigger>
@@ -317,9 +322,9 @@ There are a number ways to alter the model so that it will be <color=blue>stable
 Hay varias formas de alterar el modelo para que sea <color=blue>stable </color> con solo <color=#a07348ff>lobos </color> y <color=grey>ovejas </color> (sin <color=green>pasto </color>). Algunos requerirán que se codifiquen nuevos elementos o que se modifiquen comportamientos existentes. ¿Puedes desarrollar una versión así?
 
 ### Source
-There are two main variations to this model. In the first variation, the "<color=grey>sheep </color>-<color=#a07348ff>wolves </color>" version, <color=#a07348ff>wolves </color> and <color=grey>sheep </color> wander randomly around the <color=#654321ff>landscape </color>, while the <color=#a07348ff>wolves </color> look for <color=grey>sheep </color> to prey on. Each step costs the <color=#a07348ff>wolves </color> one unit of <color=#b3b300ff>energy </color>, and they must eat <color=grey>sheep </color> in order to replenish their <color=#b3b300ff>energy </color> - when they run out of <color=#b3b300ff>energy </color> they die . To allow the <trigger=population>population</trigger> to continue, each <color=#a07348ff>wolf </color> or <color=grey>sheep </color> has a fixed probability of <trigger=reproduction>reproducing</trigger> at each time  step. In this variation, we model the <color=green>grass </color> as "infinite " so that <color=grey>sheep </color> always have enough to eat, and we don't explicitly model the eating or growing of <color=green>grass </color>. As such, <color=grey>sheep </color> don't either gain or lose <color=#b3b300ff>energy </color> by eating or moving.
+There are two main variations to this model. In the first variation, the "<color=grey>sheep </color>-<color=#a07348ff>wolves </color>" version, <color=#a07348ff>wolves </color> and <color=grey>sheep </color> wander randomly around the <color=#654321ff>landscape </color>, while the <color=#a07348ff>wolves </color> look for <color=grey>sheep </color> to prey on. Each step costs the <color=#a07348ff>wolves </color> one unit of <color=#b3b300ff>energy </color>, and they must eat <color=grey>sheep </color> in order to replenish their <color=#b3b300ff>energy </color> - when they run out of <color=#b3b300ff>energy </color> they die . To allow the <trigger=population>population</trigger> to continue, each <color=#a07348ff>wolf </color> or <color=grey>sheep </color> has a fixed probability of <trigger=reproduction>reproducing</trigger> at each time  step.
 ### Spanish
-Hay dos variaciones principales de este modelo. En la primera variación, la versión "<color=grey>ovejas </color>-<color=#a07348ff>lobos </color>", <color=#a07348ff>lobos </color> y <color=grey>ovejas </color> deambulan aleatoriamente por el <color=#654321ff>paisaje </color>, mientras que los <color=#a07348ff>lobos </color> buscan <color=grey>ovejas </color> para comer. Cada paso les cuestan una unidad de <color=#b3b300ff>energeia </color> a los <color=#a07348ff>lobos </color>, y tienen que comer <color=grey>ovejas </color> para reponer su <color=#b3b300ff>energía </color> – cuando quedan sin <color=#b3b300ff>energía </color> se mueren . Para permitir que la <trigger=población>población</trigger> continúe, cada <color=#a07348ff>lobo </color> o <color=grey>oveja </color> tiene una probabilidad fija de <trigger=reproducción>reproducir</trigger> en cada paso de  tiempo. En esta variación, modelamos el <color=green>pasto </color> como "infinito " para que las <color=grey>ovejas </color> siempre tengan suficiente para comer, y no modelamos explicítamente el comer o resurgimiento del <color=green>pasto </color>. Como tal, <color=grey>ovejas </color> no ganan ni pierden <color=#b3b300ff>energía </color> al comer o mover.
+Hay dos variaciones principales de este modelo. En la primera variación, la versión "<color=grey>ovejas </color>-<color=#a07348ff>lobos </color>", <color=#a07348ff>lobos </color> y <color=grey>ovejas </color> deambulan aleatoriamente por el <color=#654321ff>paisaje </color>, mientras que los <color=#a07348ff>lobos </color> buscan <color=grey>ovejas </color> para comer. Cada paso les cuestan una unidad de <color=#b3b300ff>energeia </color> a los <color=#a07348ff>lobos </color>, y tienen que comer <color=grey>ovejas </color> para reponer su <color=#b3b300ff>energía </color> – cuando quedan sin <color=#b3b300ff>energía </color> se mueren . Para permitir que la <trigger=población>población</trigger> continúe, cada <color=#a07348ff>lobo </color> o <color=grey>oveja </color> tiene una probabilidad fija de <trigger=reproducción>reproducir</trigger> en cada paso de  tiempo.
 
 ### Source
 Things to Try
@@ -377,6 +382,16 @@ Well done! You have completed the Wolf Sheep Predation model tutorial! Time to p
 ¡Bien heco! ¡Has completado el tutorial del modelo de Depredación Oveja-Lobo! ¡Es hora de jugar con el modelo!
 
 ### Source
+What about the population of the grass?
+### Spanish
+
+
+### Source
+What about the population of the grass? 
+### Spanish
+
+
+### Source
 Whether or not to show the <color=#b3b300ff>energy </color> of each animal in the world
 ### Spanish
 Si mostrar or no la <color=#b3b300ff>energía </color> de cada animal en el mundo
@@ -413,13 +428,18 @@ lobos 
 
 ### Source
  Understand the <trigger=population>population</trigger> dynamics between <trigger=predator,#a07348ff>predator</trigger> and <trigger=prey,grey>prey</trigger> <trigger=species>species</trigger> 
- Observe the difference between modeling in a <color=green>nutrient rich </color> environment and a <color=#654321ff>non-ideal</color> environment
+ Observe the difference between modeling in a <color=green>nutrient rich </color> environment and a <color=#654321ff>resource-limited</color> environment
  Examine factors that when changed, result in differing dynamics between <color=#a07348ff>predator</color> and <color=grey>prey</color> 
  Explore how manipulating these factors affect populations over time  and their <trigger=stability,blue>stability </trigger>
 ### Spanish
  Comprender la dinámica de <trigger=población>población</trigger> entre <trigger=species>species</trigger>  <trigger=depredador,#a07348ff>depredador</trigger> y <trigger=presa,grey>presa</trigger>
 
 ## Widgets
+### Source
+go
+### Spanish
+
+
 ### Source
 grass
 ### Spanish
@@ -444,6 +464,11 @@ número-inicial-lobos
 model-version
 ### Spanish
 versión-de-modelo
+
+### Source
+setup
+### Spanish
+
 
 ### Source
 sheep
