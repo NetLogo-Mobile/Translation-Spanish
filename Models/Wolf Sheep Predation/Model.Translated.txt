@@ -381,12 +381,12 @@ Well done! You have completed the Wolf Sheep Predation model tutorial! Time to p
 ### Spanish
 ¡Bien hecho! ¡Has completado el tutorial del modelo de Depredación Oveja-Lobo! ¡Es hora de jugar con el modelo!
 
-### Source ***
+### Source
 What about the population of the grass?
 ### Spanish
 ¿Y qué pasa con la población del pasto?
 
-### Source ***
+### Source
 What about the population of the grass? 
 ### Spanish
 ¿Y qué pasa con la población del pasto? 
@@ -438,7 +438,7 @@ lobos 
  Explorar cómo la manipulación de estos factores afecta a las poblaciones con el tiempo  y su <trigger=estabilidad,blue>estabilidad </trigger>
 
 ## Widgets
-### Source ***
+### Source
 go
 ### Spanish
 ir
@@ -468,7 +468,7 @@ model-version
 ### Spanish
 versión-de-modelo
 
-### Source ***
+### Source
 setup
 ### Spanish
 preparar
