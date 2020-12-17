@@ -384,12 +384,12 @@ Well done! You have completed the Wolf Sheep Predation model tutorial! Time to p
 ### Source ***
 What about the population of the grass?
 ### Spanish
-
+¿Y qué pasa con la población del pasto?
 
 ### Source ***
 What about the population of the grass? 
 ### Spanish
-
+¿Y qué pasa con la población del pasto? 
 
 ### Source
 Whether or not to show the <color=#b3b300ff>energy </color> of each animal in the world
@@ -433,12 +433,15 @@ lobos 
  Explore how manipulating these factors affect populations over time  and their <trigger=stability,blue>stability </trigger>
 ### Spanish
  Comprender la dinámica de <trigger=población>población</trigger> entre <trigger=species>species</trigger>  <trigger=depredador,#a07348ff>depredador</trigger> y <trigger=presa,grey>presa</trigger>
+ Observar la diferencia entre modelar un medio ambiente <color=green>rico en nutrientes </color> y un medio ambiente <color=#654321ff>con recursos limitados</color>
+ Examinar los factores que, cuando han sido cambiados, resultan en diferentes dinámicas entre <color=#a07348ff>depredador</color> y <color=grey>presa</color>
+ Explorar cómo la manipulación de estos factores afecta a las poblaciones con el tiempo  y su <trigger=estabilidad,blue>estabilidad </trigger>
 
 ## Widgets
 ### Source ***
 go
 ### Spanish
-
+ir
 
 ### Source
 grass
@@ -468,7 +471,7 @@ versión-de-modelo
 ### Source ***
 setup
 ### Spanish
-
+preparar
 
 ### Source
 sheep
