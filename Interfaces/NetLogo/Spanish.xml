@@ -48,5 +48,6 @@
     <String ID="拖到这里删除" Status="1" English="Drag here to delete">Arrastra aquí para borrar</String>
     <String ID="松手取消操作" Status="1" English="Leave here to cancel">Sal por aquí para cancelar</String>
     <String ID="请输入 {0}" Status="1" English="Please enter {0}">Escribe {0}</String>
+    <String ID="将程序块拖到此处" Status="1" English="Drag a program block here">Arrastre un bloque de programa aquí</String>
   </NetTango>
 </Strings>

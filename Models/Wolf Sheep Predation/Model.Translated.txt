@@ -31,9 +31,6 @@ wolves
 
 
 ## Tutorial
-### Excessive
-"Want to look at the community's or your answers to the questions asked in this model? Click on <b>Go to Q&A Panel</b>."
-
 ### Source
 A biological species is a group of organisms that can <trigger=reproduction>reproduce</trigger> with one another in nature and produce fertile offspring .
 ### Spanish
