@@ -379,7 +379,7 @@ Bienvenido al modelo de Depredación Obveja-Lobo! 
 ### Source
 Well done! You have completed the Wolf Sheep Predation model tutorial! Time to play with the model!
 ### Spanish
-¡Bien heco! ¡Has completado el tutorial del modelo de Depredación Oveja-Lobo! ¡Es hora de jugar con el modelo!
+¡Bien hecho! ¡Has completado el tutorial del modelo de Depredación Oveja-Lobo! ¡Es hora de jugar con el modelo!
 
 ### Source ***
 What about the population of the grass?
