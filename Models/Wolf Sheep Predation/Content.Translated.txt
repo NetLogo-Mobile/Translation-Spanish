@@ -25,8 +25,8 @@ NÚMERO-INICIAL-OVEJAS: El tamaño inicial de la población de ovejas.
 NÚMERO-INICIAL-LOBOS: El tamaño inicial de la población de lobos.
 OVEJAS-BENEFICIO-DE-COMIDA: La cantidad de energía que las ovejas obtienen por cada parcela de pasto comido. (Tenga en cuenta que esto no se utiliza en la versión del modelo ovejas-lobos)
 LOBOS-BENEFICIO-DE-COMIDA: La cantidad de energía que los lobos obtienen por cada oveja comido. OVEJAS-REPRODUCIR: La probabilidad que una oveja reproduzca en un paso de tiempo
-LOBOS-PRODUCIR: La probabilidad que un lobo reproduzca en un paso de tiempo PASTO-CRECIMIENTO: Cuánto tiempo tarda el pasto en volver a crecer después de que ha sido comido.
-ENSEÑA-ENERGÍA?: Si queremos mostrar la energía de cada animal como un número o no.
+LOBOS-REPRODUCIR: La probabilidad que un lobo reproduzca en un paso de tiempo PASTO-CRECIMIENTO: Cuánto tiempo tarda el pasto en volver a crecer después de que ha sido comido.
+MOSTRAR-ENERGÍA?: Si queremos mostrar la energía de cada animal como un número o no.
 
 Apuntes: - se deduce una unidad de energía para cada paso que el lobo toma - cuando ejecutas la versión del modelo ovejas-lobos-pasto, se deduce una unidad de energía para cada paso que la oveja toma
 

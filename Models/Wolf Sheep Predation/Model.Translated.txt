@@ -3,32 +3,32 @@
 ### Source
 grass / 4
 ### Spanish
-
+pasto / 4
 
 ### Source
 pop.
 ### Spanish
-
+pob.
 
 ### Source
 populations
 ### Spanish
-
+poblaciones
 
 ### Source
 sheep
 ### Spanish
-
+ovejas
 
 ### Source
 time
 ### Spanish
-
+tiempo
 
 ### Source
 wolves
 ### Spanish
-
+lobos
 
 ## Tutorial
 ### Excessive
@@ -37,382 +37,382 @@ wolves
 ### Source
 A biological species is a group of organisms that can <trigger=reproduction>reproduce</trigger> with one another in nature and produce fertile offspring .
 ### Spanish
-
+Una especie biológica es un grupo de organismos que pueden <trigger=reproducción>reproducir</trigger> uno con el otro en la naturaliza y producir descendencia fértil .
 
 ### Source
 A population is the number of organisms of the same <trigger=species>species</trigger> that live in a particular geographic area  at the same time , with the capability of producing fertile offspring .
 ### Spanish
-
+Una población es el número de organismos de la misma <trigger=especies>especies</trigger> que viven en un área geográfica particular  al mismo triempo , con la capacidad de producir descendencia fértil .
 
 ### Source
 An <trigger=ecosystem>ecosystem</trigger>  is said to possess ecological <color=blue>stability </color> (or equilibrium) if it is capable of returning to its equilibrium state after a perturbation (a capacity known as resilience) or does not experience unexpected large changes in its characteristics across time .
 ### Spanish
-
+Se dice que un <trigger=ecosistema>ecosistema</trigger>  posee <color=blue>establilidad </color> ecológica (o equilibrio) si es capaz de volver a su estado de equilibrio después de una perturbación (una capacidad conocida como resilencia) o no experimenta grandes cambios inesperados en sus características a lo largo del tiempo .
 
 ### Source
 An ecosystem  or biome describes a single environment and every <color=green>living (biotic)</color> organism  and <color=#555555ff>non-living (abiotic)</color> factor  that is contained within it or characterizes it. An ecosystem  embodies every aspect of a single habitat, including all interactions between its different elements.
 ### Spanish
-
+Un ecosistema  o bioma describa un solo medio ambiente y cada <color=green> vivo (biótico)</color> organismo  y <color=#555555ff>no vivo (abiótico)</color> factor  que está contenido en él o lo caracteriza. Un ecosistema  incorpora to todos los aspectos de un único habitat, incluidas todas las interacciones entre sus diferentes elementos.
 
 ### Source
 Can you find any parameters that generate a <color=blue>stable </color> <trigger=ecosystem>ecosystem</trigger>  in the <color=grey>sheep </color>-<color=#a07348ff>wolves </color> model variation?
 ### Spanish
-
+¿Puedes encontrar algunos parámetros que generan un <color=blue>estable </color> <trigger=ecosistema>ecosistema</trigger>  en la <color=grey>ovejas </color>-<color=#a07348ff>lobos </color> variación del modelo?
 
 ### Source
 Can you modify the model so that <color=#a07348ff>wolves </color> actively chase <color=grey>sheep </color>?
 ### Spanish
-
+¿Puedes modificar el modelo para que <color=#a07348ff>lobos </color> activamente persigan <color=grey>ovejas </color>?
 
 ### Source
 Can you modify the model so the <color=grey>sheep </color> will flock?
 ### Spanish
-
+¿Puedes modificar el modelo para que las <color=grey>ovejas </color> se reúnan?
 
 ### Source
 Changing the Reproduction Rules 
 ### Spanish
-
+Cambiando las Reglas de Reproducción 
 
 ### Source
 Congratulations! 
 ### Spanish
-
+Felicidades! 
 
 ### Source
 Ecosystem 
 ### Spanish
-
+Ecosistema 
 
 ### Source
 Extinction 
 ### Spanish
-
+Extinción
 
 ### Source
 Extinction  is the dying out or extermination of a <trigger=species>species</trigger>. Extinction  occurs when species are diminished because of environmental forces (habitat fragmentation, global  change, natural disaster , overexploitation of species for human use ) or because of evolutionary changes in their members (genetic  inbreeding, poor <trigger=reproduction>reproduction</trigger>, decline in <trigger=population>population</trigger> numbers).
 ### Spanish
-
+Extinción  es el exterminio de una <trigger=especies>especies</trigger>. Extinción  ocurre cuando especies se disminuyen debido a fuerzas ambientales (fragmentación del habitat, cambio  global, desastre natural , sobreexplotación de especies para uso humano ) or por los cambios evolutivos en sus miembros (endogamia  genética, mala <trigger=reproducción>reproducción</trigger>, disminución en el número de la <trigger=población>población</trigger>).
 
 ### Source
 First Variation of Model 
 ### Spanish
-
+Primera Variación del Modelo 
 
 ### Source
 Goals 
 ### Spanish
-
+Metas 
 
 ### Source
 grass 
 ### Spanish
-
+pasto 
 
 ### Source
 grass-regrowth-time 
 ### Spanish
-
+pasto-resurgimiento-tiempo 
 
 ### Source
 Here, you can watch the <color=#a07348ff>wolf </color>, <color=grey>sheep </color>, and <color=green>grass </color> <trigger=population>populations</trigger> fluctuate  over time . When running the <color=grey>sheep </color>-<color=#a07348ff>wolves </color> model variation, watch as the <color=grey>sheep </color> and <color=#a07348ff>wolf </color> populations fluctuate . Notice that increases and decreases in the sizes of each population are related. In what way are they related? What eventually happens?
 ### Spanish
-
+Aquí, puedes observar el <color=#a07348ff>lobo </color>, <color=grey>oveja </color>, y <color=green>pasto </color> <trigger=poblaciones>poblaciones</trigger> fluctuar  con el tiempo . Cuando ejecutas la variación del modelo <color=grey>ovejas </color>-<color=#a07348ff>lobos </color>, observe como las poblaciones <color=grey>ovejas </color> and <color=#a07348ff>lobos </color> fluctúan . Tenga en cuenta que los aumentos y disminuciones en el tamaño de cada población están relacionados. ¿De que manera están relacionados? ¿Qué pasa finalmente?
 
 ### Source
 How long it takes for <color=green>grass </color> to regrow once it is eaten (note this is not used in the <color=grey>sheep </color>-<color=#a07348ff>wolves </color> model version)
 ### Spanish
-
+¿Cuánto tiempo se hace para que el <color=green>pasto </color> resurga una vez que haya sido comida (tenga en cuenta que esto no se usa en la <color=grey>ovejas </color>-<color=#a07348ff>lobos </color> versión del modelo)
 
 ### Source
 Imagine you are standing in a <color=green>green pasture </color> on a beautiful, <color=#b3b300ff>sunny </color> day. A few hundred feet away, you observe a <color=grey>flock of sheep </color> meandering in the <color=#654321ff>fields</color>, feasting on the plentiful <color=green>grass </color>. Suddenly, a <color=#a07348ff>pack of wolves </color> appear and begin chasing the <color=grey>sheep </color> that have already begun to disperse. How do the <trigger=population>populations</trigger> of the <trigger=predator,#a07348ff>predator</trigger> and <trigger=prey,grey>prey</trigger> change over time  due to predation? Click <b>next</b> to explore this further more.
 ### Spanish
-
+Imagina que estás parado en un <color=green>pastar verde </color> en un diá hermoso y <color=#b3b300ff>soleado </color>. A unos cientos pies de distancia, observas un <color=grey>rebaño de ovejas </color> serpenteante en los <color=#654321ff>campos</color>, deleítandose sobre la  <color=green>hierba </color> abundante. De repente, un <color=#a07348ff>manada de lobos </color> aparece y comienza a perseguir a las <color=grey>ovejas </color> que ya han empezado a dispersarse. ¿Como cambian las <trigger=poblaciones>poblaciones</trigger> del <trigger=depredador,#a07348ff>depredador</trigger> y la <trigger=presa,grey>presa</trigger> con el tiempo  debido a la depredación? Haz clic en <b>seguir</b> para explorar esto más a fondo.
 
 ### Source
 In ecology, <color=#a07348ff>predators</color> are organisms that live by <trigger=prey,grey>preying</trigger> on other organisms for food .
 ### Spanish
-
+En ecología, los <color=#a07348ff>depredadores</color> son organismos que hacen <trigger=presa,grey>presa</trigger> de otros organismos para alimentarse .
 
 ### Source
 In ecology, <color=grey>preys</color> are organisms that <trigger=predator,#a07348ff>predator</trigger> kill for food .
 ### Spanish
-
+En ecología, <color=grey>presas</color> son organismos que el <trigger=depredador,#a07348ff>depredador</trigger> matan para alimentarse .
 
 ### Source
 In the <color=grey>sheep </color>-<color=#a07348ff>wolves </color>-<color=green>grass </color> model variation, notice the <color=green>green line</color> added to the <trigger=population>population</trigger> plot representing fluctuations  in the amount of <color=green>grass </color>. How do the sizes of the three populations appear to relate now? What is the explanation for this?
 ### Spanish
-
+En la variación del modelo <color=grey>ovejas </color>-<color=#a07348ff>lobos </color>-<color=green>pasto </color>, tenga en cuenta que <color=green>la línea verde</color> agregada a la <trigger=población>población</trigger> gráfica representando fluctuaciones  en la cantidad del <color=green>pasto </color>. ¿Ahora, como parecen que los tamaños de las tres poblaciones están relacionadas? ¿Por qué es esto?
 
 ### Source
 In what condition is this variation well-suited for?
 ### Spanish
-
+¿En qué condicion es adecuada esta variación? 
 
 ### Source
 initial-number-sheep 
 ### Spanish
-
+número-inicial-ovejas 
 
 ### Source
 initial-number-wolves 
 ### Spanish
-
+número-inicial-lobos 
 
 ### Source
 Introduction
 ### Spanish
-
+Introducción
 
 ### Source
 model-version
 ### Spanish
-
+versión-modelo
 
 ### Source
 Notice that under <color=blue>stable </color> settings, the <trigger=population>populations</trigger> tend to fluctuate  at a predictable pace. Can you find any parameters that will speed this up  or slow it down ?
 ### Spanish
-
+Tenga en cuenta que en las configuraciónes de <color=blue>estable </color>, la <trigger=población>poblaciones</trigger> tienden a fluctuar  a un ritmo predecible. ¿Puedes encontrar algunos parámetros que eceleran esto o ralenticen esto ?
 
 ### Source
 Plot 
 ### Spanish
-
+Gráfica 
 
 ### Source
 Population
 ### Spanish
-
+Población 
 
 ### Source
 Predator
 ### Spanish
-
+Depredador 
 
 ### Source
 Prey
 ### Spanish
-
+Presa
 
 ### Source
 Questions?
 ### Spanish
-
+¿Preguntas?
 
 ### Source
 Reproduction
 ### Spanish
-
+Reproducción
 
 ### Source
 Reproduction is a biological process by which an organism reproduces an offspring  who is biologically similar to the organism. Reproduction enables and ensures the continuity  of <trigger=species>species</trigger>, generation after generation.
 ### Spanish
-
+Reproducción es un proceso biológico en el cual un organismo reproduce una desecendencia  que es biológicamente similar al organismo. La reproducción permite y asegura la continuidad  de <trigger=especies>especies</trigger>, generación tras generación.
 
 ### Source
 Second Variation of Model 
 ### Spanish
-
+Segunda Variación del Modelo 
 
 ### Source
 Sensitivity of Parameters 
 ### Spanish
-
+Sensibilidad de los Parámetros
 
 ### Source
 Sheep Flock 
 ### Spanish
-
+Rebaño de Ovejas 
 
 ### Source
 sheep 
 ### Spanish
-
+ovejas 
 
 ### Source
 sheep-gain-from-food 
 ### Spanish
-
+ovejas-beneficio-de-comida 
 
 ### Source
 sheep-reproduce 
 ### Spanish
-
+ovejas-reproducir 
 
 ### Source
 show-energy? 
 ### Spanish
-
+mostrar-energía? 
 
 ### Source
 Species
 ### Spanish
-
+Especies
 
 ### Source
 Stability When Wolf Population is Zero 
 ### Spanish
-
+Sensibilidad Cuando Población de Lobos es Cero
 
 ### Source
 Stability With Only Wolves and Sheep (No Grass) 
 ### Spanish
-
+Sensibilidad Con Solo Lobos y Ovejas  (Sin Pasto) 
 
 ### Source
 Stability 
 ### Spanish
-
+Sensibilidad 
 
 ### Source
 The amount of <color=#b3b300ff>energy </color> <color=#a07348ff>wolves </color> get for every <color=grey>sheep </color> eaten
 ### Spanish
-
+La cantidad de <color=#b3b300ff>energía </color> <color=#a07348ff>lobos </color> obtienen para cada <color=grey>oveja </color> comida
 
 ### Source
 The amount of <color=#b3b300ff>energy </color> <color=grey>sheep </color> get for every <color=green>grass patch </color> eaten (note this is not used in the <color=grey>sheep </color>-<color=#a07348ff>wolves </color> model version)
 ### Spanish
-
+La cantidad de <color=#b3b300ff>energía </color> <color=grey>ovejas </color> obtienen para cada <color=parcela verde patch </color> comida (tenga en cuenta que esto no se usa en la versión del modelo de <color=grey>ovejas </color>-<color=#a07348ff>lobos </color>)
 
 ### Source
 The current size of the <color=#a07348ff>wolf </color> <trigger=population>population</trigger>
 ### Spanish
-
+El tamaño actual de la <trigger=población>población</trigger> de <color=#a07348ff>lobos </color>
 
 ### Source
 The current size of the <color=green>grass </color> <trigger=population>population</trigger>
 ### Spanish
-
+El tamaño actual de la <trigger=población>población</trigger> de <color=green>pasto </color>
 
 ### Source
 The current size of the <color=grey>sheep </color> <trigger=population>population</trigger>
 ### Spanish
-
+El tamaño actual de la <trigger=población>población</trigger> de <color=grey>ovejas </color>
 
 ### Source
 The initial size of <color=#a07348ff>wolf </color> <trigger=population>population</trigger>
 ### Spanish
-
+El tamaño inicial de la <trigger=población>población</trigger> de <color=#a07348ff>ovejas </color>
 
 ### Source
 The initial size of <color=grey>sheep </color> <trigger=population>population</trigger>
 ### Spanish
-
+El tamaño inicial de la <trigger=población>población</trigger> de <color=grey>ovejas </color>
 
 ### Source
 The probability of a <color=#a07348ff>wolf </color> <trigger=reproduction>reproducing</trigger> at each time  step
 ### Spanish
-
+La probabilidad de que un <color=#a07348ff>lobo </color> <trigger=reproducción>reproduzca</trigger> en cada paso de  tiempo
 
 ### Source
 The probability of a <color=grey>sheep </color> <trigger=reproduction>reproducing</trigger> at each time  step
 ### Spanish
-
+La probabilidad de que una <color=grey>oveja </color> <trigger=reproducción>reproduzca</trigger> en cada paso de  tiempo
 
 ### Source
 The second variation, the "<color=grey>sheep </color>-<color=#a07348ff>wolves </color>-<color=green>grass </color>" version explictly models <color=green>grass </color> in addition to <color=#a07348ff>wolves </color> and <color=grey>sheep </color>. The behavior of the <color=#a07348ff>wolves </color> is identical to the first variation, however this time the <color=grey>sheep </color> must eat <color=green>grass </color> in order to maintain their <color=#b3b300ff>energy </color> - when they run out of <color=#b3b300ff>energy </color> they die . One unit of <color=#b3b300ff>energy </color> is deducted for every step a <color=grey>sheep </color> takes. Once <color=green>grass </color> is eaten it will only regrow after a fixed amount of time .
 ### Spanish
-
+En la segunda variación, la "<color=grey>ovejas </color>-<color=#a07348ff>lobos </color>-<color=green>pasto </color>" versión explícitamente modela <color=green>pasto </color> además de <color=#a07348ff>lobos </color> y <color=grey>ovejas </color>. El comportamiento de los <color=#a07348ff>lobos </color> es idéntica a la primera variación, sin embargo, esta vez las <color=grey>ovejas </color> tienen que comer <color=green>pasto </color> para mantener su <color=#b3b300ff>energía </color> – cuando se quedan sin <color=#b3b300ff>energía </color> se mueren . Se deduce una unidad de <color=#b3b300ff>energía </color> para cada paso una <color=grey>oveja </color> toma. Una vez que come <color=green>pasto </color>, solo volverá a crecer después de un periodo fijo .
 
 ### Source
 There are a number ways to alter the model so that it will be <color=blue>stable </color> with only <color=#a07348ff>wolves </color> and <color=grey>sheep </color> (no <color=green>grass </color>). Some will require new elements to be coded in or existing behaviors to be changed. Can you develop such a version?
 ### Spanish
-
+Hay varias formas de alterar el modelo para que sea <color=blue>stable </color> con solo <color=#a07348ff>lobos </color> y <color=grey>ovejas </color> (sin <color=green>pasto </color>). Algunos requerirán que se codifiquen nuevos elementos o que se modifiquen comportamientos existentes. ¿Puedes desarrollar una versión así?
 
 ### Source
 There are two main variations to this model. In the first variation, the "<color=grey>sheep </color>-<color=#a07348ff>wolves </color>" version, <color=#a07348ff>wolves </color> and <color=grey>sheep </color> wander randomly around the <color=#654321ff>landscape </color>, while the <color=#a07348ff>wolves </color> look for <color=grey>sheep </color> to prey on. Each step costs the <color=#a07348ff>wolves </color> one unit of <color=#b3b300ff>energy </color>, and they must eat <color=grey>sheep </color> in order to replenish their <color=#b3b300ff>energy </color> - when they run out of <color=#b3b300ff>energy </color> they die . To allow the <trigger=population>population</trigger> to continue, each <color=#a07348ff>wolf </color> or <color=grey>sheep </color> has a fixed probability of <trigger=reproduction>reproducing</trigger> at each time  step. In this variation, we model the <color=green>grass </color> as "infinite " so that <color=grey>sheep </color> always have enough to eat, and we don't explicitly model the eating or growing of <color=green>grass </color>. As such, <color=grey>sheep </color> don't either gain or lose <color=#b3b300ff>energy </color> by eating or moving.
 ### Spanish
-
+Hay dos variaciones principales de este modelo. En la primera variación, la versión "<color=grey>ovejas </color>-<color=#a07348ff>lobos </color>", <color=#a07348ff>lobos </color> y <color=grey>ovejas </color> deambulan aleatoriamente por el <color=#654321ff>paisaje </color>, mientras que los <color=#a07348ff>lobos </color> buscan <color=grey>ovejas </color> para comer. Cada paso les cuestan una unidad de <color=#b3b300ff>energeia </color> a los <color=#a07348ff>lobos </color>, y tienen que comer <color=grey>ovejas </color> para reponer su <color=#b3b300ff>energía </color> – cuando quedan sin <color=#b3b300ff>energía </color> se mueren . Para permitir que la <trigger=población>población</trigger> continúe, cada <color=#a07348ff>lobo </color> o <color=grey>oveja </color> tiene una probabilidad fija de <trigger=reproducción>reproducir</trigger> en cada paso de  tiempo. En esta variación, modelamos el <color=green>pasto </color> como "infinito " para que las <color=grey>ovejas </color> siempre tengan suficiente para comer, y no modelamos explicítamente el comer o resurgimiento del <color=green>pasto </color>. Como tal, <color=grey>ovejas </color> no ganan ni pierden <color=#b3b300ff>energía </color> al comer o mover.
 
 ### Source
 Things to Try
 ### Spanish
-
+Cosas para Intentar
 
 ### Source
 This model explores the <trigger=stability,blue>stability </trigger> of <trigger=predator,#a07348ff>predator</trigger>-<trigger=prey,grey>prey</trigger> <trigger=ecosystem>ecosystems</trigger> . Such a system is called <color=red>unstable </color> if it tends to result in <trigger=extinction>extinction </trigger> for one or more <trigger=species>species</trigger> involved. In contrast, a system is <color=blue>stable </color> if it tends to maintain itself over time , despite fluctuations  in <trigger=population>population</trigger> sizes.
 ### Spanish
-
+Este modelo explora la <trigger=estabilidad,blue>estabilidad </trigger> de <trigger=depredación,#a07348ff>depredación</trigger>-<trigger=presa,grey>presa</trigger> <trigger=ecosistemas>ecosistemas</trigger> . Tal sistema se llama <color=red>inestable </color> si tiende a resultar en <trigger=extinción>extinción </trigger> para una o más <trigger=especies>especies</trigger> involucradas. Por el contrario, un sistema es <color=blue>estable </color> si tiende a mantenerse a lo largo del tiempo , a pesar de fluctuaciones  en los tamaños de <trigger=población>población</trigger>.
 
 ### Source
 This variation is more complex than the first, but it is generally <color=blue>stable </color>. It is a closer match to the classic Lotka Volterra <trigger=population>population</trigger> oscillation models. The classic LV models though assume the populations can take on real values, but in small populations these models underestimate <trigger=extinction>extinctions </trigger> and agent-based models such as the ones here, provide more realistic results.
 ### Spanish
-
+Esta variación es más compleja que la primera, pero es generalmente <color=blue>estable </color>. Es una pareja mejor a los modelos clásicos de oscilación de la <trigger=población>población</trigger> de Lotka Voleterra. Sin embargo, los modelos clásicos LV suponen que las poblaciones pueden tomar valores reales, pero en poblaciones más pequeñas estos modelos subestiman <trigger=extinción>extinción </trigger> y modelos basados en agentes como los que se muestran aquí, proporcionan resultados más realistas.
 
 ### Source
 This variation produces interesting <trigger=population>population</trigger> dynamics, but is ultimately <color=red>unstable </color>. This variation of the model is particularly well-suited to interacting <trigger=species>species</trigger> in a <color=green>rich nutrient</color> environment, such as two strains of bacteria in a petri dish.
 ### Spanish
-
+Esta variación produce interesante dinámicas de <trigger=población>población</trigger>, pero ultimamente <color=red>inestable </color>. Esta variación del modelo es particularmente adecuada para <trigger=especies>especies</trigger> interactuando en un medio ambiente <color=green>rico en nutrientes </color>, como dos cepas de bacterias en una placa de Petri.
 
 ### Source
 To further explore the model, click on any of the following topics.
 ### Spanish
-
+Para más explorar el modelo, haz clic en cualquier de los temas siguientes.
 
 ### Source
 Try adjusting the parameters under various settings. How sensitive is the <color=blue>stability </color> of the model to the particular parameters?
 ### Spanish
-
+Intenta ajustar los parámetros en carias configuraciones. ¿Que tan sensible es la <color=blue>estabilidad </color> del modelo a los parámetros particulares?
 
 ### Source
 Try changing the <trigger=reproduction>reproduction</trigger> rules -- for example, what would happen if reproduction depended on <color=#b3b300ff>energy </color> rather than being determined by a fixed probability?
 ### Spanish
-
+Trata cambiar las reglas de <trigger=reproducción>reproducción</trigger> -- por ejemplo, ¿que pasará si reproducción dependría en <color=#b3b300ff>energía </color> en vez de ser determinada por una probabilidad fija?
 
 ### Source
 Try running the <color=grey>sheep </color>-<color=#a07348ff>wolves </color>-<color=green>grass </color> model variation, but setting <I>initial-number-wolves</I> to 0. This gives a <color=blue>stable </color> <trigger=ecosystem>ecosystem</trigger>  with only <color=grey>sheep </color> and <color=green>grass </color>. Why might this be <color=blue>stable </color> while the variation with only <color=grey>sheep </color> and <color=#a07348ff>wolves </color> is not?
 ### Spanish
-
+Intenta ejecutar la variación del modelo <color=grey>ovejas </color>-<color=#a07348ff>lobos </color>-<color=green>pasto </color>, pero configurando <I>número-inicial-lobos</I> en 0. Esto produce un <trigger=ecosistema>ecosistema</trigger> <color=blue>estable </color>  con solo <color=grey>ovejas </color> y <color=green>pasto </color>. ¿Por qué es que esto es <color=blue>stable </color> mientras que la otra variación con solo <color=grey>ovejas </color> y <color=#a07348ff>lobos </color> no lo es?
 
 ### Source
 Want to look at the community's or your answers to the questions asked in this model? Click on <b>Go to Q&A Panel</b>.
 ### Spanish
-
+¿Quieres ver las respuestas de la comunidad o las suyas a las preguntas formuladas en este modelo? Haz clic en <b>Ir al tablero de Q&A</b>.
 
 ### Source
 Welcome to the Wolf Sheep Predation Model! 
 ### Spanish
-
+Bienvenido al modelo de Depredación Obveja-Lobo! 
 
 ### Source
 Well done! You have completed the Wolf Sheep Predation model tutorial! Time to play with the model!
 ### Spanish
-
+¡Bien heco! ¡Has completado el tutorial del modelo de Depredación Oveja-Lobo! ¡Es hora de jugar con el modelo!
 
 ### Source
 Whether or not to show the <color=#b3b300ff>energy </color> of each animal in the world
 ### Spanish
-
+Si mostrar or no la <color=#b3b300ff>energía </color> de cada animal en el mundo
 
 ### Source
 Whether we model <color=grey>sheep </color> <color=#a07348ff>wolves </color> and <color=green>grass </color> or just <color=grey>sheep </color> and <color=#a07348ff>wolves </color>
 ### Spanish
-
+Si modelamos <color=grey>objevas </color> <color=#a07348ff>lobos </color> y <color=green>pasto </color> o solo <color=grey>obvejas </color> y <color=#a07348ff>lobos </color>
 
 ### Source
 Why do you suppose that some variations of the model might be <color=blue>stable </color> while others are not?
 ### Spanish
-
+¿Por qué supones que algunas variaciones del modelo pueden ser <color=blue>estable </color> mientras que otras no lo son?
 
 ### Source
 wolf-gain-from-food 
 ### Spanish
-
+lobos-beneficio-de-comida 
 
 ### Source
 wolf-reproduce 
 ### Spanish
-
+lobos-reproducir 
 
 ### Source
 Wolves Chasing Sheep 
 ### Spanish
-
+Lobos Persiguiendo Ovejas 
 
 ### Source
 wolves 
 ### Spanish
-
+lobos 
 
 ### Source
  Understand the <trigger=population>population</trigger> dynamics between <trigger=predator,#a07348ff>predator</trigger> and <trigger=prey,grey>prey</trigger> <trigger=species>species</trigger> 
@@ -420,66 +420,66 @@ wolves 
  Examine factors that when changed, result in differing dynamics between <color=#a07348ff>predator</color> and <color=grey>prey</color> 
  Explore how manipulating these factors affect populations over time  and their <trigger=stability,blue>stability </trigger>
 ### Spanish
-
+ Comprender la dinámica de <trigger=población>población</trigger> entre <trigger=species>species</trigger>  <trigger=depredador,#a07348ff>depredador</trigger> y <trigger=presa,grey>presa</trigger>
 
 ## Widgets
 ### Source
 grass
 ### Spanish
-
+pasto
 
 ### Source
 grass-regrowth-time
 ### Spanish
-
+pasto-resurgimiento-tiempo
 
 ### Source
 initial-number-sheep
 ### Spanish
-
+número-inicial-objevas
 
 ### Source
 initial-number-wolves
 ### Spanish
-
+número-inicial-lobos
 
 ### Source
 model-version
 ### Spanish
-
+versión-de-modelo
 
 ### Source
 sheep
 ### Spanish
-
+objevas
 
 ### Source
 sheep-gain-from-food
 ### Spanish
-
+obvejas-beneficio-de-comida
 
 ### Source
 sheep-reproduce
 ### Spanish
-
+obvejas-reproducir
 
 ### Source
 show-energy?
 ### Spanish
-
+mostrar-energía?
 
 ### Source
 wolf-gain-from-food
 ### Spanish
-
+lobos-beneficio-de-comida
 
 ### Source
 wolf-reproduce
 ### Spanish
-
+lobos-reproducir
 
 ### Source
 wolves
 ### Spanish
-
+lobos
 
