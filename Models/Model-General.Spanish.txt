@@ -5,172 +5,183 @@ Great! Your model is now running.
 Do you see those moving objects on the screen? We call them <b>turtles</b> in general. These turtles construct the whole universe.
 Now <b>tap one of the turtles</b> to inspect it.
 ### Spanish
-
+¡Estupendo! Ahora tu modelo está ejecutando.
+Ves esos objetos en movimiento en la pantalla? Los llamamos <b>turtles</b> en general. Estas tortugas construyen todo el universo.
+Ahora <b>toque uno de las tortugas</b> para inspeccionarlo.
 
 ### Source
 Inspection of the "turtles"
 ### Spanish
-
+Inspección de las "tortugas"
 
 ### Source
 Here, you can pause, restart the model, or change its running speed. <b>Tap the first button</b> to start the model.
 ### Spanish
-
+Aquí, puedes pausar, reiniciar el modelo, o cambiar la rapidez de ejecución. <b>Toque el primer botón</b> para iniciar el modelo.
 
 ### Source
 Control the Model
 ### Spanish
-
+Controlar el Modelo
 
 ### Source
 Let's go!
 ### Spanish
-
+¡Vamanos!
 
 ### Source
 Don't know where to start your exploration in the microworld? Confused by the buttons? Master the basics of Turtle Universe in just two minutes!
 ### Spanish
-
+¿No sabes dónde empezar tu exploración en el micromundo? Confundido por los botones? ¡Domina los básicos de Turtle Universe en solo dos minutos!
 
 ### Source
 Learn the basics of Turtle Universe
 ### Spanish
-
+Aprender los básicos de Turtle Universe
 
 ### Source
 Look at the magnifying glass! You are now following the turtle in the universe. 
 Many models also offer <b>turtle variables</b> for you to inspect the properties of it.
 ### Spanish
-
+¡Observa la lupa! Ahora estás siguiendo a la tortuga en el universo.
+Muchos modelos también ofrecen <b> variables de tortuga </b> para que puedas inspeccionar sus propiedades.
 
 ### Source
 Statistics Panel
 ### Spanish
-
+Tablero de Estadísticas
 
 ### Source
 What's even better? You can keep track of turtles changing numbers in this panel.
-
 ### Spanish
-
+¿Qué es hasta mejor que eso? Puedes realizar un seguimiento de los cambios de números de tortugas en este tablero.
 
 ### Source
 Visit the plots
 ### Spanish
-
+Visitar las gráficas
 
 ### Source
 Want to see the overall trend?
 <b>Tap the button</b> to see the plot!
-
 ### Spanish
-
+¿Quieres ver la tendencia general?
+<b>Toque el botón </b> para ver la gráfica!
 
 ### Source
 Close the plots
 ### Spanish
-
+Cerrar las gráficas
 
 ### Source
 Want to exit the plot?
 <b>Tap the close button</b> to turn the plot off.
 ### Spanish
-
+¿Quieres salir de la gráfica?
+<b>Toque el botón de cerrar</b> para apagar la gráfica.
 
 ### Source
 Widgets
 ### Spanish
-
+Aparatos
 
 ### Source
 Want to manipulate the model? 
 <b>Tap the button</b> to change the parameters of the model. 
 ### Spanish
-
+¿Quieres manipular el modelo?
+<b>Toque el botón</b> para cambiar los parámetros del modelo.
 
 ### Source
 Here we have the <b>widgets</b> to help you manipulate the model. Play with them to see how the model behaves differently!
 Sometimes you need to restart the model for the effects to take place.
 ### Spanish
-
+Aquí tenemos los <b>aparatos</b> para ayudarte manipular el modelo. ¡Juega con ellos para ver cómo el modelo se comporta de manera diferente! 
+A veces es necesario reiniciar el modelo para que puedas ver los efectos.
 
 ### Source
 Coding Blocks
 ### Spanish
-
+Bloques de Códificación
 
 ### Source
 Not familiar with coding? Coding blocks would be the right choice. <b>Tap the button</b> to check how it works.
 ### Spanish
-
+¿No estás familiarizado con codificación? Bloques de codificación serían las opciones correctas. <b>Toque el botón</b> para ver como funciona.
 
 ### Source
 Block by block, they tell the turtles how to move. By editing, adding, or removing these blocks, you can give turtles your instructions and manipulate the model!
 <b>Tap the edit button</b> to start!
 ### Spanish
+Bloque por bloque, les dicen a las tortugas como se deben de mover. ¡Al editar, agregar, o eliminar estos bloques, puedes dar tus tortugas instrucciones a las tortugas y manipular el modelo!
+¡<b>Toque el botón de editar</b> para empezar!
 
 
 ### Source
 Codes Panel
 ### Spanish
-
+Tablero de Códigos
 
 ### Source
 Good Job! It's time to dig deeper.
 <b>Tap this button</b> to check the model in a developer's perspective. 
 ### Spanish
-
+¡Buen trabajo! Ahora, es tiempo de profundizar.
+<b>Toque este botón</b> para comprobar el modelo desde la perspectiva de un desarrollador.
 
 ### Source
 Codes
 ### Spanish
-
+Códigos
 
 ### Source
 Want to play with the model on a deeper level?
 Modify the code to create your own versions!
 ### Spanish
-
+¿Quieres jugar con el modelo a un nivel más profundo?
+¡Modifica el código para crear tus propias versiones!
 
 ### Source
 Information Panel
 ### Spanish
-
+Tablero de Información
 
 ### Source
 Any questions? <b>Tap this button</b> and seek the answer from the documentation or others in the community! 
 ### Spanish
-
+¿Alguna pregunta? ¡<b>Toque este botón</b> y busca la respuesta en la documentación o en otros miembros de la comunidad!
 
 ### Source
 The description is too long? Don't worry! Feel free to ask questions in the <b>Comment</b> tab. 
 ### Spanish
-
+¿La descripción es demasiada larga? ¡No te preocupas! No dudas en hacer preguntas en la pestaña de <b>Comentar</b>.
 
 ### Source
 More Panel
 ### Spanish
-
+Más Tablero
 
 ### Source
 <b>Tap the button</b> to check what else you can do with your model.
 ### Spanish
-
+<b>Toque el botón</b> para comprobar qué más puedes hacer con tu modelo.
 
 ### Source
 Here you can share, save, read, or leave the model. 
 The best part? Once you create something cool, publish it to the community! 
 ### Spanish
-
+Aquí puedes compartir, guardar, leer, o salir del modelo.
+¿La mejor parte? Una vez que creas algo interesante, publíquelo en la comunidad.
 
 ### Source
 Congratulations!
 ### Spanish
-
+¡Felicidades!
 
 ### Source
 Well done! You have finished the tutorial. 
 Time to mess with the model! Have fun!
 ### Spanish
-
+¡Bien hecho! Has terminado el tutorial.
+¡Es hora de jugar con el modelo! ¡Diviértete!
 
