@@ -31,9 +31,9 @@
     <String ID="设置" Status="1" English="Settings">Configuraciones</String>
     <String ID="数据" Status="1" English="Data">Datos</String>
     <String ID="隐藏" Status="1" English="Hide">Esconder</String>
-    <String ID="结束教程" Status="1" English="Exit tutorial">Salir del tutorial</String>
-    <String ID="跳过教程" Status="0" English="Skip tutorial">Saltar tutorial</String>
-    <String ID="隐藏教程" Status="0" English="Hide tutorial">Esconder tutorial</String>
+    <String ID="结束教程" Status="1" English="Exit Tutorial">Salir del tutorial</String>
+    <String ID="跳过教程" Status="0" English="Skip Tutorial">Saltar tutorial</String>
+    <String ID="隐藏教程" Status="0" English="Hide Tutorial">Esconder tutorial</String>
   </Shared>
   <Interfaces>
     <String ID="进入应用" Status="0" English="Enter app">Entrar en la aplicación</String>
@@ -575,6 +575,14 @@
     <String ID="编辑内容" Status="0" English="Edit Content">Editar Contenido</String>
     <String ID="改编并发布" Status="0" English="Remix and Publish">Mezclar y publicar</String>
     <String ID="拍摄一张截图作为封面" Status="0" English="Take a screenshot as cover">Tomar una captura de pantalla como portada</String>
+    <String ID="抱歉，模型的内容尚未经过人工翻译或校对。您希望查看何种内容？" Status="1" English="Sorry, the model has not been proofread by human. What do you want to view?">Lo sentimos, el modelo no ha sido revisado por humanos. ¿Qué quieres ver?</String>
+    <String ID="智能翻译" Status="1" English="AI Translation">Traducción AI</String>
+    <String ID="显示原文" Status="1" English="Original Version">Versión original</String>
+    <String ID="正在显示由 Google 翻译的内容。" Status="1" English="Below is translated by Google.">A continuación está traducido por Google.</String>
+    <String ID="正在显示原文。" Status="1" English="Below is the original version.">A continuación se muestra la versión original.</String>
+    <String ID="点击这里" Status="1" English="Click here">Haga clic aquí</String>
+    <String ID="切换到智能翻译。" Status="1" English="Switch to AI translation.">Cambie a la traducción de IA.</String>
+    <String ID="切换到原始语言。" Status="1" English="Switch to the original text.">Cambie al texto original.</String>
     <String ID="管理权限允许您编辑原始内容，也可以改编并发布内容。您的计划是？" Status="0" English="Editorial privileges allow you to edit the original content, or you can remix and publish a new one. What is your plan?">Los privilegios editoriales le permiten editar el contenido original, o puede mezclar y publicar uno nuevo. ¿Cual es tu plan?</String>
     <String ID="如果您对内容做出了实质性更改，可以改编并发布。是否继续？" Status="0" English="If you make substantial changes to the content, you can remix and publish it. Continue?">Si realiza cambios sustanciales en el contenido, puede mezclarlo y publicarlo. ¿Seguir?</String>
     <String ID="作为模型发布者，您可以编辑模型，也可以改编并发布内容。您的计划是？" Status="0" English="As the model aurthor, you can edit the model, or you can remix and publish a new one. What is your plan?">Como autor del modelo, puede editar el modelo o puede mezclar y publicar uno nuevo. ¿Cual es tu plan?</String>
