@@ -1,0 +1,53 @@
+﻿*** 81b73fb3f4da6b52bc209e92fc073170
+## Language = Spanish
+## Widgets
+### Source
+action
+### Spanish ***
+acción
+
+### Source
+check-area
+### Spanish ***
+área de verificación
+
+### Source
+clear-polygons
+### Spanish ***
+polígonos claros
+
+### Source
+clear-segments
+### Spanish ***
+segmentos claros
+
+### Source
+go
+### Spanish ***
+Vamos
+
+### Source
+height
+### Spanish ***
+altura
+
+### Source
+perimeter
+### Spanish ***
+perímetro
+
+### Source
+setup
+### Spanish ***
+preparar
+
+### Source
+unit-size
+### Spanish ***
+tamaño de la unidad
+
+### Source
+width
+### Spanish ***
+anchura
+

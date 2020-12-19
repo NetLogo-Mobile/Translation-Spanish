@@ -1,0 +1,144 @@
+﻿*** 81b73fb3f4da6b52bc209e92fc073170
+## Language = Spanish
+## Plots
+### Source
+# people
+### Spanish ***
+# personas
+
+### Source
+% infected
+### Spanish ***
+% infectado
+
+### Source
+% recovered
+### Spanish ***
+% recuperado
+
+### Source
+% total pop.
+### Spanish ***
+% pop total.
+
+### Source
+Cumulative Infected and Recovered
+### Spanish ***
+Infectados y recuperados acumulados
+
+### Source
+hours
+### Spanish ***
+horas
+
+### Source
+Infected
+### Spanish ***
+Infectado
+
+### Source
+Infection and Recovery Rates
+### Spanish ***
+Tasas de infección y recuperación
+
+### Source
+Infection Rate
+### Spanish ***
+Tasa de infección
+
+### Source
+Not Infected
+### Spanish ***
+No infectado
+
+### Source
+Populations
+### Spanish ***
+Poblaciones
+
+### Source
+rate
+### Spanish ***
+Velocidad
+
+### Source
+Recovery Rate
+### Spanish ***
+Índice de recuperación
+
+## Widgets
+### Source
+average-hospital-going-tendency
+### Spanish ***
+tendencia-promedio-al-hospital
+
+### Source
+average-isolation-tendency
+### Spanish ***
+tendencia-al-aislamiento-promedio
+
+### Source
+average-recovery-time
+### Spanish ***
+tiempo medio de recuperación
+
+### Source
+go
+### Spanish ***
+Vamos
+
+### Source
+infection-chance
+### Spanish ***
+posibilidad de infección
+
+### Source
+initial-ambulance
+### Spanish ***
+ambulancia inicial
+
+### Source
+initial-people
+### Spanish ***
+personas-iniciales
+
+### Source
+inoculation-chance
+### Spanish ***
+oportunidad de inoculación
+
+### Source
+intra-mobility
+### Spanish ***
+intramovilidad
+
+### Source
+links?
+### Spanish ***
+¿Enlaces?
+
+### Source
+R0
+### Spanish ***
+R0
+
+### Source
+recovery-chance
+### Spanish ***
+oportunidad de recuperación
+
+### Source
+setup
+### Spanish ***
+preparar
+
+### Source
+travel?
+### Spanish ***
+¿viaje?
+
+### Source
+travel-tendency
+### Spanish ***
+tendencia de viaje
+

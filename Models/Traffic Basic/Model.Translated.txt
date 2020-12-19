@@ -1,0 +1,331 @@
+﻿*** 81b73fb3f4da6b52bc209e92fc073170
+## Language = Spanish
+## Plots
+### Source
+Car speeds
+### Spanish ***
+Velocidades del coche
+
+### Source
+max speed
+### Spanish ***
+máxima velocidad
+
+### Source
+min speed
+### Spanish ***
+velocidad mínima
+
+### Source
+red car
+### Spanish ***
+carro rojo
+
+### Source
+speed
+### Spanish ***
+velocidad
+
+### Source
+time
+### Spanish ***
+hora
+
+## Tutorial
+### Source
+"Want to look at the community's or your answers to the questions asked in this model? Click on <b>Go to Q&A Panel</b>."
+### Spanish ***
+&quot;¿Desea ver las respuestas de la comunidad o sus respuestas a las preguntas formuladas en este modelo? Haga clic en <b>Ir al panel de preguntas y respuestas</b> &quot;.
+
+### Source
+<color=red>red car</color> speed 
+### Spanish ***
+<color=red>carro rojo</color> velocidad 
+
+### Source
+acceleration 
+### Spanish ***
+aceleración 
+
+### Source
+Acceleration 
+### Spanish ***
+Aceleración 
+
+### Source
+Accuracy of Driving Rules
+### Spanish ***
+Precisión de las reglas de conducción
+
+### Source
+Congratulations! 
+### Spanish ***
+¡Felicidades! 
+
+### Source
+Deceleration 
+### Spanish ***
+Deceleración 
+
+### Source
+deceleration 
+### Spanish ***
+desaceleración 
+
+### Source
+Different Vehicles, Different Rules
+### Spanish ***
+Diferentes vehículos, diferentes reglas
+
+### Source
+Driving Habits and Response Times
+### Spanish ***
+Hábitos de conducción y tiempos de respuesta
+
+### Source
+Even though all of the <color=blue>cars </color> are moving forward , the <color=red>traffic jams</color> tend to move backwards .
+### Spanish ***
+A pesar de que todos los<color=blue> coches </color> avanzan , el<color=red> atascos de tráfico</color> tienden a moverse hacia atrás .
+
+### Source
+Goals 
+### Spanish ***
+Objetivos 
+
+### Source
+Imagine you are driving to your <color=green>local supermarket</color> to get some groceries  for the week. You look farther down the road  and there's a <color=red>traffic jam</color> forming. Oh no! How will you ever get home  in time for supper? As you wait for the <color=blue>car </color> in front of you to move forward , you wonder: <i>why do <color=red>traffic jams</color> form even though no accidents have occurred?</i> Click <b>next</b> to explore how <color=red>traffic jams</color> form.
+### Spanish ***
+Imagina que estás conduciendo hacia tu<color=green> supermercado local</color> para conseguir algunos comestibles  para la semana. Miras más lejos en el camino  y hay un<color=red> embotellamiento</color> formando. ¡Oh no! ¿Cómo llegarás a casa a tiempo para la cena? Mientras esperas el<color=blue> coche </color> delante de ti para avanzar , te preguntas: <i>¿por qué</i><color=red> <i>atascos de tráfico</i></color> <i>forma a pesar de que no se han producido accidentes?</i> Haga clic en <b>siguiente</b> para explorar cómo<color=red> atascos de tráfico</color> formar.
+
+### Source
+In <i>Monitors</i>, you can view the real-time <trigger=speed>speed </trigger> of the <color=red>red car </color>. Watch how the value increases when the <color=red>car </color> is <trigger=acceleration,green>accelerating </trigger> and decreases when the <color=red>car </color> is <trigger=deceleration,#c1b90fff>decelerating </trigger>.
+### Spanish ***
+En <i>Monitores</i> , puede ver el tiempo real<trigger=speed> velocidad </trigger> del<color=red> coche rojo </color> . Observe cómo aumenta el valor cuando el<color=red> coche </color> es<trigger=acceleration,green> acelerando </trigger> y disminuye cuando el<color=red> coche </color> es<trigger=deceleration,#c1b90fff> desacelerando </trigger> .
+
+### Source
+In reality, different <color=blue>vehicles </color> may follow different rules. Try giving different rules or <trigger=acceleration,green>acceleration</trigger>/<trigger=deceleration,#c1b90fff>deceleration</trigger> values to some of the <color=blue>cars </color>. Can one bad driver  mess things up?
+### Spanish ***
+En realidad, diferente<color=blue> vehículos </color> puede seguir reglas diferentes. Intente dar reglas diferentes o<trigger=acceleration,green> aceleración</trigger> /<trigger=deceleration,#c1b90fff> desaceleración</trigger> valores a algunos de los<color=blue> coches </color> . ¿Puede un mal conductor estropear las cosas?
+
+### Source
+Introduction
+### Spanish ***
+Introducción
+
+### Source
+Look for patterns in how these settings affect the traffic flow. Which variable has the greatest effect? Do the patterns make sense? Do they seem to be consistent with your driving experiences?
+### Spanish ***
+Busque patrones en cómo estas configuraciones afectan el flujo de tráfico. ¿Qué variable tiene el mayor efecto? ¿Tienen sentido los patrones? ¿Parecen ser coherentes con sus experiencias de conducción?
+
+### Source
+Minimizing Traffic Jams
+### Spanish ***
+Minimizar los atascos de tráfico
+
+### Source
+Moving Traffic Jams Forward
+### Spanish ***
+Avanzar los atascos de tráfico
+
+### Source
+Notice not only the maximum and minimum, but also the variability -- the "jerkiness" of one <color=blue>vehicle </color>.
+### Spanish ***
+Observe no solo el máximo y el mínimo, sino también la variabilidad: la &quot;sacudida&quot; de uno<color=blue> vehículo </color> .
+
+### Source
+number-of-cars 
+### Spanish ***
+número-de-coches 
+
+### Source
+Plot 
+### Spanish ***
+Trazar 
+
+### Source
+Questions?
+### Spanish ***
+Preguntas?
+
+### Source
+Set <trigger=deceleratrion,#c1b90fff>deceleration</trigger> to zero. What happens to the flow? Gradually increase <color=#c1b90fff>deceleration</color> while the model runs. At what point does the flow "break down"?
+### Spanish ***
+Conjunto<trigger=deceleratrion,#c1b90fff> desaceleración</trigger> a cero. ¿Qué pasa con el flujo? Incremento gradual<color=#c1b90fff> desaceleración</color> mientras se ejecuta el modelo. ¿En qué punto se &quot;rompe&quot; el flujo?
+
+### Source
+Set the <i>number-of-cars</i> slider to change the number of <color=blue>cars </color> on the <color=grey>road </color>.
+### Spanish ***
+Configure el <i>control deslizante de número de automóviles</i> para cambiar el número de<color=blue> coches </color> sobre el<color=grey> camino </color> .
+
+### Source
+Speed 
+### Spanish ***
+Velocidad 
+
+### Source
+The <color=green>positive</color> rate of change of the velocity of an object with respect to time ; they are vector quantities (in that they have magnitude and direction)
+### Spanish ***
+los<color=green> positivo</color> tasa de cambio de la velocidad de un objeto con respecto al tiempo ; son cantidades vectoriales (en el sentido de que tienen magnitud y dirección)
+
+### Source
+The <color=red>negative</color> rate of change of the velocity of an object with respect to time ; they are vector quantities (in that they have magnitude and direction)
+### Spanish ***
+los<color=red> negativo</color> tasa de cambio de la velocidad de un objeto con respecto al tiempo ; son cantidades vectoriales (en el sentido de que tienen magnitud y dirección)
+
+### Source
+The <trigger=acceleration,green>acceleration</trigger> slider controls the rate at which <color=blue>cars </color> <color=green>accelerate </color> (<trigger=speed>speed</trigger> up) when there are no <color=blue>cars </color> ahead. Even though both <color=green>acceleration</color> and <trigger=deceleration,#c1b90fff>deceleration</trigger> are very small, the cars  can achieve high speeds  as these values are added or subtracted at each <trigger=tick>tick</trigger>.
+### Spanish ***
+los<trigger=acceleration,green> aceleración</trigger> control deslizante controla la velocidad a la que<color=blue> coches </color><color=green> acelerar </color> (<trigger=speed> velocidad</trigger> arriba) cuando no hay<color=blue> coches </color> adelante. Aunque ambos<color=green> aceleración</color> y<trigger=deceleration,#c1b90fff> desaceleración</trigger> son muy pequeños, los coches  pueden alcanzar altas velocidades  ya que estos valores se suman o restan en cada<trigger=tick> garrapata</trigger> .
+
+### Source
+The amount of seconds  that have passed since the command 'reset-timer' was last run
+### Spanish ***
+La cantidad de segundos  que han pasado desde la última vez que se ejecutó el comando &#39;reset-timer&#39;
+
+### Source
+The asymmetry between <trigger=acceleration,green>acceleration</trigger> and <trigger=deceleration,#c1b90fff>deceleration</trigger> is a simplified representation of different driving habits and response times. Can you explicitly encode these into the model?
+### Spanish ***
+La asimetría entre<trigger=acceleration,green> aceleración</trigger> y<trigger=deceleration,#c1b90fff> desaceleración</trigger> es una representación simplificada de diferentes hábitos de conducción y tiempos de respuesta. ¿Puede codificarlos explícitamente en el modelo?
+
+### Source
+The behavior of the group  is often very different from the behavior of the individuals  that make up the group
+### Spanish ***
+El comportamiento del grupo  es a menudo muy diferente del comportamiento de los individuos  que componen el grupo
+
+### Source
+The distance  travelled by the object divided by the duration of a interval of time 
+### Spanish ***
+La distancia  recorrida por el objeto dividida por la duración de un intervalo de tiempo 
+
+### Source
+The model demonstrates how <color=red>traffic jams</color> can form even without any accidents, broken bridges, or overturned trucks. No "centralized cause" is needed for a <color=red>traffic jams</color> to form.
+### Spanish ***
+El modelo demuestra cómo<color=red> atascos de tráfico</color> puede formarse incluso sin accidentes, puentes rotos o camiones volcados. No se necesita una &quot;causa centralizada&quot; para<color=red> atascos de tráfico</color> formar.
+
+### Source
+The plot shows three values as the model runs: the fastest <trigger=speed>speed </trigger> of any <color=blue>car </color> (this doesn't exceed the speed limit!), the slowest speed  of any <color=blue>car </color>, and the speed  of a <color=red>single car </color> (turtle 0), painted <color=red>red</color> so it can be watched.
+### Spanish ***
+El gráfico muestra tres valores a medida que se ejecuta el modelo: el más rápido<trigger=speed> velocidad </trigger> de cualquier<color=blue> coche </color> (¡esto no excede el límite de velocidad!), la velocidad más lenta  de cualquier<color=blue> coche </color> , y la velocidad  de un<color=red> coche solo </color> (tortuga 0), pintado<color=red> rojo</color> para que se pueda ver.
+
+### Source
+Things To Try
+### Spanish ***
+Cosas para probar
+
+### Source
+This behavior is common in <trigger=wavephenomena>wave phenomena</trigger>: the behavior of the group  is often very different from the behavior of the individuals  that make up the group.
+### Spanish ***
+Este comportamiento es común en<trigger=wavephenomena> fenómenos ondulatorios</trigger> : el comportamiento del grupo  suele ser muy diferente del comportamiento de los individuos  que lo componen.
+
+### Source
+This model models the movement of <color=blue>cars </color> on a highway. Each <color=blue>cars </color> follows a simple set of rules: it slows  down (<trigger=deceleration,#c1b90fff>decelerates</trigger>) if it sees a <color=blue>cars </color> close ahead, and <trigger=speed>speeds </trigger> up (<trigger=acceleration,green>accelerates</trigger>) if it doesn't see a <color=blue>cars </color> ahead.
+### Spanish ***
+Este modelo modela el movimiento de<color=blue> coches </color> en una carretera. Cada<color=blue> coches </color> sigue un conjunto simple de reglas: ralentiza  ralentiza (<trigger=deceleration,#c1b90fff> desacelera</trigger> ) si ve un<color=blue> coches </color> cerca por delante, y<trigger=speed> velocidades </trigger> arriba (<trigger=acceleration,green> acelera</trigger> ) si no ve un<color=blue> coches </color> adelante.
+
+### Source
+Tick 
+### Spanish ***
+Marque 
+
+### Source
+To further explore the model, click on any of the following topics.
+### Spanish ***
+Para explorar más el modelo, haga clic en cualquiera de los siguientes temas.
+
+### Source
+Traffic Jams 
+### Spanish ***
+Atascos de tráfico 
+
+### Source
+Try making a model of two-lane traffic.
+### Spanish ***
+Intente hacer un modelo de tráfico de dos carriles.
+
+### Source
+Try other rules for <trigger=speed>speeding </trigger> up and slowing  down. Is the rule presented here realistic? Are there other rules that are more accurate or represent better driving strategies?
+### Spanish ***
+Pruebe otras reglas para<trigger=speed> exceso de velocidad </trigger> hacia arriba y desacelerando . ¿Es realista la regla presentada aquí? ¿Existen otras reglas que sean más precisas o representen mejores estrategias de conducción?
+
+### Source
+Wave phenomena
+### Spanish ***
+Fenómenos ondulatorios
+
+### Source
+Welcome to the Basic Traffic Model! 
+### Spanish ***
+¡Bienvenido al modelo de tráfico básico! 
+
+### Source
+Well done! You have completed the Traffic-Basic model tutorial! Time to play with the model!
+### Spanish ***
+¡Bien hecho! ¡Ha completado el tutorial del modelo Traffic-Basic! ¡Es hora de jugar con el modelo!
+
+### Source
+What could you change to make <color=red>traffic jams</color> move forward  rather than backward ?
+### Spanish ***
+¿Qué podrías cambiar para hacer<color=red> atascos de tráfico</color> avanzar  en lugar de retroceder ?
+
+### Source
+What could you change to minimize the chances of <color=red>traffic jams</color> forming?
+### Spanish ***
+¿Qué podría cambiar para minimizar las posibilidades de<color=red> atascos de tráfico</color> formando?
+
+### Source
+When a <color=blue>cars </color> sees another <color=blue>cars </color> right in front, it matches that car's <trigger=speed>speed </trigger> and then slows down  a bit more. How much slower it goes than the <color=blue>cars </color> in front of it is controlled by the <trigger=deceleration,#c1b90fff>deceleration</trigger> slider. Notice that the default settings have cars   decelerating  much faster than they accelerate . This is typical of traffic flow models.
+### Spanish ***
+Cuando una<color=blue> coches </color> ve a otro<color=blue> coches </color> justo en frente, coincide con el de ese auto<trigger=speed> velocidad </trigger> y luego se ralentiza  un poco más. Cuánto más lento va que el<color=blue> coches </color> delante de él está controlado por el<trigger=deceleration,#c1b90fff> desaceleración</trigger> deslizador. Observe que la configuración predeterminada hace que los autos  desaceleren  mucho más rápido de lo que aceleran . Esto es típico de los modelos de flujo de tráfico.
+
+### Source
+Why do <color=red>traffic jams</color> tend to move backwards?
+### Spanish ***
+Por qué<color=red> atascos de tráfico</color> tienden a moverse hacia atrás?
+
+### Source
+Why do traffic jams tend to move backwards?
+### Spanish ***
+¿Por qué los atascos tienden a retroceder?
+
+### Source
+ Understand why <color=red>traffic jams</color> form 
+ Observe the motions of one <color=blue>vehicle </color> versus the collective
+ Examine factors that cause <color=red>traffic jams</color> to form
+ Explore how different driving habits affect others who share the <color=grey>road </color>
+### Spanish ***
+ Entiende por qué<color=red> atascos de tráfico</color> formar
+ Observe los movimientos de uno<color=blue> vehículo </color> versus el colectivo
+ Examine los factores que causan<color=red> atascos de tráfico</color> formar
+ Explore cómo los diferentes hábitos de conducción afectan a otras personas que comparten<color=grey> camino </color>
+
+## Widgets
+### Source
+acceleration
+### Spanish ***
+aceleración
+
+### Source
+deceleration
+### Spanish ***
+desaceleración
+
+### Source
+go
+### Spanish ***
+Vamos
+
+### Source
+number-of-cars
+### Spanish ***
+número-de-coches
+
+### Source
+red car speed
+### Spanish ***
+velocidad del coche rojo
+
+### Source
+setup
+### Spanish ***
+preparar
+

@@ -1,0 +1,104 @@
+﻿*** 81b73fb3f4da6b52bc209e92fc073170
+## Language = Spanish
+## Plots
+### Source
+Average Speed
+### Spanish ***
+Velocidad media
+
+### Source
+Average Speed of Cars
+### Spanish ***
+Velocidad media de los coches
+
+### Source
+Average Wait
+### Spanish ***
+Espera promedio
+
+### Source
+Average Wait Time of Cars
+### Spanish ***
+Tiempo medio de espera de los coches
+
+### Source
+default
+### Spanish ***
+defecto
+
+### Source
+Stopped Cars
+### Spanish ***
+Autos detenidos
+
+### Source
+Time
+### Spanish ***
+Hora
+
+## Widgets
+### Source
+Change light
+### Spanish ***
+Cambiar la luz
+
+### Source
+Current Phase
+### Spanish ***
+Fase actual
+
+### Source
+current-auto?
+### Spanish ***
+actual-auto?
+
+### Source
+current-phase
+### Spanish ***
+Fase actual
+
+### Source
+Go
+### Spanish ***
+Vamos
+
+### Source
+grid-size-x
+### Spanish ***
+cuadrícula-tamaño-x
+
+### Source
+grid-size-y
+### Spanish ***
+cuadrícula-tamaño-y
+
+### Source
+num-cars
+### Spanish ***
+num-coches
+
+### Source
+power?
+### Spanish ***
+¿poder?
+
+### Source
+Select intersection
+### Spanish ***
+Seleccionar intersección
+
+### Source
+Setup
+### Spanish ***
+Preparar
+
+### Source
+speed-limit
+### Spanish ***
+Límite de velocidad
+
+### Source
+ticks-per-cycle
+### Spanish ***
+garrapatas por ciclo
+

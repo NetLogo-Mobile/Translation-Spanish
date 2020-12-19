@@ -1,0 +1,18 @@
+﻿*** 81b73fb3f4da6b52bc209e92fc073170
+## Language = Spanish
+## Widgets
+### Source
+go
+### Spanish ***
+Vamos
+
+### Source
+population
+### Spanish ***
+población
+
+### Source
+setup
+### Spanish ***
+preparar
+

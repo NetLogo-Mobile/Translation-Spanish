@@ -1,0 +1,84 @@
+﻿*** 81b73fb3f4da6b52bc209e92fc073170
+## Language = Spanish
+## Plots
+### Source
+%
+### Spanish ***
+%
+
+### Source
+default
+### Spanish ***
+defecto
+
+### Source
+Number-unhappy
+### Spanish ***
+Número-infeliz
+
+### Source
+percent
+### Spanish ***
+por ciento
+
+### Source
+Percent Similar
+### Spanish ***
+Porcentaje similar
+
+### Source
+time
+### Spanish ***
+hora
+
+## Widgets
+### Source
+# agents
+### Spanish ***
+# agentes
+
+### Source
+% similar
+### Spanish ***
+% similar
+
+### Source
+% unhappy
+### Spanish ***
+% infeliz
+
+### Source
+%-similar-wanted
+### Spanish ***
+% -similar-buscado
+
+### Source
+density
+### Spanish ***
+densidad
+
+### Source
+go
+### Spanish ***
+Vamos
+
+### Source
+go once
+### Spanish ***
+ir una vez
+
+### Source
+num-unhappy
+### Spanish ***
+num-infeliz
+
+### Source
+setup
+### Spanish ***
+preparar
+
+### Source
+visualization
+### Spanish ***
+visualización
+
