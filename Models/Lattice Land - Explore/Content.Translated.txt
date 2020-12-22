@@ -1,95 +1,94 @@
 ﻿*** 81b73fb3f4da6b52bc209e92fc073170
 ## Que es
 
-_Lattice Land - Explore_ es uno de los varios modelos del paquete de software Lattice Land. Lattice Land es un MathLand interactivo, un micromundo en el que los estudiantes pueden descubrir el pensamiento matemático avanzado a través del juego, las conjeturas y la experimentación. Proporciona otra entrada a la geometría, investigando la geometría de un entramado discreto de puntos. En Lattice Land, no hay una respuesta correcta ni un camino predeterminado que deba recorrer. Sin embargo, incluso los ejercicios aparentemente triviales pueden convertirse rápidamente en ricas exploraciones.
+Mundo de Celosía - Explorar es uno de los varios modelos del paquete de software Mundo de Celosía. Mundo de Celosía es un interactivo de MathLand, un micromundo en cual los estudiantes pueden descubrir el pensamiento matemático avanzado a través del juego, las conjeturas y experimentación. Ofrece otra entrada a la geometría, investigando la geometría de un entramado discreto de puntos. En Mundo de Celosía, no hay una respuesta correcta ni un camino predeterminado que debes de recorrer. Sin embargo, hasta los ejercicios aparentemente triviales se pueden convertir rápidamente en ricas exploraciones.
 
-Una celosía es una matriz de puntos en un plano tal que hay un punto en cada coordenada (x, y), donde xey son números enteros. Por lo tanto, cada punto en la celosía está a una unidad de cada uno de sus cuatro vecinos más cercanos (uno arriba, uno abajo, uno a la izquierda y uno a la derecha). Un polígono de celosía es un polígono cuyos vértices caen sobre puntos de la celosía.
+Una celosía es una matriz de puntos en un plano tal que haya un punto en cada coordenada (x, y), donde x e y son números enteros. Por lo tanto, cada punto en la celosía está a una unidad de cada uno de sus cuatro vecinos más cercanos (uno arriba, uno abajo, uno a la izquierda y uno a la derecha). Un polígono de celosía es un polígono cuyos vértices caigan sobre puntos de la celosía.
 
-En este modelo exploratorio, puede dibujar múltiples polígonos y segmentos, cambiar el tamaño del mundo, cambiar la magnitud de la unidad de distancia entre puntos y verificar áreas y perímetros de polígonos. Puede utilizar este modelo para aprender sobre las características de Lattice Land, definir las propiedades de los polígonos o para hacer ilustraciones de celosía.
+En este modelo exploratorio, puedes dibujar múltiples polígonos y segmentos, cambiar el tamaño del mundo, cambiar la magnitud de la unidad de distancia entre puntos y verificar áreas y perímetros de polígonos. Puedes utilizar este modelo para aprender sobre las características de Mundo de Celosía, definir las propiedades de los polígonos o para hacer ilustraciones de celosía.
 
 ##  COMO FUNCIONA
 
-Con Lattice Land, los estudiantes pueden dibujar cualquier polígono de celosía además de dibujar segmentos de línea simples. No es necesario que los polígonos se limiten a rectángulos o triángulos.
+Con Mundo de Celosía, los estudiantes pueden dibujar cualquier polígono de celosía además de dibujar segmentos de línea simples. No es necesario que los polígonos se limiten a rectángulos o triángulos.
 
-Hemos implementado un entramado en NetLogo mediante el uso de agentes llamados DOTS que brotaron en el centro de cada parche. Los segmentos entre los puntos son simplemente bordes o enlaces. Luego, el entorno responde a los clics del mouse dentro del mundo y realiza la acción especificada (ya sea dibujar un lado de un polígono o dibujar un solo segmento de línea).
+Hemos implementado una celosía en NetLogo mediante el uso de agentes llamados PUNTOS que brotaron en el centro de cada parcela. Los segmentos entre los puntos son simplemente bordes o enlaces. Luego, el entorno responde a los clics del ratón dentro del mundo y realiza la acción especificada (entonces, dibuja un lado de un polígono o dibuja un solo segmento de línea).
 
-Para analizar los polígonos en cuestión, usamos un método algorítmico para calcular el perímetro y el área del polígono basado en iterar sobre los bordes del polígono. Sin embargo, también se espera que los estudiantes calculen estas diferentes propiedades a mano y luego las comparen con los resultados algorítmicos. Por ejemplo, los estudiantes deben aplicar la fórmula de la distancia para calcular el perímetro o aplicar la idea de la disección para calcular el área. También se debe animar a los estudiantes a encontrar nuevas formas de calcular estas propiedades.
+Para analizar los polígonos en cuestión, usamos un método algorítmico para calcular el perímetro y el área del polígono basado en iterar sobre los bordes del polígono. Sin embargo, también se espera que los estudiantes calculen estas diferentes propiedades a mano y luego las comparen con los resultados algorítmicos. Por ejemplo, los estudiantes deben aplicar la fórmula de la distancia para calcular el perímetro o aplicar la idea de la disección para calcular el área. También debes motivar a los estudiantes a encontrar nuevas formas de calcular estas propiedades.
 
 ##  COMO USARLO
 
-El botón CONFIGURAR crea un mundo con las dimensiones y el tamaño dados establecidos por los controles deslizantes.
+El botón PREPARAR crea un mundo con las dimensiones y el tamaño dados establecidos por los controles deslizantes.
 
-Seleccione una ACCIÓN.
+Selecciona una ACCIÓN.
 
-* DRAW POLYGON traza una ruta desde el primer punto en el que se hace clic hasta el siguiente punto en el que se hace clic. Sigue esperando los clics hasta que el usuario vuelve a hacer clic en el primer punto. (Al usar esta acción, Lattice Land rastreará el perímetro de cada polígono activo y calculará su área cuando esté completo)
+* DIBUJAR POLÍGONO traza una ruta desde el primer punto en el que se hace clic hasta el siguiente punto en el que se hace clic. Sigue esperando los clics hasta que el usuario vuelve a hacer clic en el primer punto. (Al usar esta acción, Mundo de Celosía rastreará el perímetro de cada polígono activo y calculará su área cuando esté completo)
 
-* DIBUJAR SEGMENTO le permite unir dos puntos en los que haga clic consecutivamente por un segmento de línea.
+* DIBUJAR SEGMENTO te permite unir dos puntos en los que ya hagas hecho clic consecutivamente por un segmento de línea.
 
-* ELIMINAR SEGMENTO le permite eliminar cualquier segmento de línea que haya dibujado seleccionando cualquiera de los puntos finales del segmento. Tenga en cuenta que esto eliminará TODOS los segmentos que comparten el punto final seleccionado. (Esta acción solo funciona en segmentos de línea, no en bordes de polígonos).
+* ELIMINAR SEGMENTO te permite eliminar cualquier segmento de línea que hayas dibujado con seleccionar cualquiera de los puntos finales del segmento. Tenga en cuenta que esto eliminará TODOS los segmentos que comparten el punto final seleccionado. (Esta acción solo funciona en segmentos de línea, no en bordes de polígonos).
 
-SEGMENT-COLOR le permite seleccionar diferentes colores para sus segmentos.
+COLOR-SEGMENTO te permite seleccionar diferentes colores para sus segmentos.
 
-Presione el botón GO para ejecutar una ACCIÓN.
+Presiona el botón IR para ejecutar una ACCIÓN.
 
-Presione CHECK-AREA para verificar el área del último polígono que acaba de dibujar. (Tenga en cuenta que el área de verificación no funcionará en polígonos aparentes creados con segmentos, solo polígonos explícitos).
+Presiona COMPROBAR-ÁREA para verificar el área del último polígono que acabas de dibujar. (Tenga en cuenta que comprobar-área no funcionará en polígonos aparentes creados con segmentos, solo polígonos explícitos).
 
-Mire el monitor PERIMETRO para ver el perímetro del polígono que ha dibujado.
+Mira el monitor PERÍMETRO para ver el perímetro del polígono que has dibujado.
 
 ##  COSAS PARA NOTAR
 
-Los polígonos siempre serán blancos. Esto está destinado a ayudar a distinguirlos de los segmentos a medida que disecciona polígonos de varias maneras. Cuando se usa Lattice Land, es útil usar colores de segmento distintos al blanco y negro.
+Los polígonos siempre serán blancos. Esto es para ayudarte a distinguirlos de los segmentos mientras que diseccionas polígonos de varias maneras. Cuando se usa Mundo de Celosía, es útil usar colores de segmento distintos al blanco y negro.
 
-Puede dibujar algunas formas usando DRAW POLYGON que no son polígonos. Esto generará un mensaje de error. ¿Qué tipos de formas de celosía no son polígonos de celosía?
+Puedes dibujar algunas formas usando DIBUJAR POLÍGONO que no son polígonos. Esto generará un mensaje de error. ¿Cuáles tipos de formas de celosía no son polígonos de celosía?
 
 ##  COSAS PARA INTENTAR
 
-* Cree tantas formas diferentes como pueda que tengan solo 1 unidad cuadrada de área.
-* Cree tantas formas diferentes como pueda que tengan un área de unidad cuadrada de 1.5.
+* Crea tantas formas diferentes como puedas que tengan solo 1 unidad cuadrada de área.
+* Crea tantas formas diferentes como puedas que tengan un área de unidad cuadrada de 1.5.
 * Crea tantas formas diferentes como puedas que tengan un área de 2 unidades cuadradas.
-* Continúe hasta que haya generado una serie de formas interesantes con un área de 8 unidades cuadradas.
-* Para cada polígono, cuente y registre el número de puntos que están estrictamente dentro del polígono. También cuente y registre el número de puntos que caen en un borde del polígono. ¿Ves un patrón?
-* De lo contrario, mire los polígonos que no tienen puntos en el interior. ¿Ves un patrón ahora? ¿Puedes escribir una fórmula para describirlo?
-* Intente generalizar una fórmula de área para un polígono de celosía usando solo el número de puntos en su Límite (B) y el número de puntos en el Interior (I).
+* Continúa hasta que hayas generado una serie de formas interesantes con un área de 8 unidades cuadradas.
+* Para cada polígono, cuenta y registra el número de puntos que están estrictamente dentro del polígono. También cuenta y registra el número de puntos que caen en un borde del polígono. ¿Ves un patrón?
+* De lo contrario, mira los polígonos que no tienen puntos en el interior. ¿Ves un patrón ahora? ¿Puedes escribir una fórmula para describirlo?
+* Intenta generalizar una fórmula de área para un polígono de celosía usando solo el número de puntos en su Límite (L) y el número de puntos en el Interior (I).
 
 
-Asegúrese de intentar diseccionar un polígono de diferentes maneras. Por ejemplo:
+Asegúrate de intentar diseccionar un polígono de diferentes maneras. Por ejemplo:
 
 * Corta rectángulos hasta que ya no puedas hacerlo.
 * Triangular el polígono
-* Encierre el polígono en una figura cuya área conozca y corte las piezas
+* Encierre el polígono en una figura cuya área conoce y corta las piezas
 
 ##  EXTENDIENDO EL MODELO
 
-Observe que el procedimiento DRAW-POLYGON elimina las figuras cerradas que no son polígonos. Pero, ¿qué pasa si cambia la definición de lo que significa ser un polígono? Cambie el código para reflejar esta nueva definición. ¿Cómo altera o rompe esto las reglas que usamos actualmente para entender los polígonos (por ejemplo, fórmulas de área)?
+Observe que el procedimiento DIBUJAR-POLÍGONO elimina las figuras cerradas que no son polígonos. Pero, ¿qué pasa si cambias la definición de lo que significa ser un polígono? Cambia el código para reflejar esta nueva definición. ¿Cómo altera o rompe esto las reglas que usamos actualmente para entender los polígonos (por ejemplo, fórmulas de área)?
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Las acciones DRAW-SEGMENT y DRAW-POLYGON se programan de manera similar y cada llamada a dos procedimientos anónimos, dos realmente dibujan en la pantalla. Sin embargo, DRAW-POLYGON tiene que mantener dibujada una lista de vértices pasados.
+Las acciones DIBUJAR-SEGMENTO y DIBUJAR-POLÍGONO se programan de manera similar y cada llamada a dos procedimientos anónimos, dos realmente dibujan en la pantalla. Sin embargo, DIBUJAR-POLÍGONO tiene que mantener dibujada una lista de vértices pasados.
 
-El reportero de INTERSECCIÓN verifica las intersecciones entre los enlaces convirtiéndolos en forma pendiente-intersección y luego verificando las intersecciones de líneas.
+El reportero de INTERSECCIÓN verifica las intersecciones entre los enlaces convirtiéndolos en la forma pendiente-intersección y luego verificando las intersecciones de líneas.
 
-Este modelo utiliza actualizaciones continuas, en lugar de actualizaciones basadas en ticks. Esto significa que el modelo no se actualiza a intervalos de tiempo regulares (tics) dictados por el código. En cambio, este modelo se actualiza cuando el usuario realiza una acción. Por lo tanto, la profundidad de la investigación en las matemáticas de Lattice Land la dicta el usuario: no se genera nada (excepto el enrejado) hasta que el usuario dibuja algo.
+Este modelo utiliza actualizaciones continuas, en lugar de actualizaciones basadas en tics. Esto significa que el modelo no se actualiza a intervalos de tiempo regulares (tics) dictados por el código. En cambio, este modelo se actualiza cuando el usuario realiza una acción. Por lo tanto, la profundidad de la investigación en las matemáticas de Mundo de Celosía la dicta el usuario: no se genera nada (excepto el enrejado) hasta que el usuario dibuja algo.
 
 ##  MODELOS RELACIONADOS 
 
-* Intersecting Links
+* Intersección de Enlaces
 
 ##  CRÉDITOS Y REFERENCIAS 
-
-The area formula used for this model comes from the following site:
+La formula de área usada para este modelo viene de este sitio:
 http://mathworld.wolfram.com/PolygonArea.html
 
-Area = 1/2 * (the determinant of the matrices formed by each consecutive pair of coordinates)
+Area = 1/2 * (el determinante de las matrices formadas por cada par consecutivo de coordenadas)
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Pei, C. and Wilensky, U. (2017).  NetLogo Lattice Land - Explore model.  http://ccl.northwestern.edu/netlogo/models/LatticeLand-Explore.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -102,3 +101,5 @@ Copyright 2017 Uri Wilensky.
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
 
 Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+Traductora: Chelsea Guzman

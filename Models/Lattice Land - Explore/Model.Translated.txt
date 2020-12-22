@@ -8,23 +8,22 @@ acción
 
 ### Source
 check-area
-### Spanish ***
-área de verificación
+### Spanish ***comprobar-área
 
 ### Source
 clear-polygons
 ### Spanish ***
-polígonos claros
+eliminar-polígonos
 
 ### Source
 clear-segments
 ### Spanish ***
-segmentos claros
+eliminar-segmentos
 
 ### Source
 go
 ### Spanish ***
-Vamos
+ir
 
 ### Source
 height
@@ -44,7 +43,7 @@ preparar
 ### Source
 unit-size
 ### Spanish ***
-tamaño de la unidad
+tamaño-unidad
 
 ### Source
 width
