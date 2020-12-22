@@ -34,7 +34,7 @@ lobos
 ### Source
 A biological species is a group of organisms that can <trigger=reproduction>reproduce</trigger> with one another in nature and produce fertile offspring .
 ### Spanish
-Una especie biológica es un grupo de organismos que pueden <trigger=reproducción>reproducir</trigger> uno con el otro en la naturaliza y producir descendencia fértil .
+Una especie biológica es un grupo de organismos que pueden <trigger=reproduction>reproducir</trigger> uno con el otro en la naturaliza y producir descendencia fértil .
 
 ### Source
 A population is the number of organisms of the same <trigger=species>species</trigger> that live in a particular geographic area  at the same time , with the capability of producing fertile offspring .
@@ -89,7 +89,7 @@ Extinción
 ### Source
 Extinction  is the dying out or extermination of a <trigger=species>species</trigger>. Extinction  occurs when species are diminished because of environmental forces (habitat fragmentation, global  change, natural disaster , overexploitation of species for human use ) or because of evolutionary changes in their members (genetic  inbreeding, poor <trigger=reproduction>reproduction</trigger>, decline in <trigger=population>population</trigger> numbers).
 ### Spanish
-Extinción  es el exterminio de una <trigger=especies>especies</trigger>. Extinción  ocurre cuando especies se disminuyen debido a fuerzas ambientales (fragmentación del habitat, cambio  global, desastre natural , sobreexplotación de especies para uso humano ) or por los cambios evolutivos en sus miembros (endogamia  genética, mala <trigger=reproducción>reproducción</trigger>, disminución en el número de la <trigger=población>población</trigger>).
+Extinción  es el exterminio de una <trigger=especies>especies</trigger>. Extinción  ocurre cuando especies se disminuyen debido a fuerzas ambientales (fragmentación del habitat, cambio  global, desastre natural , sobreexplotación de especies para uso humano ) or por los cambios evolutivos en sus miembros (endogamia  genética, mala <trigger=reproduction>reproducción</trigger>, disminución en el número de la <trigger=población>población</trigger>).
 
 ### Source
 First Variation of Model 
@@ -304,12 +304,12 @@ El tamaño inicial de la <trigger=población>población</trigger> de <color=grey
 ### Source
 The probability of a <color=#a07348ff>wolf </color> <trigger=reproduction>reproducing</trigger> at each time  step
 ### Spanish
-La probabilidad de que un <color=#a07348ff>lobo </color> <trigger=reproducción>reproduzca</trigger> en cada paso de  tiempo
+La probabilidad de que un <color=#a07348ff>lobo </color> <trigger=reproduction>reproduzca</trigger> en cada paso de  tiempo
 
 ### Source
 The probability of a <color=grey>sheep </color> <trigger=reproduction>reproducing</trigger> at each time  step
 ### Spanish
-La probabilidad de que una <color=grey>oveja </color> <trigger=reproducción>reproduzca</trigger> en cada paso de  tiempo
+La probabilidad de que una <color=grey>oveja </color> <trigger=reproduction>reproduzca</trigger> en cada paso de  tiempo
 
 ### Source
 The second variation, the "<color=grey>sheep </color>-<color=#a07348ff>wolves </color>-<color=green>grass </color>" version explictly models <color=green>grass </color> in addition to <color=#a07348ff>wolves </color> and <color=grey>sheep </color>. The behavior of the <color=#a07348ff>wolves </color> is identical to the first variation, however this time the <color=grey>sheep </color> must eat <color=green>grass </color> in order to maintain their <color=#b3b300ff>energy </color> - when they run out of <color=#b3b300ff>energy </color> they die . One unit of <color=#b3b300ff>energy </color> is deducted for every step a <color=grey>sheep </color> takes. Once <color=green>grass </color> is eaten it will only regrow after a fixed amount of time .
@@ -324,7 +324,7 @@ Hay varias formas de alterar el modelo para que sea <color=blue>stable </colo
 ### Source
 There are two main variations to this model. In the first variation, the "<color=grey>sheep </color>-<color=#a07348ff>wolves </color>" version, <color=#a07348ff>wolves </color> and <color=grey>sheep </color> wander randomly around the <color=#654321ff>landscape </color>, while the <color=#a07348ff>wolves </color> look for <color=grey>sheep </color> to prey on. Each step costs the <color=#a07348ff>wolves </color> one unit of <color=#b3b300ff>energy </color>, and they must eat <color=grey>sheep </color> in order to replenish their <color=#b3b300ff>energy </color> - when they run out of <color=#b3b300ff>energy </color> they die . To allow the <trigger=population>population</trigger> to continue, each <color=#a07348ff>wolf </color> or <color=grey>sheep </color> has a fixed probability of <trigger=reproduction>reproducing</trigger> at each time  step.
 ### Spanish
-Hay dos variaciones principales de este modelo. En la primera variación, la versión "<color=grey>ovejas </color>-<color=#a07348ff>lobos </color>", <color=#a07348ff>lobos </color> y <color=grey>ovejas </color> deambulan aleatoriamente por el <color=#654321ff>paisaje </color>, mientras que los <color=#a07348ff>lobos </color> buscan <color=grey>ovejas </color> para comer. Cada paso les cuestan una unidad de <color=#b3b300ff>energeia </color> a los <color=#a07348ff>lobos </color>, y tienen que comer <color=grey>ovejas </color> para reponer su <color=#b3b300ff>energía </color> – cuando quedan sin <color=#b3b300ff>energía </color> se mueren . Para permitir que la <trigger=población>población</trigger> continúe, cada <color=#a07348ff>lobo </color> o <color=grey>oveja </color> tiene una probabilidad fija de <trigger=reproducción>reproducir</trigger> en cada paso de  tiempo.
+Hay dos variaciones principales de este modelo. En la primera variación, la versión "<color=grey>ovejas </color>-<color=#a07348ff>lobos </color>", <color=#a07348ff>lobos </color> y <color=grey>ovejas </color> deambulan aleatoriamente por el <color=#654321ff>paisaje </color>, mientras que los <color=#a07348ff>lobos </color> buscan <color=grey>ovejas </color> para comer. Cada paso les cuestan una unidad de <color=#b3b300ff>energeia </color> a los <color=#a07348ff>lobos </color>, y tienen que comer <color=grey>ovejas </color> para reponer su <color=#b3b300ff>energía </color> – cuando quedan sin <color=#b3b300ff>energía </color> se mueren . Para permitir que la <trigger=población>población</trigger> continúe, cada <color=#a07348ff>lobo </color> o <color=grey>oveja </color> tiene una probabilidad fija de <trigger=reproduction>reproducir</trigger> en cada paso de  tiempo.
 
 ### Source
 Things to Try
@@ -359,7 +359,7 @@ Intenta ajustar los parámetros en carias configuraciones. ¿Que tan sensible es
 ### Source
 Try changing the <trigger=reproduction>reproduction</trigger> rules -- for example, what would happen if reproduction depended on <color=#b3b300ff>energy </color> rather than being determined by a fixed probability?
 ### Spanish
-Trata cambiar las reglas de <trigger=reproducción>reproducción</trigger> -- por ejemplo, ¿que pasará si reproducción dependría en <color=#b3b300ff>energía </color> en vez de ser determinada por una probabilidad fija?
+Trata cambiar las reglas de <trigger=reproduction>reproducción</trigger> -- por ejemplo, ¿que pasará si reproducción dependría en <color=#b3b300ff>energía </color> en vez de ser determinada por una probabilidad fija?
 
 ### Source
 Try running the <color=grey>sheep </color>-<color=#a07348ff>wolves </color>-<color=green>grass </color> model variation, but setting <I>initial-number-wolves</I> to 0. This gives a <color=blue>stable </color> <trigger=ecosystem>ecosystem</trigger>  with only <color=grey>sheep </color> and <color=green>grass </color>. Why might this be <color=blue>stable </color> while the variation with only <color=grey>sheep </color> and <color=#a07348ff>wolves </color> is not?
