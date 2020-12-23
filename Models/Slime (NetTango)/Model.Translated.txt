@@ -1,10 +1,9 @@
-﻿*** 81b73fb3f4da6b52bc209e92fc073170
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 go
 ### Spanish ***
-Vamos
+ir
 
 ### Source
 population

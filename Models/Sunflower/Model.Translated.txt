@@ -1,20 +1,19 @@
-﻿*** 81b73fb3f4da6b52bc209e92fc073170
-## Language = Spanish
+﻿## Language = Spanish
 ## Tutorial
 ### Source
 "Want to look at the community's or your answers to the questions asked in this model? Click on <b>Go to Q&A Panel</b>."
 ### Spanish ***
-&quot;¿Desea ver las respuestas de la comunidad o sus respuestas a las preguntas formuladas en este modelo? Haga clic en <b>Ir al panel de preguntas y respuestas</b> &quot;.
+"¿Deseas ver las respuestas de la comunidad o sus respuestas a las preguntas formuladas en este modelo? Haga clic en <b>Ir al Panel de Q&A</b>."
 
 ### Source
 A mathematical ratio commonly found in nature, and when used in a design, fosters organic and natural-looking compositions that are aesthetically pleasing to the eye
 ### Spanish ***
-Una proporción matemática que se encuentra comúnmente en la naturaleza y, cuando se usa en un diseño, fomenta composiciones orgánicas y de aspecto natural que son estéticamente agradables a la vista.
+Una proporción matemática que se encuentra comúnmente en la naturaleza y, cuando se usa en un diseño, promove composiciones orgánicas y de aspecto natural que son estéticamente agradables al ojo.
 
 ### Source
-An process that is observed to have properties its parts  do not have on their own (such properties or behaviors emerge only when the parts  interact in a wider whole)
+A process that is observed to have properties that its parts  do not have on their own (such properties or behaviors emerge only when the parts  interact in a wider whole)
 ### Spanish ***
-Un proceso que se observa que tiene propiedades que sus partes  no tienen por sí mismas (tales propiedades o comportamientos surgen solo cuando las partes  interactúan en un todo más amplio)
+Un proceso que se observa a tener propiedades que sus partes  no tienen por sí mismas (tales propiedades o comportamientos surgen solo cuando las partes  interactúan en un todo más amplio)
 
 ### Source
 Appropriate position
@@ -24,12 +23,12 @@ Posición apropiada
 ### Source
 Clock-tick
 ### Spanish ***
-Tic del reloj
+tic-del-reloj
 
 ### Source
 Clockwise
 ### Spanish ***
-Agujas del reloj
+En Sentido Horario
 
 ### Source
 Congratulations! 
@@ -44,7 +43,7 @@ En sentido anti-horario
 ### Source
 Death Beyond the Edge 
 ### Spanish ***
-Muerte más allá del borde 
+Muerte más Allá del Borde 
 
 ### Source
 Emergent process
@@ -57,19 +56,19 @@ Fibonacci series
 Serie de Fibonacci
 
 ### Source
-For each <trigger=clock-tick>clock-tick </trigger>, a new <color=green>turtle</color> (which can be seen as a <color=maroon>seed</color> or a <color=red>petal </color>) is created. As in nature, the <color=green>turtle</color> finds the <trigger=appropriateposition>appropriate position</trigger> and begins growing. All of the other existing <color=green>turtle</color> move forward and grow slightly, with each clock-tick .
+For each <trigger=clock-tick>clock-tick </trigger>, a new <color=green>turtle</color> (which can be seen as a <color=maroon>seed</color> or a <color=red>petal </color>) is created. As in nature, the <color=green>turtle</color> finds the <trigger=appropriateposition>appropriate position</trigger> and begins growing. All of the other existing <color=green>turtles</color> move forward and grow slightly, with each clock-tick .
 ### Spanish ***
-Para cada<trigger=clock-tick> tictac del reloj </trigger> , un nuevo<color=green> Tortuga</color> (que puede verse como un<color=maroon> semilla</color> o un<color=red> pétalo </color> ) es creado. Como en la naturaleza, el<color=green> Tortuga</color> encuentra el<trigger=appropriateposition> posición apropiada</trigger> y comienza a crecer. Todos los demás existentes<color=green> Tortuga</color> avanzar y crecer ligeramente, con cada tic del reloj .
+Para cada <trigger=clock-tick>tic-del-reloj </trigger> , una nueva <color=green>tortuga</color> (la que se puede ver como una <color=maroon>semilla</color> o un <color=red>pétalo </color> ) es creada. Como en la naturaleza, la <color=green>tortuga</color> encuentra la <trigger=appropriateposition> posición apropiada</trigger> y comienza a crecer. Todas las otras existentes<color=green>tortugas</color> avanzan y crecen ligeramente, con cada tic del reloj .
 
 ### Source
 Formation of Spiral Pattern 
 ### Spanish ***
-Formación de patrón en espiral 
+Formación de Patrón en Espiral 
 
 ### Source
 Goals 
 ### Spanish ***
-Objetivos 
+Metas 
 
 ### Source
 Golden ratio
@@ -79,17 +78,17 @@ Proporción áurea
 ### Source
 Here's a challenge! In nature, real plantsdon't have the <trigger=goldenratio,olive>golden ratio</trigger> "programmed" into them. Rather, the spirals form as the result of an <trigger=emergentprocess>emergent process</trigger>, described in Conway and Guy's book  and other sources. Can you extend this model to capture this emergent process?
 ### Spanish ***
-¡Aquí tienes un desafío! En la naturaleza, las plantas reales no tienen<trigger=goldenratio,olive> proporción áurea</trigger> &quot;programado&quot; en ellos. Más bien, las espirales se forman como resultado de una<trigger=emergentprocess> proceso emergente</trigger> , descrito en el libro de Conway y Guy  y otras fuentes. ¿Puede extender este modelo para capturar este proceso emergente?
+¡Aquí tienes un desafío! En la naturaleza, las plantas reales  no tienen la <trigger=goldenratio,olive> proporción áurea</trigger> "programadas" en ellas. Más bien, las espirales se forman como resultado de un <trigger=emergentprocess>proceso emergente</trigger>, descrito en el libro de Conway y Guy  y otras fuentes. ¿Puede extender este modelo para capturar este proceso emergente?
 
 ### Source
 How does adding <color=red>c</color><color=orange>o</color><color=navy>l</color><color=magenta>o</color><color=teal>r</color><color=cyan>s</color>  change the spirals you see ? Does this change the phenomena, or only what you see ?
 ### Spanish ***
-¿Cómo agregar<color=red> C</color><color=orange> o</color><color=navy> l</color><color=magenta> o</color><color=teal> r</color><color=cyan> s</color>  cambia las espirales que ves ? ¿Esto cambia los fenómenos, o solo lo que ves ?
+¿Cómo es que agregar <color=red>c</color><color=orange>o</color><color=navy>l</color><color=magenta>o</color><color=teal>r</color><color=cyan>e</color><color=olive>s</color>  cambia las espirales que ves ? ¿Esto cambia el fenómeno, o solo lo que ves ?
 
 ### Source
 How It Works
 ### Spanish ***
-Cómo funciona
+Cómo Funciona
 
 ### Source
 If a <color=green>turtle</color> gets too close to the edge of the world  and too far from the center of the world, it dies . That is the reason they form a circular pattern .
@@ -124,12 +123,12 @@ Límite
 ### Source
 num-colors 
 ### Spanish ***
-num-colores 
+núm-colores 
 
 ### Source
 Questions?
 ### Spanish ***
-Preguntas?
+¿Preguntas?
 
 ### Source
 Series of numbers where a number is the addition of the last two numbers, starting with 0, and 1
@@ -139,77 +138,77 @@ Serie de números donde un número es la suma de los dos últimos números, come
 ### Source
 set turn-increment 
 ### Spanish ***
-establecer incremento de giro 
+establecer incremento-de-giro 
 
 ### Source
 step-size 
 ### Spanish ***
-tamaño de paso 
+tamaño-de-paso 
 
 ### Source
 The <i>num-colors</i> slider controls how many <color=red>c</color><color=orange>o</color><color=navy>l</color><color=magenta>o</color><color=teal>r</color><color=cyan>s</color>  the <color=green>turtles</color> can be. (Using this will make some of the spirals  stand out more, other stand out less.)
 ### Spanish ***
-El control deslizante <i>num-colors controla cuántos</i><color=red> C</color><color=orange> o</color><color=navy> l</color><color=magenta> o</color><color=teal> r</color><color=cyan> s</color>  el<color=green> tortugas</color> puede ser. (Usar esto hará que algunas de las espirales  se destaquen más, otras se destaquen menos).
+El control deslizante <i>núm-colores</i> controla cuantos <color=red>c</color><color=orange>o</color><color=navy>l</color><color=magenta>o</color><color=teal>r</color><color=cyan>e</color><color=olive>s</color>  las <color=green> tortugas</color> pueden ser. (Usando esto hará que algunas de las espirales  se destaquen más, otras se destaquen menos.)
 
 ### Source
 The <i>set turn-increment</i> buttons help to set the <i>turn-increment</i> slider to specific values at and around the <trigger=goldenratio,olive>golden ratio</trigger>. They are simply there to help achieve precision  that can be difficult with the slider.
 ### Spanish ***
-El <i>conjunto de giro mínimo de la</i> ayuda botones para ajustar el control deslizante <i>a su vez de incremento</i> de los valores específicos en y alrededor de la<trigger=goldenratio,olive> proporción áurea</trigger> . Simplemente están ahí para ayudar a lograr la precisión, lo que puede ser difícil con el control deslizante.
+Los botones de <i>establecer incremento-de-giro</i> ayudan para ajustar el control deslizante <i>incremento-de-giro</i> a valores específicos en y alrededor de la <trigger=goldenratio,olive>proporción áurea</trigger>. Simplemente están ahí para ayudar a lograr precisión, lo cual puede ser difícil con el control deslizante.
 
 ### Source
 The <i>step-size</i> slider controls how far away  the <color=green>turtle</color> moves from the center, for each <trigger=clock-tick>clock-tick</trigger>.
 ### Spanish ***
-El <i>control deslizante de tamaño de paso</i> controla qué tan lejos  el<color=green> Tortuga</color> se mueve desde el centro, para cada<trigger=clock-tick> tic-tac</trigger> .
+El control deslizante <i>tamaño-de-paso</i> controla qué tan lejos  las <color=green>tortugas</color> se mueven desde el centro, para cada <trigger=clock-tick>tic-del-reloj</trigger>.
 
 ### Source
 The <i>turn-increment</i> slider dictates the degree  that each new <color=green>turtle</color> will turn to set its position in the spiral .
 ### Spanish ***
-El <i>control deslizante de incremento de giro</i> dicta el grado  que cada nuevo<color=green> Tortuga</color> girará para fijar su posición en la espiral .
+El control deslizante <i>incremento-de-giro</i> dicta el grado  que cada nueva <color=green>tortuga</color> girará para establecer su posición en la espiral .
 
 ### Source
 The amount of seconds  that have passed since the command 'reset-timer' was last run
 ### Spanish ***
-La cantidad de segundos  que han pasado desde la última vez que se ejecutó el comando &#39;reset-timer&#39;
+La cantidad de segundos  que han pasado desde la última vez que se ejecutó el comando "reiniciar-cronómetro"
 
 ### Source
 The angle  made by this turn is a multiple of the <trigger=goldenratio,olive>golden ratio</trigger> (1.618). The <color=olive>golden ratio</color>, based on the <trigger=fibonacci>Fibonacci series</trigger> (1, 1, 2, 3, 5, 8, 13...), equals the <trigger=limit>limit</trigger> of F(n)/F(n-1). Thus, these spirals  can be mathematically  generated, using the <color=olive>golden ratio</color>.
 ### Spanish ***
-El ángulo  formado por este giro es un múltiplo del<trigger=goldenratio,olive> proporción áurea</trigger> (1,618). los<color=olive> proporción áurea</color> , basado en el<trigger=fibonacci> Serie de Fibonacci</trigger> (1, 1, 2, 3, 5, 8, 13 ...), es igual al<trigger=limit> límite</trigger> de F (n) / F (n-1). Por lo tanto, estas espirales  se pueden generar matemáticamente , utilizando el<color=olive> proporción áurea</color> .
+El ángulo  formado por este giro es un múltiplo de la <trigger=goldenratio,olive>proporción áurea</trigger> (1.618). La <color=olive>proporción áurea</color>, basada en la <trigger=fibonacci> Serie de Fibonacci</trigger> (1, 1, 2, 3, 5, 8, 13 ...), es igual al <trigger=limit>límite</trigger> de F(n)/F(n-1). Por lo tanto, estas espirales  se pueden generar matemáticamente , utilizando la <color=olive>proporción áurea</color>.
 
 ### Source
 The Golden Ratio 
 ### Spanish ***
-La proporción áurea 
+La Proporción Áurea 
 
 ### Source
-The interlocking spirals found in the <color=maroon>seeds</color>, <color=red>petals </color> and even <color=maroon>branches </color> of many <color=green>plants </color> occur naturally through the growth of the flower . This model attempts to demonstrate the growth of these naturally occurring spirals .
+The interlocking spirals  found in the <color=maroon>seeds</color>, <color=red>petals </color> and even <color=maroon>branches </color> of many <color=green>plants </color> occur naturally through the growth of the flower . This model attempts to demonstrate the growth of these naturally occurring spirals .
 ### Spanish ***
-Las espirales entrelazadas  encontradas en el<color=maroon> semillas</color> ,<color=red> pétalos </color> e incluso<color=maroon> ramas </color> de muchos<color=green> plantas </color> ocurren naturalmente a través del crecimiento de la flor . Este modelo intenta demostrar el crecimiento de estas espirales naturales .
+Las espirales entrelazadas  encontradas en las <color=maroon>semillas</color>,<color=red>pétalos </color> y hasta <color=maroon>ramas </color> de muchas <color=green>plantas</color> ocurren naturalmente a través del crecimiento de la flor . Este modelo trata demostrar el crecimiento de estas espirales naturales .
 
 ### Source
 The number of clock-ticks times the turn 'increment'
 ### Spanish ***
-El número de tics del reloj multiplicado por el &#39;incremento&#39; de turno
+El número de tics-del-reloj multiplicado por el 'incremento' de giro.
 
 ### Source
 Think about the spirals  that you see. How many <b>different</b> ways can you make a pattern of spirals ?
 ### Spanish ***
-Piensa en las espirales  que ves. ¿De cuántas <b>formas diferentes</b> puedes hacer un patrón de espirales ?
+Piensa en las espirales  que ves. ¿De cuántas formas <b> diferentes</b> puedes hacer un patrón de espirales ?
 
 ### Source
 Try making the model draw your favorite flower's <color=red>petal </color> or <color=maroon>seed</color> pattern . For example, a buttercup or columbine could be made by creating 5 large petals of the appropriate <color=red>c</color><color=orange>o</color><color=navy>l</color><color=magenta>o</color><color=teal>r</color><color=cyan>s</color> .
 ### Spanish ***
-Intenta hacer que el modelo dibuje tus flores favoritas.<color=red> pétalo </color> o<color=maroon> semilla</color> patrón . Por ejemplo, se puede hacer un ranúnculo o aguileña creando 5 pétalos grandes del<color=red> C</color><color=orange> o</color><color=navy> l</color><color=magenta> o</color><color=teal> r</color><color=cyan> s</color> .
+Intenta hacer que el modelo dibuja tus flores favoritas <color=red>pétalos </color> o patrón de <color=maroon> semilla</color> . Por ejemplo, se puede hacer un ranúnculo o aguileña con crear 5 pétalos grandes de los <color=red>c</color><color=orange>o</color><color=navy>l</color><color=magenta>o</color><color=teal>r</color><color=cyan>e</color><color=olive>s</color> apropriados.
 
 ### Source
 Try making the spirals  go <trigger=counterclockwise>counterclockwise</trigger>.
 ### Spanish ***
-Intenta hacer las espirales  ir<trigger=counterclockwise> en sentido anti-horario</trigger> .
+Intenta hacer las espirales  ir <trigger=counterclockwise>en sentido anti-horario</trigger>.
 
 ### Source
 turn-increment 
 ### Spanish ***
-incremento de giro 
+incremento-de-giro 
 
 ### Source
 Value that a function (or sequence) approaches as the input approaches some value
@@ -219,27 +218,27 @@ Valor al que se acerca una función (o secuencia) cuando la entrada se acerca a 
 ### Source
 Want to know more? Click here for higher level reading!
 ### Spanish ***
-¿Quiere saber más? ¡Haga clic aquí para leer un nivel superior!
+¿Quieres saber más? ¡Haz clic aquí para una lectura de un nivel superior!
 
 ### Source
 Welcome to the Sunflower Model! 
 ### Spanish ***
-¡Bienvenido al modelo Sunflower! 
+¡Bienvenido al Modelo Girasol! 
 
 ### Source
 Well done! You have completed the Sunflower model tutorial! Time to play with the model!
 ### Spanish ***
-¡Bien hecho! ¡Has completado el tutorial del modelo Sunflower! ¡Es hora de jugar con el modelo!
+¡Bien hecho! ¡Has completado el tutorial del modelo Girasol! ¡Es hora de jugar con el modelo!
 
 ### Source
-When a new <color=maroon>seeds</color> emerges, the older ones grow slightly and move further from the center--the source--and the youngest <color=maroon>seeds</color> finds the largest gap between existing <color=maroon>seeds</color>, in which it can grow. This gap can be found by turning <trigger=counterclockwise>counterclockwise</trigger>.
+When a new <color=maroon>seed</color> emerges, the older ones grow slightly and move further from the center--the source--and the youngest <color=maroon>seeds</color> finds the largest gap between existing <color=maroon>seeds</color>, in which it can grow. This gap can be found by turning <trigger=counterclockwise>counterclockwise</trigger>.
 ### Spanish ***
-Cuando un nuevo<color=maroon> semillas</color> emerge, los mayores crecen levemente y se alejan del centro, la fuente, y los más jóvenes<color=maroon> semillas</color> encuentra la mayor brecha entre los<color=maroon> semillas</color> , en el que puede crecer. Esta brecha se puede encontrar girando<trigger=counterclockwise> en sentido anti-horario</trigger> .
+Cuando una nueva <color=maroon>semilla</color> emerge, los mayores crecen levemente y se alejan del centro--la fuente--y la <color=maroon>semillas</color> más jóven encuentra la mayor brecha entre las <color=maroon>semillas</color>, en el que puede crecer. Esta brecha se puede encontrar con girar <trigger=counterclockwise> en el sentido anti-horario</trigger>.
 
 ### Source
 Why do the <color=green>turtles</color> form a circle?
 ### Spanish ***
-¿Por qué el<color=green> tortugas</color> ¿formen un círculo?
+¿Por qué es que las <color=green>tortugas</color> forman un círculo?
 
 ### Source
  Understand how spiral patterns  form
@@ -247,36 +246,36 @@ Why do the <color=green>turtles</color> form a circle?
  Examine factors that when changed, result in spiral  variations 
  Explore how manipulating these factors change our perception of spirals 
 ### Spanish ***
- Entender cómo se forman los patrones en espiral 
- Observe el<trigger=goldenratio,olive> proporción áurea</trigger> dentro de los fenómenos naturales
- Examinar los factores que, cuando se modifican, dan como resultado variaciones  en espiral
- Explore cómo la manipulación de estos factores cambia nuestra percepción de las espirales 
+ Entender cómo se forman los patrones espirales 
+ Observar la <trigger=goldenratio,olive> proporción áurea</trigger> dentro de los fenómenos naturales
+ Examinar los factores que, cuando se modifican, resultan en variaciones  espirales
+ Explorar cómo la manipulación de estos factores cambia nuestra percepción de las espirales 
 
 ## Widgets
 ### Source
 go
 ### Spanish ***
-Vamos
+ir
 
 ### Source
 num-colors
 ### Spanish ***
-num-colores
+núm-colores
 
 ### Source
 set turn-increment 0.617
 ### Spanish ***
-establecer el incremento de giro 0,617
+establecer el incremento-de-giro 0.617
 
 ### Source
 set turn-increment 0.618034
 ### Spanish ***
-establecer el incremento de giro 0,618034
+establecer el incremento-de-giro 0.618034
 
 ### Source
 set turn-increment 0.619
 ### Spanish ***
-establecer el incremento de giro 0,619
+establecer el incremento-de-giro 0.619
 
 ### Source
 setup
@@ -286,10 +285,10 @@ preparar
 ### Source
 step-size
 ### Spanish ***
-Numero de pie
+tamaño-de-paso
 
 ### Source
 turn-increment
 ### Spanish ***
-incremento de turno
+incremento-de-turno
 

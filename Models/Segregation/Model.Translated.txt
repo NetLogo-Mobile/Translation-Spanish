@@ -1,5 +1,4 @@
-﻿*** 81b73fb3f4da6b52bc209e92fc073170
-## Language = Spanish
+﻿## Language = Spanish
 ## Plots
 ### Source
 %
@@ -29,7 +28,7 @@ Porcentaje similar
 ### Source
 time
 ### Spanish ***
-hora
+tiempo
 
 ## Widgets
 ### Source
@@ -50,7 +49,7 @@ hora
 ### Source
 %-similar-wanted
 ### Spanish ***
-% -similar-buscado
+%-similar-querido
 
 ### Source
 density
@@ -60,7 +59,7 @@ densidad
 ### Source
 go
 ### Spanish ***
-Vamos
+ir
 
 ### Source
 go once
@@ -70,7 +69,7 @@ ir una vez
 ### Source
 num-unhappy
 ### Spanish ***
-num-infeliz
+núm-infeliz
 
 ### Source
 setup
