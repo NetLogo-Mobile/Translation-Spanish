@@ -1,5 +1,4 @@
-﻿*** 81b73fb3f4da6b52bc209e92fc073170
-## Language = Spanish
+﻿## Language = Spanish
 ## Plots
 ### Source
 # of people
@@ -19,12 +18,12 @@
 ### Source
 % total pop
 ### Spanish ***
-% pop total
+% pob total
 
 ### Source
 Cumulative Infected and Recovered
 ### Spanish ***
-Infectados y recuperados acumulados
+Infectados y Recuperados Acumulados
 
 ### Source
 hours
@@ -39,17 +38,17 @@ Infectado
 ### Source
 Infection and Recovery Rates
 ### Spanish ***
-Tasas de infección y recuperación
+Tasas de Infección y Recuperación
 
 ### Source
 Infection Rate
 ### Spanish ***
-Tasa de infección
+Tasa de Infección
 
 ### Source
 Not Infected
 ### Spanish ***
-No infectado
+No Infectado
 
 ### Source
 Populations
@@ -59,28 +58,28 @@ Poblaciones
 ### Source
 rate
 ### Spanish ***
-Velocidad
+tasa
 
 ### Source
 Recovery Rate
 ### Spanish ***
-Índice de recuperación
+Índice de Recuperación
 
 ## Widgets
 ### Source
 average-recovery-time
 ### Spanish ***
-tiempo medio de recuperación
+tiempo-medio-de-recuperación
 
 ### Source
 go
 ### Spanish ***
-Vamos
+ir
 
 ### Source
 infection-chance
 ### Spanish ***
-posibilidad de infección
+chance-de-infección
 
 ### Source
 initial-people
@@ -95,7 +94,7 @@ R0
 ### Source
 recovery-chance
 ### Spanish ***
-oportunidad de recuperación
+chance-de-recuperación
 
 ### Source
 setup
