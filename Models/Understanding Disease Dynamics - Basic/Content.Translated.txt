@@ -77,7 +77,7 @@ Tenga en cuenta que R_0 calculado en este modelo es una estimación numérica de
 
 ##  MODELOS RELACIONADOS 
 
-VIH, Virus and Virus en la Red son modelos relacionados.
+VIH, Virus and Virus en una Red son modelos relacionados.
 
 ##  COMO CITAR 
 

@@ -1,5 +1,4 @@
-﻿*** 81b73fb3f4da6b52bc209e92fc073170
-## Language = Spanish
+﻿## Language = Spanish
 ## Plots
 ### Source
 # people
@@ -19,12 +18,12 @@
 ### Source
 % total pop.
 ### Spanish ***
-% pop total.
+% pob. total
 
 ### Source
 Cumulative Infected and Recovered
 ### Spanish ***
-Infectados y recuperados acumulados
+Infectados y Recuperados Acumulados
 
 ### Source
 hours
@@ -39,17 +38,17 @@ Infectado
 ### Source
 Infection and Recovery Rates
 ### Spanish ***
-Tasas de infección y recuperación
+Tasas de Infección y Recuperación
 
 ### Source
 Infection Rate
 ### Spanish ***
-Tasa de infección
+Tasa de Infección
 
 ### Source
 Not Infected
 ### Spanish ***
-No infectado
+No Infectado
 
 ### Source
 Populations
@@ -59,43 +58,43 @@ Poblaciones
 ### Source
 rate
 ### Spanish ***
-Velocidad
+Tasa
 
 ### Source
 Recovery Rate
 ### Spanish ***
-Índice de recuperación
+Tasa de Recuperación
 
 ## Widgets
 ### Source
 average-hospital-going-tendency
 ### Spanish ***
-tendencia-promedio-al-hospital
+tendencia-promedio-de-ir-al-hospital
 
 ### Source
 average-isolation-tendency
 ### Spanish ***
-tendencia-al-aislamiento-promedio
+tendencia-aislamiento-promedio
 
 ### Source
 average-recovery-time
 ### Spanish ***
-tiempo medio de recuperación
+tiempo-promedio-de-recuperación
 
 ### Source
 go
 ### Spanish ***
-Vamos
+ir
 
 ### Source
 infection-chance
 ### Spanish ***
-posibilidad de infección
+chance-de-infección
 
 ### Source
 initial-ambulance
 ### Spanish ***
-ambulancia inicial
+ambulancia-inicial
 
 ### Source
 initial-people
@@ -105,17 +104,17 @@ personas-iniciales
 ### Source
 inoculation-chance
 ### Spanish ***
-oportunidad de inoculación
+chance-de-inoculación
 
 ### Source
 intra-mobility
 ### Spanish ***
-intramovilidad
+intra-movilidad
 
 ### Source
 links?
 ### Spanish ***
-¿Enlaces?
+¿enlaces?
 
 ### Source
 R0
@@ -125,7 +124,7 @@ R0
 ### Source
 recovery-chance
 ### Spanish ***
-oportunidad de recuperación
+chance-de-recuperación
 
 ### Source
 setup
@@ -135,10 +134,9 @@ preparar
 ### Source
 travel?
 ### Spanish ***
-¿viaje?
+¿viajar?
 
 ### Source
 travel-tendency
 ### Spanish ***
-tendencia de viaje
-
+tendencia-de-viajar

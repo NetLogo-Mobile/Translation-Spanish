@@ -1,68 +1,68 @@
-﻿*** 81b73fb3f4da6b52bc209e92fc073170
-## Que es
+﻿## ¿QUÉ ES?
 
-Este modelo es una extensión del modelo básico de epiDEM (una unidad curricular que significa Epidemiología: Comprensión de la dinámica de las enfermedades y su aparición a través del modelado). Simula la propagación de una enfermedad infecciosa en una población semicerrada, pero con características adicionales como viajes, aislamiento, cuarentena, inoculación y vínculos entre individuos. Sin embargo, seguimos asumiendo que el virus no muta y que, tras la recuperación, una persona tendrá una inmunidad perfecta.
+Este modelo es una extensión del modelo básico de epiDEM (una unidad curricular que significa Epidemiología: Comprendiendo las dinámicas de Enfermedades y su Aparición a través de Modelando). Simula la propagación de una enfermedad infecciosa en una población semicerrada, pero con características adicionales como viajes, aislamiento, cuarentena, inoculación y conecciones
+entre individuos. Sin embargo, seguimos asumiendo que el virus no muta y que, tras la recuperación, una persona tendrá una inmunidad perfecta.
 
 En general, este modelo ayuda a los usuarios a:
-1) comprender la dinámica de propagación de enfermedades emergentes en relación con los cambios en las medidas de control, los viajes y la movilidad
+1) comprender las dinámicas de propagación de enfermedades emergentes en relación con los cambios en las medidas de control, viajar y  movilidad
 2) comprender cómo el número de reproducción, R_0, representa el umbral de una epidemia
 3) comprender la relación entre derivadas e integrales, representadas simplemente como tasas y número acumulado de casos, y
-4) brindar oportunidades para ampliar o cambiar el modelo para incluir algunas propiedades de una enfermedad que más interesan a los usuarios.
+4) ofrecer oportunidades para ampliar o cambiar el modelo para incluir algunas propiedades de una enfermedad que más interesarán a los usuarios.
 
 ##  COMO FUNCIONA
 
-Los individuos deambulan por el mundo en movimientos aleatorios. Hay dos grupos de individuos, representados como cuadrados o círculos, y están divididos geográficamente por el borde amarillo. Al entrar en contacto con una persona infectada, tiene la posibilidad de contraer la enfermedad. Dependiendo de sus tendencias, que son establecidas por el usuario, las personas enfermas se aislarán en &quot;casa&quot;, irán a un hospital, los funcionarios de salud los pondrán en cuarentena a la fuerza en un hospital o simplemente se moverán. Una persona infectada tiene la posibilidad de recuperarse una vez transcurrido el tiempo de recuperación especificado.
+Los individuos deambulan por el mundo en movimientos aleatorios. Hay dos grupos de individuos, representados como cuadrados o círculos, y están divididos geográficamente por el borde amarillo. Al entrar en contacto con una persona infectada, la persona tiene la posibilidad de contraer la enfermedad. Dependiendo de sus tendencias, los cuales son configuradas por el usuario, los individuos enfermos se aislarán en "casa," irán a un hospital, los oficiales de salud los pondrán en cuarentena a la fuerza en un hospital o simplemente se moverán. Una persona infectada tiene la posibilidad de recuperarse una vez transcurrido el tiempo de recuperación especificado.
 
-La presencia del virus en la población está representada por los colores de los individuos. Se utilizan cuatro colores: los blancos no están infectados, los rojos están infectados, los verdes se recuperan y los azules se inoculan. Una vez recuperado, el individuo es permanentemente inmune al virus. La persona amarilla simboliza al funcionario de salud o ambulancia, que patrulla el mundo en busca de personas enfermas. Una vez que entra en contacto con un individuo infectado, la ambulancia entrega inmediatamente al infectado al hospital dentro de la región de residencia.
+La presencia del virus en la población se representa por los colores de los individuos. Se usan cuatro colores: los individuos blancos no están infectados, los individuos rojos están infectados, los individuos verdes se han recuperado, y los individuos azules se han inoculado. Una vez que se hayan recuperado, el individuo es permanentemente inmune al virus. La persona amarilla simboliza al oficial de salud o ambulancia, que patrulla el mundo en busca de personas enfermas. Una vez que entra en contacto con un individuo infectado, la ambulancia entrega inmediatamente al infectado al hospital dentro de la región de residencia.
 
-El gráfico TASAS DE INFECCIÓN Y RECUPERACIÓN muestra la tasa de cambio de los infectados acumulados y recuperados en la población. Realiza un seguimiento del número promedio de infecciones secundarias y recuperaciones por garrapata. El número de reproducción se calcula bajo supuestos diferentes a los del modelo KM, ya que admitimos más de un individuo infectado en la población e introducimos las variables antes mencionadas.
+La gráficoa TASAS DE INFECCIÓN Y RECUPERACIÓN muestra la tasa de cambio de los infectados acumulados y recuperados en la población. Realiza un seguimiento del número promedio de infecciones secundarias y recuperaciones por tic. El número de reproducción se calcula bajo supuestos diferentes a los del modelo KM, ya que permitimos más de un individuo infectado en la población e introducimos las variables antes mencionadas.
 
-Al final de la simulación, el R_0 refleja la estimación del número de reproducción, la relación de tamaño final que indica si habrá (o hubo, en el sentido del modelo) una epidemia. Esto nuevamente sigue de cerca la derivación matemática de que R_0 = beta * S (0) / gamma = N * ln (S (0) / S (t)) / (N - S (t)), donde N es la población total, S (0) es el número inicial de susceptibles y S (t) es el número total de susceptibles en el tiempo t. En este modelo, la estimación R_0 es el número de infecciones secundarias que surgen para un individuo infectado promedio durante el transcurso del período infectado de la persona.
+Al final de la simulación, el R_0 refleja la estimación del número de reproducción, la relación de tamaño final que indica si habrá (o hubo, en el sentido del modelo) una epidemia. Esto nuevamente sigue de cerca la derivación matemática de que R_0 = beta*S(0)/ gamma = N*ln(S(0) / S(t)) / (N - S(t)), donde N es la población total, S(0) es el número inicial de susceptibles y S(t) es el número total de susceptibles en el tiempo t. En este modelo, la estimación R_0 es el número de infecciones secundarias que surgen para un individuo infectado promedio durante el transcurso del período infectado de la persona.
 
 ##  COMO USARLO
 
-El botón SETUP crea individuos según los valores de los parámetros elegidos por el usuario. Cada individuo tiene un 5% de probabilidad de ser inicializado como infectado. Una vez que se ha configurado la simulación, presione el botón GO para ejecutar el modelo. GO inicia la simulación y la ejecuta continuamente hasta que se vuelve a pulsar GO.
+El botón PREPARAR crea individuos según los valores de los parámetros elegidos por el usuario. Cada individuo tiene una probabilidad de 5% de ser inicializado como infectado. Una vez que se ha configurado la simulación, presiona el botón IR para ejecutar el modelo. IR inicia la simulación y la ejecuta continuamente hasta que vuelves a presionar IR.
 
-Cada paso de tiempo puede considerarse en horas, aunque cualquier unidad de tiempo adecuada servirá.
+Cada paso de tiempo puede considerarse en horas, pero cualquier unidad de tiempo adecuada sirve.
 
-Lo que sigue es un resumen de los controles deslizantes del modelo.
+Lo que sigue es un resumen de los controles deslizantes en el modelo.
 
-INICIAL-PERSONAS (inicializado para variar entre 50 - 400): El número total de individuos con el que comienza la simulación.
-PROBABILIDAD DE INFECCIÓN (10 - 50): Probabilidad de transmisión de la enfermedad de un individuo a otro.
-RECUPERACIÓN-OPORTUNIDAD (10 - 100): Probabilidad de recuperación de una persona una vez que la infección ha durado más que el tiempo de recuperación de la persona.
-TIEMPO PROMEDIO DE RECUPERACIÓN (50 - 300): tiempo promedio que tarda una persona en recuperarse. El tiempo de recuperación del individuo real se extrae de una distribución normal centrada alrededor del TIEMPO PROMEDIO DE RECUPERACIÓN en su media, con una desviación estándar de una cuarta parte del TIEMPO PROMEDIO DE RECUPERACIÓN. Cada paso de tiempo puede considerarse en horas, aunque cualquier unidad de tiempo adecuada servirá.
-TENDENCIA-AISLAMIENTO-PROMEDIO (0 - 50): Tendencia promedio de los individuos a aislarse y no propagar la enfermedad. Una vez que una persona infectada es identificada como &quot;aislante&quot;, el individuo se aislará en la ubicación actual (como lo indica el parche gris) y permanecerá allí hasta que se recupere por completo.
-TENDENCIA-PROMEDIO-HOSPITAL-SALIDA-HOSPITAL (0 - 50): Tendencia media de las personas a acudir a un hospital cuando están enfermas. Si una persona infectada es identificada como &quot;asistente del hospital&quot;, entonces irá al hospital y se recuperará en la mitad del tiempo de un período de recuperación promedio, debido a una mejor medicación y descanso.
-AMBULANCIA INICIAL (0 - 4): Número de funcionarios de salud o ambulancias que se mueven al azar y ponen en cuarentena a las personas enfermas al entrar en contacto. Los funcionarios de salud son inmunes a la enfermedad y ellos mismos no acompañan físicamente al paciente al hospital. Se mueven a una velocidad 5 veces más rápida que otras personas en el mundo y no están delimitadas por una región geográfica.
-INOCULACIÓN-PROBABILIDAD (0 - 50): Probabilidad de que una persona se vacune y, por lo tanto, sea inmune al virus.
-INTRA-MOVILIDAD (0 - 1): Esto indica qué tan &quot;móvil&quot; es un individuo. Por lo general, un individuo en cada paso de tiempo se mueve una distancia 1. En este modelo, la persona se moverá a una distancia indicada por la INTRA-MOVILIDAD en cada paso de tiempo. Así, cuanto menor es el nivel de intramovilidad, menor es el movimiento de los individuos. Los individuos se mueven aleatoriamente por este valor asignado; las ambulancias siempre se mueven 5 veces más rápido que este valor asignado.
+PERSONAS-INICIALES (inicializado para variar entre 50 - 400): El número total de individuos con el que comienza la simulación.
+CHANCE-DE-INFECCIÓN (10 - 50): Probabilidad de transmisión de la enfermedad de un individuo a otro.
+CHANCE-RECUPERACIÓN (10 - 100): Probabilidad de recuperación de una persona una vez que la infección ha durado más que el tiempo de recuperación de la persona.
+TIEMPO-PROMEDIO-DE-RECUPERACIÓN (50 - 300): Tiempo promedio que tarda una persona para recuperarse. El tiempo de recuperación del individuo real se extrae de una distribución normal centrada alrededor del TIEMPO-PROMEDIO-DE-RECUPERACIÓN en su media, con una desviación estándar de una cuarta parte del TIEMPO-PROMEDIO-DE-RECUPERACIÓN. Cada paso de tiempo puede considerarse en horas, aunque cualquier unidad de tiempo adecuada sirve.
+TENDENCIA-AISLAMIENTO-PROMEDIO (0 - 50): Tendencia promedio de los individuos a aislarse y no propagar la enfermedad. Una vez que una persona infectada es identificada como "aislante", el individuo se aislará en la ubicación actual (como lo indica la parcela gris) y permanecerá allí hasta que se recupere por completo.
+TENDENCIA-PROMEDIO-DE-IR-AL-HOSPITAL (0 - 50): Tendencia media de las personas a acudir a un hospital cuando están enfermas. Si una persona infectada es identificada como "asistente del hospital", entonces irá al hospital y se recuperará en la mitad del tiempo de un período de recuperación promedio, debido a una mejor medicación y descanso.
+AMBULANCIA-INICIAL (0 - 4): Número de oficiales de salud o ambulancias que se mueven al azar y ponen en cuarentena a las personas enfermas al entrar en contacto. Los oficiales de salud son inmunes a la enfermedad y ellos mismos no acompañan físicamente al paciente al hospital. Se mueven a una velocidad 5 veces más rápida que otras personas en el mundo y no están delimitadas por una región geográfica.
+CHANCE-INOCULACIÓN (0 - 50): Probabilidad de que una persona se vacune y, por lo tanto, sea inmune al virus.
+INTRA-MOVILIDAD (0 - 1): Esto indica qué tan "móvil" es un individuo. Por lo general, un individuo en cada paso de tiempo se mueve una distancia 1. En este modelo, la persona se moverá a una distancia indicada por la INTRA-MOVILIDAD en cada paso de tiempo. Así, cuanto menor es el nivel de intramovilidad, menor es el movimiento de los individuos. Los individuos se mueven aleatoriamente por este valor asignado; las ambulancias siempre se mueven 5 veces más rápido que este valor asignado.
 
 Además, hay dos interruptores y un control deslizante relacionado:
 
-¿ENLACES? : Cuando está ENCENDIDO, habrá vínculos asignados al azar entre personas, y la enfermedad se propagará dos veces más rápido a aquellos con los que está vinculada la persona infectada que a los demás. Cuando está APAGADO, la enfermedad se propaga con la misma probabilidad a quienes rodean a la persona infectada.
-¿VIAJE? : Cuando está ACTIVADO, las personas de las dos regiones (separadas por el borde amarillo en el medio) pueden migrar y mezclarse. Cuando está APAGADO, la gente permanece en la región en la que vive.
-TENDENCIA DE VIAJES (0 - 1): ¿Cuándo VIAJA? está ENCENDIDO, este control deslizante indica la probabilidad de que un individuo viaje en cada tick. El 1 indica una probabilidad del 1 por ciento de viaje por tic.
+¿ENLACES? : Cuando ENCENDIDO, habrá enlaces asignados al azar entre personas, y la enfermedad se propagará dos veces más rápido a aquellos con los que está vinculada la persona infectada que a los demás. Cuando está APAGADO, la enfermedad se propaga con la misma probabilidad a quienes rodean a la persona infectada.
+VIAJAR? : Cuando ENCENDIDO, las personas de las dos regiones (separadas por el borde amarillo en el medio) pueden migrar y mezclarse. Cuando APAGADO, la gente permanece en la región en la que vive.
+TENDENCIA-DE-VIAJAR (0 - 1): Cuándo ¿VIAJAR? está ENCENDIDO, este control deslizante indica la probabilidad de que un individuo viaje en cada tic. El 1 indica una probabilidad del 1 por ciento de viaje por tic.
 
-En este modelo también se trazan varios gráficos.
+En este modelo también se trazan varias gráficas.
 
 INFECTADOS Y RECUPERADOS ACUMULATIVOS: Esta gráfica representa el porcentaje total de individuos que alguna vez han sido infectados o recuperados.
 POBLACIONES: Esto traza el número de personas con o sin la enfermedad.
-TASAS DE INFECCIÓN Y RECUPERACIÓN: traza las tasas estimadas a las que se está propagando la enfermedad. BetaN es la tasa a la que cambia la infección acumulada y la tasa Gamma a la que cambia la recuperación acumulada.
+TASAS DE INFECCIÓN Y RECUPERACIÓN: Traza las tasas estimadas a las que se está propagando la enfermedad. BetaN es la tasa a la que cambia la infección acumulada y la tasa Gamma a la que cambia la recuperación acumulada.
 R_0: esta es una estimación del número de reproducción.
 
 ##  COSAS PARA NOTAR
 
-Como ocurre con muchos modelos epidemiológicos, el número de personas que se infectan con el tiempo, en caso de una epidemia, traza una &quot;curva en S&quot;. Se llama curva S porque tiene la forma de una S lateral. Al cambiar los valores de los parámetros con el control deslizante, intente ver qué tipo de cambios hacen que la curva S se estire o encoja.
+Como ocurre con muchos modelos epidemiológicos, el número de personas que se infectan con el tiempo, en caso de una epidemia, traza una "curva S". Se llama curva S porque tiene la forma de una S lateral. Al cambiar los valores de los parámetros con el control deslizante, intente ver qué tipo de cambios hacen que la curva S se estire o encoja.
 
-Siempre que hay una propagación de la enfermedad que alcanza a la mayor parte de la población, decimos que hubo una epidemia. El número de reproducción sirve como indicador de la probabilidad de que ocurra una epidemia, si es mayor que 1. Si es menor que 1, entonces es probable que la propagación de la enfermedad se detenga, y lo llamamos endémico.
+Cuando hay una propagación de la enfermedad que alcanza a la mayor parte de la población, decimos que fue una epidemia. El número de reproducción sirve como indicador de la probabilidad de que ocurra una epidemia, si es mayor que 1. Si es menor que 1, entonces es probable que la propagación de la enfermedad se detenga, y lo llamamos endémico.
 
 Observe cómo la introducción de diversos comportamientos humanos, como los viajes, la inoculación, el aislamiento y la cuarentena, ayudan a limitar la propagación de la enfermedad y los cambios que esto trae al nivel de la población en términos de tasa y tiempo de propagación de la enfermedad, así como la población afectada.
 
 ##  COSAS PARA INTENTAR
 
-Compare este modelo con el modelo básico de epiDEM. ¿Las complejidades agregadas cambian significativamente la propagación de la enfermedad? ¿Qué tipo de cambios generan resultados interesantes?
+Compara este modelo con el modelo básico de epiDEM. ¿Las complejidades agregadas cambian significativamente la propagación de la enfermedad? ¿Qué tipo de cambios generan resultados interesantes?
 
-Observe la diferencia en la dinámica cuando el selector de viajes está encendido o apagado. ¿Qué pasa con la población y la enfermedad se propaga en ambos casos?
+Observe la diferencia en las dinámicas cuando el selector de viajar está encendido o apagado. ¿Qué pasa con la población y la enfermedad se propaga en ambos casos?
 
 ¿Cambia la propagación de la enfermedad cuando el selector de enlaces está activado? ¿Qué pasa cuando aumenta el número de ambulancias? ¿Qué pasa con la cantidad de personas infectadas?
 
@@ -70,9 +70,9 @@ Con base en este modelo, ¿cuáles son algunas estrategias o medidas preventivas
 
 ##  EXTENDIENDO EL MODELO
 
-¿Hay otras formas de cambiar el comportamiento de las personas una vez infectadas? Intente pensar en cómo introduciría tal variable.
+¿Hay otras formas de cambiar el comportamiento de las personas una vez que estén infectados? Intenta pensar en cómo introduciría tal variable.
 
-En este modelo, presentamos una opción para viajar, de modo que haya una mezcla entre dos poblaciones que de otro modo estarían cerradas. ¿Qué sucede cuando introduces nacimientos y muertes en cada región o solo en una?
+En este modelo, presentamos una opción para viajar, de modo que haya una mezcla entre dos poblaciones que de otro modo estarían cerradas. ¿Qué pasa cuando introduces nacimientos y muertes en cada región o solo en una?
 
 ¿Qué pasaría cuando el virus muta? ¿Cómo cambiará eso la dinámica de la población y la propagación de enfermedades?
 
@@ -80,25 +80,25 @@ En este modelo, presentamos una opción para viajar, de modo que haya una mezcla
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Observe que cada agente extrae de una distribución normal truncada, centrada alrededor del TIEMPO DE RECUPERACIÓN PROMEDIO establecido por el usuario, para determinar su tiempo de recuperación. Esto es para explicar la variación en las diferencias genéticas y las funciones del sistema inmunológico de los individuos. De manera similar, la tendencia al aislamiento y la tendencia a ir al hospital de un individuo se extraen de distribuciones normales truncadas centradas en la TENDENCIA DE AISLAMIENTO PROMEDIO y la TENDENCIA PROMEDIO DE IR AL HOSPITAL, respectivamente.
+Observa que cada agente extrae de una distribución normal truncada, centrada alrededor del TIEMPO-DE-RECUPERACIÓN-PROMEDIO establecido por el usuario, para determinar su tiempo de recuperación. Esto es para explicar la variación en las diferencias genéticas y las funciones del sistema inmunológico de los individuos. De manera similar, la tendencia al aislamiento y la tendencia a ir al hospital de un individuo se extraen de distribuciones normales truncadas centradas en la TENDENCIA-DE-AISLAMIENTO-PROMEDIO y la TENDENCIA-PROMEDIO-DE-IR-AL-HOSPITAL, respectivamente.
 
-Observe que R_0 calculado en este modelo es una estimación numérica de la analítica R_0. En el caso especial de un infectivo introducido en una población totalmente susceptible (es decir, los supuestos de Kermack-McKendrick), las estimaciones numéricas de R_0 están muy cerca de los valores analíticos. Con una mayor complejidad en los modelos, como la introducción de medidas de control y viajes, el análisis R_0 se vuelve más difícil de derivar. Por tanto, la estimación numérica es una medida burda de cuál podría ser el R_0 real.
+Observa que R_0 calculado en este modelo es una estimación numérica de la analítica R_0. En el caso especial de un infectivo introducido en una población totalmente susceptible (es decir, los supuestos de Kermack-McKendrick), las estimaciones numéricas de R_0 están muy cerca de los valores analíticos. Con una mayor complejidad en los modelos, como la introducción de medidas de control y viajes, el análisis R_0 se vuelve más difícil de derivar. Por tanto, la estimación numérica es una medida burda de cuál podría ser el R_0 real.
 
 Además de las medidas de viaje y control, observe que este modelo introduce vínculos entre los individuos y la movilidad del individuo, que también afectan la dinámica de transmisión de la enfermedad.
 
 ##  MODELOS RELACIONADOS 
 
-epiDEM basic, HIV, Virus and Virus on a Network are related models.
+epiDEM básico, VIH, Virus and Virus en una Red son modelos relacionados.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Yang, C. and Wilensky, U. (2011).  NetLogo epiDEM Travel and Control model.  http://ccl.northwestern.edu/netlogo/models/epiDEMTravelandControl.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
