@@ -1,5 +1,4 @@
-﻿*** 81b73fb3f4da6b52bc209e92fc073170
-## Que es
+﻿## Que es
 
 Mundo de Celosía - Explorar es uno de los varios modelos del paquete de software Mundo de Celosía. Mundo de Celosía es un interactivo de MathLand, un micromundo en cual los estudiantes pueden descubrir el pensamiento matemático avanzado a través del juego, las conjeturas y experimentación. Ofrece otra entrada a la geometría, investigando la geometría de un entramado discreto de puntos. En Mundo de Celosía, no hay una respuesta correcta ni un camino predeterminado que debes de recorrer. Sin embargo, hasta los ejercicios aparentemente triviales se pueden convertir rápidamente en ricas exploraciones.
 
