@@ -4,22 +4,22 @@
 ### Source
 Average Speed
 ### Spanish ***
-Velocidad media
+Velocidad Media
 
 ### Source
 Average Speed of Cars
 ### Spanish ***
-Velocidad media de los coches
+Velocidad Media de Carros
 
 ### Source
 Average Wait
 ### Spanish ***
-Espera promedio
+Espera Promedio
 
 ### Source
 Average Wait Time of Cars
 ### Spanish ***
-Tiempo medio de espera de los coches
+Tiempo Medio de Espera de Carros
 
 ### Source
 default
@@ -29,23 +29,23 @@ defecto
 ### Source
 Stopped Cars
 ### Spanish ***
-Autos detenidos
+Autos Detenidos
 
 ### Source
 Time
 ### Spanish ***
-Hora
+Tiempo
 
 ## Widgets
 ### Source
 Change light
 ### Spanish ***
-Cambiar la luz
+Cambiar luz
 
 ### Source
 Current Phase
 ### Spanish ***
-Fase actual
+Fase Actual
 
 ### Source
 current-auto?
@@ -55,12 +55,12 @@ actual-auto?
 ### Source
 current-phase
 ### Spanish ***
-Fase actual
+fase-actual
 
 ### Source
 Go
 ### Spanish ***
-Vamos
+ir
 
 ### Source
 grid-size-x
@@ -75,7 +75,7 @@ cuadrícula-tamaño-y
 ### Source
 num-cars
 ### Spanish ***
-num-coches
+núm-coches
 
 ### Source
 power?
@@ -95,10 +95,10 @@ Preparar
 ### Source
 speed-limit
 ### Spanish ***
-Límite de velocidad
+Límite-de-velocidad
 
 ### Source
 ticks-per-cycle
 ### Spanish ***
-garrapatas por ciclo
+tics-porciclo
 
