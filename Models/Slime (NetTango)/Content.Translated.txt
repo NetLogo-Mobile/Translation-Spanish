@@ -1,82 +1,93 @@
-﻿*** 81b73fb3f4da6b52bc209e92fc073170
-Que es
-Este modelo está inspirado en el comportamiento de agregación de las células de moho-limo. El moho de lodo pasa gran parte de su vida como miles de unidades unicelulares distintas, cada una de las cuales se mueve por separado. En las condiciones adecuadas, esas muchas células se fusionarán en un solo organismo más grande. Cuando el ambiente es menos hospitalario, el moho actúa como un solo organismo; cuando el clima se vuelve más fresco y el moho disfruta de una gran cantidad de alimentos, &quot;se&quot; convierte en un &quot;ellos&quot;. El moho de lodo oscila entre ser una sola criatura y un enjambre.
+﻿## ¿QUÉ ES?
 
-Este modelo muestra cómo las criaturas pueden agruparse en grupos sin el control de una célula &quot;líder&quot; o &quot;marcapasos&quot;. Este hallazgo fue descrito por primera vez por Evelyn Fox Keller y Lee Segel en un artículo en 1970.
+Este modelo fue inspirado por el comportamiento de agregación de las células de slime-limo. El moho de slime pasa gran parte de su vida como miles de unidades unicelulares distintas, cada una de las cuales se mueve por separado. En las condiciones adecuadas, esas células se fusionarán en un solo organismo más grande. Cuando el ambiente es menos hospitalario, el moho slime actúa como un solo organismo; cuando el clima se vuelve más fresco y el moho disfruta de una gran cantidad de alimentos, "el" convierte en un "ellos". El moho de slime oscila entre ser una sola criatura y un enjambre.
 
-Antes de que Keller comenzara sus investigaciones, la creencia convencional era que se formaban enjambres de moho limo por orden de las células &quot;marcapasos&quot; que ordenaban a las otras células que comenzaran a agregarse. En 1962, Shafer mostró cómo los marcapasos podían usar AMP cíclico como una especie de señal para reunir a las tropas; los generales del moho de lodo liberarían los compuestos en los momentos apropiados, desencadenando ondas de AMP cíclico que se extendieron por toda la comunidad, ya que cada celda aislada transmitía la señal a sus vecinas. La agregación de moho de lodo, en efecto, era un juego gigante de teléfono, pero solo unas pocas células de élite hicieron la llamada original.
+Este modelo muestra cómo las criaturas pueden agruparse en grupos sin el control de una célula "líder" o "marcapasos". Este descubrimiento fue descrito por primera vez por Evelyn Fox Keller y Lee Segel en un ensayo en 1970.
 
-Durante los veinte años que siguieron a la publicación del ensayo original de Shafer, los micólogos asumieron que las células marcapasos faltantes eran una señal de datos insuficientes o experimentos mal diseñados. Pero Keller y Segel adoptaron otro enfoque más radical. Muestran que Shafer estaba equivocado: que la comunidad de células de moho del limo se estaba organizando sin necesidad de marcapasos. Este fue uno de los primeros ejemplos de emergencia y autoorganización en biología.
+Antes de que Keller comenzara sus investigaciones, la creencia convencional era que se formaban enjambres de moho de slime por orden de las células "marcapasos" que ordenaban a las otras células que comenzaran a agregarse. En 1962, Shafer mostró cómo los marcapasos podían usar AMP cíclico como un tipo de señal para reunir a las tropas; los generales del moho de slime liberarían los compuestos en los momentos apropiados, desencadenando ondas de AMP cíclico que se extendieron por toda la comunidad, ya que cada celda aislada transmitía la señal a sus vecinos. Agregación de moho de slime, en efecto, era un juego gigante de Teléfono - pero solo unas pocas células élites hicieron la llamada original.
 
-Inicialmente, los biólogos no aceptaron esta explicación. De hecho, la hipótesis del marcapasos continuaría siendo el modelo reinante durante otra década. Ahora, la agregación del moho de lodo se reconoce como un caso de estudio clásico en el comportamiento autoorganizado de abajo hacia arriba.
+Durante los veinte años después de la publicación del ensayo original de Shafer, los micólogos asumieron que las células marcapasos faltantes eran una señal de datos insuficientes o experimentos mal diseñados. Pero Keller y Segel adoptaron otro enfoque más radical. Muestran que Shafer estaba equivocado -- que la comunidad de células de moho slime se estaban organizando sin la necesidad de marcapasos. Esto fue uno de los primeros ejemplos de emergencia y autoorganización en biología.
+
+Inicialmente, los biólogos no aceptaron esta explicación. De hecho, la hipótesis del marcapasos continuaría siendo el modelo reinante durante otra década. Ahora, la agregación del moho de slime se reconoce como un caso de estudio clásico en el comportamiento autoorganizado de abajo hacia arriba.
 
 En este modelo, cada tortuga deja caer una feromona química (que se muestra en verde). Las tortugas también &quot;olfatean&quot; adelante, tratando de seguir el gradiente de los químicos de otras tortugas. Mientras tanto, los parches difunden y evaporan la feromona. Siguiendo estas reglas simples y descentralizadas, las tortugas se agrupan en grupos.
 
-COMO USARLO
-Haga clic en el botón CONFIGURAR para configurar una colección de celdas de moho limo. Haga clic en el botón IR para iniciar la simulación.
+## COMO USARLO
 
-El control deslizante POBLACIÓN controla el número de células de moho de lodo en la simulación. Los cambios en el control deslizante POBLACIÓN no tienen ningún efecto hasta el siguiente comando de CONFIGURACIÓN.
+Haz clic en el botón PREPARAR para preparar una colección de celdas de moho slime. Haz clic en el botón IR para iniciar la simulación.
 
-Los otros controles deslizantes afectan la forma en que se mueven las tortugas. Los cambios en ellos afectarán inmediatamente la ejecución del modelo.
+El control deslizante POBLACIÓN controla el número de células de moho slime en la simulación. Cambios en el control deslizante POBLACIÓN no tienen ningún efecto hasta el siguiente comando de PREPARAR.
 
-UMBRAL DE TOMA - La cantidad mínima de químico que debe estar presente en el parche de una tortuga antes de que la tortuga busque un gradiente químico a seguir. Este parámetro hace que las tortugas se agreguen solo cuando hay suficientes otras celdas cercanas. El valor predeterminado es 1.0.
+Los otros controles deslizantes afectan la forma en que se mueven las tortugas. Los cambios en ellos inmediatamente afectarán la ejecución del modelo.
 
-ÁNGULO DE RIEGO: la cantidad, en grados, que una tortuga gira hacia la izquierda y hacia la derecha para verificar si hay concentraciones químicas mayores. El valor predeterminado es 45.
+UMBRAL-DE-OLFATEO -- La cantidad mínima de químico que debe estar presente en la parcela de una tortuga antes de que la tortuga busque un gradiente químico para seguir. Este parámetro hace que las tortugas se agreguen solo cuando hay suficientes otras celdas cercanas. El valor predeterminado es 1.0.
 
-ÁNGULO DE MOVIMIENTO: la cantidad máxima, en grados, que una tortuga girará a la izquierda o derecha en sus movimientos aleatorios. Cuando WIGGLE-ANGLE se establece en cero, la tortuga permanecerá en el mismo rumbo hasta que encuentre un gradiente químico a seguir. El valor predeterminado es 40.
+ÁNGULO-DE-OLFATEO -- La cantidad, en grados, que una tortuga gira hacia la izquierda y derecha para verificar si hay concentraciones químicas mayores. El valor predeterminado es 45.
 
-WIGGLE-BIAS: el sesgo del meneo promedio de una tortuga. Cuando WIGGLE-BIAS = 0, el movimiento promedio de la tortuga es recto. Cuando WIGGLE-BIAS&gt; 0, la tortuga tenderá a moverse más a la derecha que a la izquierda. Cuando BIAS &lt;0, la tortuga tenderá a moverse más hacia la izquierda que hacia la derecha. El valor predeterminado es 0.
+ÁNGULO-DE-MENEO -- La cantidad máxima, en grados, que una tortuga girará a la izquierda o derecha en sus movimientos aleatorios. Cuando ÁNGULO-DE-MENEO se configura en cero, la tortuga permanecerá en el mismo rumbo hasta que encuentre un gradiente químico a seguir. El valor predeterminado es 40.
 
-Hay varios otros parámetros críticos en el modelo a los que los controles deslizantes no pueden acceder. Se pueden cambiar modificando el código en la ventana de procedimientos. Son: - la tasa de evaporación de la sustancia química - establecida en 0,9 - la tasa de difusión de la sustancia química - establecida en 1 - la cantidad de sustancia química depositada en cada paso - establecida en 2
+PARCIALIDAD-DE-MENEO -- La parcialidad del meneo promedio de una tortuga. Cuando PARCIALIDAD-DE-MENEO = 0, el movimiento promedio de la tortuga es recto. Cuando PARCIALIDAD-DE-MENEO > 0, la tortuga tenderá a moverse más a la derecha que a la izquierda. Cuando PARCIALIDAD < 0, la tortuga tenderá a moverse más hacia la izquierda que hacia la derecha. El valor predeterminado es 0.
 
-COSAS PARA NOTAR
-Con 100 tortugas, no pasa mucho. Las tortugas deambulan dejando caer químicos, pero el químico se evapora y se difunde demasiado rápido para que las tortugas se agreguen.
+Hay varios otros parámetros críticos en el modelo a los que los controles deslizantes no pueden acceder. Se pueden cambiar al modificando el código en la ventana de procedimientos. Son: - la tasa de evaporación de la química -- establecida en 0.9 - la tasa de difusión de la química -- establecida en 1 - la cantidad de química depositada en cada paso -- establecida en 2
 
-Con 400 tortugas, el resultado es bastante diferente. Cuando algunas tortugas se acercan (por casualidad) unas a otras, crean un pequeño &quot;charco&quot; de sustancia química que puede atraer a cualquier número de otras tortugas en los alrededores. El charco se vuelve más grande y más atractivo a medida que entran más tortugas y depositan sus propios productos químicos. Este proceso es un buen ejemplo de retroalimentación positiva: cuantas más tortugas, más grande es el charco; y cuanto más grande sea el charco, es más probable que atraiga más tortugas.
+## COSAS PARA NOTAR
 
-COSAS PARA INTENTAR
-Pruebe diferentes valores para los controles deslizantes SNIFF-THRESHOLD, SNIFF-ANGLE, WIGGLE-ANGLE y WIGGLE-BIAS. ¿Cómo afectan el movimiento de las tortugas y la formación de grupos?
+Con 100 tortugas, no pasa mucho. Las tortugas deambulan dejando caer química, pero la química se evapora y se difunde demasiado rápido para que las tortugas se agreguen.
 
-Cambie los controles deslizantes SNIFF-ANGLE y WIGGLE-ANGLE después de que se hayan formado algunos grupos. ¿Qué pasa con los grumos? Intente lo mismo con SNIFF-THRESHOLD y WIGGLE-BIAS.
+Con 400 tortugas, el resultado es bastante diferente. Cuando algunas tortugas se acercan (por casualidad) unas a otras, crean un pequeño "charco" de química que puede atraer a cualquier número de otras tortugas en los alrededores. El charco se vuelve más grande y más atractivo a medida que entran más tortugas y depositan sus propios productos químicos. Este proceso es un buen ejemplo de retroalimentación positiva: cuantas más tortugas, más grande es el charco; y cuanto más grande sea el charco, es más probable que atraiga más tortugas.
 
-EXTENDIENDO EL MODELO
-Modifique el programa para que las tortugas se agreguen en un solo grupo grande.
+## COSAS PARA INTENTAR
+
+Trata diferentes valores para los controles deslizantes UMBRAL-DE-OLFATEO, ÁNGULO-DE-OLFATEO, ÁNGULO-DE-MENEO y PARCIALIDAD-DE-MENEO. ¿Cómo afectan el movimiento de las tortugas y la formación de grupos?
+
+Cambia los controles deslizantes ÁNGULO-DE-OLFATEO y ÁNGULO-DE-MENEO después de que se hayan formado algunos grupos. ¿Qué pasa con los grupos? Intenta lo mismo con UMBRAL-DE-OLFATEO y PARCIALIDAD-DE-MENEO.
+
+## EXTENDIENDO EL MODELO
+
+Modifica el programa para que las tortugas se agreguen en un solo grupo grande.
 
 ¿Cómo cambian los resultados si hay más (o menos) aleatoriedad en el movimiento de las tortugas?
 
-Observe que las tortugas solo huelen en busca de químicos en tres lugares: adelante, ÁNGULO DE RESISTENCIA a la izquierda y ÁNGULO DE RESISTENCIA a la derecha. Modifica el modelo para que las tortugas huelan por todos lados. ¿Cómo cambia su comportamiento de agrupamiento? Modifique el modelo para que las tortugas huelan en menos lugares. ¿Cómo cambia su comportamiento de agrupamiento?
+Tenga en cuenta que las tortugas solo huelen en busca de química en tres lugares: adelante, ÁNGULO-DE-OLFATEO a la izquierda y ÁNGULO-DE-OLFATEO a la derecha. Modifica el modelo para que las tortugas huelan por todos lados. ¿Cómo cambia su comportamiento de agrupamiento? Modifica el modelo para que las tortugas huelan en menos lugares. ¿Cómo cambia su comportamiento de agrupamiento?
 
-¿Qué &quot;número crítico&quot; de tortugas se necesita para que se formen los grupos? ¿Cómo cambia el número crítico si modifica la tasa de evaporación o difusión?
+¿Qué "número crítico" de tortugas es necesario para que se formen los grupos? ¿Cómo cambia el número crítico si modificas la tasa de evaporación o difusión?
 
-¿Puedes encontrar un algoritmo que te permita trazar el número de grupos distintos a lo largo del tiempo?
+¿Puedes encontrar un algoritmo que te permita graficar el número de grupos distintos con el tiempo?
 
-CARACTERÍSTICAS DE NETLOGO
-Tenga en cuenta el uso de las primitivas parchear adelante, parche izquierdo y adelante y parche derecho y adelante para hacer el &quot;rastreo&quot;.
+## CARACTERÍSTICAS DE NETLOGO
 
-MODELOS RELACIONADOS
-Las hormigas usan una idea similar de las criaturas que dejan caer sustancias químicas y siguen el gradiente de las mismas.
+Tenga en cuenta el uso de las primitivas parcela-adelante, parcela-a-izquierda-y-adelante y parcela-derecha-y-adelante para hacer el "olfateando".
 
-CRÉDITOS Y REFERENCIAS
-Keller, E y Segel, L. (1970). Inicio de la agregación del moho limoso visto como una inestabilidad. Journal of Theoretical Biology, volumen 26, número 3, marzo de 1970, páginas 399–415.
+## MODELOS RELACIONADOS
 
-Wilensky, U. y Resnick, M. (1999). Pensar en niveles: un enfoque de sistemas dinámicos para dar sentido al mundo. Revista de educación científica y tecnología, 8 (1), 3-19.
+Hormigas usa una idea similar de criaturas que dejan caer químicas y siguen el gradiente de las mismas.
 
-Johnson, S. (2001). Emergencia: las vidas conectadas de hormigas, cerebros, ciudades y software. Nueva York: Scribner.
+## CRÉDITOS Y REFERENCIAS
 
-Resnick, M. (1996). Más allá de la mentalidad centralizada. Revista de Ciencias del Aprendizaje, 5 (1), 1-22.
+Keller, E & Segel, L. (1970). Initiation of slime mold aggregation viewed as an instability. Journal of Theoretical Biology, Volume 26, Issue 3, March 1970, Pages 399–415.
 
-Consulte también http://www.creepinggarden.com para ver un video del moho de lodo.
+Wilensky, U., & Resnick, M. (1999). Thinking in levels: A dynamic systems approach to making sense of the world. Journal of Science Education and Technology, 8(1), 3-19.
 
-COMO CITAR
-Si menciona este modelo o el software NetLogo en una publicación, le pedimos que incluya las citas a continuación.
+Johnson, S. (2001). Emergence: The Connected Lives of Ants, Brains, Cities, and Software. New York: Scribner.
 
-Para el modelo en sí:
+Resnick, M. (1996). Beyond the centralized mindset. Journal of the Learning Sciences, 5(1), 1-22.
 
-Wilensky, U. (1997). Modelo NetLogo Slime. http://ccl.northwestern.edu/netlogo/models/Slime. Centro para el aprendizaje conectado y el modelado basado en computadora, Northwestern University, Evanston, IL.
-Cite el software NetLogo como:
+También consulta http://www.creepinggarden.com para ver un video del moho slime.
 
-Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Centro para el aprendizaje conectado y el modelado basado en computadora, Northwestern University, Evanston, IL.
-DERECHOS DE AUTOR Y LICENCIA
+## COMO CITAR
+
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
+
+Para el modelo:
+
+Wilensky, U. (1997). NetLogo Slime model. http://ccl.northwestern.edu/netlogo/models/Slime. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Por favor cita el software de NetLogo como:
+
+Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+## DERECHOS DE AUTOR Y LICENCIA
+
 Copyright 1997 Uri Wilensky.
 
 CC BY-NC-SA 3.0
@@ -90,3 +101,5 @@ Este modelo fue creado como parte del proyecto: MATEMÁTICAS CONECTADAS: DAR SEN
 Este modelo fue desarrollado en el MIT Media Lab utilizando CM StarLogo. Véase Resnick, M. (1994) &quot;Tortugas, termitas y embotellamientos: exploraciones en micromundos masivamente paralelos&quot;. Cambridge, MA: MIT Press. Adaptado a StarLogoT, 1997, como parte del Connected Mathematics Project.
 
 Este modelo fue convertido a NetLogo como parte de los proyectos: SIMULACIONES PARTICIPATIVAS: DISEÑO BASADO EN RED PARA EL APRENDIZAJE DE SISTEMAS EN AULAS y / o ENTORNO INTEGRADO DE SIMULACIÓN Y MODELADO. El proyecto agradece el apoyo de la National Science Foundation (programas REPP y ROLE) - números de subvención REC # 9814682 y REC-0126227. Convertido de StarLogoT a NetLogo, 2000.
+
+Traductora: Chelsea Guzman
