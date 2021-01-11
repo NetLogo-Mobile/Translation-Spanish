@@ -2,102 +2,102 @@
 ## Plots
 ### Source
 # of people
-### Spanish ***
+### Spanish
 # de gente
 
 ### Source
 % infected
-### Spanish ***
+### Spanish
 % infectado
 
 ### Source
 % recovered
-### Spanish ***
+### Spanish
 % recuperado
 
 ### Source
 % total pop
-### Spanish ***
+### Spanish
 % pob total
 
 ### Source
 Cumulative Infected and Recovered
-### Spanish ***
+### Spanish
 Infectados y Recuperados Acumulados
 
 ### Source
 hours
-### Spanish ***
+### Spanish
 horas
 
 ### Source
 Infected
-### Spanish ***
+### Spanish
 Infectado
 
 ### Source
 Infection and Recovery Rates
-### Spanish ***
+### Spanish
 Tasas de Infección y Recuperación
 
 ### Source
 Infection Rate
-### Spanish ***
+### Spanish
 Tasa de Infección
 
 ### Source
 Not Infected
-### Spanish ***
+### Spanish
 No Infectado
 
 ### Source
 Populations
-### Spanish ***
+### Spanish
 Poblaciones
 
 ### Source
 rate
-### Spanish ***
+### Spanish
 tasa
 
 ### Source
 Recovery Rate
-### Spanish ***
+### Spanish
 Índice de Recuperación
 
 ## Widgets
 ### Source
 average-recovery-time
-### Spanish ***
+### Spanish
 tiempo-medio-de-recuperación
 
 ### Source
 go
-### Spanish ***
+### Spanish
 ir
 
 ### Source
 infection-chance
-### Spanish ***
+### Spanish
 chance-de-infección
 
 ### Source
 initial-people
-### Spanish ***
+### Spanish
 personas-iniciales
 
 ### Source
 R0
-### Spanish ***
+### Spanish
 R0
 
 ### Source
 recovery-chance
-### Spanish ***
+### Spanish
 chance-de-recuperación
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 

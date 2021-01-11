@@ -2,50 +2,51 @@
 ## Widgets
 ### Source
 action
-### Spanish ***
+### Spanish
 acción
 
 ### Source
 check-area
-### Spanish ***comprobar-área
+### Spanish
+comprobar-área
 
 ### Source
 clear-polygons
-### Spanish ***
+### Spanish
 eliminar-polígonos
 
 ### Source
 clear-segments
-### Spanish ***
+### Spanish
 eliminar-segmentos
 
 ### Source
 go
-### Spanish ***
+### Spanish
 ir
 
 ### Source
 height
-### Spanish ***
+### Spanish
 altura
 
 ### Source
 perimeter
-### Spanish ***
+### Spanish
 perímetro
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 
 ### Source
 unit-size
-### Spanish ***
+### Spanish
 tamaño-unidad
 
 ### Source
 width
-### Spanish ***
+### Spanish
 anchura
 

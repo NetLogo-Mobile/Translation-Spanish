@@ -2,141 +2,142 @@
 ## Plots
 ### Source
 # people
-### Spanish ***
+### Spanish
 # personas
 
 ### Source
 % infected
-### Spanish ***
+### Spanish
 % infectado
 
 ### Source
 % recovered
-### Spanish ***
+### Spanish
 % recuperado
 
 ### Source
 % total pop.
-### Spanish ***
+### Spanish
 % pob. total
 
 ### Source
 Cumulative Infected and Recovered
-### Spanish ***
+### Spanish
 Infectados y Recuperados Acumulados
 
 ### Source
 hours
-### Spanish ***
+### Spanish
 horas
 
 ### Source
 Infected
-### Spanish ***
+### Spanish
 Infectado
 
 ### Source
 Infection and Recovery Rates
-### Spanish ***
+### Spanish
 Tasas de Infección y Recuperación
 
 ### Source
 Infection Rate
-### Spanish ***
+### Spanish
 Tasa de Infección
 
 ### Source
 Not Infected
-### Spanish ***
+### Spanish
 No Infectado
 
 ### Source
 Populations
-### Spanish ***
+### Spanish
 Poblaciones
 
 ### Source
 rate
-### Spanish ***
+### Spanish
 Tasa
 
 ### Source
 Recovery Rate
-### Spanish ***
+### Spanish
 Tasa de Recuperación
 
 ## Widgets
 ### Source
 average-hospital-going-tendency
-### Spanish ***
+### Spanish
 tendencia-promedio-de-ir-al-hospital
 
 ### Source
 average-isolation-tendency
-### Spanish ***
+### Spanish
 tendencia-aislamiento-promedio
 
 ### Source
 average-recovery-time
-### Spanish ***
+### Spanish
 tiempo-promedio-de-recuperación
 
 ### Source
 go
-### Spanish ***
+### Spanish
 ir
 
 ### Source
 infection-chance
-### Spanish ***
+### Spanish
 chance-de-infección
 
 ### Source
 initial-ambulance
-### Spanish ***
+### Spanish
 ambulancia-inicial
 
 ### Source
 initial-people
-### Spanish ***
+### Spanish
 personas-iniciales
 
 ### Source
 inoculation-chance
-### Spanish ***
+### Spanish
 chance-de-inoculación
 
 ### Source
 intra-mobility
-### Spanish ***
+### Spanish
 intra-movilidad
 
 ### Source
 links?
-### Spanish ***
+### Spanish
 ¿enlaces?
 
 ### Source
 R0
-### Spanish ***
+### Spanish
 R0
 
 ### Source
 recovery-chance
-### Spanish ***
+### Spanish
 chance-de-recuperación
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 
 ### Source
 travel?
-### Spanish ***
+### Spanish
 ¿viajar?
 
 ### Source
 travel-tendency
-### Spanish ***
+### Spanish
 tendencia-de-viajar
+

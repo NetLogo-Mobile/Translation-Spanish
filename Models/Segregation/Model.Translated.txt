@@ -2,82 +2,82 @@
 ## Plots
 ### Source
 %
-### Spanish ***
+### Spanish
 %
 
 ### Source
 default
-### Spanish ***
+### Spanish
 defecto
 
 ### Source
 Number-unhappy
-### Spanish ***
+### Spanish
 Número-infeliz
 
 ### Source
 percent
-### Spanish ***
+### Spanish
 por ciento
 
 ### Source
 Percent Similar
-### Spanish ***
+### Spanish
 Porcentaje similar
 
 ### Source
 time
-### Spanish ***
+### Spanish
 tiempo
 
 ## Widgets
 ### Source
 # agents
-### Spanish ***
+### Spanish
 # agentes
 
 ### Source
 % similar
-### Spanish ***
+### Spanish
 % similar
 
 ### Source
 % unhappy
-### Spanish ***
+### Spanish
 % infeliz
 
 ### Source
 %-similar-wanted
-### Spanish ***
+### Spanish
 %-similar-querido
 
 ### Source
 density
-### Spanish ***
+### Spanish
 densidad
 
 ### Source
 go
-### Spanish ***
+### Spanish
 ir
 
 ### Source
 go once
-### Spanish ***
+### Spanish
 ir una vez
 
 ### Source
 num-unhappy
-### Spanish ***
+### Spanish
 núm-infeliz
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 
 ### Source
 visualization
-### Spanish ***
+### Spanish
 visualización
 

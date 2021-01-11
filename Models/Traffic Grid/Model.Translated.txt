@@ -2,102 +2,102 @@
 ## Plots
 ### Source
 Average Speed
-### Spanish ***
+### Spanish
 Velocidad Media
 
 ### Source
 Average Speed of Cars
-### Spanish ***
+### Spanish
 Velocidad Media de Carros
 
 ### Source
 Average Wait
-### Spanish ***
+### Spanish
 Espera Promedio
 
 ### Source
 Average Wait Time of Cars
-### Spanish ***
+### Spanish
 Tiempo Medio de Espera de Carros
 
 ### Source
 default
-### Spanish ***
+### Spanish
 defecto
 
 ### Source
 Stopped Cars
-### Spanish ***
+### Spanish
 Autos Detenidos
 
 ### Source
 Time
-### Spanish ***
+### Spanish
 Tiempo
 
 ## Widgets
 ### Source
 Change light
-### Spanish ***
+### Spanish
 Cambiar luz
 
 ### Source
 Current Phase
-### Spanish ***
+### Spanish
 Fase Actual
 
 ### Source
 current-auto?
-### Spanish ***
+### Spanish
 actual-auto?
 
 ### Source
 current-phase
-### Spanish ***
+### Spanish
 fase-actual
 
 ### Source
 Go
-### Spanish ***
+### Spanish
 ir
 
 ### Source
 grid-size-x
-### Spanish ***
+### Spanish
 cuadrícula-tamaño-x
 
 ### Source
 grid-size-y
-### Spanish ***
+### Spanish
 cuadrícula-tamaño-y
 
 ### Source
 num-cars
-### Spanish ***
+### Spanish
 núm-coches
 
 ### Source
 power?
-### Spanish ***
+### Spanish
 ¿poder?
 
 ### Source
 Select intersection
-### Spanish ***
+### Spanish
 Seleccionar intersección
 
 ### Source
 Setup
-### Spanish ***
+### Spanish
 Preparar
 
 ### Source
 speed-limit
-### Spanish ***
+### Spanish
 Límite-de-velocidad
 
 ### Source
 ticks-per-cycle
-### Spanish ***
+### Spanish
 tics-porciclo
 

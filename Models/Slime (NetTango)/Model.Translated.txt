@@ -2,16 +2,16 @@
 ## Widgets
 ### Source
 go
-### Spanish ***
+### Spanish
 ir
 
 ### Source
 population
-### Spanish ***
+### Spanish
 población
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 
