@@ -1,4 +1,5 @@
-﻿## Language = Spanish
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
 ## Widgets
 ### Source
 go
@@ -14,4 +15,65 @@ población
 setup
 ### Spanish
 preparar
+
+## NetTango
+### Source
+°
+### Spanish ***
+°
+
+### Source
+amount
+### Spanish ***
+cantidad
+
+### Source
+angle
+### Spanish ***
+ángulo
+
+### Source
+bias
+### Spanish ***
+parcialidad
+
+### Source
+drop chemical
+### Spanish ***
+soltar químico
+
+### Source
+forward
+### Spanish ***
+adelante
+
+### Source
+if chemical strength
+### Spanish ***
+si fuerza química
+
+### Source
+slime actions
+### Spanish ***
+acciones de limo
+
+### Source
+sniff-angle
+### Spanish ***
+ángulo de olfateo
+
+### Source
+steps
+### Spanish ***
+pasos
+
+### Source
+turn toward chemical
+### Spanish ***
+girar hacia el químico
+
+### Source
+wiggle
+### Spanish ***
+menear
 

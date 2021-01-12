@@ -1,4 +1,5 @@
-﻿## Language = Spanish
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
 ## Tutorial
 ### Excessive
 A process that is observed to have properties that its parts  do not have on their own (such properties or behaviors emerge only when the parts  interact in a wider whole)
@@ -20,7 +21,7 @@ When a new <color=maroon>seed</color> emerges, the older ones grow slightly and 
 ### Spanish
 Cuando una nueva <color=maroon>semilla</color> emerge, los mayores crecen levemente y se alejan del centro--la fuente--y la <color=maroon>semillas</color> más jóven encuentra la mayor brecha entre las <color=maroon>semillas</color>, en el que puede crecer. Esta brecha se puede encontrar con girar <trigger=counterclockwise> en el sentido anti-horario</trigger>.
 
-### Source
+### Excessive
 "Want to look at the community's or your answers to the questions asked in this model? Click on <b>Go to Q&A Panel</b>."
 ### Spanish
 "¿Deseas ver las respuestas de la comunidad o sus respuestas a las preguntas formuladas en este modelo? Haga clic en <b>Ir al Panel de Q&A</b>."
@@ -41,6 +42,11 @@ Appropriate position
 Posición apropiada
 
 ### Source
+Authors: Charles Cheng, John Chen. Based on NetLogo Sunflower model by Uri Wilensky.
+### Spanish ***
+Autores: Charles Cheng, John Chen. Basado en el modelo NetLogo Sunflower de Uri Wilensky.
+
+### Source
 Clock-tick
 ### Spanish
 tic-del-reloj
@@ -59,6 +65,16 @@ Congratulations! 
 Counterclockwise
 ### Spanish
 En sentido anti-horario
+
+### Source
+Credit
+### Spanish ***
+Crédito
+
+### Source
+Credit and Copyright
+### Spanish ***
+Crédito y Copyright
 
 ### Source
 Death Beyond the Edge 
@@ -239,6 +255,11 @@ Valor al que se acerca una función (o secuencia) cuando la entrada se acerca a 
 Want to know more? Click here for higher level reading!
 ### Spanish
 ¿Quieres saber más? ¡Haz clic aquí para una lectura de un nivel superior!
+
+### Source
+Want to look at the community's or your answers to the questions asked in this model? Click on <b>Go to Q&A Panel</b>.
+### Spanish ***
+¿Quiere ver las respuestas de la comunidad o las suyas a las preguntas formuladas en este modelo? Haga clic en <b>Ir al panel de preguntas y respuestas</b> .
 
 ### Source
 Welcome to the Sunflower Model! 
