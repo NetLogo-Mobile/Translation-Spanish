@@ -206,10 +206,10 @@ The <i>turn-increment</i> slider dictates the degree  that each new <color=gr
 ### Spanish
 El control deslizante <i>incremento-de-giro</i> dicta el grado  que cada nueva <color=green>tortuga</color> girará para establecer su posición en la espiral .
 
-### Source ***
+### Source
 The amount of ticks  that have passed since the command 'reset-timer' was last run
-### Spanish
-
+### Spanish ***
+La cantidad de tics  que han pasado desde la última vez que se ejecutó el comando &#39;reset-timer&#39;
 
 ### Source
 The angle  made by this turn is a multiple of the <trigger=goldenratio,olive>golden ratio</trigger> (1.618). The <color=olive>golden ratio</color>, based on the <trigger=fibonacci>Fibonacci series</trigger> (1, 1, 2, 3, 5, 8, 13...), equals the <trigger=limit>limit</trigger> of F(n)/F(n-1). Thus, these spirals  can be mathematically  generated, using the <color=olive>golden ratio</color>.
