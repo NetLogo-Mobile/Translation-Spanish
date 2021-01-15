@@ -1,0 +1,86 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Que es
+
+Diffusion Graphics es diferente a la mayoría de los otros modelos de NetLogo, ya que realmente no &quot;modela&quot; nada. Simplemente explora el poder detrás de un primitivo parche interesante: &#39;difuso&#39;.
+
+No tiene la intención de modelar de cerca el calor real, solo un número que se comporta de manera similar al calor, que se propaga lentamente de manera uniforme a través de un avión.
+
+##  COMO FUNCIONA
+
+En este modelo, las tortugas son &quot;puntos calientes&quot;: establecen un cierto valor (una variable de parche llamada &#39;calor&#39;) al nivel máximo en cada paso de tiempo. Cada parche (a través de la primitiva &#39;difusa&#39;) comparte su valor de &#39;calor&#39; con los parches circundantes.
+
+Aquí puede observar lo que sucede cuando los puntos calientes interactúan entre sí, a medida que se mueven, a medida que sus valores se vuelven negativos o a medida que el &quot;calor&quot; se reduce lentamente a la nada. El objetivo del proyecto es darle una idea de cómo interactúan los parches a través de la primitiva &#39;difusa&#39;. (O tal vez solo para darte algo agradable para mirar si estás aburrido).
+
+##  COMO USARLO
+
+Dos botones, SETUP y GO, controlan la ejecución del modelo. Como en la mayoría de los modelos de NetLogo, el botón SETUP inicializará los &#39;puntos calientes&#39; y otras variables, preparando el modelo para su ejecución. El botón IR, un botón para siempre, ejecutará el modelo.
+
+Cuatro deslizadores y dos interruptores determinan las diversas propiedades del modelo. Cada uno de ellos se puede configurar antes de la inicialización; la mayoría se puede utilizar a mitad de proceso para afectar lo que sucederá.
+
+NUM-TORTUGAS determina cuántas tortugas hay. TORTUGA-VELOCIDAD determina qué tan rápido se mueven. Cada tortuga establece el &#39;calor&#39; del parche en el que está TORTUGA-CALOR. Luego, ese parche lo difunde en los parches cercanos.
+
+El control deslizante DIFFUSION-RATE es la velocidad a la que los colores se difunden desde cada parche. Todos los parches difunden su valor de color a sus vecinos en cada paso de tiempo. TASA DE DIFUSIÓN es simplemente la fracción de este color que se filtró.
+
+¿El WANDER? el interruptor, si está activado, permite que las tortugas se muevan por la vista. Si el interruptor está apagado, las tortugas permanecerán enraizadas en su lugar.
+
+##  COSAS PARA NOTAR
+
+Básicamente, lo que Diffusion Graphics le mostrará es cómo se difunde el color del parche en NetLogo. La pantalla gráfica puede evocar imágenes fractales o un paisaje topográfico. Diffusion Graphics realmente genera una especie de topografía, con las tortugas como picos y los colores más oscuros como valles. El modelo esencialmente intenta luego suavizar estas diferencias.
+
+Deje que el modelo funcione durante un tiempo con WANDER apagado (todo configurado en 0). Observe lo que sucede con el &#39;terreno&#39;. ¿Qué predices que sucederá eventualmente?
+
+Este modelo fue construido para complacer. Simplemente juega con los controles deslizantes e interruptores. Más tarde, intente alterar el código y vea qué funciona (y qué no funciona también).
+
+##  COSAS PARA INTENTAR
+
+Intente configurar TURTLE-HEAT en un número muy grande. ¿Lo que pasa? ¿Qué le muestra esto sobre el modelo de color de NetLogo?
+
+Intente configurar TURTLE-HEAT en un número negativo. ¿Lo que pasa? ¿Qué le muestra esto sobre el modelo de color de NetLogo?
+
+Intente establecer el tamaño del parche en un número pequeño para una visualización más rica. O agrande el tamaño del parche, para obtener una perspectiva &quot;ampliada&quot;.
+
+##  EXTENDIENDO EL MODELO
+
+Cámbielo para que el control deslizante NUM-TORTUGAS cambie el número de tortugas sobre la marcha, en lugar de requerir que presione CONFIGURAR.
+
+Actualmente, la posición de cada tortuga se determina al azar en el momento de la instalación. Cambie el modelo para que el usuario pueda posicionar tortugas con el mouse.
+
+Colorea los parches de una manera diferente, quizás a lo largo del espectro tradicional ROY-G-BIV (rojo, naranja, amarillo, verde, azul, índigo, violeta).
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+El modelo Diffusion Graphics se diseñó en torno a la primitiva &quot;difusa&quot;. `diffuse` es una primitiva de observador que toma dos entradas, una variable de parche y un número. `diffuse` hace que todos los parches compartan esa variable de parche con sus ocho vecinos. La segunda entrada es un número entre 0 y 1.0 que determina qué fracción de la variable de parche se comparte. (En este modelo, la cantidad compartida está controlada por el control deslizante CHANGE-RATE). Por ejemplo, si le pido al observador que &quot;difunda el calor 0.5&quot;, el observador le dice a cada parche que dé la mitad de &quot;calor&quot; a los otros ocho parches. Si un parche tenía 80 para empezar, entonces se queda con 40 y regala 5 a cada vecino. El valor total de &quot;calor&quot; para todos los parches permanece constante.
+
+También hay una primitiva &#39;difusa4&#39; donde los parches solo comparten con sus vecinos en las direcciones norte, sur, este y oeste, no con sus vecinos diagonales.
+
+##  MODELOS RELACIONADOS 
+
+Diffusion (models real heat more closely)
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1997).  NetLogo Diffusion Graphics model.  http://ccl.northwestern.edu/netlogo/models/DiffusionGraphics.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1997 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1997 2001 -->

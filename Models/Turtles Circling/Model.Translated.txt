@@ -1,0 +1,94 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
+## Plots
+### Source
+dist
+### Spanish ***
+dist
+
+### Source
+distance
+### Spanish ***
+distancia
+
+### Source
+Distance from the origin
+### Spanish ***
+Distancia desde el origen
+
+### Source
+time
+### Spanish ***
+hora
+
+## Widgets
+### Source
+all-circle
+### Spanish ***
+todo circulo
+
+### Source
+clear-drawing
+### Spanish ***
+dibujo claro
+
+### Source
+draw-circle
+### Spanish ***
+dibujar-circulo
+
+### Source
+draw-radius
+### Spanish ***
+radio de dibujo
+
+### Source
+number
+### Spanish ***
+número
+
+### Source
+pen-down
+### Spanish ***
+pluma abajo
+
+### Source
+pen-up
+### Spanish ***
+pluma
+
+### Source
+plot?
+### Spanish ***
+¿trama?
+
+### Source
+radius
+### Spanish ***
+radio
+
+### Source
+set shape "circle"
+### Spanish ***
+establecer forma &quot;círculo&quot;
+
+### Source
+set shape "turtle"
+### Spanish ***
+establecer forma &quot;tortuga&quot;
+
+### Source
+setup
+### Spanish ***
+preparar
+
+### Source
+speed
+### Spanish ***
+velocidad
+
+### Source
+zero-circle
+### Spanish ***
+círculo cero
+

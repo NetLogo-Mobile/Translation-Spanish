@@ -1,4 +1,5 @@
-﻿## Language = Spanish
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
 ## Plots
 ### Source
 grass / 4
@@ -50,6 +51,11 @@ Se dice que un <trigger=ecosistema>ecosistema</trigger>  posee <color=blue>es
 An ecosystem  or biome describes a single environment and every <color=green>living (biotic)</color> organism  and <color=#555555ff>non-living (abiotic)</color> factor  that is contained within it or characterizes it. An ecosystem  embodies every aspect of a single habitat, including all interactions between its different elements.
 ### Spanish
 Un ecosistema  o bioma describa un solo medio ambiente y cada <color=green> vivo (biótico)</color> organismo  y <color=#555555ff>no vivo (abiótico)</color> factor  que está contenido en él o lo caracteriza. Un ecosistema  incorpora to todos los aspectos de un único habitat, incluidas todas las interacciones entre sus diferentes elementos.
+
+### Source
+Authors: Charles Cheng, John Chen. Based on NetLogo Wolf Sheep Predation model by Uri Wilensky.
+### Spanish ***
+Autores: Charles Cheng, John Chen. Basado en el modelo NetLogo Wolf Sheep Predation de Uri Wilensky.
 
 ### Source
 Can you find any parameters that generate a <color=blue>stable </color> <trigger=ecosystem>ecosystem</trigger>  in the <color=grey>sheep </color>-<color=#a07348ff>wolves </color> model variation?

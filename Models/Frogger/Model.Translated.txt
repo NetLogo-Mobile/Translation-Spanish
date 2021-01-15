@@ -1,0 +1,63 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
+## Widgets
+### Source
+DOWN
+### Spanish ***
+ABAJO
+
+### Source
+Frog Jumps
+### Spanish ***
+Saltos de rana
+
+### Source
+Frogs Left
+### Spanish ***
+Ranas izquierda
+
+### Source
+LEFT
+### Spanish ***
+IZQUIERDA
+
+### Source
+Level
+### Spanish ***
+Nivel
+
+### Source
+New Game
+### Spanish ***
+Nuevo juego
+
+### Source
+RIGHT
+### Spanish ***
+DERECHO
+
+### Source
+start-level
+### Spanish ***
+nivel de inicio
+
+### Source
+start-lives
+### Spanish ***
+comienzo-vidas
+
+### Source
+start-time
+### Spanish ***
+hora de inicio
+
+### Source
+Time Left
+### Spanish ***
+Tiempo restante
+
+### Source
+UP
+### Spanish ***
+ARRIBA
+

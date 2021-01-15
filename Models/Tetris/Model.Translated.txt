@@ -1,0 +1,73 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
+## Widgets
+### Source
+debris-level
+### Spanish ***
+nivel de escombros
+
+### Source
+Down
+### Spanish ***
+Abajo
+
+### Source
+Drop
+### Spanish ***
+soltar
+
+### Source
+Left
+### Spanish ***
+Izquierda
+
+### Source
+Level
+### Spanish ***
+Nivel
+
+### Source
+Lines
+### Spanish ***
+Líneas
+
+### Source
+New
+### Spanish ***
+Nuevo
+
+### Source
+Play
+### Spanish ***
+Tocar
+
+### Source
+Right
+### Spanish ***
+Correcto
+
+### Source
+RotLeft
+### Spanish ***
+RotLeft
+
+### Source
+RotRight
+### Spanish ***
+RotRight
+
+### Source
+Score
+### Spanish ***
+Puntuación
+
+### Source
+show-next?
+### Spanish ***
+show-next?
+
+### Source
+starting-level
+### Spanish ***
+nivel inicial
+

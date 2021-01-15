@@ -1,0 +1,43 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
+## Widgets
+### Source
+go
+### Spanish ***
+Vamos
+
+### Source
+left
+### Spanish ***
+izquierda
+
+### Source
+platform-width
+### Spanish ***
+ancho de plataforma
+
+### Source
+right
+### Spanish ***
+derecho
+
+### Source
+setup
+### Spanish ***
+preparar
+
+### Source
+terrain-bumpiness
+### Spanish ***
+irregularidad del terreno
+
+### Source
+thrust
+### Spanish ***
+empuje
+
+### Source
+thrust-amount
+### Spanish ***
+cantidad de empuje
+

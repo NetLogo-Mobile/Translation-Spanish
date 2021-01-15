@@ -1,0 +1,38 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
+## Widgets
+### Source
+diffusion-rate
+### Spanish ***
+tasa de difusión
+
+### Source
+go
+### Spanish ***
+Vamos
+
+### Source
+num-turtles
+### Spanish ***
+num-tortugas
+
+### Source
+setup
+### Spanish ***
+preparar
+
+### Source
+turtle-heat
+### Spanish ***
+tortuga-calor
+
+### Source
+turtle-speed
+### Spanish ***
+velocidad de tortuga
+
+### Source
+wander?
+### Spanish ***
+¿deambular?
+

@@ -1,0 +1,78 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Que es
+
+Este proyecto modela el comportamiento de las hormigas que siguen a un líder hacia una fuente de alimento. La hormiga líder se mueve hacia la comida siguiendo un camino aleatorio; después de un pequeño retraso, la segunda hormiga en la línea sigue al líder y se dirige directamente hacia donde se encuentra el líder. Cada hormiga subsiguiente sigue a la hormiga delante de ella de la misma manera.
+
+Aunque el líder puede tomar un camino muy tortuoso hacia la comida, el rastro de la hormiga, sorprendentemente, adopta una forma suave. Si bien aún no está claro si este modelo es un modelo biológicamente exacto del comportamiento de las hormigas, es una interesante exploración matemática del comportamiento emergente de una serie de agentes que se suceden en serie.
+
+##  COMO USARLO
+
+El botón SETUP inicializa el modelo. Un hormiguero marrón se coloca en el lado izquierdo del mundo. En su interior hay una serie de hormigas (amarillas) determinadas por el control deslizante NUM-ANTS. En la mano derecha del mundo hay una fuente de alimento naranja.
+
+El botón IR hace que las hormigas se muevan. La hormiga líder (tortuga 0) se pone en movimiento aproximadamente en la dirección de la comida. Se menea mientras se mueve. Es decir, no se dirige directamente hacia la comida, sino que cambia su rumbo una cantidad aleatoria hacia la izquierda o hacia la derecha antes de dar cada paso.
+
+La cantidad máxima que la hormiga líder puede moverse en cada paso (y, por lo tanto, la irregularidad del camino de la hormiga líder) se rige por el control deslizante LEADER-WIGGLE-ANGLE. Cuando la hormiga líder se acerca lo suficiente a la comida para &quot;olerla&quot;, deja de moverse y se dirige directamente hacia la comida. La hormiga líder deja un rastro rojo mientras se mueve.
+
+Cada hormiga subsiguiente sigue a la hormiga delante de ella dirigiéndose directamente hacia ella antes de dar cada paso. Las hormigas seguidoras no dejan rastro. La línea amarilla de hormigas, sin embargo, traza una curva en el dibujo. La última hormiga en irse deja un rastro azul.
+
+La cantidad de tiempo entre las hormigas que salen de su nido se rige por el control deslizante START-DELAY (más algún factor aleatorio).
+
+El monitor ANTS-RELEASED le muestra cuántas hormigas han abandonado el nido. El otro monitor le muestra el rumbo de la hormiga líder.
+
+##  COSAS PARA NOTAR
+
+¿Cómo cambia la forma de la línea de hormigas con el tiempo?
+
+¿Cómo se compara el camino de la hormiga inicial con el camino de la hormiga final?
+
+##  COSAS PARA INTENTAR
+
+Intente variar el ángulo de meneo máximo (LEADER-WIGGLE-ANGLE). ¿Cómo afecta eso a la forma de las líneas de hormigas iniciales y finales?
+
+Intente variar el retraso. ¿Cómo afecta eso a la forma de las líneas de hormigas iniciales y finales?
+
+¿Cómo se puede ralentizar el aplanamiento de la línea de hormigas? ¿Puede hacer que el camino no converja en una línea recta?
+
+¿Cómo se puede acelerar el aplanamiento de la línea de hormigas?
+
+##  EXTENDIENDO EL MODELO
+
+¿Cómo podría realizar un seguimiento, medir o trazar el proceso de aplanamiento?
+
+¿Qué pasa si relajas las reglas que siguen las hormigas --- tal vez agregas algo de &quot;contoneo&quot; a su comportamiento?
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+¿Observa el uso de retrasos basados en los identificadores de tortugas en el TIME-TO-START? reportero para hacer que las tortugas abandonen el nido una a la vez.
+
+##  CRÉDITOS Y REFERENCIAS 
+
+The model was inspired by the work of Alfred Bruckstein (see Bruckstein 1993: "Why the ant trails look so straight and nice", The Mathematical Intelligencer, Vol. 15, No. 2).
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1997).  NetLogo Ant Lines model.  http://ccl.northwestern.edu/netlogo/models/AntLines.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1997 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1997 2001 -->

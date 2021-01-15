@@ -1,0 +1,89 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Que es
+
+En Follower, las tortugas intentan &quot;conectarse&quot; con otras tortugas, formando largas cadenas de acuerdo con un pequeño conjunto de reglas simples.
+
+##  COMO FUNCIONA
+
+Una tortuga puede seguir solo a otra tortuga y, de manera similar, solo puede ser seguida por otra tortuga. Esto significa que hay cuatro estados de tortuga, cada uno representado por un color diferente:
+
+- Magenta: Sin adjuntar
+- Verde: siguiendo a otra tortuga (una &quot;cola&quot;)
+- Amarillo: ser seguido por otra tortuga (una &quot;cabeza&quot;)
+- Azul: Seguir y ser seguido por otras tortugas (un segmento de &quot;cuerpo&quot;)
+
+Las tortugas se crean en estado magenta (sin unir). En cada turno, cada tortuga revisa un parche aleatorio en forma de rosquilla cuadrada alrededor de sí misma. Si encuentra una tortuga allí que aún no está siendo seguida, se &quot;enganchará&quot; y comenzará a seguir los movimientos de esa tortuga. Una tortuga suelta (una que aún no se ha &quot;prendido&quot; a otra tortuga) se moverá aleatoriamente.
+
+##  COMO USARLO
+
+CONFIGURACIÓN: Limpia el mundo y crea el número de tortugas especificado en el control deslizante POBLACIÓN. Todas las tortugas se crean en un estado libre (magenta).
+
+GO: ejecuta la simulación.
+
+POBLACIÓN: Especifica el número de tortugas creadas en SETUP.
+
+RADIO CERCANO: El radio interior de la búsqueda de las tortugas rosquillas cuadradas.
+
+RADIO LEJOS: El radio exterior de la búsqueda de las tortugas rosquillas cuadradas.
+
+WAVER: La cantidad de aleatoriedad en el movimiento de las tortugas que no las siguen.
+
+También hay un gráfico llamado &quot;Recuento de tortugas&quot; que muestra, a lo largo del tiempo, el número de tortugas en cada estado.
+
+##  COSAS PARA NOTAR
+
+Cada uno de los controles deslizantes tiene un efecto diferente en la simulación.
+
+Observe que cuando el número de tortugas es alto, las cadenas tienden a formarse muy rápidamente. Esto se debe a que hay más tortugas y, por lo tanto, más posibilidades de que cada tortuga se agarre en cada turno.
+
+Variar el tamaño de la dona tiende a afectar la forma en que las tortugas comienzan a adherirse, pero a la larga no tiene un gran efecto en el resultado de la simulación. El tamaño de la rosquilla es más interesante en valores muy pequeños, lo que hace que las tortugas se adhieran en bucles muy pequeños. Además, las rosquillas muy grandes y gruesas (grandes FAR-RADIUS, pequeñas NEAR-RADIUS) se ven interesantes con una gran cantidad de tortugas.
+
+La cantidad de aleatoriedad del movimiento (establecida por WAVER) también puede cambiar el resultado de la simulación. Los valores muy altos de WAVER dan como resultado la formación de pequeños bucles porque las tortugas se mueven continuamente sobre sí mismas, lo que aumenta las posibilidades de conectar la cabeza de la cadena con su cola.
+
+La simulación, bajo cualquier parámetro, avanza hacia la formación de bucles. Los bucles pueden formarse envolviendo el mundo, pero en casi todos los casos si la simulación se deja en ejecución el tiempo suficiente, obtendrá muchos bucles pequeños o un bucle grande. Es posible que una cadena nunca se conecte a sí misma si el control deslizante WAVER se establece en cero, pero de lo contrario la simulación debería avanzar hacia los bucles.
+
+##  COSAS PARA INTENTAR
+
+Intente hacer que el ajuste de fluctuación sea muy alto. Observe cómo las tortugas se agrupan en pequeños grupos. Esto se debe a que se mueven sobre sí mismos con frecuencia, lo que aumenta las posibilidades de adherirse a la cola. Esto tiene sentido si la rosquilla permite que las tortugas miren cerca de sí mismas, pero si no lo hace (NEAR-RADIUS es grande), aún sucede lo mismo. ¿Por qué es este el caso?
+
+Observe que estamos trazando los cuatro posibles estados de tortuga, pero solo tres aparecen en la gráfica. ¿Sabes por qué?
+
+##  EXTENDIENDO EL MODELO
+
+Intente implementar diferentes reglas sobre cómo las tortugas se siguen unas a otras. Por ejemplo, se pueden ver resultados interesantes si desactiva el ajuste mundial. O, ¿qué pasa si se permite que dos tortugas tengan el mismo líder?
+
+También puede intentar darles a las tortugas una cierta probabilidad de separarse nuevamente. Vea cómo esto afecta los patrones que hacen.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Nótese el uso de la primitiva `hacia` para hacer que las tortugas se sigan unas a otras.
+
+Tenga en cuenta también que tenemos cuidado de asegurarnos de que nunca tengamos dos tortugas siguiendo al mismo líder.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1998).  NetLogo Follower model.  http://ccl.northwestern.edu/netlogo/models/Follower.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1998 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1998 2001 -->

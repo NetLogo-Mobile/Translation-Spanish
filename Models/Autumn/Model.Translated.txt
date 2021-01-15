@@ -1,0 +1,134 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
+## Plots
+### Source
+anthocyanin
+### Spanish ***
+antocianina
+
+### Source
+attachedness
+### Spanish ***
+apego
+
+### Source
+carotene
+### Spanish ***
+caroteno
+
+### Source
+chlorophyll
+### Spanish ***
+clorofila
+
+### Source
+dead leaves
+### Spanish ***
+hojas muertas
+
+### Source
+Leaf averages
+### Spanish ***
+Promedios foliares
+
+### Source
+leaves
+### Spanish ***
+hojas
+
+### Source
+Leaves
+### Spanish ***
+Hojas
+
+### Source
+rain
+### Spanish ***
+lluvia
+
+### Source
+sugar
+### Spanish ***
+azúcar
+
+### Source
+sunlight
+### Spanish ***
+luz de sol
+
+### Source
+temperature
+### Spanish ***
+temperatura
+
+### Source
+Time
+### Spanish ***
+Hora
+
+### Source
+water
+### Spanish ***
+agua
+
+### Source
+Weather conditions
+### Spanish ***
+Las condiciones climáticas
+
+### Source
+wind
+### Spanish ***
+viento
+
+## Widgets
+### Source
+go
+### Spanish ***
+Vamos
+
+### Source
+leaf-display-mode
+### Spanish ***
+modo de visualización de hoja
+
+### Source
+number-of-leaves
+### Spanish ***
+número de hojas
+
+### Source
+rain-intensity
+### Spanish ***
+intensidad de lluvia
+
+### Source
+setup
+### Spanish ***
+preparar
+
+### Source
+start-sugar-mean
+### Spanish ***
+comienzo-azúcar-media
+
+### Source
+start-sugar-stddev
+### Spanish ***
+start-sugar-stddev
+
+### Source
+sun-intensity
+### Spanish ***
+intensidad del sol
+
+### Source
+temperature
+### Spanish ***
+temperatura
+
+### Source
+wind-factor
+### Spanish ***
+factor de viento
+

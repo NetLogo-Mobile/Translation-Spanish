@@ -1,0 +1,82 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Que es
+
+Este es un nuevo tipo de investigación matemática: estamos investigando la forma emergente creada por el movimiento de muchas tortugas que se mueven de forma independiente de manera simple. Cada tortuga se mueve para crear un círculo de radio fijo (establecido por el control deslizante RADIUS). ¿Qué sucede si el radio en el que todos están girando se cambia en medio de la acción? Adivina antes de probarlo.
+
+##  COMO FUNCIONA
+
+Las tortugas crean sus círculos moviéndose un poco hacia adelante y girando un poco a la derecha para terminar con un círculo del radio especificado. Comenzamos todas las tortugas en un círculo de ese radio para que se muevan alrededor del círculo.
+
+##  COMO USARLO
+
+El control deslizante NUMBER determina el número de tortugas dando vueltas.
+
+El control deslizante RADIUS determina el tamaño del círculo en el que se mueve cada tortuga.
+
+El control deslizante VELOCIDAD determina qué tan grande es el paso que da cada tortuga en cada tic del reloj; determina la velocidad de los círculos.
+
+El botón CONFIGURAR crea NÚMERO tortugas en un círculo de radio RADIO centrado en el punto (0 0). Todas las tortugas tienen la cabeza para moverse alrededor del círculo.
+
+El botón TODO CÍRCULO hace que las tortugas comiencen a dar vueltas. Cada uno dibuja su propio círculo de radio RADIUS.
+
+Cambie el valor del control deslizante RADIUS mientras las tortugas están dando vueltas. * Antes * de hacerlo, ¿cuál es su conjetura sobre lo que sucederá cuando cambie el RADIUS?
+
+##  COSAS PARA NOTAR
+
+¿Qué está pasando con la forma descrita por las tortugas?
+
+¿Qué tan lejos van las tortugas?
+
+¿Hasta dónde llegan?
+
+##  COSAS PARA INTENTAR
+
+Pruebe diferentes valores tanto del radio inicial como del radio cambiado.
+
+También puede realizar más investigaciones con los siguientes controles:
+
+El botón CERO-CÍRCULO le permite concentrarse en el movimiento de la tortuga cero; el resto se detiene.
+
+El botón DRAW-CIRCLE le permite dibujar un círculo en los parches con un radio igual a DRAW-RAD. De esta manera puede seguir el movimiento de las tortugas.
+
+Si la PARCELA? el interruptor está encendido, la gráfica mostrará una gráfica de la distancia del cero de la tortuga desde el origen como el círculo de las tortugas.
+
+Pruebe el comando `lt 50` mientras las tortugas están dando vueltas. ¿Es este el mismo comportamiento que observó al cambiar el radio?
+
+En el Centro de comando, haz que una (o varias) tortugas tracen su camino usando el comando `pen-down` (` pd`). Esto puede ayudar a mostrar la relación entre los círculos de tortugas individuales y el círculo que ve cuando se mueven todas juntas.
+
+##  EXTENDIENDO EL MODELO
+
+¿Qué herramientas puede crear para ayudar a visualizar lo que está sucediendo?
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+El comando `display` se usa para una animación suave.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1997).  NetLogo Turtles Circling model.  http://ccl.northwestern.edu/netlogo/models/TurtlesCircling.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1997 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1997 2001 -->

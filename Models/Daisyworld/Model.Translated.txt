@@ -1,0 +1,104 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
+## Plots
+### Source
+black
+### Spanish ***
+negro
+
+### Source
+default
+### Spanish ***
+defecto
+
+### Source
+Global Temperature
+### Spanish ***
+Temperatura global
+
+### Source
+Luminosity
+### Spanish ***
+Luminosidad
+
+### Source
+Population
+### Spanish ***
+Población
+
+### Source
+white
+### Spanish ***
+blanco
+
+## Widgets
+### Source
+albedo-of-blacks
+### Spanish ***
+albedo-de-negros
+
+### Source
+albedo-of-surface
+### Spanish ***
+albedo de superficie
+
+### Source
+albedo-of-whites
+### Spanish ***
+albedo-de-blancos
+
+### Source
+go
+### Spanish ***
+Vamos
+
+### Source
+paint daisies
+### Spanish ***
+pintar margaritas
+
+### Source
+paint-daisies-as
+### Spanish ***
+pintar-margaritas-como
+
+### Source
+remove all daisies
+### Spanish ***
+quitar todas las margaritas
+
+### Source
+scenario
+### Spanish ***
+guión
+
+### Source
+setup
+### Spanish ***
+preparar
+
+### Source
+show-daisies?
+### Spanish ***
+show-margaritas?
+
+### Source
+show-temp-map?
+### Spanish ***
+show-temp-map?
+
+### Source
+solar-luminosity
+### Spanish ***
+luminosidad solar
+
+### Source
+start-%-blacks
+### Spanish ***
+inicio -% - negros
+
+### Source
+start-%-whites
+### Spanish ***
+inicio -% - blancos
+

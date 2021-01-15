@@ -1,0 +1,136 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Que es
+
+Este modelo es el modelo de gas más simple del conjunto de modelos GasLab. Las partículas se mueven y chocan entre sí sin restricciones externas, como la gravedad o los contenedores. En este modelo, las partículas se modelan como perfectamente elásticas sin energía excepto su energía cinética, que se debe a su movimiento. Las colisiones entre partículas son elásticas. Las partículas se colorean de acuerdo con su velocidad: azul para lento, verde para medio y rojo para alto.
+
+Este modelo es uno de una serie de modelos GasLab. Utilizan las mismas reglas básicas para simular el comportamiento de los gases. Cada modelo integra diferentes características para resaltar diferentes aspectos del comportamiento del gas.
+
+El principio básico de los modelos es que se supone que las partículas de gas tienen dos acciones elementales: se mueven y chocan, ya sea con otras partículas o con cualquier otro objeto, como paredes.
+
+##  COMO FUNCIONA
+
+El principio básico de todos los modelos de GasLab es el siguiente algoritmo (para más detalles, consulte el modelo &quot;GasLab Gas in a Box&quot;):
+
+1) Una partícula se mueve en línea recta sin cambiar su velocidad, a menos que choque con otra partícula o rebote en la pared.
+2) Dos partículas &quot;chocan&quot; si se encuentran en el mismo parche (la Vista de NetLogo se compone de una cuadrícula de pequeños cuadrados llamados parches). En este modelo, se apuntan dos partículas de modo que colisionen en el origen.
+3) Se elige un ángulo de colisión para las partículas, como si fueran dos bolas sólidas que chocan, y este ángulo describe la dirección de la línea que conecta sus centros.
+4) Las partículas intercambian momento y energía solo a lo largo de esta línea, conforme a la conservación del momento y la energía para colisiones elásticas.
+5) A cada partícula se le asigna su nueva velocidad, rumbo y energía.
+
+##  COMO USARLO
+
+Ajustes iniciales:
+- NÚMERO DE PARTÍCULAS: el número de partículas de gas.
+- TRACE?: Dibuja el camino de una partícula individual.
+- ¿COLLIDE ?: Activa y desactiva las colisiones entre partículas.
+- INIT-PARTICLE-SPEED: la velocidad inicial de cada partícula - todas comienzan con la misma velocidad.
+- PARTICLE-MASS: la masa de cada partícula - todas tienen la misma masa.
+
+Como en la mayoría de los modelos NetLogo, el primer paso es presionar SETUP. Pone las condiciones iniciales que ha establecido con los controles deslizantes. Asegúrese de esperar hasta que el botón SETUP se detenga antes de presionar GO.
+El botón GO ejecuta los modelos una y otra vez. Este es un botón &quot;para siempre&quot;.
+
+Monitores:
+- Monitores PORCENTAJE RÁPIDO, POR CIENTO MEDIO, PORCENTAJE LENTO: porcentaje de partículas con diferentes velocidades: rápido (rojo), medio (verde) y lento (azul).
+- VELOCIDAD MEDIA: velocidad media de las partículas.
+- ENERGÍA MEDIA: energía cinética media de las partículas.
+
+Parcelas:
+- CUENTOS DE VELOCIDAD: traza el número de partículas en cada rango de velocidad (rápido, medio o lento).
+- HISTOGRAMA DE VELOCIDAD: distribución de la velocidad de todas las partículas. La línea gris es el valor promedio y la línea negra es el promedio inicial. Los valores mostrados para la velocidad son diez veces los valores reales.
+- HISTOGRAMA DE ENERGÍA: la distribución de energías de todas las partículas, calculada como (m * v ^ 2) / 2. La línea gris es el valor promedio y la línea negra es el promedio inicial.
+
+Inicialmente, todas las partículas tienen la misma velocidad pero direcciones aleatorias. Por lo tanto, los primeros gráficos de histograma de velocidad y energía deben mostrar solo una columna cada uno. A medida que las partículas chocan repetidamente, intercambian energía y se dirigen en nuevas direcciones, y las velocidades se dispersan: algunas partículas se vuelven más rápidas, otras más lentas, y la gráfica mostrará ese cambio.
+
+##  COSAS PARA NOTAR
+
+¿Qué está pasando con la cantidad de partículas de diferentes colores? ¿Por qué hay más partículas azules que rojas?
+
+¿Puedes observar colisiones y cambios de color a medida que ocurren? Por ejemplo, cuando una partícula roja golpea una partícula verde, ¿de qué color se vuelven cada una?
+
+¿Por qué baja la velocidad media (velocidad media)? ¿Esto viola la conservación de la energía?
+
+Este gas se encuentra en un &quot;espacio infinito&quot;, sin límites, sin obstrucciones, ¡pero sigue siendo un tamaño finito! ¿Existe una situación física como esta?
+
+Observe la partícula cuyo camino se traza en el dibujo. Observe cómo el camino &quot;envuelve&quot; el mundo. ¿Se parece el trazo al movimiento browniano? ¿Puedes reconocer cuando ocurre una colisión? ¿Qué factores afectan la frecuencia de las colisiones? ¿Qué pasa con la &quot;angularidad&quot; del camino? ¿Podrías conseguir que se mantuviera &quot;local&quot; o viajar por todo el mundo?
+
+¿De qué manera este modelo es una &quot;idealización&quot; del mundo real?
+
+##  COSAS PARA INTENTAR
+
+Coloca todas las partículas en una parte del mundo, o con el mismo título, ¿qué sucede? ¿Corresponde esto a una posibilidad física?
+
+Pruebe diferentes configuraciones, especialmente los extremos. ¿Los histogramas son diferentes? ¿Cambia el patrón de seguimiento?
+
+¿Hay otras cantidades interesantes de las que hacer un seguimiento?
+
+Busque o calcule el número * real *, el tamaño, la masa y la velocidad de las partículas en un gas típico. Cuando compara esos números con los del modelo, ¿le sorprende que este modelo funcione tan bien como lo hace? ¿Qué fenómenos físicos podrían observarse si realmente hubiera una pequeña cantidad de partículas grandes en el espacio que nos rodea?
+
+A menudo decimos que el espacio exterior es un vacío. ¿Es eso realmente cierto? ¿Cuántas partículas habría en un espacio del tamaño de esta computadora?
+
+##  EXTENDIENDO EL MODELO
+
+¿Podrías encontrar una manera de medir o expresar la &quot;temperatura&quot; de este gas imaginario? Intenta construir un termómetro.
+
+¿Qué pasa si hay partículas de diferentes masas? (Consulte el modelo &quot;GasLab Two Gas&quot;).
+
+¿Cómo definiría y calcularía la presión en este espacio &quot;ilimitado&quot;?
+
+¿Qué sucede si el gas está dentro de un contenedor en lugar de en un espacio ilimitado? (Consulte el modelo &quot;Gas en una caja&quot;).
+
+¿Qué pasa si las colisiones no son elásticas?
+
+¿En qué se diferencia este modelo 2-D del modelo 3-D?
+
+Configure solo dos partículas para que choquen de frente. Esto puede ayudar a mostrar cómo funciona la regla de colisión. Recuerde que el eje de colisión se elige al azar cada vez.
+
+¿Qué pasaría si algunas de las partículas tuvieran una tendencia a la &quot;deriva&quot;, una fuerza que las empujara en una dirección? ¿Podría desarrollar un modelo de centrífuga o partículas cargadas en un campo eléctrico?
+
+Encuentre una manera de monitorear la frecuencia con la que chocan las partículas y qué tan lejos llegan, en promedio, entre las colisiones. Este último se denomina &quot;camino libre medio&quot;. ¿Qué factores afectan su valor?
+
+¿En qué se diferencia esta idealización de la utilizada para derivar la distribución de Maxwell-Boltzmann? Específicamente, ¿qué otro código podría usarse para representar las colisiones de partículas de dos cuerpos?
+
+Si llegan * más * de dos partículas al mismo parche, el código actual dice que no chocan. ¿Es esto un error? ¿Cómo afecta a los resultados?
+
+¿Este modelo es válido para fluidos en algún aspecto? ¿Cómo se puede hacer que sea fluido?
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Observe el uso de la primitiva &quot;histograma&quot;.
+
+Observe cómo las tortugas detectan las colisiones y cómo el código garantiza que las mismas dos partículas no chocan dos veces. ¿Qué pasa si dejamos que los parches los detecten?
+
+##  CRÉDITOS Y REFERENCIAS 
+
+This model was developed as part of the GasLab curriculum (http://ccl.northwestern.edu/curriculum/gaslab/) and has also been incorporated into the Connected Chemistry curriculum (http://ccl.northwestern.edu/curriculum/ConnectedChemistry/)
+
+This was one of the original Connection Machine StarLogo applications (under the name GPCEE) and is now ported to NetLogo as part of the Participatory Simulations project.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1997).  NetLogo GasLab Free Gas model.  http://ccl.northwestern.edu/netlogo/models/GasLabFreeGas.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1997 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was developed at the MIT Media Lab using CM StarLogo.  See Wilensky, U. (1993). Thesis - Connected Mathematics: Building Concrete Relationships with Mathematical Knowledge. Adapted to StarLogoT, 1997, as part of the Connected Mathematics Project.  Adapted to NetLogo, 2002, as part of the Participatory Simulations Project.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2002.
+
+<!-- 1997 2002 Wilensky -->

@@ -1,0 +1,174 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
+## Plots
+### Source
+avg-energy
+### Spanish ***
+energía media
+
+### Source
+avg-speed
+### Spanish ***
+la velocidad promedio
+
+### Source
+count
+### Spanish ***
+contar
+
+### Source
+count (%)
+### Spanish ***
+contar (%)
+
+### Source
+default
+### Spanish ***
+defecto
+
+### Source
+Density Histogram
+### Spanish ***
+Histograma de densidad
+
+### Source
+energy
+### Spanish ***
+energía
+
+### Source
+Energy Histogram
+### Spanish ***
+Histograma de energía
+
+### Source
+Energy vs. Height
+### Spanish ***
+Energía frente a altura
+
+### Source
+fast
+### Spanish ***
+rápido
+
+### Source
+height
+### Spanish ***
+altura
+
+### Source
+init-avg-energy
+### Spanish ***
+init-avg-energy
+
+### Source
+init-avg-speed
+### Spanish ***
+init-avg-speed
+
+### Source
+medium
+### Spanish ***
+medio
+
+### Source
+slow
+### Spanish ***
+lento
+
+### Source
+speed
+### Spanish ***
+velocidad
+
+### Source
+Speed Counts
+### Spanish ***
+Conteos de velocidad
+
+### Source
+Speed Histogram
+### Spanish ***
+Histograma de velocidad
+
+### Source
+time
+### Spanish ***
+hora
+
+## Widgets
+### Source
+average energy
+### Spanish ***
+energía media
+
+### Source
+average speed
+### Spanish ***
+velocidad media
+
+### Source
+clear trace
+### Spanish ***
+rastro claro
+
+### Source
+collide?
+### Spanish ***
+¿chocar?
+
+### Source
+go/stop
+### Spanish ***
+ir / parar
+
+### Source
+gravity-acceleration
+### Spanish ***
+aceleración por gravedad
+
+### Source
+init-particle-speed
+### Spanish ***
+init-partícula-velocidad
+
+### Source
+number-of-particles
+### Spanish ***
+número de partículas
+
+### Source
+particle-mass
+### Spanish ***
+masa de partículas
+
+### Source
+percent fast
+### Spanish ***
+porcentaje rápido
+
+### Source
+percent lost particles
+### Spanish ***
+porcentaje de partículas perdidas
+
+### Source
+percent medium
+### Spanish ***
+porcentaje medio
+
+### Source
+percent slow
+### Spanish ***
+porcentaje lento
+
+### Source
+setup
+### Spanish ***
+preparar
+
+### Source
+trace?
+### Spanish ***
+¿rastro?
+

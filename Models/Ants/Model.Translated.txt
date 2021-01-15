@@ -1,0 +1,59 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
+## Plots
+### Source
+food
+### Spanish ***
+comida
+
+### Source
+Food in each pile
+### Spanish ***
+Comida en cada pila
+
+### Source
+food-in-pile1
+### Spanish ***
+comida-en-pila1
+
+### Source
+food-in-pile2
+### Spanish ***
+comida-en-pila2
+
+### Source
+food-in-pile3
+### Spanish ***
+comida en pila3
+
+### Source
+time
+### Spanish ***
+hora
+
+## Widgets
+### Source
+diffusion-rate
+### Spanish ***
+tasa de difusión
+
+### Source
+evaporation-rate
+### Spanish ***
+Tasa de evaporación
+
+### Source
+go
+### Spanish ***
+Vamos
+
+### Source
+population
+### Spanish ***
+población
+
+### Source
+setup
+### Spanish ***
+preparar
+

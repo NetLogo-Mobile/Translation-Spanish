@@ -1,0 +1,98 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Que es
+
+El modelo BeeSmart Master muestra la inteligencia del enjambre de abejas durante su proceso de búsqueda de colmenas. Un enjambre de decenas de miles de abejas puede elegir con precisión el mejor sitio de colmena nuevo disponible entre docenas de opciones potenciales a través del comportamiento autoorganizado.
+
+El mecanismo de este modelo se basa en Honeybee Democracy (Seeley, 2010) con algunas modificaciones y simplificaciones. Una simplificación es que este modelo solo muestra las abejas exploradoras: una población del 3-5% de todo el enjambre que participa activamente en el proceso de toma de decisiones. Otras abejas se quedan fuera porque simplemente siguen a los exploradores a la nueva colmena cuando se toma una decisión. Dejar fuera a los no exploradores reduce la carga computacional y hace que este modelo sea más claro visualmente.
+
+Este modelo es también el primero de una serie de modelos en una unidad curricular de investigación científica basada en modelos computacionales “BeeSmart”, diseñada para ayudar a estudiantes de secundaria y universitarios a aprender principios de sistemas complejos como conceptos transversales en el aprendizaje de las ciencias. Próximamente llegarán modelos posteriores.
+
+##  COMO FUNCIONA
+
+En cada CONFIGURACIÓN, se colocan 100 abejas exploradoras en el centro de la vista. Mientras tanto, un cierto número (determinado por el control deslizante &quot;número de colmena&quot;) de posibles sitios de colmena se colocan aleatoriamente alrededor del enjambre.
+
+Al hacer clic en IR, los exploradores iniciales (cuya proporción está determinada por el control deslizante de &quot;porcentaje inicial&quot;) se alejan del enjambre en diferentes direcciones para explorar el espacio circundante. Explorarán el espacio durante un máximo de &quot;tiempo de exploración inicial&quot;. Si un explorador se topa con un posible sitio de colmena, lo inspecciona. De lo contrario, vuelve al enjambre y permanece inactiva.
+
+Cuando un explorador descubre un posible sitio de colmena, lo inspecciona para conocer su ubicación, color y calidad. Luego vuela de regreso al enjambre para anunciar el sitio a través de bailes de meneo. Cuanto mejor sea la calidad de la colmena, cuanto más bailen los exploradores, más fácil será que las abejas ociosas vean estos bailes en el enjambre, y es más probable que las abejas ociosas sigan los bailes para inspeccionar el sitio de la colmena anunciado. Después de la inspección del sitio anunciado por una abeja recién incorporada, la nueva abeja vuela de regreso al enjambre y expresa sus propias opiniones sobre el sitio a través de bailes de meneo. Las abejas vuelven a visitar los sitios que defendían, pero sus intereses en el sitio disminuyen después de cada visita. La publicidad de diferentes sitios continúa en paralelo en el enjambre, pero los sitios de alta calidad atraen cada vez a más abejas, mientras que los de baja calidad son gradualmente ignorados.
+
+Cuando las abejas en un determinado sitio de la colmena observan un cierto número de abejas en el mismo sitio, o, en otras palabras, cuando se alcanza el &quot;quórum&quot;, vuelan de regreso al enjambre y comienzan a &quot;canalizar&quot; para anunciar que se ha tomado una decisión. sido hecho. Cualquier abeja que escuche la tubería también lo hará, lo que hace que la tubería se extienda rápidamente por el enjambre. Cuando todas las abejas están cantando, todo el enjambre despega para moverse al sitio de la colmena ganadora y el modelo se detiene.
+
+Normalmente, un explorador inicial pasa por los estados de &quot;descubrir&quot; -&gt; &quot;inspeccionar-colmena&quot; -&gt; &quot;ir a casa&quot; -&gt; &quot;bailar&quot; -&gt; &quot;volver a visitar&quot; -&gt; &quot;tubería&quot;; y los exploradores no iniciales siguen una secuencia de estados ligeramente diferente: &quot;ver-bailar&quot; -&gt; &quot;volver a visitar&quot; -&gt; &quot;inspeccionar-colmena&quot; -&gt; &quot;volver a casa&quot; -&gt; &quot;bailar&quot; -&gt; &quot;volver a visitar ”-&gt;“ tubería ”.
+
+##  COMO USARLO
+
+Utilice los controles deslizantes para definir las condiciones iniciales del modelo. Los valores predeterminados generalmente garantizan una búsqueda exitosa de la colmena, pero se anima a los usuarios a cambiar esta configuración y ver cómo afecta cada parámetro al proceso.
+
+Haga clic en CONFIGURAR después de configurar los parámetros con los controles deslizantes. Luego haga clic en IR y observe cómo se desarrolla el fenómeno. Cambia el botón &quot;Mostrar / Ocultar ruta de baile&quot; para mostrar u ocultar las rutas de baile. Utilice el botón &quot;Mostrar / Ocultar Scouts&quot; para ocultar las abejas si bloquean su vista de las pistas de baile.
+
+##  COSAS PARA NOTAR
+
+Observe las tres gráficas a la derecha del modelo:
+
+La trama “comprometida” muestra la cantidad de exploradores que están comprometidos a inspeccionar y defender cada sitio de colmena; El gráfico &quot;en el sitio&quot; muestra el recuento de abejas en cada sitio; La gráfica de &quot;observación versus trabajo&quot; muestra el cambio en el número de abejas inactivas y activas.
+
+Observe cómo la información sobre varios sitios se lleva al enjambre en el centro de la vista y cómo cambia la preferencia del enjambre con el tiempo.
+
+Observe si el momento de descubrir el mejor sitio de colmena afecta la decisión del enjambre.
+
+Acérquese y compare el &quot;entusiasmo&quot; de los bailes por los sitios de alta calidad con los de los de baja calidad. Las abejas no solo bailan más tiempo, sino también con más entusiasmo (o más rápido, en este modelo, cuando están dando vueltas) para sitios de mayor calidad.
+
+##  COSAS PARA INTENTAR
+
+Haga clic derecho en cualquier explorador y seleccione &quot;Ver&quot; en el menú contextual. Aparecería un halo alrededor del explorador para ayudarlo a realizar un seguimiento de su movimiento.
+
+Configure los controles deslizantes a diferentes valores y observe cómo estos parámetros afectan la dinámica del proceso.
+
+Utilice el control deslizante de velocidad en la parte superior del modelo para reducir la velocidad del modelo y observar los bailes de meneo.
+
+Use “Control +” o “Comando +” para acercar y ver los colores de las abejas.
+
+##  EXTENDIENDO EL MODELO
+
+Este modelo muestra el fenómeno de búsqueda de colmenas de las abejas como un proceso continuo. Sin embargo, en realidad, este proceso puede durar algunos días. Las abejas descansan durante la noche. Las condiciones climáticas también pueden afectar este proceso. Agregar estos factores al modelo puede hacer que represente con mayor precisión el fenómeno en el mundo real.
+
+Actualmente, las cualidades del sitio no se pueden controlar desde la interfaz. Se pueden agregar algunos elementos de la interfaz de entrada para permitir a los usuarios especificar la calidad de cada colmena.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Este modelo es esencialmente una máquina de estados. Las abejas se comportan de manera diferente en diferentes estados. Las tareas de comando se utilizan mucho en este modelo para simplificar los cambios entre estados y mejorar el rendimiento del modelo.
+
+Los corrales de las parcelas son corrales de parcelas temporales generados dinámicamente, que coinciden con el número de sitios de colmena que determinan los usuarios.
+
+Los patrones de danza se generan dinámicamente, que muestran la dirección, la distancia y la calidad de la colmena anunciada.
+
+##  MODELOS RELACIONADOS 
+
+Wilensky, U. (1997). NetLogo Ants model. http://ccl.northwestern.edu/netlogo/models/Ants. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Wilensky, U. (2003). NetLogo Honeycomb model. http://ccl.northwestern.edu/netlogo/models/Honeycomb. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  CRÉDITOS Y REFERENCIAS 
+
+Seeley, T. D. (2010). Honeybee democracy. Princeton, NJ: Princeton University Press.
+
+Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University. Evanston, IL.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Guo, Y. and Wilensky, U. (2014).  NetLogo BeeSmart Hive Finding model.  http://ccl.northwestern.edu/netlogo/models/BeeSmartHiveFinding.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2014 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2014 Cite: Guo, Y. -->

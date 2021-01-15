@@ -1,0 +1,101 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Que es
+
+Color Fractions muestra la forma decimal de una fracción como un patrón de colores. Esto le permite investigar cómo los patrones resultantes se relacionan con la fracción original.
+
+##  COMO FUNCIONA
+
+El programa calcula los dígitos del decimal de la misma manera que lo haría usando una división larga en papel.
+
+Toma el numerador y lo divide por el denominador; el resultado es un dígito. El resto de la división, lo multiplicamos por 10 y lo tomamos como el nuevo numerador, luego lo repetimos.
+
+Por ejemplo, estos serían los pasos para calcular 1/7:
+
+* 7 entra en 10 veces; 10 veces el resto es 10
+* 7 entra en 10 1 vez; 10 veces el resto es 30
+* 7 entra en 30 4 veces; 10 veces el resto es 20
+* 7 entra en 20 2 veces; 10 veces el resto es 60
+* 7 entra en 60 8 veces; 10 veces el resto es 40
+
+Y así para siempre. Entonces el resultado es 0.1428 ...
+
+Para hacer el patrón de colores, cada dígito, del 0 al 9, se muestra en su propio color. Por ejemplo, 0 es gris, 1 es rojo claro, 2 es naranja, etc.
+
+##  COMO USARLO
+
+Presione el botón SETUP, luego presione GO.
+
+Ahora ajusta los controles deslizantes del numerador y del denominador para hacer cualquier fracción.
+
+También puede usar el control deslizante ANCHO para cambiar el número total de dígitos por fila. Cambiar el ancho puede hacer que los patrones sean más fáciles o más difíciles de ver.
+
+##  COSAS PARA NOTAR
+
+La misma fracción siempre da el mismo patrón.
+
+Algunos patrones se detienen después de unos pocos dígitos, mientras que otros se repiten para siempre. (¿Se repiten todas las fracciones?)
+
+¿Dos fracciones dan alguna vez el mismo patrón?
+
+##  COSAS PARA INTENTAR
+
+¿Qué tipo de patrones puedes generar con fracciones? ¿Puedes crear un tablero de ajedrez? ¿Puedes hacer rayas verticales?
+
+¿Qué sucede si prueba diferentes numeradores con el mismo denominador? ¿Qué tienen en común los patrones que obtienes? Prueba este experimento con varios denominadores diferentes.
+
+El &quot;período&quot; de una fracción es la cantidad de dígitos que se repiten para formar el patrón. Por ejemplo, 1/3 es 0.33333 ... que repite el mismo dígito una y otra vez, por lo que el período es 1. Observa el patrón de la fracción 1/7; el período es 6. Y así sucesivamente.
+
+¿Cómo se relaciona el período de una fracción 1 / n con n? ¿Cómo se relacionan los períodos de la familia de fracciones 1/7, 2/7, ...?
+
+¿Cuántas fracciones puedes encontrar que tengan el mismo número de dígitos repetidos?
+
+¿Qué fracción se aproxima mejor a pi (3,141592 ...)?
+
+##  EXTENDIENDO EL MODELO
+
+Cambie los colores para que los números impares sean todos de un color y los números pares sean de otro color.
+
+Cambie los colores para que solo use un color, pero varíe la claridad / oscuridad.
+
+Modifique el programa para que pueda visualizar raíces cuadradas y pi.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Las etiquetas de parche se utilizan para mostrar los dígitos.
+
+Puede usar la primitiva `sort` para crear una lista de parches ordenados de izquierda a derecha, de arriba a abajo. Eso es necesario en este modelo porque necesitamos que los parches se ejecuten en el mismo orden en cada tic, en lugar de un orden aleatorio diferente en cada tic, como sucedería si solo dijéramos &quot;ask patches&quot;.
+
+##  MODELOS RELACIONADOS 
+
+Division
+
+##  CRÉDITOS Y REFERENCIAS 
+
+This model is adapted from a few resources that are no longer available: [Color Calculator Information for teachers and Color Calculator](http://tapor.ca/home).
+
+This model implements activities originally published in:
+Nathalie Sinclair, Rina Zazkis and Peter Liljedahl.  Number Worlds: Visual and Experimental Access to Elementary Number Theory Concepts.  International Journal of Computers for Mathematical Learning, Volume 8, Number 3, pages 235 - 263, January 2003.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (2005).  NetLogo Color Fractions model.  http://ccl.northwestern.edu/netlogo/models/ColorFractions.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2005 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2005 -->

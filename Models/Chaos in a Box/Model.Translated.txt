@@ -1,0 +1,48 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
+## Widgets
+### Source
+clear-drawing
+### Spanish ***
+dibujo claro
+
+### Source
+drag
+### Spanish ***
+arrastrar
+
+### Source
+go
+### Spanish ***
+Vamos
+
+### Source
+num-obstacles
+### Spanish ***
+num-obstáculos
+
+### Source
+setup-periodic-quilt
+### Spanish ***
+configuración-edredón-periódico
+
+### Source
+setup-periodic-x
+### Spanish ***
+configuración-periódica-x
+
+### Source
+setup-random
+### Spanish ***
+configuración aleatoria
+
+### Source
+trace-path?
+### Spanish ***
+ruta de rastreo?
+
+### Source
+two-balls?
+### Spanish ***
+dos bolas?
+

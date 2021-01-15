@@ -1,4 +1,5 @@
-﻿## Language = Spanish
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
 ## Plots
 ### Source
 Car speeds
@@ -60,6 +61,11 @@ Aceleración 
 Accuracy of Driving Rules
 ### Spanish
 Precisión de las Reglas de Conducción
+
+### Source
+Authors: Charles Cheng, John Chen. Based on NetLogo Traffic Basic model by Uri Wilensky.
+### Spanish ***
+Autores: Charles Cheng, John Chen. Basado en el modelo NetLogo Traffic Basic de Uri Wilensky.
 
 ### Source
 Congratulations! 

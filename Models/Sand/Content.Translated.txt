@@ -1,0 +1,77 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Que es
+
+Este es un modelo de cómo las partículas de arena interactúan entre sí. En este entorno, todas las partículas de arena intentan descender si se aplica alguna de las siguientes cuatro reglas. Las cuatro reglas son:
+
+1. Si no hay nada directamente debajo de usted, muévase hacia abajo.
+2. Si hay algo debajo de usted y en la parte inferior derecha, muévase hacia abajo y hacia la izquierda.
+3. Si hay algo debajo de usted y en la parte inferior izquierda, muévase hacia abajo y hacia la derecha.
+4. Si solo hay algo directamente debajo de usted, muévase hacia abajo y hacia la izquierda o hacia la derecha al azar.
+
+##  COMO USARLO
+
+GO: inicia y detiene la simulación.
+
+CONFIGURACIÓN: configura el modelo.
+
+PROBABILIDAD DE LIBERACIÓN: Determina el porcentaje de probabilidad de que una partícula de arena caiga de un pico cada turno (valor predeterminado de 100%).
+
+ESPACIAMIENTO: Determina cuánto tiempo espera un pico antes de liberar la siguiente partícula de arena.
+
+DUMP SAND: Descarga arena sobre todo el modelo según el nivel de densidad. Use esto solo después de haber presionado SETUP.
+
+DENSIDAD: Establece la densidad de las partículas de arena vertidas en DUMP SAND (valor predeterminado del 25%). Por ejemplo, si se establece la densidad en 40, al azar se llenará el 40 por ciento de los parches con arena.
+
+##  COSAS PARA NOTAR
+
+Observe cómo la arena se desliza por una &quot;montaña&quot; de partículas de arena. Considere cómo este fenómeno está respaldado por las reglas. Observe los patrones que se forman cuando dos &quot;montañas&quot; de arena se juntan entre sí.
+
+##  COSAS PARA INTENTAR
+
+Observe cómo los picos formarán pirámides de arena uniformes. Pruebe DUMP SAND a baja densidad una vez que tenga una forma piramidal relativamente grande. ¿Cómo afecta esto a la forma de la pirámide? ¿La pirámide vuelve alguna vez a su forma original?
+
+Intente disminuir RELEASE-CHANCE. ¿Qué efecto tiene esto en la tasa de crecimiento de las &quot;montañas&quot; de arena?
+
+Establezca el ESPACIO en 1. (Deberá editar el control deslizante, ya que el mínimo normal es 2.) ¿Qué sucede? ¿Es esto solo una limitación de las reglas modelo, o tiene alguna interpretación física plausible?
+
+##  EXTENDIENDO EL MODELO
+
+En la pestaña Código, observe la variable &quot;spout-space&quot;. Intente cambiar el número de picos en la parte superior de la vista cambiando &quot;spout-space&quot;.
+
+¿Este modelo refleja con precisión cómo se comporta la arena? Si no, ¿qué reglas podría diseñar para modelar con mayor precisión el comportamiento de la arena? ¿Cómo incorporarlos al modelo?
+
+¿Qué efecto tiene el peso sobre las partículas de arena? ¿Deberían las partículas con muchas partículas por encima de ellas comportarse de manera diferente? Si es así, ¿cómo cambiaría esto las reglas?
+
+Intente simular la erosión con este modelo. ¿Cómo puedes simular el viento? ¿Qué efecto tendría esto en la forma de las pilas? ¿Cómo puedes simular la lluvia? ¿Qué efecto tendría esto en la forma de las pilas?
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Observe cómo el modelo almacena un conjunto de agentes en una variable, &quot;spout-patches&quot;. Se inicializa con el conjunto de agentes de los parches donde se encuentran los spouts. Posteriormente, esta variable se puede utilizar en un comando `ask` como los conjuntos de agentes predeterminados de` turtles` y `patches`. Dado que el conjunto de agentes se crea una vez, antes de tiempo, los modelos se ejecutan más rápido que si el conjunto de agentes se reconstruyera en cada paso.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1996).  NetLogo Sand model.  http://ccl.northwestern.edu/netlogo/models/Sand.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1996 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1996 2001 -->

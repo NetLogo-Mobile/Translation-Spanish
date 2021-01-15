@@ -1,0 +1,68 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
+## Widgets
+### Source
+display-color
+### Spanish ***
+color de la pantalla
+
+### Source
+go
+### Spanish ***
+Vamos
+
+### Source
+num-turtles
+### Spanish ***
+num-tortugas
+
+### Source
+setup-cone
+### Spanish ***
+cono de instalación
+
+### Source
+setup-cube-filled
+### Spanish ***
+configuración-cubo-lleno
+
+### Source
+setup-cube-surface
+### Spanish ***
+setup-cube-surface
+
+### Source
+setup-cylinder-h
+### Spanish ***
+configuración-cilindro-h
+
+### Source
+setup-cylinder-v
+### Spanish ***
+configuración-cilindro-v
+
+### Source
+setup-pyramid
+### Spanish ***
+configuración-pirámide
+
+### Source
+setup-sphere
+### Spanish ***
+configuración-esfera
+
+### Source
+shape-size
+### Spanish ***
+tamaño de la forma
+
+### Source
+theta-velocity
+### Spanish ***
+theta-velocidad
+
+### Source
+view
+### Spanish ***
+ver
+

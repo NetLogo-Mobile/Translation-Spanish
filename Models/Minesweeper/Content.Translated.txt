@@ -1,0 +1,84 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Que es
+
+Este es un juego de estrategia. Hay minas terrestres escondidas debajo del paisaje verde. Su trabajo consiste en localizar todas las minas sin hacer explotar ninguna.
+
+##  COMO FUNCIONA
+
+Si hace haz clic en un parche de césped sin mina, aparece un número. El número te dice cuántas minas adyacentes hay.
+
+Si haces haz clic en una mina, la mina explota y pierdes el juego.
+
+Ganas el juego al descubrir todos los cuadrados que no tienen una mina.
+
+Si pierdes, la tierra se pone roja. Si ganas, se vuelve azul.
+
+##  COMO USARLO
+
+Presione SETUP para configurar el tablero, luego presione GO para jugar.
+
+Mientras presiona GO, haz clic en los cuadrados verdes para verificar si hay minas.
+
+Para ayudarte a recordar dónde crees que están las minas, puedes marcar un cuadrado apuntándolo y presionando la tecla M. (Tenga en cuenta la M en la esquina del botón MARK / UNMARK. Si la M está atenuada, oculte el centro de comando).
+
+Puede hacer el juego más fácil o más difícil ajustando el control deslizante MINE-COUNT antes de presionar SETUP.
+
+##  COSAS PARA NOTAR
+
+Utilice los números para deducir dónde es seguro hacer clic y dónde no.
+
+¿Puede saber siempre dónde es seguro hacer clic o tiene que adivinar a veces?
+
+Tenga en cuenta que cuando hace clic en una región vacía, el modelo le ahorra tiempo al borrar automáticamente todas las celdas vacías circundantes. Esto evita que el juego sea tedioso.
+
+##  COSAS PARA INTENTAR
+
+Intenta ganar el juego lo más rápido posible. Su hora aparece en el monitor CLOCK.
+
+Intente jugar con un tablero más grande o más pequeño editando la vista y ajustando min-p (x / y) cor y max-p (x / y) cor.
+
+##  EXTENDIENDO EL MODELO
+
+Escriba un archivo en el disco que contenga los mejores tiempos que los jugadores han logrado hasta ahora para un tamaño de tablero determinado. Actualice el archivo cuando alguien le gane un tiempo anterior.
+
+Escribe un jugador de computadora que pueda jugar el juego automáticamente. ¿Qué estrategia debería utilizar?
+
+Modifica el juego para usar una cuadrícula hexagonal en lugar de una cuadrada. (Consulte Ejemplo de celdas hexagonales, en Ejemplos de código, para ver cómo hacer una cuadrícula hexagonal).
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+La primitiva `vecinos` se usa para encontrar cuadrados vecinos.
+
+##  MODELOS RELACIONADOS 
+
+Some of the models in Cellular Automata section, under Computer Science, also have rules based on how many neighboring cells are occupied.
+
+##  CRÉDITOS Y REFERENCIAS 
+
+According to https://en.wikipedia.org/wiki/Minesweeper_%28computer_game%29, Minesweeper was invented by Robert Donner in 1989.  A version of the game is included with the Windows operating system.
+
+Landmines are a real problem that kills people every day. To learn more about the campaign to ban landmines, see http://www.icbl.org/en-gb/home.aspx
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (2005).  NetLogo Minesweeper model.  http://ccl.northwestern.edu/netlogo/models/Minesweeper.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2005 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2005 -->

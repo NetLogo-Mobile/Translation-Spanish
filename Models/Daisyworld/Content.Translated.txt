@@ -1,0 +1,94 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Que es
+
+Este modelo explora la &quot;hipótesis de Gaia&quot;, que considera a la Tierra como un sistema único y autorregulado que incluye partes vivas y no vivas. En particular, este modelo explora cómo los organismos vivos se alteran y son alterados por el clima, que no es vivo. Los organismos de ejemplo son las margaritas y el factor climático considerado es la temperatura.
+
+Daisyworld es un mundo lleno de dos tipos diferentes de margaritas: margaritas negras y margaritas blancas. Se diferencian en el albedo, que es la cantidad de energía que absorben como calor de la luz solar. Las margaritas blancas tienen un albedo de superficie alto y, por lo tanto, reflejan la luz y el calor, enfriando así el área que las rodea. Las margaritas negras tienen un albedo superficial bajo y, por lo tanto, absorben la luz y el calor, calentando así el área que las rodea. Sin embargo, solo hay un cierto rango de temperatura en el que las margaritas pueden reproducirse; si la temperatura alrededor de una margarita está fuera de este rango, la margarita no producirá descendencia y eventualmente morirá de vejez.
+
+Cuando el clima es demasiado frío es necesario que las margaritas negras se propaguen para subir la temperatura, y viceversa; cuando el clima es demasiado cálido, es necesario producir más margaritas blancas para enfriar la temperatura. . Para una amplia gama de configuraciones de parámetros, la temperatura y la población de margaritas eventualmente se estabilizarán. Sin embargo, es posible que Daisyworld se caliente o enfríe demasiado, en cuyo caso las margaritas no pueden controlar la temperatura y todas las margaritas eventualmente morirán.
+
+##  COMO FUNCIONA
+
+Las margaritas blancas, las margaritas negras y el campo abierto (parcelas vacías) tienen cada una un albedo o porcentaje de energía que absorben como calor de la luz solar. La energía de la luz solar se puede cambiar con el control deslizante SOLAR-LUMINOSITY (un valor de 1.0 simula la luminosidad solar promedio de nuestro sol).
+
+Cada paso de tiempo, cada parche calculará la temperatura en ese lugar basándose en (1) la energía absorbida por la margarita en ese parche y (2) la difusión del 50% del valor de temperatura en ese parche entre sus vecinos. Los parches de campo abierto que están adyacentes a una margarita tienen una probabilidad de que brote una margarita del mismo color que la margarita vecina, según una función de probabilidad parabólica que depende de la temperatura local (donde una temperatura óptima de 22.5 produce una probabilidad máxima de 100% de brotar una nueva margarita). Las margaritas envejecen en cada paso de la simulación hasta que alcanzan una edad máxima, momento en el que mueren y el parche en el que estaban se abre.
+
+##  COMO USARLO
+
+INICIO -% - BLANCOS y INICIO -% - NEGROS establece el porcentaje inicial de parches que serán ocupados por margaritas (de cualquier color) después de presionar SETUP.
+
+Seleccionando PAINT-DAISIES-AS y presionando PAINT-DAISIES permite al usuario dibujar o borrar margaritas en la VISTA, haciendo clic izquierdo en los parches.
+
+ALBEDO-OF-WHITES y ALBEDO-OF-BLACKS establece la cantidad de calor absorbido por cada uno de estos colores de margarita. ALBEDO-OF-SURFACE establece la cantidad de calor absorbido por un parche vacío.
+
+La LUMINOSIDAD SOLAR establece la cantidad de energía incidente en cada parche de la luz solar. Pero este valor solo permanecerá fijo en el valor establecido por el usuario si el selector de ESCENARIO está configurado para &quot;mantener la luminosidad actual&quot;. Otros valores de este selector cambiarán los valores del albedo. Por ejemplo, &quot;ramp-up-ramp-down&quot; iniciará la luminosidad solar en un valor bajo, luego comenzará a aumentarla a un valor alto y luego la bajará nuevamente durante el transcurso de la ejecución del modelo.
+
+¿MOSTRAR MAPA DE TEMPERATURA? muestra un mapa de colores de la temperatura en cada parche. El rojo claro representa temperaturas más altas y el rojo más oscuro representa temperaturas más frías.
+
+##  COSAS PARA NOTAR
+
+Ejecute la simulación. ¿Qué pasa con las margaritas? ¿Las poblaciones se mantienen estables alguna vez? ¿Ha habido auges y caídas de población alguna vez? Si es así, ¿qué los causa? (Pista: ¿cómo afectan las margaritas al clima? ¿Cómo afecta entonces el clima a las margaritas?)
+
+¿Qué sucede si los ciclos de auge y caída se hacen cada vez más grandes? Los columpios no pueden seguir creciendo para siempre.
+
+¿El planeta alguna vez se llenó completamente de vida o se despojó completamente de vida?
+
+Intente ejecutar la simulación sin las margaritas. ¿Qué pasa con la temperatura del planeta? ¿En qué se diferencia de lo que pasa con las margaritas?
+
+¿Se puede decir que el sistema Daisyworld exhibe &quot;histéresis&quot;? La histéresis es una propiedad de los sistemas que no siguen instantáneamente las fuerzas que se les aplican, sino que reaccionan lentamente o no regresan completamente a su estado original. El estado de tales sistemas depende de su historia inmediata.
+
+##  COSAS PARA INTENTAR
+
+Intente ejecutar el modelo con SHOW-DAISIES? apagado y SHOW-TEMP-MAP? en. Es posible que pueda ver patrones espaciales interesantes que surgen en concentraciones de temperatura y redistribución periódica de regiones de temperatura más fácilmente en este modo.
+
+Intente ajustar la configuración de difusión de temperatura fija en los procedimientos (cámbiela de 0,5). ¿Qué sucede con el comportamiento de Daisyworld si la temperatura nunca se difunde (establecida en 0.0)?
+
+##  EXTENDIENDO EL MODELO
+
+Las margaritas blancas y negras representan dos tipos extremos de margaritas que podrían existir en este mundo. Implementa una tercera especie de margarita. Deberá elegir qué hace su margarita y en qué se diferencia de las margaritas blancas y negras. ¿Cómo afecta su nueva margarita a los resultados de este modelo?
+
+La luz solar es solo un aspecto que controla el crecimiento de las margaritas y otras formas de vida. Cambie el modelo para que diferentes partes del mundo tengan diferentes niveles de calidad del suelo. ¿Cómo afectará esto al resultado?
+
+Mucha gente siente que la hipótesis de Gaia puede verse alterada por causas humanas. Implementar contaminación en el modelo. ¿Esto hace que las margaritas se mueran más rápido o con más frecuencia?
+
+¿Puedes pensar en otras formas en las que los organismos vivos se alteran y son alterados por su entorno?
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Utiliza la primitiva &quot;difusa&quot; para distribuir el calor entre parches.
+
+##  MODELOS RELACIONADOS 
+
+An alternate Daisyworld model is listed on the [User Community Models](http://ccl.northwestern.edu/netlogo/models/community/) page. It uses patches only, no turtles.
+
+##  CRÉDITOS Y REFERENCIAS 
+
+The Daisyworld model was first proposed and implemented by Lovelock and Andrew Watson. The original Gaia hypothesis is due to Lovelock.
+
+Watson, A.J., and J.E. Lovelock, 1983, "Biological homeostasis of the global environment: the parable of Daisyworld", Tellus 35B, 286-289. (The original paper by Watson and Lovelock introducing the Daisyworld model.)
+
+Wikipedia also has a high-level description of the Daisyworld model: https://en.wikipedia.org/wiki/Daisyworld.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Novak, M. and Wilensky, U. (2006).  NetLogo Daisyworld model.  http://ccl.northwestern.edu/netlogo/models/Daisyworld.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2006 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2006 Cite: Novak, M. -->

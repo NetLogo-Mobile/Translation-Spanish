@@ -1,0 +1,70 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Que es
+
+En este proyecto, una colonia de hormigas busca alimento. Aunque cada hormiga sigue un conjunto de reglas simples, la colonia en su conjunto actúa de manera sofisticada.
+
+##  COMO FUNCIONA
+
+Cuando una hormiga encuentra un trozo de comida, la lleva de regreso al nido, dejando caer una sustancia química mientras se mueve. Cuando otras hormigas &quot;huelen&quot; la sustancia química, la siguen hacia la comida. A medida que más hormigas llevan comida al nido, refuerzan el rastro químico.
+
+##  COMO USARLO
+
+Haga clic en el botón CONFIGURAR para configurar el hormiguero (en violeta, en el centro) y tres pilas de comida. Haga clic en el botón IR para iniciar la simulación. La sustancia química se muestra en un gradiente de verde a blanco.
+
+El control deslizante EVAPORATION-RATE controla la tasa de evaporación del químico. El control deslizante DIFFUSION-RATE controla la velocidad de difusión del químico.
+
+Si desea cambiar el número de hormigas, mueva el control deslizante POBLACIÓN antes de presionar CONFIGURAR.
+
+##  COSAS PARA NOTAR
+
+La colonia de hormigas generalmente explota la fuente de alimento en orden, comenzando con el alimento más cercano al nido y terminando con el alimento más alejado del nido. Es más difícil para las hormigas formar un rastro estable hacia el alimento más distante, ya que el rastro químico tiene más tiempo para evaporarse y difundirse antes de ser reforzado.
+
+Una vez que la colonia termina de recolectar el alimento más cercano, el rastro químico de ese alimento desaparece naturalmente, liberando hormigas para ayudar a recolectar las otras fuentes de alimento. Las fuentes de alimento más distantes requieren un mayor &quot;número crítico&quot; de hormigas para formar un sendero estable.
+
+El consumo de la comida se muestra en una gráfica. Los colores de las líneas en la gráfica coinciden con los colores de las pilas de alimentos.
+
+##  EXTENDIENDO EL MODELO
+
+Pruebe diferentes ubicaciones para las fuentes de alimentos. ¿Qué sucede si dos fuentes de alimento están equidistantes del nido? Cuando eso sucede en el mundo real, las colonias de hormigas suelen explotar una fuente y luego la otra (no al mismo tiempo).
+
+En este proyecto, las hormigas utilizan un &quot;truco&quot; para encontrar el camino de regreso al nido: siguen el &quot;olor del nido&quot;. Las hormigas reales utilizan una variedad de enfoques diferentes para encontrar el camino de regreso al nido. Intente implementar algunas estrategias alternativas.
+
+Las hormigas solo responden a niveles químicos entre 0.05 y 2. Se usa el límite inferior para que las hormigas no sean infinitamente sensibles. Intente eliminar el límite superior. ¿Lo que pasa? ¿Por qué?
+
+En el procedimiento &quot;químico ascendente&quot;, la hormiga &quot;sigue el gradiente&quot; del químico. Es decir, &quot;olfatea&quot; en tres direcciones y luego gira en la dirección donde la sustancia química es más fuerte. Es posible que desee probar variantes del procedimiento &quot;químico ascendente&quot;, cambiando el número y la ubicación de los &quot;olfateadores de hormigas&quot;.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+La primitiva &quot;difusa&quot; incorporada nos permite difundir la sustancia química fácilmente sin un código complicado.
+
+El primitivo &quot;parche a la derecha y adelante&quot; se usa para hacer que las hormigas huelan en diferentes direcciones sin realmente girar.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1997).  NetLogo Ants model.  http://ccl.northwestern.edu/netlogo/models/Ants.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1997 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was developed at the MIT Media Lab using CM StarLogo.  See Resnick, M. (1994) "Turtles, Termites and Traffic Jams: Explorations in Massively Parallel Microworlds."  Cambridge, MA: MIT Press.  Adapted to StarLogoT, 1997, as part of the Connected Mathematics Project.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 1998.
+
+<!-- 1997 1998 MIT -->

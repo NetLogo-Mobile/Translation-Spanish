@@ -1,0 +1,69 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
+## Plots
+### Source
+default
+### Spanish ***
+defecto
+
+### Source
+Global Temperature
+### Spanish ***
+Temperatura global
+
+## Widgets
+### Source
+add cloud
+### Spanish ***
+agregar nube
+
+### Source
+add CO2
+### Spanish ***
+agregar CO2
+
+### Source
+albedo
+### Spanish ***
+albedo
+
+### Source
+CO2 amount
+### Spanish ***
+Cantidad de CO2
+
+### Source
+go
+### Spanish ***
+Vamos
+
+### Source
+remove cloud
+### Spanish ***
+eliminar la nube
+
+### Source
+remove CO2
+### Spanish ***
+eliminar CO2
+
+### Source
+setup
+### Spanish ***
+preparar
+
+### Source
+sun-brightness
+### Spanish ***
+brillo del sol
+
+### Source
+temperature
+### Spanish ***
+temperatura
+
+### Source
+watch a ray
+### Spanish ***
+mira un rayo
+

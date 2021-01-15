@@ -1,0 +1,81 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Que es
+
+Este modelo demuestra la propagación de un virus a través de una red. Aunque el modelo es algo abstracto, una interpretación es que cada nodo representa una computadora y estamos modelando el progreso de un virus informático (o gusano) a través de esta red. Cada nodo puede estar en uno de tres estados: susceptible, infectado o resistente. En la literatura académica, este modelo a veces se denomina modelo SIR para epidemias.
+
+##  COMO FUNCIONA
+
+En cada paso de tiempo (tic), cada nodo infectado (de color rojo) intenta infectar a todos sus vecinos. Los vecinos susceptibles (de color verde) se infectarán con una probabilidad dada por el control deslizante VIRUS-SPREAD-CHANCE. Esto podría corresponder a la probabilidad de que alguien del sistema susceptible realmente ejecute el archivo adjunto de correo electrónico infectado.
+Los nodos resistentes (de color gris) no pueden infectarse. Esto puede corresponder a software antivirus actualizado y parches de seguridad que hacen que una computadora sea inmune a este virus en particular.
+
+Los ganglios infectados no se dan cuenta de inmediato de que están infectados. Solo de vez en cuando (determinado por el control deslizante VIRUS-CHECK-FREQUENCY) los nodos verifican si están infectados por un virus. Esto podría corresponder a un procedimiento de escaneo de virus programado regularmente, o simplemente a un ser humano que nota algo sospechoso sobre el comportamiento de la computadora. Cuando se ha detectado el virus, existe la probabilidad de que se elimine (determinado por el control deslizante RECOVERY-CHANCE).
+
+Si un nodo se recupera, existe alguna probabilidad de que se vuelva resistente a este virus en el futuro (dada por el control deslizante GAIN-RESISTANCE-CHANCE).
+
+Cuando un nodo se vuelve resistente, los vínculos entre él y sus vecinos se oscurecen, ya que ya no son posibles vectores de propagación del virus.
+
+##  COMO USARLO
+
+Usando los controles deslizantes, elija el NÚMERO-DE-NODOS y el NODO-GRADO PROMEDIO (número promedio de enlaces que salen de cada nodo).
+
+La red que se crea se basa en la proximidad (distancia euclidiana) entre nodos. Un nodo se elige al azar y se conecta al nodo más cercano al que aún no está conectado. Este proceso se repite hasta que la red tiene el número correcto de enlaces para dar el grado de nodo promedio especificado.
+
+El control deslizante INITIAL-OUTBREAK-SIZE determina cuántos de los nodos iniciarán la simulación infectados con el virus.
+
+Luego presione SETUP para crear la red. Presione GO para ejecutar el modelo. El modelo dejará de ejecutarse una vez que el virus se haya extinguido por completo.
+
+Los controles deslizantes VIRUS-SPREAD-CHANCE, VIRUS-CHECK-FREQUENCY, RECOVERY-CHANCE y GAIN-RESISTANCE-CHANCE (discutidos en &quot;Cómo funciona&quot; más arriba) se pueden ajustar antes de presionar GO, o mientras el modelo está funcionando.
+
+El gráfico ESTADO DE LA RED muestra el número de nodos en cada estado (S, I, R) a lo largo del tiempo.
+
+##  COSAS PARA NOTAR
+
+Al final de la carrera, una vez que el virus se ha extinguido, algunos nodos siguen siendo susceptibles, mientras que otros se han vuelto inmunes. ¿Cuál es la relación entre el número de ganglios inmunes y el número de ganglios susceptibles? ¿Cómo se ve afectado al cambiar el NODO-GRADO PROMEDIO de la red?
+
+##  COSAS PARA INTENTAR
+
+Establezca GAIN-RESISTANCE-CHANCE en 0%. ¿En qué condiciones seguirá desapareciendo el virus? ¿Cuánto tiempo se tarda? ¿Qué condiciones se requieren para que viva el virus? Si RECOVERY-CHANCE es mayor que 0, incluso si VIRUS-SPREAD-CHANCE es alto, ¿cree que si pudiera ejecutar el modelo para siempre, el virus podría seguir vivo?
+
+##  EXTENDIENDO EL MODELO
+
+Las redes informáticas reales en las que se propagan los virus generalmente no se basan en la proximidad espacial, como las redes que se encuentran en este modelo. Las redes informáticas reales muestran con mayor frecuencia una distribución de grado de enlace &quot;sin escala&quot;, algo similar a las redes creadas utilizando el modelo de vinculación preferencial. Intente experimentar con varias estructuras de red alternativas y observe cómo difiere el comportamiento del virus.
+
+Suponga que el virus se está propagando enviándose por correo electrónico a todos los que están en la libreta de direcciones de la computadora. Dado que estar en la libreta de direcciones de alguien no es una relación simétrica, cambie este modelo para usar enlaces dirigidos en lugar de enlaces no dirigidos.
+
+¿Puede modelar varios virus al mismo tiempo? ¿Cómo interactuarían? A veces, si una computadora tiene un malware instalado, es más vulnerable a ser infectado por más malware.
+
+Intente hacer un modelo similar a este, pero donde el virus tenga la capacidad de mutar. Estos virus que se modifican automáticamente son una amenaza considerable para la seguridad informática, ya que los métodos tradicionales de identificación de firmas de virus pueden no funcionar en su contra. En su modelo, los nodos que se vuelven inmunes pueden volver a infectarse si el virus ha mutado para volverse significativamente diferente de la variante que originalmente infectó el nodo.
+
+##  MODELOS RELACIONADOS 
+
+Virus, Disease, Preferential Attachment, Diffusion on a Directed Network
+
+##  CARACTERÍSTICAS DE NETLOGO 
+
+Links are used for modeling the network.  The `layout-spring` primitive is used to position the nodes and links such that the structure of the network is visually clear.
+
+Though it is not used in this model, there exists a network extension for NetLogo that you can download at: https://github.com/NetLogo/NW-Extension.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Stonedahl, F. and Wilensky, U. (2008).  NetLogo Virus on a Network model.  http://ccl.northwestern.edu/netlogo/models/VirusonaNetwork.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2008 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2008 Cite: Stonedahl, F. -->

@@ -1,0 +1,89 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
+## Plots
+### Source
+healthy
+### Spanish ***
+saludable
+
+### Source
+immune
+### Spanish ***
+inmune
+
+### Source
+people
+### Spanish ***
+personas
+
+### Source
+Populations
+### Spanish ***
+Poblaciones
+
+### Source
+sick
+### Spanish ***
+enfermo
+
+### Source
+total
+### Spanish ***
+total
+
+### Source
+weeks
+### Spanish ***
+semanas
+
+## Widgets
+### Source
+%immune
+### Spanish ***
+%inmune
+
+### Source
+%infected
+### Spanish ***
+%infectado
+
+### Source
+chance-recover
+### Spanish ***
+oportunidad-recuperación
+
+### Source
+duration
+### Spanish ***
+duración
+
+### Source
+go
+### Spanish ***
+Vamos
+
+### Source
+infectiousness
+### Spanish ***
+infecciosidad
+
+### Source
+number-people
+### Spanish ***
+número de personas
+
+### Source
+setup
+### Spanish ***
+preparar
+
+### Source
+turtle-shape
+### Spanish ***
+forma de tortuga
+
+### Source
+years
+### Spanish ***
+años
+

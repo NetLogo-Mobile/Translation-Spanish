@@ -1,0 +1,91 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Que es
+
+Este proyecto simula la propagación de un incendio a través de un bosque. Muestra que la probabilidad de que el fuego alcance el borde derecho del bosque depende fundamentalmente de la densidad de los árboles. Este es un ejemplo de una característica común de los sistemas complejos, la presencia de un umbral no lineal o parámetro crítico.
+
+##  COMO FUNCIONA
+
+El fuego comienza en el borde izquierdo del bosque y se extiende a los árboles vecinos. El fuego se propaga en cuatro direcciones: norte, este, sur y oeste.
+
+El modelo asume que no hay viento. Entonces, el fuego debe tener árboles a lo largo de su camino para poder avanzar. Es decir, el fuego no puede pasar por encima de un área no boscosa (parche), por lo que dicho parche bloquea el movimiento del fuego en esa dirección.
+
+##  COMO USARLO
+
+Haga clic en el botón CONFIGURAR para configurar los árboles (verde) y disparar (rojo en el lado izquierdo).
+
+Haga clic en el botón IR para iniciar la simulación.
+
+El control deslizante DENSIDAD controla la densidad de árboles en el bosque. (Nota: los cambios en el control deslizante DENSIDAD no surten efecto hasta la siguiente CONFIGURACIÓN).
+
+##  COSAS PARA NOTAR
+
+Cuando ejecuta el modelo, cuánto del bosque se quema. Si lo vuelve a ejecutar con la misma configuración, ¿se queman los mismos árboles? ¿Qué tan similar es la quemadura de una carrera a otra?
+
+Cada tortuga que representa un trozo de fuego nace y luego muere sin moverse. Si el fuego está hecho de tortugas pero ninguna se mueve, ¿qué significa decir que el fuego se mueve? Este es un ejemplo de diferentes niveles en un sistema: al nivel de las tortugas individuales, no hay movimiento, pero al nivel de las tortugas colectivamente a lo largo del tiempo, el fuego se mueve.
+
+##  COSAS PARA INTENTAR
+
+Establezca la densidad de árboles al 55%. En este entorno, prácticamente no hay posibilidad de que el fuego llegue al borde derecho del bosque. Establezca la densidad de árboles al 70%. En este escenario, es casi seguro que el fuego alcanzará el borde derecho. Hay una transición brusca alrededor del 59% de densidad. Con una densidad del 59%, el fuego tiene una probabilidad del 50/50 de alcanzar el borde derecho.
+
+Intente configurar y ejecutar un experimento de BehaviorSpace (consulte el menú Herramientas) para analizar el porcentaje quemado en diferentes niveles de densidad de árboles. Grafique el porcentaje de quemado frente a la densidad. ¿Qué tipo de curva obtienes?
+
+Intente cambiar el tamaño del enrejado (`max-pxcor` y` max-pycor` en la Configuración del modelo). ¿Cambia el comportamiento de combustión del fuego?
+
+##  EXTENDIENDO EL MODELO
+
+¿Y si el fuego pudiera extenderse en ocho direcciones (incluidas las diagonales)? Para hacer eso, use `vecinos` en lugar de` vecinos4`. ¿Cómo cambiaría eso las posibilidades de que el fuego alcance el borde derecho? En este modelo, ¿qué &quot;densidad crítica&quot; de árboles se necesita para que se propague el fuego?
+
+Agregue viento al modelo para que el fuego pueda &quot;saltar&quot; distancias mayores en ciertas direcciones.
+
+Agregue la capacidad de plantar árboles donde los desee. ¿Qué configuraciones de árboles permiten que el fuego atraviese el bosque? Que no? ¿Por qué es probable que una densidad superior al 59% dé como resultado una configuración de árbol que funcione? ¿Por qué la probabilidad de tal configuración aumenta tan rápidamente a la densidad del 59%?
+
+El físico Per Bak preguntó por qué con frecuencia vemos que los sistemas experimentan cambios críticos. Responde a esto proponiendo el concepto de [criticidad autoorganizada] (https://en.wikipedia.org/wiki/Self-organized_criticality) (SOC). ¿Puede crear una versión del modelo de fuego que exhiba SOC?
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Los árboles no quemados están representados por manchas verdes; Los árboles en llamas están representados por tortugas. Se utilizan dos razas de tortugas, &quot;fuegos&quot; y &quot;brasas&quot;. Cuando un árbol se incendia, se crea una nueva tortuga de fuego; un fuego se convierte en brasas en el siguiente turno. Observe cómo el programa oscurece gradualmente el color de las brasas para lograr el efecto visual de quemarse.
+
+La primitiva `vecinos4` se usa para extender el fuego.
+
+También puede escribir el modelo sin tortugas simplemente haciendo que los parches extiendan el fuego, y hacerlo de esa manera hace que el código sea un poco más simple. Escrito de esa manera, el modelo se ejecutaría mucho más lento, ya que todos los parches siempre estarían activos. Al usar tortugas, es mucho más fácil restringir la actividad del modelo solo al área alrededor del borde de ataque del fuego.
+
+Consulte la &quot;Regla 30 de CA 1D&quot; y la &quot;Tortuga de la regla 30 de CA 1D&quot; para ver un ejemplo de un modelo escrito con y sin tortugas.
+
+##  MODELOS RELACIONADOS 
+
+* Percolation
+* Rumor Mill
+
+##  CRÉDITOS Y REFERENCIAS 
+
+https://en.wikipedia.org/wiki/Forest-fire_model
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1997).  NetLogo Fire model.  http://ccl.northwestern.edu/netlogo/models/Fire.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1997 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was developed at the MIT Media Lab using CM StarLogo.  See Resnick, M. (1994) "Turtles, Termites and Traffic Jams: Explorations in Massively Parallel Microworlds."  Cambridge, MA: MIT Press.  Adapted to StarLogoT, 1997, as part of the Connected Mathematics Project.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1997 2001 MIT -->

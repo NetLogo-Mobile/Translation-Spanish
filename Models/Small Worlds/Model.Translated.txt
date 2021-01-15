@@ -1,0 +1,79 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
+## Plots
+### Source
+apl
+### Spanish ***
+apl
+
+### Source
+cc
+### Spanish ***
+cc
+
+### Source
+fraction of edges rewired
+### Spanish ***
+fracción de bordes recableados
+
+### Source
+Network Properties Rewire-All
+### Spanish ***
+Propiedades de red Rewire-All
+
+### Source
+Network Properties Rewire-One
+### Spanish ***
+Propiedades de red Rewire-One
+
+### Source
+rewiring probability
+### Spanish ***
+probabilidad de recableado
+
+## Widgets
+### Source
+average-path-length (apl)
+### Spanish ***
+longitud de ruta promedio (apl)
+
+### Source
+clustering-coefficient (cc)
+### Spanish ***
+coeficiente de agrupamiento (cc)
+
+### Source
+highlight
+### Spanish ***
+realce
+
+### Source
+highlighted node properties
+### Spanish ***
+propiedades del nodo resaltado
+
+### Source
+num-nodes
+### Spanish ***
+num-nodos
+
+### Source
+rewire-all
+### Spanish ***
+volver a cablear todo
+
+### Source
+rewire-one
+### Spanish ***
+volver a cablear uno
+
+### Source
+rewiring-probability
+### Spanish ***
+probabilidad de recableado
+
+### Source
+setup
+### Spanish ***
+preparar
+

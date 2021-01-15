@@ -1,0 +1,111 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Que es
+
+Este modelo demuestra un sistema caótico muy simple que consiste en una pelota que rebota dentro de una habitación rectangular con obstáculos circulares en ella. El sistema puede exhibir un comportamiento periódico (en el que la pelota rebota en un patrón repetitivo), pero principalmente exhibe un comportamiento caótico.
+
+El comportamiento caótico significa que cualquier pequeño cambio en las condiciones iniciales (en este caso, la posición y el rumbo de la pelota) resulta en un comportamiento dramáticamente diferente a lo largo del tiempo. El comportamiento caótico hace que los sistemas sean muy difíciles de predecir con precisión: para predecir con precisión un sistema caótico, se deben tener medidas exactas de las condiciones iniciales del sistema. Sin embargo, medir un sistema con ese grado de precisión es, en general, imposible.
+
+##  COMO FUNCIONA
+
+La pelota rebota en las paredes y los obstáculos. Las colisiones son todas perfectamente elásticas y los obstáculos permanecen estacionarios. Finalmente, no hay fricción. Esto significa que las bolas nunca cambian de velocidad, solo de dirección. Tenga en cuenta que las bolas no rebotan entre sí; Las bolas múltiples son solo para mostrar lo que sucede cuando hay diferencias muy pequeñas en la posición inicial.
+
+Las colisiones se detectan cuando la pelota se superpone a un obstáculo o al borde del mundo. A continuación, se corrige la posición (consulte la sección Características de NetLogo a continuación para obtener una discusión más detallada). Finalmente, debido a que las colisiones son perfectamente elásticas, el nuevo ángulo de la bola es el ángulo de reflexión de su rumbo alrededor de la superficie con la que choca.
+
+##  COMO USARLO
+
+Utilice el control deslizante NUM-OBSTACLES para ajustar el número de obstáculos cuando utilice SETUP-RANDOM. Con 0 obstáculos, el sistema * siempre * será periódico. ¿Puedes averiguar por qué?
+
+Si son DOS BOLAS? está activado, los botones de configuración crearán una bola adicional que estará casi en la misma posición, pero no del todo, que la primera bola. Hacer funcionar el sistema con dos bolas mostrará cuán dramático es el efecto que pueden tener los cambios leves en las condiciones iniciales en sistemas caóticos.
+
+Utilice el botón SETUP-RANDOM para inicializar el sistema en una configuración que probablemente será caótica. NUM-OBSTÁCULOS Los obstáculos de tamaños aleatorios se colocarán en posiciones aleatorias.
+
+Utilice el botón SETUP-PERIODIC-X para ver un ejemplo del tipo de comportamiento periódico que puede exhibir el sistema.
+
+Utilice el botón SETUP-PERIODIC-QUILT para ver otro ejemplo de comportamiento periódico que tiene un período muy largo.
+
+El botón IR ejecuta la simulación.
+
+Si el TRACE-PATH? interruptor está encendido, se trazarán las trayectorias de las bolas. EL DIBUJO CLARO despeja los caminos.
+
+DRAG se puede utilizar para mover las bolas y los obstáculos, así como para cambiar el tamaño de los obstáculos y la dirección de las bolas. Una vez presionado, hacer clic y arrastrar cerca del centro de las bolas y los obstáculos los moverá. Hacer clic y arrastrar cerca del borde de las bolas cambiará su dirección. Hacer clic y arrastrar cerca del borde de los obstáculos cambiará su tamaño.
+
+##  COSAS PARA NOTAR
+
+Observe cómo el rebote de las bolas es bastante predecible hasta que golpean el círculo. ¿Por qué crees que es?
+
+Si ejecuta el modelo sin obstáculos, el comportamiento es siempre periódico, aunque ese período puede ser muy largo. ¿Por qué podría ser eso?
+
+Si son DOS BOLAS? está activado, los botones de configuración crearán una bola adicional que estará casi en la misma posición, pero no del todo, que la primera bola. Hacer funcionar el sistema con dos bolas y un obstáculo mostrará cuán dramático es el efecto que los cambios leves en las condiciones iniciales pueden tener en sistemas caóticos. Esta es la característica distintiva de un sistema caótico.
+
+Es muy poco probable que sea periódica una configuración aleatoria en la que la bola choca con un obstáculo.
+
+##  COSAS PARA INTENTAR
+
+Pruebe SETUP-PERIODIC-X con DOS-BOLAS? en. ¿Cómo se comportan de manera diferente las bolas rojas y azules?
+
+Pruebe SETUP-PERIODIC-QUILT con TWO-BALLS? en. ¿Cuándo comienzan a divergir las bolas rojas y azules?
+
+¿Puede encontrar otras configuraciones que resulten en un comportamiento periódico?
+
+##  EXTENDIENDO EL MODELO
+
+Agrega obstáculos de diferentes formas. ¿Qué formas producen un comportamiento caótico?
+
+Agregue un control deslizante para controlar la cantidad de bolas, de modo que pueda tener más de dos.
+
+Agregue un control deslizante para controlar qué tan lejos comienzan las bolas de la bola roja. ¿Reducir o aumentar la distancia cambia el comportamiento del modelo?
+
+Intenta cambiar la forma de la caja.
+
+Actualmente, las bolas no chocan entre sí. ¿Puedes hacer que lo hagan? ¿Puedes encontrar una configuración periódica en la que las bolas chocan entre sí?
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Este modelo utiliza una serie de técnicas avanzadas:
+
+Primero, se utilizan procedimientos anónimos para hacer que el procedimiento de CONFIGURACIÓN sea muy flexible con respecto a la ubicación de las bolas y los obstáculos. Por ejemplo, SETUP-PERIODIC-QUILT usa el siguiente código:
+
+&#39;&#39;
+configuración [-&gt; setxy 0 8 establecer tamaño 1] [-&gt; setxy 0 7 facexy -8-6]
+&#39;&#39;
+
+El primer procedimiento anónimo configura el obstáculo y el segundo configura la pelota.
+
+El procedimiento FOREACH-AGENT muestra cómo puede utilizar procedimientos anónimos para crear sus propias estructuras de control en NetLogo. FOREACH-AGENT funciona como FOREACH, pero opera en conjuntos de agentes en lugar de listas.
+
+En segundo lugar, debido a la naturaleza caótica de este sistema, las colisiones entre objetos deben manejarse con mucha precisión. Debido a que las bolas se mueven tomando pasos del tamaño de VELOCIDAD en cada tic, la ubicación en la que se encuentra la bola cuando golpea otro objeto no será la misma que si la bola se hubiera estado moviendo continuamente. Este error puede, por ejemplo, hacer caóticas las que deberían ser configuraciones periódicas. Para corregir esto, el modelo utiliza una técnica llamada [búsqueda binaria] (https://en.wikipedia.org/wiki/Binary_search_algorithm) para acercarse muy rápidamente a la ubicación exacta de la colisión. Si bien la búsqueda binaria es un algoritmo general, no una característica de NetLogo, este modelo muestra cómo puede implementar una búsqueda binaria espacial en NetLogo. Además, debido a que el reportero de ATAN puede introducir pequeñas imprecisiones, este modelo redondea el rumbo de la pelota después de colisiones con obstáculos a la 100.000 de grado más cercana.
+
+Finalmente, el código para arrastrar los obstáculos y las bolas muestra cómo se puede realizar una manipulación bastante sofisticada de los agentes con el mouse.
+
+##  MODELOS RELACIONADOS 
+
+- The GasLab models
+- Kicked Rotator is another example of a chaotic system
+
+##  CRÉDITOS Y REFERENCIAS 
+
+This model was inspired by a conversation with Dirk Brockmann who discusses this phenomenon in his Complex Systems in Biology course at the Humboldt University of Berlin.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Head, B. and Wilensky, U. (2017).  NetLogo Chaos in a Box model.  http://ccl.northwestern.edu/netlogo/models/ChaosinaBox.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2017 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2017 Cite: Head, B. -->

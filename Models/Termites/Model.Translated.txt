@@ -1,0 +1,23 @@
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
+## Widgets
+### Source
+density
+### Spanish ***
+densidad
+
+### Source
+go
+### Spanish ***
+Vamos
+
+### Source
+number
+### Spanish ***
+número
+
+### Source
+setup
+### Spanish ***
+preparar
+
