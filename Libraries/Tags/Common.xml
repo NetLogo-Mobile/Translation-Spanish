@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tags xmlns:json="http://james.newtonking.com/projects/json">
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d861</ID>
+    <Identifier>精选</Identifier>
+    <Flags json:Array="true">Model</Flags>
+    <Flags json:Array="true">Experiment</Flags>
+    <Flags json:Array="true">Discussion</Flags>
+    <Flags json:Array="true">Immutable</Flags>
+    <Subject>
+      <Chinese>精选</Chinese>
+      <ChineseTraditional>精選</ChineseTraditional>
+      <English>Featured</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d863</ID>
+    <Identifier>精选申请</Identifier>
+    <Flags json:Array="true">Model</Flags>
+    <Flags json:Array="true">Experiment</Flags>
+    <Flags json:Array="true">Discussion</Flags>
+    <Subject>
+      <Chinese>精选申请</Chinese>
+      <ChineseTraditional>精選申請</ChineseTraditional>
+      <English>Apply for Feature</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d865</ID>
+    <Identifier>公告</Identifier>
+    <Flags json:Array="true">Experiment</Flags>
+    <Flags json:Array="true">Discussion</Flags>
+    <Flags json:Array="true">Editor</Flags>
+    <Subject>
+      <Chinese>管理公告</Chinese>
+      <ChineseTraditional>管理公告</ChineseTraditional>
+      <English>Announcement</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d867</ID>
+    <Identifier>游戏</Identifier>
+    <Flags json:Array="true">Model</Flags>
+    <Flags json:Array="true">Experiment</Flags>
+    <Subject>
+      <Chinese>游戏</Chinese>
+      <English>Game</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5fd832621bdeae16c67aea80</ID>
+    <Identifier>指南</Identifier>
+    <Subject>
+      <Chinese>指南</Chinese>
+      <English>Guided</English>
+    </Subject>
+  </Tag>
+</Tags>

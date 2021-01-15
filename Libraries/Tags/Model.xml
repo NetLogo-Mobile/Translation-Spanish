@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tags xmlns:json="http://james.newtonking.com/projects/json">
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d875</ID>
+    <Identifier>生物</Identifier>
+    <Flags json:Array="true">Model</Flags>
+    <Subject>
+      <Chinese>生物</Chinese>
+      <English>Biology</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d877</ID>
+    <Identifier>物理</Identifier>
+    <Flags json:Array="true">Model</Flags>
+    <Subject>
+      <Chinese>物理</Chinese>
+      <English>Physics</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d879</ID>
+    <Identifier>化学</Identifier>
+    <Flags json:Array="true">Model</Flags>
+    <Subject>
+      <Chinese>化学</Chinese>
+      <English>Chemistry</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d87b</ID>
+    <Identifier>数学</Identifier>
+    <Flags json:Array="true">Model</Flags>
+    <Subject>
+      <Chinese>数学</Chinese>
+      <English>Mathematics</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d87d</ID>
+    <Identifier>艺术</Identifier>
+    <Flags json:Array="true">Model</Flags>
+    <Subject>
+      <Chinese>艺术</Chinese>
+      <English>Art</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d87f</ID>
+    <Identifier>社会科学</Identifier>
+    <Flags json:Array="true">Model</Flags>
+    <Subject>
+      <Chinese>社会科学</Chinese>
+      <English>Social Science</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d881</ID>
+    <Identifier>流行病学</Identifier>
+    <Flags json:Array="true">Model</Flags>
+    <Subject>
+      <Chinese>流行病学</Chinese>
+      <English>Epidemiology</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d883</ID>
+    <Identifier>地球科学</Identifier>
+    <Flags json:Array="true">Model</Flags>
+    <Subject>
+      <Chinese>地球科学</Chinese>
+      <English>Earth Science</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d885</ID>
+    <Identifier>交通</Identifier>
+    <Flags json:Array="true">Model</Flags>
+    <Subject>
+      <Chinese>交通</Chinese>
+      <English>Traffic</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d867</ID>
+    <Identifier>游戏</Identifier>
+    <Flags json:Array="true">Model</Flags>
+    <Subject>
+      <Chinese>游戏</Chinese>
+      <English>Game</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>6000a07932b986d19d5c6593</ID>
+    <Identifier>网络</Identifier>
+    <Flags json:Array="true">Model</Flags>
+    <Subject>
+      <Chinese>网络</Chinese>
+      <English>Network</English>
+    </Subject>
+  </Tag>
+</Tags>

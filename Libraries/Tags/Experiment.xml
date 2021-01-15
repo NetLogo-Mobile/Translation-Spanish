@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tags xmlns:json="http://james.newtonking.com/projects/json">
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d869</ID>
+    <Identifier>探索</Identifier>
+    <Flags json:Array="true">Experiment</Flags>
+    <Subject>
+      <Chinese>探索</Chinese>
+      <English>Exploration</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d86b</ID>
+    <Identifier>交互</Identifier>
+    <Flags json:Array="true">Experiment</Flags>
+    <Subject>
+      <Chinese>交互</Chinese>
+      <English>Interaction</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d86d</ID>
+    <Identifier>展示</Identifier>
+    <Flags json:Array="true">Experiment</Flags>
+    <Subject>
+      <Chinese>展示</Chinese>
+      <English>Presentation</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d86f</ID>
+    <Identifier>改进</Identifier>
+    <Flags json:Array="true">Experiment</Flags>
+    <Subject>
+      <Chinese>改进</Chinese>
+      <English>Improvement</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d871</ID>
+    <Identifier>讨论</Identifier>
+    <Flags json:Array="true">Experiment</Flags>
+    <Subject>
+      <Chinese>讨论</Chinese>
+      <English>Discussion</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5f4d2e4179c0a31e3cc4d873</ID>
+    <Identifier>知识库</Identifier>
+    <Flags json:Array="true">Experiment</Flags>
+    <Subject>
+      <Chinese>知识库</Chinese>
+      <English>Knowledge Base</English>
+    </Subject>
+  </Tag>
+</Tags>
