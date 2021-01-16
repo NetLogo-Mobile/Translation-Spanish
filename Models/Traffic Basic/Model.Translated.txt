@@ -37,7 +37,7 @@ This model models the movement of <color=blue>cars </color> on a highway. Eac
 ### Spanish
 Este modelo modela el movimiento de <color=blue>carros </color> en una carretera. Cada <color=blue>carro </color> sigue un conjunto simple de reglas: ralentiza  (<trigger=deceleration,#c1b90fff> desacelera</trigger> ) si ve un <color=blue>carro </color> cerca por delante, y aumenta <trigger=speed>velocidad </trigger> (<trigger=acceleration,green> acelera</trigger> ) si no ve un <color=blue>carro </color> adelante.
 
-### Source
+### Excessive
 "Want to look at the community's or your answers to the questions asked in this model? Click on <b>Go to Q&A Panel</b>."
 ### Spanish
 "Quieres ver las respuestas de la comunidad o sus respuestas a las preguntas formuladas en este modelo? Haz clic en <b>Ir al panel de Q&A</b>."
@@ -256,6 +256,11 @@ Intente hacer un modelo de tráfico de dos carriles.
 Try other rules for <trigger=speed>speeding </trigger> up and slowing  down. Is the rule presented here realistic? Are there other rules that are more accurate or represent better driving strategies?
 ### Spanish
 Trata otras reglas para aumentando <trigger=speed>velocidad </trigger> y desacelerando . ¿Es realista la regla presentada aquí? ¿Existen otras reglas que sean más precisas o representen mejores estrategias de conducción?
+
+### Source
+Want to look at the community's or your answers to the questions asked in this model? Click on <b>Go to Q&A Panel</b>.
+### Spanish ***
+¿Quiere ver las respuestas de la comunidad o las suyas a las preguntas formuladas en este modelo? Haga clic en <b>Ir al panel de preguntas y respuestas</b> .
 
 ### Source
 Wave phenomena
