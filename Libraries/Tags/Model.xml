@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Tags xmlns:json="http://james.newtonking.com/projects/json">
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d875</ID>
+    <ID>5fb55a3930b4ec8bbd260384</ID>
     <Identifier>生物</Identifier>
     <Flags json:Array="true">Model</Flags>
     <Subject>
@@ -10,7 +10,7 @@
     </Subject>
   </Tag>
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d877</ID>
+    <ID>5fb55a3930b4ec8bbd260386</ID>
     <Identifier>物理</Identifier>
     <Flags json:Array="true">Model</Flags>
     <Subject>
@@ -19,7 +19,7 @@
     </Subject>
   </Tag>
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d879</ID>
+    <ID>5fb55a3930b4ec8bbd260388</ID>
     <Identifier>化学</Identifier>
     <Flags json:Array="true">Model</Flags>
     <Subject>
@@ -28,7 +28,7 @@
     </Subject>
   </Tag>
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d87b</ID>
+    <ID>5fb55a3930b4ec8bbd26038a</ID>
     <Identifier>数学</Identifier>
     <Flags json:Array="true">Model</Flags>
     <Subject>
@@ -37,7 +37,7 @@
     </Subject>
   </Tag>
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d87d</ID>
+    <ID>5fb55a3930b4ec8bbd26038c</ID>
     <Identifier>艺术</Identifier>
     <Flags json:Array="true">Model</Flags>
     <Subject>
@@ -46,7 +46,7 @@
     </Subject>
   </Tag>
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d87f</ID>
+    <ID>5fb55a3930b4ec8bbd26038f</ID>
     <Identifier>社会科学</Identifier>
     <Flags json:Array="true">Model</Flags>
     <Subject>
@@ -55,7 +55,7 @@
     </Subject>
   </Tag>
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d881</ID>
+    <ID>5fb55a3930b4ec8bbd260392</ID>
     <Identifier>流行病学</Identifier>
     <Flags json:Array="true">Model</Flags>
     <Subject>
@@ -64,7 +64,7 @@
     </Subject>
   </Tag>
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d883</ID>
+    <ID>5fb55a3930b4ec8bbd260395</ID>
     <Identifier>地球科学</Identifier>
     <Flags json:Array="true">Model</Flags>
     <Subject>
@@ -73,7 +73,7 @@
     </Subject>
   </Tag>
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d885</ID>
+    <ID>5fb55a3930b4ec8bbd260398</ID>
     <Identifier>交通</Identifier>
     <Flags json:Array="true">Model</Flags>
     <Subject>
@@ -82,7 +82,7 @@
     </Subject>
   </Tag>
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d867</ID>
+    <ID>5fb55a3830b4ec8bbd260376</ID>
     <Identifier>游戏</Identifier>
     <Flags json:Array="true">Model</Flags>
     <Subject>
@@ -91,12 +91,21 @@
     </Subject>
   </Tag>
   <Tag>
-    <ID>6000a07932b986d19d5c6593</ID>
+    <ID>60010f3d32b986d19d5ddb27</ID>
     <Identifier>网络</Identifier>
     <Flags json:Array="true">Model</Flags>
     <Subject>
       <Chinese>网络</Chinese>
       <English>Network</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>600237b932b986d19d64e797</ID>
+    <Identifier>探索指南</Identifier>
+    <Flags json:Array="true">Model</Flags>
+    <Subject>
+      <Chinese>探索指南</Chinese>
+      <English>Guided Intro</English>
     </Subject>
   </Tag>
 </Tags>

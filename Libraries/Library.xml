@@ -7,18 +7,6 @@
   <IsNavigation>True</IsNavigation>
   <Block>
     <Type>List</Type>
-    <Header>CIENCIA SOCIALES</Header>
-    <TargetLink>library://SocialScience</TargetLink>
-    <TargetJson></TargetJson>
-    <FetchSource>Community</FetchSource>
-    <FetchConfiguration>
-      <Category>Model</Category>
-      <Sort>Popularity</Sort>
-      <Tags>社会科学</Tags>
-    </FetchConfiguration>
-  </Block>
-  <Block>
-    <Type>List</Type>
     <Header>BIOLOGÍA</Header>
     <TargetLink>library://Biology</TargetLink>
     <TargetJson></TargetJson>
@@ -27,6 +15,30 @@
       <Category>Model</Category>
       <Sort>Popularity</Sort>
       <Tags>生物</Tags>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>CIENCIA DE LA TIERRA</Header>
+    <TargetLink>library://EarthScience</TargetLink>
+    <TargetJson></TargetJson>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Model</Category>
+      <Sort>Popularity</Sort>
+      <Tags>地球科学</Tags>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>ARTE</Header>
+    <TargetLink>library://Art</TargetLink>
+    <TargetJson></TargetJson>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Model</Category>
+      <Sort>Popularity</Sort>
+      <Tags>艺术</Tags>
     </FetchConfiguration>
   </Block>
   <Block>
@@ -43,6 +55,18 @@
   </Block>
   <Block>
     <Type>List</Type>
+    <Header>FÍSICA</Header>
+    <TargetLink>library://Physics</TargetLink>
+    <TargetJson></TargetJson>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Model</Category>
+      <Sort>Popularity</Sort>
+      <Tags>物理</Tags>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
     <Header>MATEMÁTICAS</Header>
     <TargetLink>library://Mathematics</TargetLink>
     <TargetJson></TargetJson>
@@ -51,6 +75,30 @@
       <Category>Model</Category>
       <Sort>Popularity</Sort>
       <Tags>数学</Tags>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>CIENCIAS SOCIALES</Header>
+    <TargetLink>library://SocialScience</TargetLink>
+    <TargetJson></TargetJson>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Model</Category>
+      <Sort>Popularity</Sort>
+      <Tags>社会科学</Tags>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>JUEGO</Header>
+    <TargetLink>library://Game</TargetLink>
+    <TargetJson></TargetJson>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Model</Category>
+      <Sort>Popularity</Sort>
+      <Tags>游戏</Tags>
     </FetchConfiguration>
   </Block>
 </Library>

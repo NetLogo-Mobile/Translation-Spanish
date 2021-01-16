@@ -1,64 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Library>
-  <ID>5fac3b697b4386e93cf61e51</ID>
-  <Identifier>Chemistry</Identifier>
-  <Subject>Química</Subject>
+  <ID>60010e9f0189667b683a4fa9</ID>
+  <Identifier>Game</Identifier>
+  <Subject>Juego</Subject>
   <Language>Spanish</Language>
   <Block>
     <Type>Topic</Type>
     <Header>DESTACADO</Header>
     <FetchSource>Individual</FetchSource>
     <FetchConfiguration>
-      <ID>6000ff3a8a9485000192b8bf</ID>
+      <ID>600108d88a9485000192b8ca</ID>
       <Category>Model</Category>
     </FetchConfiguration>
   </Block>
   <Block>
     <Type>List</Type>
     <Header>MODELOS CLÁSICOS</Header>
-    <TargetLink>models://Tags/化学/Sort/Popularity</TargetLink>
+    <TargetLink>models://Tags/游戏/Sort/Popularity</TargetLink>
     <TargetJson></TargetJson>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>
       <Category>Model</Category>
       <Sort>Popularity</Sort>
-      <Tags>化学</Tags>
+      <Tags>游戏</Tags>
     </FetchConfiguration>
   </Block>
   <Block>
     <Type>List</Type>
     <Header>MODELOS EN TENDENCIA</Header>
-    <TargetLink>experiments://ModelTags/化学/Days/14/Sort/Popularity</TargetLink>
+    <TargetLink>experiments://ModelTags/游戏/Days/14/Sort/Popularity</TargetLink>
     <TargetJson></TargetJson>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>
       <Category>Experiment</Category>
       <Sort>Popularity</Sort>
       <Days>14</Days>
-      <ModelTags>化学</ModelTags>
+      <ModelTags>游戏</ModelTags>
     </FetchConfiguration>
   </Block>
   <Block>
     <Type>List</Type>
     <Header>EXPERIMENTOS DESTACADOS</Header>
-    <TargetLink>experiments://ModelTags/化学/Tags/精选</TargetLink>
+    <TargetLink>experiments://ModelTags/游戏/Tags/精选</TargetLink>
     <TargetJson></TargetJson>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>
       <Category>Experiment</Category>
       <Tags>精选</Tags>
-      <ModelTags>化学</ModelTags>
+      <ModelTags>游戏</ModelTags>
     </FetchConfiguration>
   </Block>
   <Block>
     <Type>List</Type>
     <Header>ULTIMOS EXPERIMENTOS</Header>
-    <TargetLink>experiments://ModelTags/化学</TargetLink>
+    <TargetLink>experiments://ModelTags/游戏</TargetLink>
     <TargetJson></TargetJson>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>
       <Category>Experiment</Category>
-      <ModelTags>化学</ModelTags>
+      <ModelTags>游戏</ModelTags>
     </FetchConfiguration>
   </Block>
 </Library>

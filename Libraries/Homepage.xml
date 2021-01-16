@@ -9,21 +9,22 @@
     <Header>DESTACADO</Header>
     <FetchSource>Individual</FetchSource>
     <FetchConfiguration>
-      <ID>5ec6c6139f303f00016e4c31</ID>
+      <ID>5eb997fef6954b93209189e3</ID>
       <Category>Model</Category>
     </FetchConfiguration>
-    <AuxiliaryText>GIVE US FEEDBACK</AuxiliaryText>
-    <AuxiliaryLink>mailto:civitas@u.northwestern.edu</AuxiliaryLink>
+    <AuxiliaryText>ACTIVIDADES DIARIAS</AuxiliaryText>
+    <AuxiliaryLink>internal://activity</AuxiliaryLink>
     <AuxiliaryImage>Assets/Offlines/Textures/Support.png</AuxiliaryImage>
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>MODELOS POPULARES</Header>
-    <TargetLink>models://Sort/Popularity</TargetLink>
+    <Header>MODELOS GUIADOS</Header>
+    <TargetLink>models://Sort/Default</TargetLink>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>
       <Category>Model</Category>
       <Sort>Popularity</Sort>
+      <Tags>探索指南</Tags>
     </FetchConfiguration>
   </Block>
   <Block>
@@ -33,6 +34,16 @@
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>
       <Category>Model</Category>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>MODELOS POPULARES</Header>
+    <TargetLink>models://Sort/Popularity</TargetLink>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Model</Category>
+      <Sort>Popularity</Sort>
     </FetchConfiguration>
   </Block>
   <Block>
