@@ -1,23 +1,22 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 density
-### Spanish ***
+### Spanish
 densidad
 
 ### Source
 go
-### Spanish ***
-Vamos
+### Spanish
+ir
 
 ### Source
 percent burned
-### Spanish ***
+### Spanish
 porcentaje quemado
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 

@@ -1,38 +1,37 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 ants-released
-### Spanish ***
-hormigas liberadas
+### Spanish
+hormigas-liberadas
 
 ### Source
 go
-### Spanish ***
-Vamos
+### Spanish
+ir
 
 ### Source
 leader-heading
-### Spanish ***
-encabezado de líder
+### Spanish
+dirige-de-líder
 
 ### Source
 leader-wiggle-angle
-### Spanish ***
-ángulo de movimiento del líder
+### Spanish
+líder-menear-ángulo
 
 ### Source
 num-ants
-### Spanish ***
-num-hormigas
+### Spanish
+núm-hormigas
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 
 ### Source
 start-delay
-### Spanish ***
-retraso del inicio
+### Spanish
+retraso-del-inicio
 

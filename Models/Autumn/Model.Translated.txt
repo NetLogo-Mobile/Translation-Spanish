@@ -1,134 +1,133 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Plots
 ### Source
 anthocyanin
-### Spanish ***
+### Spanish
 antocianina
 
 ### Source
 attachedness
-### Spanish ***
+### Spanish
 apego
 
 ### Source
 carotene
-### Spanish ***
+### Spanish
 caroteno
 
 ### Source
 chlorophyll
-### Spanish ***
+### Spanish
 clorofila
 
 ### Source
 dead leaves
-### Spanish ***
+### Spanish
 hojas muertas
 
 ### Source
 Leaf averages
-### Spanish ***
-Promedios foliares
+### Spanish
+Promedios hojas
 
 ### Source
 leaves
-### Spanish ***
+### Spanish
 hojas
 
 ### Source
 Leaves
-### Spanish ***
+### Spanish
 Hojas
 
 ### Source
 rain
-### Spanish ***
+### Spanish
 lluvia
 
 ### Source
 sugar
-### Spanish ***
+### Spanish
 azúcar
 
 ### Source
 sunlight
-### Spanish ***
+### Spanish
 luz de sol
 
 ### Source
 temperature
-### Spanish ***
+### Spanish
 temperatura
 
 ### Source
 Time
-### Spanish ***
-Hora
+### Spanish
+Tiempo
 
 ### Source
 water
-### Spanish ***
+### Spanish
 agua
 
 ### Source
 Weather conditions
-### Spanish ***
-Las condiciones climáticas
+### Spanish
+Condiciones climáticas
 
 ### Source
 wind
-### Spanish ***
+### Spanish
 viento
 
 ## Widgets
 ### Source
 go
-### Spanish ***
-Vamos
+### Spanish
+ir
 
 ### Source
 leaf-display-mode
-### Spanish ***
-modo de visualización de hoja
+### Spanish
+modo-visualización-hoja
 
 ### Source
 number-of-leaves
-### Spanish ***
-número de hojas
+### Spanish
+número-de-hojas
 
 ### Source
 rain-intensity
-### Spanish ***
-intensidad de lluvia
+### Spanish
+intensidad-de-lluvia
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 
 ### Source
 start-sugar-mean
-### Spanish ***
-comienzo-azúcar-media
+### Spanish
+inicio-azúcar-media
 
 ### Source
 start-sugar-stddev
-### Spanish ***
-start-sugar-stddev
+### Spanish
+inicio-sugar-dsvnestr
 
 ### Source
 sun-intensity
-### Spanish ***
-intensidad del sol
+### Spanish
+intensidad-del-sol
 
 ### Source
 temperature
-### Spanish ***
+### Spanish
 temperatura
 
 ### Source
 wind-factor
-### Spanish ***
-factor de viento
+### Spanish
+factor-de-viento
 

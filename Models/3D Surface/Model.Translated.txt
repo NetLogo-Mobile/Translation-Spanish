@@ -1,18 +1,17 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 go
-### Spanish ***
-Vamos
+### Spanish
+ir
 
 ### Source
 number
-### Spanish ***
+### Spanish
 número
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 

@@ -1,28 +1,27 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 denominator
-### Spanish ***
+### Spanish
 denominador
 
 ### Source
 go
-### Spanish ***
-Vamos
+### Spanish
+ir
 
 ### Source
 numerator
-### Spanish ***
+### Spanish
 numerador
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 
 ### Source
 width
-### Spanish ***
+### Spanish
 anchura
 

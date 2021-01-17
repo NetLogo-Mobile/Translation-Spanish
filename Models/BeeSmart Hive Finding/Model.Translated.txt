@@ -1,79 +1,78 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Plots
 ### Source
 committed
-### Spanish ***
-comprometido
+### Spanish
+comprometida
 
 ### Source
 default
-### Spanish ***
+### Spanish
 defecto
 
 ### Source
 on-site
-### Spanish ***
-en el sitio
+### Spanish
+en-sitio
 
 ### Source
 piping-scouts
-### Spanish ***
-exploradores de tuberías
+### Spanish
+exploradores-cantando
 
 ### Source
 watching bees
-### Spanish ***
+### Spanish
 viendo abejas
 
 ### Source
 watching v.s. working
-### Spanish ***
-mirar vs trabajar
+### Spanish
+mirar v.s. trabajar
 
 ### Source
 working bees
-### Spanish ***
+### Spanish
 abejas trabajadoras
 
 ## Widgets
 ### Source
 Go
-### Spanish ***
-Vamos
+### Spanish
+Ir
 
 ### Source
 hive-number
-### Spanish ***
-número de colmena
+### Spanish
+número-de-colmena
 
 ### Source
 initial-explore-time
-### Spanish ***
+### Spanish
 tiempo-de-exploración-inicial
 
 ### Source
 initial-percentage
-### Spanish ***
-porcentaje inicial
+### Spanish
+porcentaje-inicial
 
 ### Source
 quorum
-### Spanish ***
+### Spanish
 quórum
 
 ### Source
 Setup
-### Spanish ***
+### Spanish
 Preparar
 
 ### Source
 Show/Hide Dance Path
-### Spanish ***
-Mostrar / Ocultar ruta de baile
+### Spanish
+Mostrar/Ocultar Ruta de Baile
 
 ### Source
 Show/Hide Scouts
-### Spanish ***
-Mostrar / Ocultar Scouts
+### Spanish
+Mostrar/Ocultar Rxploradores
 

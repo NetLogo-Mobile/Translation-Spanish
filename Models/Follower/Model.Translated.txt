@@ -1,69 +1,68 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Plots
 ### Source
 #
-### Spanish ***
+### Spanish
 #
 
 ### Source
 bodies
-### Spanish ***
+### Spanish
 cuerpos
 
 ### Source
 heads
-### Spanish ***
+### Spanish
 cabezas
 
 ### Source
 tails
-### Spanish ***
-cruz
+### Spanish
+rabos
 
 ### Source
 time
-### Spanish ***
-hora
+### Spanish 
+tiempo
 
 ### Source
 Turtle Count
-### Spanish ***
-Conteo de tortugas
+### Spanish
+Conteo de Tortugas
 
 ### Source
 unattached
-### Spanish ***
-Sin adjuntar
+### Spanish
+soltero
 
 ## Widgets
 ### Source
 far-radius
-### Spanish ***
-radio lejano
+### Spanish
+radio-lejano
 
 ### Source
 go
-### Spanish ***
-Vamos
+### Spanish
+ir
 
 ### Source
 near-radius
-### Spanish ***
-radio cercano
+### Spanish
+radio-cercano
 
 ### Source
 population
-### Spanish ***
+### Spanish
 población
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 
 ### Source
 waver
-### Spanish ***
+### Spanish
 vacilar
 

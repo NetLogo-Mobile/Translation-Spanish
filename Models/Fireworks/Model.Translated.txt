@@ -1,48 +1,47 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 fade-amount
-### Spanish ***
-cantidad de desvanecimiento
+### Spanish
+cantidad-de-desvanecimiento
 
 ### Source
 fragments
-### Spanish ***
+### Spanish
 fragmentos
 
 ### Source
 go
-### Spanish ***
-Vamos
+### Spanish
+ir
 
 ### Source
 gravity
-### Spanish ***
+### Spanish
 gravedad
 
 ### Source
 initial-x-vel
-### Spanish ***
-initial-x-vel
+### Spanish
+vel-inicial-x
 
 ### Source
 initial-y-vel
-### Spanish ***
-inicial-y-vel
+### Spanish
+vel-inicial-y
 
 ### Source
 max-fireworks
-### Spanish ***
-max-fuegos artificiales
+### Spanish
+máx-pirotecnicas
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 
 ### Source
 trails?
-### Spanish ***
-¿caminos?
+### Spanish
+¿rastros?
 

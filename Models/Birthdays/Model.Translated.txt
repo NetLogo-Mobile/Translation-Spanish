@@ -1,23 +1,22 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 go
-### Spanish ***
-Vamos
+### Spanish
+ir
 
 ### Source
 go once
-### Spanish ***
+### Spanish
 ir una vez
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 
 ### Source
 success rate
-### Spanish ***
+### Spanish
 tasa de éxito
 
