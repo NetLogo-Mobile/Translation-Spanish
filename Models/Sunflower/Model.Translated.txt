@@ -1,5 +1,4 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Tutorial
 ### Excessive
 The interlocking spirals  found in the <color=maroon>seeds</color>, <color=red>petals </color> and even <color=maroon>branches </color> of many <color=green>plants </color> occur naturally through the growth of the flower . This model attempts to demonstrate the growth of these naturally occurring spirals .
@@ -48,7 +47,7 @@ Posición apropiada
 
 ### Source
 Authors: Charles Cheng, John Chen. Based on NetLogo Sunflower model by Uri Wilensky.
-### Spanish ***
+### Spanish
 Autores: Charles Cheng, John Chen. Basado en el modelo NetLogo Sunflower de Uri Wilensky.
 
 ### Source
@@ -73,13 +72,13 @@ En sentido anti-horario
 
 ### Source
 Credit
-### Spanish ***
+### Spanish
 Crédito
 
 ### Source
 Credit and Copyright
-### Spanish ***
-Crédito y Copyright
+### Spanish
+Crédito y Derechos del Autor
 
 ### Source
 Death Beyond the Edge 
@@ -208,8 +207,8 @@ El control deslizante <i>incremento-de-giro</i> dicta el grado  que cada nuev
 
 ### Source
 The amount of ticks  that have passed since the command 'reset-timer' was last run
-### Spanish ***
-La cantidad de tics  que han pasado desde la última vez que se ejecutó el comando &#39;reset-timer&#39;
+### Spanish
+La cantidad de tics  que han pasado desde la última vez que se ejecutó el comando 'restablecer-temporizador'.
 
 ### Source
 The angle  made by this turn is a multiple of the <trigger=goldenratio,olive>golden ratio</trigger> (1.618). The <color=olive>golden ratio</color>, based on the <trigger=fibonacci>Fibonacci series</trigger> (1, 1, 2, 3, 5, 8, 13...), equals the <trigger=limit>limit</trigger> of F(n)/F(n-1). Thus, these spirals  can be mathematically  generated, using the <color=olive>golden ratio</color>.
@@ -263,8 +262,8 @@ Want to know more? Click here for higher level reading!
 
 ### Source
 Want to look at the community's or your answers to the questions asked in this model? Click on <b>Go to Q&A Panel</b>.
-### Spanish ***
-¿Quiere ver las respuestas de la comunidad o las suyas a las preguntas formuladas en este modelo? Haga clic en <b>Ir al panel de preguntas y respuestas</b> .
+### Spanish
+¿Quieres ver las respuestas de la comunidad o las tuyas a las preguntas formuladas en este modelo? Haz clic en <b>Ir al Panel de Q&A</b>.
 
 ### Source
 Welcome to the Sunflower Model! 
