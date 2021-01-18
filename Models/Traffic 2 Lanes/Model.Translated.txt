@@ -1,5 +1,4 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 acceleration
@@ -110,7 +109,7 @@ máx
 ### Source
 min
 ### Spanish
-min
+mín
 
 ### Source
 Patience

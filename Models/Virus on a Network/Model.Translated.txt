@@ -1,79 +1,78 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Plots
 ### Source
 % of nodes
-### Spanish ***
+### Spanish
 % de nodos
 
 ### Source
 infected
-### Spanish ***
+### Spanish
 infectado
 
 ### Source
 Network Status
-### Spanish ***
-Estado de la red
+### Spanish
+Estado de la Red
 
 ### Source
 resistant
-### Spanish ***
+### Spanish
 resistente
 
 ### Source
 susceptible
-### Spanish ***
+### Spanish
 susceptible
 
 ### Source
 time
-### Spanish ***
-hora
+### Spanish
+tiempo
 
 ## Widgets
 ### Source
 average-node-degree
-### Spanish ***
-grado de nodo medio
+### Spanish
+grado-de-nodo-promedio
 
 ### Source
 gain-resistance-chance
-### Spanish ***
-ganar-resistencia-oportunidad
+### Spanish
+chance-de-obtener-resistencia
 
 ### Source
 go
-### Spanish ***
-Vamos
+### Spanish
+ir
 
 ### Source
 initial-outbreak-size
-### Spanish ***
-tamaño del brote inicial
+### Spanish
+tamaño-del-brote-inicial
 
 ### Source
 number-of-nodes
-### Spanish ***
-número de nodos
+### Spanish
+número-de-nodos
 
 ### Source
 recovery-chance
-### Spanish ***
-oportunidad de recuperación
+### Spanish
+chance-de-recuperación
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 
 ### Source
 virus-check-frequency
 ### Spanish ***
-frecuencia de verificación de virus
+frecuencia-de-verificación-de-virus
 
 ### Source
 virus-spread-chance
 ### Spanish ***
-posibilidad de propagación del virus
+chance-de-propagación-del-virus
 

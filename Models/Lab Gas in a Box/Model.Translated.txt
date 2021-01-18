@@ -1,149 +1,148 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Plots
 ### Source
 avg-energy
-### Spanish ***
-energía media
+### Spanish
+energía-promedio
 
 ### Source
 avg-speed
-### Spanish ***
-la velocidad promedio
+### Spanish
+velocidad-promedio
 
 ### Source
 count
-### Spanish ***
-contar
+### Spanish
+cuenta
 
 ### Source
 count (%)
-### Spanish ***
-contar (%)
+### Spanish
+cuenta (%)
 
 ### Source
 energy
-### Spanish ***
+### Spanish
 energía
 
 ### Source
 Energy Histogram
-### Spanish ***
-Histograma de energía
+### Spanish
+Histograma de Energía
 
 ### Source
 fast
-### Spanish ***
+### Spanish
 rápido
 
 ### Source
 init-avg-energy
-### Spanish ***
-init-avg-energy
+### Spanish
+energía-promedio-inicial
 
 ### Source
 init-avg-speed
-### Spanish ***
-init-avg-speed
+### Spanish
+velocidad-promedio-inicial
 
 ### Source
 medium
-### Spanish ***
+### Spanish
 medio
 
 ### Source
 slow
-### Spanish ***
+### Spanish
 lento
 
 ### Source
 speed
-### Spanish ***
+### Spanish
 velocidad
 
 ### Source
 Speed Counts
-### Spanish ***
-Conteos de velocidad
+### Spanish
+Conteos de Velocidad
 
 ### Source
 Speed Histogram
-### Spanish ***
-Histograma de velocidad
+### Spanish
+Histograma de Velocidad
 
 ### Source
 ticks
-### Spanish ***
-garrapatas
+### Spanish
+tics
 
 ## Widgets
 ### Source
 average energy
-### Spanish ***
-energía media
+### Spanish
+energía promedio
 
 ### Source
 average speed
-### Spanish ***
-velocidad media
+### Spanish
+velocidad promedio
 
 ### Source
 box-size
-### Spanish ***
-tamaño de caja
+### Spanish
+tamaño-de-caja
 
 ### Source
 clear trace
-### Spanish ***
-rastro claro
+### Spanish
+borrar rastro
 
 ### Source
 collide?
-### Spanish ***
+### Spanish
 ¿chocar?
 
 ### Source
 go/stop
-### Spanish ***
-ir / parar
+### Spanish
+ir/parar
 
 ### Source
 init-particle-speed
-### Spanish ***
-init-partícula-velocidad
+### Spanish
+velocidad-partícula-inicial
 
 ### Source
 number-of-particles
-### Spanish ***
-número de partículas
+### Spanish
+número-de-partículas
 
 ### Source
 particle-mass
-### Spanish ***
-masa de partículas
+### Spanish
+masa-de-partículas
 
 ### Source
 percent fast
-### Spanish ***
+### Spanish
 porcentaje rápido
 
 ### Source
 percent medium
-### Spanish ***
+### Spanish
 porcentaje medio
 
 ### Source
 percent slow
-### Spanish ***
+### Spanish
 porcentaje lento
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 
 ### Source
 trace?
-### Spanish ***
-¿rastro?
+### Spanish
+¿trazar?
 

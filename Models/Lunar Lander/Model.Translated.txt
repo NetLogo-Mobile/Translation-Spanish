@@ -1,43 +1,42 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 go
-### Spanish ***
-Vamos
+### Spanish
+ir
 
 ### Source
 left
-### Spanish ***
+### Spanish
 izquierda
 
 ### Source
 platform-width
-### Spanish ***
-ancho de plataforma
+### Spanish
+ancho-de-plataforma
 
 ### Source
 right
-### Spanish ***
+### Spanish
 derecho
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 
 ### Source
 terrain-bumpiness
-### Spanish ***
-irregularidad del terreno
+### Spanish
+irregularidad-del-terreno
 
 ### Source
 thrust
-### Spanish ***
+### Spanish
 empuje
 
 ### Source
 thrust-amount
-### Spanish ***
-cantidad de empuje
+### Spanish
+cantidad-de-empuje
 

@@ -1,5 +1,4 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Plots
 ### Source
 grass / 4
@@ -54,7 +53,7 @@ Un ecosistema  o bioma describa un solo medio ambiente y cada <color=green> v
 
 ### Source
 Authors: Charles Cheng, John Chen. Based on NetLogo Wolf Sheep Predation model by Uri Wilensky.
-### Spanish ***
+### Spanish
 Autores: Charles Cheng, John Chen. Basado en el modelo NetLogo Wolf Sheep Predation de Uri Wilensky.
 
 ### Source

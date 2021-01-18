@@ -1,73 +1,71 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 debris-level
-### Spanish ***
-nivel de escombros
+### Spanish
+nivel-de-escombros
 
 ### Source
 Down
-### Spanish ***
+### Spanish
 Abajo
 
 ### Source
 Drop
-### Spanish ***
-soltar
+### Spanish
+Soltar
 
 ### Source
 Left
-### Spanish ***
+### Spanish
 Izquierda
 
 ### Source
 Level
-### Spanish ***
+### Spanish
 Nivel
 
 ### Source
 Lines
-### Spanish ***
+### Spanish
 Líneas
 
 ### Source
 New
-### Spanish ***
+### Spanish
 Nuevo
 
 ### Source
 Play
-### Spanish ***
-Tocar
+### Spanish
+Jugar
 
 ### Source
 Right
-### Spanish ***
-Correcto
+### Spanish
+Derecho
 
 ### Source
 RotLeft
-### Spanish ***
-RotLeft
+### Spanish
+GirIzquierda
 
 ### Source
 RotRight
-### Spanish ***
-RotRight
+### Spanish
+GirDerecho
 
 ### Source
 Score
-### Spanish ***
+### Spanish
 Puntuación
 
 ### Source
 show-next?
-### Spanish ***
-show-next?
+### Spanish
+¿mostrar-próximo?
 
 ### Source
 starting-level
-### Spanish ***
-nivel inicial
-
+### Spanish
+inicializando-nivel

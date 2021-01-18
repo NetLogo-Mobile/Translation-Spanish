@@ -1,5 +1,4 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 go
@@ -19,61 +18,61 @@ preparar
 ## NetTango
 ### Source
 °
-### Spanish ***
+### Spanish 
 °
 
 ### Source
 amount
-### Spanish ***
+### Spanish 
 cantidad
 
 ### Source
 angle
-### Spanish ***
+### Spanish
 ángulo
 
 ### Source
 bias
-### Spanish ***
+### Spanish
 parcialidad
 
 ### Source
 drop chemical
-### Spanish ***
+### Spanish
 soltar químico
 
 ### Source
 forward
-### Spanish ***
+### Spanish
 adelante
 
 ### Source
 if chemical strength
-### Spanish ***
+### Spanish
 si fuerza química
 
 ### Source
 slime actions
-### Spanish ***
-acciones de limo
+### Spanish
+acciones de slime
 
 ### Source
 sniff-angle
-### Spanish ***
-ángulo de olfateo
+### Spanish 
+ángulo-de-olfateo
 
 ### Source
 steps
-### Spanish ***
+### Spanish
 pasos
 
 ### Source
 turn toward chemical
-### Spanish ***
+### Spanish
 girar hacia el químico
 
 ### Source
 wiggle
-### Spanish ***
+### Spanish
 menear
 

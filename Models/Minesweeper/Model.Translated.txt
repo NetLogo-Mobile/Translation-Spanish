@@ -1,33 +1,32 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 clock
-### Spanish ***
+### Spanish 
 reloj
 
 ### Source
 go
-### Spanish ***
-Vamos
+### Spanish
+ir
 
 ### Source
 mark/unmark
-### Spanish ***
-marcar / desmarcar
+### Spanish
+marcar/desmarcar
 
 ### Source
 mine-count
-### Spanish ***
-recuento de minas
+### Spanish
+cuenta-de-minas
 
 ### Source
 mines marked
-### Spanish ***
+### Spanish
 minas marcadas
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 

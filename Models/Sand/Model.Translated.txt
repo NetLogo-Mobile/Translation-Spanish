@@ -1,33 +1,32 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 density
-### Spanish ***
+### Spanish
 densidad
 
 ### Source
 dump-sand
-### Spanish ***
-basurero
+### Spanish
+depositar-arena
 
 ### Source
 go
-### Spanish ***
-Vamos
+### Spanish
+ir
 
 ### Source
 release-chance
-### Spanish ***
-oportunidad de liberación
+### Spanish
+chance-de-liberación
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 
 ### Source
 spacing
-### Spanish ***
-espaciado
+### Spanish
+espacio
 
