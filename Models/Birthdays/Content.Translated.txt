@@ -1,57 +1,56 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
-En una sala de 23 personas, ¿cuáles son las posibilidades de que dos de ellos tengan el mismo cumpleaños?
+En un cuarto con 23 personas, ¿cuáles son las posibilidades de que dos de ellos tengan el mismo cumpleaños?
 
-Haga su mejor conjetura, luego ejecute el modelo y vea con qué frecuencia sucede.
+Haz tu mejor conjetura y luego ejecuta el modelo y observa con qué frecuencia pasa.
 
 ##  COMO FUNCIONA
 
-A cada tortuga se le asigna un cumpleaños al azar. Si una tortuga tiene el mismo cumpleaños que otra tortuga en la habitación, se pone verde.
+Cada tortuga fue asignado un cumpleaños aleatoriamente. Si una tortuga tiene el mismo cumpleaños que otra tortuga en el cuarto, se vuelve verde.
 
-El modelo no tiene en cuenta los años bisiestos (no hay cumpleaños del 29 de febrero).
+Este modela no tiene en cuenta los años bisiestos (no hay cumpleaños del 29 de febrero).
 
 ##  COMO USARLO
 
-Presione SETUP para inicializar el modelo.
+Presiona PREPARAR para inicializar el modelo.
 
-Pulsa IR UNA VEZ para generar una única habitación llena de gente.
+Presiona IR UNA VEZ para generar un solo cuarto lleno de gente.
 
-Presione GO para generar repetidamente muchas salas llenas de gente. El monitor de TASA DE ÉXITO mostrará qué porcentaje de esas habitaciones tuvo al menos un cumpleaños coincidente.
+Presiona IR para generar repetidamente muchos cuartos lleno de gente. El monitor de TASA DE ÉXITO mostra qué porcentaje de esos cuartos tuvieron a lo menos un cumpleaños coincidente.
 
 ##  COSAS PARA NOTAR
 
-¿La tasa de éxito es mayor o menor de lo esperado?
+¿Esperabas que la tasa de éxito fuera mayor o menor?
 
 ##  COSAS PARA INTENTAR
 
-Para probar una habitación con más personas, edite la vista y aumente max-pycor.
+Intenta un cuarto con más personas, edita la vista y incrementa máx-pycor.
 
-¿Cuántas personas deben estar en la sala antes de que la probabilidad de que un cumpleaños coincida sea al menos del 90%? (¿Es esto más alto o más bajo de lo que esperaba?)
+¿Cuántas personas tienen que estar en el cuarto para que la probabilidad de tener un cumpleaños coincidente sea a lo menos 90%? (¿Esperabas que esto fuera mayor o menor?)
 
-¿Puedes calcular matemáticamente cuáles deberían ser las probabilidades? (Sugerencia: comience considerando las probabilidades cuando la cantidad de personas es pequeña).
+¿Puedes calcular matemáticamente cuáles deberían ser las probabilidades? (Sugerencia: empieza considerando las probabilidades cuando la cantidad de personas es pequeña).
 
 ##  EXTENDIENDO EL MODELO
 
-Incluya los cumpleaños de los años bisiestos en la lista de posibilidades.
+Incluye años bisiestos en la lista de posibilidades.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Este modelo utiliza muchas listas, incluidas las primitivas de lista como `map`,` foreach`, `item`,` position`, `statement` y` sort-on`. Las listas se usan principalmente para hacer que el modelo muestre los nombres de los días reales, en lugar de solo números del 0 al 364. Las listas también se usan al clasificar las tortugas por cumpleaños.
+Este modelo usa listas mucho, incluyendo listas primitivas como mapear, para-cada, item, posición, y reordenar-por. Las listas se usan para hacer que el modelo muestre los nombres de días reales, en lugar de solo números de 0 a 364. Las listas también se usan al clasificar las tortugas por cumpleaños.
 
 ##  MODELOS RELACIONADOS 
 
-The ProbLab suite of models, in the Mathematics/Probability section, contains many explorations of basic questions about probability and statistics.
+El conjunto de modelos ProbLab, en la sección Matemáticas/Probabilidad, contiene muchas exploraciones de preguntas básicas sobre probabilidad y estadística.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (2004).  NetLogo Birthdays model.  http://ccl.northwestern.edu/netlogo/models/Birthdays.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -68,3 +67,5 @@ Commercial licenses are also available. To inquire about commercial licenses, pl
 This model was created as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227.
 
 <!-- 2004 -->
+
+Traductora: Chelsea Guzman
