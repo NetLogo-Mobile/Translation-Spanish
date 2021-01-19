@@ -1,100 +1,97 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
-Este modelo demuestra un sistema caótico muy simple que consiste en una pelota que rebota dentro de una habitación rectangular con obstáculos circulares en ella. El sistema puede exhibir un comportamiento periódico (en el que la pelota rebota en un patrón repetitivo), pero principalmente exhibe un comportamiento caótico.
+Este modelo muestra un sistema caótico simple que consiste en una pelota rebotando dentro de un cuarto rectangular con obstáculos circulares en él. Este sistema puede exhibir comportamiento periodico (en el cual la pelota rebota en un patrón repetitivo), pero principalmente exhibe comportamiento caótico.
 
-El comportamiento caótico significa que cualquier pequeño cambio en las condiciones iniciales (en este caso, la posición y el rumbo de la pelota) resulta en un comportamiento dramáticamente diferente a lo largo del tiempo. El comportamiento caótico hace que los sistemas sean muy difíciles de predecir con precisión: para predecir con precisión un sistema caótico, se deben tener medidas exactas de las condiciones iniciales del sistema. Sin embargo, medir un sistema con ese grado de precisión es, en general, imposible.
+Comportamiento caótico significa que cada cambio pequeño en las condiciones iniciales (en este caso, la posición y rumbo de la pelota) resulta en comportamiento dramáticamente diferente con el tiempo. Comportamiento caótico hace que los sistemas sean muy difíciles de predecir con precisión: para predecir con precisión un sistema caótico, uno debe tener medidas exactas de las condiciones iniciales del sistema. Sin embargo, medir un sistema con ese grado de precisión es, en general, imposible.
 
 ##  COMO FUNCIONA
 
-La pelota rebota en las paredes y los obstáculos. Las colisiones son todas perfectamente elásticas y los obstáculos permanecen estacionarios. Finalmente, no hay fricción. Esto significa que las bolas nunca cambian de velocidad, solo de dirección. Tenga en cuenta que las bolas no rebotan entre sí; Las bolas múltiples son solo para mostrar lo que sucede cuando hay diferencias muy pequeñas en la posición inicial.
+La pelota rebota en las paredes y en los obstáculos. Las colisiones son todas perfectamente elásticas y los obstáculos se mantienen estacionarios. Finalmente, no hay fricción. Esto significa que las pelotas nunca cambian de velocidad, solo de dirección. Tenga en cuenta que las pelotas no reboten entre sí mismas; las pelotas múltiples son solo para mostrar lo que sucede cuando hay diferencias muy pequeñas en la posición inicial. 
 
-Las colisiones se detectan cuando la pelota se superpone a un obstáculo o al borde del mundo. A continuación, se corrige la posición (consulte la sección Características de NetLogo a continuación para obtener una discusión más detallada). Finalmente, debido a que las colisiones son perfectamente elásticas, el nuevo ángulo de la bola es el ángulo de reflexión de su rumbo alrededor de la superficie con la que choca.
+Las colisiones se detectan cuando la pelota se superpone a un obstáculo o al borde del mundo. Después, se corrige la posición (consulte la sección Características de NetLogo a continuación para obtener una discusión más detallada). Finalmente, debido a que las colisiones son perfectamente elásticas, el nuevo ángulo de la pelota es el ángulo de reflexión de su rumbo alrededor de la superficie con la choca.
 
 ##  COMO USARLO
 
-Utilice el control deslizante NUM-OBSTACLES para ajustar el número de obstáculos cuando utilice SETUP-RANDOM. Con 0 obstáculos, el sistema * siempre * será periódico. ¿Puedes averiguar por qué?
+Usa el control deslizante NÚM-OBSTÁCULOS para ajustar el número de obstáculos cuando usas PREPARAR-AL-AZAR. Con 0 obstáculos, el sistema siempre será periodico. ¿Sabes por qué?
 
-Si son DOS BOLAS? está activado, los botones de configuración crearán una bola adicional que estará casi en la misma posición, pero no del todo, que la primera bola. Hacer funcionar el sistema con dos bolas mostrará cuán dramático es el efecto que pueden tener los cambios leves en las condiciones iniciales en sistemas caóticos.
+Si ¿DOS-PELOTAS? está encendido, los botones de preparación crearán una pelota adicional que casi estará en la misma posición, pero no exactamente, que la primera bola. Ejecutar el sistema con dos pelotas mostrará cuánto dramático es el efecto que pueden tener los cambios leves en las condiciones iniciales en los sistemas caóticos.
 
-Utilice el botón SETUP-RANDOM para inicializar el sistema en una configuración que probablemente será caótica. NUM-OBSTÁCULOS Los obstáculos de tamaños aleatorios se colocarán en posiciones aleatorias.
+Usa el botón PREPARAR-AL-AZAR para inicializar el sistema en una configuración que probablemente sería caótico. NÚM-OBSTÁCULOS obstáculos de tamaños al azar serían colocados en posiciones al azar.
 
-Utilice el botón SETUP-PERIODIC-X para ver un ejemplo del tipo de comportamiento periódico que puede exhibir el sistema.
+Usa el botón PREPARAR-X-PERIÓDICO para ver un ejemplo del tipo de comportamiento periodico que el sistema puede exhibir.
 
-Utilice el botón SETUP-PERIODIC-QUILT para ver otro ejemplo de comportamiento periódico que tiene un período muy largo.
+Usa el botón PREPARAR-COLCHA-PERIÓDICO para ver otro ejemplo de comportamiento periodico que tiene un periodo de tiempo muy largo.
 
 El botón IR ejecuta la simulación.
 
-Si el TRACE-PATH? interruptor está encendido, se trazarán las trayectorias de las bolas. EL DIBUJO CLARO despeja los caminos.
+Si el interruptor ¿TRAZAR-RASTRO? Está encendido, los rastros de las pelotas serán trazados. BORRAR-DIBUJO borra los rastros.
 
-DRAG se puede utilizar para mover las bolas y los obstáculos, así como para cambiar el tamaño de los obstáculos y la dirección de las bolas. Una vez presionado, hacer clic y arrastrar cerca del centro de las bolas y los obstáculos los moverá. Hacer clic y arrastrar cerca del borde de las bolas cambiará su dirección. Hacer clic y arrastrar cerca del borde de los obstáculos cambiará su tamaño.
+ARRASTRAR se puede usar para mover las pelotas y obstáculos por todos lados, y también para cambiar el tamaño de los obstáculos y rumbo de las pelotas. Una vez que lo presiones, haciendo clic y arrastrando cerca del centro de las pelotas y obstáculos los moverá. Haciendo clic y arrastrando cerca del borde de pelotas cambiará sus rumbos. Haciendo clic y arrastrando cerca del borde de los obstáculos cambiará sus tamaños.
 
 ##  COSAS PARA NOTAR
 
-Observe cómo el rebote de las bolas es bastante predecible hasta que golpean el círculo. ¿Por qué crees que es?
+Observe como la repetición de las pelotas es predecible hasta que choquen con el círculo. ¿Por qué crees que esto es?
 
-Si ejecuta el modelo sin obstáculos, el comportamiento es siempre periódico, aunque ese período puede ser muy largo. ¿Por qué podría ser eso?
+Si ejecutas el modelo sin un obstáculo, el comportamiento siempre es periodico, aunque el periodo sea muy largo. ¿Por qué crees que esto es?
 
-Si son DOS BOLAS? está activado, los botones de configuración crearán una bola adicional que estará casi en la misma posición, pero no del todo, que la primera bola. Hacer funcionar el sistema con dos bolas y un obstáculo mostrará cuán dramático es el efecto que los cambios leves en las condiciones iniciales pueden tener en sistemas caóticos. Esta es la característica distintiva de un sistema caótico.
+Si ¿DOS-PELOTAS? está encendido, los botones de preparación crearán una pelota adicional que casi estará en la misma posición, pero no exactamente, que la primera pelota. Ejecutar el sistema con dos pelotas y un obstáculo mostrará cuanto dramático de un efecto cambios pequeños en las condiciones iniciales pueden tener un sistemas caóticas. Esta es la característica distintiva de un sistema caótico.
 
-Es muy poco probable que sea periódica una configuración aleatoria en la que la bola choca con un obstáculo.
+No es probable que una configuración al azar en el cual la pelota choca con un obstáculo será periodico. 
 
 ##  COSAS PARA INTENTAR
 
-Pruebe SETUP-PERIODIC-X con DOS-BOLAS? en. ¿Cómo se comportan de manera diferente las bolas rojas y azules?
+Intenta PREPARAR-X-PERIÓDICO con ¿DOS-PELOTAS? encendido. ¿Cómo se comportan de manera diferente las pelotas rojas y azules?
 
-Pruebe SETUP-PERIODIC-QUILT con TWO-BALLS? en. ¿Cuándo comienzan a divergir las bolas rojas y azules?
+Intenta PREPARAR-COLCHA-PERIÓDICO con ¿DOS-PELOTAS? encendido. ¿Cuando se divergen las pelotas rojas y azules?
 
-¿Puede encontrar otras configuraciones que resulten en un comportamiento periódico?
+¿Puedes encontrar otras configuraciones que resultan en comportamiento periodico?
 
 ##  EXTENDIENDO EL MODELO
 
-Agrega obstáculos de diferentes formas. ¿Qué formas producen un comportamiento caótico?
+Añade obstáculos de diferentes formas. ¿Cuáles formas producen comportamiento caótico?
 
-Agregue un control deslizante para controlar la cantidad de bolas, de modo que pueda tener más de dos.
+Añade un control deslizante para controlar el número de pelotas para que puedas tener más de dos.
 
-Agregue un control deslizante para controlar qué tan lejos comienzan las bolas de la bola roja. ¿Reducir o aumentar la distancia cambia el comportamiento del modelo?
+Añade un control deslizante para controlar cuánto lejos las pelotas empiezan de la pelota roja. ¿Reducir o aumentar la distancia cambia el comportamiento del modelo?
 
-Intenta cambiar la forma de la caja.
+Intenta cambiar el tamaño de la caja.
 
-Actualmente, las bolas no chocan entre sí. ¿Puedes hacer que lo hagan? ¿Puedes encontrar una configuración periódica en la que las bolas chocan entre sí?
+Actualmente, las pelotas no se colidan con sí mismas. Puedes cambiarlo para que se coliden? ¿Puedes encontrar una configuración periódica en el que las pelotas chocan contra sí mismos?
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Este modelo utiliza una serie de técnicas avanzadas:
+Este modelo usa un número de técnicas avanzadas,
 
-Primero, se utilizan procedimientos anónimos para hacer que el procedimiento de CONFIGURACIÓN sea muy flexible con respecto a la ubicación de las bolas y los obstáculos. Por ejemplo, SETUP-PERIODIC-QUILT usa el siguiente código:
+Primero, se usan procedimientos anónimos para hacer que el procedimiento de CONFIGURACIÓN sea muy flexible con respecto a la ubicación de las pelotas y los obstáculos. Por ejemplo, PREPARAR-COLCHA-PERIÓDICO usa el siguiente código:
 
-&#39;&#39;
-configuración [-&gt; setxy 0 8 establecer tamaño 1] [-&gt; setxy 0 7 facexy -8-6]
-&#39;&#39;
+Preparar [setxy 0 8 set size 1] [-> setxy 0 7 facexy -8 -6 ]
 
 El primer procedimiento anónimo configura el obstáculo y el segundo configura la pelota.
 
-El procedimiento FOREACH-AGENT muestra cómo puede utilizar procedimientos anónimos para crear sus propias estructuras de control en NetLogo. FOREACH-AGENT funciona como FOREACH, pero opera en conjuntos de agentes en lugar de listas.
+El procedimiento AGENTE-FOREACH muestra cómo puedes usar procedimientos anónimos para crear tus propios estructures controles en NetLogo. AGENTE-FOREACH funciona como FOREACH, pero opera en conjuntos de agentes en lugar de listas.
 
-En segundo lugar, debido a la naturaleza caótica de este sistema, las colisiones entre objetos deben manejarse con mucha precisión. Debido a que las bolas se mueven tomando pasos del tamaño de VELOCIDAD en cada tic, la ubicación en la que se encuentra la bola cuando golpea otro objeto no será la misma que si la bola se hubiera estado moviendo continuamente. Este error puede, por ejemplo, hacer caóticas las que deberían ser configuraciones periódicas. Para corregir esto, el modelo utiliza una técnica llamada [búsqueda binaria] (https://en.wikipedia.org/wiki/Binary_search_algorithm) para acercarse muy rápidamente a la ubicación exacta de la colisión. Si bien la búsqueda binaria es un algoritmo general, no una característica de NetLogo, este modelo muestra cómo puede implementar una búsqueda binaria espacial en NetLogo. Además, debido a que el reportero de ATAN puede introducir pequeñas imprecisiones, este modelo redondea el rumbo de la pelota después de colisiones con obstáculos a la 100.000 de grado más cercana.
+Segundo, por el carácter caótico de este sistema, las colisiones entre objetos deben manejarse con mucha precisión. Debido a que las pelotas se mueven tomando pasos del tamaño de VELOCIDAD en cada tic, la ubicación en la que se encuentra la pelota cuando golpea otro objeto no será la misma que si la pelota se hubiera estado moviendo continuamente. Este error puede, por ejemplo, hacer caóticas las configuraciones que deberían ser periódicas. Para corregir esto, el modelo usa una técnica que se llama búsqueda binaria para acercarse muy rápidamente a la ubicación exacta de la colisión. Aunque la búsqueda binaria es un algoritmo general, no una característica de NetLogo, este modelo muestra cómo puedes implementar una búsqueda binaria en NetLogo. Además, debido a que el reportero de ATAN puede introducir pequeñas imprecisiones, este modelo redondo el rumbo de la pelota después de colisiones con obstáculos a la 100,000 de grado más cercana.
 
-Finalmente, el código para arrastrar los obstáculos y las bolas muestra cómo se puede realizar una manipulación bastante sofisticada de los agentes con el mouse.
+Finalmente, el código para arrastrar los obstáculos y las pelotas muestra como se puede realizar una manipulación sofisticada de los agente con el ratón.
 
 ##  MODELOS RELACIONADOS 
 
-- The GasLab models
-- Kicked Rotator is another example of a chaotic system
+– Los modelos de GasLab
+– Rotador Pateada es otro ejemplo de un sistema caótico. 
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-This model was inspired by a conversation with Dirk Brockmann who discusses this phenomenon in his Complex Systems in Biology course at the Humboldt University of Berlin.
+Este modelo se inspiró en una conversación con Dirk Brockmann, quien analiza este fenómeno en su curso de Sistemas Complejos en Biología en la Universidad Humboldt de Berlin.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
 
-For the model itself:
+Para el modelo:
 
 * Head, B. and Wilensky, U. (2017).  NetLogo Chaos in a Box model.  http://ccl.northwestern.edu/netlogo/models/ChaosinaBox.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -109,3 +106,5 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
 
 <!-- 2017 Cite: Head, B. -->
+
+Traductora: Chelsea Guzman
