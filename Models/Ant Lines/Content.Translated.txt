@@ -1,5 +1,4 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## ¿QUÉ ES?
+﻿## ¿QUÉ ES?
 
 Este proyecto modela el comportamiento de hormigas siguiendo un líder hacia una fuente de comida. La hormiga líder se mueve hacia la comida siguiendo un camino aleatorio; después de un retraso pequeño, la segunda hormiga en la línea sigue al líder se mueve directamente hacia donde está con su líder. Cada hormiga subsiguiente sigue la hormiga delante de ella de la misma manera. 
 
