@@ -1,53 +1,52 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
-En este proyecto, una colonia de hormigas busca alimento. Aunque cada hormiga sigue un conjunto de reglas simples, la colonia en su conjunto actúa de manera sofisticada.
+En este proyecto, una colonia de hormigas buscan comida. Aunque cada hormiga sigue un conjunto de reglas simples, la colonia actúa de manera sofisticada.  
 
 ##  COMO FUNCIONA
 
-Cuando una hormiga encuentra un trozo de comida, la lleva de regreso al nido, dejando caer una sustancia química mientras se mueve. Cuando otras hormigas &quot;huelen&quot; la sustancia química, la siguen hacia la comida. A medida que más hormigas llevan comida al nido, refuerzan el rastro químico.
+Cuando una hormiga encuentra un montón de comida, la lleva a su nido, dejando caer una sustancia química mientras que se mueve. Cuando otras hormigas “huelen” la química, la siguen hacia la comida. Mientras más hormigas traen comida al nido, refuerzan el rastro químico.
 
 ##  COMO USARLO
 
-Haga clic en el botón CONFIGURAR para configurar el hormiguero (en violeta, en el centro) y tres pilas de comida. Haga clic en el botón IR para iniciar la simulación. La sustancia química se muestra en un gradiente de verde a blanco.
+Haz clic al botón PREPARAR para preparar el nido de hormigas (en violeta, al centro) y los tres montones de comida. Haz clic al botón IR para empezar la simulación. El químico se va mostrar en un verde-a-blando gradiente.
 
-El control deslizante EVAPORATION-RATE controla la tasa de evaporación del químico. El control deslizante DIFFUSION-RATE controla la velocidad de difusión del químico.
+El control deslizante TASA-EVAPORACIÓN controla la tasa de evaporación del químico. El control deslizante TASA-DIFUSIÓN controla la tasa de difusión del químico.
 
-Si desea cambiar el número de hormigas, mueva el control deslizante POBLACIÓN antes de presionar CONFIGURAR.
+Si quieres cambiar el número de hormigas, mueve el control deslizante POBLACIÓN antes de presionar PREPARAR.
 
 ##  COSAS PARA NOTAR
 
-La colonia de hormigas generalmente explota la fuente de alimento en orden, comenzando con el alimento más cercano al nido y terminando con el alimento más alejado del nido. Es más difícil para las hormigas formar un rastro estable hacia el alimento más distante, ya que el rastro químico tiene más tiempo para evaporarse y difundirse antes de ser reforzado.
+La colonia de hormigas generalmente explota la fuente de comida en orden, comenzando con la comida más cercana al nido y terminando con la comida más alejada del nido. Es más difícil para las hormigas formar un rastro estable hacia la comida más alejada, porque el rastro químico tiene más tiempo para evaporarse y difuminarse antes de ser reforzado.
 
-Una vez que la colonia termina de recolectar el alimento más cercano, el rastro químico de ese alimento desaparece naturalmente, liberando hormigas para ayudar a recolectar las otras fuentes de alimento. Las fuentes de alimento más distantes requieren un mayor &quot;número crítico&quot; de hormigas para formar un sendero estable.
+Una vez que la colonia termina de recolectar la comida más cercana, el rastro químico de esa comida desaparece naturalmente, liberando hormigas para ayudar a colectar las otras fuentes de comida. Las fuentes de comida más alejadas requieren un mayor “número crítico” de hormigas para formar un rastro estable.
 
-El consumo de la comida se muestra en una gráfica. Los colores de las líneas en la gráfica coinciden con los colores de las pilas de alimentos.
+El consumo de la comida se muestra en un gráfico. Los colores de las líneas en la trama coinciden con los colores de los montones de comida.
 
 ##  EXTENDIENDO EL MODELO
 
-Pruebe diferentes ubicaciones para las fuentes de alimentos. ¿Qué sucede si dos fuentes de alimento están equidistantes del nido? Cuando eso sucede en el mundo real, las colonias de hormigas suelen explotar una fuente y luego la otra (no al mismo tiempo).
+Prueba diferentes ubicaciones para las fuentes de comida. ¿Qué pasa si dos fuentes de comida están equidistantes del nido? Cuando eso pasa en el mundo real, las colonias de hormigas típicamente explotan una fuente y luego la otra (no al mismo tiempo).
 
-En este proyecto, las hormigas utilizan un &quot;truco&quot; para encontrar el camino de regreso al nido: siguen el &quot;olor del nido&quot;. Las hormigas reales utilizan una variedad de enfoques diferentes para encontrar el camino de regreso al nido. Intente implementar algunas estrategias alternativas.
+En este proyecto, las hormigas usan un “truco” para encontrar el camino de regreso al nido: siguen el “olor del nido”. Hormigas reales usan una variedad de enfoques diferentes para encontrar el camino de regreso al nido. Intente implementar algunas estrategias alternativas.
 
-Las hormigas solo responden a niveles químicos entre 0.05 y 2. Se usa el límite inferior para que las hormigas no sean infinitamente sensibles. Intente eliminar el límite superior. ¿Lo que pasa? ¿Por qué?
+Las hormigas solo responden a niveles químicos entre 0.05 y 2. Se usa el límite inferior para que las hormigas no sean infinitamente sensibles. Intenta eliminar el límite superior. ¿Qué pasa? ¿Por qué?
 
-En el procedimiento &quot;químico ascendente&quot;, la hormiga &quot;sigue el gradiente&quot; del químico. Es decir, &quot;olfatea&quot; en tres direcciones y luego gira en la dirección donde la sustancia química es más fuerte. Es posible que desee probar variantes del procedimiento &quot;químico ascendente&quot;, cambiando el número y la ubicación de los &quot;olfateadores de hormigas&quot;.
+En el procedimiento químico ascendente, la hormiga “sigue el gradiente” del químico. Es decir, “olfatea” en tres direcciones, y luego gira en la dirección donde el químico es más fuerte. Posiblemente querrás probar variantes del procedimiento químico ascendente, cambiando el número y la ubicación de “olfatea de las hormigas”
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-La primitiva &quot;difusa&quot; incorporada nos permite difundir la sustancia química fácilmente sin un código complicado.
+La primitiva difuminar incorporada nos permite difuminar la sustancia química fácilmente sin un código.
 
-El primitivo &quot;parche a la derecha y adelante&quot; se usa para hacer que las hormigas huelan en diferentes direcciones sin realmente girar.
+La primitiva parcela de la derecha y adelante se usa para hacer que las hormigas huelen en diferentes direcciones sin realmente girar. 
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1997).  NetLogo Ants model.  http://ccl.northwestern.edu/netlogo/models/Ants.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -68,3 +67,5 @@ This model was developed at the MIT Media Lab using CM StarLogo.  See Resnick, M
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 1998.
 
 <!-- 1997 1998 MIT -->
+
+Traductora: Chelsea Guzman
