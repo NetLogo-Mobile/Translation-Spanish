@@ -1,76 +1,74 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
-Este es un modelo de flujo de energía en la tierra, particularmente energía térmica. Muestra la tierra de color rosa y la superficie del planeta está representada por una franja negra. Sobre la franja hay una atmósfera azul y un espacio negro en la parte superior. Se pueden agregar nubes y moléculas de dióxido de carbono (CO2) a la atmósfera. Las moléculas de CO2 representan gases de efecto invernadero que bloquean la luz infrarroja que emite la tierra. Las nubes bloquean los rayos solares entrantes o salientes, lo que influye en el calentamiento o enfriamiento del planeta.
+Esto es un modelo del flujo de energía en la tierra, particularmente energía térmica. Nos muestra la tierra de color rosa y la duperdicie del planeta es representada por una tira negra. Sobre la tira hay una atmósfera azul y un espacio negro en la parte superior. Se pueden añadir nubes y moléculas de dióxido de carbono (CO2) a la atmósfera. Las moléculas de CO2 representan gases de invernadero que bloquean la luz infrarroja que emite la tierra. Las nubes bloquean rayos solares entrantes y salientes, incluyendo el calentamiento o el enfriamiento del planeta.
 
 ##  COMO FUNCIONA
 
-Las puntas de flecha amarillas fluyen hacia abajo representando la energía de la luz solar. Parte de la luz solar se refleja en las nubes y más puede reflejarse en la superficie de la tierra.
+Las puntas de flecha amarillas fluye hacia abajo representando la energía de la luz solar. Partes de esta luz se refleja en las nubes y más puede reflejarse en la superficie de la tierra.
 
-Si la luz solar es absorbida por la tierra, se convierte en un punto rojo, que representa la energía térmica. Cada punto representa la energía de una punta de flecha de luz solar amarilla. Los puntos rojos se mueven aleatoriamente alrededor de la tierra y su temperatura está relacionada con el número total de puntos rojos.
+Si la luz solar se absorbe por la tierra, se convierte en un punto rojo, representando la energía térmica. Cada punto representa la energía de una de las puntas de flecha amarillas de luz solar. Los puntos rojos se mueven aleatoriamente por la tierra y su temperatura está relacionada en el número total de puntos rojos.
 
-A veces, los puntos rojos se transforman en luz infrarroja (IR) que se dirige hacia el espacio y se lleva energía. La probabilidad de que un punto rojo se convierta en luz infrarroja depende de la temperatura de la tierra. Cuando la tierra está fría, pocos puntos rojos generan luz IR; cuando hace calor, la mayoría lo hace. La energía IR está representada por una punta de flecha magenta. Cada uno lleva la misma energía que una punta de flecha amarilla y un punto rojo. La luz infrarroja atraviesa las nubes pero puede rebotar en las moléculas de CO2.
+Algunas veces, los puntos rojos se transforman en luz infrarroja (IR) que se mueve hacia el espacio y lleva energía. La probabilidad de que un punto rojo se convierta en luz infrarroja depende de la temperatura de la tierra. Cuando la tierra está fría, pocos puntos rojos generan luz IR; cuando está caliente, la mayoría lo hace. La energía IR se representa con una punta de flecha magenta. Cada una lleva la misma energía que una punta de flecha amarilla y un punto rojo. La luz IR pasa por las nubes pero puede rebotar en las moléculas de CO2. 
 
-Existe una relación entre el número de puntos rojos en la tierra y la temperatura de la tierra. Esto se debe a que la temperatura de la tierra aumenta a medida que aumenta la energía térmica total. La energía térmica es agregada por la luz solar que llega a la tierra, así como por la luz infrarroja (IR) reflejada hacia la tierra. La energía térmica es eliminada por los IR emitidos por la tierra. El equilibrio de estos determina la energía en la tierra, que es proporcional a su temperatura.
+Hay una relación entre el número de los puntos rojos en la tierra y la temperatura de la tierra. Esto es porque la temperatura de la tierra aumenta mientras que la energía térmica total también aumenta. La energía térmica se agrega por la luz solar que llega a la tierra, así como por la luz infrarroja (IR) reflejada hacia la tierra. La energía térmica es eliminada por IR emitidos por la tierra. El equilibrio de estos determina la energía en la tierra, lo que es proporcional a su temperatura.
 
-Por supuesto, hay muchas simplificaciones en este modelo. La tierra no tiene una sola temperatura, no tiene un solo albedo y no tiene una sola capacidad calorífica. La luz visible es algo absorbida por el CO2 y algo de luz infrarroja rebota en las nubes. Ningún modelo es completamente exacto. Lo importante es que un modelo reacciona de alguna manera como el sistema que se supone debe modelar. Este modelo hace eso, mostrando cómo el efecto invernadero es causado por el CO2 y otros gases que absorben IR.
+Por supuesto, hay muchas simplificaciones en este modelo. La tierra no tiene una sola temperatura, no tiene un solo albedo, y tampoco tiene una sola capacidad calorífica.  La luz visible es algo absorbida por el CO2 y algo de la luz infrarroja rebota en las nubes. No hay un modelo exacto. Lo importante es que un modelo reacciona en maneras como el sistema que se supone debe modelar. Este modelo hace esto, mostrando como el efecto invernadero es causado por CO2 y otros gases que absorben IR.
 
 ##  COMO USARLO
 
-El control deslizante SUN-BRIGHTNESS controla la cantidad de energía solar que ingresa a la atmósfera terrestre. Un valor de 1.0 corresponde a nuestro sol. Los valores más altos le permiten ver lo que sucedería si la tierra estuviera más cerca del sol o si el sol se volviera más brillante.
+El control deslizante controla cuánta energía solar entra la atmósfera terrestre. Un valor de 1.0 corresponde a nuestro sol. Los valores más altos te permiten ver lo que sucedería si la tierra estuviera más cerca al sol o si el sol se volviera más brillante.
 
-El control deslizante ALBEDO controla la cantidad de energía solar que golpea la tierra y se absorbe.
-Si el albedo es 1.0, la tierra refleja toda la luz solar. Esto podría suceder si la tierra se congela, y está indicado por una superficie blanca. Si el albedo es cero, la tierra absorbe toda la luz solar. Esto se indica como una superficie negra. El albedo de la tierra es de aproximadamente 0,6.
+El control deslizante ALBEDO controla cuánta energía solar que pega la tierra y se absorbe. Si el albedo es 1.0, la tierra refleja toda la luz solar. Esto podría pasar si la tierra se congela y está indicado por una superficie blanca. Si el albedo es cero, la tierra absorbe toda la luz solar. Esto se indica como una superficie negra. El albedo de la tierra es de aproximadamente 0.6.
 
-Puede agregar y eliminar nubes con botones. Las nubes bloquean la luz solar pero no los infrarrojos.
+Puedes agregar y eliminar nubes con botones. Las nubes bloquean la luz solar pero no los infrarrojos.
 
-Puede agregar y eliminar gases de efecto invernadero, representados como moléculas de CO2. El CO2 bloquea la luz IR pero no la luz solar. Los botones suman y restan moléculas en grupos de 25 hasta 150.
+Puedes agregar y eliminar gases de efecto invernadero, representados como moléculas de CO2. El CO2 bloquea la luz IR pero no la luz solar. Los botones añaden y restan moléculas en grupos de 25 hasta 150.
 
-La temperatura de la tierra está relacionada con la cantidad de calor en la tierra. Cuantos más puntos rojos vea, más caliente estará.
+La temperatura de la tierra está relacionada con la cantidad de calor en la tierra. Cuantos más puntos rojos veas, más caliente estará.
 
 ##  COSAS PARA NOTAR
 
-Mira una sola punta de flecha de luz solar. Esto es más fácil si ralentiza el modelo usando el control deslizante en la parte superior del modelo. También puede utilizar el botón WATCH A RAY.
+Observa una sola punta de flecha de luz solar. Esto es más fácil si ralentizas el modelo usando el control deslizante en la parte superior del modelo. También puedes usar el botón OBSERVAR UN RAYO.
 
-¿Qué le sucede a la punta de la flecha cuando golpea la tierra? Describe su camino posterior. ¿Se escapa de la tierra? ¿Qué pasa entonces? ¿Todas las puntas de flecha siguen caminos similares?
+¿Qué pasa a la punta de flecha cuando choca con la tierra? Describe su camino posterior. ¿Se escapa de la tierra? ¿Qué pasa después? ¿Todas las puntas de flecha siguen caminos similares?
 
 ##  COSAS PARA INTENTAR
 
-1. Juega con el modelo. Cambia el albedo y ejecuta el modelo. Agregue nubes y CO2 al modelo y luego observe una sola punta de flecha de luz solar. ¿Cuál es la temperatura terrestre más alta que puede producir?
+1. Juega con el modelo. Cambia el albedo y ejecuta el modelo. Añade nubes y CO2 al modelo y después observa una sola punta de flecha de luz solar. ¿Cuál es la temperatura terrestre más alta que puedes producir? 
 
-2. Ejecute el modelo con un sol brillante pero sin nubes ni CO2. ¿Qué pasa con la temperatura? Debería subir rápidamente y luego asentarse alrededor de 37 grados. ¿Por qué deja de subir? ¿Por qué la temperatura sigue rebotando? Recuerde, la temperatura refleja la cantidad de puntos rojos en la tierra. Cuando la temperatura es constante, hay tantas puntas de flecha amarillas entrantes como IR salientes. ¿Por qué?
+2. Ejecuta el modelo con un sol brillante pero sin nubes y sin CO2. ¿Qué pasa a la temperatura? Debería subir rápidamente y luego asentarse alrededor de 37 grados. ¿Por qué termina de subir? ¿Por qué la temperatura sigue rebotando? Recuérdete, la temperatura refleja el número de puntos rojos en la tierra. Cuando la temperatura es constante, hay tantas puntas de flecha amarillas entrantes como IR salientes. ¿Por qué?
 
-3. Explore el efecto del albedo manteniendo constante todo lo demás. ¿El aumento del albedo aumenta o disminuye la temperatura de la tierra? Cuando experimente, asegúrese de ejecutar el modelo el tiempo suficiente para que la temperatura se estabilice.
+3. Explora el efecto del albedo manteniendo todo lo resto constante. ¿Si aumentas el albedo, aumenta o disminuye la temperatura de la tierra? Cuando experimentes, asegúrate de ejecutar el modelo el tiempo suficiente para que la temperatura se estabilice.
 
-4. Explore el efecto de las nubes que mantienen todo lo demás constante.
+4. Explora el efecto de las nubes manteniendo todo lo resto constante.
 
-5. Explore el efecto de agregar 100 moléculas de CO2. ¿Cuál es la causa del cambio que observa? Siga una punta de flecha de luz solar ahora.
+5. Explora el efecto de añadir 100 moléculas de CO2. ¿Cuál es la causa del cambio que observas? Sigue solo una punta de flecha de luz solar ahora.
 
 ##  EXTENDIENDO EL MODELO
 
-Intente agregar algunos otros factores que influyen en la temperatura de la tierra. Por ejemplo, puede agregar parches de vegetación y luego ver qué sucede cuando se consumen para la ocupación humana. Además, puede intentar agregar un albedo variable al modelo, en lugar de tener un valor para todo el planeta. Podría tener glaciares con alto albedo y mares con bajo albedo, y luego evaluar qué sucede cuando los glaciares se derriten en los mares.
+Trata de añadir otros factores que influyen la temperatura terrestre. Por ejemplo, puedes añadir parcelas de vegetación y luego ver qué pasa cuando se consumen para la ocupación humana. Además, puedes intentar añadir un albedo variable al modelo, en lugar de tener un valor para todo el planeta. Podría tener glaciares con alto albedo y mares con bajo albedo, y luego evaluar qué sucede cuando los glaciares se derriten en los mares.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Tenga en cuenta que las nubes en realidad están formadas por muchas pequeñas tortugas circulares.
+Tenga en cuenta que las nubes en realidad están compuestas por muchas pequeñas tortugas circulares.
 
 ##  MODELOS RELACIONADOS 
 
-Daisyworld
+Mundomargarita
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-This model is based on an earlier version created in 2005 by Robert Tinker for the TELS project.
+Este modelo se basa en una versión anterior creada en 2005 por Robert Tinker para el proyecto TELS.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
 
-For the model itself:
+Para el modelo:
 
 * Tinker, R. and Wilensky, U. (2007).  NetLogo Climate Change model.  http://ccl.northwestern.edu/netlogo/models/ClimateChange.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -85,3 +83,5 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
 
 <!-- 2007 Cite: Tinker, R. -->
+
+Traductora: Chelsea Guzman
