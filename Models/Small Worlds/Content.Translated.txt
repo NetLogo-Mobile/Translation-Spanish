@@ -1,97 +1,96 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
-Este modelo explora la formación de redes que dan como resultado el fenómeno del &quot;mundo pequeño&quot;: la idea de que una persona está a solo un par de conexiones de cualquier otra persona en el mundo.
+Este modelo explora la formación de redes que resultan en el fenómeno del “mundo pequeño” -- la idea que una persona está a solo un par de conexiones de cualquier otra persona en el mundo.
 
-Un ejemplo popular del fenómeno del mundo pequeño es la red formada por actores que aparecen en la misma película (p. Ej., &quot;[Six Degrees of Kevin Bacon] (https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon)&quot;), pero pequeña Los mundos no se limitan a redes de personas. Otros ejemplos van desde las redes eléctricas hasta las redes neuronales de gusanos. Este modelo ilustra algunas condiciones teóricas generales bajo las cuales pueden ocurrir pequeñas redes mundiales entre personas o cosas.
+Un ejemplo popular del fenómeno del mundo pequeño es la red creada por actores que aparecen en la misma película (por ejemplo, “Seis Grados de Kevin Bacon”), pero mundos pequeños no se limitan a redes solo de personas. Otros ejemplos pueden ser redes eléctricas hasta las redes neuronales de lombrices. Este modelo ilustra algunas condiciones teóricas generales bajo las cuales pueden ocurrir pequeñas redes mundiales entre personas o cosas.
 
 ##  COMO FUNCIONA
 
-Este modelo es una adaptación del [modelo Watts-Strogatz] (https://en.wikipedia.org/wiki/Watts-Strogatz_model) propuesto por Duncan Watts y Steve Strogatz (1998). Comienza con una red en la que cada persona (o &quot;nodo&quot;) está conectada a sus dos vecinos a cada lado. Usando esta base, modificamos la red volviendo a cablear los nodos, cambiando un extremo de un par de nodos conectados y manteniendo el otro extremo igual. A lo largo del tiempo, analizamos el efecto que tiene este recableado en varias conexiones entre nodos y en las propiedades de la red.
+Este modelo es una adaptación del modelo Watts-Strogatz que está conectado a sus dos vecinos en cada lado. Usando esta basa, modificamos la red al cableado de los nodos–cambiando un extremo de un par de nodos y manteniendo el otro extremo igual. Con el tiempo, analizamos el efecto de este recableado en varias conexiones entre nodos y en las propiedades de la red.
 
-Particularmente, estamos interesados en identificar &quot;mundos pequeños&quot;. Para identificar mundos pequeños, la &quot;longitud de camino promedio&quot; (abreviado &quot;apl&quot;) y el &quot;coeficiente de agrupamiento&quot; (abreviado &quot;cc&quot;) de la red se calculan y grafican después de realizar un recableado. Las redes con longitudes de ruta promedio _corta_ y coeficientes de agrupación _altos_ se consideran redes de mundo pequeño. Consulte la sección ** Estadísticas ** de COMO USARLO para ver cómo se calculan.
+Particularmente, estamos interesados en identificar “mundos pequeños”. Para identificar muñoz pequeños, la “longitud de camino promedio” (abreviado “lcp”) y el “coeficiente de agrupamiento” (abreviado “ca”) de la red se trazan y calculad después de realizar un cableado. Redes con longitudes de camino medias cortas y coeficientes de agrupación elevados se consideran redes de mundo pequeño. Consulta la sección Estadísticas de CÓMO USARLO sobre cómo se calculan.
 
 ##  COMO USARLO
 
-El control deslizante NUM-NODES controla el tamaño de la red. Elija un tamaño y presione SETUP.
+El control deslizante NÚM-NODOS controla el tamaño de la red. Escoge un tamaño y presiona PREPAR.
 
-Al presionar el botón REWIRE-ONE se selecciona un borde al azar, se vuelve a cablear y luego se trazan las propiedades de red resultantes en el gráfico &quot;Propiedades de red Rewire-One&quot;. El botón REWIRE-ONE _ ignora_ el control deslizante REWIRING-PROBABILITY. Siempre volverá a cablear exactamente un borde en la red que aún no se haya vuelto a cablear _ a menos que todos los bordes de la red ya se hayan vuelto a cablear.
+Presionando el botón RECABLEAR-UNO escoge un borde al azar, lo recablea, y luego se grafican las propiedades de red resultantes en la gráfica “Propiedades de Red Recablear-Uno”. El botón RECABLEAR-UNO ignora el control deslizante RECABLEAR-PROBABILIDAD. Siempre recableará exactamente un borde en la red que no hayan sido recableados a menos que todos los bordes de la red ya se hayan recableado.
 
-Al presionar el botón REWIRE-ALL comienza con una nueva celosía (al igual que presionar SETUP) y luego vuelve a cablear todos los bordes de acuerdo con la PROBABILIDAD DE REWIRING actual. En otras palabras, &quot;pide&quot; a cada &quot;borde&quot; que lance un dado que determinará si se vuelve a cablear o no. Las propiedades de red resultantes se trazan luego en el gráfico &quot;Propiedades de red Rewire-All&quot;. Al cambiar el control deslizante REWIRING-PROBABILITY cambia la fracción de bordes recableados durante cada ejecución. La ejecución de REWIRE-ALL con múltiples probabilidades produce un rango de posibles redes con diferentes longitudes de ruta promedio y coeficientes de agrupamiento.
+Presionando el botón RECABLEAR-TODOS comienza una nueva celosía (lo igual que presionar PREPARAR) y luego recablea todos los bordes según la RECABLEAR-PROBABILIDAD actual. En otra palabras, le pide a cada borde que lance un dado que determinará si es o no es recableado. Las propiedades de red resultantes se grafican en la gráfica “Propiedades de Red Recablear-Todo”. Al cambiar el control deslizante RECABLEAR-PROBABILIDAD cambia la fracción de bordes recableados durante cada ejecución. La ejecución de RECABLEAR-TODOS con múltiples probabilidades produce un rango de posibles redes con diferentes longitudes de camino promedios y coeficientes de agrupamiento.
 
-Cuando presiona HIGHLIGHT y luego apunta a un nodo en la vista, codifica con colores los nodos y los bordes. El nodo en sí se vuelve blanco. Sus vecinos y los bordes que conectan el nodo con esos vecinos se vuelven anaranjados. Los bordes que conectan a los vecinos del nodo entre sí se vuelven amarillos. La cantidad de amarillo entre vecinos le da una especie de indicación del coeficiente de agrupamiento para ese nodo. El monitor NODE-PROPERTIES muestra la longitud de ruta promedio y el coeficiente de agrupamiento del nodo resaltado únicamente. Los monitores AVERAGE-PATH-LENGTH y CLUSTERING-COEFICIENT muestran los valores de toda la red.
+Cuando presionas RESALTAR y señalas a un nodo en la vista lo codifica con colores a los nodos y los bordes. El nodo en sí se vuelve blanco. Sus vecinos y los bordes que conectan el nodo con esos vecinos se vuelven anaranjados. Los bordes que conectan a los vecinos del nodo entre sí se vuelven amarillos. La cantidad de amarillo entre los vecinos te da como una indicación del coeficiente de agrupamiento para ese nodo. El monitor PROPIEDADES-NODO muestra la longitud de ruta promedio y el coeficiente de agrupamiento del nodo resaltó únicamente. Los monitores LONGITUD-DE-CAMINO-PROMEDIO y COEFICIENTE-DE-AGRUPAMIENTO muestran los valores de toda la red.
 
 ### Estadísticas
 
-** Longitud de ruta promedio **: La longitud de ruta promedio se calcula al encontrar la ruta más corta entre todos los pares de nodos, sumarlos y luego dividir por el número total de pares. Esto nos muestra, en promedio, la cantidad de pasos que se necesitan para pasar de un nodo de la red a otro.
+** Longitud de Camino Promedio **: Longitud de Camino Promedio se calcula al encontrar el camino más corto entre todos los pares de nodos, sumándolos, y luego dividiéndolos por el número total de pares. Esto nos muestra, en promedio, la cantidad de pasos que se necesitan para pasar de un nodo de la red a otro.
 
-Para encontrar las rutas más cortas entre todos los pares de nodos, utilizamos el [algoritmo de programación dinámica estándar de Floyd Warshall] (https://en.wikipedia.org/wiki/Floyd-Warshall_algorithm). Es posible que haya notado que el modelo se ejecuta lentamente para una gran cantidad de nodos. Esto se debe a que el tiempo que tarda en ejecutarse el algoritmo Floyd Warshall (u otro algoritmo de &quot;todos los pares-ruta más corta&quot;) aumenta polinomialmente con el número de nodos.
+Para encontrar las rutas más cortas entre todos los pares de nodos, utilizamos el algoritmo de programación dinámica estándar de Floyd Warshall. Es posible que hayas notado que el modelo se ejecuta lentamente para una gran cantidad de nodos. Esto es porque el tiempo que tarda en ejecutarse al algoritmo Floyd Warshall (u otro algoritmo de “todos-los-pares-camino-más-corta” aumenta polinomialmente con el número de nodos.
 
-** Coeficiente de agrupamiento **: El coeficiente de agrupamiento de un _nodo_ es la relación entre los bordes existentes que conectan los vecinos de un nodo entre sí con el número máximo posible de tales bordes. Es, en esencia, una medida de la propiedad de &quot;todos-mis-amigos-se-conocen-entre sí&quot;. El coeficiente de agrupamiento para toda la red es el promedio de los coeficientes de agrupamiento de todos los nodos.
+** Coeficiente de Agrupamiento **: El coeficiente de agrupamiento de un nodo es la proporción de bordes existentes que conectan a los vecinos de un nodo entre sí con el número máximo posible de dichos bordes. Es, en esencia, una medida de la propiedad de “todos mis amigos se conocen”. El coeficiente de agrupamiento para toda la red es el promedio de los coeficientes de agrupamiento de todos los nodos.
 
 ### Parcelas
 
-1. Las &quot;Propiedades de red Rewire-One&quot; visualizan la longitud de ruta promedio y el coeficiente de agrupamiento de la red a medida que el usuario aumenta el número de recableados individuales en la red.
+1. La “Propiedades de la Red Recablear-Uno” visualiza la longitud-de-camino-promedio y coeficiente-de-agrupamiento de la red mientras que el usuario aumenta el número se solo-recablea en la red.
 
-2. Las &quot;Propiedades de red Rewire-All&quot; visualizan la longitud de ruta promedio y el coeficiente de agrupamiento de la red mientras el usuario manipula el control deslizante REWIRING-PROBABILITY.
+2. La “Propiedades de la Red Recablear-Todos” visualiza la longitud-de-camino-promedio y coeficiente-de-agrupamiento de la red mientras que el usuario manipula el control deslizante RECABLEAR-PROBABILIDAD.
 
-Estos dos gráficos están separados porque el eje x es ligeramente diferente. El eje x REWIRE-ONE es la fracción de bordes recableados hasta ahora, mientras que el eje x REWIRE-ALL es la probabilidad de recablear.
+Los dos gráficos están separados porque el eje x es un poco diferente. El RECABLEAR-UNO eje x es la fracción de bordes recableados hasta aquí, mientras que RECABLEAR-TODOS eje x es la probabilidad de recablear.
 
-Las gráficas tanto para el coeficiente de agrupamiento como para la longitud de camino promedio se normalizan dividiendo por los valores de la red inicial. Los monitores CLUSTERING-COEFICIENT y AVERAGE-PATH-LENGTH dan los valores reales.
+El gráfico para el coeficiente de agrupamiento y longitud de camino promedio son normalizados al dividir los valores de la celosía inicial. Los monitores COEFICIENTE-DE-AGRUPAMIENTO y LONGITUD-DE-CAMINO-PROMEDIO dan los valores reales.
 
 ##  COSAS PARA NOTAR
 
-Tenga en cuenta que para ciertos rangos de la fracción de nodos recableados, la longitud de ruta promedio disminuye más rápido que el coeficiente de agrupamiento. De hecho, existe un rango de valores para los cuales la longitud de camino promedio es mucho menor que el coeficiente de agrupamiento. (Tenga en cuenta que los valores de la longitud de ruta promedio y el coeficiente de agrupamiento se han normalizado, de modo que son más directamente comparables). Las redes en ese rango se consideran mundos pequeños.
+Tenga en cuenta que para ciertos rangos de la fracción de nodos recableados, la longitud de camino promedio disminuye más rápido que el coeficiente de agrupamiento. De hecho, hay un rango de valores para los cuales la longitud de camino promedio es mucho menor que el coeficiente de agrupamiento. (Tenga en cuenta que los valores para longitud de camino promedio y el coeficiente de agrupamiento han sido normalizados, para que sean más directamente comparables.) Las redes en ese rango se consideran mundos pequeños.
 
 ##  COSAS PARA INTENTAR
 
-¿Puedes conseguir un mundo pequeño presionando repetidamente REWIRE-ONE?
+¿Puedes obtener un mundo pequeño al presionar repetidamente RECABLEAR-UNO?
 
-Intente graficar los valores para diferentes probabilidades de recableado y observe las tendencias de los valores para la longitud de ruta promedio y el coeficiente de agrupamiento. ¿Cuál es la relación entre la probabilidad de recableado y la fracción de nodos? En otras palabras, ¿cuál es la relación entre la trama de volver a cablear uno y la trama de volver a cablear todos?
+Trata de graficar los valores para diferentes probabilidades de recablear y observe las tendencias de los valores para la longitud de camino promedio y el coeficiente de agrupamiento. ¿Cuál es la relación entre probabilidad de recablear y la fracción de nodos? En otras palabras, ¿cuál es la relación entre la gráfica recablear-uno y la gráfica recablear-todo?
 
-¿Dependen las tendencias del número de nodos de la red?
+¿Las tendencias dependen en el número de nodos en la red?
 
-Establezca NUM-NODES en 80 y luego presione SETUP. Vaya a BehaviorSpace y ejecute el experimento VARY-REWIRING-PROBABILITY. Intente ejecutar el experimento varias veces sin borrar la gráfica (es decir, no vuelva a ejecutar SETUP). ¿Qué rango de probabilidades de recableado resulta en redes de mundo pequeño?
+Establece NÚM-NODOS en 80 y luego presiona PREPARAR. Vaya a BehaviorSpace y ejecuta el experimento VARIAR-RECABLEAR-PROBABILIDAD. Intente ejecutar el experimento 
 
 ##  EXTENDIENDO EL MODELO
 
-Intente ver si puede producir los mismos resultados si comienza con un tipo diferente de red inicial. Cree nuevos experimentos de BehaviorSpace para comparar los resultados.
+Intenta ver si puedes producir los mismos resultados si empieces con un diferente tipo de red inicial. Crea nuevos experimentos de BehaviorSpace para comparar resultados.
 
-En un precursor de este modelo, Watts y Strogatz crearon un modelo &quot;alfa&quot; donde el recableado no se basaba en una probabilidad global de recableado. En cambio, la probabilidad de que un nodo se conectara a otro dependía de cuántas conexiones mutuas tenían los dos nodos. El grado de importancia de las conexiones mutuas se determinó mediante el parámetro &quot;alfa&quot;. Cree el modelo &quot;alfa&quot; y vea si también puede resultar en la formación de un mundo pequeño.
+En un precursor de este modelo, Watts y Strogatz crearon un modelo “alfa” donde el recableado no se basaba en una probabilidad global de recableado. En cambio, la probabilidad que un nodo se conectó con otro nodo dependía en cuántas conexiones mutuas tenían los dos nodos. El grado de importancia de las conexiones mutuas se determinó por el parámetro “alfa”. Cree el modelo “alfa” y vea si también puede resultar en la formación de un mundo pequeño.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Los enlaces se utilizan ampliamente en este modelo para modelar los bordes de la red. El modelo también utiliza formas de enlace personalizadas para los enlaces vecinos del vecino.
+Enlaces se usan ampliamente en este modelo para modelar los bordes de la red. El modelo también usa formas de enlaces personalizadas para los enlaces vecinos del vecino.
 
-Las listas se utilizan mucho en los procedimientos que calculan las rutas más cortas.
+Listas se usan mucho en los procedimientos que calculan las rutas más cortas.
 
 ##  MODELOS RELACIONADOS 
 
-See other models in the Networks section of the Models Library, such as Giant Component and Preferential Attachment.
+Vea otros modelos en la sección Redes en la Biblioteca de Modelos, como Componente Gigante y Fijación Preferencial.
 
-Check out the NW Extension General Examples model to see how similar models might implemented using the built-in NW extension.
+Consulte el modelo NW Extensión General Ejemplos para ver cómo se podrían implementar modelos similares usando la extensión NW incorporada.
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-This model is adapted from: Duncan J. Watts, Six Degrees: The Science of a Connected Age (W.W. Norton & Company, New York, 2003), pages 83-100.
+Este modelo fue adaptado de: Duncan J. Watts, Six Degrees: The Science of a Connected Age (W.W. Norton & Company, New York, 2003), pages 83-100.
 
-The work described here was originally published in: DJ Watts and SH Strogatz. Collective dynamics of 'small-world' networks, Nature, 393:440-442 (1998).
+El trabajo descrito aquí fue publicado originalmente en: DJ Watts and SH Strogatz. Collective dynamics of 'small-world' networks, Nature, 393:440-442 (1998).
 
-The small worlds idea was first made popular by Stanley Milgram's famous experiment (1967) which found that two random US citizens where on average connected by six acquaintances (giving rise to the popular "six degrees of separation" expression): Stanley Milgram. The Small World Problem, Psychology Today, 2: 60-67 (1967).
+La idea de mundos pequeños se popularizó por primera vez por el famoso experimento de Stanley Milgram (1967) que encontró que dos ciudadanos estadounidenses al azar estaban conectados en promedio por seis conocidos (dando lugar a la expresión popular de “seis grados de separación”): Stanley Milgram. The Small World Problem, Psychology Today, 2: 60-67 (1967).
 
-This experiment was popularized into a game called "six degrees of Kevin Bacon" which you can find more information about here: https://oracleofbacon.org
+El experimento fue popularizado en un juego que se llama “seis grados de Kevin Bacon” sobre el que puedes encontrar más información aquí: https://oracleofbacon.org
 
-Thanks to Connor Bain for updating this model in 2020.
+Gracias a Connor Bain por actualizar este modelo en 2020.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (2015).  NetLogo Small Worlds model.  http://ccl.northwestern.edu/netlogo/models/SmallWorlds.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -106,3 +105,5 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
 
 <!-- 2015 -->
+
+Traductora: Chelsea Guzman
