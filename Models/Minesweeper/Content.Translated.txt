@@ -1,73 +1,72 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
-Este es un juego de estrategia. Hay minas terrestres escondidas debajo del paisaje verde. Su trabajo consiste en localizar todas las minas sin hacer explotar ninguna.
+Esto es un juego de estrategia. Hay minas escondidas debajo del paisaje verde. Tu trabajo es ubicar todas las minas sin explotar ninguna de ellas.
 
 ##  COMO FUNCIONA
 
-Si hace haz clic en un parche de césped sin mina, aparece un número. El número te dice cuántas minas adyacentes hay.
+Si haces clic en una parcela de pasto que no tiene una mina, un número aparece. Este número te dice cuántas minas adyacentes existen. 
 
-Si haces haz clic en una mina, la mina explota y pierdes el juego.
+Si haces clic en una mina, la mina se explota, y pierdes el juego. 
 
-Ganas el juego al descubrir todos los cuadrados que no tienen una mina.
+Ganas el juego si descubres todos los cuadrados que no tienen una mina.
 
-Si pierdes, la tierra se pone roja. Si ganas, se vuelve azul.
+Si pierdes, la tierra se pone roja. Si ganas, se pone azul.
 
 ##  COMO USARLO
 
-Presione SETUP para configurar el tablero, luego presione GO para jugar.
+Presiona PREPARAR para preparar el tablero, y luego presiona IR para jugar el juego.
 
-Mientras presiona GO, haz clic en los cuadrados verdes para verificar si hay minas.
+Mientras que IR está presionado, haz clic en las cuadradas verdes para ver si tienen minas.
 
-Para ayudarte a recordar dónde crees que están las minas, puedes marcar un cuadrado apuntándolo y presionando la tecla M. (Tenga en cuenta la M en la esquina del botón MARK / UNMARK. Si la M está atenuada, oculte el centro de comando).
+Para ayudarte a recordar dónde crees que están las minas, puedes marcar un cuadrado apuntando y presionando la tecla M. (Tenga en cuenta que M en la esquina del botón MARCAR/DESMARCAR. Si la M está en gris, oculte el centro de comando).
 
-Puede hacer el juego más fácil o más difícil ajustando el control deslizante MINE-COUNT antes de presionar SETUP.
+Puedes hacer que el juego sea más fácil o difícil si ajustes el control deslizante CUENTA-MINA antes de presionar PREPARAR.
 
 ##  COSAS PARA NOTAR
 
-Utilice los números para deducir dónde es seguro hacer clic y dónde no.
+Usa los números para deducir donde puedes hacer clic sin peligro y donde no.
 
-¿Puede saber siempre dónde es seguro hacer clic o tiene que adivinar a veces?
+Siempre puedes saber donde puedes hacer clic sin peligro, o algunas veces es necesario conjeturar?
 
-Tenga en cuenta que cuando hace clic en una región vacía, el modelo le ahorra tiempo al borrar automáticamente todas las celdas vacías circundantes. Esto evita que el juego sea tedioso.
+Tenga en cuenta que cuando haces clic en una región vacía, el modelo te ahorra tiempo al borrar automáticamente todas las celdas vacías circundantes. Esto evita que el juego sea tedioso.
 
 ##  COSAS PARA INTENTAR
 
-Intenta ganar el juego lo más rápido posible. Su hora aparece en el monitor CLOCK.
+Intenta ganar el juego lo más rápido posible. Tu tiempo aparece en el monitor RELOJ.
 
-Intente jugar con un tablero más grande o más pequeño editando la vista y ajustando min-p (x / y) cor y max-p (x / y) cor.
+Intenta jugar con un tablero más grande o más pequeño al editar la vista y ajustando min-p(x/y)cor y max-p(x/y)cor.
 
 ##  EXTENDIENDO EL MODELO
 
-Escriba un archivo en el disco que contenga los mejores tiempos que los jugadores han logrado hasta ahora para un tamaño de tablero determinado. Actualice el archivo cuando alguien le gane un tiempo anterior.
+Escriba un archivo en el disco que contenga los mejores tiempos que los jugadores han logrado hasta ahora para un tamaño de tablero específico. Actualice el archivo cuando alguien le gane a un tiempo anterior.
 
-Escribe un jugador de computadora que pueda jugar el juego automáticamente. ¿Qué estrategia debería utilizar?
+Escriba un jugador de computadora que pueda jugar el juego automáticamente. ¿Qué estrategia debería usar?
 
-Modifica el juego para usar una cuadrícula hexagonal en lugar de una cuadrada. (Consulte Ejemplo de celdas hexagonales, en Ejemplos de código, para ver cómo hacer una cuadrícula hexagonal).
+Modifica el juego para que use una cuadrícula hexagonal en lugar de una cuadrada. (Consulte Exemplo de Celdas Hexagonales, en Ejemplos de Código, para ver cómo hacer una cuadrícula hexagonal). 
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-La primitiva `vecinos` se usa para encontrar cuadrados vecinos.
+Se usa el primitivo vecino para encontrar cuadradas vecinas.
 
 ##  MODELOS RELACIONADOS 
 
-Some of the models in Cellular Automata section, under Computer Science, also have rules based on how many neighboring cells are occupied.
+Algunos de los modelos en la sección de Autómatas Celulares, en Ciencias de la Computación, también tienen reglas basadas en cuantas celdas vecinas están ocupadas.
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-According to https://en.wikipedia.org/wiki/Minesweeper_%28computer_game%29, Minesweeper was invented by Robert Donner in 1989.  A version of the game is included with the Windows operating system.
+Según https://es.wikipedia.org/wiki/Buscaminas, Buscaminas fue inventada por Robert Donner en 1989. Una versión del juego es incluida con el sistema operativo Windows.
 
-Landmines are a real problem that kills people every day. To learn more about the campaign to ban landmines, see http://www.icbl.org/en-gb/home.aspx
+Las minas terrestres son un problema real que mata a personas todos los días. Para obtener más información sobre la campaña para prohibir las minas terrestres, consulte http://www.icbl.org/en-gb/home.aspx. 
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (2005).  NetLogo Minesweeper model.  http://ccl.northwestern.edu/netlogo/models/Minesweeper.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -82,3 +81,5 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
 
 <!-- 2005 -->
+
+Traductora: Chelsea Guzman
