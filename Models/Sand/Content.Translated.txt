@@ -1,62 +1,61 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
-Este es un modelo de cómo las partículas de arena interactúan entre sí. En este entorno, todas las partículas de arena intentan descender si se aplica alguna de las siguientes cuatro reglas. Las cuatro reglas son:
+Este es un modelo de cómo las partículas de arena interactúan entre sí mismos. En este ambiente, todas las partículas de arena intentan descender si alguna de las siguientes cuatro reglas se pueden aplicar. Las cuatro reglas con:
 
-1. Si no hay nada directamente debajo de usted, muévase hacia abajo.
-2. Si hay algo debajo de usted y en la parte inferior derecha, muévase hacia abajo y hacia la izquierda.
-3. Si hay algo debajo de usted y en la parte inferior izquierda, muévase hacia abajo y hacia la derecha.
-4. Si solo hay algo directamente debajo de usted, muévase hacia abajo y hacia la izquierda o hacia la derecha al azar.
+1. Si no hay nada directamente debajo de ti, muévete hacia abajo
+2. Si hay algo debajo de ti y en la parte inferior derecha, muévete hacia abajo y hacia la izquierda.
+3. Si hay algo debajo de ti y en la parte inferior izquierda, muévete hacia abajo y hacia la derecha.
+4. Si solo hay algo directamente debajo de ti, muévete hacia abajo y hacia la izquierda o hacia la derecha al azar.
 
 ##  COMO USARLO
 
-GO: inicia y detiene la simulación.
+IR: Inicia y para la simulación.
 
-CONFIGURACIÓN: configura el modelo.
+PREPARAR: Prepara el modelo
 
-PROBABILIDAD DE LIBERACIÓN: Determina el porcentaje de probabilidad de que una partícula de arena caiga de un pico cada turno (valor predeterminado de 100%).
+CHANCE-SOLTAR: Determina el porcentaje de probabilidad de que una partícula de arena caiga de un pico cada turno (predeterminado de 100%).
 
-ESPACIAMIENTO: Determina cuánto tiempo espera un pico antes de liberar la siguiente partícula de arena.
+ESPACIADO: Determina cuánto tiempo espera un pico antes de soltar la siguiente partícula de arena.
 
-DUMP SAND: Descarga arena sobre todo el modelo según el nivel de densidad. Use esto solo después de haber presionado SETUP.
+TIRAR ARENA: Tira arena sobre todo el modelo según el nivel de densidad. Use esto solo después de presionar PREPARAR.
 
-DENSIDAD: Establece la densidad de las partículas de arena vertidas en DUMP SAND (valor predeterminado del 25%). Por ejemplo, si se establece la densidad en 40, al azar se llenará el 40 por ciento de los parches con arena.
+DENSIDAD: Configura la densidad de las partículas de arena tiradas en TIRAR ARENA (predeterminado de 25%). Por ejemplo, estableciendo la densidad de 40, al azar, se llenará el 40 por ciento de las parcelas con arena.
 
 ##  COSAS PARA NOTAR
 
-Observe cómo la arena se desliza por una &quot;montaña&quot; de partículas de arena. Considere cómo este fenómeno está respaldado por las reglas. Observe los patrones que se forman cuando dos &quot;montañas&quot; de arena se juntan entre sí.
+Observa como la arena se desliza por una “montaña” de las partículas de arena. Considera como este fenómeno es respaldado por las reglas. Tenga en cuenta los patrones que se forman cuando dos de las “montañas” de arena se juntan entre sí mismas.
 
 ##  COSAS PARA INTENTAR
 
-Observe cómo los picos formarán pirámides de arena uniformes. Pruebe DUMP SAND a baja densidad una vez que tenga una forma piramidal relativamente grande. ¿Cómo afecta esto a la forma de la pirámide? ¿La pirámide vuelve alguna vez a su forma original?
+Observe como los picos forman pirámides de arena uniformes. Intenta TIRAR ARENA a una baja densidad una vez que ya tengas una forma piramidal grande. ¿Cómo afecta esto la forma de la pirámide? ¿Vuelve a su forma original la pirámide?
 
-Intente disminuir RELEASE-CHANCE. ¿Qué efecto tiene esto en la tasa de crecimiento de las &quot;montañas&quot; de arena?
+Intente disminuir CHANCE-SOLTAR. ¿Qué efecto tiene en la tasa de crecimiento de las “montañas” de arena?
 
-Establezca el ESPACIO en 1. (Deberá editar el control deslizante, ya que el mínimo normal es 2.) ¿Qué sucede? ¿Es esto solo una limitación de las reglas modelo, o tiene alguna interpretación física plausible?
+Configura el ESPACIADO en 1. (Tendrás que editar el control deslizante porque el mínimo normal es 2.) ¿Qué pasa? ¿Esto solo es una limitación de las reglas del modelo, o tiene alguna interpretación física plausible?
 
 ##  EXTENDIENDO EL MODELO
 
-En la pestaña Código, observe la variable &quot;spout-space&quot;. Intente cambiar el número de picos en la parte superior de la vista cambiando &quot;spout-space&quot;.
+En la pestaña de Código, observa la variable pico-espacio. Intenta cambiar el número de picos en la parte superior de la vista cambiando el espacio de pico-espacio.
 
-¿Este modelo refleja con precisión cómo se comporta la arena? Si no, ¿qué reglas podría diseñar para modelar con mayor precisión el comportamiento de la arena? ¿Cómo incorporarlos al modelo?
+¿Este modelo refleja cómo se comporta la arena con precisión? Si no ¿qué reglas podrías diseñar para modelar el comportamiento de la arena con mayor precisión? ¿Cómo podrías incorporarlos al modelo?
 
-¿Qué efecto tiene el peso sobre las partículas de arena? ¿Deberían las partículas con muchas partículas por encima de ellas comportarse de manera diferente? Si es así, ¿cómo cambiaría esto las reglas?
+¿Qué efecto tiene el peso en las partículas de arena? ¿Deberían comportarse de maneras diferentes las partículas con muchas partículas por encima de ellas? Si es así, ¿cómo cambiaría esto a las reglas?
 
-Intente simular la erosión con este modelo. ¿Cómo puedes simular el viento? ¿Qué efecto tendría esto en la forma de las pilas? ¿Cómo puedes simular la lluvia? ¿Qué efecto tendría esto en la forma de las pilas?
+Intenta simular erosión con este modelo. ¿Cómo podrías simular el viento? ¿Qué efecto tendría en la forma de las pilas? ¿Cómo puedes simular lluvia? ¿Qué efecto tendría en la forma de las pilas?
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Observe cómo el modelo almacena un conjunto de agentes en una variable, &quot;spout-patches&quot;. Se inicializa con el conjunto de agentes de los parches donde se encuentran los spouts. Posteriormente, esta variable se puede utilizar en un comando `ask` como los conjuntos de agentes predeterminados de` turtles` y `patches`. Dado que el conjunto de agentes se crea una vez, antes de tiempo, los modelos se ejecutan más rápido que si el conjunto de agentes se reconstruyera en cada paso.
+Observa como el modelo colecta un conjunto de agentes en una variable, parcelas-picos. Se inicializa con el conjunto de agentes de las parcelas donde están los picos. Posteriormente esta variable se puede usar en un comando de pedir tanto similar como los conjuntos de agentes predeterminados de tortugas y parcelas. Como el conjunto de agentes se crea una vez, antes de tiempo, los modelos se ejecutan más rápido que si el conjunto de agentes se reconstruye en cada paso.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1996).  NetLogo Sand model.  http://ccl.northwestern.edu/netlogo/models/Sand.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -75,3 +74,5 @@ This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SEN
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
 
 <!-- 1996 2001 -->
+
+Traductora: Chelsea Guzman
