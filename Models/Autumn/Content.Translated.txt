@@ -1,100 +1,99 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
-Si vives en un clima cálido durante el verano y frío en el invierno, probablemente estés familiarizado con el hermoso fenómeno otoñal en el que las hojas cambian de color antes de morir y caerse del árbol. Este modelo simula las formas en que las hojas cambian de color y caen, permitiendo explorar y comprender este hermoso espectáculo anual.
+Si vives en un clima cálido durante el verano y frío en el invierno, entonces probablemente estás familiarizado con el hermoso fenómeno otoñal en el que las hojas cambian de color antes de morir y caerse del árbol. Este modelo simula las formas en que las hojas cambian de color y caen, permitiéndote explorar y comprender este hermoso espectáculo anual.
 
 ##  COMO FUNCIONA
 
-Por qué y cómo las hojas cambian de color y caen es sorprendentemente complicado y tiene que ver con una combinación de luz solar, calor y lluvia. (Las hojas pueden ser arrastradas por los vientos fuertes incluso si aún no han cambiado de color, por lo que el viento también tiene un papel).
+Por qué y cómo las hojas cambian de color y caen es sorprendentemente complicado y tiene que ver con una combinación de luz solar, calor y lluvia. (Las hojas pueden ser arrastradas por los vientos fuertes incluso si aún no han cambiado de color, entonces el viento también tiene un papel).
 
-Los colores que vemos en cada hoja provienen de la presencia de sustancias naturales que se producen y almacenan en cada hoja. Tres sustancias contribuyen al color de una hoja:
+Los colores que vemos en cada hoja provienen de la presencia de sustancias naturales que se producen y guardan en cada hoja. Tres sustancias contribuyen al color de una hoja:
 
-- El verde proviene de la clorofila (o un conjunto de sustancias relacionadas conocidas como clorofilas), que convierte la luz solar y el agua en azúcar. Las moléculas de clorofila se destruyen y no se reponen cuando se exponen a la luz solar excesiva y cuando las temperaturas son bajas. Por lo tanto, los días fríos y soleados de otoño hacen que la concentración general de clorofila disminuya. La concentración general de clorofila aumenta nuevamente con la luz del sol (¡siempre que no haya demasiada!) Y cuando hay agua.
+- El verde viene de la clorofila (o un conjunto de sustancias relacionadas conocidas como clorofilas), que convierte la luz solar y el agua en azúcar. Las moléculas de clorofila se destruyen y no se reponen cuando se exponen a la luz solar excesiva y cuando las temperaturas son bajas. Por lo tanto, los días fríos y soleados de otoño hacen que la concentración general de clorofila se disminuya. La concentración general de clorofila aumenta nuevamente con la luz del sol (¡siempre que no haya demasiada!) y cuando hay agua.
 
-- El amarillo proviene de una sustancia llamada caroteno. Las moléculas de caroteno ayudan a dar color a las zanahorias y las batatas. La concentración de caroteno permanece constante durante la vida de una hoja. Sin embargo, el color amarillo suele estar enmascarado por el color verde de la clorofila. Una hoja con mucha más clorofila (típica del verano) será exclusivamente verde, aunque con fuertes tintes amarillos enmascarados detrás del verde. Sin embargo, a medida que la clorofila muere, la presencia de caroteno se hace evidente, lo que da como resultado una hoja amarilla.
+- El amarillo viene de una sustancia llamada caroteno. Las moléculas de caroteno ayudan a dar color a las zanahorias y batatas. La concentración de caroteno permanece constante durante la vida de una hoja. Sin embargo, el color amarillo suele estar enmascarado por el color verde de la clorofila. Una hoja con mucha más clorofila (típico del verano) será exclusivamente verde, aunque con fuertes tintes amarillos enmascarados detrás del verde. Sin embargo, a medida que la clorofila muere, la presencia de caroteno se hace evidente, lo que da como resultado una hoja amarilla.
 
-- El rojo proviene de una sustancia llamada antocianinas. Las moléculas de antocianina se crean en presencia de altas concentraciones de azúcar y concentraciones de agua en la hoja. (Cuanto mayor es la concentración de azúcar, más antocianinas se producen). La concentración de azúcar aumenta cuando el clima frío hace que el árbol interrumpa la circulación de agua hacia el resto del árbol; el agua y el azúcar que quedan atrapados en la hoja se convierten en antocianinas.
+- El rojo viene de una sustancia llamada antocianinas. Las moléculas de antocianina se crean en la presencia de altas concentraciones de azúcar y concentraciones de agua en la hoja. (Cuanto mayor es la concentración de azúcar, más antocianinas se producen). La concentración de azúcar aumenta cuando el clima frío hace que el árbol interrumpa la circulación de agua al resto del árbol; el agua y azúcar que se queda atrapado en la hoja se convierte en antocianinas.
 
-Cada tic del reloj en el modelo consta de dos etapas: (1) El clima (lluvia, viento, sol) afecta las hojas, agregando o quitando azúcar, agua o clorofila según corresponda, y (2) la hoja reacciona a su entorno. , agregando antocianinas según corresponda y cambiando de color para reflejar el ambiente modificado.
+Cada tic del reloj en el modelo consiste de dos etapas: (1) El clima (lluvia, viento, sol) afecta las hojas, agregando o quitando azúcar, agua o clorofila según corresponda, y (2) la hoja reacciona a su ambiente, agregando antocianinas según corresponda y cambiando de color para reflejar el ambiente modificado.
 
 El agua no entra directamente en cada hoja, sino que es absorbida por las raíces del árbol, de las cuales es arrancada por el tronco y hacia las ramas y hojas. En este modelo, se supone que todo el suelo contiene raíces de árboles y, por lo tanto, todas las gotas de lluvia fluyen hacia el tronco una vez que llegan al suelo. De manera similar, todas las gotas de lluvia viajan por el tronco del árbol y luego a lo largo de las ramas (que no están representadas en el modelo), hacia las hojas. Las hojas recogen agua de las gotas de lluvia cercanas. Las gotas de lluvia desaparecen cuando ya no les queda agua.
 
-Las hojas en el modelo tienen un atributo de &quot;apego&quot;, que el modelo usa para indicar con qué fuerza se adhiere la hoja al árbol. El apego aumenta con el agua y disminuye con el viento y la lluvia. (En un día muy ventoso, las hojas pueden volar incluso si están completamente verdes).
+Las hojas en el modelo tienen un atributo de "apego", que el modelo usa para indicar con qué fuerza se adhiere la hoja al árbol. El apego aumenta con el agua y disminuye con el viento y la lluvia. (En un día muy ventoso, las hojas pueden volar incluso si están completamente verdes).
 
 Debido a que el espacio de color de NetLogo no incluye todos los colores posibles, este modelo utiliza un algoritmo de umbral para determinar el color de la hoja, como una aproximación del color real. Siempre que la clorofila esté por encima del 50%, la hoja es verde. Debajo de eso, a la hoja se le da un color amarillo, rojo o naranja, dependiendo de si hay una mayoría de caroteno, antocianinas o ambos, respectivamente.
 
-Tenga en cuenta que la intensidad de los colores de las hojas varía con el nivel de clorofila, caroteno y / o antocianinas. Entonces, un árbol cargado de clorofila tendrá hojas de color verde oscuro, mientras que uno con solo un poco tendrá hojas de color verde claro.
+Tenga en cuenta que la intensidad de los colores de las hojas varía con el nivel de clorofila, caroteno y/o antocianinas. Entonces, un árbol cargado de clorofila tendrá hojas de color verde oscuro, mientras que uno con solo un poco tendrá hojas de color verde claro.
 
 ##  COMO USARLO
 
-Para usar el modelo, presione SETUP. Esto creará el tronco y las ramas del árbol, y también creará las hojas del árbol, que son los agentes principales en este modelo. Presione GO para poner el sistema en movimiento.
+Para usar el modelo, presiona PREPARAR. Esto creará el tronco y las ramas del árbol, y también creará las hojas del árbol, que son los agentes principales en este modelo. Presiona IR para poner el sistema en movimiento.
 
-Ahora viene la parte interesante y / o complicada, es decir, ajustar los controles deslizantes debajo de la vista para que el clima produzca las condiciones que desea explorar o estudiar. Si las hojas parecen estar perdiendo clorofila debido a la falta de agua (que puede controlar en el gráfico &quot;Promedios de las hojas&quot;), puede hacer que llueva ajustando el control deslizante LLUVIA-INTENSIDAD. Para hacer que el viento sople, ajuste el control deslizante WIND-FACTOR.
+Ahora viene la parte interesante y/o complicada, es decir, ajustar los controles deslizantes debajo de la vista para que el clima produzca las condiciones que tú deseas explorar o estudiar. Si las hojas parecen estar perdiendo clorofila debido a la falta de agua (que puede controlar en el gráfico "Promedios de Hojas"), puedes hacer que llueva al ajustar el control deslizante ITENSIDAD-DE-LLUVIA. Para hacer que el viento sople, ajuste el control deslizante FACTOR-DE-VIENTO.
 
-La fuerza del sol (en términos de intensidad de la luz solar) se ajusta con el control deslizante SUN-INTENSITY. Como se señaló anteriormente, las hojas necesitan luz solar para producir clorofila y azúcar, pero demasiada luz solar puede comenzar a destruir estos químicos.
+La fuerza del sol (en términos de intensidad de la luz solar) se ajusta con el control deslizante ITENSIDAD-DEL-SOL. Como se señaló anteriormente, las hojas necesitan luz solar para producir clorofila y azúcar, pero demasiada luz solar puede comenzar a destruir estas químicas.
 
-Finalmente, puede cambiar el control deslizante TEMPERATURA. Si la temperatura es demasiado fría, las moléculas de clorofila se destruirán, poniendo en marcha la creación de antocianinas.
+Finalmente, puedes cambiar el control deslizante TEMPERATURA. Si la temperatura es demasiado fría, las moléculas de clorofila se destruirán, poniendo en marcha la creación de antocianinas.
 
-Una vez que haya dominado los conceptos básicos del modelo, es posible que desee considerar configurar los dos controles deslizantes en la esquina superior izquierda, START-SUGAR-MEAN y START-SUGAR-STDDEV, que influyen en la media y la propagación de la distribución inicial de azúcar entre las hojas. Las hojas de arce, por ejemplo, tienden a tener mucha azúcar para empezar, lo que significa que se volverán más rojas que otras hojas en condiciones similares.
+Una vez que hayas dominado los conceptos básicos del modelo, piensa en que si quieres configurar los dos controles deslizantes en la esquina superior izquierda, INICIO-AZÚCAR-PROMEDIO y INICIO-AZÚCAR-DSVNESTR, las cuales influyen el promedio y la propagación de la distribución inicial de azúcar entre las hojas. Las hojas de arce, por ejemplo, tienden a tener mucha azúcar para empezar, lo que significa que se volverán más rojas que otras hojas en condiciones similares.
 
-El MODO DE VISUALIZACIÓN DE HOJAS en la esquina inferior derecha cambia la forma en que se representan las hojas. Normalmente, cada hoja se pinta como una cuña de tortuga &quot;predeterminada&quot; sólida de NetLogo. Este es el caso cuando LEAF-DISPLAY-MODE se establece en &quot;sólido&quot;, el valor predeterminado. Seleccionando un valor diferente para LEAF-DISPLAY-MODE luego cambia cada hoja para mostrar una forma vacía, medio llena o completa, de acuerdo con la variable que se eligió. Por lo tanto, si LEAF-DISPLAY-MODE está configurado en &quot;water&quot;, cada hoja se mostrará vacía (si tiene poca agua), medio llena (si tiene algo de agua) o llena (si está relativamente llena de agua).
+El MODO-DE-VISUALIZACIÓN-HOJAS en la esquina inferior derecha cambia la forma en que se representan las hojas. Normalmente, cada hoja se pinta como una cuña de tortuga "defecta" sólida de NetLogo. Este es el caso cuando MODO-DE-VISUALIZACIÓN-HOJAS se establece en "sólido", el valor predeterminado. Al seleccionar un valor diferente para MODO-DE-VISUALIZACIÓN-HOJAS luego cambia cada hoja para mostrar una forma vacía, medio llena o completa, de acuerdo con la variable que se eligió. Por lo tanto, si MODO-DE-VISUALIZACIÓN-HOJAS está configurado en "agua", cada hoja se mostrará vacía (si tiene poca agua), medio llena (si tiene algo de agua) o llena (si está relativamente llena de agua).
 
 ##  COSAS PARA NOTAR
 
-Las hojas absorben agua cuando son golpeadas por las gotas de lluvia, lo que significa que con una lluvia ligera y muchas hojas, las hojas &quot;internas&quot; no recibirán suficiente lluvia.
+Hojas absorben agua cuando son golpeadas por las gotas de lluvia, lo que significa que con una lluvia ligera y muchas hojas, las hojas "internas" no recibirán suficiente lluvia.
 
-Cuanto más fuerte es el viento, más se sacude cada hoja.
+Cuanto más fuerte es el viento, más se mueve cada hoja.
 
-Puede simular un huracán menor haciendo que el viento y la lluvia alcancen sus valores máximos. ¡Mira cómo se caen todas las hojas a la vez!
+Puedes simular un huracán menor al subir el viento y la lluvia a sus valores máximas. ¡Mira cómo se caen todas las hojas juntas!
 
 ##  COSAS PARA INTENTAR
 
-¿Puedes conseguir que todas las hojas se pongan rojas antes de caer? ¿Qué tal ponerse naranja antes de caer? ¿Qué tal el amarillo? Ahora intente mezclar las cosas, de modo que el mismo árbol tenga hojas de muchos colores diferentes. (Sugerencia: probablemente deba ajustar los controles deslizantes de sol, lluvia y temperatura varias veces para que la combinación se vea bien).
+¿Puedes conseguir que todas las hojas se pongan rojas antes de caer? ¿Qué tal ponerse naranja antes de caer? ¿Qué tal amarillo? Ahora intente a poner más interesante las cosas, de modo que el mismo árbol tenga hojas de muchos colores diferentes. (Sugerencia: probablemente tendrás que ajustar los controles deslizantes de sol, lluvia y temperatura varias veces para que la combinación se vea bien).
 
 Intenta que las hojas se vuelvan amarillas y luego verdes nuevamente.
 
-En algunos climas, los árboles no pierden sus hojas. ¿Puedes ajustar las condiciones climáticas para que puedas hacer que el árbol conserve algunas de sus hojas?
+En algunas climas, los árboles no pierden sus hojas. ¿Puedes ajustar las condiciones climáticas para que el árbol conserve algunas de sus hojas?
 
 ##  EXTENDIENDO EL MODELO
 
-En la vida real, las hojas que dan al sol tienden a ser más amarillas que las que no lo hacen. Cambie el modelo de manera que el sol se pueda colocar (y mover), y de tal manera que las hojas que miran hacia el sol sean más sensibles a la luz solar que las que no lo hacen.
+En la vida real, las hojas que dan al sol tienden a ser más amarillas que las que no lo hacen. Cambia el modelo de manera que el sol se pueda colocar (y mover), y de tal manera que las hojas que miran hacia el sol sean más sensibles a la luz solar que las que no lo hacen.
 
 El modelo es muy simplista en su enfoque del agua y el azúcar, es decir, que toda el agua proviene de la lluvia, que las gotas de lluvia pueden afectar a varias hojas y que las gotas de lluvia desaparecen cuando golpean el suelo. Un modelo más realista haría que las gotas de lluvia desaparecieran tan pronto como golpearan una hoja, pero también permitiría que el agua viajara desde el suelo hasta las hojas, a través del tronco y las ramas. También un modelo más realista modelaría el transporte de azúcares entre las hojas y el almacenamiento del exceso de azúcar en las raíces.
 
-Permita la brotación y el crecimiento de hojas nuevas, además de la muerte de las maduras.
+Permite la brotación y el crecimiento de hojas nuevas, además de la muerte de las maduras.
 
-Agregue ciclos de día y noche, en los que la temperatura desciende y el sol se pone durante varios tics del reloj. En la oscuridad, el árbol consumiría azúcares y produciría agua a través de la respiración.
+Agrega ciclos de día y noche, en los que la temperatura desciende y el sol se pone durante varios tics del reloj. En la oscuridad, el árbol consumiría azúcares y produciría agua a través de la respiración.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Debido a que el espacio de color de NetLogo está incompleto, necesitábamos simular un poco la mezcla de pigmentación de color. Observe cómo manejamos la configuración de colores mediante umbrales. Esto significa que puede haber cambios de color repentinos y discordantes si las condiciones climáticas son un poco extremas.
+Debido a que el espacio de color de NetLogo está incompleto, necesitábamos simular un poco la mezcla de pigmentación de color. Observe cómo manejamos la configuración de colores por umbrales. Esto significa que puede haber cambios de color repentinos y discordantes si las condiciones climáticas son un poco extremas.
 
-También tenga en cuenta que el esquema de color de NetLogo y la primitiva `scale-color` producen colores que van del blanco al negro. Debido a que en este modelo queremos variar los tonos sin acercarnos demasiado al negro o al blanco, usamos la primitiva `scale-color` pero en una escala de -50 a 150, en lugar del habitual 0 a 100.
+También tenga en cuenta que el esquema de color de NetLogo y la primitiva `escala-de-color` producen colores que van del blanco al negro. Debido a que en este modelo queremos variar los tonos sin acercarnos demasiado al negro o al blanco, usamos la primitiva `escala-de-color` pero en una escala de -50 a 150, en lugar del habitual 0 a 100.
 
-Cuando una hoja muere, su raza cambia a &quot;hojas muertas&quot;. Esto lo mantiene en el sistema, pero nos permite dar instrucciones solo a aquellas hojas que están vivas.
+Cuando una hoja muere, su raza cambia a "hojas muertas". Esto lo mantiene en el sistema, pero nos permite dar instrucciones solo a aquellas hojas que están vivas.
 
-Observe cómo cambia el color del sol a medida que cambia la INTENSIDAD DEL SOL. ¿Qué le sucede a la etiqueta cuando el sol se vuelve oscuro y pequeño?
+Observe cómo cambia el color del sol a medida que cambia la INTENSIDAD-DEL-SOL. ¿Qué le sucede a la etiqueta cuando el sol se vuelve oscuro y pequeño?
 
 ##  MODELOS RELACIONADOS 
 
-Plant Growth is in some ways a model of the opposite process, namely how do leaves grow, as opposed to how do leaves die.
+Crecimiento de Plantas es en algunas maneras un modelo del proceso contrario, particularmente como las hojas crecen, en vez de como se mueren.
 
 ##  CRÉDITOS Y REFERENCIAS 
 
 - www.scifun.org/CHEMWEEK/AutumnColors2017.pdf
 - https://www.the-scientist.com/news/why-leaves-turn-color-in-the-fall-53929
 
-Thanks to Reuven Lerner for his work on this model.
+Gracias a Reuven Lerner por su trabajo en este modelo.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (2005).  NetLogo Autumn model.  http://ccl.northwestern.edu/netlogo/models/Autumn.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor ciita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -109,3 +108,5 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
 
 <!-- 2005 -->
+
+Traductora: Chelsea Guzman

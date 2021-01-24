@@ -28,7 +28,7 @@ hojas muertas
 ### Source
 Leaf averages
 ### Spanish
-Promedios hojas
+Promedios de hojas
 
 ### Source
 leaves
@@ -109,7 +109,7 @@ preparar
 ### Source
 start-sugar-mean
 ### Spanish
-inicio-azúcar-media
+inicio-azúcar-promedio
 
 ### Source
 start-sugar-stddev
