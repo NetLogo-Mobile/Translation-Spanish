@@ -124,12 +124,12 @@ ir/parar
 ### Source
 gravity-acceleration
 ### Spanish
-aceleración-gravedad
+aceleración-de-gravedad
 
 ### Source
 init-particle-speed
 ### Spanish
-inicial-velocidad-partículas
+inicial-velocidad-de-partículas
 
 ### Source
 number-of-particles

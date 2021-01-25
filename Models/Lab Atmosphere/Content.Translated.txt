@@ -1,59 +1,58 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
-En este modelo, se coloca una atmósfera gaseosa sobre la superficie de un &quot;planeta&quot;, representada por una línea amarilla en la parte inferior del mundo.
+En este modelo, se coloca una atmósfera gaseosa sobre la superficie de una "planeta", representada por una línea amarilla en la parte inferior del mundo.
 
-Este modelo es uno de una serie de modelos GasLab. Utilizan las mismas reglas básicas para simular el comportamiento de los gases. Cada modelo integra diferentes características para resaltar diferentes aspectos del comportamiento del gas.
+Este modelo es uno de una serie de modelos GasLab. Usan las mismas reglas básicas para simular el comportamiento de los gases. Cada modelo integra diferentes características para resaltar diferentes aspectos del comportamiento del gas.
 
 El principio básico de los modelos es que se supone que las partículas de gas tienen dos acciones elementales: se mueven y chocan, ya sea con otras partículas o con cualquier otro objeto, como paredes.
 
 ##  COMO FUNCIONA
 
-El principio básico de todos los modelos de GasLab es el siguiente algoritmo (para más detalles, consulte el modelo &quot;GasLab Gas in a Box&quot;):
+El principio básico de todos los modelos de GasLab es el siguiente algoritmo (para más detalles, consulte el modelo "GasLab en una Caja"):
 
-1) Una partícula se mueve en línea recta sin cambiar su velocidad, a menos que choque con otra partícula o rebote en la pared.
-2) Dos partículas &quot;chocan&quot; si se encuentran en el mismo parche (la Vista de NetLogo se compone de una cuadrícula de pequeños cuadrados llamados parches). En este modelo, se apuntan dos partículas de modo que colisionen en el origen.
+1) Una partícula se mueve en una línea recta sin cambiar su velocidad, a menos que choque con otra partícula o rebote en la pared.
+2) Dos partículas "chocan" si se encuentran en la mismo parcela (la Vista de NetLogo se compone de una cuadrícula de pequeños cuadrados llamados parcelas). En este modelo, se apuntan dos partículas de modo que colisionen en el origen.
 3) Se elige un ángulo de colisión para las partículas, como si fueran dos bolas sólidas que chocan, y este ángulo describe la dirección de la línea que conecta sus centros.
-4) Las partículas intercambian momento y energía solo a lo largo de esta línea, conforme a la conservación del momento y la energía para colisiones elásticas.
+4) Las partículas intercambian momento y energía solo a lo largo de esta línea, conformando a la conservación del momento y la energía para colisiones elásticas.
 5) A cada partícula se le asigna su nueva velocidad, rumbo y energía.
-6) Si una partícula se encuentra sobre o muy cerca de la superficie del planeta, &quot;rebota&quot;, es decir, refleja su dirección y mantiene su misma velocidad.
+6) Si una partícula se encuentra sobre o muy cerca de la superficie del planeta, "rebota" --- es decir, refleja su dirección y mantiene su misma velocidad.
 
-En este modelo, el efecto de la gravedad se calcula de la siguiente manera: cada partícula recibe una velocidad adicional hacia abajo durante cada tic del reloj, como lo haría en un campo gravitacional. Las partículas rebotan en el &quot;suelo&quot;. Desaparecen si llegan a la cima del mundo, como si hubieran escapado del campo gravitacional del planeta. El porcentaje de partículas perdidas se muestra en el monitor PORCENTAJE DE PARTÍCULAS PERDIDAS.
+En este modelo, el efecto de la gravedad se calcula de la siguiente manera: cada partícula recibe una velocidad adicional hacia abajo durante cada tic del reloj, como lo haría en un campo gravitacional. Las partículas rebotan en el "suelo". Desaparecen si llegan a la cima del mundo, como si hubieran escapado del campo gravitacional del planeta. El porcentaje de partículas perdidas se muestra en el monitor PORCENTAJE DE PARTÍCULAS PERDIDAS.
 
 ##  COMO USARLO
 
-Ajustes iniciales:
-- NÚMERO DE PARTÍCULAS: número de partículas de gas
-- INIT-PARTICLE-SPEED: velocidad inicial de cada partícula
-- PARTICLE-MASS: masa de cada partícula
-- GRAVEDAD-ACELERACIÓN: valor de la aceleración gravitacional
+Configuraciones iniciales:
+- NÚMERO-DE-PARTÍCULAS: número de partículas de gas
+- INICIAL-VELOCIDAD-DE-PARTÍCULAS: velocidad inicial de cada partícula
+- MASA-DE-PARTÍCULAS: masa de cada partícula
+- ACELERACIÓN-DE-GRAVEDAD: valor de la aceleración gravitacional
 
-El botón SETUP establecerá las condiciones iniciales. El botón GO ejecutará la simulación.
+El botón PREPARAR establecerá las condiciones iniciales. El botón IR ejecutará la simulación.
 
-Otros ajustes:
-- ¿COLLIDE ?: Activa y desactiva las colisiones entre partículas.
-- ¿TRACE ?: Traza el camino de una de las partículas.
+Otras configuraciones:
+- ¿CHOCAR?: Activa y desactiva las colisiones entre partículas.
+- ¿TRAZAR?: Traza el camino de una de las partículas.
 
 Monitores:
-- VELOCIDAD MEDIA: velocidad media de las partículas.
-- PORCENTAJE DE RÁPIDO, POR CIENTO MEDIO, POR CIENTO LENTO: porcentaje de partículas con diferentes velocidades: rápido (rojo), medio (verde) y lento (azul).
+- VELOCIDAD PROMEDIO: velocidad media de las partículas.
+- PORCENTAJE RÁPIDO, PORCENTAJE MEDIO, PORCENTAJE LENTO: porcentaje de partículas con diferentes velocidades: rápido (rojo), medio (verde) y lento (azul).
 - PORCENTAJE DE PARTÍCULAS PERDIDAS: porcentaje de partículas que han desaparecido en el borde superior del mundo.
-- CLOCK (dentro de la Vista): número de ticks que se han ejecutado.
+- RELOJ (dentro de Vista): número de tics que se han ejecutado.
 
 Parcelas:
-- CUENTOS DE VELOCIDAD: traza el número de partículas en cada rango de velocidad.
+- CONTEOS DE VELOCIDAD: traza el número de partículas en cada rango de velocidad.
 - HISTOGRAMA DE VELOCIDAD: distribución de la velocidad de todas las partículas. La línea gris es el valor promedio y la línea negra es el promedio inicial.
-- HISTOGRAMA DE ENERGÍA: distribución de energías de todas las partículas, utilizando m * (v ^ 2) / 2.
-- HISTOGRAMA DE DENSIDAD: muestra el número de partículas en cada &#39;capa&#39; de la atmósfera, es decir, su densidad local.
-- ENERGÍA VS. ALTURA: muestra la energía media de las partículas en cada &quot;capa&quot; de la atmósfera.
+- HISTOGRAMA DE ENERGÍA: distribución de las energías de todas las partículas, utilizando m*(v^2)/2.
+- HISTOGRAMA DE DENSIDAD: muestra el número de partículas en cada 'capa' de la atmósfera, es decir, su densidad local.
+- ENERGÍA VS. ALTURA: muestra la energía promedio de las partículas en cada "capa" de la atmósfera.
 
 ##  COSAS PARA NOTAR
 
-Intente predecir cómo se verá la vista después de un tiempo y por qué.
+Intenta predecir cómo se verá la vista después de un tiempo y por qué.
 
-Observa el camino gris de una partícula. ¿Qué puedes decir sobre su movimiento? Gire COLLIDE? apagar y ver si hay diferencias.
+Observa el camino gris de una partícula. ¿Qué puedes decir sobre su movimiento? Apaga ¿COLLIDE? y ve si hay diferencias.
 
-Observe el cambio en la distribución de densidad a medida que se ejecuta el modelo.
+Observa el cambio en la distribución de densidad mientras que se ejecuta el modelo.
 
 Mientras se ejecuta el modelo, ¿qué sucede con la velocidad promedio y la energía cinética de las partículas? Si obtienen energía, ¿de dónde viene? ¿Qué sucede con las distribuciones de velocidad y energía?
 
@@ -61,50 +60,50 @@ Mientras se ejecuta el modelo, ¿qué sucede con la velocidad promedio y la ener
 
 ¿Qué sucede cuando la gravedad aumenta o disminuye?
 
-Cambie el número, la velocidad y la masa iniciales. ¿Qué sucede con la distribución de la densidad?
+Cambia el número, velocidad y masa iniciales. ¿Qué sucede con la distribución de la densidad?
 
 ¿Qué factores afectan la cantidad de partículas que escapan de este planeta?
 
-¿Este modelo llega a algún tipo de equilibrio? ¿Cómo puede saber cuándo se ha alcanzado?
+¿Este modelo llega a algún tipo de equilibrio? ¿Cómo puedes saber cuándo se ha alcanzado?
 
-Intente averiguar si la distribución de las partículas en este modelo es la misma que la predicha por las leyes físicas convencionales. ¿Es esto consistente, por ejemplo, con el hecho de que los lugares de gran altitud tienen menor presión (y por lo tanto menor densidad de aire)? ¿Por qué están más fríos?
+Intenta averiguar si la distribución de las partículas en este modelo es la misma que la predicha por las leyes físicas convencionales. ¿Es esto consistente, por ejemplo, con el hecho de que los lugares de gran altitud tienen menor presión (y por lo tanto menor densidad de aire)? ¿Por qué están más fríos?
 
 Intenta hacer que la gravedad sea negativa.
 
 ##  EXTENDIENDO EL MODELO
 
-Encuentre una manera de graficar la &quot;temperatura&quot; relativa del gas en función de la distancia al planeta.
+Encuentre una manera de graficar la "temperatura" relativa del gas en función de la distancia al planeta.
 
 Prueba este modelo con partículas de diferentes masas. Podrías colorear cada masa de manera diferente para poder ver a dónde van. ¿Son sus distribuciones diferentes? ¿Cuáles escapan más fácilmente? ¿Qué sugiere esto sobre la composición de una atmósfera?
 
-El hecho de que las partículas escapen cuando alcanzan una cierta altura no es del todo realista, especialmente en el caso de que la partícula estuviera a punto de volverse hacia el planeta. Mejore el modelo permitiendo que las partículas que han &quot;escapado&quot; vuelvan a entrar en la atmósfera una vez que la gravedad las empuja hacia abajo. ¿Cómo cambia esto el comportamiento del modelo? Sería interesante hacer un seguimiento de las pérdidas reales (partículas que alcanzaron la velocidad de escape del planeta). ¿Bajo qué condiciones las partículas alcanzarán la velocidad de escape?
+El hecho de que las partículas escapen cuando alcanzan una cierta altura no es todo realista, especialmente en el caso de que la partícula estuviera a punto de volverse hacia el planeta. Mejore el modelo al permitir que las partículas que han "escapado" vuelvan a entrar en la atmósfera una vez que la gravedad las empuja hacia abajo. ¿Cómo cambia esto el comportamiento del modelo? Sería interesante hacer un seguimiento de las pérdidas reales (partículas que alcanzaron la velocidad de escape del planeta). ¿Bajo qué condiciones las partículas alcanzarán la velocidad de escape?
 
-Convierte el &quot;planeta&quot; en un punto central en lugar de un plano.
+Convierte el "planeta" en un punto central en lugar de un plano.
 
-Este modelo básico podría usarse para explorar otras situaciones en las que las partículas que se mueven libremente tienen fuerzas sobre ellas, por ejemplo, una centrífuga o partículas cargadas (iones) en un campo eléctrico.
+Este modelo básico se podría usar para explorar otras situaciones en las que las partículas que se mueven libremente tienen fuerzas sobre ellas, por ejemplo, una centrífuga o partículas cargadas (iones) en un campo eléctrico.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Debido a la influencia de la gravedad, las partículas siguen trayectorias curvas. Dado que NetLogo modela el tiempo en pasos discretos, estas trayectorias curvas deben aproximarse con una serie de líneas rectas cortas. Esta es la fuente de una ligera inexactitud en la que las partículas pierden energía gradualmente si el modelo funciona durante mucho tiempo. El efecto es como si las colisiones con el suelo fueran ligeramente inelásticas. La inexactitud se puede reducir aumentando &quot;vsplit&quot;, pero el modelo funcionará más lento.
+Debido a la influencia de la gravedad, las partículas siguen trayectorias curvadas. Dado que NetLogo modela el tiempo en pasos discretos, estas trayectorias curvadas deben aproximarse con una serie de líneas rectas cortas. Esta es la fuente de una ligera inexactitud en la que las partículas pierden energía gradualmente si el modelo funciona durante mucho tiempo. El efecto es como si las colisiones con el suelo fueran ligeramente inelásticas. La inexactitud se puede reducir aumentando 'vsplit', pero el modelo funcionará más lento.
 
 ##  MODELOS RELACIONADOS 
 
-This model is part of the GasLab suite and curriculum.
-See, in particular, the models "Gas in a Box" and "Gravity Box", which is a modified version of the "Atmosphere" model, with a ceiling on the atmosphere.
+Este modelo es parte del GasLab juego y plan de estudios.
+Ves, en particular, los modelos "Gas en una Caja" y "Caja de Gravedad", lo cual es la versión modificada del modelo "Atmósfera", con el techo en la atmósfera.
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-This model was developed as part of the GasLab curriculum (http://ccl.northwestern.edu/curriculum/gaslab/) and has also been incorporated into the Connected Chemistry curriculum (http://ccl.northwestern.edu/curriculum/ConnectedChemistry/)
+Este modelo fue desarrollado como parte del GasLab plan de estudios (http://ccl.northwestern.edu/curriculum/gaslab/)y también ha sido incorporado en el Química Conectada plan de estudios (http://ccl.northwestern.edu/curriculum/ConnectedChemistry/)
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1997).  NetLogo GasLab Atmosphere model.  http://ccl.northwestern.edu/netlogo/models/GasLabAtmosphere.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -123,3 +122,5 @@ This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SEN
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2002.
 
 <!-- 1997 2002 -->
+
+Traductora: Chelsea Guzman
