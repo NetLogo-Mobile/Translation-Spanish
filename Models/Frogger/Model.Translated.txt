@@ -43,12 +43,12 @@ nivel-de-inicio
 ### Source
 start-lives
 ### Spanish
-vidas-comienzo
+vidas-de-inicio
 
 ### Source
 start-time
 ### Spanish
-comienzo-tiempo
+tiempo-de-inicio
 
 ### Source
 Time Left

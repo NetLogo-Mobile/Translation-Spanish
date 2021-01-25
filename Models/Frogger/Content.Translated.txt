@@ -1,57 +1,56 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
 Este modelo está basado en el clásico juego de arcade Frogger. El objetivo del juego es llevar a la rana, que se encuentra en la parte inferior de la vista, a través del tráfico y el río hasta un nenúfar seguro en el otro lado.
 
 ##  COMO FUNCIONA
 
-Hay dos obstáculos principales que superar, la calle y el río. La calle tiene carros y camiones que se mueven a varias velocidades que pueden atropellar a la rana. Una vez que haya cruzado la calle de manera segura, debe superar el peligro que acecha en el río. Desafortunadamente, morirás si saltas al río, por lo que debes seguir avanzando hacia los nenúfares saltando sobre los troncos o grupos de tortugas que se mueven de un lado a otro en la corriente del río.
+Hay dos obstáculos principales que tienes que superar, la calle y el río. La calle tiene carros y camiones que se mueven a varias velocidades que pueden atropellar a la rana. Una vez que hayas cruzado la calle de manera segura, debes superar el peligro que acecha en el río. Desafortunadamente, morirás si saltas al río, por lo que debes seguir avanzando hacia los nenúfares saltando sobre los troncos o grupos de tortugas que se mueven de un lado a otro en la corriente del río.
 
-También debe evitar ser empujado por el borde por un tronco o una tortuga. Además, en los niveles posteriores, algunas de las tortugas se sumergirán bajo el agua; si te encuentras parado sobre ellas, ¡te ahogarás! Finalmente, también debe cruzar el tablero antes de que se agote la cantidad de tiempo asignada.
+También debes evitar ser empujado por el borde por un tronco o una tortuga. Además, en los niveles posteriores, algunas de las tortugas se sumergirán bajo del agua; si te encuentras parado sobre ellas, ¡te ahogarás! Finalmente, también debes cruzar el tablero antes de que se agote la cantidad de tiempo asignada.
 
 ##  COMO USARLO
 
 Botones
 
-- NEW-GAME reinicia el juego
-- START inicia el juego
+- NUEVO-JUEGO reinicia el juego
+- INICIAR inicia el juego
 - Los botones de dirección (ARRIBA, ABAJO, IZQUIERDA, DERECHA) moverán tu rana en esa dirección
 
 Monitores
 
-- FROGS LEFT te dice cuántas vidas te quedan
-- LEVEL monitorea el nivel actual que estás jugando
-- TIEMPO LEFT muestra cuánto tiempo queda
-- FROG JUMPS te dice cuántos saltos has dado
+- RANAS QUE QUEDAN te dice cuántas vidas te quedan
+- NIVEL monitorea el nivel actual que estás jugando
+- TIEMPO QUE QUEDA muestra cuánto tiempo queda
+- SALTOS DE RANAS te dice cuántos saltos has dado
 
 Deslizadores
 
-- START-LIVES determinará con cuántas vidas empezarás
-- START-TIME establece el tiempo de inicio con
-- NIVEL DE INICIO se utiliza para determinar en qué nivel comenzará
+- VIDAS-DE-INICIO determinará con cuántas vidas empezarás
+- TIEMPO-DE-INICIO establece el tiempo de inicio con
+- NIVEL-DE-INICIO se utiliza para determinar en qué nivel comenzará
 
 Elenco de personajes:
 
 - Rana verde: Este eres tú.
-- Camión: Evítalo a toda costa. Suelen ser bastante lentos.
-- Coche: Evítalo a toda costa. Suelen ser rápidos.
-- Cuadrados marrones: esto es un registro. Tienes que saltar sobre estos para cruzar el río.
-- Tortuga: Tienes que saltar sobre estos. Evite los que se sumergen.
+- Camión: Evítalo a toda costa. Normalmente, son bastante lentos.
+- Coche: Evítalo a toda costa. Normalmente, son rápidos.
+- Cuadrados marrones: esto es un tronco. Tienes que saltar sobre estos para cruzar el río.
+- Tortuga: Tienes que saltar sobre estos. Evita los que se sumergen.
 - Círculos verdes: son hojas de nenúfar. Quieres subirte a estos para ganar el nivel.
 - Cuadrados azules: este es el río. No puedes aterrizar en esto.
 - Cuadrados grises: este es el calle. Puedes saltar sobre esto, pero ten cuidado con los vehículos.
 
-- Manchas verdes: esto es hierba. Estás bastante seguro aquí.
+- Parcelas verdes: esto es pasto. Estás bastante seguro aquí.
 
 ##  COSAS PARA INTENTAR
 
-Vea si puede superar todos los niveles.
+Vea si puedes superar todos los niveles.
 
 Intenta superar tu tiempo anterior.
 
-Trate de hacer el menor número posible de saltos en el tiempo asignado.
+Trata de hacer el menor número posible de saltos en el tiempo asignado.
 
-Intente utilizar la menor cantidad de vidas posible.
+Intenta usar la menor cantidad de vidas posible.
 
 ##  COSAS PARA NOTAR
 
@@ -61,37 +60,37 @@ Determina cuántos saltos se necesitarían para cruzar el tablero con obstáculo
 
 ¿Cómo se relaciona cada una de las dos preguntas anteriores con el tiempo que le toma completar un nivel?
 
-Si realiza tantos saltos con obstáculos como sin ellos, ¿por qué se necesitan diferentes duraciones de tiempo para cruzarlos?
+Si realizas tantos saltos con obstáculos como sin ellos, ¿por qué se necesitan diferentes duraciones de tiempo para cruzarlos?
 
 ##  EXTENDIENDO EL MODELO
 
-Escriba sus propios niveles modificando el código en la pestaña Código.
+Escriba sus propios niveles modificando el código en la pestaña de Código.
 
 Agregue algunas bonificaciones o peligros adicionales.
 
-Implementar un sistema de puntuación.
+Implementa un sistema de puntuación.
 
 Escribe un script de robot que moverá tu rana automáticamente.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Este modelo utiliza razas para implementar las diferentes piezas móviles del juego.
+Este modelo usa razas para implementar las diferentes piezas móviles del juego.
 
-El comando `every` se usa para controlar la velocidad del juego.
+El comando `cada` se usa para controlar la velocidad del juego.
 
-El comando `user-message` presenta mensajes al usuario.
+El comando `mensaje-del-usuario` presenta mensajes al usuario.
 
-`mouse-down?`, `mouse-xcor` y` mouse-ycor` se utilizan para detectar y controlar los clics del mouse.
+`ratón-abajo?`, `ratón-xcor` y `ratón-ycor` se usan para detectar y controlar los clics del ratón.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (2002).  NetLogo Frogger model.  http://ccl.northwestern.edu/netlogo/models/Frogger.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -108,3 +107,5 @@ Commercial licenses are also available. To inquire about commercial licenses, pl
 This model was created as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227.
 
 <!-- 2002 -->
+
+Traductora: Chelsea Guzman
