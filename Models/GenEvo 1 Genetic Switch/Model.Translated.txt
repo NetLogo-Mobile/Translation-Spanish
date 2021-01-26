@@ -1,0 +1,113 @@
+﻿## Language = Spanish
+## Plots
+### Source ***
+Cell Division Time
+### Spanish
+
+
+### Source ***
+default
+### Spanish
+
+
+### Source ***
+Energy
+### Spanish
+
+
+### Source ***
+Frequency
+### Spanish
+
+
+### Source ***
+LacZ Number
+### Spanish
+
+
+### Source ***
+Number of Ticks
+### Spanish
+
+
+### Source ***
+Time
+### Spanish
+
+
+## Widgets
+### Source ***
+average-cell-division-time
+### Spanish
+
+
+### Source ***
+glucose?
+### Spanish
+
+
+### Source ***
+go
+### Spanish
+
+
+### Source ***
+LacI-bond-leakage
+### Spanish
+
+
+### Source ***
+LacI-lactose-binding-chance
+### Spanish
+
+
+### Source ***
+LacI-lactose-separation-chance
+### Spanish
+
+
+### Source ***
+LacI-number
+### Spanish
+
+
+### Source ***
+lactose?
+### Spanish
+
+
+### Source ***
+LacY-degradation-chance
+### Spanish
+
+
+### Source ***
+LacZ-degradation-chance
+### Spanish
+
+
+### Source ***
+LevelSpace?
+### Spanish
+
+
+### Source ***
+reset
+### Spanish
+
+
+### Source ***
+RNAP-number
+### Spanish
+
+
+### Source ***
+save screenshot
+### Spanish
+
+
+### Source ***
+setup
+### Spanish
+
+

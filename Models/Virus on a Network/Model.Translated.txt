@@ -68,11 +68,11 @@ preparar
 
 ### Source
 virus-check-frequency
-### Spanish ***
+### Spanish
 frecuencia-de-verificación-de-virus
 
 ### Source
 virus-spread-chance
-### Spanish ***
+### Spanish
 chance-de-propagación-del-virus
 

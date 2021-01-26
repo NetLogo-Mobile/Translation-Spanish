@@ -1,4 +1,25 @@
 ﻿## Language = Spanish
+## Plots
+### Source
+dist
+### Spanish
+dist
+
+### Source
+distance
+### Spanish
+distancia
+
+### Source
+Distance from the origin
+### Spanish
+Distancia desde el origen
+
+### Source
+time
+### Spanish
+tiempo
+
 ## Widgets
 ### Source
 all-circle
@@ -69,25 +90,4 @@ velocidad
 zero-circle
 ### Spanish
 cero-círculo
-
-## Plots
-### Source
-dist
-### Spanish
-dist
-
-### Source
-distance
-### Spanish
-distancia
-
-### Source
-Distance from the origin
-### Spanish
-Distancia desde el origen
-
-### Source
-time
-### Spanish
-tiempo
 

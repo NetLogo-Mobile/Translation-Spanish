@@ -1,4 +1,35 @@
 ﻿## Language = Spanish
+## Plots
+### Source
+apl
+### Spanish
+lcp
+
+### Source
+cc
+### Spanish
+ca
+
+### Source
+fraction of edges rewired
+### Spanish
+fracción de bordes recableados
+
+### Source
+Network Properties Rewire-All
+### Spanish
+Propiedades de red Rewire-All
+
+### Source
+Network Properties Rewire-One
+### Spanish
+Propiedades de Red Rewire-One
+
+### Source
+rewiring probability
+### Spanish
+probabilidad de recablear
+
 ## Widgets
 ### Source
 average-path-length (apl)
@@ -44,35 +75,4 @@ recablear-probabilidad
 setup
 ### Spanish
 preparar
-
-## Plots
-### Source
-apl
-### Spanish
-lcp
-
-### Source
-cc
-### Spanish
-ca
-
-### Source
-fraction of edges rewired
-### Spanish
-fracción de bordes recableados
-
-### Source
-Network Properties Rewire-All
-### Spanish
-Propiedades de red Rewire-All
-
-### Source
-Network Properties Rewire-One
-### Spanish
-Propiedades de Red Rewire-One
-
-### Source
-rewiring probability
-### Spanish
-probabilidad de recablear
 

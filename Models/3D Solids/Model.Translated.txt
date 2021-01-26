@@ -2,12 +2,12 @@
 ## Widgets
 ### Source
 display-color
-### Spanish 
+### Spanish
 color-de-pantalla
 
 ### Source
 go
-### Spanish 
+### Spanish
 ir
 
 ### Source

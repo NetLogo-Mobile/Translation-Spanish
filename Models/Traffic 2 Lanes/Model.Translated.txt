@@ -1,70 +1,4 @@
 ﻿## Language = Spanish
-## Widgets
-### Source
-acceleration
-### Spanish
-aceleración
-
-### Source
-deceleration
-### Spanish
-desaceleración
-
-### Source
-follow selected car
-### Spanish
-seguir el carro seleccionado
-
-### Source
-go
-### Spanish
-ir
-
-### Source
-go once
-### Spanish
-ir una vez
-
-### Source
-max-patience
-### Spanish
-paciencia-máxima
-
-### Source
-mean speed
-### Spanish
-velocidad-media
-
-### Source
-number-of-cars
-### Spanish
-número-de-carros
-
-### Source
-reset perspective
-### Spanish
-restablecer perspectiva
-
-### Source
-select car
-### Spanish
-seleccionar carro
-
-### Source
-selected car speed
-### Spanish
-velocidad carro seleccionada
-
-### Source
-setup
-### Spanish
-preparar
-
-### Source
-watch selected car
-### Spanish
-observar carro seleccionado
-
 ## Plots
 ### Source
 1
@@ -135,4 +69,70 @@ Velocidad
 Time
 ### Spanish
 Tiempo
+
+## Widgets
+### Source
+acceleration
+### Spanish
+aceleración
+
+### Source
+deceleration
+### Spanish
+desaceleración
+
+### Source
+follow selected car
+### Spanish
+seguir el carro seleccionado
+
+### Source
+go
+### Spanish
+ir
+
+### Source
+go once
+### Spanish
+ir una vez
+
+### Source
+max-patience
+### Spanish
+paciencia-máxima
+
+### Source
+mean speed
+### Spanish
+velocidad-media
+
+### Source
+number-of-cars
+### Spanish
+número-de-carros
+
+### Source
+reset perspective
+### Spanish
+restablecer perspectiva
+
+### Source
+select car
+### Spanish
+seleccionar carro
+
+### Source
+selected car speed
+### Spanish
+velocidad carro seleccionada
+
+### Source
+setup
+### Spanish
+preparar
+
+### Source
+watch selected car
+### Spanish
+observar carro seleccionado
 

@@ -1,4 +1,35 @@
 ﻿## Language = Spanish
+## Plots
+### Source
+black
+### Spanish
+negro
+
+### Source
+default
+### Spanish
+defecto
+
+### Source
+Global Temperature
+### Spanish
+Temperatura Global
+
+### Source
+Luminosity
+### Spanish
+Luminosidad
+
+### Source
+Population
+### Spanish
+Población
+
+### Source
+white
+### Spanish
+blanco
+
 ## Widgets
 ### Source
 albedo-of-blacks
@@ -69,35 +100,4 @@ iniciar-%-negros
 start-%-whites
 ### Spanish
 iniciar-%-blancos
-
-## Plots
-### Source
-black
-### Spanish
-negro
-
-### Source
-default
-### Spanish
-defecto
-
-### Source
-Global Temperature
-### Spanish
-Temperatura Global
-
-### Source
-Luminosity
-### Spanish
-Luminosidad
-
-### Source
-Population
-### Spanish
-Población
-
-### Source
-white
-### Spanish
-blanco
 

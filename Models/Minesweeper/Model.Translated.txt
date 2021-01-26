@@ -2,7 +2,7 @@
 ## Widgets
 ### Source
 clock
-### Spanish 
+### Spanish
 reloj
 
 ### Source

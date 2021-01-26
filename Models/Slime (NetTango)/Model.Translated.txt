@@ -1,29 +1,13 @@
 ﻿## Language = Spanish
-## Widgets
-### Source
-go
-### Spanish
-ir
-
-### Source
-population
-### Spanish
-población
-
-### Source
-setup
-### Spanish
-preparar
-
 ## NetTango
 ### Source
 °
-### Spanish 
+### Spanish
 °
 
 ### Source
 amount
-### Spanish 
+### Spanish
 cantidad
 
 ### Source
@@ -58,8 +42,8 @@ acciones de slime
 
 ### Source
 sniff-angle
-### Spanish 
-ángulo-de-olfateo
+### Spanish
+ángulo de olfateo
 
 ### Source
 steps
@@ -75,4 +59,20 @@ girar hacia el químico
 wiggle
 ### Spanish
 menear
+
+## Widgets
+### Source
+go
+### Spanish
+ir
+
+### Source
+population
+### Spanish
+población
+
+### Source
+setup
+### Spanish
+preparar
 
