@@ -1,73 +1,72 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
 Este modelo crea formas 3D a partir de tortugas 2D al mapear tortugas entre coordenadas tridimensionales cartesianas y esféricas.
 
 ##  COMO FUNCIONA
 
-Para crear las formas 3D, el programa genera aleatoriamente tortugas sobre el caparazón de la forma en coordenadas cartesianas (x, y, z) o esféricas (theta, phi, z), dependiendo de cuál sea más fácil de lograr pero siempre almacena la información convirtiendo cuando sea necesario en coordenadas esféricas. Para renderizar la esfera en la vista NetLogo, traduce las tortugas de coordenadas esféricas a cartesianas usando el color para simular la profundidad. Las posiciones de las tortugas siempre se almacenan como coordenadas esféricas porque se rotan en el eje z, y la forma más sencilla de hacerlo es aumentar theta en coordenadas esféricas.
+Para crear las formas 3D, el programa aleatoriamente genera tortugas en el caparazón de la forma en coordenadas cartesianas (x, y, z) o esféricas (theta, phi, z), dependiendo de cuál sea más fácil de lograr pero siempre guarda la información convirtiéndolo cuando sea necesario en coordenadas esféricas. Para renderizar la esfera en la vista de NetLogo, traduce las tortugas de coordenadas esféricas a cartesianas usando el color para simular profundidad. Las posiciones de las tortugas siempre se guardan como coordenadas esféricas porque se rotan en el eje z, y la forma más simple de hacerlo es aumentar theta en coordenadas esféricas.
 
 Conversión de coordenadas cartesianas a esféricas:
 
-&gt; x = r * cos (theta) = p * sin (phi) * cos (theta)
-&gt; y = r * sin (theta) = p * sin (phi) * sin (theta)
-&gt; z = p * cos (theta)
+>x = r * cos(theta) = p * sin(phi) * cos(theta)
+>y = r * sin(theta) = p * sin(phi) * sin(theta)
+>z = p * cos(theta)
 
-theta: ángulo de proyección de la tortuga en el plano xy.
+theta: ángulo de proyección de la tortuga en el plano x-y.
 phi: ángulo de incidencia de las tortugas con respecto al eje z.
 p: distancia de la tortuga desde el origen.
 
 ##  COMO USARLO
 
-Haga clic en los diferentes botones de configuración-FORMA para generar diferentes formas 3D. Las tortugas se distribuyen aleatoriamente sobre la superficie de la forma. Haga clic en el botón Ir (para siempre) para ejecutar el modelo.
+Haz clic en los diferentes botones de preparar-FORMA para generar diferentes formas 3D. Las tortugas se distribuyen aleatoriamente sobre la superficie de la forma. Haz clic en el botón ir (para siempre) para ejecutar el modelo.
 
-GO comienza a rotar el modelo.
+IR comienza a rotar el modelo.
 
-COLOR determina el color que se utiliza para simular la profundidad al generar las diversas formas (utiliza constantes de color NetLogo predefinidas).
+COLOR determina el color que se usa para simular profundidad al generar las diversas formas (usa constantes de NetLogo colores predefinidas).
 
-NUM-TURTLES determina el número de tortugas que se utilizan para generar las diversas formas.
+NÚM-TURTLES determina el número de tortugas que se usan para generar las varias formas.
 
-SHAPE-SIZE determina el tamaño total de la forma. La mayoría de las veces es el radio o la longitud del borde.
+TAMAÑO-DE-FORMA determina el tamaño total de la forma. La mayoría de las veces es el radio o la longitud del borde.
 
-THETA-VELOCITY determina la velocidad a la que giran las tortugas.
+VELOCIDAD-DE-THETA determina la velocidad a la que giran las tortugas.
 
-(¡La rotación de tortugas en el procedimiento de rotación de tortugas se implementa simplemente aumentando la variable theta de cada tortuga por la velocidad theta! * Rotar * tortugas (alrededor del eje z) es fácil en coordenadas esféricas. Sin embargo, es mucho más fácil * transponer * tortugas en Coordenadas cartesianas.)
+(¡La rotación de tortugas en el procedimiento rotación-de-tortugas se implementa simplemente al aumentar la variable theta de cada tortuga por velocidad-de-theta! *Rotar* tortugas (alrededor del eje z) es fácil en coordenadas esféricas. Sin embargo, es mucho más fácil *transponer* tortugas en coordenadas cartesianas.)
 
 ##  COSAS PARA NOTAR
 
-Observe que las tortugas más cercanas (positivas) en el eje y aparecen más claras en la sombra y las tortugas más alejadas (negativas) aparecen más oscuras en la sombra.
+Tenga en cuenta que las tortugas más cercanas (positivas) en el eje y aparecen más claras en tono y las tortugas más alejadas (negativas) aparecen más oscuras en tono.
 
 ##  COSAS PARA INTENTAR
 
-Intente ajustar el control deslizante theta-vel o render-color mientras se ejecuta el modelo. Esto proporcionará información en tiempo real sobre sus ajustes.
+Trata de ajustar el control deslizante theta-vel o renderizar-color mientras se ejecuta el modelo. Esto proporcionará información en tiempo real sobre sus ajustes.
 
 ##  EXTENDIENDO EL MODELO
 
-[FÁCIL] Ajuste el procedimiento `setup-square` para generar un rectángulo.
+[FÁCIL] Ajuste el procedimiento `preparar-cuadrado` para generar un rectángulo.
 
-Cree un procedimiento para transponer las coordenadas de la tortuga. Recuerde que es más fácil transponer en coordenadas cartesianas.
+Crea un procedimiento para transponer las coordenadas de la tortuga. Recuérdate que es más fácil transponer en coordenadas cartesianas.
 
-Cree un procedimiento para generar nuevas geometrías 3D.
+Crea un procedimiento para generar nuevas geometrías 3D.
 
-Intente animar la variable phi. Conceptualmente, ¿por qué esto no tiene sentido?
+Intenta animar la variable phi. Conceptualmente, ¿por qué esto no tiene sentido?
 
-Cree un procedimiento para rotar las geometrías en un eje diferente.
+Crea un procedimiento para rotar las geometrías en un eje diferente.
 
-[MUY DIFÍCIL] Cree un procedimiento para ver las geometrías en CUALQUIER ángulo en lugar de los tres actuales.
+[MUY DIFÍCIL] Crea un procedimiento para ver las geometrías en CUALQUIER ángulo en lugar de los tres actuales.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Observe el uso de `scale-color` para mostrar la profundidad de las tortugas y así simular 3D.
+Observe el uso de `escala-de-color` para mostrar la profundidad de las tortugas y así simular 3D.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas aboajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1998).  NetLogo 3D Solids model.  http://ccl.northwestern.edu/netlogo/models/3DSolids.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -86,3 +85,5 @@ This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SEN
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
 
 <!-- 1998 2001 -->
+
+Traductora: Chelsea Guzman

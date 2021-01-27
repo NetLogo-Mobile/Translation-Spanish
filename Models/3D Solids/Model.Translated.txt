@@ -58,7 +58,7 @@ tamaño-de-forma
 ### Source
 theta-velocity
 ### Spanish
-theta-velocidad
+velocidad-de-theta
 
 ### Source
 view
