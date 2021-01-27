@@ -68,6 +68,7 @@ Para el modelo:
 * Wilensky, U. (1997).  NetLogo Fire model.  http://ccl.northwestern.edu/netlogo/models/Fire.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
 Por favor cita el software de NetLogo como:
+
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
 ##  DERECHOS DE AUTOR Y LICENCIA 

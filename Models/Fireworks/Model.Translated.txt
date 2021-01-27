@@ -3,7 +3,7 @@
 ### Source
 fade-amount
 ### Spanish
-cantidad-de-desvanecimiento
+tasa-de-desvanecimiento
 
 ### Source
 fragments

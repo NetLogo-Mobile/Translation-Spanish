@@ -1,63 +1,62 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
-Este programa modela la acción de los fuegos artificiales. Los cohetes comienzan en la parte inferior de la vista, se disparan hacia el cielo y luego explotan, emitiendo lluvias de chispas que caen.
+Este programa modela la acción de fuegos artificiales. Cohetes comienzan en la parte inferior de la vista, se disparan hacia el cielo y luego explotan, emitiendo lluvias de chispas que caen.
 
 ##  COMO FUNCIONA
 
-Cada cohete, representado por una tortuga, se lanza hacia arriba con una velocidad inicial xey. En cierto punto del cielo, ocurre una explosión, que está representada por una serie de eclosiones de tortugas. Cada tortuga nacida hereda la velocidad del cohete original además de la velocidad de la explosión misma. El resultado es una simulación de un espectáculo de fuegos artificiales.
+Cada cohete, representado por una tortuga, se lanza hacia arriba con una velocidad inicial x e y. En cierto punto del cielo, una explosión ocurre, que está representada por una serie de eclosiones de tortugas. Cada tortuga nacida hereda la velocidad del cohete original además de la velocidad de la explosión misma. El resultado es una simulación de un espectáculo de fuegos artificiales.
 
 ##  COMO USARLO
 
-SETUP configura el modelo de acuerdo con los valores indicados por todos los controles deslizantes y el interruptor. GO es un botón para siempre que ejecuta el modelo continuamente.
+PREPARAR configura el modelo de acuerdo con los valores indicados por todos los controles deslizantes y el interruptor. IR es un botón para siempre que ejecuta el modelo continuamente.
 
 FUEGOS ARTIFICIALES crea un número aleatorio de fuegos artificiales entre 0 y el número indicado en el control deslizante.
 
-FRAGMENTS determina cuántos fragmentos de partículas emergerán después de la explosión de un solo fuego artificial.
+FRAGMENTOS determina cuántos fragmentos de partículas emergerán después de la explosión de un solo fuego artificial.
 
 GRAVEDAD determina la fuerza gravitacional en el medio ambiente. Un valor mayor dará una mayor aceleración gravitacional, lo que significa que las partículas serán empujadas al suelo a un ritmo más rápido. Lo inverso es cierto para valores más pequeños.
 
-INIT-X-VEL establece la velocidad x inicial de cada cohete en un número aleatorio entre el valor negativo y positivo del número indicado en el control deslizante.
+VEL-INICIAL-X establece la inicial velocidad x- de cada cohete en un número aleatorio entre el valor negativo y positivo del número indicado en el control deslizante.
 
-INIT-Y-VEL establece la velocidad y inicial de cada cohete en un número aleatorio entre 0 y el número indicado en el control deslizante más diez. Esto es para asegurar que haya un rango de diferencia en las velocidades y iniciales de los fuegos artificiales.
+VEL-INICIAL-Y establece la inicial velocidad y- de cada cohete en un número aleatorio entre 0 y el número indicado en el control deslizante más diez. Esto es para asegurar que haya un rango de diferencia en las velocidades y- iniciales de los fuegos artificiales.
 
-FADE-AMOUNT determina la velocidad a la que las partículas de explosión se desvanecen después de la explosión.
+TASA-DE-DESVANECIMIENTO determina la velocidad a la que las partículas de explosión se desvanecen después de la explosión.
 
-TRAILS permite al usuario encender o apagar los rastros dejados por las partículas de explosión. En otras palabras, si el interruptor TRAILS está ENCENDIDO, las tortugas dejarán rastros. Si está APAGADO, no dejarán rastros.
+RASTRO permite al usuario encender o apagar los rastros dejados por las partículas de explosión. En otras palabras, si el interruptor TRAILS está ENCENDIDO, las tortugas dejarán rastros. Si está APAGADO, no dejarán rastros.
 
-Este modelo ha sido construido para que todos los cambios en los controles deslizantes e interruptores surtan efecto en el modelo durante la ejecución. Entonces, mientras el botón GO aún está presionado, puede cambiar los valores de los controles deslizantes y el interruptor, y puede ver estos cambios inmediatamente en la vista.
+Este modelo ha sido construido para que todos los cambios en los controles deslizantes e interruptores surtan efecto en el modelo durante la ejecución. Entonces, mientras el botón IR aún está presionado, puedes cambiar los valores de los controles deslizantes y el interruptor, y puedes ver estos cambios inmediatamente en la vista.
 
 ##  COSAS PARA NOTAR
 
-Experimente con los controles deslizantes INIT-X-VEL e INIT-Y-VEL. Observe que a una velocidad x inicial de cero, los cohetes se lanzan directamente hacia arriba. Cuando se aumenta la velocidad x inicial, observe que algunos cohetes forman un arco hacia la izquierda o hacia la derecha en el cielo, dependiendo de si la velocidad x inicial es negativa o positiva.
+Experimenta con los controles deslizantes VEL-INICIAL-X e VEL-INICIAL-Y. Observa que a una velocidad inicial de x de cero, los cohetes se lanzan directamente hacia arriba. Cuando se aumenta la velocidad x inicial, observe que algunos cohetes forman un arco hacia la izquierda o hacia la derecha en el cielo, dependiendo de si la velocidad inicial de x es negativa o positiva.
 
-Con la velocidad y inicial, observe que, en un valor de GRAVEDAD fijo, las alturas de los fuegos artificiales son más bajas en velocidades y iniciales más pequeñas y más altas en las más grandes. Observe también que cada cohete explota a una altura igual o un poco menor que su vértice.
+Con la velocidad inicial y- , observe que, en un valor de GRAVEDAD fijo, las alturas de los fuegos artificiales son más bajas en velocidades iniciales de y más pequeñas y más altas en las más grandes. Observa también que cada cohete explota a una altura igual o un poco menor que su vértice.
 
 ##  COSAS PARA INTENTAR
 
-Observe lo que le sucede al modelo cuando el control deslizante GRAVITY se establece en diferentes valores. Observe lo que le sucede al modelo cuando GRAVITY se pone a cero. ¿Puede explicar qué sucede con los fuegos artificiales en el modelo? ¿Puede explicar por qué ocurre este fenómeno? ¿Qué dice esto sobre la importancia de la gravedad? Ahora establezca el control deslizante GRAVITY en su valor más alto. ¿Qué tiene de diferente el comportamiento de los fuegos artificiales en este escenario? ¿Qué puedes concluir sobre la relación entre la gravedad y cómo se mueven los objetos en el espacio?
+Observa lo que le sucede al modelo cuando el control deslizante GRAVEDAD se establece en diferentes valores. Observa lo que le sucede al modelo cuando GRAVEDAD se pone a cero. ¿Puedes explicar qué sucede con los fuegos artificiales en el modelo? ¿Puede explicar por qué ocurre este fenómeno? ¿Qué dice esto sobre la importancia de la gravedad? Ahora establezca el control deslizante GRAVEDAD en su valor más alto. ¿Qué tiene de diferente el comportamiento de los fuegos artificiales en este escenario? ¿Qué puedes concluir sobre la relación entre la gravedad y cómo se mueven los objetos en el espacio?
 
 ##  EXTENDIENDO EL MODELO
 
 Los fuegos artificiales representados en este modelo son solo de un tipo básico. Una buena forma de ampliar este modelo sería crear otros tipos de fuegos artificiales más complejos. Algunos podrían tener múltiples explosiones, múltiples colores o una forma específica diseñada en su diseño.
 
-Note que este modelo retrata los fuegos artificiales en un punto de vista bidimensional. Cuando vemos fuegos artificiales reales, sin embargo, parecen tomar una forma tridimensional. Intente extender este modelo convirtiendo su punto de vista de 2D a 3D.
+Nota que este modelo retrata los fuegos artificiales en un punto de vista bidimensional. Cuando vemos fuegos artificiales reales, sin embargo, parecen tomar una forma tridimensional. Intenta extender este modelo al convertir su punto de vista de 2D a 3D.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Un aspecto importante de este modelo es el hecho de que cada partícula de una explosión hereda las propiedades de los fuegos artificiales originales. Esta herencia de información permite que el modelo represente adecuadamente el movimiento del proyectil de las partículas de fuegos artificiales, ya que sus velocidades iniciales xey son relativas a sus fuegos artificiales originales.
+Un aspecto importante de este modelo es el hecho de que cada partícula de una explosión hereda las propiedades de los fuegos artificiales originales. Esta herencia de información permita que el modelo represente adecuadamente el movimiento del proyectil de las partículas de fuegos artificiales, ya que sus velocidades iniciales x- e y- son relativas a sus fuegos artificiales originales.
 
-Para representar visualmente la propiedad de desvanecimiento de las partículas de fuegos artificiales, este modelo hizo uso del reportero `scale-color`. A medida que las partículas de tortuga caen al suelo, sostienen sus plumas y gradualmente escalan su color a negro. Como se mencionó anteriormente, la tasa de desvanecimiento se puede controlar usando el control deslizante FADE-AMOUNT.
+Para representar visualmente la propiedad de desvanecimiento de las partículas de fuegos artificiales, este modelo hizo uso del reportero `escala-de-color`. A medida que las partículas de tortuga caen al suelo, sostienen sus plumas y gradualmente escalan su color a negro. Como se mencionó anteriormente, la tasa de desvanecimiento se puede controlar usando el control deslizante TASA-DE-DESVANECIMIENTO.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1998).  NetLogo Fireworks model.  http://ccl.northwestern.edu/netlogo/models/Fireworks.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -76,3 +75,5 @@ This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SEN
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
 
 <!-- 1998 2001 -->
+
+Traductora: Chelsea Guzman
