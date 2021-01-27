@@ -60,7 +60,7 @@ Observe el uso de `escala-de-color` para mostrar la profundidad de las tortugas 
 
 ##  COMO CITAR 
 
-Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas aboajo.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
 Para el modelo:
 

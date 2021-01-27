@@ -1,57 +1,56 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
-Este modelo mapea tortugas entre coordenadas cartesianas y esféricas tridimensionales. Para crear la apariencia de una superficie curva en 3D, el programa genera tortugas con coordenadas x y z aleatorias, luego calcula la coordenada y de cada tortuga basándose en x, z, y el tiempo. La función coseno se usa en la fórmula para producir una superficie curva. La variación de la coordenada y en función del tiempo produce movimiento.
+Este modelo mapea tortugas entre coordenadas cartesianas y esféricas tridimensionales. Para crear la apariencia de una superficie curvada en 3D, el programa genera tortugas con coordenadas x- y z- aleatorias, luego calcula la coordenada y- de cada tortuga basándose en x, z, y  tiempo. La función coseno se usa en la fórmula para producir una superficie curvada. La variación de la coordenada y en función del tiempo produce movimiento.
 
 ##  COMO FUNCIONA
 
-Para renderizar la superficie en la vista NetLogo, se asigna de coordenadas 3D a 2D de la siguiente manera:
+Para renderizar la superficie en la vista de NetLogo, se asigna de coordenadas 3D a 2D de la siguiente manera:
 
-&gt; ver x = tortuga x + (tortuga z) / 2
-&gt; ver y = tortuga y + (tortuga z) / 2
+>vista x = tortuga x + (tortuga z) / 2
+>vista y = tortuga y + (tortuga z) / 2
 
 En otras palabras, aumentar z hace que la posición aparente de la tortuga se mueva tanto hacia arriba como hacia la derecha.
 
 ##  COMO USARLO
 
-Haga clic en el botón CONFIGURAR para generar las tortugas y colocarlas en la superficie. Haga clic en el botón IR (para siempre) para ejecutar el modelo, que varía continuamente las coordenadas y de las tortugas para generar un movimiento ondulatorio.
+Haz clic en el botón PREPARAR para generar las tortugas y colocarlas en la superficie. Haz clic en el botón IR (para siempre) para ejecutar el modelo, que varía continuamente las coordenadas y- de las tortugas para generar un movimiento ondulatorio.
 
-El control deslizante NUM-TORTUGAS determina el número de tortugas que componen la superficie.
+El control deslizante NÚM-TORTUGAS determina el número de tortugas que componen la superficie.
 
 ##  COSAS PARA NOTAR
 
-Observe que a medida que las tortugas se mueven hacia abajo (la coordenada y disminuye) se vuelven más oscuras y cuando se mueven hacia arriba (la coordenada y aumenta) se vuelven más claras.
+Observa que mientras las tortugas se mueven hacia abajo (la coordenada y- disminuye) se vuelven más oscuras en color y cuando se mueven hacia arriba (la coordenada y- aumenta) se vuelven más claras.
 
 ##  COSAS PARA INTENTAR
 
-Experimente con el control deslizante NUM-TURTLES. ¿Cuántas tortugas se necesitan para producir un efecto realista? ¿Por qué no sigue mejorando indefinidamente a medida que agrega más tortugas?
+Experimenta con el control deslizante NÚM-TURTLES. ¿Cuántas tortugas se necesitan para producir un efecto realista? ¿Por qué no sigue mejorando indefinidamente a medida que agrega más tortugas?
 
-En el procedimiento de &quot;mover&quot;, pruebe con otros números además del 5 delante y dentro de la función coseno. ¡Explique el nuevo comportamiento!
+En el procedimiento 'mover', prueba con otros números además del 5 delante y dentro de la función coseno. ¡Explica el nuevo comportamiento!
 
 ##  EXTENDIENDO EL MODELO
 
-Intente cambiar la fórmula utilizada para calcular la coordenada y para producir superficies de formas diferentes.
+Intenta cambiar la fórmula usada para calcular la coordenada y- para producir superficies de formas diferentes.
 
-Vea si puede dibujar no solo una superficie, sino una forma tridimensional como un cono o una esfera.
+Ve si puedes dibujar no solo una superficie, sino una forma tridimensional como un cono o una esfera.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Observe el uso de `scale-color` para cambiar el color de una tortuga en función de su coordenada y. También vea el modelo &quot;Wave Machine&quot; para una versión que usa parches en lugar de tortugas para hacer una membrana 3-D.
+Observa el uso de `escala-de-color` para cambiar el color de una tortuga en función de su coordenada y-. También consulte el modelo "Máquina de Olas" para una versión que usa parcelas en lugar de tortugas para hacer una membrana 3-D.
 
 ##  MODELOS RELACIONADOS 
 
-3D Solids
-Wave Machine
+Sólidos 3D
+Máquina de Olas
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1998).  NetLogo 3D Surface model.  http://ccl.northwestern.edu/netlogo/models/3DSurface.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -70,3 +69,5 @@ This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SEN
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
 
 <!-- 1998 2001 -->
+
+Traductora: Chelsea Guzman
