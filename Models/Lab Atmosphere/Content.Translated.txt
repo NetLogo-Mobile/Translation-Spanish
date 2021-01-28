@@ -11,7 +11,7 @@ El principio básico de los modelos es que se supone que las partículas de gas 
 El principio básico de todos los modelos de GasLab es el siguiente algoritmo (para más detalles, consulte el modelo "GasLab en una Caja"):
 
 1) Una partícula se mueve en una línea recta sin cambiar su velocidad, a menos que choque con otra partícula o rebote en la pared.
-2) Dos partículas "chocan" si se encuentran en la mismo parcela (la Vista de NetLogo se compone de una cuadrícula de pequeños cuadrados llamados parcelas). En este modelo, se apuntan dos partículas de modo que colisionen en el origen.
+2) Dos partículas "chocan" si se encuentran en la misma parcela (la Vista de NetLogo se compone de una cuadrícula de pequeños cuadrados llamadas parcelas). En este modelo, se apuntan dos partículas de modo que colisionen en el origen.
 3) Se elige un ángulo de colisión para las partículas, como si fueran dos bolas sólidas que chocan, y este ángulo describe la dirección de la línea que conecta sus centros.
 4) Las partículas intercambian momento y energía solo a lo largo de esta línea, conformando a la conservación del momento y la energía para colisiones elásticas.
 5) A cada partícula se le asigna su nueva velocidad, rumbo y energía.
@@ -89,11 +89,12 @@ Debido a la influencia de la gravedad, las partículas siguen trayectorias curva
 ##  MODELOS RELACIONADOS 
 
 Este modelo es parte del GasLab juego y plan de estudios.
+
 Ves, en particular, los modelos "Gas en una Caja" y "Caja de Gravedad", lo cual es la versión modificada del modelo "Atmósfera", con el techo en la atmósfera.
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-Este modelo fue desarrollado como parte del GasLab plan de estudios (http://ccl.northwestern.edu/curriculum/gaslab/)y también ha sido incorporado en el Química Conectada plan de estudios (http://ccl.northwestern.edu/curriculum/ConnectedChemistry/)
+Este modelo fue desarrollado como parte del GasLab plan de estudios (http://ccl.northwestern.edu/curriculum/gaslab/) y también ha sido incorporado en el Química Conectada plan de estudios (http://ccl.northwestern.edu/curriculum/ConnectedChemistry/)
 
 ##  COMO CITAR 
 
