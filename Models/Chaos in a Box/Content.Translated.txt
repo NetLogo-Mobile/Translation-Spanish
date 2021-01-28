@@ -85,7 +85,7 @@ Este modelo se inspiró en una conversación con Dirk Brockmann, quien analiza e
 
 ##  COMO CITAR 
 
-Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
 Para el modelo:
 

@@ -89,7 +89,7 @@ Cada tortuga tiene una forma, a diferencia de otros modelos. NetLogo usa una for
 
 ## COMO CITAR
 
-Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
 Para el modelo:
 

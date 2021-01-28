@@ -82,7 +82,7 @@ Volterra, V. (1926, October 16). Fluctuations in the abundance of a species cons
 Gause, G. F. (1934). The struggle for existence. Baltimore: Williams & Wilkins.
 
 ## COMO CITAR
-Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
 Para el modelo:
 

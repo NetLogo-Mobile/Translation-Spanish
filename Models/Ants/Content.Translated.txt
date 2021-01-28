@@ -40,7 +40,7 @@ La primitiva parcela de la derecha y adelante se usa para hacer que las hormigas
 
 ##  COMO CITAR 
 
-Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
 Para el modelo:
 

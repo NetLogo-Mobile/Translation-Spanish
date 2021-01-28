@@ -44,7 +44,7 @@ Esto se basa en las pp. 113-24 de “The Book of Numbers” por John H. Conway y
 
 ## COMO CITAR
 
-Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
 Para el modelo:
 

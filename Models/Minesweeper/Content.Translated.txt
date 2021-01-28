@@ -60,7 +60,7 @@ Las minas terrestres son un problema real que mata a personas todos los días. P
 
 ##  COMO CITAR 
 
-Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
 Para el modelo:
 
