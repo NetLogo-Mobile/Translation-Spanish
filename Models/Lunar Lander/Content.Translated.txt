@@ -1,22 +1,21 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
 Este modelo está basado en el juego de arcade Lunar Lander. El objetivo del juego es aterrizar el módulo lunar rojo en la plataforma de aterrizaje azul en la superficie de la luna sin chocar o romper el módulo.
 
-El módulo lunar es frágil, por lo que debes moverte extremadamente lento para evitar daños cuando aterrices. Tiene un propulsor que ejerce una fuerza en función de la inclinación del módulo. Tiene la capacidad de inclinarse hacia la derecha y hacia la izquierda.
+El módulo lunar es frágil, por lo que debes moverte extremadamente lento para evitar daños cuando aterrices. Tiene un propulsor que ejerce una fuerza en función de la inclinación del módulo. Tiene la capacidad de inclinarse hacia la derecha y izquierda.
 
 ##  COMO USARLO
 
 Botones:
-SETUP comienza el juego creando una nueva superficie para que navegues y colocando tu módulo sobre esa superficie, listo para el descenso.
-GO inicia el juego. Estar listo; el módulo comenzará a descender con bastante rapidez.
+PREPARAR inicia el juego al crear una nueva superficie para que navegues y colocando tu módulo sobre esa superficie, listo para el descenso.
+IR inicia el juego. Esté listo; el módulo comenzará a descender con bastante rapidez.
 IZQUIERDA y DERECHA inclinan el módulo hacia adelante y hacia atrás
-THRUST dispara sus cohetes de acuerdo con su inclinación actual.
+PROPULSIÓN dispara tus cohetes de acuerdo con tu inclinación actual.
 
 Deslizadores:
-PLATFORM-WIDTH controla el ancho de la plataforma de aterrizaje azul creada en la configuración, una plataforma de aterrizaje más ancha hace un objetivo más fácil.
-TERRAIN-BUMPINESS controla la variación en la elevación de la superficie lunar. Más baches puede significar que tendrá grandes obstáculos para maniobrar.
-THRUST-AMOUNT controla la magnitud de la fuerza de sus cohetes.
+ANCHURA-PLATAFORMA controla el ancho de la plataforma de aterrizaje azul creada en la configuración, una plataforma de aterrizaje más ancha hace un objetivo más fácil.
+IRREGULARIDAD-TERRENO controla la variación en la elevación de la superficie lunar. Más irregularidad puede significar que tendrás grandes obstáculos para maniobrar.
+CANTIDAD-PROPULSIÓN controla la magnitud de la fuerza de sus cohetes.
 
 ##  COSAS PARA NOTAR
 
@@ -24,40 +23,40 @@ Cuando la irregularidad del terreno es muy alta, algunas de las superficies gene
 
 ##  COSAS PARA INTENTAR
 
-Intente aterrizar el módulo con la menor cantidad de ajustes.
+Intenta aterrizar el módulo con la menor cantidad de ajustes.
 
-Aumente la CANTIDAD DE EMPUJE para hacer el juego más difícil.
+Aumenta la CANTIDAD-PROPULSIÓN para hacer el juego más difícil.
 
 ##  EXTENDIENDO EL MODELO
 
-Agregue una o más parcelas al modelo. Por ejemplo, puede trazar la posición, velocidad y / o aceleración del módulo, en el plano o simplemente en el eje Y.
+Agrega una o más parcelas al modelo. Por ejemplo, puedes trazar la posición, velocidad y/o aceleración del módulo, en el plano o simplemente en el eje Y.
 
-Actualmente, las colisiones con los bordes del módulo no se detectan, por lo que puede rozar el lado de un pico con el borde del módulo sin chocar. Sería más realista si se detectaran estos accidentes.
+Actualmente, las colisiones con los bordes del módulo no se detectan, entonces puedes rozar el borde de un pico con el borde del módulo sin chocar. Sería más realista si se detectaran estos accidentes.
 
-Agrega niveles al juego continuamente haciendo que el terreno sea más accidentado, la plataforma más pequeña o por algún otro método para hacer el juego más difícil, tal vez naves espaciales alienígenas.
+Agrega niveles al juego continuamente haciendo que el terreno sea más irregular, la plataforma más pequeña o por algún otro método para hacer el juego más difícil, tal vez naves espaciales alienígenas.
 
-Intente escribir un piloto de robot que aterrice automáticamente el módulo de forma segura.
+Intenta escribir un piloto de robot que automáticamente aterrizaría el módulo de forma segura.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Este modelo utiliza el reportero &quot;random-poisson&quot; para crear el terreno. Consulte su entrada en el Diccionario NetLogo y también en http://mathworld.wolfram.com/PoissonDistribution.html.
+Este modelo usa el reportero 'azar-poisson' para crear el terreno. Consulta tu entrada en el Diccionario NetLogo y también en http://mathworld.wolfram.com/PoissonDistribution.html.
 
-La configuración de velocidad de fotogramas se utiliza para controlar la velocidad del juego.
+La configuración de velocidad de fotogramas se usa para controlar la velocidad del juego.
 
 ##  MODELOS RELACIONADOS 
 
-* Projectile Attack
-* Gravitation
+* Ataque de Proyectil
+* Gravitación
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publiación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (2005).  NetLogo Lunar Lander model.  http://ccl.northwestern.edu/netlogo/models/LunarLander.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -72,3 +71,5 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
 
 <!-- 2005 -->
+
+Traductora: Chelsea Guzman
