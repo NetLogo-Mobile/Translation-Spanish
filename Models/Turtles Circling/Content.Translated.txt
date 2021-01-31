@@ -1,67 +1,66 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUE ÉS?
 
-Este es un nuevo tipo de investigación matemática: estamos investigando la forma emergente creada por el movimiento de muchas tortugas que se mueven de forma independiente de manera simple. Cada tortuga se mueve para crear un círculo de radio fijo (establecido por el control deslizante RADIUS). ¿Qué sucede si el radio en el que todos están girando se cambia en medio de la acción? Adivina antes de probarlo.
+Esto es un nuevo tipo de investigación matemática -- estamos investigando la forma emergente creada por el movimiento de muchas tortugas que se mueven independiente de una manera simple. Cada tortuga se mueve para crear un círculo de un radio fijo (establecido por el control deslizante RADIO). ¿Qué pasa si el radio en el que todos están girando se cambia mientras que están haciendo la acción? Adivina lo que pasará antes de probarlo.
 
 ##  COMO FUNCIONA
 
-Las tortugas crean sus círculos moviéndose un poco hacia adelante y girando un poco a la derecha para terminar con un círculo del radio especificado. Comenzamos todas las tortugas en un círculo de ese radio para que se muevan alrededor del círculo.
+Las tortugas crean sus círculos al moverse un poco hacia adelante y girando un poco a la derecha para que terminen con un círculo del radio especificado. Comenzamos todas las tortugas en un círculo de ese radio para que se mueven alrededor del círculo.
 
 ##  COMO USARLO
 
-El control deslizante NUMBER determina el número de tortugas dando vueltas.
+El control deslizante NÚMERO determina el número de tortugas que se están dando vueltas.
 
-El control deslizante RADIUS determina el tamaño del círculo en el que se mueve cada tortuga.
+El control deslizante RADIO determina el tamaño del círculo en el cual cada tortuga se está dando vuelta.
 
-El control deslizante VELOCIDAD determina qué tan grande es el paso que da cada tortuga en cada tic del reloj; determina la velocidad de los círculos.
+El control deslizante VELOCIDAD determina qué tan grande es el paso que cada tortuga toma en cada tic del reloj.
 
-El botón CONFIGURAR crea NÚMERO tortugas en un círculo de radio RADIO centrado en el punto (0 0). Todas las tortugas tienen la cabeza para moverse alrededor del círculo.
+El botón PREPARAR crea NÚMERO de tortugas en el círculo con el radio RADIO centrado en el punto (0 0). Las tortugas se mueven hacia a dar vueltas en el círculo.
 
-El botón TODO CÍRCULO hace que las tortugas comiencen a dar vueltas. Cada uno dibuja su propio círculo de radio RADIUS.
+El botón TODO-CÍRCULO hace que las tortugas comienzan a dar vueltas. Están dibujando sus propios círculos de radio RADIO.
 
-Cambie el valor del control deslizante RADIUS mientras las tortugas están dando vueltas. * Antes * de hacerlo, ¿cuál es su conjetura sobre lo que sucederá cuando cambie el RADIUS?
+Cambia el valor del control deslizante RADIO cuando las tortugas se están dando vueltas. Antes de que lo hagas, ¿qué adivinas que va a pasar cuando cambias el RADIO?
 
 ##  COSAS PARA NOTAR
 
-¿Qué está pasando con la forma descrita por las tortugas?
+¿Qué está pasando con las formas descritas por las tortugas?
 
 ¿Qué tan lejos van las tortugas?
 
-¿Hasta dónde llegan?
+¿Qué tan cerca van?
 
 ##  COSAS PARA INTENTAR
 
-Pruebe diferentes valores tanto del radio inicial como del radio cambiado.
+Trata de usar diferentes valores tanto del radio inicial como del radio cambiado.
 
-También puede realizar más investigaciones con los siguientes controles:
+También puedes hacer más investigaciones con los siguientes controles:
 
-El botón CERO-CÍRCULO le permite concentrarse en el movimiento de la tortuga cero; el resto se detiene.
+El botón CERO-CÍRCULO te deja enfocar en el movimiento de tortuga cero -- todos los restos se detienen.
 
-El botón DRAW-CIRCLE le permite dibujar un círculo en los parches con un radio igual a DRAW-RAD. De esta manera puede seguir el movimiento de las tortugas.
+El botón DIBUJAR-CÍRCULO te deja dibujar un círculo en las parcelas con un radio igual a DIBUJAR-RAD.
 
-Si la PARCELA? el interruptor está encendido, la gráfica mostrará una gráfica de la distancia del cero de la tortuga desde el origen como el círculo de las tortugas.
+Si el interruptor GRAFICAR? está encendido, la gráfica te mostrará una gráfica de la distancia de tortuga cero al origen del círculo de la tortuga.
 
-Pruebe el comando `lt 50` mientras las tortugas están dando vueltas. ¿Es este el mismo comportamiento que observó al cambiar el radio?
+Trata el comando `lt 50` mientras que las tortugas están dando vueltas. ¿Esto es el mismo comportamiento que observaste cuando cambiaste el radio?
 
-En el Centro de comando, haz que una (o varias) tortugas tracen su camino usando el comando `pen-down` (` pd`). Esto puede ayudar a mostrar la relación entre los círculos de tortugas individuales y el círculo que ve cuando se mueven todas juntas.
+En el Centro de Comando, selecciona una sola (o muchas) tortuga para trazar su camino usando el comando pluma-abajo (pa). Puede que esto ayuda a mostrar la relación entre los círculos de tortugas individuales y el círculo que tú ves mientras que todos se mueven juntos.
 
 ##  EXTENDIENDO EL MODELO
 
-¿Qué herramientas puede crear para ayudar a visualizar lo que está sucediendo?
+¿Cuáles herramientas puedes crear para ayudarnos a visualizar lo que está pasando?
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-El comando `display` se usa para una animación suave.
+El comando `desplegar` se usa para animación suave.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes la cita abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1997).  NetLogo Turtles Circling model.  http://ccl.northwestern.edu/netlogo/models/TurtlesCircling.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -80,3 +79,5 @@ This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SEN
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
 
 <!-- 1997 2001 -->
+
+Traductora: Chelsea Guzman
