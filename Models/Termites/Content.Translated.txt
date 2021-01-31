@@ -1,57 +1,56 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
-Este proyecto está inspirado en el comportamiento de las termitas que juntan virutas de madera en pilas. Las termitas siguen un conjunto de reglas simples. Cada termita comienza a deambular al azar. Si choca con una astilla de madera, la levanta y continúa deambulando al azar. Cuando choca contra otra astilla de madera, encuentra un espacio vacío cercano y deja la astilla de madera. Con estas simples reglas, las astillas de madera eventualmente terminan en una sola pila.
+Este proyecto fue inspirado por el comportamiento de las termitas que juntan virutas de madera en montones. Las termitas siguen un conjunto de reglas simples. Cada termita comienza a deambular al azar. Si choca con una astilla de madera, levantan las astillas y continúa deambulando al azar. Cuando choca contra otra astilla de madera, encuentra un espacio vacío cercano y suelta la astilla de madera. Con estas reglas simples, las astillas de madera eventualmente terminan en un solo montón.
 
 ##  COMO USARLO
 
-Haga clic en el botón CONFIGURAR para configurar las termitas (blanco) y las astillas de madera (amarillo). Haga clic en el botón IR para iniciar la simulación. Las termitas se vuelven anaranjadas cuando llevan una astilla de madera.
+Haz clic en el botón PREPARAR para configurar las termitas (blanco) y las astillas de madera (amarillo). Haz clic en el botón IR para iniciar la simulación. Las termitas se vuelven anaranjadas cuando están cargando una astilla de madera.
 
-El control deslizante NUMBER controla el número de termitas. (Nota: los cambios en el control deslizante NÚMERO no se aplican hasta la siguiente configuración). El control deslizante DENSIDAD controla la densidad inicial de las astillas de madera.
+El control deslizante NUMBER controla el número de termitas. (Nota: Los cambios en el control deslizante NÚMERO no se aplican hasta la siguiente preparación). El control deslizante DENSIDAD controla la densidad inicial de las astillas de madera.
 
 ##  COSAS PARA NOTAR
 
-A medida que comienzan a formarse pilas de astillas de madera, las pilas no están &quot;protegidas&quot; de ninguna manera. Es decir, las termitas a veces quitan astillas de las pilas existentes. Esa estrategia puede parecer contraproducente. Pero si las pilas estuvieran &quot;protegidas&quot;, terminaría con muchas pilas pequeñas, no una grande.
+A medida que comienzan a formarse los montones de astillas de madera, los montones no están "protegidas" de ninguna manera. Es decir, las termitas a veces quitan astillas de los montones existentes. Esa estrategia puede parecer contraproducente. Pero si los montones estuvieran "protegidas", terminaría con muchos montones pequeñas, no una grande.
 
-Las pilas finales son aproximadamente redondas. ¿Por qué es esto? ¿Qué otras situaciones físicas también producen cosas redondas?
+Los montonnes finales son aproximadamente redondas. ¿Por qué es esto? ¿Qué otras situaciones físicas también producen cosas redondas?
 
-En general, el número de pilas disminuye con el tiempo. ¿Por qué? Algunas pilas desaparecen cuando las termitas se llevan todas las astillas. Y no hay forma de comenzar una nueva pila desde cero, ya que las termitas siempre colocan sus astillas de madera cerca de otras astillas de madera. Entonces, el número de pilas debe disminuir con el tiempo. (La única forma en que comienza una pila &quot;nueva&quot; es cuando una pila existente se divide en dos).
+En general, el número de montones disminuye con el tiempo. ¿Por qué? Algunos montones desaparecen cuando las termitas se llevan todas las astillas. Y no hay forma de comenzar un nuevo montón desde cero, ya que las termitas siempre colocan sus astillas de madera cerca de otras astillas de madera. Entonces, el número de montones debe disminuir con el tiempo. (La única forma en que comienza un montón "nuevo" es cuando un montón existente se divide en dos).
 
-Este proyecto es un buen ejemplo de estrategia &quot;descentralizada&quot;. No hay termitas a cargo, y no hay un sitio pre-designado especial para las pilas. Cada termita sigue un conjunto de reglas simples, pero la colonia en su conjunto realiza una tarea bastante sofisticada.
+Este proyecto es un buen ejemplo de estrategia "descentralizada". No hay termitas a cargo, y no hay un sitio pre-designado especial para los montones. Cada termita sigue un conjunto de reglas simples, pero la colonia en su conjunto realiza una tarea bastante sofisticada.
 
 ##  COSAS PARA INTENTAR
 
-¿Cambian los resultados si usa una sola termita? ¿Y si usa varios miles de termitas?
+¿Cambian los resultados si usas una sola termita? ¿Y si usa varios miles de termitas?
 
-Cuando solo quedan dos montones, ¿cuál de ellos tiene más probabilidades de &quot;ganar&quot; como el único montón final? ¿Con qué frecuencia gana el más grande de los dos montones? Si una pila tiene solo una astilla de madera y la otra pila tiene el resto de astillas de madera, ¿cuáles son las posibilidades de que gane la primera pila?
+Cuando solo quedan dos montones, ¿cuál de ellos tiene más probabilidad de "ganar" como el único montón final? ¿Con qué frecuencia gana el más grande de los dos montones? Si un solo montón tiene solo una astilla de madera y el otro montón tiene el resto de astillas de madera, ¿cuáles son las posibilidades de que gane el primer montón?
 
 ##  EXTENDIENDO EL MODELO
 
-¿Puede ampliar el modelo para que las termitas clasifiquen la madera de varios colores?
+¿Puedes ampliar el modelo para que las termitas clasifiquen la madera de varios colores?
 
-Grafique la cantidad de pilas, o su tamaño promedio, o la cantidad de termitas que transportan astillas de madera, a medida que avanza el modelo.
+Grafique la cantidad de montones, o su tamaño promedio, o la cantidad de termitas que transportan astillas de madera, a medida que avanza el modelo.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Observe que las astillas de madera no existen como objetos. Solo se representan como colores en los parches. Las termitas actualizan los colores del parche a medida que recogen y depositan las astillas de madera. De hecho, los parches se utilizan como estructura de datos. Esta estrategia es útil en muchos programas NetLogo.
+Observa que las astillas de madera no existen como objetos. Solo se representan como colores en las parcelas. Las termitas actualizan los colores de la parcela a medida que recogen y depositan las astillas de madera. De hecho, las parcelas se usanr como estructura de datos. Esta estrategia es útil en muchos programas NetLogo.
 
-Tenga en cuenta que cuando detiene el botón IR para siempre, las termitas siguen moviéndose durante un rato. Esto se debe a que cada uno de ellos está terminando los comandos en el procedimiento GO. Para hacer esto, deben terminar su ciclo actual de encontrar una ficha, encontrar una pila y luego encontrar un lugar vacío cerca de la pila. En la mayoría de los modelos, la función GO solo mueve el modelo hacia adelante un paso, pero en este modelo, la función GO está escrita para hacer avanzar a las tortugas a través de un ciclo completo de actividad. Consulte la sección &quot;Botones&quot; de la Guía de programación en el Manual del usuario para obtener más información sobre los botones Turtle Forever.
+Tenga en cuenta que cuando detiene el botón IR para siempre, las termitas siguen moviéndose durante un rato. Esto se debe a que cada uno de ellos está terminando los comandos en el procedimiento IR. Para hacer esto, deben terminar su ciclo actual de encontrar una ficha, encontrar una pila y luego encontrar un lugar vacío cerca de la pila. En la mayoría de los modelos, la función IR solo mueve el modelo hacia adelante un paso, pero en este modelo, la función IR está escrita para hacer avanzar a las tortugas a través de un ciclo completo de actividad. Consulta la sección "Botones" de la Guía de Programación en el Manual del Usuario para obtener más información sobre los botones de tortugas para siempre.
 
 ##  MODELOS RELACIONADOS 
 
-* Painted Desert Challenge
-* Shepherds
-* State Machine Example
+* Desafío del Desierto Pintado
+* Pastoras
+* Ejemplo de Máquina de Estado
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1997).  NetLogo Termites model.  http://ccl.northwestern.edu/netlogo/models/Termites.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -72,3 +71,5 @@ This model was developed at the MIT Media Lab using CM StarLogo.  See Resnick, M
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
 
 <!-- 1997 2001 MIT -->
+
+Traductora: Chelsea Guzman
