@@ -68,5 +68,4 @@ show-next?
 ### Source
 starting-level
 ### Spanish
-inicializando-nivel
-
+nivel-inicial

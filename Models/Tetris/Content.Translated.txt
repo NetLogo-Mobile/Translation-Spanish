@@ -1,96 +1,95 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
-Este es el clásico juego de rompecabezas, Tetris. El juego consiste en la caída de piezas compuestas por cuatro bloques en diferentes configuraciones. El objetivo del juego es completar filas horizontales de bloques en el pozo.
+Este es el clásico juego de rompecabezas, Tetris. El juego consiste en la caída de piezas compuestas por cuatro bloques de diferentes configuraciones. El objetivo del juego es completar filas horizontales de bloques en el pozo.
 
-Cada vez que se completa una fila, desaparece y los bloques de arriba caen. Cuantas más filas despejes con la colocación de una sola pieza, más puntos recibirás. Si borra suficientes filas, pasa al siguiente nivel. Cuanto más alto sea el nivel, más puntos recibirás por todo, pero las piezas también caen más rápido, aumentando el desafío.
+Cada vez que se completa una fila se desaparece y los bloques de arriba caen. Cuantas más filas despejes con la colocación de una sola pieza, más puntos recibirás. Si borra suficientes filas, pasas al siguiente nivel. Cuanto más alto sea el nivel, más puntos recibirás por todo, pero las piezas también caen más rápido, aumentando el desafío.
 
 ##  COMO USARLO
 
 Monitores:
-- PUNTUACIÓN muestra su puntuación actual.
-- LÍNEAS muestra el número de líneas que ha despejado.
-- NIVEL muestra su nivel actual.
+- PUNTUACIÓN muestra tu puntuación actual.
+- LÍNEAS muestra el número de líneas que has despejado.
+- NIVEL muestra tu nivel actual.
 
 Deslizadores:
-- NIVEL INICIAL selecciona el nivel inicial del juego. Elegir un nivel más alto para comenzar le permite obtener más puntos más rápido y aumentar la velocidad inicial de caída. Su nivel no aumentará hasta que su número de líneas sea 10 * (nivel + 1). (es decir, nivel inicial = 3, el nivel permanecerá 3 hasta que se borren 40 líneas).
-- DEBRIS-LEVEL establece cuántas líneas de bloques aleatorios se crearán en el fondo del pozo al comienzo del juego.
+- NIVEL-INICIAL selecciona el nivel inicial del juego. Elegir un nivel más alto para comenzar le permite obtener más puntos más rápido y aumentar la velocidad inicial de caída. Su nivel no aumentará hasta que su número de líneas sea 10 * (nivel + 1). (es decir, nivel inicial = 3, el nivel permanecerá 3 hasta que se borren 40 líneas).
+- NIVEL-DE-ESCOMBROS establece cuántas líneas de bloques aleatorios se crearán en el fondo del pozo al comienzo del juego.
 
 Botones:
 - NUEVO configura un nuevo juego con la configuración inicial.
-- JUGAR comienza el juego.
+- JUGAR inicia el juego.
 
 Control S:
-- ROTLEFT gira la pieza actual 90 grados a la izquierda.
-- DERECHA gira la pieza actual 90 grados a la derecha.
+- GIRIZQUIERDA gira la pieza actual 90 grados a la izquierda.
+- GIRDERECHA gira la pieza actual 90 grados a la derecha.
 - IZQUIERDA mueve la pieza actual un espacio a la izquierda.
-- DROP hace que la pieza actual caiga al fondo del pozo inmediatamente.
+- SOLTAR hace que la pieza actual caiga al fondo del pozo inmediatamente.
 - DERECHA mueve la pieza actual un espacio a la derecha.
 - ABAJO mueve la pieza actual un espacio hacia abajo.
 
 Opciones (interruptores)
-- ¿MOSTRAR-SIGUIENTE-PIEZA? alterna la opción que hace que la pieza que aparecerá en el pozo después de colocar la actual se muestre en una pequeña caja a la derecha del pozo.
+- ¿MOSTRAR-PIEZA-PRÓXIMA? alterna la opción que hace que la pieza que aparecerá en el pozo después de colocar la actual se muestre en una pequeña caja a la derecha del pozo.
 
 ##  COSAS PARA NOTAR
 
 Hay siete tipos de piezas. Estas son todas las formas que se pueden hacer con cuatro bloques pegados.
 
-`` texto
-[] [] Bloque cuadrado: buen relleno en áreas planas,
-[] [] difícil de colocar en áreas irregulares
+```texto
+[][]        Bloque–Cuadrado: un buen relleno en áreas planas,
+[][]            difícil de colocar en áreas irregulares
 
-[] [] [] Bloque en L: encaja bien en agujeros profundos
+[][][]      Bloque–L: encaja bien en agujeros profundos
 []
 
-[] [] S-Block: buen relleno en áreas irregulares,
-[] [] difícil de colocar en áreas planas
+[][]        Bloque–S: un buen relleno en áreas irregulares,
+[][]            difícil de colocar en áreas planas
 
-[] [] [] Bloque en T - buena pieza promedio, cabe
-[] casi en cualquier lugar bien
+[][][]      Bloque–T - buena pieza promedio, cabe
+[]              casi en cualquier lugar bien
 
-[] [] Bloque S inverso (o bloque Z) - bueno
-[] [] relleno en áreas irregulares, difícil de
+[][]        Bloque–S Inverso (o Bloque–Z) - bueno
+[][]            relleno en áreas irregulares, difícil de
 colocar en áreas planas
 
-[] [] [] Bloque en L inverso: encaja bien
-[] agujeros profundos
+[][][]      Bloque–L Inverso: encaja bien
+[]              agujeros profundos
 
-[] [] [] [] I-Bar: la única pieza que te permite
+[][][][]    Barra-I: la única pieza que te permite
 borrar 4 líneas a la vez (también conocido como Tetris)
-&#39;&#39;
+```
 
 Sistema de puntuación:
-Nota: Los puntos se puntúan utilizando el nivel + 1, de modo que los puntos todavía se puntúan en el nivel 0.
-- 1 línea = 50 * (nivel + 1) puntos
-- 2 líneas = 150 * (nivel + 1) puntos
-- 3 líneas = 350 * (nivel + 1) puntos
-- 4 líneas = 1000 * (nivel + 1) puntos (también conocido como Tetris)
-- Limpiar el tablero = 2000 * (nivel + 1)
-- Cada pieza = 10 * (nivel + 1) puntos
+Nota: Los puntos se puntúan usando el nivel + 1, de modo que los puntos todavía se puntúan en el nivel 0.
+- 1 línea = 50*(nivel + 1) puntos
+- 2 líneas = 150*(nivel + 1) puntos
+- 3 líneas = 350*(nivel + 1) puntos
+- 4 líneas = 1000*(nivel + 1) puntos (también conocido como Tetris)
+- Limpiar el tablero = 2000*(nivel + 1)
+- Todas las piezas = 10*(nivel + 1) puntos
 
 ##  COSAS PARA INTENTAR
 
-Batir su puntuación más alta.
+Trata de superar tu puntuación más alta.
 
 ##  EXTENDIENDO EL MODELO
 
-Agregue opciones para cambiar el ancho y la profundidad del pozo.
+Agrega opciones para cambiar la anchura y la profundidad del pozo.
 
 Agrega la opción de incluir piezas compuestas por más de cuatro bloques, o menos.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Este modelo utiliza razas de tortugas.
+Este modelo usa razas de tortugas.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (2001).  NetLogo Tetris model.  http://ccl.northwestern.edu/netlogo/models/Tetris.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -107,3 +106,5 @@ Commercial licenses are also available. To inquire about commercial licenses, pl
 This model was created as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227.
 
 <!-- 2001 -->
+
+Traductora: Chelsea Guzman
