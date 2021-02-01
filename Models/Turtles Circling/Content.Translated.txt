@@ -1,4 +1,4 @@
-﻿## ¿QUE ÉS?
+﻿## ¿QUÉ ES?
 
 Esto es un nuevo tipo de investigación matemática -- estamos investigando la forma emergente creada por el movimiento de muchas tortugas que se mueven independiente de una manera simple. Cada tortuga se mueve para crear un círculo de un radio fijo (establecido por el control deslizante RADIO). ¿Qué pasa si el radio en el que todos están girando se cambia mientras que están haciendo la acción? Adivina lo que pasará antes de probarlo.
 
