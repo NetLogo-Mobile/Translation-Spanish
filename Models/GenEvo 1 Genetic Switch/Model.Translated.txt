@@ -1,113 +1,114 @@
-﻿## Language = Spanish
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
 ## Plots
-### Source ***
+### Source
 Cell Division Time
-### Spanish
+### Spanish ***
+Tiempo de división celular
 
-
-### Source ***
+### Source
 default
-### Spanish
+### Spanish ***
+defecto
 
-
-### Source ***
+### Source
 Energy
-### Spanish
+### Spanish ***
+Energía
 
-
-### Source ***
+### Source
 Frequency
-### Spanish
+### Spanish ***
+Frecuencia
 
-
-### Source ***
+### Source
 LacZ Number
-### Spanish
+### Spanish ***
+Número LacZ
 
-
-### Source ***
+### Source
 Number of Ticks
-### Spanish
+### Spanish ***
+Número de garrapatas
 
-
-### Source ***
+### Source
 Time
-### Spanish
-
+### Spanish ***
+Hora
 
 ## Widgets
-### Source ***
+### Source
 average-cell-division-time
-### Spanish
+### Spanish ***
+tiempo medio de división celular
 
-
-### Source ***
+### Source
 glucose?
-### Spanish
+### Spanish ***
+¿glucosa?
 
-
-### Source ***
+### Source
 go
-### Spanish
+### Spanish ***
+Vamos
 
-
-### Source ***
+### Source
 LacI-bond-leakage
-### Spanish
+### Spanish ***
+Fugas lacI-bond
 
-
-### Source ***
+### Source
 LacI-lactose-binding-chance
-### Spanish
+### Spanish ***
+LacI-posibilidad de unión a lactosa
 
-
-### Source ***
+### Source
 LacI-lactose-separation-chance
-### Spanish
+### Spanish ***
+LacI-lactosa-separación-oportunidad
 
-
-### Source ***
+### Source
 LacI-number
-### Spanish
+### Spanish ***
+Número LacI
 
-
-### Source ***
+### Source
 lactose?
-### Spanish
+### Spanish ***
+¿lactosa?
 
-
-### Source ***
+### Source
 LacY-degradation-chance
-### Spanish
+### Spanish ***
+LacY-degradación-posibilidad
 
-
-### Source ***
+### Source
 LacZ-degradation-chance
-### Spanish
+### Spanish ***
+LacZ-degradación-posibilidad
 
-
-### Source ***
+### Source
 LevelSpace?
-### Spanish
+### Spanish ***
+LevelSpace?
 
-
-### Source ***
+### Source
 reset
-### Spanish
+### Spanish ***
+Reiniciar
 
-
-### Source ***
+### Source
 RNAP-number
-### Spanish
+### Spanish ***
+Número RNAP
 
-
-### Source ***
+### Source
 save screenshot
-### Spanish
+### Spanish ***
+guardar captura de pantalla
 
-
-### Source ***
+### Source
 setup
-### Spanish
-
+### Spanish ***
+preparar
 

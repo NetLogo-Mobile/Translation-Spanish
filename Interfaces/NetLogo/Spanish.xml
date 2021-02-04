@@ -45,6 +45,7 @@
     <String ID="不同的主语会带来不同的效果。试试让所有海龟执行" Status="0" English="Commands will be carried out by different subjects. Try to ask turtles to">Los comandos serán ejecutados por diferentes sujetos. Trate de pedirle a las tortugas que lo hagan</String>
   </Editors>
   <NetTango>
+    <String ID="否则" Status="0">Más</String>
     <String ID="拖到这里删除" Status="0" English="Drag here to delete">Arrastra aquí para borrar</String>
     <String ID="松手取消操作" Status="0" English="Leave here to cancel">Sal por aquí para cancelar</String>
     <String ID="请输入 {0}" Status="0" English="Please enter {0}">Escribe {0}</String>

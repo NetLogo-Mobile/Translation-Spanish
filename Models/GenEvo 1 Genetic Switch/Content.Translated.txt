@@ -1,1 +1,158 @@
-﻿
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Que es
+
+Este modelo simula un fenómeno complejo en biología molecular: el &quot;encendido y apagado&quot; de genes en función de las condiciones ambientales. A través de interacciones moleculares entre proteínas reguladoras específicas y secuencias de ADN específicas, cada gen regulado se activa o desactiva en respuesta a estímulos ambientales.
+
+Específicamente, es un modelo del [lac-operon] (https://en.wikipedia.org/wiki/Lac_operon) de una bacteria (E. coli.), Que es responsable de la absorción y digestión de la lactosa, cuando la lactosa es la fuente de energía preferida en el medio ambiente. Simula la regulación de la síntesis de las enzimas [permease (LacY)] (https://en.wikipedia.org/wiki/Lactose_permease) y [beta-galactosidase (LacZ)] (https://en.wikipedia.org/ wiki / Beta-galactosidasa).
+
+##  COMO FUNCIONA
+
+Este cambio genético es, en esencia, un circuito de retroalimentación positiva. Es responsable de regular la síntesis de proteínas (LacZ y LacY en este modelo) necesarias para llevar a cabo la captación y digestión de la lactosa.
+
+En este modelo, de hecho, hay dos azúcares: glucosa y lactosa. Se &quot;prefiere&quot; la glucosa como fuente de energía sobre la lactosa. Cuando hay glucosa y / o no hay lactosa en el entorno circundante, el interruptor genético está en un _ estado estacionario apagado_. Esto se debe a que la proteína represora [LacI] (https://en.wikipedia.org/wiki/Lac_repressor) evita (principalmente) que las bacterias produzcan las proteínas, uniéndose al [sitio del operador] (https: // en. wikipedia.org/wiki/Operon#General_structure) del ADN. En este estado estacionario, se produce relativamente poca permeasa (LacY) y beta-galactosidasa (LacZ).
+
+Cuando la lactosa se introduce en el entorno exterior, las moléculas de lactosa entran en la célula bacteriana a través de las proteínas permeasas (LacY). Algunas moléculas de lactosa que entran en la célula se unen a los LacI, lo que evita que los LacI se unan al sitio del operador del ADN. Esto, a su vez, hace que se produzcan más LacY. Los LacY se insertan en la pared celular, lo que hace que entre más lactosa en la célula, creando así un circuito de retroalimentación positiva. Mientras tanto, los LacZ digieren las moléculas de lactosa dentro de la célula para producir energía.
+
+El interruptor genético se enciende cuando hay lactosa y no glucosa en el ambiente. El encendido del interruptor se representa cambiando el color de la celda a tonos de color azul.
+
+El efecto de la glucosa (a través de [cAMP] (https://en.wikipedia.org/wiki/Cyclic_adenosine_monophosphate)) solo se modela implícitamente. La velocidad a la que se producen LacZ y LacI se reduce significativamente cuando hay glucosa presente.
+
+### Proteínas importantes
+1. * RNAP *: son ARN polimerasas que sintetizan ARNm a partir del ADN. Estos están representados por manchas marrones en el modelo. Este modelo no incluye ARNm.
+2. * LacI * - Las formas de color púrpura en el modelo representan un represor (proteínas LacI). Se unen a la región del operador (ver más abajo) del ADN y no dejan que el RNAP pase a lo largo del gen, deteniendo así la síntesis de proteínas. Cuando la lactosa se une a LacI, forman complejos LacI-lactosa (mostrados por una forma violeta con un punto gris adjunto). Estos complejos no pueden unirse a la región operadora del ADN.
+3. * LacY *: se muestran en el modelo como rectángulos de color rojo claro. Se producen cuando un RNAP transmite el gen. Cuando golpean la pared de la celda, se instalan en la pared de la celda (mostrado por parches de luz). La lactosa (pentágonos grises) del ambiente exterior se transporta dentro de la célula a través de estos parches de color rojo claro.
+4. * LacZ *: se muestran como proteínas de color rojo claro. Están presentes dentro de la celda. Cuando chocan con una molécula de lactosa, la molécula de lactosa se digiere y se produce energía.
+
+### Regiones de ADN
+Hay cuatro regiones de ADN importantes en este modelo:
+
+1. * Promotor *: esta región se indica con el color verde. A medida que un RNAP se une a la región promotora y si el operador está libre, se mueve a lo largo del ADN para iniciar la transcripción.
+2. * Operador *: esta región se indica con el color naranja. La proteína represora, LacI, se une a esta región e impide que RNAP se mueva a lo largo del ADN.
+3. * Operón * - Esto se indica con el color azul. Aquí es donde están los genes lacY y lacZ. Este modelo incluye solo estos dos genes del operón.
+4. * Terminator * - Esto se indica con el color gris. RNAP se separa del ADN cuando llega a esta región.
+
+A medida que el RNAP se mueve a lo largo del gen, se producen las proteínas LacY y LacZ (cinco moléculas por transcripción). No mostramos la traducción por ribosomas en este modelo.
+
+### Energía de la celda
+Producir y mantener la maquinaria proteica de una célula requiere energía. Entonces, a medida que una célula produce proteínas y mantiene esas proteínas (RNAP, LacIs y LacZs), su energía disminuye.
+
+La energía de la célula aumenta cuando se digiere la lactosa dentro de la célula.
+
+### División celular
+Cuando la energía de la célula se duplica de su valor inicial, se divide en dos células hijas. Cada una de estas células tiene la mitad de la energía de la célula original y la mitad del número de cada tipo de proteína en la célula original.
+
+##  COMO USARLO
+
+### Para configurar
+
+Cada control deslizante controla un cierto aspecto de este circuito de regulación genética. Consulte la sección de controles deslizantes para obtener más información sobre la función de cada variable.
+
+Una vez que todos los controles deslizantes están configurados en los niveles deseados, el usuario debe hacer clic en CONFIGURAR para inicializar la celda.
+
+### Correr
+
+Para observar el comportamiento de conmutación del interruptor genético, configure GLUCOSA? a ON y LACTOSA? desactivado. Deje que la simulación se ejecute durante unos cientos de tics. Observe los cambios en la energía de la célula a medida que pasa el tiempo y la célula se divide. La energía se reduce a la mitad cuando una célula se divide.
+
+Para ejecutar la simulación más rápido, desmarque la casilla &#39;ver actualizaciones&#39; para varios miles de marcas. Observe la producción de LacZ en el gráfico. Varía debido a la naturaleza estocástica de las interacciones moleculares en la célula. Esta variabilidad incluso cuando el interruptor &quot;está apagado&quot; es la razón por la cual los interruptores genéticos se denominan &quot;con fugas&quot;.
+
+¿Establecer GLUCOSA? a OFF y LACTOSA? a ON para ver el comportamiento del cambio genético al observar el cambio en la producción de LacZ.
+
+Si bien las interacciones moleculares (micro) se observan mejor ejecutando la simulación con &#39;ver actualizaciones&#39; marcadas, para observar el comportamiento celular (macro), las &#39;ver actualizaciones&#39; deben estar desmarcadas y la simulación debe ejecutarse durante varios miles de tics.
+
+### Botones
+
+El botón SETUP inicializa el modelo.
+
+El botón GO ejecuta la simulación hasta que la celda muere.
+
+### Interruptores
+
+¿LACTOSA? - Si está encendido, se agrega lactosa al medio externo (fuera de la celda)
+
+¿GLUCOSA? - Si está ENCENDIDO, se agrega glucosa al medio externo. La glucosa se modela implícitamente, lo que significa que cuando ¿GLUCOSA? está ENCENDIDO, la energía de una celda aumenta a un ritmo constante (10 unidades / tic). Además, dado que la glucosa es una &quot;fuente de energía preferida&quot;, el promotor lac es menos activo cuando la GLUCOSA? Está encendido.
+
+### Deslizadores
+
+LACI-NUMBER: establece el número de LacIs
+
+RNAP-NUMBER: establece el número de RNAP
+
+FUGAS DE LACI-BOND: esta es la posibilidad de que una molécula de LacI unida al operador se separe del operador
+
+OPORTUNIDAD DE UNIÓN DE LACI-LACTOSA: establece la posibilidad de que una lactosa y un LacI se unan para formar un complejo LacI-lactosa
+
+OPORTUNIDAD DE SEPARACIÓN DE LACI-LACTOSA - Establece la posibilidad de que se separe un complejo de LacI-lactosa
+
+LACY-DEGRADATION-CHANCE: establece la probabilidad de degradación de un LacY que se instala en la pared de la celda
+
+LACZ-DEGRADATION-CHANCE: establece la posibilidad de degradación de las moléculas de LacZ en la célula
+
+### Parcelas
+
+Energía: traza la cantidad de energía en la célula a lo largo del tiempo.
+
+Número lacZ: traza el número de moléculas LacZ dentro de una célula.
+
+Tiempo de división celular: traza el número de tics entre dos eventos de división celular. Se puede utilizar como indicador de tasa de crecimiento. Un tiempo de división celular más corto indica una mayor tasa de crecimiento.
+
+##  COSAS PARA NOTAR
+
+Observe las tres partes del mecanismo molecular involucradas en el control del interruptor genético:
+1. Captación de lactosa de afuera hacia adentro a través de LacY
+2. Represión por LacI en ausencia de lactosa
+3. Formación del complejo LacI-lactosa en presencia de lactosa y eliminación de la represión
+
+Observe los cambios en la energía de las células cuando se agrega lactosa (es decir, cuando LACTOSA? Está ENCENDIDA y cuando LACTOSA? Está APAGADA).
+
+Observe los cambios de energía cuando una célula se divide.
+
+Observe los cambios en el tiempo medio de división celular a medida que pasa el tiempo.
+
+Observe el efecto de los cambios en las condiciones ambientales (ON / OFF de GLUCOSA? Y LACTOSA? En el tiempo medio de división celular y el número de LacZ.
+
+##  COSAS PARA INTENTAR
+
+Intente hacer que el cambio genético sea más sensible a las condiciones ambientales. Debe estar &quot;encendido&quot; sólo cuando la lactosa está presente y &quot;apagado&quot; en caso contrario. Puede hacer esto cambiando los parámetros del control deslizante.
+
+Si la célula comienza a absorber lactosa y a producir energía más rápidamente, ¿el tiempo promedio de división celular también disminuye?
+
+##  EXTENDIENDO EL MODELO
+
+¡En la vida real, las células no son planas! Vea si puede extender el modelo a tres dimensiones con NetLogo 3D.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Este modelo utiliza ampliamente la primitiva &quot;with&quot; de NetLogo. Esto se debe a que, aunque las diferentes proteínas están representadas por diferentes &quot;razas&quot;, las proteínas también existen en varios estados.
+
+##  MODELOS RELACIONADOS 
+
+* GenEvo Curricular Models
+* GenDrift Sample Models
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Dabholkar, S., Bain, C. and Wilensky, U. (2016).  NetLogo GenEvo 1 Genetic Switch model.  http://ccl.northwestern.edu/netlogo/models/GenEvo1GeneticSwitch.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+To cite the GenEvo Systems Biology curriculum as a whole, please use:
+
+* Dabholkar, S. & Wilensky, U. (2016). GenEvo Systems Biology curriculum. http://ccl.northwestern.edu/curriculum/genevo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2016 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2016 GenEvo Cite: Dabholkar, S., Bain, C. -->
