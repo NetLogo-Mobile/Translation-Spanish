@@ -1,0 +1,2124 @@
+﻿{
+  "and": {
+    "identity": "and",
+    "display_name": "and",
+    "short_original": "checks if both of two conditions are true",
+    "short_description": "comprueba si las dos condiciones son verdaderas",
+    "search_terms": [
+      "if",
+      "or",
+      "ifelse",
+      "ifelse-value"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "if",
+      "or",
+      "ifelse",
+      "ifelse-value"
+    ],
+    "library_models": [
+      "Virus on a Network",
+      "Tetris"
+    ]
+  },
+  "any": {
+    "identity": "any",
+    "display_name": "any?",
+    "short_original": "checks if there are any agents in an agentset",
+    "short_description": "comprueba si hay agentes en un conjunto de agentes",
+    "search_terms": [
+      "all?",
+      "count",
+      "if",
+      "other"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "all?",
+      "count",
+      "if",
+      "other"
+    ],
+    "library_models": [
+      "Team Assembly",
+      "Fireworks",
+      "Traffic Basic"
+    ]
+  },
+  "breed": {
+    "identity": "breed",
+    "display_name": "breed",
+    "short_original": "defines a breed or variant of turtle",
+    "short_description": "define una raza o variante de tortuga",
+    "search_terms": [
+      "create-turtles",
+      "turtles-own",
+      "die",
+      "ask"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "create-turtles",
+      "turtles-own",
+      "die",
+      "ask"
+    ],
+    "library_models": [
+      "Wolf Sheep Predation",
+      "Fireworks",
+      "Minesweeper"
+    ]
+  },
+  "create-links-with": {
+    "identity": "create-links-with",
+    "display_name": "create-links-with",
+    "short_original": "creates links with every agent in an agentset",
+    "short_description": "crea vínculos con cada agente en un conjunto de agentes",
+    "search_terms": [
+      "link-neighbors",
+      "layout-circle",
+      "links",
+      "n-of"
+    ],
+    "agents": [
+      "turtles"
+    ],
+    "see_also": [
+      "link-neighbors",
+      "layout-circle",
+      "links",
+      "n-of"
+    ],
+    "library_models": [
+      "Fully Connected Network Example",
+      "Random Network Example"
+    ]
+  },
+  "diffuse": {
+    "identity": "diffuse",
+    "display_name": "diffuse",
+    "short_original": "speads a patch variable around to its neighbors",
+    "short_description": "lanza una variable de parche alrededor de sus vecinos",
+    "search_terms": [
+      "patches-own",
+      "patches",
+      "globals",
+      "neighbors"
+    ],
+    "agents": [
+      "patches"
+    ],
+    "see_also": [
+      "patches-own",
+      "patches",
+      "globals",
+      "neighbors"
+    ],
+    "library_models": [
+      "Ants",
+      "Slime",
+      "Diffusion Graphics"
+    ]
+  },
+  "globals": {
+    "identity": "globals",
+    "display_name": "globals",
+    "short_original": "defines variables that can be used throughout the whole model",
+    "short_description": "define variables que se pueden utilizar en todo el modelo",
+    "search_terms": [
+      "turtles-own",
+      "patches-own",
+      "set",
+      "ifelse"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "turtles-own",
+      "patches-own",
+      "set",
+      "ifelse"
+    ],
+    "library_models": [
+      "Simple Birth Rates",
+      "Wealth Distribution"
+    ]
+  },
+  "ifelse": {
+    "identity": "ifelse",
+    "display_name": "ifelse",
+    "short_original": "execute specific code if a condition is true, otherwise, execute other code",
+    "short_description": "ejecutar código específico si una condición es verdadera, de lo contrario, ejecutar otro código",
+    "search_terms": [
+      "if",
+      "ifelse-value",
+      "of",
+      "or"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "if",
+      "ifelse-value",
+      "of",
+      "or"
+    ],
+    "library_models": [
+      "Virus",
+      "Segregation"
+    ]
+  },
+  "ifelse-value": {
+    "identity": "ifelse-value",
+    "display_name": "ifelse-value",
+    "short_original": "execute different code for a number of different conditions",
+    "short_description": "ejecutar código diferente para una serie de condiciones diferentes",
+    "search_terms": [
+      "if",
+      "ifelse",
+      "of",
+      "count"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "if",
+      "ifelse",
+      "of",
+      "count"
+    ],
+    "library_models": [
+      "Spread of Disease",
+      "Ant Adaptation"
+    ]
+  },
+  "in-cone": {
+    "identity": "in-cone",
+    "display_name": "in-cone",
+    "short_original": "reports members of an agentset within a \"cone-of-vision\" for a turtle",
+    "short_description": "informa miembros de un conjunto de agentes dentro de un &quot;cono de visión&quot; para una tortuga",
+    "search_terms": [
+      "in-radius",
+      "other",
+      "neighbors",
+      "with"
+    ],
+    "agents": [
+      "turtles"
+    ],
+    "see_also": [
+      "in-radius",
+      "other",
+      "neighbors",
+      "with"
+    ],
+    "library_models": [
+      "Traffic 2 Lanes",
+      "Vision Cone Example"
+    ]
+  },
+  "in-radius": {
+    "identity": "in-radius",
+    "display_name": "in-radius",
+    "short_original": "reports members of an agentset within a certain distance of an agent",
+    "short_description": "informa a los miembros de un conjunto de agentes a cierta distancia de un agente",
+    "search_terms": [
+      "in-cone",
+      "other",
+      "in-radius",
+      "neighbors"
+    ],
+    "agents": [
+      "turtles",
+      "patches"
+    ],
+    "see_also": [
+      "in-cone",
+      "other",
+      "in-radius",
+      "neighbors"
+    ],
+    "library_models": [
+      "Flocking",
+      "Scatter"
+    ]
+  },
+  "layout-circle": {
+    "identity": "layout-circle",
+    "display_name": "layout-circle",
+    "short_original": "equally space turtles in a circle around the center of the world",
+    "short_description": "igualmente tortugas espaciales en un círculo alrededor del centro del mundo",
+    "search_terms": [
+      "links",
+      "link-neighbors",
+      "create-links-with",
+      "setxy"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "links",
+      "link-neighbors",
+      "create-links-with",
+      "setxy"
+    ],
+    "library_models": [
+      "Network Example"
+    ]
+  },
+  "link-neighbors": {
+    "identity": "link-neighbors",
+    "display_name": "link-neighbors",
+    "short_original": "report all agents connected by links",
+    "short_description": "informar a todos los agentes conectados por enlaces",
+    "search_terms": [
+      "neighbors",
+      "create-links-with",
+      "layout-circle",
+      "any?"
+    ],
+    "agents": [
+      "turtles"
+    ],
+    "see_also": [
+      "neighbors",
+      "create-links-with",
+      "layout-circle",
+      "any?"
+    ],
+    "library_models": [
+      "Virus on a Network"
+    ]
+  },
+  "links": {
+    "identity": "links",
+    "display_name": "links",
+    "short_original": "reports the agentset of all links in the model",
+    "short_description": "informa el conjunto de agentes de todos los enlaces en el modelo",
+    "search_terms": [
+      "link-neighbors",
+      "layout-circle",
+      "turtles",
+      "patches"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "link-neighbors",
+      "layout-circle",
+      "turtles",
+      "patches"
+    ],
+    "library_models": [
+      "Random Network"
+    ]
+  },
+  "n-of": {
+    "identity": "n-of",
+    "display_name": "n-of",
+    "short_original": "randomly report \"n\" agents from an agentset",
+    "short_description": "informar aleatoriamente a &quot;n&quot; agentes de un conjunto de agentes",
+    "search_terms": [
+      "one-of",
+      "count",
+      "any?",
+      "all?"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "one-of",
+      "count",
+      "any?",
+      "all?"
+    ],
+    "library_models": [
+      "Virus",
+      "Segregation Simple"
+    ]
+  },
+  "of": {
+    "identity": "of",
+    "display_name": "of",
+    "short_original": "report the value of an agent-owned variable from another context",
+    "short_description": "reportar el valor de una variable propiedad del agente desde otro contexto",
+    "search_terms": [
+      "with",
+      "to-report",
+      "turtles-own",
+      "patches-own"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "with",
+      "to-report",
+      "turtles-own",
+      "patches-own"
+    ],
+    "library_models": []
+  },
+  "or": {
+    "identity": "or",
+    "display_name": "or",
+    "short_original": "checks if either of two conditions is true",
+    "short_description": "comprueba si alguna de las dos condiciones es verdadera",
+    "search_terms": [
+      "if",
+      "ifelse",
+      "and",
+      "xor"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "if",
+      "ifelse",
+      "and",
+      "xor"
+    ],
+    "library_models": [
+      "Voronoi"
+    ]
+  },
+  "random": {
+    "identity": "random",
+    "display_name": "random",
+    "short_original": "generate a random whole number within a specified range",
+    "short_description": "generar un número entero aleatorio dentro de un rango específico",
+    "search_terms": [
+      "random-float",
+      "random-normal",
+      "globals",
+      "turtles-own"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "random-float",
+      "random-normal",
+      "globals",
+      "turtles-own"
+    ],
+    "library_models": [
+      "Fireworks",
+      "Virus"
+    ]
+  },
+  "random-float": {
+    "identity": "random-float",
+    "display_name": "random-float",
+    "short_original": "generate a random real (non-whole) number within a specified range",
+    "short_description": "generar un número real aleatorio (no entero) dentro de un rango especificado",
+    "search_terms": [
+      "random",
+      "random-normal",
+      "globals",
+      "turtles-own"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "random",
+      "random-normal",
+      "globals",
+      "turtles-own"
+    ],
+    "library_models": [
+      "Virus",
+      "Wolf Sheep Predation"
+    ]
+  },
+  "scale-color": {
+    "identity": "scale-color",
+    "display_name": "scale-color",
+    "short_original": "generate a shade of a base hue (color) based on a given value",
+    "short_description": "generar un tono de un tono base (color) basado en un valor dado",
+    "search_terms": [
+      "color",
+      "pcolor",
+      "set",
+      "turtles-own"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "color",
+      "pcolor",
+      "set",
+      "turtles-own"
+    ],
+    "library_models": [
+      "Ants",
+      "Wolf Sheep Simple 3"
+    ]
+  },
+  "setxy": {
+    "identity": "setxy",
+    "display_name": "setxy",
+    "short_original": "set the position of a turtle (in terms of X and Y coordinates)",
+    "short_description": "establecer la posición de una tortuga (en términos de coordenadas X e Y)",
+    "search_terms": [
+      "move-to",
+      "min-pxcor",
+      "max-pxcor",
+      "neighbors"
+    ],
+    "agents": [
+      "turtles"
+    ],
+    "see_also": [
+      "move-to",
+      "min-pxcor",
+      "max-pxcor",
+      "neighbors"
+    ],
+    "library_models": [
+      "Wolf Sheep Simple 2",
+      "Segregation Simple"
+    ]
+  },
+  "sort-by": {
+    "identity": "sort-by",
+    "display_name": "sort-by",
+    "short_original": "sort a list based on a user-defined comparison reporter",
+    "short_description": "ordenar una lista basada en un reportero de comparación definido por el usuario",
+    "search_terms": [
+      "sort-on",
+      "sort",
+      "count",
+      "mean"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "sort-on",
+      "sort",
+      "count",
+      "mean"
+    ],
+    "library_models": [
+      "Ask Ordering Example"
+    ]
+  },
+  "sort-on": {
+    "identity": "sort-on",
+    "display_name": "sort-on",
+    "short_original": "sort an agentset into a list ordered by the value of a given reporter",
+    "short_description": "ordenar un conjunto de agentes en una lista ordenada por el valor de un reportero dado",
+    "search_terms": [
+      "sort-by",
+      "sort",
+      "count",
+      "mean"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "sort-by",
+      "sort",
+      "count",
+      "mean"
+    ],
+    "library_models": [
+      "Birthdays"
+    ]
+  },
+  "tie": {
+    "identity": "tie",
+    "display_name": "tie",
+    "short_original": "make a link into a solid connection that can move turtles in the world",
+    "short_description": "hacer un vínculo en una conexión sólida que pueda mover a las tortugas en el mundo",
+    "search_terms": [
+      "links",
+      "create-links-with",
+      "link-neighbors",
+      "layout-circle"
+    ],
+    "agents": [
+      "links"
+    ],
+    "see_also": [
+      "links",
+      "create-links-with",
+      "link-neighbors",
+      "layout-circle"
+    ],
+    "library_models": [
+      "Tie System Example"
+    ]
+  },
+  "all": {
+    "identity": "all",
+    "display_name": "all?",
+    "short_original": "Check if a reporter is true for all agents in an agentset.",
+    "short_description": "Compruebe si un informador es verdadero para todos los agentes de un conjunto de agentes.",
+    "search_terms": [
+      "any?",
+      "nobody",
+      "count",
+      "with"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "any?",
+      "nobody",
+      "count",
+      "with"
+    ],
+    "library_models": [
+      "Segregation",
+      "Voting"
+    ]
+  },
+  "ceiling": {
+    "identity": "ceiling",
+    "display_name": "ceiling",
+    "short_original": "Round a number up to the nearest integer.",
+    "short_description": "Redondea un número al entero más cercano.",
+    "search_terms": [
+      "floor",
+      "round",
+      "count",
+      "mean"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "floor",
+      "round",
+      "count",
+      "mean"
+    ],
+    "library_models": [
+      "Single Collision",
+      "Gravity Box"
+    ]
+  },
+  "count": {
+    "identity": "count",
+    "display_name": "count",
+    "short_original": "Count the number of agents in an agentset.",
+    "short_description": "Cuente el número de agentes en un conjunto de agentes.",
+    "search_terms": [
+      "mean",
+      "mod",
+      "if",
+      "ifelse"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "mean",
+      "mod",
+      "if",
+      "ifelse"
+    ],
+    "library_models": [
+      "Wolf Sheep Predation"
+    ]
+  },
+  "die": {
+    "identity": "die",
+    "display_name": "die",
+    "short_original": "Remove a turtle or link from the world.",
+    "short_description": "Elimina una tortuga o un enlace del mundo.",
+    "search_terms": [
+      "hatch",
+      "sprout",
+      "create-turtles",
+      "create-links-with"
+    ],
+    "agents": [
+      "turtles",
+      "links"
+    ],
+    "see_also": [
+      "hatch",
+      "sprout",
+      "create-turtles",
+      "create-links-with"
+    ],
+    "library_models": [
+      "Wolf Sheep Predation",
+      "Virus",
+      "Tumor"
+    ]
+  },
+  "distance": {
+    "identity": "distance",
+    "display_name": "distance",
+    "short_original": "Find the distance from the caller to an agent.",
+    "short_description": "Encuentre la distancia entre la persona que llama y un agente.",
+    "search_terms": [
+      "face",
+      "move-to",
+      "max-pxcor",
+      "neighbors"
+    ],
+    "agents": [
+      "turtles",
+      "patches"
+    ],
+    "see_also": [
+      "face",
+      "move-to",
+      "max-pxcor",
+      "neighbors"
+    ],
+    "library_models": [
+      "Wave Machine",
+      "Mousetraps",
+      "Erosion",
+      "Flocking"
+    ]
+  },
+  "end": {
+    "identity": "end",
+    "display_name": "end",
+    "short_original": "Conclude a procedure.",
+    "short_description": "Concluir un procedimiento.",
+    "search_terms": [
+      "to",
+      "to-report",
+      "ask",
+      "semicolon"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "to",
+      "to-report",
+      "ask",
+      "semicolon"
+    ],
+    "library_models": [
+      "Wolf Sheep Predation",
+      "Forest Fire",
+      "Segregation"
+    ]
+  },
+  "face": {
+    "identity": "face",
+    "display_name": "face",
+    "short_original": "Turn to face a specific agent.",
+    "short_description": "Gire para enfrentar a un agente específico.",
+    "search_terms": [
+      "towards",
+      "facexy",
+      "heading",
+      "right"
+    ],
+    "agents": [
+      "turtles"
+    ],
+    "see_also": [
+      "towards",
+      "facexy",
+      "heading",
+      "right"
+    ],
+    "library_models": [
+      "Simple Collision",
+      "Boiling",
+      "Fireworks"
+    ]
+  },
+  "floor": {
+    "identity": "floor",
+    "display_name": "floor",
+    "short_original": "Round a number down to the nearest integer.",
+    "short_description": "Redondea un número al número entero más cercano.",
+    "search_terms": [
+      "ceiling",
+      "round",
+      "mod",
+      "count"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "ceiling",
+      "round",
+      "mod",
+      "count"
+    ],
+    "library_models": [
+      "Rebellion",
+      "Atmosphere"
+    ]
+  },
+  "hatch": {
+    "identity": "hatch",
+    "display_name": "hatch",
+    "short_original": "Creates turtles from an existing turtle.",
+    "short_description": "Crea tortugas a partir de una tortuga existente.",
+    "search_terms": [
+      "sprout",
+      "create-turtles",
+      "die",
+      "ask"
+    ],
+    "agents": [
+      "turtles"
+    ],
+    "see_also": [
+      "sprout",
+      "create-turtles",
+      "die",
+      "ask"
+    ],
+    "library_models": [
+      "Virus",
+      "Wolf Sheep Predation",
+      "Sunflower"
+    ]
+  },
+  "if": {
+    "identity": "if",
+    "display_name": "if",
+    "short_original": "Conditionally run a command. ",
+    "short_description": "Ejecute condicionalmente un comando.",
+    "search_terms": [
+      "ifelse",
+      "ifelse-value",
+      "any?",
+      "all?"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "ifelse",
+      "ifelse-value",
+      "any?",
+      "all?"
+    ],
+    "library_models": [
+      "Virus",
+      "Shepherds"
+    ]
+  },
+  "left": {
+    "identity": "left",
+    "display_name": "left",
+    "short_original": "Turn a certain amount of degrees to the left.",
+    "short_description": "Gire una cierta cantidad de grados hacia la izquierda.",
+    "search_terms": [
+      "right",
+      "heading",
+      "towards",
+      "face"
+    ],
+    "agents": [
+      "turtles"
+    ],
+    "see_also": [
+      "right",
+      "heading",
+      "towards",
+      "face"
+    ],
+    "library_models": [
+      "Wolf Sheep Predation",
+      "Segregation",
+      "Traffic Grid"
+    ]
+  },
+  "let": {
+    "identity": "let",
+    "display_name": "let",
+    "short_original": "Create a local variable.",
+    "short_description": "Crea una variable local.",
+    "search_terms": [
+      "turtles-own",
+      "patches-own",
+      "globals",
+      "set"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "turtles-own",
+      "patches-own",
+      "globals",
+      "set"
+    ],
+    "library_models": [
+      "Sunflower",
+      "Flocking"
+    ]
+  },
+  "max-pxcor": {
+    "identity": "max-pxcor",
+    "display_name": "max-pxcor",
+    "short_original": "Find patches' largest x-coordinate.",
+    "short_description": "Encuentre la coordenada x más grande de los parches.",
+    "search_terms": [
+      "min-pxcor",
+      "min-pycor",
+      "move-to",
+      "setxy"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "min-pxcor",
+      "min-pycor",
+      "move-to",
+      "setxy"
+    ],
+    "library_models": [
+      "Erosion",
+      "Traffic Grid"
+    ]
+  },
+  "max-pycor": {
+    "identity": "max-pycor",
+    "display_name": "max-pycor",
+    "short_original": "Find patches' largest y-coordinate.",
+    "short_description": "Encuentre la coordenada y más grande de los parches.",
+    "search_terms": [
+      "min-pxcor",
+      "min-pycor",
+      "move-to",
+      "setxy"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "min-pxcor",
+      "min-pycor",
+      "move-to",
+      "setxy"
+    ],
+    "library_models": [
+      "Erosion",
+      "Traffic Grid"
+    ]
+  },
+  "max-n-of": {
+    "identity": "max-n-of",
+    "display_name": "max-n-of",
+    "short_original": "Gives a list of top values of a list.",
+    "short_description": "Da una lista de los valores principales de una lista.",
+    "search_terms": [],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "one-of",
+      "max",
+      "mean",
+      "any?"
+    ],
+    "library_models": [
+      "Simple Economy",
+      "Viral Marketing"
+    ]
+  },
+  "max": {
+    "identity": "max",
+    "display_name": "max",
+    "short_original": "Report the highest value in a list.",
+    "short_description": "Informe el valor más alto de una lista.",
+    "search_terms": [
+      "max-n-of",
+      "min",
+      "mean",
+      "of"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "max-n-of",
+      "min",
+      "mean",
+      "of"
+    ],
+    "library_models": [
+      "Flocking",
+      "Paths"
+    ]
+  },
+  "mean": {
+    "identity": "mean",
+    "display_name": "mean",
+    "short_original": "Find the mean of a list of values.",
+    "short_description": "Encuentra la media de una lista de valores.",
+    "search_terms": [
+      "count",
+      "max",
+      "round",
+      "ceiling"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "count",
+      "max",
+      "round",
+      "ceiling"
+    ],
+    "library_models": [
+      "Fire",
+      "Erosion",
+      "Traffic Grid"
+    ]
+  },
+  "member": {
+    "identity": "member",
+    "display_name": "member?",
+    "short_original": "Check if a value is within a list, or if an agent is in an agentset.",
+    "short_description": "Compruebe si un valor está dentro de una lista o si un agente está en un conjunto de agentes.",
+    "search_terms": [
+      "any?",
+      "all?",
+      "count",
+      "ifelse"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "any?",
+      "all?",
+      "count",
+      "ifelse"
+    ],
+    "library_models": [
+      "Flocking",
+      "Rumor Mill"
+    ]
+  },
+  "min-pxcor": {
+    "identity": "min-pxcor",
+    "display_name": "min-pxcor",
+    "short_original": "Find patches' smallest x-coordinate.",
+    "short_description": "Encuentre la coordenada x más pequeña de los parches.",
+    "search_terms": [
+      "max-pxcor",
+      "max-pycor",
+      "move-to",
+      "setxy"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "max-pxcor",
+      "max-pycor",
+      "move-to",
+      "setxy"
+    ],
+    "library_models": [
+      "Erosion",
+      "Traffic Grid"
+    ]
+  },
+  "min-pycor": {
+    "identity": "min-pycor",
+    "display_name": "min-pycor",
+    "short_original": "Find patches' smallest y-coordinate.",
+    "short_description": "Encuentra la coordenada y más pequeña de los parches.",
+    "search_terms": [
+      "max-pxcor",
+      "max-pycor",
+      "move-to",
+      "setxy"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "max-pxcor",
+      "max-pycor",
+      "move-to",
+      "setxy"
+    ],
+    "library_models": [
+      "Erosion",
+      "Traffic Grid"
+    ]
+  },
+  "mod": {
+    "identity": "mod",
+    "display_name": "mod",
+    "short_original": "Perform the modulo operation, returning the remainder of two numbers.",
+    "short_description": "Realice la operación de módulo, devolviendo el resto de dos números.",
+    "search_terms": [
+      "mean",
+      "count",
+      "if",
+      "any?"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "mean",
+      "count",
+      "if",
+      "any?"
+    ],
+    "library_models": [
+      "Flocking",
+      "Wealth Distribution",
+      "Voting"
+    ]
+  },
+  "myself": {
+    "identity": "myself",
+    "display_name": "myself",
+    "short_original": "Helps with interactions between an agent and the caller.",
+    "short_description": "Ayuda con las interacciones entre un agente y la persona que llama.",
+    "search_terms": [
+      "nobody",
+      "ask",
+      "of",
+      "let"
+    ],
+    "agents": [
+      "turtles",
+      "patches",
+      "links"
+    ],
+    "see_also": [
+      "nobody",
+      "ask",
+      "of",
+      "let"
+    ],
+    "library_models": [
+      "Virus on a Network",
+      "Scatter"
+    ]
+  },
+  "nobody": {
+    "identity": "nobody",
+    "display_name": "nobody",
+    "short_original": "Indicates that an agent does not exist.",
+    "short_description": "Indica que no existe un agente.",
+    "search_terms": [
+      "all?",
+      "any?",
+      "member?",
+      "with"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "all?",
+      "any?",
+      "member?",
+      "with"
+    ],
+    "library_models": [
+      "Wolf Sheep Predation",
+      "Shepherds",
+      "Ants"
+    ]
+  },
+  "one-of": {
+    "identity": "one-of",
+    "display_name": "one-of",
+    "short_original": "Randomly select one agent out of an agentset.",
+    "short_description": "Seleccione al azar un agente de un conjunto de agentes.",
+    "search_terms": [
+      "n-of",
+      "random",
+      "max-n-of",
+      "any?"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "n-of",
+      "random",
+      "max-n-of",
+      "any?"
+    ],
+    "library_models": [
+      "Flocking",
+      "Disease"
+    ]
+  },
+  "patch": {
+    "identity": "patch",
+    "display_name": "patch",
+    "short_original": "Address a specific patch.",
+    "short_description": "Abordar un parche específico.",
+    "search_terms": [
+      "patches",
+      "clear-patches",
+      "patches-own",
+      "neighbors"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "patches",
+      "clear-patches",
+      "patches-own",
+      "neighbors"
+    ],
+    "library_models": [
+      "Paths",
+      "Rumor Mill"
+    ]
+  },
+  "patches-own": {
+    "identity": "patches-own",
+    "display_name": "patches-own",
+    "short_original": "Declare a variable that belongs to patches.",
+    "short_description": "Declare una variable que pertenece a parches.",
+    "search_terms": [
+      "turtles-own",
+      "set",
+      "of",
+      "with"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "turtles-own",
+      "set",
+      "of",
+      "with"
+    ],
+    "library_models": [
+      "Rebellion",
+      "Traffic Grid",
+      "Paths"
+    ]
+  },
+  "patches": {
+    "identity": "patches",
+    "display_name": "patches",
+    "short_original": "Address all patches of a model.",
+    "short_description": "Aborde todos los parches de un modelo.",
+    "search_terms": [
+      "clear-patches",
+      "patches-own",
+      "neighbors",
+      "move-to"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "clear-patches",
+      "patches-own",
+      "neighbors",
+      "move-to"
+    ],
+    "library_models": [
+      "Wolf Sheep Predation",
+      "Forest Fire",
+      "Segregation"
+    ]
+  },
+  "pen-down": {
+    "identity": "pen-down",
+    "display_name": "pen-down",
+    "short_original": "Starts tracing the movement of the turtle.",
+    "short_description": "Comienza a rastrear el movimiento de la tortuga.",
+    "search_terms": [
+      "pen-up",
+      "pen-erase",
+      "forward",
+      "right"
+    ],
+    "agents": [
+      "turtles"
+    ],
+    "see_also": [
+      "pen-up",
+      "pen-erase",
+      "forward",
+      "right"
+    ],
+    "library_models": [
+      "Single Collision",
+      "Tumor",
+      "Free Gas"
+    ]
+  },
+  "pen-up": {
+    "identity": "pen-up",
+    "display_name": "pen-up",
+    "short_original": "Stops tracing a turtle's movement.",
+    "short_description": "Deja de rastrear el movimiento de una tortuga.",
+    "search_terms": [
+      "pen-down",
+      "pen-erase",
+      "forward",
+      "right"
+    ],
+    "agents": [
+      "turtles"
+    ],
+    "see_also": [
+      "pen-down",
+      "pen-erase",
+      "forward",
+      "right"
+    ],
+    "library_models": [
+      "Single Collision",
+      "Tumor",
+      "Free Gas"
+    ]
+  },
+  "pen-erase": {
+    "identity": "pen-erase",
+    "display_name": "pen-erase",
+    "short_original": "Erases the paths left by turtles.",
+    "short_description": "Borra los caminos que dejan las tortugas.",
+    "search_terms": [
+      "pen-up",
+      "pen-down",
+      "forward",
+      "pen-erase"
+    ],
+    "agents": [
+      "turtles"
+    ],
+    "see_also": [
+      "pen-up",
+      "pen-down",
+      "forward",
+      "pen-erase"
+    ],
+    "library_models": []
+  },
+  "random-normal": {
+    "identity": "random-normal",
+    "display_name": "random-normal",
+    "short_original": "Randomly produces a number according to a normal distribution.",
+    "short_description": "Produce aleatoriamente un número de acuerdo con una distribución normal.",
+    "search_terms": [
+      "random",
+      "mean",
+      "set",
+      "mean"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "random",
+      "mean",
+      "set",
+      "mean"
+    ],
+    "library_models": [
+      "Sunflower",
+      "Echo",
+      "Autumn"
+    ]
+  },
+  "reset-ticks": {
+    "identity": "reset-ticks",
+    "display_name": "reset-ticks",
+    "short_original": "Sets the tick counter to 0.",
+    "short_description": "Establece el contador de ticks en 0.",
+    "search_terms": [
+      "tick",
+      "to",
+      "ask",
+      "clear-all"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "tick",
+      "to",
+      "ask",
+      "clear-all"
+    ],
+    "library_models": [
+      "Wolf Sheep Predation",
+      "Forest Fire",
+      "Segregation"
+    ]
+  },
+  "right": {
+    "identity": "right",
+    "display_name": "right",
+    "short_original": "Turn a certain amount of degrees to the right.",
+    "short_description": "Gire una cierta cantidad de grados hacia la derecha.",
+    "search_terms": [
+      "left",
+      "heading",
+      "towards",
+      "face"
+    ],
+    "agents": [
+      "turtles"
+    ],
+    "see_also": [
+      "left",
+      "heading",
+      "towards",
+      "face"
+    ],
+    "library_models": [
+      "Paths",
+      "Segregation"
+    ]
+  },
+  "set": {
+    "identity": "set",
+    "display_name": "set",
+    "short_original": "Set the value of a variable.",
+    "short_description": "Establece el valor de una variable.",
+    "search_terms": [
+      "let",
+      "globals",
+      "turtles-own",
+      "patches-own"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "let",
+      "globals",
+      "turtles-own",
+      "patches-own"
+    ],
+    "library_models": [
+      "Minority Game",
+      "Voting"
+    ]
+  },
+  "sprout": {
+    "identity": "sprout",
+    "display_name": "sprout",
+    "short_original": "Create new turtles from a patch.",
+    "short_description": "Crea nuevas tortugas a partir de un parche.",
+    "search_terms": [
+      "hatch",
+      "create-turtles",
+      "die",
+      "ask"
+    ],
+    "agents": [
+      "patches"
+    ],
+    "see_also": [
+      "hatch",
+      "create-turtles",
+      "die",
+      "ask"
+    ],
+    "library_models": [
+      "Fire",
+      "Paths",
+      "Segregation"
+    ]
+  },
+  "tick": {
+    "identity": "tick",
+    "display_name": "tick",
+    "short_original": "Advance the tick counter by 1.",
+    "short_description": "Avance el contador de ticks en 1.",
+    "search_terms": [
+      "reset-ticks",
+      "to",
+      "repeat",
+      "clear-all"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "reset-ticks",
+      "to",
+      "repeat",
+      "clear-all"
+    ],
+    "library_models": [
+      "Wolf Sheep Predation",
+      "Forest Fire",
+      "Segregation"
+    ]
+  },
+  "to-report": {
+    "identity": "to-report",
+    "display_name": "to-report",
+    "short_original": "Begin a procedure to create a custom reporter.",
+    "short_description": "Inicie un procedimiento para crear un reportero personalizado.",
+    "search_terms": [
+      "to",
+      "end",
+      "ask",
+      "ifelse"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "to",
+      "end",
+      "ask",
+      "ifelse"
+    ],
+    "library_models": [
+      "Boiling",
+      "Rebellion",
+      "Scatter"
+    ]
+  },
+  "towards": {
+    "identity": "towards",
+    "display_name": "towards",
+    "short_original": "Reports the angle of the caller towards an agent.",
+    "short_description": "Informa el ángulo de la persona que llama hacia un agente.",
+    "search_terms": [
+      "face",
+      "right",
+      "left",
+      "heading"
+    ],
+    "agents": [
+      "turtles"
+    ],
+    "see_also": [
+      "face",
+      "right",
+      "left",
+      "heading"
+    ],
+    "library_models": [
+      "Moths",
+      "Flocking",
+      "Paths"
+    ]
+  },
+  "turtles-here": {
+    "identity": "turtles-here",
+    "display_name": "turtles-here",
+    "short_original": "Reports the agentset of all the turtles on a caller's patch.",
+    "short_description": "Informa el conjunto de agentes de todas las tortugas en el parche de una persona que llama.",
+    "search_terms": [
+      "count",
+      "neighbors",
+      "patches",
+      "other"
+    ],
+    "agents": [
+      "turtles",
+      "patches"
+    ],
+    "see_also": [
+      "count",
+      "neighbors",
+      "patches",
+      "other"
+    ],
+    "library_models": [
+      "Segregation",
+      "Rebellion",
+      "Virus"
+    ]
+  },
+  "turtles-own": {
+    "identity": "turtles-own",
+    "display_name": "turtles-own",
+    "short_original": "Declare a variable that belongs to turtles.",
+    "short_description": "Declare una variable que pertenece a las tortugas.",
+    "search_terms": [
+      "set",
+      "of",
+      "patches-own",
+      "globals"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "set",
+      "of",
+      "patches-own",
+      "globals"
+    ],
+    "library_models": [
+      "Segregation",
+      "Traffic Basic",
+      "Flocking"
+    ]
+  },
+  "while": {
+    "identity": "while",
+    "display_name": "while",
+    "short_original": "Begins a loop that runs as long as the reporter returns true. ",
+    "short_description": "Comienza un ciclo que se ejecuta siempre que el reportero devuelva verdadero.",
+    "search_terms": [
+      "if",
+      "ifelse",
+      "repeat",
+      "tick"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "if",
+      "ifelse",
+      "repeat",
+      "tick"
+    ],
+    "library_models": [
+      "Moths",
+      "Traffic Basic",
+      "Shepherds"
+    ]
+  },
+  "with": {
+    "identity": "with",
+    "display_name": "with",
+    "short_original": "Narrows down an agentset.",
+    "short_description": "Limita un conjunto de agentes.",
+    "search_terms": [
+      "turtles",
+      "if",
+      "ask"
+    ],
+    "agents": [],
+    "see_also": [
+      "turtles",
+      "if",
+      "ask"
+    ],
+    "library_models": []
+  },
+  "ask": {
+    "identity": "ask",
+    "display_name": "ask",
+    "short_original": "a reporter that is used to make the agents in the agentset do something.",
+    "short_description": "un reportero que se utiliza para hacer que los agentes del conjunto de agentes hagan algo.",
+    "search_terms": [
+      "with",
+      "neighbors",
+      "patches",
+      "turtles"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "with",
+      "neighbors",
+      "patches",
+      "turtles"
+    ],
+    "library_models": [
+      "Fire"
+    ]
+  },
+  "clear-all": {
+    "identity": "clear-all",
+    "display_name": "clear-all",
+    "short_original": "clears all the drawings, turtles, plots, etc., leaving a blank slate.",
+    "short_description": "borra todos los dibujos, tortugas, parcelas, etc., dejando una pizarra en blanco.",
+    "search_terms": [
+      "clear-patches",
+      "clear-turtles",
+      "die",
+      "reset-ticks"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "clear-patches",
+      "clear-turtles",
+      "die",
+      "reset-ticks"
+    ],
+    "library_models": []
+  },
+  "clear-patches": {
+    "identity": "clear-patches",
+    "display_name": "clear-patches",
+    "short_original": "clears the patches by resetting all patch variables to their default initial values",
+    "short_description": "borra los parches restableciendo todas las variables del parche a sus valores iniciales predeterminados",
+    "search_terms": [
+      "clear-all",
+      "clear-turtles",
+      "neighbors",
+      "pcolor"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "clear-all",
+      "clear-turtles",
+      "neighbors",
+      "pcolor"
+    ],
+    "library_models": []
+  },
+  "clear-turtles": {
+    "identity": "clear-turtles",
+    "display_name": "clear-turtles",
+    "short_original": "removes all the turtles as well as resets the numbering of turtles",
+    "short_description": "elimina todas las tortugas y restablece la numeración de tortugas",
+    "search_terms": [
+      "die",
+      "clear-all",
+      "turtles-own",
+      "ask"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "die",
+      "clear-all",
+      "turtles-own",
+      "ask"
+    ],
+    "library_models": []
+  },
+  "color": {
+    "identity": "color",
+    "display_name": "color",
+    "short_original": "built-in turtle characteristic that changes the color of the turtle",
+    "short_description": "característica de tortuga incorporada que cambia el color de la tortuga",
+    "search_terms": [
+      "pcolor",
+      "scale-color",
+      "turtles-own",
+      "of"
+    ],
+    "agents": [
+      "turtles",
+      "links"
+    ],
+    "see_also": [
+      "pcolor",
+      "scale-color",
+      "turtles-own",
+      "of"
+    ],
+    "library_models": []
+  },
+  "create-turtles": {
+    "identity": "create-turtles",
+    "display_name": "create-turtles",
+    "short_original": "creates turtles with random colors and headings in the default shape of a triangle",
+    "short_description": "crea tortugas con colores y encabezados aleatorios en la forma predeterminada de un triángulo",
+    "search_terms": [
+      "hatch",
+      "sprout",
+      "ask",
+      "turtles-own",
+      "breeds"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "hatch",
+      "sprout",
+      "ask",
+      "turtles-own",
+      "breeds"
+    ],
+    "library_models": [
+      "Flocking"
+    ]
+  },
+  "facexy": {
+    "identity": "facexy",
+    "display_name": "facexy",
+    "short_original": "sets the turtle’s heading towards the patch (x,y)",
+    "short_description": "establece el rumbo de la tortuga hacia el parche (x, y)",
+    "search_terms": [
+      "face",
+      "setxy",
+      "heading",
+      "towards"
+    ],
+    "agents": [
+      "turtles"
+    ],
+    "see_also": [
+      "face",
+      "setxy",
+      "heading",
+      "towards"
+    ],
+    "library_models": []
+  },
+  "forward": {
+    "identity": "forward",
+    "display_name": "forward",
+    "short_original": "allows turtles to move in any number of units that the programmer desires",
+    "short_description": "permite que las tortugas se muevan en cualquier número de unidades que el programador desee",
+    "search_terms": [
+      "right",
+      "heading",
+      "turtles",
+      "move-to"
+    ],
+    "agents": [
+      "turtles"
+    ],
+    "see_also": [
+      "right",
+      "heading",
+      "turtles",
+      "move-to"
+    ],
+    "library_models": [
+      "Ant Lines"
+    ]
+  },
+  "import-pcolors": {
+    "identity": "import-pcolors",
+    "display_name": "import-pcolors",
+    "short_original": "allows the user to import an image in NetLogo as the colors of the patches",
+    "short_description": "permite al usuario importar una imagen en NetLogo como los colores de los parches",
+    "search_terms": [
+      "pcolor",
+      "patches",
+      "patches-own",
+      "set"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "pcolor",
+      "patches",
+      "patches-own",
+      "set"
+    ],
+    "library_models": []
+  },
+  "move-to": {
+    "identity": "move-to",
+    "display_name": "move-to",
+    "short_original": "allows a turtle to set its x and y coordinates to be the same as another turtle or patch",
+    "short_description": "permite que una tortuga establezca sus coordenadas xey para que sean las mismas que las de otra tortuga o parche",
+    "search_terms": [
+      "setxy",
+      "face",
+      "distance",
+      "distancexy"
+    ],
+    "agents": [
+      "turtles"
+    ],
+    "see_also": [
+      "setxy",
+      "face",
+      "distance",
+      "distancexy"
+    ],
+    "library_models": [
+      "Fairy Circles"
+    ]
+  },
+  "neighbors": {
+    "identity": "neighbors",
+    "display_name": "neighbors",
+    "short_original": "reports an agentset containing eight neighboring patches",
+    "short_description": "informa un conjunto de agentes que contiene ocho parches vecinos",
+    "search_terms": [
+      "neighbors4",
+      "patch-ahead",
+      "pxcor",
+      "pycor"
+    ],
+    "agents": [
+      "turtles",
+      "patches"
+    ],
+    "see_also": [
+      "neighbors4",
+      "patch-ahead",
+      "pxcor",
+      "pycor"
+    ],
+    "library_models": [
+      "Recycling",
+      "Rumor Mill"
+    ]
+  },
+  "neighbors4": {
+    "identity": "neighbors4",
+    "display_name": "neighbors4",
+    "short_original": "reports an agentset containing four neighboring patches",
+    "short_description": "informa un conjunto de agentes que contiene cuatro parches vecinos",
+    "search_terms": [
+      "neighbors",
+      "patch-ahead",
+      "pxcor",
+      "pycor"
+    ],
+    "agents": [
+      "turtles",
+      "patches"
+    ],
+    "see_also": [
+      "neighbors",
+      "patch-ahead",
+      "pxcor",
+      "pycor"
+    ],
+    "library_models": [
+      "Rumor Mill"
+    ]
+  },
+  "other": {
+    "identity": "other",
+    "display_name": "other",
+    "short_original": "reports an agentset which is the same as the input agentset but omits the agent who is asking for the report",
+    "short_description": "informa un conjunto de agentes que es el mismo que el conjunto de agentes de entrada pero omite al agente que solicita el informe",
+    "search_terms": [
+      "all?",
+      "any?",
+      "nobody",
+      "ask"
+    ],
+    "agents": [
+      "turtles"
+    ],
+    "see_also": [
+      "all?",
+      "any?",
+      "nobody",
+      "ask"
+    ],
+    "library_models": [
+      "Traffic Basic"
+    ]
+  },
+  "patch-ahead": {
+    "identity": "patch-ahead",
+    "display_name": "patch-ahead",
+    "short_original": "reports the single patch that is the given distance “ahead” of this turtle",
+    "short_description": "informa el parche único que es la distancia dada &quot;adelante&quot; de esta tortuga",
+    "search_terms": [
+      "neighbors",
+      "neighbors4",
+      "pxcor",
+      "pycor"
+    ],
+    "agents": [
+      "turtles"
+    ],
+    "see_also": [
+      "neighbors",
+      "neighbors4",
+      "pxcor",
+      "pycor"
+    ],
+    "library_models": [
+      "Traffic Basic"
+    ]
+  },
+  "pcolor": {
+    "identity": "pcolor",
+    "display_name": "pcolor",
+    "short_original": "built-in patch variable that holds the color of the patch",
+    "short_description": "variable de parche incorporada que contiene el color del parche",
+    "search_terms": [
+      "color",
+      "set",
+      "patches",
+      "neighbors"
+    ],
+    "agents": [
+      "patches"
+    ],
+    "see_also": [
+      "color",
+      "set",
+      "patches",
+      "neighbors"
+    ],
+    "library_models": []
+  },
+  "repeat": {
+    "identity": "repeat",
+    "display_name": "repeat",
+    "short_original": "allows you to execute any set of commands n amount of times",
+    "short_description": "le permite ejecutar cualquier conjunto de comandos n cantidad de veces",
+    "search_terms": [
+      "pen-down",
+      "pen-up",
+      "ask",
+      "right"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "pen-down",
+      "pen-up",
+      "ask",
+      "right"
+    ],
+    "library_models": []
+  },
+  "round": {
+    "identity": "round",
+    "display_name": "round",
+    "short_original": "reports the integer to the nearest whole number.",
+    "short_description": "reporta el entero al número entero más cercano.",
+    "search_terms": [
+      "count",
+      "floor",
+      "ceiling",
+      "mean"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "count",
+      "floor",
+      "ceiling",
+      "mean"
+    ],
+    "library_models": []
+  },
+  "semicolon": {
+    "identity": "semicolon",
+    "display_name": "semicolon",
+    "short_original": "used for making helpful comments or notes on a line of code",
+    "short_description": "utilizado para hacer comentarios o notas útiles en una línea de código",
+    "search_terms": [
+      "to",
+      "to-report",
+      "end",
+      "ask"
+    ],
+    "agents": [
+      "utilities"
+    ],
+    "see_also": [
+      "to",
+      "to-report",
+      "end",
+      "ask"
+    ],
+    "library_models": []
+  },
+  "shape": {
+    "identity": "shape",
+    "display_name": "shape",
+    "short_original": "represents the shape of each agent",
+    "short_description": "representa la forma de cada agente",
+    "search_terms": [
+      "color",
+      "turtles",
+      "set",
+      "of"
+    ],
+    "agents": [
+      "turtles",
+      "links"
+    ],
+    "see_also": [
+      "color",
+      "turtles",
+      "set",
+      "of"
+    ],
+    "library_models": []
+  },
+  "to": {
+    "identity": "to",
+    "display_name": "to",
+    "short_original": "used to begin a command procedure",
+    "short_description": "utilizado para comenzar un procedimiento de comando",
+    "search_terms": [
+      "to-report",
+      "end",
+      "ask",
+      "repeat"
+    ],
+    "agents": [
+      "observer",
+      "utilities"
+    ],
+    "see_also": [
+      "to-report",
+      "end",
+      "ask",
+      "repeat"
+    ],
+    "library_models": [
+      "Bird Breeder",
+      "Rabbits Grass Weeds"
+    ]
+  },
+  "turtles": {
+    "identity": "turtles",
+    "display_name": "turtles",
+    "short_original": "used to complete actions in NetLogo",
+    "short_description": "utilizado para completar acciones en NetLogo",
+    "search_terms": [
+      "ask",
+      "turtles-own",
+      "patches",
+      "links"
+    ],
+    "agents": [
+      "observer"
+    ],
+    "see_also": [
+      "ask",
+      "turtles-own",
+      "patches",
+      "links"
+    ],
+    "library_models": [
+      "Ant Lines"
+    ]
+  }
+}
