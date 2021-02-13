@@ -1,18 +1,18 @@
 ﻿## ¿QUÉ ES?
 
-Este proyecto modela el comportamiento de hormigas siguiendo un líder hacia una fuente de comida. La hormiga líder se mueve hacia la comida siguiendo un camino aleatorio; después de un retraso pequeño, la segunda hormiga en la línea sigue al líder se mueve directamente hacia donde está con su líder. Cada hormiga subsiguiente sigue la hormiga delante de ella de la misma manera. 
+Este proyecto modela el comportamiento de hormigas siguiendo un líder hacia una fuente de comida. La hormiga líder se mueve hacia la comida siguiendo un camino aleatorio; después de un retraso pequeño, la segunda hormiga en la línea sigue al líder se muevecon moverse directamente hacia donde está con su líder. Cada hormiga subsiguiente sigue la hormiga delante de ella de lade la misma manera. 
 
-Aunque el líder puede tomar un camino muy tortuoso hacia la comida, el rastro de hormigas, sorprendentemente, adopta una forma fluida. Mientras que no sea claro si este modelo es un modelo biológicamente extracto del comportamiento de hormigas, es una interesante exploración del comportamiento emergente de una serie de agentes que se siguen en serie. 
+Aunque el líder puede tomar un camino muy tortuoso hacia la comida, el rastro de hormigas, sorprendentemente, adopta una forma fluida. Mientras que no sea claro si este modelo es un modelo biológicamente extractopreciso del comportamiento de hormigas, es una interesante exploración matemática del comportamiento emergente de una serie de agentes que se siguen en serie. 
 
 ##  COMO USARLO
 
-El botón PREPARAR inicializa el modelo. Un hormiguero marrón se coloca en el lado izquierdo del mundo. En su interior hay un número de hormigas que se determina por el control deslizante NÚM-HORMIGAS. En la mano derecha del mundo, hay una fuente de comida naranja.
+El botón PREPARAR inicializa el modelo. Un hormiguero marrón se coloca en el lado izquierdo del mundo. En su interior hay un número de hormigas (amarillo) que se determina por el control deslizante NÚM-HORMIGAS. En la mano derecha del mundo, hay una fuente de comida naranja.
 
 El botón IR hace que las hormigas empiezan a moverse. La hormiga líder (tortuga 0) se pone en movimiento aproximadamente en la dirección de la comida. Se menea mientras que se está moviendo. Es decir, no se mueve directamente hacia la comida, sino que cambia su rumbo una cantidad aleatoria hacia la izquierda o la derecha antes de tomar cada paso.
 
 La cantidad máxima que la hormiga líder se puede menear en cada paso (y, por lo tanto, la irregularidad del camino de la hormiga líder) se gobierna por el control deslizante LÍDER-MENEAR-ANGULO. Cuando la hormiga líder se acerca lo suficiente a la comida para “olerla”, deja de menearse y se mueve directamente hacia la comida. La hormiga líder deja un rastro rojo mientras se mueve.
 
-Cada hormiga subsiguiente sigue a la hormiga delante de ella moviéndose directamente hacía ella antes de tomar cada paso. La hormiga seguidora no deja un rastro. La línea amarilla de hormigas, sin embargo, traza una curva en el dibujo. La última hormiga deja un rastro azul.
+Cada hormiga subsiguiente sigue a la hormiga delante de ella moviéndose directamente hacía ella antes de tomar cada paso. Las hormigas seguidoras no deja undejan rastro. La línea amarilla de hormigas, sin embargo, traza una curva en el dibujo. La última hormiga deja un rastro azul.
 
 La cantidad de tiempo entre las hormigas que salen del hormiguero se gobierna por el control deslizante RETRASO-DE-INICIO (más algún un factor aleatorio.)
 
@@ -20,9 +20,9 @@ El monitor HORMIGAS-LIBERADAS te muestra cuántas hormigas han abandonado el hor
 
 ##  COSAS PARA NOTAR
 
-¿Cómo se cambia la forma de la línea de hormigas con el tiempo?
+¿Cómo se cambiaCómo cambia la forma de la línea de hormigas con el tiempo?
 
-¿Cómo se compara el rastro de la hormiga inicial con el rastro de la última hormiga?
+¿Cómo se compara el rastrocamino de la hormiga inicial con el rastrocamino de la última hormiga?
 
 ##  COSAS PARA INTENTAR
 
@@ -30,15 +30,15 @@ Intenta variar el ángulo de meneo (LÍDER-MENEAR-ANGULO). ¿Cómo afecta la for
 
 Intenta variar el retraso. ¿Cómo afecta la forma de las líneas de la inicial y última hormiga?
 
-¿Cómo puedes ralentizar el aplanamiento de la línea de hormigas? ¿Puedes hacer que el camino no se convierta en una línea recta?
+¿Cómo puedes ralentizar el aplanamiento de la línea de hormigas? ¿Puedes hacer que el camino falle para converger en una línea recta? no se convierta en una línea recta?
 
 ¿Cómo puedes acelerar el aplanamiento de la línea de hormigas?
 
 ##  EXTENDIENDO EL MODELO
 
-¿Cómo podrías rastrear, medir o graficar el proceso de aplanamiento?
+¿Cómo podrías rastrearrealizar un seguimiento, medir o graficar el proceso de aplanamiento?
 
-¿Qué pasa si relajas las reglas que siguen las hormigas -- tal vez agregas algo de “menear” a su comportamiento? 
+¿Qué pasa si relajas las reglas que siguen las hormigas -- tal vez podrías agregaragregas algo de “menear” a su comportamiento? 
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
