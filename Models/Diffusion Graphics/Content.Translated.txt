@@ -2,29 +2,29 @@
 
 Gráficas de Difuminación es diferente a la mayoría de los otros modelos de NetLogo, porque, en realidad, no “modela” nada. Simplemente explora el poder detrás de una parcela primitiva interesante: “difuminar”.
 
-No tiene la intención de modelar de cerca el calor real con precisión, solo un número que se comporta de maneras similar al calor, que se propaga lentamente de una manera uniforme en un plano.
+No tiene la intención de modelar de cerca el calor real con precisión, sólo un número que se comporta de maneras similar al calor, que se propaga lentamente de una manera uniforme en un plano.
 
 ##  COMO FUNCIONA
 
-En este modelo, las tortugas son “puntos de conflicto”: establecen un cierto valor (una variable de parcela llamada ‘calor’) al nivel máximo en cada paso de tiempo. Cada parcela (a través de la primitiva difuminar) y luego comparte su valor de ‘calor’ con las parcelas alrededores.
+En este modelo, las tortugas son “puntos calientes”: establecen un cierto valor (una variable de parcela llamada ‘calor’) al nivel máximo en cada paso de tiempo. Cada parcela (a través de la primitiva difuminar) y luego comparte su valor de ‘calor’ con las parcelas alrededores.
 
-Aquí puedes observar qué pasa cuando los puntos de conflicto interactúan entre sí mismos, como se mueven, como sus valores se vuelven negativos o como el ‘calor’ se reduce lentamente hasta nada. El objetivo del proyecto es darte una idea de cómo las parcelas interactúan a través de la primitiva difuminar. (O tal vez es algo para darte algo agradable para mirar si estás aburrido.)
+Aquí puedes observar qué pasa cuando los puntos de conflicto interactúan entre sí mismos, como se mueven, como sus valores se vuelven negativos o como el ‘calor’ se reduce lentamente hasta nada. El objetivo del proyecto es darte una idea de cómo las parcelas interactúan a través de la primitiva difuminar. (O tal vez es algo agradable para mirar si estás aburrido.)
 
 ##  COMO USARLO
 
-Dos botones, PREPARAR e IR, controlan la ejecución del modelo. Como en la mayoría de los modelos de NetLogo, el botón PREPARAR iniciará los ‘puntos de conflicto’ y otros variables, preparando el modelo para su ejecución. El botón IR, un botón para siempre, ejecutará el modelo.
+Dos botones, PREPARAR e IR, controlan la ejecución del modelo. Como en la mayoría de los modelos de NetLogo, el botón PREPARAR iniciará los ‘puntos calientes” y otros variables, preparando el modelo para su ejecución. El botón IR, un botón para siempre, ejecutará el modelo.
 
 Cuatro controles deslizadores y dos interruptores determinan las varias propiedades del modelo. Cada uno de ellos se puede configurar antes de la inicialización; la mayoría se pueden utilizar a mitad del proceso para afectar lo que pasará. 
 
-NÚM-TORTUGAS determina cuántas tortugas hay. TORTUGAS-VELOCIDAD determina que tanto rápido se mueven. Cada tortuga establece el ‘calor’ de la parcela en el que está TORTUGA-CALOR. Luego, esa parcela lo difumina en las parcelas cercanas.
+NÚM-TORTUGAS determina cuántas tortugas hay. TORTUGAS-VELOCIDAD determina que rápido se mueven. Cada tortuga establece el ‘calor’ de la parcela en el que está TORTUGA-CALOR. Luego, esa parcela lo difumina en las parcelas cercanas.
 
-El control deslizante TASA-DE-DIFUMINACIÓN es la velocidad a la que los colores se difuminan de cada parcela. Todos las parcelas difuminan su valor de color a sus vecinos en cada paso de tiempo. TASA-DE-DIFUMINACIÓN es simplemente la fracción de este color que se filtró. 
+El control deslizante TASA-DE-DIFUMINACIÓN es la velocidad a que los colores se difuminan de cada parcela. Todos las parcelas difuminan su valor de color a sus vecinos en cada paso de tiempo. TASA-DE-DIFUMINACIÓN es simplemente la fracción de este color que se filtró. 
 
 El interruptor ¿DEAMBULAR?, si está activo, permite que las tortugas se mueven por la vista. Si el interruptor no está activo, las tortugas permanecen enraizadas en su lugar.
 
 ##  COSAS PARA NOTAR
 
-Lo que gráficas de difuminación te enseñara es como se difunde el color-de-parcelas en NetLogo. La pantalla gráfica puede evocar imágenes fractales o un paisaje topográfico. Las gráficas de difuminación realmente generan una especie de topografía, con las tortugas como picos y los colores más oscuros como valles. El modelo esencialmente intenta suavizar estas diferencias.
+Lo que Gráficas de Difuminación te enseñara es como se difunde el color-de-parcelas en NetLogo. La pantalla gráfica puede evocar imágenes fractales o un paisaje topográfico. Las Gráficas de Difuminación realmente generan una especie de topografía, con las tortugas como picos, y los colores más oscuros como valles. El modelo esencialmente intenta suavizar estas diferencias.
 
 Deja que el modelo se ejecute por un poco de tiempo con DEAMBULAR inactivo (todo configurado a 0). Observe lo que pasa con el ‘terreno’. ¿Que predices que pasará eventualmente?
 
@@ -36,21 +36,21 @@ Trata de configurar TORTUGA-CALOR a un número muy grande. ¿Qué pasa? ¿Que te
 
 Trata de configurar TORTUGA-CALOR a un número negativo. ¿Qué pasa? ¿Que te enseña del modelo de color de NetLogo?
 
-Trata de configurar el tamaño de la parcela a un número pequeño para una pantalla más rica. O configúralo a un tamaño más grande, para una perspectiva ampliada.
+Trata de configurar el tamaño de la parcela a un número pequeño para una pantalla más generoso. O configúralo a un tamaño más grande, para una perspectiva ampliada.
 
 ##  EXTENDIENDO EL MODELO
 
 Cambialo para que el control deslizante NUM-TORTUGAS cambie el número de tortugas instantáneamente, en vez de requerir que hagas clic al PREPARAR.
 
-Actualmente, la posición de cada se determina al azar en el momento de la preparación. Cambie el modelo para que el usuario pueda colocar tortugas con el ratón.
+Actualmente, la posición de cada tortuga se determina al azar en el momento de la preparación. Cambie el modelo para que el usuario pueda colocar las tortugas con el ratón.
 
 Colorea las parcelas en una manera diferente, quizás a lo largo del espectro tradicional ROY-G-BIV (rojo, naranja, amarillo, verde, azul, indigo, violeta). 
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-El modelo de gráficas de difuminación se diseñó en torno a la primitiva difusa. Difuso es un observador primitivo que toma 2 entradas, una variable de parcela y un número Difuso hace que todos las parcelas compartan la variable de parcela con sus ocho vecinos. La segunda entrada es un número entre 0 y 0.1 que determina qué fracción de la variable de parcela es compartida. (En este modelo, la cantidad controlada por el control deslizante TASA-CAMBIO). Por ejemplo, si le pido al observador que difunda el calor 0.5, el observador le dice a cada parcela que de la mitad del calor a las otras ocho parcelas. Si una parcela tenía 80 para empezar, se queda con 40 y da 5 a cada vecino. El valor total de calor para todos parcelas permanece constante.
+El modelo de Gráficas de Difuminación se diseñó en torno a la primitiva difusa. Difuminar es un observador primitivo que toma 2 entradas, una variable de parcela y un número. Difuminar hace que todos las parcelas compartan la variable de parcela con sus ocho vecinos. La segunda entrada es un número entre 0 y 0.1 que determina qué fracción de la variable de parcela es compartida. (En este modelo, la cantidad compartida es controlada por el control deslizante TASA-CAMBIO). Por ejemplo, si le pido al observador que difunda el calor 0.5, el observador le dice a cada parcela que de la mitad del calor a las otras ocho parcelas. Si una parcela tenía 80 para empezar, entonces se queda con 40 y da 5 a cada vecino. El valor total de calor para todas las parcelas permanece constante.
 
-También hay una primitiva difuminar4 donde las parcelas  solo comparten con sus vecinos en las direcciones norte, sur, este y oeste, no con sus vecinos diagonales.
+También hay una primitiva ‘difuminar4’ donde las parcelassolo comparten con sus vecinos en las direcciones norte, sur, este y oeste, no con sus vecinos diagonales.
 
 ##  MODELOS RELACIONADOS 
 
