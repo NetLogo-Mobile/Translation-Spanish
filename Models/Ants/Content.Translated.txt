@@ -4,11 +4,11 @@ En este proyecto, una colonia de hormigas buscan comida. Aunque cada hormiga sig
 
 ##  COMO FUNCIONA
 
-Cuando una hormiga encuentra un montón de comida, la lleva a su nido, dejando caer una sustancia química mientras que se mueve. Cuando otras hormigas “huelen” la química, la siguen hacia la comida. Mientras más hormigas traen comida al nido, refuerzan el rastro químico.
+Cuando una hormiga encuentra un pedazo de comida, se la lleva a su nido, dejando caer una sustancia química mientras que se mueve. Cuando otras hormigas “huelen” la química, la siguen hacia la comida. Mientras más hormigas traen comida al nido, refuerzan el rastro químico.
 
 ##  COMO USARLO
 
-Haz clic al botón PREPARAR para preparar el nido de hormigas (en violeta, al centro) y los tres montones de comida. Haz clic al botón IR para empezar la simulación. El químico se va mostrar en un verde-a-blando gradiente.
+Haz clic al botón PREPARAR para preparar el nido de las hormigas (en violeta, al centro) y los tres montones de comida. Haz clic al botón IR para empezar la simulación. El químico se va mostrar en un verde-a-blanco gradiente.
 
 El control deslizante TASA-EVAPORACIÓN controla la tasa de evaporación del químico. El control deslizante TASA-DIFUSIÓN controla la tasa de difusión del químico.
 
@@ -20,7 +20,7 @@ La colonia de hormigas generalmente explota la fuente de comida en orden, comenz
 
 Una vez que la colonia termina de recolectar la comida más cercana, el rastro químico de esa comida desaparece naturalmente, liberando hormigas para ayudar a colectar las otras fuentes de comida. Las fuentes de comida más alejadas requieren un mayor “número crítico” de hormigas para formar un rastro estable.
 
-El consumo de la comida se muestra en un gráfico. Los colores de las líneas en la trama coinciden con los colores de los montones de comida.
+El consumo de la comida se muestra en un gráfico. Los colores de las líneas en la gráfico coinciden con los colores de los montones de comida.
 
 ##  EXTENDIENDO EL MODELO
 
@@ -34,9 +34,9 @@ En el procedimiento químico ascendente, la hormiga “sigue el gradiente” del
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-La primitiva difuminar incorporada nos permite difuminar la sustancia química fácilmente sin un código.
+La primitiva difuminar incorporada nos permite difuminar la sustancia química fácilmente sin un código complicado.
 
-La primitiva parcela de la derecha y adelante se usa para hacer que las hormigas huelen en diferentes direcciones sin realmente girar. 
+La parcela primitiva de la derecha y adelante se usa para hacer que las hormigas huelen en diferentes direcciones sin realmente girar. 
 
 ##  COMO CITAR 
 
