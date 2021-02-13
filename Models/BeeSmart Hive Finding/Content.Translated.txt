@@ -1,28 +1,28 @@
 ﻿## ¿QUÉ ES?
 
-El modelo BeeSmart Master muestra la inteligencia del enjambre de abejas durante su proceso de búsqueda de colmenas. Un enjambre de decenas de miles de abejas pueden elegir el mejor sitio de colmena nuevo disponible entre docenas de opciones potenciales precisamente a través del comportamiento autoorganizado. 
+El modelo BeeSmart Master muestra la inteligencia del enjambre de abejas durante su proceso en la búsqueda de colmenas. Un enjambre de decenas de miles de abejas pueden elegir el mejor sitio de colmena nuevo disponible entre docenas de opciones potenciales precisamente a través del comportamiento autoorganizado. 
 
-El mecanismo de este modelo se basa en Honeybee Democracy (Seeley, 2010) con algunas modificaciones y simplificaciones. Una simplificación es que este modelo solo te enseña las abejas exploradoras: una población del 3-5% de todo el enjambre que participa activamente en el proceso de toma de decisiones. Las otras abejas quedan fuera porque simplemente siguen a los exploradores a la nueva colmena cuando se toma una decisión. Dejando fuera a las abejas que no son exploradores reduce la carga computacional y hace que este modelo sea más claro visualmente.
+El mecanismo de este modelo se basa en Honeybee Democracy (Seeley, 2010) con algunas modificaciones y simplificaciones. Una simplificación es que este modelo solo te enseña las abejas exploradoras: una población del 3-5% de todo el enjambre que participa activamente en el proceso de tomar decisiones. Las otras abejas quedan fuera porque simplemente siguen a los exploradores a la nueva colmena cuando se toma una decisión. Dejando fuera a las abejas que no son exploradores reduce la carga computacional y hace que este modelo sea más claro visualmente.
 
-También, este modelo es el primero de una serie de modelos en una unidad curricular de investigación científica basada en modelos computacionales “BeeSmart”, diseñada para ayudar a estudiantes de secundaria y universitarios a aprender sistemas complejos como conceptos transversales en el aprendizaje de la ciencia. Los modelos subsecuentes llegarán pronto.
+También, este modelo es el primero de una serie de modelos en una unidad curricular de investigación científica basada en modelos computacionales “BeeSmart”, diseñada para ayudar a estudiantes de secundaria y universitarios a aprender principios complejos como conceptos transversales en el aprendizaje de la ciencia. Los modelos subsecuentes llegarán pronto.
 
 ##  COMO FUNCIONA
 
-En cada PREPARAR, se colocan 100 abejas exploradoras en el centro de vista. Mientras tanto, un número (determinado por el control deslizante “number-de-colmena”) de posibles sitios de colmenas se colocan aleatoriamente alrededor del enjambre.
+En cada PREPARAR, se colocan 100 abejas exploradoras en el centro de vista. Mientras tanto, un número (determinado por el control deslizante “número-de-colmena”) de posibles sitios de colmenas se colocan aleatoriamente alrededor del enjambre.
 
 Al hacer clic en IR, los exploradores iniciales (cuya proporción es determinada por el control deslizante “porcentaje inicial”) se alejan del enjambre en diferentes direcciones para explorar el espacio alrededor. Explorarán el espacio durante un máximo de “tiempo-de-exploración-inicial”. Si un explorador encuentra un posible sitio de colmena, ella lo inspecciona. Si no, vuelve al enjambre y permanece inactiva.
 
-Cuando un explorador encuentra un posible sitio de colmena, ella lo inspecciona para aprender su ubicación, color y calidad. Después, regresa al enjambre para anunciar el sitio a través de bailes de meneos. Cuanto mejor sea la calidad de la colmena, cuanto más bailen los exploradores, más fácil será que las abejas inactivas vean estos bailes en el enjambre, y es más probable que las abejas inactivas sigan los bailes para inspeccionar el sitio de la colmena anunciado. Después de la inspección del sitio anunciado por una abeja recién incorporada, la nueva abeja regresa al enjambre y expresa sus opiniones sobre el sitio a través de bailes de meneo. Las abejas vuelven a visitar los sitios que ellos defendieron, pero sus intereses en el sitio disminuyen después de cada visita. La publicidad de diferentes sitios continúa en el enjambre, pero los sitios de alta calidad atraen cada vez a más abejas, mientras que los de baja calidad son gradualmente ignorados. 
+Cuando un explorador encuentra un posible sitio de colmena, ella lo inspecciona para aprender su ubicación, color y calidad. Después, regresa al enjambre para anunciar el sitio a través de bailes de meneos. Cuanto mejor sea la calidad de la colmena, cuanto más tiempo bailen los exploradores, más fácil será que las abejas inactivas vean estos bailes en el enjambre, y es más probable que las abejas inactivas sigan los bailes para inspeccionar el sitio de la colmena anunciado. Después de la inspección del sitio anunciado por una abeja recién incorporada, la nueva abeja regresa al enjambre y expresa sus opiniones sobre el sitio a través de bailes de meneo. Las abejas vuelven a visitar los sitios que ellos defendieron, pero sus intereses en el sitio disminuyen después de cada visita. La publicidad de diferentes sitios continúa en paralelo en el enjambre, pero los sitios de alta calidad atraen cada vez a más abejas, mientras que los de baja calidad son gradualmente ignorados. 
 
-Cuando las abejas en un sitio en particular, observan un cierto número de abejas en el mismo sitio, o, en otras palabras, cuando se alcanza el “quórum”, regresan al enjambre y comienzan a “cantar” para anunciar que se ha tomado una decisión. Cualquier abeja que oye estos cantos también cantará, lo que hace que los cantos se extiendan rápidamente por el enjambre. Cuando todas las abejas están cantando, todo el enjambre se mueve al sitio de la colmena ganadora y el modelo se para.
+Cuando las abejas en un sitio en particular observan un cierto número de abejas en el mismo sitio, o, en otras palabras, cuando se alcanza el “quórum”, regresan al enjambre y comienzan a “cantar” para anunciar que se ha tomado una decisión. Cualquier abeja que oye estos cantos también cantará, lo que hace que los cantos se extiendan rápidamente por el enjambre. Cuando todas las abejas están cantando, todo el enjambre se mueve al sitio de la colmena ganadora y el modelo se para.
 
-Normalmente, un explorador inicial pasa por los estados de “descubrir” -> “inspeccionar-colmena” -> “regresar-a-casa” -> “bailar” -> “volver-a-visitar” -> “cantar”; y los exploradores que no son los iniciales siguen una secuencia de estados ligeramente diferente: “mirar-bailo” -> “volver-a-visitar” -> “inspeccionar-colmena” -> “regresar-a-casa” -> “cantar”.
+Normalmente, un explorador inicial pasa por los estados de “descubrir” -> “inspeccionar-colmena” -> “regresar-a-casa” -> “bailar” -> “volver-a-visitar” -> “cantar”; y los exploradores que no son los iniciales siguen una secuencia de estados ligeramente diferente: “mirar-bailo” -> “volver-a-visitar” -> “inspeccionar-colmena” -> “regresar-a-casa” -> “bailar” ->  “volver-a-visitar” -> “cantar”.
 
 ##  COMO USARLO
 
 Usa los controles deslizantes para definir las condiciones iniciales del modelo. Los valores predeterminados típicamente garantizan una búsqueda de colmena con éxito, pero se anima a que los usuarios cambien estas configuraciones y miren como cada parámetro afecta al proceso.
 
-Haz clic en PREPARAR después de configurar los parámetros con los controles deslizantes. Después, haz clic en IR y observa cómo se despliega el fenómeno. Cambia el botón “Mostrar/Esconder rastro del baile” para mostrar o esconder el rastro del baile. Usa el botón “Mostrar/Esconder Exploradores” para esconder las abejas exploradores si bloquean tu vista de los rastros de baile. 
+Haz clic en PREPARAR después de configurar los parámetros con los controles deslizantes. Después, haz clic en IR y observa cómo se despliega el fenómeno. Cambia el botón “Mostrar/Esconder Rastro del Baile” para mostrar o esconder el rastro del baile. Usa el botón “Mostrar/Esconder Exploradores” para esconder las abejas exploradores si bloquean tu vista de los rastros de baile. 
 
 ##  COSAS PARA NOTAR
 
@@ -30,15 +30,15 @@ Observe las tres gráficas a la derecha del modelo:
 
 La gráfica “comprometida” muestra la cantidad de exploradores que están comprometidos a inspeccionar y defender cada sitio de colmena. La gráfica “en sitio” muestra el número de abejas en cada sitio; La gráfica “observando y trabajando” muestra el cambio en número de abejas inactivas y trabajadoras.
 
-Observa cómo la información sobre varios sitios lleva al enjambre al centro de la vista y cómo cambian las preferencias del enjambre con el tiempo.
+Observa cómo la información sobre varios sitios llega al enjambre al centro de la vista y cómo cambian las preferencias del enjambre con el tiempo.
 
 Observa si el momento de descubrir el mejor sitio de colme afecta la decisión del enjambre.
 
-Haz zoom y compara el “entusiasmo” de los bailes para sitios de alta calidad con los de baja calidad. Las abejas no solo bailan por más tiempo, sino también con más entusiasmo (o más rápidamente, en este modelo, cuando están dando vueltas) para los sitios de mejor calidad.
+Enfoca y compara el “entusiasmo” de los bailes para sitios de alta calidad con los de baja calidad. Las abejas no sólo bailan por más tiempo, sino también con más entusiasmo (o más rápidamente, en este modelo, cuando están dando vueltas) para los sitios de mejor calidad.
 
 ##  COSAS PARA INTENTAR
 
-Haz clic derecho en cualquier explorador y elige “observar” en el menú a la mano derecha. Aparecería un halo alrededor del explorador para ayudarte a seguir su movimiento.
+Haz clic derecho en cualquier explorador y elige “Observar” en el menú a la mano derecha. Aparecería un halo alrededor del explorador para ayudarte a seguir su movimiento.
 
 Configura los controles deslizadores a diferentes valores y observa cómo estos parámetros afectan la dinámica del proceso.
 
@@ -48,7 +48,7 @@ Usa “Control +” o “Comando +” para hacer zoom y ver los colores de las a
 
 ##  EXTENDIENDO EL MODELO
 
-Este modelo muestra el fenómeno de búsqueda de colmenas de las abejas como un proceso continuo. Sin embargo, en realidad, este proceso puede durar algunos días. Las abejas descansan durante la noche. Las condiciones climáticas pueden afectar este proceso. Si agregas estos factores al modelo, puede hacer que el modelo se representa con mayor precisión en el fenómeno en el mundo real. 
+Este modelo muestra el fenómeno de búsqueda de colmenas de las abejas como un proceso continuo. Sin embargo, en realidad, este proceso puede durar algunos días. Las abejas descansan durante la noche. Las condiciones climáticas pueden afectar este proceso. Agregando estos factores al modelo puede hacer que el modelo se representa con mayor precisión en el fenómeno en el mundo real. 
 
 Actualmente, las cualidades de los sitios no se pueden controlar desde la interfaz. Se pueden agregar algunos elementos a la interfaz de entrada para permitir a los usuarios especificar la calidad de cada colmena.
 
