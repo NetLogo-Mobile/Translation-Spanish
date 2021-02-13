@@ -8,15 +8,15 @@ Comportamiento caótico significa que cada cambio pequeño en las condiciones in
 
 La pelota rebota en las paredes y en los obstáculos. Las colisiones son todas perfectamente elásticas y los obstáculos se mantienen estacionarios. Finalmente, no hay fricción. Esto significa que las pelotas nunca cambian de velocidad, solo de dirección. Tenga en cuenta que las pelotas no reboten entre sí mismas; las pelotas múltiples son solo para mostrar lo que sucede cuando hay diferencias muy pequeñas en la posición inicial. 
 
-Las colisiones se detectan cuando la pelota se superpone a un obstáculo o al borde del mundo. Después, se corrige la posición (consulte la sección Características de NetLogo a continuación para obtener una discusión más detallada). Finalmente, debido a que las colisiones son perfectamente elásticas, el nuevo ángulo de la pelota es el ángulo de reflexión de su rumbo alrededor de la superficie con la choca.
+Las colisiones se detectan cuando la pelota se superpone a un obstáculo o al borde del mundo. Después, se corrige la posición (consulte la sección Características de NetLogo a continuación para obtener una discusión más detallada). Finalmente, debido a que las colisiones son perfectamente elásticas, el nuevo ángulo de la pelota es el ángulo de reflexión de su rumbo alrededor de la superficie con la que choca.
 
 ##  COMO USARLO
 
 Usa el control deslizante NÚM-OBSTÁCULOS para ajustar el número de obstáculos cuando usas PREPARAR-AL-AZAR. Con 0 obstáculos, el sistema siempre será periodico. ¿Sabes por qué?
 
-Si ¿DOS-PELOTAS? está encendido, los botones de preparación crearán una pelota adicional que casi estará en la misma posición, pero no exactamente, que la primera bola. Ejecutar el sistema con dos pelotas mostrará cuánto dramático es el efecto que pueden tener los cambios leves en las condiciones iniciales en los sistemas caóticos.
+Si ¿DOS-PELOTAS? está encendido, los botones de preparación crearán una pelota adicional que casi estará en la misma posición, pero no exactamente, de la primera pelota. Ejecutar el sistema con dos pelotas te mostrará que dramático es el efecto que pueden tener los cambios leves en las condiciones iniciales en los sistemas caóticos.
 
-Usa el botón PREPARAR-AL-AZAR para inicializar el sistema en una configuración que probablemente sería caótico. NÚM-OBSTÁCULOS obstáculos de tamaños al azar serían colocados en posiciones al azar.
+Usa el botón PREPARAR-AL-AZAR para inicializar el sistema en una configuración que probablemente sería caótico. NÚM-OBSTÁCULOS obstáculos de tamaños al azar serán colocados en posiciones al azar.
 
 Usa el botón PREPARAR-X-PERIÓDICO para ver un ejemplo del tipo de comportamiento periodico que el sistema puede exhibir.
 
@@ -30,11 +30,11 @@ ARRASTRAR se puede usar para mover las pelotas y obstáculos por todos lados, y 
 
 ##  COSAS PARA NOTAR
 
-Observe como la repetición de las pelotas es predecible hasta que choquen con el círculo. ¿Por qué crees que esto es?
+Observa como el rebote de las pelotas es predecible hasta que choquen con el círculo. ¿Por qué crees que esto es?
 
 Si ejecutas el modelo sin un obstáculo, el comportamiento siempre es periodico, aunque el periodo sea muy largo. ¿Por qué crees que esto es?
 
-Si ¿DOS-PELOTAS? está encendido, los botones de preparación crearán una pelota adicional que casi estará en la misma posición, pero no exactamente, que la primera pelota. Ejecutar el sistema con dos pelotas y un obstáculo mostrará cuanto dramático de un efecto cambios pequeños en las condiciones iniciales pueden tener un sistemas caóticas. Esta es la característica distintiva de un sistema caótico.
+Si ¿DOS-PELOTAS? está encendido, los botones de preparación crearán una pelota adicional que casi estará en la misma posición, pero no exactamente, que la primera pelota. Ejecutar el sistema con dos pelotas y un obstáculo mostrará que dramático es el efecto que pueden tener los cambios leves en las condiciones iniciales en los sistemas caóticos. Esta es la característica distintiva de un sistema caótico.
 
 No es probable que una configuración al azar en el cual la pelota choca con un obstáculo será periodico. 
 
@@ -44,7 +44,7 @@ Intenta PREPARAR-X-PERIÓDICO con ¿DOS-PELOTAS? encendido. ¿Cómo se comportan
 
 Intenta PREPARAR-COLCHA-PERIÓDICO con ¿DOS-PELOTAS? encendido. ¿Cuando se divergen las pelotas rojas y azules?
 
-¿Puedes encontrar otras configuraciones que resultan en comportamiento periodico?
+Puedes encontrar otras configuraciones que resultan en comportamiento periodico?
 
 ##  EXTENDIENDO EL MODELO
 
@@ -52,17 +52,17 @@ Añade obstáculos de diferentes formas. ¿Cuáles formas producen comportamient
 
 Añade un control deslizante para controlar el número de pelotas para que puedas tener más de dos.
 
-Añade un control deslizante para controlar cuánto lejos las pelotas empiezan de la pelota roja. ¿Reducir o aumentar la distancia cambia el comportamiento del modelo?
+Añade un control deslizante para controlar qué tan lejos las pelotas empiezan de la pelota roja. ¿Reducir o aumentar la distancia cambia el comportamiento del modelo?
 
 Intenta cambiar el tamaño de la caja.
 
-Actualmente, las pelotas no se colidan con sí mismas. Puedes cambiarlo para que se coliden? ¿Puedes encontrar una configuración periódica en el que las pelotas chocan contra sí mismos?
+Actualmente, las pelotas no se colidan con sí mismas. ¿Puedes cambiarlo para que se coliden? ¿Puedes encontrar una configuración periódica en el que las pelotas chocan contra sí mismos?
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
 Este modelo usa un número de técnicas avanzadas,
 
-Primero, se usan procedimientos anónimos para hacer que el procedimiento de CONFIGURACIÓN sea muy flexible con respecto a la ubicación de las pelotas y los obstáculos. Por ejemplo, PREPARAR-COLCHA-PERIÓDICO usa el siguiente código:
+Primero, se usan procedimientos anónimos para hacer que el procedimiento de CONFIGURACIÓN sea muy flexible con respecto a la colocación de las pelotas y los obstáculos. Por ejemplo, PREPARAR-COLCHA-PERIÓDICO usa el siguiente código:
 
 Preparar [setxy 0 8 set size 1] [-> setxy 0 7 facexy -8 -6 ]
 
@@ -70,18 +70,18 @@ El primer procedimiento anónimo configura el obstáculo y el segundo configura 
 
 El procedimiento AGENTE-FOREACH muestra cómo puedes usar procedimientos anónimos para crear tus propios estructures controles en NetLogo. AGENTE-FOREACH funciona como FOREACH, pero opera en conjuntos de agentes en lugar de listas.
 
-Segundo, por el carácter caótico de este sistema, las colisiones entre objetos deben manejarse con mucha precisión. Debido a que las pelotas se mueven tomando pasos del tamaño de VELOCIDAD en cada tic, la ubicación en la que se encuentra la pelota cuando golpea otro objeto no será la misma que si la pelota se hubiera estado moviendo continuamente. Este error puede, por ejemplo, hacer caóticas las configuraciones que deberían ser periódicas. Para corregir esto, el modelo usa una técnica que se llama búsqueda binaria para acercarse muy rápidamente a la ubicación exacta de la colisión. Aunque la búsqueda binaria es un algoritmo general, no una característica de NetLogo, este modelo muestra cómo puedes implementar una búsqueda binaria en NetLogo. Además, debido a que el reportero de ATAN puede introducir pequeñas imprecisiones, este modelo redondo el rumbo de la pelota después de colisiones con obstáculos a la 100,000 de grado más cercana.
+Segundo, por el carácter caótico de este sistema, las colisiones entre objetos deben manejarse con mucha precisión. Debido a que las pelotas se mueven tomando pasos del tamaño de VELOCIDAD en cada tick, la ubicación en la que se encuentra la pelota cuando golpea otro objeto no será la misma que si la pelota se hubiera estado moviendo continuamente. Este error puede, por ejemplo, hacer caóticas las configuraciones que deberían ser periódicas. Para corregir esto, el modelo usa una técnica que se llama búsqueda binaria para acercarse muy rápidamente a la ubicación exacta de la colisión. Aunque la búsqueda binaria es un algoritmo general, no una característica de NetLogo, este modelo muestra cómo puedes implementar una búsqueda binaria espacial en NetLogo. Además, debido a que el reportero de ATAN puede introducir pequeñas imprecisiones, este modelo redonda el rumbo de la pelota después de colisiones con obstáculos a la 100,000 de grado más cercana.
 
 Finalmente, el código para arrastrar los obstáculos y las pelotas muestra como se puede realizar una manipulación sofisticada de los agente con el ratón.
 
 ##  MODELOS RELACIONADOS 
 
 – Los modelos de GasLab
-– Rotador Pateada es otro ejemplo de un sistema caótico. 
+– Rotador Pateada es otro ejemplo de un sistema caótico.
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-Este modelo se inspiró en una conversación con Dirk Brockmann, quien analiza este fenómeno en su curso de Sistemas Complejos en Biología en la Universidad Humboldt de Berlin.
+Este modelo se inspiró en una conversación con Dirk Brockmann, quien analiza este fenómeno en su curso de Sistemas Complejos en Biología en la Universidad Humboldt de Berlín.
 
 ##  COMO CITAR 
 
