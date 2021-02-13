@@ -2,15 +2,15 @@
 
 Este modelo explora la “hipótesis Gaia”, la cual considera la Tierra como un sistema único y autorregulado que incluye partes vivas y también no vivas. En particular, este modelo explora cómo los organismos vivos se alteran y son alterados por el clima, que no es vivo. Los organismos de ejemplos son las margaritas y el factor climático considerado es la temperatura.
 
-Mundomargarita es un mundo lleno con dos diferentes tipos de margaritas: margaritas negras y margaritas blancas. Diferen en albedo, lo cual es cuánta energía absorben como valor de la luz solar. Las margaritas blancas tienen un albedo superficial alto, y, entonces, reflejan luz y calor, enfriando el área alrededor de ellas. Las margaritas negras tienen un albedo superficial bajo y, entonces, absorben luz y calor, calentando el área alrededor de ellas. Sin embargo, solo hay un cierto rango de temperatura en el que las margaritas pueden reproducir; si la temperatura alrededor de una margarita está fuera de este rango, la margarita no producirá descendencia y eventualmente morirá de vejez.
+Mundomargarita es un mundo lleno de dos diferentes tipos de margaritas: margaritas negras y margaritas blancas. Difieren en albedo, lo cual es cuánta energía absorben como calor de la luz solar. Las margaritas blancas tienen un albedo de superficie alto, y, entonces, reflejan luz y calor, enfriando el área alrededor de ellas. Las margaritas negras tienen un albedo superficie bajo y, entonces, absorben luz y calor, calentando el área alrededor de ellas. Sin embargo, solo hay un cierto rango de temperatura en el que las margaritas pueden reproducir; si la temperatura alrededor de una margarita está fuera de este rango, la margarita no producirá descendencia y eventualmente morirá de vejez.
 
-Cuando el clima es demasiado frío es necesario que las margaritas negras se propaguen para subir la temperatura, y viceversa--cuando el clima es demasiado cálido, es necesario producir más margaritas blancas para enfriar la temperatura. Para un amplio rango de configuraciones de parámetros, la temperatura y la población de margaritas eventualmente se estabilizarán. Sin embargo, es posible que Mundomargarita se caliente o enfríe demasiado, en cuyo caso las margaritas no pueden mantener la temperatura y todas las margaritas eventualmente morirán.
+Cuando el clima es demasiado frío es necesario que las margaritas negras se propaguen para subir la temperatura, y viceversa--cuando el clima es demasiado caliente, es necesario producir más margaritas blancas para enfriar la temperatura. Para un amplio rango de configuraciones de parámetros, la temperatura y la población de margaritas eventualmente se estabilizarán. Sin embargo, es posible que Mundomargarita se caliente o enfríe demasiado, en ese caso las margaritas no podrán mantener la temperatura y todas las margaritas eventualmente morirán.
 
 ##  COMO FUNCIONA
 
-Cada una de las margaritas blancas, las margaritas negras, y el campo abierto (parcelas vacías) tienen un albedo o porcentaje de energía que absorben como calor de la luz solar. La energía de luz solar se puede cambiar con el control deslizante LUMINOSIDAD-SOLAR (un valor de 1.0 simula la luminosidad de nuestro sol).
+Cada una de las margaritas blancas, las margaritas negras, y el campo abierto (parcelas vacías) tienen un albedo o porcentaje de energía que absorben como calor de la luz solar. La energía de luz solar se puede cambiar con el control deslizante LUMINOSIDAD-SOLAR (un valor de 1.0 simula la luminosidad promedio de nuestro sol).
 
-Cada paso de tiempo, cada parcela calculará la temperatura en un lugar basándose en (1) la energía absorbida por la margarita en esa parcela y (2) la difuminación del 50% del valor de la temperatura en esa parcela entre sus vecinos. Las parcelas de campo vacíos que están adyacentes a un margarita tienen una probabilidad de que brote una margarita del mismo color que la margarita vecina, según la función de probabilidad parabólica que depende de la temperatura local (donde una temperatura óptima de 22.5 produce una probabilidad máxima de 100% de brotar una nueva margarita). Las margaritas envejecen en cada paso de la simulación hasta que llegan a una edad máxima, en el que mueren y las parcelas se convierten en una parcela vacía.
+Cada paso de tiempo, cada parcela calculará la temperatura en un lugar basándose en (1) la energía absorbida por la margarita en esa parcela y (2) la difuminación de 50% del valor de la temperatura en esa parcela entre sus vecinos. Las parcelas de campo vacíos que están adyacentes a un margarita tienen una probabilidad de que brote una margarita del mismo color de la margarita vecina, según la función de probabilidad parabólica que depende de la temperatura local (donde una temperatura óptima de 22.5 produce una probabilidad máxima de 100% de brotar una nueva margarita). Las margaritas envejecen en cada paso de la simulación hasta que llegan a una edad máxima, en el que mueren y las parcelas se convierten en una parcela vacía.
 
 ##  COMO USARLO
 
@@ -18,27 +18,27 @@ INICIAR-%-BLANCOS y INICIAR-%-NEGROS configura el porcentaje inicial de parcelas
 
 Eligiendo PINTAR-MARGARITAS-COMO y presionando PINTAR-MARGARITAS permite que el usuario dibuje o borra margaritas en la VISTA, con hacer clic izquierdo en las parcelas.
 
-ALBEDO-DE-BLANCOS y ALBEDO-DE-NEGROS establece la cantidad de calor absorbido por cada uno de estos olores de margarita. ALBEDO-DE-SUPERFICIE establece la cantidad de calor absorbido por una parcela vacía.
+ALBEDO-DE-BLANCOS y ALBEDO-DE-NEGROS establece la cantidad de calor absorbido por cada uno de estos colores de margarita. ALBEDO-DE-SUPERFICIE establece la cantidad de calor absorbido por una parcela vacía.
 
 La LUMINOSIDAD-SOLAR establece la cantidad de energía incidente en cada parcela de luz solar. Pero este valor solo sería fijo en el valor establecido por el usuario si el selector de ESCENARIO está configurado a “mantener la luminosidad actual”. Otros valores del selector cambiará los valores del albedo. Por ejemplo, “rampa-arriba-rampa-abajo” iniciará la luminosidad solar en un valor bajo, y empezará aumentarla a un valor alto, y luego la bajará nuevamente durante el transcurso de la ejecución del modelo.
 
-¿MOSTRAR-TEMP-MAPA? Muestra un mapa de colores de temperatura en cada parcela. Luz roja representa temperaturas más altas y el rojo más oscuro representa temperaturas más frías.
+¿MOSTRAR-TEMP-MAPA? Muestra un mapa de colores de temperatura en cada parcela. La luz roja representa temperaturas más altas y el rojo más oscuro representa temperaturas más frías.
 
 ##  COSAS PARA NOTAR
 
-Ejecuta la simulación. ¿Qué pasa con las margaritas? ¿Las poblaciones se establecen alguna vez? ¿Ha habido auges y caídas de población? Si es así, ¿qué los causó? (Pista: ¿cómo afectan las margaritas al clima? ¿Cómo afecta el clima a las margaritas?)
+Ejecuta la simulación. ¿Qué pasa con las margaritas? ¿Las poblaciones se establecen alguna vez? ¿Ha habido aumentos y caídas de población? Si es así, ¿qué los causó? (Pista: ¿cómo afectan las margaritas al clima? ¿Cómo afecta el clima a las margaritas?)
 
-¿Qué pasa si los ciclos de auges y caídas se hacen cada vez más grandes? Los cambios no pueden seguir creciendo para siempre. 
+¿Qué pasa si los ciclos de aumentos y caídas se hacen cada vez más grandes? Los cambios no pueden seguir creciendo para siempre. 
 
 ¿El planeta se llena completamente de vida o se despoja completamente de vida en una ejecución?
 
-Intente ejecutar la simulación sin margaritas. ¿Qué pasa con la temperatura del planeta? ¿En qué se diferencia de lo que pasa con las margaritas?
+Intente ejecutar la simulación sin margaritas. ¿Qué pasa con la temperatura del planeta? ¿Cómo es diferente de lo que pasa con las margaritas?
 
 ¿Se puede decir que el sistema Mundomargarita exhibe “histéresis”? Histéresis es una propiedad de los sistemas que no siguen instantáneamente las fuerzas que se les aplican, sino que reaccionan lentamente o no regresan completamente a su estado original. El estado de tales sistemas depende de su historia inmediata.
 
 ##  COSAS PARA INTENTAR
 
-Intenta ejecutar el modelo con ¿ENSEÑAR-MARGARITAS? Apagado y ¿ENSEÑAR-TEMP-MAPA? encendido. Es posible que puedas ver patrones espaciales interesantes que surgen en concentraciones de temperatura y redistribución periódica de regiones de temperatura más fácilmente en este modo.
+Intenta ejecutar el modelo con ¿ENSEÑAR-MARGARITAS? apagado y ¿ENSEÑAR-TEMP-MAPA? prendido. Es posible que puedas ver patrones espaciales interesantes que surgen en concentraciones de temperatura y redistribución periódica de regiones de temperatura más fácilmente en este modo.
 
 Intenta ajustar la configuración fija de difuminación de temperatura en los procedimientos (cambiala de 0.5). ¿Qué pasa con el comportamiento del Mundomargarita si la temperatura nunca se difumina (establecida en 0.0)?
 
@@ -46,11 +46,11 @@ Intenta ajustar la configuración fija de difuminación de temperatura en los pr
 
 Las margaritas blancas y negras representan dos tipos extremos de margaritas que podrían existir en este mundo. Implemente una especie tercera de margarita. Tendrás que escoger qué hace tu margarita y como es diferente de las margaritas blancas y negras. ¿Cómo afecta tu nueva margarita a los resultados de este modelo?
 
-La luz solar es el único aspecto que controla el crecimiento de las margaritas que pueden existir en este mundo. Cambia el modelo para que diferentes partes del mundo tengan diferentes niveles de calidad de suelo.
+La luz solar es solo un aspecto que controla el crecimiento de las margaritas y otras formas de vida. Cambia el modelo para que diferentes partes del mundo tengan diferentes niveles de calidad de tierra. ¿Cómo afectará esto al resultado?
 
-Mucha gente sienten que la hipótesis Gaia puede ser perturbada por causas humanas. Implementa contaminación en el modelo. ¿Esto causa que las margaritas se mueran más rápidamente o más frecuentemente?
+Mucha gente siente que la hipótesis Gaia puede ser perturbada por causas humanas. Implementa contaminación en el modelo. ¿Esto causa que las margaritas se mueran más rápidamente o más frecuentemente?
 
-¿Puedes pensar en otras maneras en las que organismos vivos se alteran y son alterados por su ambiente?
+¿Puedes pensar en otras maneras en que los organismos vivos alteran y son alterados por su ambiente?
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
@@ -64,9 +64,9 @@ Un modelo alternativo de Mundomargarita se enumera en la página de Modelos de C
 
 El modelo Mundomargarita fue propuesto e implementado por primera vez por Lovelock y Andrew Watson. La hipótesis original de Gaia es de Lovelock.
 
-Watson, A.J., and J.E. Lovelock, 1983, "Biological homeostasis of the global environment: the parable of Daisyworld", Tellus 35B, 286-289. (El ensayo original  por Watson y Lovelock introduciendo el modelo Mundomargarita.)
+Watson, A.J., and J.E. Lovelock, 1983, "Biological homeostasis of the global environment: the parable of Daisyworld", Tellus 35B, 286-289. (The original paper by Watson and Lovelock introducing the Daisyworld model.)
 
-Wikipedia también tiene una descripción del modelo Mundomargarita avanzado: https://en.wikipedia.org/wiki/Daisyworld.
+Wikipedia también tiene una descripción de alto nivel del modelo: https://en.wikipedia.org/wiki/Daisyworld.
 
 ##  COMO CITAR 
 
