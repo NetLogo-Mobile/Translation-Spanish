@@ -6,9 +6,9 @@ Haz tu mejor conjetura y luego ejecuta el modelo y observa con qué frecuencia p
 
 ##  COMO FUNCIONA
 
-Cada tortuga fue asignado un cumpleaños aleatoriamente. Si una tortuga tiene el mismo cumpleaños que otra tortuga en el cuarto, se vuelve verde.
+Cada tortuga tiene asignado un cumpleaños aleatoriamente. Si una tortuga tiene el mismo cumpleaños que otra tortuga en el cuarto, se vuelve verde.
 
-Este modela no tiene en cuenta los años bisiestos (no hay cumpleaños del 29 de febrero).
+Este modelo no tiene en cuenta los años bisiestos (no hay cumpleaños del 29 de Febrero).
 
 ##  COMO USARLO
 
@@ -16,7 +16,7 @@ Presiona PREPARAR para inicializar el modelo.
 
 Presiona IR UNA VEZ para generar un solo cuarto lleno de gente.
 
-Presiona IR para generar repetidamente muchos cuartos lleno de gente. El monitor de TASA DE ÉXITO mostra qué porcentaje de esos cuartos tuvieron a lo menos un cumpleaños coincidente.
+Presiona IR para generar repetidamente muchos cuartos lleno de gente. El monitor de TASA DE ÉXITO mostrará qué porcentaje de esos cuartos tuvieron a lo menos un cumpleaños coincidente.
 
 ##  COSAS PARA NOTAR
 
@@ -26,7 +26,7 @@ Presiona IR para generar repetidamente muchos cuartos lleno de gente. El monitor
 
 Intenta un cuarto con más personas, edita la vista y incrementa máx-pycor.
 
-¿Cuántas personas tienen que estar en el cuarto para que la probabilidad de tener un cumpleaños coincidente sea a lo menos 90%? (¿Esperabas que esto fuera mayor o menor?)
+¿Cuántas personas deben estar en el cuarto antes de que la probabilidad de un cumpleaños coincidente sea al menos del 90%? (¿Es esto más alto o más bajo de lo que esperabas?
 
 ¿Puedes calcular matemáticamente cuáles deberían ser las probabilidades? (Sugerencia: empieza considerando las probabilidades cuando la cantidad de personas es pequeña).
 
@@ -36,11 +36,11 @@ Incluye años bisiestos en la lista de posibilidades.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Este modelo usa listas mucho, incluyendo listas primitivas como mapear, para-cada, item, posición, y reordenar-por. Las listas se usan para hacer que el modelo muestre los nombres de días reales, en lugar de solo números de 0 a 364. Las listas también se usan al clasificar las tortugas por cumpleaños.
+Este modelo usa muchas listas, incluyendo listas primitivas como mapear, para-cada, item, posición, y reordenar-por. Las listas se usan para hacer que el modelo muestre los nombres de días reales, en lugar de solo números de 0 a 364. Las listas también se usan al clasificar las tortugas por cumpleaños.
 
 ##  MODELOS RELACIONADOS 
 
-El conjunto de modelos ProbLab, en la sección Matemáticas/Probabilidad, contiene muchas exploraciones de preguntas básicas sobre probabilidad y estadística.
+El conjunto de modelos ProbLab, en la sección Matemáticas/Probabilidad, contiene muchas exploraciones de preguntas básicas sobre probabilidad y estadísticas.
 
 ##  COMO CITAR 
 
