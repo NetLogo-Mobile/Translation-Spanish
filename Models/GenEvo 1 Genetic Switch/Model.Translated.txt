@@ -8,7 +8,7 @@ Tiempo de división celular
 
 ### Source
 default
-### Spanish ***
+### Spanish
 defecto
 
 ### Source

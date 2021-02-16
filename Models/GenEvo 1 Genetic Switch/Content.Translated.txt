@@ -1,5 +1,4 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
 Este modelo simula un fenómeno complejo en biología molecular: el &quot;encendido y apagado&quot; de genes en función de las condiciones ambientales. A través de interacciones moleculares entre proteínas reguladoras específicas y secuencias de ADN específicas, cada gen regulado se activa o desactiva en respuesta a estímulos ambientales.
 
