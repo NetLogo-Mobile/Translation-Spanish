@@ -1,21 +1,21 @@
 ﻿## ¿QUÉ ES?
 
-En Seguidor, tortugas intentan “conectar” con otras tortugas, formando largas cadenas según un pequeño conjunto de reglas simples.
+En Seguidor, tortugas intentan a “conectar” con otras tortugas, formando largas cadenas según un pequeño conjunto de reglas simples.
 
 ##  COMO FUNCIONA
 
-Una tortuga puede seguir solo a otra tortuga y, del mismo modo, solo puede ser seguida por otra tortuga. Eso significa que hay cuatro estados de tortuga, cada estado es representado por un color diferente.
+Una tortuga puede seguir solo a otra tortuga y, del mismo modo, sólo puede ser seguida por otra tortuga. Eso significa que hay cuatro estados de tortuga, cada estado representado por un color diferente. 
 
 - Magenta: Desapegada
 - Verde: Siguiendo otra tortuga (un “rabo”)
 - Amarillo: Siendo seguida por otra tortuga (una “cabeza”)
 - Azul: Siguiendo y siendo seguida por otras tortugas (un segmento del “cuerpo”)
 
-Tortugas se crean en el estado magenta (desapegadas). En cada turno, cada tortuga examina una parcela aleatorio en forma de rosquilla cuadrada alrededor de ellos mismos. Si encuentra una tortuga que no está siendo seguida, se “enganchará” y empezará a seguir los movimientos de esa tortuga. Una tortuga suelta (una que todavía no se ha “enganchado” a otra tortuga) se moverá al azar.
+Las tortugas se crean en el estado magenta (desapegadas). En cada turno, cada tortuga examina una parcela aleatorio en forma de rosquilla cuadrada alrededor de ellos mismos. Si encuentra una tortuga que no está siendo seguida, se “enganchará” y empezará a seguir los movimientos de esa tortuga. Una tortuga suelta (una que todavía no se ha “enganchado” a otra tortuga) se moverá al azar.
 
 ##  COMO USARLO
 
-PREPARAR: Limpa el mundo y crea el número de tortugas especificadas en el control deslizador POBLACIÓN. Todas las tortugas se crean en el estado despegado (magenta).
+PREPARAR: Limpia el mundo y crea el número de tortugas especificadas en el control deslizador POBLACIÓN. Todas las tortugas se crean en el estado despegado (magenta).
 
 IR: Ejecuta la simulación.
 
@@ -35,11 +35,11 @@ Cada uno de los controles deslizadores tiene un efecto diferente en la simulaci�
 
 Tenga en cuenta que cuando el número de tortugas es alto, las cadenas se tienden a formar muy rápidamente. Esto es porque hay más tortugas y, entonces, más posibilidades de que cada tortuga se agarre en cada turno.
 
-Variando el tamaño de la rosquilla tiende a afectar como las tortugas empiezan a apegarse. El tamaño de la rosquilla es más interesante cuando está configurado a valores muy pequeños, lo que hace que las tortugas se apeguen en bucles muy pequeños. Además, las rosquillas muy grandes (grande RADIO-LEJOS, pequeño RADIO-CERCA) se ven interesantes con la gran cantidad de tortugas.
+Variando el tamaño de la rosquilla tiende a afectar como las tortugas empiezan a apegarse pero, a lo largo, no tiene un gran efecto en el resultado de la simulación. El tamaño de la rosquilla es más interesante cuando está configurado a valores muy pequeños, lo que hace que las tortugas se apeguen en bucles muy pequeños. Además, las rosquillas muy grandes (grande RADIO-LEJOS, pequeño RADIO-CERCA) se ven interesantes con la gran cantidad de tortugas.
 
-La cantidad de aleatoriedad del movimiento (configurado por VACILAR) también puede cambiar el resultado de la simulación. Los valores muy altos de VACILAR resultan en la formación de pequeños bucles porque las tortugas se mueven continuamente sobre sí mismas, aumentando las posibilidades de conectar la cabeza de cadena con su cola.
+La cantidad de movimiento aleatoria (configurado por VACILAR) también puede cambiar el resultado de la simulación. Los valores muy altos de VACILAR resultan en la formación de pequeños bucles porque las tortugas se mueven continuamente sobre sí mismas, aumentando las posibilidades de conectar la cabeza de cadena con su cola.
 
-La simulación, con cualquier parámetro, avanza hacia la formación de bucles. Los bucles pueden formarse envolviendo el mundo, pero en casi todos los casos si la simulación se deja en ejecución, creará muchos bucles pequeños o un bucle grande. Es posible que una cadena nunca se conectará a sí misma si el control deslizante VACILAR está configurado en cero, pero de lo contrario la simulación debería avanzar hacia los bucles.
+La simulación, con cualquier parámetro, avanza hacia la formación de bucles. Los bucles pueden formarse envolviendo el mundo, pero en casi todos los casos si la simulación se deja en ejecución, creará muchos bucles pequeños o un bucle grande. Es posible que una cadena nunca se conecte a sí misma si el control deslizante VACILAR está configurado a cero, pero de lo contrario la simulación debería avanzar hacia los bucles. 
 
 ##  COSAS PARA INTENTAR
 
