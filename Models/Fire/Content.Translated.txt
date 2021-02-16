@@ -18,17 +18,17 @@ El control deslizador de DENSIDAD controla la densidad de los árboles en el bos
 
 ##  COSAS PARA NOTAR
 
-Cuando ejecutas el modelo, cuanto del bosque se quema. Si lo ejecutas otra vez con los mismos ajustes, ¿se queman los mismos árboles? ¿Qué tan similar es el incendio de una ejecución a otra?
+Cuando ejecutas el modelo, nota cuanto del bosque se quema. Si lo ejecutas otra vez con los mismos ajustes, ¿se queman los mismos árboles? ¿Qué tan similar es el incendio de una ejecución a otra?
 
-Cada tortuga gráfica representa un trozo de fuego nace y luego muere sin que se mueva. Si el incendio está compuesto de tortugas pero ningunas tortugas se están moviendo, ¿qué significa cuando se dice que el incendio se mueve? Esto es un ejemplo de diferentes niveles en un sistema: al nivel de las tortugas individuales, no hay movimiento, pero al nivel de las tortugas colectivamente a lo largo de tiempo, el incendio se mueve.
+Cada tortuga gráfica que representa un trozo de fuego nace y luego muere sin que se mueva. Si el incendio está compuesto de tortugas pero ningunas tortugas se están moviendo, ¿qué significa cuando se dice que el incendio se mueve? Esto es un ejemplo de diferentes niveles en un sistema: al nivel de las tortugas individuales, no hay movimiento, pero al nivel de las tortugas colectivamente a lo largo de tiempo, el incendio se mueve.
 
 ##  COSAS PARA INTENTAR
 
-Establece la densidad de los árboles a 55%. En esta configuración, prácticamente no hay la posibilidad de que el incendio alcance el borde derecho del bosque. Establece la densidad de los árboles a 70%. En esta configuración, es casi seguro que el incendio alcance el borde derecho. Hay una transición aguda cerca densidad configurada a 59%. Al 59% de densidad, el incendio tiene una probabilidad del 50/50 de que alcance el borde derecho.
+Establece la densidad de los árboles a 55%. En esta configuración, prácticamente no hay la posibilidad de que el incendio alcance el borde derecho del bosque. Establece la densidad de los árboles a 70%. En esta configuración, es casi seguro que el incendio alcance el borde derecho. Hay una transición aguda cerca la densidad configurada a 59%. Al 59% de densidad, el incendio tiene una probabilidad del 50/50 de que alcance el borde derecho.
 
-Intenta establecer y ejecutar un experimento BehaviorSpace (consulte menú de herramientas) para analizar el porcentaje quemado a diferentes niveles de densidad de árboles. Grafica el porcentaje-quemado contra la densidad. ¿Qué tipo de curva se logra?
+Intenta establecer y ejecutar un experimento BehaviorSpace (consulte menú de herramientas) para analizar el porcentaje quemado a diferentes niveles de densidad de los árboles. Grafica el porcentaje-quemado contra la densidad. ¿Qué tipo de curva se logra?
 
-Intenta cambiar el tamaño del enrejado (max-xcor y max-ycor en las Configuraciones del Modelo). ¿Cambia el comportamiento de quema del incendio?
+Intenta cambiar el tamaño del enrejado (max-pxcor and max-pycor en las Configuraciones del Modelo). ¿Cambia el comportamiento de quema del incendio?
 
 ##  EXTENDIENDO EL MODELO
 
@@ -36,17 +36,17 @@ Intenta cambiar el tamaño del enrejado (max-xcor y max-ycor en las Configuracio
 
 Añade viento al modelo para que el incendio pueda "saltar" mayores distancias en direcciones particulares.
 
-Añade la capacidad de plantar árboles adonde usted quiera. ¿Cuáles configuraciones de árboles permiten el incendio a cruzar el bosque? ¿Cuáles no? ¿Por qué es probable que una densidad más de 59% resulte en una configuración de árboles que funciona? ¿Por qué la probabilidad de tal configuración incrementa tan rápidamente a la densidad de 59%?
+Añade la capacidad de plantar árboles donde tú quieras. ¿Cuáles configuraciones de árboles permiten el incendio a cruzar el bosque? ¿Cuáles no? ¿Por qué es probable que una densidad más de 59% resulte en una configuración de árboles que funciona? ¿Por qué la probabilidad de tal configuración incrementa tan rápidamente a la densidad de 59%?
 
 El físico Per Bak preguntó por qué con frecuencia vemos que los sistemas experimentan cambios críticos. Responde a esto proponiendo el concepto de [criticidad autoorganizada] (https://en.wikipedia.org/wiki/Self-organized_criticality) (SOC). ¿Puede crear una versión del modelo de fuego que exhiba SOC?
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Los árboles no quemados se representan con parcelas verdes; los árboles que se están quemando se representan con tortugas. 2 razas de tortugas se están utilizando: "incendios" y "brasas". Cuando un árbol se incendia, se crea una nueva tortuga; un incendio se convierte en brasas en el próximo turno. Date cuenta cómo el programa gradualmente oscurece el color de las brasas para lograr el efecto visual de terminar la quemadura.
+Los árboles no quemados se representan con parcelas verdes; los árboles que se están quemando se representan con tortugas. 2 razas de tortugas se están utilizando: "incendios" y "brasas". Cuando un árbol se incendia, se crea una nueva tortuga incendio; un incendio se convierte en brasas en el próximo turno. Date cuenta cómo el programa gradualmente oscurece el color de las brasas para lograr el efecto visual de terminar la quemadura.
 
 El primitivo vecinos4 se usa para propagar el incendio.
 
-También puedes escribir el modelo sin usar tortugas por solo tener que las parchas propagan el incendio, y haciéndolo de esta manera hace que la programación sea un poco más fácil. Escrito de esa manera, el modelo se ejecutará más lento, ya que todas las parchas siempre estarían activas. Usando tortugas, es mucho más fácil limitar la actividad del modelo a solamente el área cerca del borde principal del incendio.
+También puedes escribir el modelo sin usar tortugas con solo tener que las parchas propagan el incendio, y haciéndolo de esta manera hace que la programación sea un poco más fácil. Escrito de esa manera, el modelo se ejecutará más lento, ya que todas las parchas siempre estarían activas. Con usando tortugas, es mucho más fácil limitar la actividad del modelo a solamente la área cerca del borde principal del incendio. 
 
 Consulta “CA 1D Rule 30” y “CA 1D Rule 30 Turtle” para un ejemplo de un modelo escrito con y sin tortugas.
 
