@@ -1,6 +1,6 @@
 ﻿## ¿QUÉ ES?
 
-Esto es un modelo del flujo de energía en la tierra, particularmente energía térmica. Nos muestra la tierra de color rosa y la duperdicie del planeta es representada por una tira negra. Sobre la tira hay una atmósfera azul y un espacio negro en la parte superior. Se pueden añadir nubes y moléculas de dióxido de carbono (CO2) a la atmósfera. Las moléculas de CO2 representan gases de invernadero que bloquean la luz infrarroja que emite la tierra. Las nubes bloquean rayos solares entrantes y salientes, incluyendo el calentamiento o el enfriamiento del planeta.
+Esto es un modelo del flujo de energía en la tierra, particularmente energía térmica. Nos muestra la tierra de color rosa y la superficie del planeta es representada por una tira negra. Sobre la tira hay una atmósfera azul y un espacio negro en la parte superior. Se pueden añadir nubes y moléculas de dióxido de carbono (CO2) a la atmósfera. Las moléculas de CO2 representan gases de invernadero que bloquean la luz infrarroja que emite la tierra. Las nubes bloquean rayos solares entrantes y salientes, influyendo el calentamiento o el enfriamiento del planeta.
 
 ##  COMO FUNCIONA
 
@@ -16,9 +16,9 @@ Por supuesto, hay muchas simplificaciones en este modelo. La tierra no tiene una
 
 ##  COMO USARLO
 
-El control deslizante controla cuánta energía solar entra la atmósfera terrestre. Un valor de 1.0 corresponde a nuestro sol. Los valores más altos te permiten ver lo que sucedería si la tierra estuviera más cerca al sol o si el sol se volviera más brillante.
+El control deslizante BRILLO-DE-SOL controla cuánta energía solar entra la atmósfera terrestre. Un valor de 1.0 corresponde a nuestro sol. Los valores más altos te permiten ver lo que sucedería si la tierra estuviera más cerca al sol o si el sol se volviera más brillante.
 
-El control deslizante ALBEDO controla cuánta energía solar que pega la tierra y se absorbe. Si el albedo es 1.0, la tierra refleja toda la luz solar. Esto podría pasar si la tierra se congela y está indicado por una superficie blanca. Si el albedo es cero, la tierra absorbe toda la luz solar. Esto se indica como una superficie negra. El albedo de la tierra es de aproximadamente 0.6.
+El control deslizante ALBEDO controla la cantidad de energía solar que golpea la tierra y se absorbe. Si el albedo es 1.0, la tierra refleja toda la luz solar. Esto podría pasar si la tierra se congela y está indicado por una superficie blanca. Si el albedo es cero, la tierra absorbe toda la luz solar. Esto se indica como una superficie negra. El albedo de la tierra es de aproximadamente 0.6.
 
 Puedes agregar y eliminar nubes con botones. Las nubes bloquean la luz solar pero no los infrarrojos.
 
@@ -34,9 +34,9 @@ Observa una sola punta de flecha de luz solar. Esto es más fácil si ralentizas
 
 ##  COSAS PARA INTENTAR
 
-1. Juega con el modelo. Cambia el albedo y ejecuta el modelo. Añade nubes y CO2 al modelo y después observa una sola punta de flecha de luz solar. ¿Cuál es la temperatura terrestre más alta que puedes producir? 
+1. Juega con el modelo. Cambia el albedo y ejecuta el modelo. Añade nubes y CO2 al modelo y después observa una sola punta de flecha de luz solar. ¿Cuál es la temperatura terrestre más alta que puedes producir?
 
-2. Ejecuta el modelo con un sol brillante pero sin nubes y sin CO2. ¿Qué pasa a la temperatura? Debería subir rápidamente y luego asentarse alrededor de 37 grados. ¿Por qué termina de subir? ¿Por qué la temperatura sigue rebotando? Recuérdete, la temperatura refleja el número de puntos rojos en la tierra. Cuando la temperatura es constante, hay tantas puntas de flecha amarillas entrantes como IR salientes. ¿Por qué?
+2. Ejecuta el modelo con un sol brillante pero sin nubes y sin CO2. ¿Qué pasa a la temperatura? Debería subir rápidamente y luego asentarse alrededor de 37 grados. ¿Por qué termina de subir? ¿Por qué la temperatura sigue rebotando? Recuérdate, la temperatura refleja el número de puntos rojos en la tierra. Cuando la temperatura es constante, hay tantas puntas de flecha amarillas entrantes como IR salientes. ¿Por qué?
 
 3. Explora el efecto del albedo manteniendo todo lo resto constante. ¿Si aumentas el albedo, aumenta o disminuye la temperatura de la tierra? Cuando experimentes, asegúrate de ejecutar el modelo el tiempo suficiente para que la temperatura se estabilice.
 
