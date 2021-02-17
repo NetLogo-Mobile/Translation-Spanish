@@ -1,0 +1,2 @@
+﻿*** Machine Translated
+`forward` permite que las tortugas se muevan en cualquier número de unidades que desee el programador. La versión abreviada de esta función es `fd` . Por ejemplo, puede escribir `ask turtles [ fd 2 ]` que hagan que todas las tortugas avancen 2 unidades. Tenga en cuenta que la función de avance indica a la tortuga que se mueva en la dirección / rumbo que mira. Entonces, si una tortuga tuviera un rumbo de 90, el avance 1 la movería una unidad hacia la derecha. También se pueden usar decimales; por ejemplo, `ask turtles [fd 0.2]` .

@@ -1,0 +1,2 @@
+﻿*** Machine Translated
+`Patches` informa el conjunto de agentes de todos los parches en un modelo, mientras que `patch` informa un parche específico. Se utilizan comúnmente para ordenar a los parches que hagan algo en un contexto `ask patches [ ... ]` Para informar de un parche específico, use el `patch xy` , por ejemplo, `ask patch 2 -3 [set pcolor green]` establecería el parche con una coordenada x de 2 y una coordenada y de -3 en verde, mientras que `ask patches [ set pcolor green ]` cambiaría todos los parches del modelo a verde.

@@ -1,0 +1,4 @@
+﻿*** Machine Translated
+`link-neighbors` Neighbor es un comando de tortuga que informa el conjunto de agentes de todas las tortugas conectadas que están conectadas a la tortuga que llama a través de enlaces (tanto dirigidos como no dirigidos). Por ejemplo, si estuviéramos usando enlaces para representar relaciones de amistad, `link-neighbors` de enlace de la `turtle 3` reportarían todos los amigos de la tortuga 3.
+
+En este modelo de rastreo de contactos, los enlaces representan "contactos", por lo que llamar a `link-neighbors` una persona informaría a todas las demás personas con las que esta persona tuvo contacto. Cuando implementamos el `trace-back` en nuestro código (en la línea 26), les pedimos a todos los `link-neighbors` de cualquier individuo expuesto (rojo) que se pongan rojos ellos mismos para indicar que ellos también han estado expuestos.

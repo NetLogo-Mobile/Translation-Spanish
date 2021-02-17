@@ -1,0 +1,4 @@
+﻿*** Machine Translated
+`face` establece el rumbo de una tortuga para apuntar hacia otro agente específico. `face` se usa generalmente para apuntar una tortuga hacia otra tortuga o un parche específico. Por ejemplo, si dos tortugas están en los bordes opuestos de un modelo, `ask one-of turtles [ face other-turtle ]` que gire la tortuga para que mire a la otra tortuga. `ask turtles [ face patch 0 0 ]` hará que todas las tortugas miren hacia el centro del modelo.
+
+En el siguiente modelo, hay un gato persiguiendo a un ratón. El ratón huye del gato y trata de escapar por su agujero. Para hacer que el gato persiga al ratón y que el ratón corra hacia su agujero, usamos `face` .

@@ -1,0 +1,12 @@
+﻿*** Machine Translated
+Los enlaces son una herramienta en NetLogo para representar conexiones entre tortugas. Un enlace en sí mismo es solo una conexión entre dos tortugas (distintas) con alguna información adjunta. Una vez creados, podemos usar enlaces para hacer referencia a tortugas conectadas, por ejemplo, enviando comandos a todas las tortugas conectadas a una tortuga determinada. Con solo esta sencilla herramienta de conexiones entre tortugas, podemos representar relaciones muy sofisticadas entre tortugas como árboles genealógicos, relaciones de "amigos" en las redes sociales (comúnmente conocidas como "gráficos sociales") o incluso mapas de calle para software de navegación como mapas de google o waze.
+
+De la misma manera que puede referirse a todas las tortugas del mundo con la palabra clave `turtles` , puede referirse a todos los enlaces del mundo con los `links` palabras clave. Puede utilizar esta palabra clave para, por ejemplo, cambiar el color o el grosor de la representación visual de un enlace, así: `ask links [set color grey]`
+
+Si bien incluso los usos básicos de los enlaces pueden ser bastante poderosos, existen pocas capas adicionales opcionales de complejidad que se pueden aplicar a los enlaces si es necesario, específicamente los enlaces "dirigidos" y las propiedades de los enlaces.
+
+Primero, los enlaces "dirigidos" son exactamente como los enlaces normales excepto que hay una dirección o un orden inherentes dentro de ellos. Por ejemplo, en un mapa de calle , una calle de un solo sentido puede representarse como un vínculo dirigido porque puede viajar de un extremo al otro, pero no al revés.
+
+En segundo lugar, las propiedades de los enlaces son simplemente variables que son "propiedad" de cada enlace de la misma manera que una tortuga o un parche pueden "poseer" una variable. Cada enlace tiene su propia copia distinta de una variable propiedad del enlace.
+
+En este ejemplo, los enlaces se utilizan para representar rutas aéreas entre cuatro ciudades, Chicago, Nueva York y Boston, en sus seis aeropuertos principales, Chicago Midway (MDW), Chicago O'Hare (ORD), Nueva York John F. Kennedy (JFK), Nueva York LaGuardia (LGA), Boston Logan (BOS) y Aeropuerto Internacional Seattle-Tacoma (SEA). Al cambiar el selector de "elección de aeropuerto", puede ver qué aeropuertos están conectados a cuáles, en otras palabras, a qué aeropuertos puede volar directamente desde cuáles.
