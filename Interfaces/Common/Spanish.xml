@@ -25,6 +25,8 @@
     <String ID="列表" Status="0" English="List">Lista</String>
     <String ID="删除" Status="0" English="Delete">Eliminar</String>
     <String ID="保存" Status="0" English="Save">Guardar</String>
+    <String ID="停止" Status="1" English="Stop">Detener</String>
+    <String ID="全部" Status="1" English="All">Todos</String>
     <String ID="读取" Status="0" English="Load">Cargar</String>
     <String ID="选项" Status="0" English="Options">Opciones</String>
     <String ID="行动" Status="0" English="Actions">Acciones</String>
@@ -185,7 +187,7 @@
     <String ID="请选择至少一个标签。" Status="0" English="Please choose at least one tag.">Por favor elija al menos una etiqueta.</String>
     <String ID="请选择下列标签中的一个：{1}。" Status="0" English="Please choose one of tags: {1}.">Por favor elija una de las etiquetas: {1}.</String>
     <String ID="请选择正确的分类。" Status="0" English="Please choose the correct category.">Por favor elija la categoría correcta.</String>
-    <String ID="你输入的内容中包含不适宜字句：{1}。" Status="0" English="The content you entered contains inappropriate words: {1}.">El contenido que escriviste contiene palabras inapropiadas: {1}.</String>
+    <String ID="你输入的内容中包含不适宜字句。" Status="0" English="The content you entered contains inappropriate words.">El contenido que escriviste contiene palabras inapropiadas.</String>
     <String ID="{0}至少需要包含两个元件。" Status="0" English="{0} must contain at least two components.">{0} debe contener al menos dos componentes.</String>
     <String ID="成功发布了您的{0}！" Status="0" English="Successfully published your {0}!">¡Publicó su {0} con exitó!</String>
     <String ID="删除过程中遇到错误。" Status="0" English="An error was encountered during the deletion.">Se encontró un error durante la eliminación.</String>
