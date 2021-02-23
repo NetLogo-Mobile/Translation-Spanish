@@ -140,7 +140,7 @@ Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-To cite the GenEvo Systems Biology curriculum as a whole, please use:
+Para citar el plan de estudios de GenEvo Sistemas de Biología en total, por favor usa:
 
 * Dabholkar, S. & Wilensky, U. (2016). GenEvo Systems Biology curriculum. http://ccl.northwestern.edu/curriculum/genevo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
