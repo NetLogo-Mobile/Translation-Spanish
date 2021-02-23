@@ -1,10 +1,9 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## Plots
 ### Source
 Cell Division Time
-### Spanish ***
-Tiempo de división celular
+### Spanish
+Tiempo de División Celular
 
 ### Source
 default
@@ -13,102 +12,102 @@ defecto
 
 ### Source
 Energy
-### Spanish ***
+### Spanish
 Energía
 
 ### Source
 Frequency
-### Spanish ***
+### Spanish
 Frecuencia
 
 ### Source
 LacZ Number
-### Spanish ***
+### Spanish
 Número LacZ
 
 ### Source
 Number of Ticks
-### Spanish ***
-Número de garrapatas
+### Spanish
+Número de Tics
 
 ### Source
 Time
-### Spanish ***
-Hora
+### Spanish
+Tiempo
 
 ## Widgets
 ### Source
 average-cell-division-time
-### Spanish ***
-tiempo medio de división celular
+### Spanish
+tiempo-promedio-de-división-celular
 
 ### Source
 glucose?
-### Spanish ***
-¿glucosa?
+### Spanish
+glucosa?
 
 ### Source
 go
-### Spanish ***
-Vamos
+### Spanish
+ir
 
 ### Source
 LacI-bond-leakage
-### Spanish ***
-Fugas lacI-bond
+### Spanish
+fugas-de-LacI-enlace
 
 ### Source
 LacI-lactose-binding-chance
-### Spanish ***
-LacI-posibilidad de unión a lactosa
+### Spanish
+chance-de-unión-de-LacI-lactosa
 
 ### Source
 LacI-lactose-separation-chance
-### Spanish ***
-LacI-lactosa-separación-oportunidad
+### Spanish
+chance-de-seperación-de-LacI-lactosa
 
 ### Source
 LacI-number
-### Spanish ***
+### Spanish
 Número LacI
 
 ### Source
 lactose?
-### Spanish ***
-¿lactosa?
+### Spanish
+lactosa?
 
 ### Source
 LacY-degradation-chance
-### Spanish ***
-LacY-degradación-posibilidad
+### Spanish
+chance-de-degredación-de-LacY
 
 ### Source
 LacZ-degradation-chance
-### Spanish ***
-LacZ-degradación-posibilidad
+### Spanish
+chance-de-degredación-de-LacZ
 
 ### Source
 LevelSpace?
-### Spanish ***
+### Spanish
 LevelSpace?
 
 ### Source
 reset
-### Spanish ***
-Reiniciar
+### Spanish
+reiniciar
 
 ### Source
 RNAP-number
-### Spanish ***
-Número RNAP
+### Spanish
+Número-RNAP
 
 ### Source
 save screenshot
-### Spanish ***
+### Spanish
 guardar captura de pantalla
 
 ### Source
 setup
-### Spanish ***
+### Spanish
 preparar
 

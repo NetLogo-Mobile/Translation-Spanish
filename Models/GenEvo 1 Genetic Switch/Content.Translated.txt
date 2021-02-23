@@ -30,10 +30,10 @@ Hay cuatro regiones de ADN importantes en este modelo:
 3. *Operón* - Esto se indica con el color azul. Aquí es donde están los genes lacY y lacZ. Este modelo incluye solo estos dos genes del operón.
 4. *Terminator* - Esto se indica con el color gris. RNAP se separa del ADN cuando llega a esta región.
 
-A medida que el RNAP se mueve a lo largo del gen, se producen las proteínas LacY y LacZ (cinco moléculas por transcripción). No mostramos la traducción por ribosomas en este modelo.
+Mientras que el RNAP se mueve a lo largo del gene, se producen las proteínas LacY y LacZ (cinco moléculas por cada transcripción). No mostramos la traducción por ribosomas en este modelo.
 
 ### Energía de la célula
-Producir y mantener la maquinaria proteica de una célula requiere energía. Entonces, a medida que una célula produce proteínas y mantiene esas proteínas (RNAP, LacIs y LacZs), su energía disminuye.
+Producir y mantener la maquinaria proteica de una célula requiere energía. Entonces, mientras que una célula produce proteínas y mantiene esas proteínas (RNAP, LacIs y LacZs), su energía disminuye.
 
 La energía de la célula aumenta cuando se digiere la lactosa dentro de la célula.
 
@@ -44,99 +44,99 @@ Cuando la energía de la célula se duplica de su valor inicial, se divide en do
 
 ### Para configurar
 
-Cada control deslizante controla un cierto aspecto de este circuito de regulación genética. Consulte la sección de controles deslizantes para obtener más información sobre la función de cada variable.
+Cada control deslizante controla un cierto aspecto de este circuito de regulación genética. Consulte la Sección de Controles Deslizantes para obtener más información sobre la función de cada variable.
 
-Una vez que todos los controles deslizantes están configurados en los niveles deseados, el usuario debe hacer clic en CONFIGURAR para inicializar la célula.
+Una vez que todos los controles deslizantes están configurados en los niveles deseados, el usuario debe hacer clic en PREPARAR para inicializar la célula.
 
-### Correr
+### Para ejecutar
 
-Para observar el comportamiento de conmutación del interruptor genético, configure GLUCOSA? a ON y LACTOSA? desactivado. Deje que la simulación se ejecute durante unos cientos de tics. Observe los cambios en la energía de la célula a medida que pasa el tiempo y la célula se divide. La energía se reduce a la mitad cuando una célula se divide.
+Para observar el comportamiento de conmutación del cambio genético, enciende GLUCOSA? y apaga LACTOSA?. Deje que la simulación se ejecute durante unos cientos de tics. Observe los cambios en la energía de la célula a medida que pasa el tiempo y la célula se divide. La energía se reduce a la mitad cuando una célula se divide.
 
-Para ejecutar la simulación más rápido, desmarque la casilla &#39;ver actualizaciones&#39; para varios miles de marcas. Observe la producción de LacZ en el gráfico. Varía debido a la naturaleza estocástica de las interacciones moleculares en la célula. Esta variabilidad incluso cuando el interruptor &quot;está apagado&quot; es la razón por la cual los interruptores genéticos se denominan &quot;con fugas&quot;.
+Para ejecutar la simulación más rápido, desmarque la casilla "ver actualizaciones" para varios miles de marcas. Observe la producción de LacZ en el gráfico. Varía debido a el aspecto estocástica de las interacciones moleculares en la célula. Esta variabilidad incluso cuando el interruptor "está apagado" es la razón por la cual los interruptores genéticos se denominan "agujereado".
 
-¿Establecer GLUCOSA? a OFF y LACTOSA? a ON para ver el comportamiento del cambio genético al observar el cambio en la producción de LacZ.
+Establece GLUCOSA? a APAGADO y LACTOSA? a ENCENDIDO para ver el comportamiento del cambio genético al observar el cambio en la producción de LacZ.
 
-Si bien las interacciones moleculares (micro) se observan mejor ejecutando la simulación con &#39;ver actualizaciones&#39; marcadas, para observar el comportamiento celular (macro), las &#39;ver actualizaciones&#39; deben estar desmarcadas y la simulación debe ejecutarse durante varios miles de tics.
+Mientras que las interacciones moleculares (micro) se observan lo mejor a través de ejecutar la simulación con "ver actualizaciones" marcada, para observar comportamiento celular, "ver actualizaciones" debe estar desmarcada y la simulación debe ejecutarse durantes varios miles de tics.
 
 ### Botones
 
-El botón SETUP inicializa el modelo.
+El botón PREPARAR inicializa el modelo.
 
-El botón GO ejecuta la simulación hasta que la célula muere.
+El botón IR ejecuta la simulación hasta que la célula se muere.
 
 ### Interruptores
 
-¿LACTOSA? - Si está encendido, se agrega lactosa al medio externo (fuera de la célula)
+LACTOSA? - Si está ENCENDIDO, se agrega lactosa al medio externo (fuera de la célula)
 
-¿GLUCOSA? - Si está ENCENDIDO, se agrega glucosa al medio externo. La glucosa se modela implícitamente, lo que significa que cuando ¿GLUCOSA? está ENCENDIDO, la energía de una célula aumenta a un ritmo constante (10 unidades / tic). Además, dado que la glucosa es una &quot;fuente de energía preferida&quot;, el promotor lac es menos activo cuando la GLUCOSA? Está encendido.
+GLUCOSA? - Si está ENCENDIDO, se agrega glucosa al medio externo. La glucosa se modela implícitamente, lo que significa que cuando GLUCOSA? está ENCENDIDO, la energía de una célula aumenta a un ritmo constante (10 unidades/tic). Además, dado que la glucosa es una "fuente de energía preferida", el promotor lac es menos activo cuando GLUCOSA? está encendido.
 
 ### Deslizadores
 
-LACI-NUMBER: establece el número de LacIs
+NÚMERO-DE-LACI – establece el número de LacIs
 
-RNAP-NUMBER: establece el número de RNAP
+NÚMERO-DE-RNAP – establece el número de RNAP
 
-FUGAS DE LACI-BOND: esta es la posibilidad de que una molécula de LacI unida al operador se separe del operador
+FUGAS-DE-LACI-ENLACE – esta es la posibilidad de que una molécula de LacI unida al operador se separe del operador
 
-OPORTUNIDAD DE UNIÓN DE LACI-LACTOSA: establece la posibilidad de que una lactosa y un LacI se unan para formar un complejo LacI-lactosa
+CHANCE-DE-UNIÓN-DE-LACI-LACTOSA – establece la posibilidad de que una lactosa y un LacI se unan para formar un complejo LacI-lactosa
 
-OPORTUNIDAD DE SEPARACIÓN DE LACI-LACTOSA - Establece la posibilidad de que se separe un complejo de LacI-lactosa
+CHANCE-DE-SEPARACIÓN-DE-LACI-LACTOSA – Establece la posibilidad de que se separe un complejo de LacI-lactosa
 
-LACY-DEGRADATION-CHANCE: establece la probabilidad de degradación de un LacY que se instala en la pared de la célula
+CHANCE-DE-DEGRADACIÓN-DE-LACY – establece la probabilidad de degradación de un LacY que se instala en la pared de la célula
 
-LACZ-DEGRADATION-CHANCE: establece la posibilidad de degradación de las moléculas de LacZ en la célula
+CHANCE-DE-DEGREDACIÓN-DE-LACZ – establece la posibilidad de degradación de las moléculas de LacZ en la célula
 
 ### Parcelas
 
-Energía: traza la cantidad de energía en la célula a lo largo del tiempo.
+Energía – traza la cantidad de energía en la célula a lo largo del tiempo.
 
-Número lacZ: traza el número de moléculas LacZ dentro de una célula.
+Número lacZ – traza el número de moléculas LacZ dentro de una célula.
 
-Tiempo de división celular: traza el número de tics entre dos eventos de división celular. Se puede utilizar como indicador de tasa de crecimiento. Un tiempo de división celular más corto indica una mayor tasa de crecimiento.
+Tiempo de División Celular – traza el número de tics entre dos eventos de división celular. Se puede usar como indicador de tasa de crecimiento. Un tiempo de división celular más corto indica una mayor tasa de crecimiento.
 
 ##  COSAS PARA NOTAR
 
-Observe las tres partes del mecanismo molecular involucradas en el control del interruptor genético:
+Tenga en cuenta las tres partes del mecanismo molecular involucradas en el control del cambio genético:
 1. Captación de lactosa de afuera hacia adentro a través de LacY
 2. Represión por LacI en ausencia de lactosa
 3. Formación del complejo LacI-lactosa en presencia de lactosa y eliminación de la represión
 
-Observe los cambios en la energía de las células cuando se agrega lactosa (es decir, cuando LACTOSA? Está ENCENDIDA y cuando LACTOSA? Está APAGADA).
+Observa los cambios en energía de las células cuando se agrega lactosa (es decir, cuando LACTOSA? está ENCENDIDO y cuando LACTOSA? está APAGADO).
 
-Observe los cambios de energía cuando una célula se divide.
+Observa los cambios de energía cuando una célula se divide.
 
-Observe los cambios en el tiempo medio de división celular a medida que pasa el tiempo.
+Observa los cambios en el tiempo medio de división celular a medida que pasa el tiempo.
 
-Observe el efecto de los cambios en las condiciones ambientales (ON / OFF de GLUCOSA? Y LACTOSA? En el tiempo medio de división celular y el número de LacZ.
+Observa el efecto de los cambios en las condiciones ambientales (ENCENDIDO/APAGADO de GLUCOSA? y LACTOSA? en el tiempo medio de división celular y el número de LacZ.
 
 ##  COSAS PARA INTENTAR
 
-Intente hacer que el cambio genético sea más sensible a las condiciones ambientales. Debe estar &quot;encendido&quot; sólo cuando la lactosa está presente y &quot;apagado&quot; en caso contrario. Puede hacer esto cambiando los parámetros del control deslizante.
+Intente hacer que el cambio genético sea más sensible a las condiciones ambientales. Debe estar "encendido" sólo cuando la lactosa está presente y "apagado" en caso contrario. Puedes hacer esto cambiando los parámetros del control deslizante.
 
 Si la célula comienza a absorber lactosa y a producir energía más rápidamente, ¿el tiempo promedio de división celular también disminuye?
 
 ##  EXTENDIENDO EL MODELO
 
-¡En la vida real, las células no son planas! Vea si puede extender el modelo a tres dimensiones con NetLogo 3D.
+¡En la vida real, las células no son planas! Vea si puedes extender el modelo a tres dimensiones con NetLogo 3D.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Este modelo utiliza ampliamente la primitiva &quot;with&quot; de NetLogo. Esto se debe a que, aunque las diferentes proteínas están representadas por diferentes &quot;razas&quot;, las proteínas también existen en varios estados.
+Este modelo usa ampliamente la primitiva "con" de NetLogo. Esto se debe a que, aunque las diferentes proteínas están representadas por diferentes 'breeds', las proteínas también existen en varios estados.
 
 ##  MODELOS RELACIONADOS 
 
-* GenEvo Curricular Models
-* GenDrift Sample Models
+* GenEvo Modelos Curriculares
+* GenDrift Modelos de Muestra
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Dabholkar, S., Bain, C. and Wilensky, U. (2016).  NetLogo GenEvo 1 Genetic Switch model.  http://ccl.northwestern.edu/netlogo/models/GenEvo1GeneticSwitch.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -155,3 +155,5 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
 
 <!-- 2016 GenEvo Cite: Dabholkar, S., Bain, C. -->
+
+Traductora: Chelsea Guzman
