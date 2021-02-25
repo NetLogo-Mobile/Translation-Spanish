@@ -1,65 +1,64 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Que es
+﻿## ¿QUÉ ES?
 
 Este modelo simula la transmisión y perpetuación de un virus en una población humana.
 
-Los biólogos ecológicos han sugerido una serie de factores que pueden influir en la supervivencia de un virus transmitido directamente dentro de una población. (Yorke, et al. &quot;Estacionalidad y requisitos para la perpetuación y erradicación de virus en poblaciones&quot;. Journal of Epidemiology, volumen 109, páginas 103-123)
+Los biólogos ecológicos han sugerido una serie de factores que pueden influir la supervivencia de un virus transmitido dentro de una población. (Yorke, et al. "Seasonality and the requirements for perpetuation and eradication of viruses in populations." Journal of Epidemiology, volume 109, pages 103-123)
 
-##  COMO FUNCIONA
+## COMO FUNCIONA
 
-El modelo se inicializa con 150 personas, de las cuales 10 están infectadas. Las personas se mueven al azar por el mundo en uno de los tres estados: sanos pero susceptibles a infecciones (verde), enfermos e infecciosos (rojo) y sanos e inmunes (gris). Las personas pueden morir de infección o de vejez. Cuando la población cae por debajo de la &quot;capacidad de carga&quot; del medio ambiente (establecida en 300 en este modelo), las personas sanas pueden producir descendencia sana (pero susceptible).
+El modelo empieza con 150 personas, de las cuales 10 están infectados. Las personas se mueven al azar por el mundo en uno de los tres estados: sanos pero susceptibles a infecciones (verde), enfermos e infecciosos (rojo), y sanos e inmunes (gris). Las personas pueden morir de infección o de vejez. Cuando la población cae por debajo de la “capacidad de carga” (fijado en 300 en este modelo), las personas sanas pueden producir hijos sanos (pero susceptibles).
 
-Algunos de estos factores se resumen a continuación con una explicación de cómo se trata cada uno en este modelo.
+Algunos de estos factores son resumidos abajo con una explicación de cómo se trata cada uno en este modelo.
 
-### La densidad de la población
+### La densidad de la Población
 
-La densidad de población afecta la frecuencia con la que las personas infectadas, inmunes y susceptibles entran en contacto entre sí. Puede cambiar el tamaño de la población inicial a través del control deslizante NÚMERO-PERSONAS.
+La densidad de la población afecta la frecuencia con la que las personas infectadas, inmunes y susceptibles entran en contacto entre ellos mismos. Puedes cambiar el tamaño de la población inicial a través del control deslizante NÚMERO-PERSONAS.
 
-### Rotación de población
+### Rotación de Población
 
-A medida que los individuos mueren, algunos de los que mueren se infectarán, algunos serán susceptibles y algunos serán inmunes. Todos los nuevos individuos que nazcan, reemplazando a los que mueren, serán susceptibles. Las personas pueden morir a causa del virus, cuyas posibilidades están determinadas por el control deslizante OPORTUNIDAD-RECUPERACIÓN, o pueden morir de vejez.
+A medida que los individuos mueren, algunos de los que se mueren se infectarán, algunos serán susceptibles y algunos serán inmunes. Todos los nuevos individuos que nazcan, reemplazando a los que se mueren, serán susceptibles. Es posible que las personas mueren por el virus, cuyas posibilidades están determinadas por el control deslizante OPORTUNIDAD-RECUPERACIÓN, o pueden morir de vejez.
 
-En este modelo, las personas mueren de vejez a la edad de 50 años. La tasa de reproducción es constante en este modelo. Cada turno, si no se ha alcanzado la capacidad de carga, cada individuo sano tiene un 1% de posibilidades de reproducirse.
+En este modelo, las personas se mueren de vejez a los 50 años. La tasa de reproducción es constante en este modelo. Cada turno, si no se ha alcanzado la capacidad de carga, cada individuo sano tiene 1% de posibilidad de reproducir.
 
-### Grado de inmunidad
+### Grado de Inmunidad
 
-Si una persona ha sido infectada y se ha recuperado, ¿qué tan inmune es al virus? A menudo asumimos que la inmunidad dura toda la vida y está asegurada, pero en algunos casos la inmunidad desaparece con el tiempo y es posible que la inmunidad no sea absolutamente segura. En este modelo, la inmunidad es segura, pero solo dura un año.
+Si una persona ha sido infectada y se recuperó ¿qué tan inmune es al virus? A menudo asumimos que la inmunidad dura toda la vida y está asegurada, pero en algunos casos la inmunidad desaparece con el tiempo y es posible que no sea absolutamente asegurada. En este modelo, la inmunidad es segura, pero solo dura un año.
 
 ### Infecciosidad (o transmisibilidad)
 
-¿Con qué facilidad se propaga el virus? Algunos virus con los que estamos familiarizados se propagan con mucha facilidad. Algunos virus se propagan desde el contacto más pequeño cada vez. Otros (el virus del VIH, que es responsable del SIDA, por ejemplo) requieren un contacto significativo, quizás muchas veces, antes de que se transmita el virus. En este modelo, la infecciosidad se determina mediante el control deslizante INFECTIOUSNESS.
+¿Con qué facilidad se propaga el virus? Algunos virus con los que conocemos se proponen con mucha facilidad. Algunos virus se propagan desde el contacto más pequeño cada vez. Otros (el virus del VIH, el que es responsable por SIDA, por ejemplo) requieren un contacto significativo, quizás muchas veces, antes de que se transmita el virus. En este modelo, la infecciosidad se determina por el control deslizante INFECCIOSIDAD.
 
-### Duración de la infecciosidad
+### Duración de Infecciosidad
 
-¿Cuánto tiempo está infectada una persona antes de que se recupere o muera? Este período de tiempo es esencialmente la ventana de oportunidad del virus para la transmisión a nuevos hosts. En este modelo, la duración de la infecciosidad se determina mediante el control deslizante DURACIÓN.
+¿Por cuánto tiempo está infectada una persona antes de que se recupere o muera? Este periodo de tiempo es esencialmente la ventana de oportunidad del virus para transmisión a nuevos anfitriones. En este modelo, la duración de infecciosidad se determina por el control deslizante DURACIÓN.
 
-### Parámetros codificados de forma rígida
+### Parámetros Codificados
 
-Cuatro parámetros importantes de este modelo se establecen como constantes en el código (consulte el procedimiento `setup-constants`). Se pueden exponer como controles deslizantes si se desea. La esperanza de vida de las tortugas se establece en 50 años, la capacidad de carga del mundo se establece en 300, la duración de la inmunidad se establece en 52 semanas y la tasa de natalidad se establece en una probabilidad de 1 en 100 de reproducirse por tic cuando el número de personas es menor que la capacidad de carga.
+Cuatro parámetros importantes de este modelo se establecen como constantes en el código (consulte el procedimiento de preparación). Puedes exponerlos como controles deslizantes si quieres. La duración de vida de las tortugas está establecida a 50 años, la capacidad de carga del mundo se establece en 300, la duración de la inmunidad se establece en 52 semanas y la tasa de natalidad en una probabilidad de 1 en 100 de reproducir por tic cuando el número de personas es menor que la capacidad de carga.
 
-##  COMO USARLO
+## COMO USARLO
 
-Cada &quot;tic&quot; representa una semana en la escala de tiempo de este modelo.
+Cada “tic” representa una semana en la escala de tiempo de este modelo.
 
-El control deslizante INFECTIOUSNESS determina la probabilidad de que ocurra la transmisión del virus cuando una persona infectada y una persona susceptible ocupan el mismo parche. Por ejemplo, cuando el control deslizante se establece en 50, el virus se propagará aproximadamente una vez cada dos encuentros fortuitos.
+El control deslizante INFECCIOSIDAD determina la probabilidad de que ocurra la transmisión del virus cuando una persona infectada y una persona susceptible ocupan la misma parcela. Por ejemplo, cuando el control deslizante está establecido a 50, el virus se propagará aproximadamente una vez en cada dos encuentros.
 
-El control deslizante DURACIÓN determina el número de semanas antes de que una persona infectada muera o se recupere.
+El control deslizante DURACIÓN determina el número de semanas antes de que una persona infectada se muera o se recupere.
 
-El control deslizante OPORTUNIDAD-RECUPERACIÓN controla la probabilidad de que una infección termine en recuperación / inmunidad. Cuando este control deslizante se establece en cero, por ejemplo, la infección siempre es mortal.
+El control deslizante CHANCE-DE-RECUPERACIÓN controla la probabilidad de que una infección terminará en recuperación/inmunidad. Cuando este control deslizante está en cero, por ejemplo, la infección siempre será mortal.
 
-El botón CONFIGURAR restablece los gráficos y trazados y distribuye aleatoriamente el NÚMERO DE PERSONAS en la vista. Todas menos 10 de las personas están configuradas para ser personas susceptibles al verde y 10 personas infectadas por el rojo (de edades distribuidas al azar). El botón IR inicia la simulación y la función de trazado.
+El botón PREPARAR restablece los gráficos y las gráficas y distribuye aleatoriamente el NÚMERO-DE-PERSONAS en la vista. Todas menos 10 de las personas están configuradas para ser personas verdes susceptibles y 10 personas rojas infectadas (de edades distribuidas al azar). El botón IR empieza la simulación y la función de graficar.
 
-El selector TURTLE-SHAPE controla si las personas se visualizan como formas de personas o como círculos.
+El elección TORTUGA-FORMA controla si las personas son visualizadas como formas de personas o círculos.
 
-Tres monitores de salida muestran el porcentaje de la población que está infectada, el porcentaje que es inmune y el número de años que han pasado. La gráfica muestra (en sus respectivos colores) el número de personas susceptibles, infectadas e inmunes. También muestra el número de individuos de la población total en azul.
+Tres monitores de salida muestran el porcentaje de la población que está infectada, el porcentaje que es inmune, y el número de años que han pasado. La gráfica muestra (en sus colores respectivos) el número de personas susceptibles, infectadas e inmunes. También muestra el número de individuos de la población total en azul.
 
 ##  COSAS PARA NOTAR
 
-Los factores controlados por los tres controles deslizantes interactúan para influir en la probabilidad de que el virus prospere en esta población. Tenga en cuenta que en todos los casos, estos factores deben crear un equilibrio en el que un número adecuado de huéspedes potenciales permanezcan disponibles para el virus y en el que el virus pueda acceder adecuadamente a esos huéspedes.
+Los factores controlados por los tres controles deslizantes interactúan para influir la probabilidad de que el virus prospere en esta población. Tenga en cuenta que en todos estos casos, estos factores deben crear un equilibrio en el que un número adecuado de anfitriones potenciales permanezcan disponibles para el virus y en el que el virus pueda acceder adecuadamente a esos anfitriones.
 
-A menudo, inicialmente habrá una explosión de infección ya que nadie en la población es inmune. Esto se aproxima al &quot;brote&quot; inicial de una infección viral en una población, que a menudo tiene consecuencias devastadoras para los humanos afectados. Pronto, sin embargo, el virus se vuelve menos común a medida que cambia la dinámica de la población. Lo que finalmente le sucede al virus está determinado por los factores controlados por los controles deslizantes.
+A menudo, inicialmente habrá una explosión de infección cuando nadie en la población es inmune. Esto se aproxima al “brote” inicial de una infección viral en una población, que a menudo tiene consecuencias devastadoras para los humanos afectados. Pronto, sin embargo, el virus se vuelve menos común a medida que cambia la dinámica de la población. Lo que finalmente sucede al virus es determinado por los factores controlados por los controles deslizantes.
 
-Tenga en cuenta que los virus que tienen demasiado éxito al principio (que infectan a casi todo el mundo) pueden no sobrevivir a largo plazo. Dado que todas las personas infectadas generalmente mueren o se vuelven inmunes como resultado, el número potencial de huéspedes suele ser limitado. La excepción a lo anterior es cuando el control deslizante DURACIÓN se establece tan alto que la rotación de la población (reproducción) puede mantenerse al día y proporcionar nuevos hosts.
+Tenga en cuenta que los virus que tienen mucho éxito al principio (que infectan a casi todo el mundo) puede que no sobrevivan a largo plazo. Dado que las personas infectadas generalmente mueren o se vuelven inmunes como resultado, el número potencial de anfitriones es limitado. La excepción es cuando el control deslizante DURACIÓN  se establece tan alto que la rotación de la población (reproducción) puede mantenerse al día y proporcionar nuevos anfitriones.
 
 ##  COSAS PARA INTENTAR
 
@@ -71,40 +70,41 @@ El virus del VIH, que causa el SIDA, tiene una duración extremadamente larga, u
 
 Agregue controles deslizantes adicionales que controlen la capacidad de carga del mundo (cuántas personas pueden haber en el mundo al mismo tiempo), la esperanza de vida promedio de las personas y su tasa de natalidad.
 
-Cree un modelo similar que simule la infección viral de un huésped no humano con tasas de reproducción, esperanza de vida y densidades de población muy diferentes.
+Cree un modelo similar que simule la infección viral de un anfitrión viral no humano con tasas de reproducción, duración de vida y densidades de población muy diferentes.
 
-Agrega un control deslizante que controle la duración de la inmunidad. También puede hacer que la inmunidad sea imperfecta, de modo que las tortugas inmunes aún tengan una pequeña posibilidad de infectarse. Esta posibilidad podría aumentar con el tiempo.
+Añade un control deslizante que controla la duración de la inmunidad. También puedes hacer que la inmunidad sea imperfecta, para que la inmunidad de las tortugas inmunes todavía tengan una pequeña posibilidad de infectarse. Esta posibilidad podría aumentar con el tiempo. 
 
 ##  VISUALIZACIÓN
 
-La visualización circular del modelo proviene de las pautas presentadas en
+La visualización del círculo de este modelo viene de pautas presentadas en
 Kornhauser, D., Wilensky, U. y Rand, W. (2009). http://ccl.northwestern.edu/papers/2009/Kornhauser,Wilensky&amp;Rand_DesignGuidelinesABMViz.pdf.
 
-En el nivel más bajo, los impedimentos de percepción surgen cuando superamos las limitaciones de nuestro sistema visual de bajo nivel. Las características visuales que son difíciles de distinguir pueden inhabilitar nuestras capacidades de procesamiento de preatención. El procesamiento previo a la atención puede verse obstaculizado por otros fenómenos cognitivos como la interferencia entre las características visuales (Healey 2006).
+En el nivel más bajo, los impedimentos de percepción surgen cuando superamos las limitaciones de nuestro sistema visual de bajo nivel. Las características visuales que son difíciles de distinguir pueden inhabilitar nuestra capacidad de procesamiento de pre-atención. El procesamiento previo a la atención puede verse obstaculizado por otros fenómenos cognitivos como la interferencia entre las características visuales (Healey 2006).
 
-Se supone que la visualización del círculo en este modelo hace que sea más fácil ver cuando los agentes interactúan porque la superposición es más fácil de ver entre círculos que entre las formas de &quot;personas&quot;. En la visualización del círculo, los círculos se fusionan para crear nuevas formas compuestas. Por lo tanto, es más fácil percibir nuevas formas compuestas en la visualización del círculo.
-¿La visualización del círculo le facilita ver lo que está sucediendo?
+La visualización del círculo en este modelo está supuesto facilitar observar agentes interactuando porque la superposición es más fácil de ver entre círculos que entre las formas de “personas”. En la visualización del círculo, los círculos se fusionan para crear nuevas formas compuestas. Entonces, es más fácil ver nuevas formas compuestas en la visualización del círculo. ¿Te facilita ver lo que sucede está visualización?
+
+¿Te facilita ver lo que sucede está visualización?
 
 ##  MODELOS RELACIONADOS 
 
-* HIV
-* Virus on a Network
+* VIH
+* Virus en una Red
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-This model can show an alternate visualization of the Virus model using circles to represent the people. It uses visualization techniques as recommended in the paper:
+Este modelo puede enseñar una visualización del modelo Virus alternado usando círculos para representar las personas. Usa técnicas de visualización que es recomendado en este ensayo:
 
 Kornhauser, D., Wilensky, U., & Rand, W. (2009). Design guidelines for agent based model visualization. Journal of Artificial Societies and Social Simulation, JASSS, 12(2), 1.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1998).  NetLogo Virus model.  http://ccl.northwestern.edu/netlogo/models/Virus.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -123,3 +123,5 @@ This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SEN
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
 
 <!-- 1998 2001 -->
+
+Traductora: Chelsea Guzmán
