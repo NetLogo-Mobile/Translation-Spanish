@@ -10,7 +10,7 @@ Establece el control deslizante NÚMERO-DE-CARROS para cambiar el número de car
 
 El control deslizante ACELERACIÓN controla la tasa a la que los carros aceleran cuando no hay carros delante.
 
-Cuando un carro ve a otro carro justo en frente, coincide con la velocidad de ese carro y luego reduce la velocidad un poco. El control deslizante ACELERACIÓN controla cuanto más lento va ir que el carro delante de él.
+Cuando un carro ve a otro carro justo en frente, coincide con la velocidad de ese carro y luego reduce la velocidad un poco. El control deslizante DESACELERACIÓN controla cuanto más lento va ir que el carro delante de él.
 
 COSAS PARA NOTAR
 
@@ -26,7 +26,6 @@ la velocidad de un solo carro (tortuga 0), pintado rojo para que lo puedas obser
 
 Tenga en cuenta no solo el maximo y el minimo, pero también la variabilidad -- la “sacudida” de un carro.
 
-
 Tenga en cuenta que las configuraciones predeterminadas mantiene que los carros desaceleran mucho más rápido de cómo aceleran. Esto es típico en modelos del flujo de tráfico.
 
 Aunque ambas ACELERACIÓN y DESACELERACIÓN son muy bajos, los carros pueden obtener altas velocidades ya que estos valores se suman o restan en cada tic. 
@@ -35,15 +34,15 @@ COSAS PARA INTENTAR
 
 En este modelo, hay tres controles deslizantes que pueden afectar la tendencia de crear atascos, el NÚMERO-DE-CARROS inicial, ACELERACIÓN y DESACELERACIÓN.
 
-Busca patrones en cómo estas configuraciones afectan el flujo de tráfico. ¿Cuáles variables tienen el efecto mayor? ¿Son consistentes con tus experiencias de manejo?
+Busca patrones en cómo estas configuraciones afectan el flujo de tráfico. ¿Cuáles variables tienen el efecto mayor?¿Tienen sentido los patrones? ¿Son consistentes con tus experiencias de manejo?
 
-Establece DESACELERACIÓN en cero. ¿Qué pasa al flujo? Aumente gradualmente la DESACELERACIÓN mientras que se ejecuta el modelo. ¿En qué punto se “quiebre” el flujo?
+Establece DESACELERACIÓN en cero. ¿Qué le pasa al flujo? Aumente gradualmente la DESACELERACIÓN mientras que se ejecuta el modelo. ¿En qué punto se “quiebre” el flujo?
 
 EXTENDIENDO EL MODELO
 
 Trata otras reglas para la aceleración y desaceleración. ¿Es realista la regla presentada aquí? ¿Existen otras reglas que sean más precisas o representen mejores estrategias de manejo?
 
-En realidad, diferentes carros siguen diferentes reglas. Intenta dar algunos de los carros diferentes reglas de ACELERACIÓN/DESACELERACIÓN. ¿Un solo mal conductor puede estropear las cosas?
+En realidad, diferentes carros siguen diferentes reglas. Intente dar diferentes reglas o valores de ACELERACIÓN / DESACELERACIÓN a algunos de los carros. ¿Un solo mal conductor puede estropear las cosas?
 
 La asimetría entre aceleración y desaceleración es una representación simplificada de hábitos del manejo y tiempos de respuesta. ¿Puedes codificarlos explícitamente en el modelo?
 
@@ -66,7 +65,7 @@ MODELOS RELACIONADOS
 “Tráfico Básico Utilidad”: una versión de “Tráfico Básico” que incluye la función de utilidad para los carros.
 “Tráfico Básico Adaptado”: una versión de “Tráfico Básico” en la que los carros adaptan su aceleración para intentar mantener un flujo de tráfico fluido.
 “Tráfico Básico Adaptado Individuos”: una versión de “Tráfico Básico Adaptado” en la que cada carro se adapta individualmente, en lugar de que todos los carros se adapten al unísono. 
-“Tráfico 2 Carriles”: es una versión de dos-carriles más sofisticada del modelo “Tráfico Básico”.
+“Tráfico 2 Carriles”: es una versión de dos-carriles más sofisticada que el modelo “Tráfico Básico”.
 “Tráfico Intersección”: un modelo de carros manejando por una sola intersección.
 “Tráfico Cuadrícula”: un modelo de tráfico moviéndose por una cuadrícula de ciudad, con semáforos en las intersecciones. 
 “Tráfico Cuadrícula Objetivo”: una versión de “Tráfico Cuadrícula” en el que los carros tienen objetivos, es decir, manejar hacia y desde el trabajo.
