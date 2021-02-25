@@ -6,9 +6,9 @@ Un ejemplo popular del fenómeno del mundo pequeño es la red creada por actores
 
 ##  COMO FUNCIONA
 
-Este modelo es una adaptación del modelo Watts-Strogatz que está conectado a sus dos vecinos en cada lado. Usando esta basa, modificamos la red al cableado de los nodos–cambiando un extremo de un par de nodos y manteniendo el otro extremo igual. Con el tiempo, analizamos el efecto de este recableado en varias conexiones entre nodos y en las propiedades de la red.
+Este modelo es una adaptación del modelo Watts-Strogatz que está conectado a sus dos vecinos en cada lado. Usando esta base, modificamos la red al cableado de los nodos–cambiando un extremo de un par de nodos y manteniendo el otro extremo igual. Con el tiempo, analizamos el efecto que este recableado tiene en varias conexiones entre nodos y en las propiedades de la red.
 
-Particularmente, estamos interesados en identificar “mundos pequeños”. Para identificar muñoz pequeños, la “longitud de camino promedio” (abreviado “lcp”) y el “coeficiente de agrupamiento” (abreviado “ca”) de la red se trazan y calculad después de realizar un cableado. Redes con longitudes de camino medias cortas y coeficientes de agrupación elevados se consideran redes de mundo pequeño. Consulta la sección Estadísticas de CÓMO USARLO sobre cómo se calculan.
+Particularmente, estamos interesados en identificar “mundos pequeños”. Para identificar mundos pequeños, la “longitud de camino promedio” (abreviado “lcp”) y el “coeficiente de agrupamiento” (abreviado “ca”) de la red se trazan y calculan después de realizar un cableado. Redes con longitudes de camino medias cortas y coeficientes de agrupación elevados se consideran redes de mundo pequeño. Consulta la sección Estadísticas de CÓMO USARLO sobre cómo se calculan.
 
 ##  COMO USARLO
 
@@ -22,13 +22,13 @@ Cuando presionas RESALTAR y señalas a un nodo en la vista lo codifica con color
 
 ### Estadísticas
 
-** Longitud de Camino Promedio **: Longitud de Camino Promedio se calcula al encontrar el camino más corto entre todos los pares de nodos, sumándolos, y luego dividiéndolos por el número total de pares. Esto nos muestra, en promedio, la cantidad de pasos que se necesitan para pasar de un nodo de la red a otro.
+**Longitud de Camino Promedio**: Longitud de Camino Promedio se calcula al encontrar el camino más corto entre todos los pares de nodos, sumándolos, y luego dividiéndolos por el número total de pares. Esto nos muestra, en promedio, la cantidad de pasos que se necesitan para pasar de un nodo de la red a otro.
 
-Para encontrar las rutas más cortas entre todos los pares de nodos, utilizamos el algoritmo de programación dinámica estándar de Floyd Warshall. Es posible que hayas notado que el modelo se ejecuta lentamente para una gran cantidad de nodos. Esto es porque el tiempo que tarda en ejecutarse al algoritmo Floyd Warshall (u otro algoritmo de “todos-los-pares-camino-más-corta” aumenta polinomialmente con el número de nodos.
+Para encontrar las rutas más cortas entre todos los pares de nodos, utilizamos el algoritmo de programación dinámica estándar de Floyd Warshall. Es posible que hayas notado que el modelo se ejecuta lentamente para una gran cantidad de nodos. Esto es porque el tiempo que tarda en ejecutarse al algoritmo Floyd Warshall (u otro algoritmo de “todos-los-pares-camino-más-corta”) aumenta polinomialmente con el número de nodos.
 
-** Coeficiente de Agrupamiento **: El coeficiente de agrupamiento de un nodo es la proporción de bordes existentes que conectan a los vecinos de un nodo entre sí con el número máximo posible de dichos bordes. Es, en esencia, una medida de la propiedad de “todos mis amigos se conocen”. El coeficiente de agrupamiento para toda la red es el promedio de los coeficientes de agrupamiento de todos los nodos.
+**Coeficiente de Agrupamiento**: El coeficiente de agrupamiento de un nodo es la proporción de bordes existentes que conectan a los vecinos de un nodo entre sí con el número máximo posible de dichos bordes. Es, en esencia, una medida de la propiedad de “todos mis amigos se conocen”. El coeficiente de agrupamiento para toda la red es el promedio de los coeficientes de agrupamiento de todos los nodos.
 
-### Parcelas
+### Gráficos
 
 1. La “Propiedades de la Red Recablear-Uno” visualiza la longitud-de-camino-promedio y coeficiente-de-agrupamiento de la red mientras que el usuario aumenta el número se solo-recablea en la red.
 
@@ -50,7 +50,7 @@ Trata de graficar los valores para diferentes probabilidades de recablear y obse
 
 ¿Las tendencias dependen en el número de nodos en la red?
 
-Establece NÚM-NODOS en 80 y luego presiona PREPARAR. Vaya a BehaviorSpace y ejecuta el experimento VARIAR-RECABLEAR-PROBABILIDAD. Intente ejecutar el experimento 
+Establece NÚM-NODOS en 80 y luego presiona PREPARAR. Vaya a BehaviorSpace y ejecuta el experimento VARIAR-RECABLEAR-PROBABILIDAD. Intente ejecutar el experimento varias veces sin borrar el gráfico (es decir, no vuelva a ejecutar PREPARAR). ¿Qué rango de probabilidades de recableado resulta en redes de mundos pequeños?
 
 ##  EXTENDIENDO EL MODELO
 
