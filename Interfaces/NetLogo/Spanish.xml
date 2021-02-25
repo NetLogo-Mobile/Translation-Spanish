@@ -15,7 +15,7 @@
     <String ID="未能成功读取本地化信息……" Status="0" English="Failed to read the localization information...">No se pudo leer la información de localización ...</String>
     <String ID="只有初始化时钟 (Tick) 之后才能使用！" Status="0" English="Can only be used after initializing the tick!">¡Solo se puede usar después de inicializar la marca!</String>
     <String ID="覆盖模型" Status="0" English="Override the model">Anular el modelo</String>
-    <String ID="点击确认将文件覆盖到本地模型；点击取消创建新的工作区。" Status="1" English="Click OK to override the file to the current model; click Cancel to create a new workspace.">Haga clic en Aceptar para reemplazar el archivo al modelo actual; haga clic en Cancelar para crear un nuevo espacio de trabajo.</String>
+    <String ID="点击确认将文件覆盖到本地模型；点击取消创建新的工作区。" Status="0" English="Click OK to override the file to the current model; click Cancel to create a new workspace.">Haz clic en OK para reemplazar el archivo al modelo actual; haz clic en Cancelar para crear un nuevo espacio de trabajo.</String>
   </Interfaces>
   <Toolbar>
     <String ID="编译" Status="0" English="Compile">Compilar</String>
@@ -23,7 +23,7 @@
     <String ID="图形" Status="0" English="Blocks">Bloques</String>
     <String ID="代码" Status="0" English="Code">Código</String>
     <String ID="重置" Status="0" English="Reset">Reiniciar</String>
-    <String ID="帮助" Status="1" English="Help">Ayuda</String>
+    <String ID="帮助" Status="0" English="Help">Ayuda</String>
     <String ID="控制台" Status="0" English="Console">Consola</String>
     <String ID="编程区 {0}" Status="0" English="Blockspace {0}">Espacio de Bloques {0}</String>
     <String ID="重置代码" Status="0" English="Reset Code">Restablecer Código</String>
@@ -36,7 +36,7 @@
     <String ID="编辑器支持竖屏使用。旋转屏幕获得最佳体验！" Status="0" English="Rotate your device for better experience!">¡Gire tu aparato para una mejor experiencia!</String>
     <String ID="抱歉，未能理解你输入的命令" Status="2" />
     <String ID="成功执行了命令。" Status="0" English="The command was executed successfully.">El comando se ejecutó con éxito.</String>
-    <String ID="工具" Status="1" English="Utilities">Utilidades</String>
+    <String ID="工具" Status="0" English="Utilities">Utilidades</String>
     <String ID="海龟" Status="0" English="Turtles">Tortugas</String>
     <String ID="格子" Status="0" English="Patches">Parcelas</String>
     <String ID="链接" Status="0" English="Links">Enlaces</String>
@@ -44,39 +44,39 @@
     <String ID="所有海龟" Status="0" English="Turtles">Tortugas</String>
     <String ID="所有格子" Status="0" English="Patches">Parcelas</String>
     <String ID="所有链接" Status="0" English="Links">Enlaces</String>
-    <String ID="查找：" Status="1" English="Find:">Encontrar:</String>
-    <String ID="替换：" Status="1" English="Replace:">Reemplazar:</String>
-    <String ID="全部替换：" Status="1" English="Replace all:">Reemplaza todo:</String>
-    <String ID="替换成：" Status="1" English="With:">Con:</String>
-    <String ID="进行替换？" Status="1" English="Replace?">¿Reemplazar?</String>
-    <String ID="跳转到子程序" Status="1" English="Jump to Procedures">Ir a Procedimientos</String>
-    <String ID="代码中还没有任何子程序。" Status="1" English="There are no procedures in the code.">No hay procedimientos en el código.</String>
-    <String ID="你可以在这里输入 NetLogo 代码，试试会发生什么。" Status="1" English="Try to type some NetLogo code here and see what happens.">Intente escribir algo de código NetLogo aquí y vea qué sucede.</String>
-    <String ID="不同的主语决定了代码会“由谁执行”。例如，“海龟”的意思是让所有海龟一起执行。你也可以由“观察者”向海龟发布命令：" Status="1" English="You may give instructions to different subjects. For example, &quot;turtles&quot; will have all turtles follow the same command. You can also issue commands to turtles from the observer:">Puede dar instrucciones a diferentes temas. Por ejemplo, &amp;quot;tortugas&amp;quot; hará que todas las tortugas sigan el mismo comando. También puede emitir comandos a las tortugas desde el observador:</String>
-    <String ID="点击“帮助”按钮显示关于 NetLogo 建模语言的帮助。有些模型可能会提供专属的探索指南。" Status="1" English="Click the &quot;Help&quot; button to learn more about NetLogo. Some models may provide some code examples and in-depth explanations for you to try out.">Haga clic en el botón &amp;quot;Ayuda&amp;quot; para obtener más información sobre NetLogo. Algunos modelos pueden proporcionar algunos ejemplos de código y explicaciones detalladas para que los pruebe.</String>
-    <String ID="点击“代码”按钮可以查看和编辑模型的完整代码。" Status="1" English="Click the &quot;Code&quot; button to view and edit the code of the model.">Haga clic en el botón &amp;quot;Código&amp;quot; para ver y editar el código del modelo.</String>
-    <String ID="参见" Status="1" English="See also">Ver también</String>
-    <String ID="阅读全文" Status="1" English="full text">texto completo</String>
-    <String ID="返回上一页……" Status="1" English="Return to the previous page...">Regresar a la página anterior...</String>
-    <String ID="前往下一页……" Status="1" English="Go to the next page...">Ir a la página siguiente ...</String>
-    <String ID="抱歉，未能查询到相关关键字。" Status="1" English="Sorry, no keywords were found.">Lo sentimos, no se encontraron palabras clave.</String>
-    <String ID="查询到 {0} 个关键字，正在显示第 {1} 页。" Status="1" English="{0} keywords found. We are at page {1}.">{0} palabras clave encontradas. Estamos en la página {1}.</String>
-    <String ID="{0} 命令列出 NetLogo 建模语言的关键字。" Status="1" English="{0} lists the keywords of the NetLogo modeling language.">{0} enumera las palabras clave del lenguaje de modelado NetLogo.</String>
-    <String ID="列出和海龟有关的关键字。" Status="1" English="List keywords related to turtles.">Enumere las palabras clave relacionadas con las tortugas.</String>
-    <String ID="列出和格子有关的关键字。" Status="1" English="List keywords related to patches.">Enumere las palabras clave relacionadas con los parches.</String>
-    <String ID="列出和链接有关的关键字。" Status="1" English="List keywords related to links.">Enumere las palabras clave relacionadas con los enlaces.</String>
-    <String ID="列出和观察者有关的关键字。" Status="1" English="List keywords related to the observer.">Enumere las palabras clave relacionadas con el observador.</String>
-    <String ID="列出所有辅助关键字。" Status="1" English="List all auxiliary keywords.">Enumere todas las palabras clave auxiliares.</String>
-    <String ID="{0} 命令提供 NetLogo 编程语言的帮助信息。" Status="1" English="{0} provides help information for the language.">{0} proporciona información de ayuda para el idioma.</String>
-    <String ID="通过例如 {0} 的方式了解某一关键字的信息。" Status="1" English="Learn about a certain keyword by {0}.">Obtenga más información sobre una determinada palabra clave por {0}.</String>
-    <String ID="学习 NetLogo 的基本知识。" Status="1" English="Learn the basics of NetLogo.">Aprenda los conceptos básicos de NetLogo.</String>
-    <String ID="列出 NetLogo 命令和关键字。" Status="1" English="List NetLogo commands and keywords.">Enumere los comandos y las palabras clave de NetLogo.</String>
-    <String ID="下列帮助来自此模型的探索指南：" Status="1" English="Those come from the Guided Intro:">Los que provienen de la introducción guiada:</String>
-    <String ID="抱歉，未能找到关于 {0} 的文档信息。" Status="1" English="Sorry, we cannot find anything about {0}.">Lo sentimos, no podemos encontrar nada sobre {0}.</String>
-    <String ID="{0} 是一个命令。" Status="1" English="{0} is a command.">{0} es un comando.</String>
-    <String ID="{0} 是一个函数。" Status="1" English="{0} is a reporter.">{0} es reportero.</String>
-    <String ID="{0} 是一个变量、一个程序或一个函数的名字。" Status="1" English="{0} is the name of a variable, a procedure, or a reporter.">{0} es el nombre de una variable, un procedimiento o un informador.</String>
-    <String ID="{0} 是一个程序语言规定的常量。" Status="1" English="{0} is a constant defined by NetLogo.">{0} es una constante definida por NetLogo.</String>
+    <String ID="查找：" Status="0" English="Find:">Buscar:</String>
+    <String ID="替换：" Status="0" English="Replace:">Reemplazar:</String>
+    <String ID="全部替换：" Status="0" English="Replace all:">Reemplazar todo:</String>
+    <String ID="替换成：" Status="0" English="With:">Con:</String>
+    <String ID="进行替换？" Status="0" English="Replace?">¿Reemplazar?</String>
+    <String ID="跳转到子程序" Status="0" English="Jump to Procedures">Saltar a Procedimientos</String>
+    <String ID="代码中还没有任何子程序。" Status="0" English="There are no procedures in the code.">No hay procedimientos en el código.</String>
+    <String ID="你可以在这里输入 NetLogo 代码，试试会发生什么。" Status="0" English="Try to type some NetLogo code here and see what happens.">Intenta escribir un poco de código de NetLogo aquí y observa lo que pasa.</String>
+    <String ID="不同的主语决定了代码会“由谁执行”。例如，“海龟”的意思是让所有海龟一起执行。你也可以由“观察者”向海龟发布命令：" Status="0" English="You may give instructions to different subjects. For example, &quot;turtles&quot; will have all turtles follow the same command. You can also issue commands to turtles from the observer:">Puedes dar instrucciones a diferentes sujetos. Por ejemplo, &quot;turtles&quot; harán que todas las tortugas sigan el mismo comando. También puedes emitir comandos a las tortugas desde el observador:</String>
+    <String ID="点击“帮助”按钮显示关于 NetLogo 建模语言的帮助。有些模型可能会提供专属的探索指南。" Status="0" English="Click the &quot;Help&quot; button to learn more about NetLogo. Some models may provide some code examples and in-depth explanations for you to try out.">Haz clic en el botón &quot;Ayuda&quot; para obtener más información sobre NetLogo. Algunos modelos pueden proporcionar unos ejemplos de código y explicaciones detalladas para que los pruebes.</String>
+    <String ID="点击“代码”按钮可以查看和编辑模型的完整代码。" Status="0" English="Click the &quot;Code&quot; button to view and edit the code of the model.">Haz clic en el botón quot;Códigoquot; para ver y editar el código del modelo.</String>
+    <String ID="参见" Status="0" English="See also">También consulta</String>
+    <String ID="阅读全文" Status="0" English="full text">texto completo</String>
+    <String ID="返回上一页……" Status="0" English="Return to the previous page...">Regresar a la página anterior...</String>
+    <String ID="前往下一页……" Status="0" English="Go to the next page...">Ir a la página siguiente ...</String>
+    <String ID="抱歉，未能查询到相关关键字。" Status="0" English="Sorry, no keywords were found.">Lo sentimos, no se encontraron palabras claves.</String>
+    <String ID="查询到 {0} 个关键字，正在显示第 {1} 页。" Status="0" English="{0} keywords found. We are at page {1}.">{0} palabras claves encontradas. Estamos en página {1}.</String>
+    <String ID="{0} 命令列出 NetLogo 建模语言的关键字。" Status="0" English="{0} lists the keywords of the NetLogo modeling language.">{0} enumera las palabras claves del lenguaje de modelar NetLogo.</String>
+    <String ID="列出和海龟有关的关键字。" Status="0" English="List keywords related to turtles.">Enumere palabras claves relacionadas con tortugas.</String>
+    <String ID="列出和格子有关的关键字。" Status="0" English="List keywords related to patches.">Enumere palabras claves relacionadas con parcelas.</String>
+    <String ID="列出和链接有关的关键字。" Status="0" English="List keywords related to links.">Enumere palabras claves relacionadas con enlaces.</String>
+    <String ID="列出和观察者有关的关键字。" Status="0" English="List keywords related to the observer.">Enumere palabras claves relacionadas con el observador.</String>
+    <String ID="列出所有辅助关键字。" Status="0" English="List all auxiliary keywords.">Enumere todas las palabras claves auxiliares.</String>
+    <String ID="{0} 命令提供 NetLogo 编程语言的帮助信息。" Status="0" English="{0} provides help information for the language.">{0} proporciona información de ayuda para el idioma.</String>
+    <String ID="通过例如 {0} 的方式了解某一关键字的信息。" Status="0" English="Learn about a certain keyword by {0}.">Obtenga más información sobre una palabra clave por {0}.</String>
+    <String ID="学习 NetLogo 的基本知识。" Status="0" English="Learn the basics of NetLogo.">Aprenda los conceptos básicos de NetLogo.</String>
+    <String ID="列出 NetLogo 命令和关键字。" Status="0" English="List NetLogo commands and keywords.">Enumere comandos y palabras claves de NetLogo.</String>
+    <String ID="下列帮助来自此模型的探索指南：" Status="0" English="Those come from the Guided Intro:">Esos vienen de la introducción guiada:</String>
+    <String ID="抱歉，未能找到关于 {0} 的文档信息。" Status="0" English="Sorry, we cannot find anything about {0}.">Lo sentimos, no podemos encontrar nada sobre {0}.</String>
+    <String ID="{0} 是一个命令。" Status="0" English="{0} is a command.">{0} es un comando.</String>
+    <String ID="{0} 是一个函数。" Status="0" English="{0} is a reporter.">{0} es reportero.</String>
+    <String ID="{0} 是一个变量、一个程序或一个函数的名字。" Status="0" English="{0} is the name of a variable, a procedure, or a reporter.">{0} es el nombre de una variable, un procedimiento o un reportero.</String>
+    <String ID="{0} 是一个程序语言规定的常量。" Status="0" English="{0} is a constant defined by NetLogo.">{0} es una constante definida por NetLogo.</String>
   </Editors>
   <NetTango>
     <String ID="拖到这里删除" Status="0" English="Drag here to delete">Arrastra aquí para borrar</String>
