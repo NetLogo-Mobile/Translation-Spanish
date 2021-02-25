@@ -1,2 +1,1 @@
-﻿*** Machine Translated
-`End` es una primitiva especial que se utiliza únicamente para finalizar un procedimiento. Así como un procedimiento comienza con el `to procedure-name` o el `to-report procedure-name` , concluye con el `end` . Un procedimiento que no termina con `end` provocará un error.
+﻿`End` es una primitiva especial que solo se usa para finalizar un procedimiento. Así como un procedimiento comienza con `to procedure-name` o `to-report procedure-name`, concluye con el `end`. Un procedimiento que no termina con `end` provocará un error.
