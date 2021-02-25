@@ -6,11 +6,11 @@ Este proyecto se inspiró en las escrituras de Thomas Schelling sobre los sistem
 
 ## COMO USARLO
 
-Haz clic en el botón PREPARAR para preparar los agentes. Hay aproximadamente el mismo número de agentes anaranjados y agentes azules. Los agentes están configurados para que ninguna parcela tenga más de un agente. Haz clic en IR para iniciar la simulación. Si los agentes no tienen suficientes vecinos del mismo color, se mueven a una parcela cercana. (Lo topología se ajusta, para que las parcelas en el borde inferior sean vecinos con parches en la parte superior y similares para la izquierda y derecha).
+Haz clic en el botón PREPARAR para preparar los agentes. Hay aproximadamente el mismo número de agentes anaranjados y agentes azules. Los agentes están configurados para que ninguna parcela tenga más de un agente. Haz clic en IR para iniciar la simulación. Si los agentes no tienen suficientes vecinos del mismo color, se mueven a una parcela cercana. (La topología se ajusta, para que las parcelas en el borde inferior sean vecinos con parches en la parte superior y similares para la izquierda y derecha).
 
-El control deslizante DENSIDAD controla la densidad de ocupación del barrio (y entonces el número de agentes en total). (Tiene efecto la próxima vez que haces clic en PREPARAR.) El control deslizante %-SIMILAR-DESEADO controla el porcentaje de agentes mismo-color que cada agente desea entre sus vecinos. Por ejemplo, si el control deslizante está configurado en 30, cada agente azul quiere que a lo menos 30% de sus vecinos sean agentes azules.
+El control deslizante DENSIDAD controla la densidad de ocupación del barrio (y entonces el número de agentes en total). (Tiene efecto la próxima vez que haces clic en PREPARAR.) El control deslizante %-SIMILAR-DESEADO controla el porcentaje de agentes del mismo-color que cada agente desea entre sus vecinos. Por ejemplo, si el control deslizante está configurado en 30, cada agente azul quiere que a lo menos 30% de sus vecinos sean agentes azules.
 
-El monitor % SIMILAR muestra el porcentaje promedio de mismo-color vecinos para cada agente. Empieze aproximadamente en 50%, porque cada agente (en promedio) con un número igual de agentes anaranjados y azules como vecinos. El monitor NÚM-INFELIZ muestra el número de agentes descontentos, y el monitor % INFELIZ muestra el porcentaje de agentes que tienen menos vecinos del mismo color de los que quieren (y entonces se quieren mudar). También se grafican los monitores % SIMILAR y NÚM-INFELIZ.
+El monitor % SIMILAR muestra el porcentaje promedio de mismo-color vecinos para cada agente. Empiece aproximadamente en 50%, ya que cada agente comienza (en promedio) con un número igual de agentes anaranjados y azules como vecinos. El monitor NÚM-INFELIZ muestra el número de agentes descontentos, y el monitor % INFELIZ muestra el porcentaje de agentes que tienen menos vecinos del mismo color de los que quieren (y entonces se quieren mudar). También se grafican los monitores % SIMILAR y NÚM-INFELIZ.
 
 El seleccionador VISUALIZACIÓN ofrece dos opciones para visualizar a los agentes. La opción VIEJO usa la visualización que fue utilizada por el modelo de segregación en el pasado. La opción CUADRADO-X visualiza a los agentes como cuadrados. Los agentes descontentos se visualizan como Xs.
 
@@ -20,27 +20,27 @@ Cuando ejecutas SETUP, los agentes anaranjados y azules se distribuyen aleatoria
 
 Con el tiempo, el número de agentes descontentos disminuye. Pero el barrio se pone más segregado, con grupos de agentes anaranjados y grupos de agentes azules.
 
-En el caso de que cada agente quiera a lo menos un 30% de vecinos del mismo-color, los agentes terminan con (en promedio) un 70% de vecinos del mismo-color. Entonces, preferencias individuales relativamente pequeñas pueden resultar en una segregación general significativa.
+En el caso de que cada agente quiera a lo menos 30% de vecinos del mismo-color, los agentes terminan con (en promedio) 70% de vecinos del mismo-color. Entonces, preferencias individuales relativamente pequeñas pueden resultar en una segregación general significativa.
 
 ## COSAS PARA INTENTAR
 
-Trata diferentes valores para %-SIMILAR-DESEADO. ¿Cómo cambia el exento general de segregación?
+Trata diferentes valores para %-SIMILAR-DESEADO. ¿Cómo cambia el grado general de segregación?
 
-Si cada agente quiere a lo menos un 40% de vecinos del mismo-color, ¿con qué porcentaje (en promedio) terminan?
+Si cada agente quiere a lo menos 40% de vecinos del mismo-color, ¿con qué porcentaje (en promedio) terminan?
 
 Trata diferentes valores de DENSIDAD. ¿Cómo afecta la densidad de ocupación inicial al porcentaje de agentes descontentos? ¿Cómo afecta el tiempo que tarda el modelo en terminar?
 
-Puedes configurar los controles deslizantes para que el modelo nunca termine de ejecutar y que los agentes siguen buscando nuevas ubicaciones.
+¿Puedes configurar los controles deslizantes para que el modelo nunca termine de ejecutar y que los agentes siguen buscando nuevas ubicaciones?
 
 ## EXTENDIENDO EL MODELO
 
-El encontrar-nuevo-lugar procedimiento hace que los agentes se mudan localmente hasta que encuentren un lugar. ¿Puedes reescribir este procedimiento para que los agentes se muevan directamente a un nuevo lugar apropiado?
+El procedimiento encontrar-nuevo-lugar hace que los agentes se mudan localmente hasta que encuentren un lugar. ¿Puedes reescribir este procedimiento para que los agentes se muevan directamente a un nuevo lugar apropiado?
 
 Incorpora redes sociales en este modelo. Por ejemplo, haga que los agentes descontentos decidan una nueva ubicación basada en información sobre cómo un barrio es según otros agentes en su red.
 
 Cambia las reglas para la felicidad de un agente. Una idea: Suponga que los agentes necesitan un umbral mínimo de “buenos vecinos” para estar felices con su ubicación. Supone además que no siempre saben si alguien es un buen vecino. Cuando lo hacen, usan esa información. Cuando no lo hacen, usan el color como proxy -- es decir, ellos asumen que los agentes del mismo-color son buenos vecinos.
 
-Las dos visualizaciones diferentes enfatizan diferentes aspectos del modelo. La visualización CUADRADO muestra si un agente está contento o no. ¿Puedes diseñar una visualización diferente que enfatiza diferentes aspectos?
+Las dos visualizaciones diferentes enfatizan diferentes aspectos del modelo. La visualización CUADRADO-X muestra si un agente está contento o no. ¿Puedes diseñar una visualización diferente que enfatiza diferentes aspectos?
 
 ## CARACTERÍSTICAS DE NETLOGO
 
@@ -48,7 +48,7 @@ Brotar se usa para crear agentes mientras asegurando que ninguna parcela tiene m
 
 Cuando un agente se mueve, moverse-a se usa para mover el agente al centro de la parcela que eventualmente encuentra.
 
-Tenga en cuenta que las dos métodos diferentes que se pueden usar para encontrar-nuevo-lugar, una de ellos (el que usamos) es recursivo. 
+Tenga en cuenta que los dos métodos diferentes que se pueden usar para encontrar-nuevo-lugar, una de ellos (el que usamos) es recursivo. 
 
 ## CRÉDITOS Y REFERENCIAS
 
