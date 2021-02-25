@@ -34,8 +34,7 @@
   </Toolbar>
   <Editors>
     <String ID="编辑器支持竖屏使用。旋转屏幕获得最佳体验！" Status="0" English="Rotate your device for better experience!">¡Gire tu aparato para una mejor experiencia!</String>
-    <String ID="编译错误" Status="0" English="Compile Error">Error de compilación</String>
-    <String ID="执行错误" Status="0" English="Runtime Error">Error de tiempo de ejecución</String>
+    <String ID="抱歉，未能理解你输入的命令" Status="2" />
     <String ID="成功执行了命令。" Status="0" English="The command was executed successfully.">El comando se ejecutó con éxito.</String>
     <String ID="工具" Status="1" English="Utilities">Utilidades</String>
     <String ID="海龟" Status="0" English="Turtles">Tortugas</String>
@@ -74,6 +73,10 @@
     <String ID="列出 NetLogo 命令和关键字。" Status="1" English="List NetLogo commands and keywords.">Enumere los comandos y las palabras clave de NetLogo.</String>
     <String ID="下列帮助来自此模型的探索指南：" Status="1" English="Those come from the Guided Intro:">Los que provienen de la introducción guiada:</String>
     <String ID="抱歉，未能找到关于 {0} 的文档信息。" Status="1" English="Sorry, we cannot find anything about {0}.">Lo sentimos, no podemos encontrar nada sobre {0}.</String>
+    <String ID="{0} 是一个命令。" Status="1" English="{0} is a command.">{0} es un comando.</String>
+    <String ID="{0} 是一个函数。" Status="1" English="{0} is a reporter.">{0} es reportero.</String>
+    <String ID="{0} 是一个变量、一个程序或一个函数的名字。" Status="1" English="{0} is the name of a variable, a procedure, or a reporter.">{0} es el nombre de una variable, un procedimiento o un informador.</String>
+    <String ID="{0} 是一个程序语言规定的常量。" Status="1" English="{0} is a constant defined by NetLogo.">{0} es una constante definida por NetLogo.</String>
   </Editors>
   <NetTango>
     <String ID="拖到这里删除" Status="0" English="Drag here to delete">Arrastra aquí para borrar</String>
