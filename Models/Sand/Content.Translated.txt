@@ -1,6 +1,6 @@
 ﻿## ¿QUÉ ES?
 
-Este es un modelo de cómo las partículas de arena interactúan entre sí mismos. En este ambiente, todas las partículas de arena intentan descender si alguna de las siguientes cuatro reglas se pueden aplicar. Las cuatro reglas con:
+Este es un modelo de cómo las partículas de arena interactúan entre sí mismos. En este ambiente, todas las partículas de arena intentan descender si alguna de las siguientes cuatro reglas se pueden aplicar. Las cuatro reglas son:
 
 1. Si no hay nada directamente debajo de ti, muévete hacia abajo
 2. Si hay algo debajo de ti y en la parte inferior derecha, muévete hacia abajo y hacia la izquierda.
@@ -41,7 +41,7 @@ En la pestaña de Código, observa la variable pico-espacio. Intenta cambiar el 
 
 ¿Qué efecto tiene el peso en las partículas de arena? ¿Deberían comportarse de maneras diferentes las partículas con muchas partículas por encima de ellas? Si es así, ¿cómo cambiaría esto a las reglas?
 
-Intenta simular erosión con este modelo. ¿Cómo podrías simular el viento? ¿Qué efecto tendría en la forma de las pilas? ¿Cómo puedes simular lluvia? ¿Qué efecto tendría en la forma de las pilas?
+Intente simular erosión con este modelo. ¿Cómo podrías simular el viento? ¿Qué efecto tendría en la forma de las pilas? ¿Cómo puedes simular lluvia? ¿Qué efecto tendría en la forma de las pilas?
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
