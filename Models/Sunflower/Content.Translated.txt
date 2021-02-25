@@ -1,6 +1,6 @@
 ﻿## ¿QUÉ ES?
 
-Las espirales entrelazadas que se pueden ver en las semillas, pétalos y hasta las ramas de muchas plantas ocurren naturalmente a través del crecimiento de la flor. Este modelo trata demostrar el crecimiento de estas espirales que ocurren naturalmente.
+Las espirales entrelazadas que se pueden ver en las semillas, pétalos y hasta las ramas de muchas plantas ocurren naturalmente a través del crecimiento de la flor. Este modelo trata de demostrar el crecimiento de estas espirales que ocurren naturalmente.
 
 Cuando una semilla nueva emerge, las más viejas crecen un poco y se alejan del centro--la fuente--y la semilla más joven encuentra la brecha más grande entre las semillas existentes, en la que puede crecer. Esta brecha se puede encontrar girando en sentido antihorario. El ángulo creado por este giro es un múltiplo de la proporción áurea (1.618). La proporción áurea, la cual se basa en la serie de Fibonacci (1, 1, 2, 3, 5, 8, 13…), es igual al límite de F(n)/F(n-1). Entonces, las espirales se pueden generar matemáticamente, usando la proporción áurea.
 
@@ -10,13 +10,13 @@ Para cada tic del reloj, una tortuga nueva (se puede ver como una semilla o una 
 
 ## COMO USARLO
 
-El control deslizador NUM-COLORES controla cuántos colores las tortugas pueden ser. (Usando esto hará que algunas de las espirales se destaquen más, y que otras se destaquen menos.)
+El control deslizante NUM-COLORES controla cuántos colores las tortugas pueden ser.  (Usando esto hará que algunas de las espirales se destaquen más, y que otras se destaquen menos.)
 
-El control deslizador PASO-TAMANO controla qué tan lejos se mueve la tortuga del centro, para cada tic del reloj.
+El control deslizante PASO-TAMAÑO controla qué tan lejos se mueve la tortuga del centro, para cada tic del reloj.
 
 El control deslizante INCREMENTO-DE-GIRO dicta el grado en que cada nueva tortuga girará para establecer su posición en la espiral.
 
-Los botones de ESTABLECER INCREMENTO-DE-GIRO ayudan a configurar el control deslizante INCREMENTO-DE-GIRO a valores específicos en y alrededor de la proporción áurea. 
+Los botones de ESTABLECER INCREMENTO-DE-GIRO ayudan a configurar el control deslizador INCREMENTO-DE-GIRO a valores específicos en y alrededor de la proporción áurea. 
 
 ## COSAS PARA NOTAR
 
