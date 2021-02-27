@@ -104,7 +104,7 @@ paciencia-máxima
 ### Source
 mean speed
 ### Spanish
-velocidad-media
+velocidad-promedia
 
 ### Source
 number-of-cars

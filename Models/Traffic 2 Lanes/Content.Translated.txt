@@ -8,7 +8,7 @@ Como en el modelo Tráfico Básico, tráfico puede ralentizar o formar atascos s
 
 Haz clic al botón PREPARAR para preparar los carros. Haz clic en IR para empezar el movimiento de los carros. El botón IR UNA VEZ maneja los carros para solo un tic del reloj.
 
-El control deslizante NÚMERO-DE-CARROS controla el número de carros en la carretera. Si cambias el valor de este control deslizante mientras que el modelo se está ejecutando, carros serían agregados o eliminados “sobre la marcha”, para que puedas ver el impacto en el tráfico inmediatamente.
+El control deslizante NÚMERO-DE-CARROS controla el número de carros en la carretera. Si cambias el valor de este control deslizante mientras que el modelo se está ejecutando, los carros serán agregados o eliminados “sobre la marcha”, para que puedas ver el impacto en el tráfico inmediatamente.
 
 El control deslizante ACELERAR controla la tasa a la que los carros aceleran cuando no hay carros delante.
 
@@ -22,7 +22,7 @@ El botón SELECCIONAR CARRO te permite resaltar un carro particular. Hace que es
 
 Puedes mirar o seguir el carro seleccionado usando los botones VER CARRO SELECCIONADO y SEGUIR CARRO SELECCIONADO. El botón RESTABLECER PERSPECTIVA devuelve la vista a su estado normal.
 
-El monitor VELOCIDAD CARRO SELECCIONADO muestra la velocidad del carro seleccionado. El monitor VELOCIDAD-MEDIA muestra la velocidad media de todos los carros.
+El monitor VELOCIDAD CARRO SELECCIONADO muestra la velocidad del carro seleccionado. El monitor VELOCIDAD-PROMEDIA muestra la velocidad promedia de todos los carros.
 
 El gráfico YCOR DE CARROS muestra un histograma de cuantos carros hay en cada carril, lo cual se puede determinar con su y-coordinate. La histograma también muestra el número de carros que están entre los dos carriles mientras que están tratando de cambiar de carriles.
 
@@ -30,7 +30,7 @@ El gráfico CARRO VELOCIDADES muestra cuatro cantidades con el tiempo:
 
 La velocidad máxima de cualquier carro - CIAN
 La velocidad mínima de cualquier carro - AZUL
-La velocidad media de todos los carros - VERDE
+La velocidad promedia de todos los carros - VERDE
 La velocidad del carro seleccionado - ROJO
 
 El gráfico PACIENCIA CONDUCTOR muestra cuatro cantidades para la paciencia actual de los conductores: lo máximo, lo mínimo, el promedio, y la paciencia actual del conductor del carro seleccionado.
@@ -45,9 +45,9 @@ Así como cada carro tiene una velocidad actual, cada conductor tiene una pacien
 
 Cuando la cantidad de autos en el modelo es alta, los conductores pierden la paciencia rápidamente y comienzan a entrar y salir de los carriles. Este fenómeno se llama “serpenteo” y es común en carreteras congestionadas. Y si la cantidad de autos es lo suficientemente alta, casi todos terminan tratando de cambiar de carril y el tráfico se ralentiza, empeorando la situación, y los autos se quedan atascados momentáneamente entre carriles porque no pueden cambiar. ¿Te parece una situación de la vida real?
 
-Mire el monitor VELOCIDAD-MEDIA, el que calcula la velocidad media de los carros. ¿Qué pasa con la velocidad a lo largo del tiempo? ¿Cuál es la relación entre la velocidad de los carros y la presencia (o ausencia de atascos?
+Mire el monitor VELOCIDAD-PROMEDIA, el que calcula la velocidad promedia de los carros. ¿Qué pasa con la velocidad a lo largo del tiempo? ¿Cuál es la relación entre la velocidad de los carros y la presencia (o ausencia) de atascos?
 
-Mira las dos gráficas. ¿Puedes detectar patrones discernibles en las parcelas?
+Mira los dos gráficas. ¿Puedes detectar patrones discernibles en las parcelas?
 
 Las parcelas de pasto a cada lado de la carretera tienen un tono de verde ligeramente diferente. Las parcelas de carretera, en menor medida, son de diferentes tonalidades de gris. No se trata solo de hacer que el modelo se vea bonito: también ayuda crear una impresión de movimiento cuando se usa el botón SEGUIR CARRO SELECCIONADO.
 
@@ -57,23 +57,23 @@ Las parcelas de pasto a cada lado de la carretera tienen un tono de verde ligera
 
 Explora cambios a los controles deslizantes RALENTIZAR y ACELERAR. ¿Cómo afectan estos al flujo del tráfico? ¿Puedes configurarlos para un serpenteo máximo?
 
-Cambia el código para que todos los carros siempre comienzan en el mismo carril.¿Se equilibra finalmente la proporción de carros en cada carril? ¿Cuánto tiempo se tarda?
+Cambia el código para que todos los carros siempre comiencen en el mismo carril.¿Se equilibra finalmente la proporción de carros en cada carril? ¿Cuánto tiempo se tarda?
 
-Intenta usar la forma de tortuga “predeterminada” en lugar de la forma de carro, puede ser con cambiar el código o escribiendo “ask turtles” [configura forma predeterminada] en el centro de comando después de hacer clic en PREPARAR. Esto le permitirá detectar rápidamente los carros que intentan cambiar de carril. ¿Qué les pasa cuando hay mucho tráfico?
+Intenta usar la forma de tortuga “predeterminada” en lugar de la forma de carro, puede ser con cambiar el código o escribiendo “ask turtles” [configura forma “predeterminada”] en el centro de comando después de hacer clic en PREPARAR. Esto le permitirá detectar rápidamente los carros que intentan cambiar de carril. ¿Qué les pasa cuando hay mucho tráfico?
 
 ## EXTENDIENDO EL MODELO
 
-La forma en que este modelo está escrito facilita la adición de más carriles. Busque el reportero número-de-carriles en el código y juegue con él.
+La forma en que este modelo está escrito facilita la adición de más carriles. Busca el reportero número-de-carriles en el código y juega con él.
 
 Trata de crear un modelo de “Cruce de Caminos” (donde dos conjuntos de carros pueden encontrarse en un semáforo) o “Embotellamiento de Tráfico” (donde dos carriles pueden unirse para formar un carril).
 
-Tenga en cuenta que los carros nunca chocan: un carro nunca entrará una parcela ni pasará a través de una parcela que contenga otro carro. Elimine esta característica y haga que las tortugas que chocan mueren al chocar. ¿Qué pasará con un modelo así con el tiempo?
+Tenga en cuenta que los carros nunca chocan: un carro nunca entrará en una parcela ni pasará a través de una parcela que contenga otro carro. Elimine esta característica y haga que las tortugas que chocan mueren al chocar. ¿Qué pasará con un modelo así con el tiempo?
 
 ## CARACTERÍSTICAS DE NETLOGO
 
 Tenga en mente el uso de ratón-abajo? y ratón-xcor/ratón-ycor para permitir seleccionar un carro para atención especial.
 
-Cada tortuga tiene una forma, a diferencia de otros modelos. NetLogo usa una forma determinada para alterar las formas de las tortugas. Puedes, usando el editor de formas en el menú Herramientas, crear tus propias formas de tortuga o modificar las existentes. Después puedes modificar el código para usar sus propias formas.
+Cada tortuga tiene una forma, a diferencia de otros modelos. NetLogo usa una forma determinada para alterar las formas de las tortugas. Puedes, usando el editor de formas en el menú Herramientas, crear tus propias formas de tortuga o modificar las existentes. Después puedes modificar el código para usar tus propias formas.
 
 ## MODELOS RELACIONADOS
 
