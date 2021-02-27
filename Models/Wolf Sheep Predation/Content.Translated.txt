@@ -1,12 +1,12 @@
 ﻿## ¿QUÉ ES?
 
-Este modelo explora la estabilidad de depredador-presa ecosistemas. Tal sistema se puede categorizar inestable si tiende a resultar en la extinción de uno o más especies involucrados. Por el contrario, si un sistema es estable si tiende a mantenerse con el tiempo, a pesar de fluctuaciones en los tamaños de población.
+Este modelo explora la estabilidad del depredador-presa ecosistemas. Tal sistema se puede categorizar inestable si tiende a resultar en la extinción de uno o más especies involucrados. Por el contrario, un sistema es estable si tiende a mantenerse con el tiempo, a pesar de fluctuaciones en los tamaños de población.
 
 ## COMO FUNCIONA
 
 Hay dos variaciones principales en este modelo. 
 
-En la primera variación, la versión “ovejas-lobos”, lobos y ovejas vagando por el paisaje, mientras que los lobos buscan ovejas para cazar. Cada paso les cuesta energía a los lobos, y necesitan comer ovejas para que puedan reponer su energía - cuando ya no tienen energía se mueren. Para que la población continúe, cada lobo o oveja tiene una probabilidad fija de reproducir en cada paso de tiempo. En esta variación, modelamos el pasto como “infinito” para que las ovejas siempre tengan suficiente para comer, y nosotros no modelamos explícitamente la alimentación o el cultivo de pasto. Como tal, las ovejas no ganan ni pierden energía al comer o moverse. Esta variación produce una interesante dinámica de población, pero en última instancia es inestable. Esta variación del modelo es particularmente bien adaptada para especies interactuando en un ambiente rico en nutrientes, tal como dos cepas de bacterias en una placa de Petri. (Gause, 1934)
+En la primera variación, la versión “ovejas-lobos”, lobos y ovejas vagan por el paisaje, mientras que los lobos buscan ovejas para cazar. Cada paso les cuesta energía a los lobos, y necesitan comer ovejas para que puedan reponer su energía - cuando ya no tienen energía se mueren. Para que la población continúe, cada lobo o oveja tiene una probabilidad fija de reproducir en cada paso de tiempo. En esta variación, modelamos el pasto como “infinito” para que las ovejas siempre tengan suficiente para comer, y nosotros no modelamos explícitamente la alimentación o el cultivo de pasto. Como tal, las ovejas no ganan ni pierden energía al comer o moverse. Esta variación produce una interesante dinámica de población, pero en última instancia es inestable. Esta variación del modelo es particularmente bien adaptada para especies interactuando en un ambiente rico en nutrientes, tal como dos cepas de bacterias en una placa de Petri. (Gause, 1934)
 
 En la segunda variación, la versión “ovejas-lobos-pasto” explícitamente modela pasto (verde) además de lobos y ovejas. El comportamiento de los lobos es idéntico a la primera versión, sin embargo este tiempo las ovejas necesitan comer pasto para que puedan mantener su energía - cuando ya no tienen energía se mueren. En cuanto el pasto sea comido, volverá a crecer después de un periodo de tiempo fijo. Esta variación es más compleja que la primera, pero es estable en general. Es un partido más similar a los modelos clásicos de oscilación de población Lotka Volterra. Sin embargo, los modelos clásicos de LV suponen que las poblaciones pueden tomar valores reales, pero en poblaciones pequeñas estos modelos subestiman las extinciones y los modelos basados en agentes, como los que se muestran aquí, proporcionan resultados más realistas. (Consulta Wilensky & Rand, 2015; capítulo 4)
 
@@ -20,17 +20,19 @@ Mira los monitores para ver los tamaños de población actuales.
 Mira la gráfica POBLACIONES para ver las poblaciones fluctuar con el tiempo.
 
 Parámetros: 
-VERSION-MODELO: Si queremos modelar ovejas, lobos y pasto, o solamente ovejas y lobos.
+VERSIÓN-MODELO: Si queremos modelar ovejas, lobos, y pasto, o solamente ovejas y lobos 
 NÚMERO-INICIAL-OVEJAS: El tamaño inicial de la población de ovejas.
-NÚMERO-INICIAL-LOBOS: El tamaño inicial de la población de lobos.
-OVEJAS-BENEFICIO-DE-COMIDA: La cantidad de energía que las ovejas obtienen por cada parcela de pasto comido. (Tenga en cuenta que esto no se utiliza en la versión del modelo ovejas-lobos)
-LOBOS-BENEFICIO-DE-COMIDA: La cantidad de energía que los lobos obtienen por cada oveja comido. OVEJAS-REPRODUCIR: La probabilidad que una oveja reproduzca en un paso de tiempo
-LOBOS-REPRODUCIR: La probabilidad que un lobo reproduzca en un paso de tiempo PASTO-CRECIMIENTO: Cuánto tiempo tarda el pasto en volver a crecer después de que ha sido comido.
-MOSTRAR-ENERGÍA?: Si queremos mostrar la energía de cada animal como un número o no.
+NÚMERO-INICIAL-LOBOS: El tamaño inicial de la población de lobos. 
+OVEJAS-BENEFICIO-DE-COMIDA: La cantidad de energía que las ovejas obtienen por cada parcela de pasto comido (Tenga en cuenta que esto no se utiliza en la versión del modelo ovejas-lobos).
+LOBOS-BENEFICIO-DE-COMIDA: La cantidad de energía que los lobos obtienen por cada oveja comido. 
+OVEJAS-REPRODUCIR: La probabilidad que una oveja reproduzca en un paso de tiempo. 
+LOBOS-PRODUCIR: La probabilidad que un lobo reproduzca en un paso de tiempo.
+PASTO-CRECIMIENTO: Cuánto tiempo tarda el pasto en volver a crecer después de que ha sido comido (Tenga en cuenta que esto no se utiliza en la versión del modelo ovejas-lobos). 
+ENSEÑA-ENERGÍA?: Si queremos mostrar la energía de cada animal como un número o no.
 
-Apuntes: - se deduce una unidad de energía para cada paso que el lobo toma - cuando ejecutas la versión del modelo ovejas-lobos-pasto, se deduce una unidad de energía para cada paso que la oveja toma
+Apuntes: - se deduce una unidad de energía para cada paso que el lobo toma - cuando ejecutas la versión del modelo ovejas-lobos-pasto, se deduce una unidad de energía para cada paso que la oveja toma.
 
-Hay tres diferentes monitores que enseñan la población de los lobos, ovejas y pasto y una gráfica de población para disponer los valores de población a lo largo del tiempo.
+Hay tres diferentes monitores que enseñan la población de los lobos, ovejas, y pasto y una gráfica de población para disponer los valores de población a lo largo del tiempo.
 
 Si ya no hay lobos y quedan demasiadas ovejas, la ejecución del modelo se termina.
 
@@ -38,7 +40,7 @@ Si ya no hay lobos y quedan demasiadas ovejas, la ejecución del modelo se termi
 
 Al ejecutar la variación del modelo ovejas-lobos, observe cómo fluctúan las poblaciones de las ovejas y los lobos. Observe que las aumentas y disminuciones en el tamaño de cada población están relacionados. ¿De qué manera están relacionadas? ¿Qué pasa finalmente?
 
-En la variación del modelos ovejas-lobos-pasto, observe la línea verde añadida a la gráfica de población representando fluctuación de la cantidad del pasto. ¿Cómo aparece que los tamaños de las tres poblaciones están relacionados ahora? ¿Cuál es la explicación para esto?
+En la variación del modelo ovejas-lobos-pasto, observe la línea verde añadida a la gráfica de población representando fluctuación de la cantidad del pasto. ¿Cómo aparece que los tamaños de las tres poblaciones están relacionados ahora? ¿Cuál es la explicación para esto?
 
 ¿Por qué supones que algunas variaciones del modelo pueden ser estables mientras que otras no lo sean?
 
@@ -48,9 +50,9 @@ Intenta ajustar los parámetros de varias configuraciones. ¿Qué tan sensible e
 
 ¿Puedes encontrar algunos parámetros que generan un ecosistema estable en la variación del modelo ovejas-lobos?
 
-Intenta ejecutar la variación del modelo ovejas-lobos-pasto, pero ajustando NÚMERO-INICIAL-LOBOS a 0. Esto resulta en un ecosistema estable con solo ovejas y lobos. ¿Por qué esto podría ser estable mientras que la variación con solo ovejas y lobos no lo es?
+Intenta ejecutar la variación del modelo ovejas-lobos-pasto, pero ajustando NÚMERO-INICIAL-LOBOS a 0. Esto resulta en un ecosistema estable con solo ovejas y pasto. ¿Por qué esto podría ser estable mientras que la variación con solo ovejas y lobos no lo es?
 
-Observe que en las configuración en la tabla, las poblaciones tienden fluctuar en un ritmo predecible. ¿Puedes encontrar algunos parámetros que aceleran o ralentizan este ritmo?
+Observe que en la configuración en la tabla, las poblaciones tienden fluctuar en un ritmo predecible. ¿Puedes encontrar algunos parámetros que aceleran o ralentizan este ritmo?
 
 ## EXTENDIENDO EL MODELO
 
@@ -60,7 +62,7 @@ Intenta cambiar las reglas de reproducción -- por ejemplo, ¿qué pasaría si r
 
 ¿Puedes modificar el modelo para que las ovejas se junten en un rebaño?
 
-¿Puedes modificar el modelo para que los lobos persigan activamente a las ovejas?
+¿Puedes modificar el modelo para que los lobos persiguen activamente a las ovejas?
 
 ## CARACTERÍSTICAS DE NETLOGO
 
