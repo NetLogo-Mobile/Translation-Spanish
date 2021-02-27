@@ -18,7 +18,7 @@ Presiona PREPARAR para preparar el tablero, y luego presiona IR para jugar el ju
 
 Mientras que IR está presionado, haz clic en las cuadradas verdes para ver si tienen minas.
 
-Para ayudarte a recordar dónde crees que están las minas, puedes marcar un cuadrado apuntando y presionando la tecla M. (Tenga en cuenta que M en la esquina del botón MARCAR/DESMARCAR. Si la M está en gris, oculte el centro de comando).
+Para ayudarte a recordar dónde crees que están las minas, puedes marcar un cuadrado apuntando y presionando la tecla M. (Tenga en cuenta la M en la esquina del botón MARCAR/DESMARCAR. Si la M está en gris, oculte el centro de comando).
 
 Puedes hacer que el juego sea más fácil o difícil si ajustes el control deslizante CUENTA-MINA antes de presionar PREPARAR.
 
@@ -26,7 +26,7 @@ Puedes hacer que el juego sea más fácil o difícil si ajustes el control desli
 
 Usa los números para deducir donde puedes hacer clic sin peligro y donde no.
 
-Siempre puedes saber donde puedes hacer clic sin peligro, o algunas veces es necesario conjeturar?
+¿Siempre puedes saber donde puedes hacer clic sin peligro, o algunas veces es necesario adivinar?
 
 Tenga en cuenta que cuando haces clic en una región vacía, el modelo te ahorra tiempo al borrar automáticamente todas las celdas vacías circundantes. Esto evita que el juego sea tedioso.
 
@@ -56,7 +56,7 @@ Algunos de los modelos en la sección de Autómatas Celulares, en Ciencias de la
 
 Según https://es.wikipedia.org/wiki/Buscaminas, Buscaminas fue inventada por Robert Donner en 1989. Una versión del juego es incluida con el sistema operativo Windows.
 
-Las minas terrestres son un problema real que mata a personas todos los días. Para obtener más información sobre la campaña para prohibir las minas terrestres, consulte http://www.icbl.org/en-gb/home.aspx. 
+Las minas terrestres son un problema real que mata a personas todos los días. Para obtener más información sobre la campaña para prohibir las minas terrestres, consulte http://www.icbl.org/en-gb/home.aspx.
 
 ##  COMO CITAR 
 
