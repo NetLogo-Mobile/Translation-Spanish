@@ -13,7 +13,7 @@ Conversión de coordenadas cartesianas a esféricas:
 >z = p * cos(theta)
 
 theta: ángulo de proyección de la tortuga en el plano x-y.
-phi: ángulo de incidencia de las tortugas con respecto al eje z.
+phi: ángulo de incidencia de las tortugas en relación al eje z.
 p: distancia de la tortuga desde el origen.
 
 ##  COMO USARLO
@@ -56,7 +56,7 @@ Crea un procedimiento para rotar las geometrías en un eje diferente.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Observe el uso de `escala-de-color` para mostrar la profundidad de las tortugas y así simular 3D.
+Observa el uso de `escala-de-color` para mostrar la profundidad de las tortugas y así simular 3D.
 
 ##  COMO CITAR 
 
