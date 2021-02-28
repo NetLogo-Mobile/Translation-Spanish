@@ -69,7 +69,7 @@ preparar
 ### Source
 virus-check-frequency
 ### Spanish
-frecuencia-de-verificación-de-virus
+frecuencia-de-verificación-del-virus
 
 ### Source
 virus-spread-chance
