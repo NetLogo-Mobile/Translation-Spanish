@@ -1,6 +1,6 @@
 ﻿## ¿QUÉ ES?
 
-Este modelo simula un fenómeno complejo en biología molecular: el "cambio" de genes en función de las condiciones ambientales. A través de interacciones moleculares entre proteínas reguladoras específicas y secuencias de ADN específicas, cada gene regulado se activa o desactiva en respuesta a estímulos ambientales.
+Este modelo simula un fenómeno complejo en biología molecular: el "cambio" de genes en función dependiendo de las condiciones ambientales. A través de interacciones moleculares entre proteínas reguladoras específicas y secuencias de ADN específicas, cada gene regulado se activa o desactiva en respuesta a estímulos ambientales.
 
 Específicamente, es un modelo del [lac-operon] (https://en.wikipedia.org/wiki/Lac_operon) de una bacteria (E. coli.), lo cual es responsable de la absorción y digestión de lactosa, cuando lactosa es la fuente de energía preferida en el medio ambiente. Simula la regulación de la síntesis de las enzimas [permease (LacY)] (https://en.wikipedia.org/wiki/Lactose_permease) y [beta-galactosidase (LacZ)] (https://en.wikipedia.org/wiki/Beta-galactosidasa).
 
@@ -12,13 +12,13 @@ En este modelo, de hecho, hay dos azúcares: glucosa y lactosa. Se "prefiere" la
 
 Cuando la lactosa se introduce en el entorno exterior, las moléculas de lactosa entran en la célula bacteriana a través de las proteínas permeasas (LacY). Algunas moléculas de lactosa que entran en la célula se unen a los LacI, lo que evita que los LacI se unan al sitio del operador del ADN. Esto hace que se produzcan más LacY. Los LacY se insertan en la pared celular, lo que hace que entre más lactosa en la célula, creando así un circuito de retroalimentación positiva. Mientras tanto, los LacZ digieren las moléculas de lactosa dentro de la célula para producir energía.
 
-El cambio genético se enciende cuando hay lactosa y no glucosa en el ambiente. El encendido del cambio se representa por el cambio de color de la célula a tonos de color azul.
+El cambio genético se enciende cuando hay lactosa y no hay glucosa en el ambiente. El encendido del cambio se representa por el cambio de color de la célula a tonos de color azul.
 
 El efecto de la glucosa (a través de [cAMP] (https://en.wikipedia.org/wiki/Cyclic_adenosine_monophosphate)) solo se modela implícitamente. La tasa a la que se producen LacZ y LacI se reduce significativamente cuando hay glucosa presente.
 
 ### Proteínas Importantes
 1. *RNAP*: son ARN polimerasas que sintetizan ARNm a partir del ADN. Estos están representados por formas marrones en el modelo. Este modelo no incluye ARNm.
-2. *LacI* - Las formas de color morado en el modelo representan un represor (proteínas LacI). Se unen a la región del operador (ver más abajo) del ADN y no dejan que el RNAP pase a lo largo del gene, deteniendo así la síntesis de proteínas. Cuando la lactosa se une a LacI, forman complejos LacI-lactosa (mostrados por una forma violeta con un punto gris adjunto). Estos complejos no pueden unirse a la región operadora del ADN.
+2. *LacI* - Las formas de color morado en el modelo representan un represor (proteínas LacI). Se unen a la región del operador (ver más abajo) del ADN y no dejan que el RNAP pase a lo largo del gene, deteniendo así la síntesis de proteínas. Cuando la lactosa se une a LacI, forman complejos LacI-lactosa (mostrados por una forma morada con un punto gris adjunto). Estos complejos no pueden unirse a la región operadora del ADN.
 3. *LacY*: se muestran en el modelo como rectángulos de color rojo claro. Se producen cuando un RNAP transmite el gene. Cuando golpean la pared de la célula, se instalan en la pared de la célula (mostrado por parches de luz). La lactosa (pentágonos grises) del ambiente exterior se transporta dentro de la célula a través de estos parches de color rojo claro.
 4. *LacZ*: se muestran como proteínas de color rojo claro. Están presentes dentro de la célula. Cuando chocan con una molécula de lactosa, la molécula de lactosa se digiere y se produce energía.
 
@@ -82,7 +82,7 @@ CHANCE-DE-UNIÓN-DE-LACI-LACTOSA – establece la posibilidad de que una lactosa
 
 CHANCE-DE-SEPARACIÓN-DE-LACI-LACTOSA – Establece la posibilidad de que se separe un complejo de LacI-lactosa
 
-CHANCE-DE-DEGRADACIÓN-DE-LACY – establece la probabilidad de degradación de un LacY que se instala en la pared de la célula
+CHANCE-DE-DEGRADACIÓN-DE-LACY – establece la probabilidad de degradación de un LacY que está instalada en la pared de la célula
 
 CHANCE-DE-DEGREDACIÓN-DE-LACZ – establece la posibilidad de degradación de las moléculas de LacZ en la célula
 
@@ -105,13 +105,13 @@ Observa los cambios en energía de las células cuando se agrega lactosa (es dec
 
 Observa los cambios de energía cuando una célula se divide.
 
-Observa los cambios en el tiempo medio de división celular a medida que pasa el tiempo.
+Observa los cambios en el tiempo promedio de división celular a medida que pasa el tiempo.
 
-Observa el efecto de los cambios en las condiciones ambientales (ENCENDIDO/APAGADO de GLUCOSA? y LACTOSA? en el tiempo medio de división celular y el número de LacZ.
+Observa el efecto de los cambios en las condiciones ambientales (ENCENDIDO/APAGADO de GLUCOSA? y LACTOSA? en el tiempo promedio de división celular y el número de LacZ.
 
 ##  COSAS PARA INTENTAR
 
-Intente hacer que el cambio genético sea más sensible a las condiciones ambientales. Debe estar "encendido" sólo cuando la lactosa está presente y "apagado" en caso contrario. Puedes hacer esto cambiando los parámetros del control deslizante.
+Intenta hacer que el cambio genético sea más sensible a las condiciones ambientales. Debe estar "encendido" sólo cuando la lactosa está presente y "apagado" en caso contrario. Puedes hacer esto cambiando los parámetros del control deslizante.
 
 Si la célula comienza a absorber lactosa y a producir energía más rápidamente, ¿el tiempo promedio de división celular también disminuye?
 
