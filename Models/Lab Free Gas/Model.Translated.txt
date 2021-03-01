@@ -94,7 +94,7 @@ borrar rastro
 ### Source
 collide?
 ### Spanish
-¿chocar?
+chocar?
 
 ### Source
 go/stop
@@ -139,5 +139,5 @@ preparar
 ### Source
 trace?
 ### Spanish
-¿trazar?
+trazar?
 

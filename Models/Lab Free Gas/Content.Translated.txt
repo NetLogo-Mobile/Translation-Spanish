@@ -4,17 +4,17 @@ Este modelo es el modelo de gas más simple en el conjunto de modelos GasLab. La
 
 Este modelo es uno en una serie de modelos GasLab. Usan las mismas reglas básicas para simular el comportamiento de los gases. Cada modelo integra diferentes características para resaltar diferentes aspectos del comportamiento del gas.
 
-El principio básico de los modelos es que se supone que las partículas de gas tienen dos acciones elementales: se mueven y chocan, ya sea con otras partículas o con cualquier otro objeto, como paredes.
+El principio básico de los modelos es que se supone que las partículas de gas tienen dos acciones elementales: se mueven y chocan --- ya sea con otras partículas o con cualquier otro objeto, como paredes.
 
 ##  COMO FUNCIONA
 
 El principio básico de todos los modelos de GasLab es el siguiente algoritmo (para más detalles, consulta el modelo "GasLab en una Caja"):
 
-1) Una partícula se mueve en una línea recta sin cambiar su velocidad, a menos que choque con otra partícula o rebote en la pared.
-2) Dos partículas "chocan" si se encuentran en la misma parcela (la Vista de NetLogo se compone de una cuadrícula de pequeños cuadrados llamadas parcelas). En este modelo, se apuntan dos partículas de modo que colisionen en el origen.
-3) Se elige un ángulo de colisión para las partículas, como si fueran dos bolas sólidas que chocan, y este ángulo describe la dirección de la línea que conecta sus centros.
-4) Las partículas intercambian momento y energía solo a lo largo de esta línea, conformando a la conservación del momento y la energía para colisiones elásticas.
-5) A cada partícula se le asigna su nueva velocidad, rumbo y energía.
+1. Una partícula se mueve en una línea recta sin cambiar su velocidad, a menos que choque con otra partícula o rebote en la pared.
+2. Dos partículas "chocan" si se encuentran en la misma parcela (la Vista de NetLogo se compone de una cuadrícula de pequeños cuadrados llamadas parcelas). En este modelo, se apuntan dos partículas de modo que colisionen en el origen.
+3. Se elige un ángulo de colisión para las partículas, como si fueran dos bolas sólidas que chocan, y este ángulo describe la dirección de la línea que conecta sus centros.
+4. Las partículas intercambian momento y energía solo a lo largo de esta línea, conformando a la conservación del momento y la energía para colisiones elásticas.
+5. A cada partícula se le asigna su nueva velocidad, rumbo y energía.
 
 ##  COMO USARLO
 
