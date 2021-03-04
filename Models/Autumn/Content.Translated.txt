@@ -8,9 +8,9 @@ Por qué y cómo las hojas cambian de color y caen es sorprendentemente complica
 
 Los colores que vemos en cada hoja provienen de la presencia de sustancias naturales que se producen y guardan en cada hoja. Tres sustancias contribuyen al color de una hoja:
 
-- El verde viene de la clorofila (o un conjunto de sustancias relacionadas conocidas como clorofilas), que convierte la luz solar y el agua en azúcar. Las moléculas de clorofila se destruyen y no se reponen cuando se exponen a la luz solar excesiva y cuando las temperaturas son bajas. Por lo tanto, los días fríos y soleados de otoño hacen que la concentración general de clorofila se disminuya. La concentración general de clorofila aumenta nuevamente con la luz del sol (¡siempre que no haya demasiada!) y cuando hay agua.
+- El verde viene de la clorofila (o un conjunto de sustancias relacionadas conocidas como clorofilas), que convierte la luz solar y la agua en azúcar. Las moléculas de clorofila se destruyen y no se reponen cuando se exponen a la luz solar excesiva y cuando las temperaturas son bajas. Por lo tanto, los días fríos y soleados de otoño hacen que la concentración general de clorofila se disminuya. La concentración general de clorofila aumenta nuevamente con la luz del sol (¡siempre que no haya demasiada!) y cuando hay agua. 
 
-- El amarillo viene de una sustancia llamada caroteno. Las moléculas de caroteno ayudan a dar color a las zanahorias y batatas. La concentración de caroteno permanece constante durante la vida de una hoja. Sin embargo, el color amarillo suele estar enmascarado por el color verde de la clorofila. Una hoja con mucha más clorofila (típico del verano) será exclusivamente verde, aunque con fuertes tintes amarillos enmascarados detrás del verde. Sin embargo, a medida que la clorofila muere, la presencia de caroteno se hace evidente, lo que da como resultado una hoja amarilla.
+- El amarillo viene de una sustancia llamada caroteno. Las moléculas de caroteno ayudan a dar color a las zanahorias y patatas dulces. La concentración de caroteno permanece constante durante la vida de una hoja. Sin embargo, el color amarillo suele estar enmascarado por el color verde de la clorofila. Una hoja con mucha más clorofila (típico del verano) será exclusivamente verde, aunque con fuertes tintes amarillos enmascarados detrás del verde. Sin embargo, a medida que la clorofila muere, la presencia de caroteno se hace evidente, lo que da como resultado una hoja amarilla.
 
 - El rojo viene de una sustancia llamada antocianinas. Las moléculas de antocianina se crean en la presencia de altas concentraciones de azúcar y concentraciones de agua en la hoja. (Cuanto mayor es la concentración de azúcar, más antocianinas se producen). La concentración de azúcar aumenta cuando el clima frío hace que el árbol interrumpa la circulación de agua al resto del árbol; el agua y azúcar que se queda atrapado en la hoja se convierte en antocianinas.
 
@@ -28,9 +28,9 @@ Tenga en cuenta que la intensidad de los colores de las hojas varía con el nive
 
 Para usar el modelo, presiona PREPARAR. Esto creará el tronco y las ramas del árbol, y también creará las hojas del árbol, que son los agentes principales en este modelo. Presiona IR para poner el sistema en movimiento.
 
-Ahora viene la parte interesante y/o complicada, es decir, ajustar los controles deslizantes debajo de la vista para que el clima produzca las condiciones que tú deseas explorar o estudiar. Si las hojas parecen estar perdiendo clorofila debido a la falta de agua (que puede controlar en el gráfico "Promedios de Hojas"), puedes hacer que llueva al ajustar el control deslizante ITENSIDAD-DE-LLUVIA. Para hacer que el viento sople, ajuste el control deslizante FACTOR-DE-VIENTO.
+Ahora viene la parte interesante y/o complicada, es decir, ajustar los controles deslizantes debajo de la vista para que el clima produzca las condiciones que tú deseas explorar o estudiar. Si las hojas parecen estar perdiendo clorofila debido a la falta de agua (que puedes controlar en el gráfico "Promedios de Hojas"), puedes hacer que llueva al ajustar el control deslizante INTENSIDAD-DE-LLUVIA. Para hacer que el viento sople, ajuste el control deslizante FACTOR-DE-VIENTO.
 
-La fuerza del sol (en términos de intensidad de la luz solar) se ajusta con el control deslizante ITENSIDAD-DEL-SOL. Como se señaló anteriormente, las hojas necesitan luz solar para producir clorofila y azúcar, pero demasiada luz solar puede comenzar a destruir estas químicas.
+La fuerza del sol (en términos de intensidad de la luz solar) se ajusta con el control deslizante INTENSIDAD-DEL-SOL. Como se señaló anteriormente, las hojas necesitan luz solar para producir clorofila y azúcar, pero demasiada luz solar puede comenzar a destruir estas químicas.
 
 Finalmente, puedes cambiar el control deslizante TEMPERATURA. Si la temperatura es demasiado fría, las moléculas de clorofila se destruirán, poniendo en marcha la creación de antocianinas.
 
@@ -44,21 +44,21 @@ Hojas absorben agua cuando son golpeadas por las gotas de lluvia, lo que signifi
 
 Cuanto más fuerte es el viento, más se mueve cada hoja.
 
-Puedes simular un huracán menor al subir el viento y la lluvia a sus valores máximas. ¡Mira cómo se caen todas las hojas juntas!
+Puedes simular un huracán menor al subir el viento y la lluvia a sus valores máximos. ¡Mira cómo se caen todas las hojas juntas!
 
 ##  COSAS PARA INTENTAR
 
-¿Puedes conseguir que todas las hojas se pongan rojas antes de caer? ¿Qué tal ponerse naranja antes de caer? ¿Qué tal amarillo? Ahora intente a poner más interesante las cosas, de modo que el mismo árbol tenga hojas de muchos colores diferentes. (Sugerencia: probablemente tendrás que ajustar los controles deslizantes de sol, lluvia y temperatura varias veces para que la combinación se vea bien).
+¿Puedes conseguir que todas las hojas se pongan rojas antes de caer? ¿Qué tal ponerse naranja antes de caer? ¿Qué tal amarillo? Ahora intenta poner más interesante las cosas, de modo que el mismo árbol tenga hojas de muchos colores diferentes. (Sugerencia: probablemente tendrás que ajustar los controles deslizantes de sol, lluvia y temperatura varias veces para que la combinación se vea bien).
 
 Intenta que las hojas se vuelvan amarillas y luego verdes nuevamente.
 
-En algunas climas, los árboles no pierden sus hojas. ¿Puedes ajustar las condiciones climáticas para que el árbol conserve algunas de sus hojas?
+En algunos climas, los árboles no pierden sus hojas. ¿Puedes ajustar las condiciones climáticas para que el árbol conserve algunas de sus hojas?
 
 ##  EXTENDIENDO EL MODELO
 
 En la vida real, las hojas que dan al sol tienden a ser más amarillas que las que no lo hacen. Cambia el modelo de manera que el sol se pueda colocar (y mover), y de tal manera que las hojas que miran hacia el sol sean más sensibles a la luz solar que las que no lo hacen.
 
-El modelo es muy simplista en su enfoque del agua y el azúcar, es decir, que toda el agua proviene de la lluvia, que las gotas de lluvia pueden afectar a varias hojas y que las gotas de lluvia desaparecen cuando golpean el suelo. Un modelo más realista haría que las gotas de lluvia desaparecieran tan pronto como golpearan una hoja, pero también permitiría que el agua viajara desde el suelo hasta las hojas, a través del tronco y las ramas. También un modelo más realista modelaría el transporte de azúcares entre las hojas y el almacenamiento del exceso de azúcar en las raíces.
+El modelo es muy simplista en su enfoque del agua y el azúcar, es decir, que toda la agua proviene de la lluvia, que las gotas de lluvia pueden afectar a varias hojas y que las gotas de lluvia desaparecen cuando golpean el suelo. Un modelo más realista haría que las gotas de lluvia desaparecieran tan pronto como golpearan una hoja, pero también permitiría que el agua viajara desde el suelo hasta las hojas, a través del tronco y las ramas. También un modelo más realista modelaría el transporte de azúcares entre las hojas y el almacenamiento del exceso de azúcar en las raíces.
 
 Permite la brotación y el crecimiento de hojas nuevas, además de la muerte de las maduras.
 
@@ -72,7 +72,7 @@ También tenga en cuenta que el esquema de color de NetLogo y la primitiva `esca
 
 Cuando una hoja muere, su raza cambia a "hojas muertas". Esto lo mantiene en el sistema, pero nos permite dar instrucciones solo a aquellas hojas que están vivas.
 
-Observe cómo cambia el color del sol a medida que cambia la INTENSIDAD-DEL-SOL. ¿Qué le sucede a la etiqueta cuando el sol se vuelve oscuro y pequeño?
+Observa cómo cambia el color del sol a medida que cambia la INTENSIDAD-DEL-SOL. ¿Qué le sucede a la etiqueta cuando el sol se vuelve oscuro y pequeño? 
 
 ##  MODELOS RELACIONADOS 
 
