@@ -54,7 +54,7 @@ El "período" de una fracción es la cantidad de dígitos que se repiten para fo
 
 Cambia los colores para que los números impares sean todos de un color y los números pares sean de otro color.
 
-Cambia los colores para que solo usa un color, pero se varía en claridad/oscuridad.
+Cambia los colores para que solo uses un color, pero varía en claridad/oscuridad.
 
 Modifique el programa para que puedas visualizar raíces cuadradas y pi.
 
@@ -62,7 +62,7 @@ Modifique el programa para que puedas visualizar raíces cuadradas y pi.
 
 Las etiquetas de parcela se usan para mostrar los dígitos.
 
-Puedes usar la primitiva `reordenar` para crear una lista de parcelas ordenados de izquierda-a-derecha, de arriba-a-abajo. Eso es necesario en este modelo porque necesitamos que los parches se ejecuten en el mismo orden en cada tic, en lugar de un orden aleatorio diferente en cada tic, como sucedería si solo dijéramos 'preguntar parcelas'.
+Puedes usar la primitiva `reordenar` para crear una lista de parcelas ordenados de izquierda-a-derecha, de arriba-a-abajo. Eso es necesario en este modelo porque necesitamos que los parches se ejecuten en el mismo orden en cada tic, en lugar de un orden aleatorio diferente en cada tic, como sucedería si sólo dijéramos 'preguntar parcelas'.
 
 ##  MODELOS RELACIONADOS 
 
@@ -70,9 +70,9 @@ División
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-Este modelo es adapatado de algunos recursos que ya no están disponibles : [Color Calculator Information for teachers and Color Calculator](http://tapor.ca/home).
+Este modelo fue adaptado de algunos recursos que ya no están disponibles : [Color Calculator Information for teachers and Color Calculator](http://tapor.ca/home).
 
-Este modela implementa activitidades originalmente publicados en:
+Este modelo implementa actividades originalmente publicados en:
 Nathalie Sinclair, Rina Zazkis and Peter Liljedahl.  Number Worlds: Visual and Experimental Access to Elementary Number Theory Concepts.  International Journal of Computers for Mathematical Learning, Volume 8, Number 3, pages 235 - 263, January 2003.
 
 ##  COMO CITAR 
