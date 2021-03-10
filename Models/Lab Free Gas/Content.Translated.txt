@@ -4,14 +4,14 @@ Este modelo es el modelo de gas más simple en el conjunto de modelos GasLab. La
 
 Este modelo es uno en una serie de modelos GasLab. Usan las mismas reglas básicas para simular el comportamiento de los gases. Cada modelo integra diferentes características para resaltar diferentes aspectos del comportamiento del gas.
 
-El principio básico de los modelos es que se supone que las partículas de gas tienen dos acciones elementales: se mueven y chocan --- ya sea con otras partículas o con cualquier otro objeto, como paredes.
+El principio básico de los modelos es que se supone que las partículas de gas tienen dos acciones elementales: se mueven y chocan, ya sea con otras partículas o con cualquier otro objeto, como paredes.
 
 ##  COMO FUNCIONA
 
 El principio básico de todos los modelos de GasLab es el siguiente algoritmo (para más detalles, consulta el modelo "GasLab en una Caja"):
 
 1. Una partícula se mueve en una línea recta sin cambiar su velocidad, a menos que choque con otra partícula o rebote en la pared.
-2. Dos partículas "chocan" si se encuentran en la misma parcela (la Vista de NetLogo se compone de una cuadrícula de pequeños cuadrados llamadas parcelas). En este modelo, se apuntan dos partículas de modo que colisionen en el origen.
+2. Dos partículas "chocan" si se encuentran en la misma parcela (la Vista de NetLogo se compone de una cuadrícula de pequeños cuadrados llamadas parcelas). En este modelo, se apuntan dos partículas de modo que colisionan en el origen.
 3. Se elige un ángulo de colisión para las partículas, como si fueran dos bolas sólidas que chocan, y este ángulo describe la dirección de la línea que conecta sus centros.
 4. Las partículas intercambian momento y energía solo a lo largo de esta línea, conformando a la conservación del momento y la energía para colisiones elásticas.
 5. A cada partícula se le asigna su nueva velocidad, rumbo y energía.
@@ -25,12 +25,12 @@ Ajustes iniciales:
 - VELOCIDAD-PARTÍCULA–INICIAL: la velocidad inicial de cada partícula - todas comienzan con la misma velocidad.
 - MASA-DE-PARTÍCULAS: la masa de cada partícula - todas tienen la misma masa.
 
-Como en la mayoría de los modelos NetLogo, el primer paso es presionar PREPARAR. Pone las condiciones iniciales que has establecido con los controles deslizantes. Asegúrete de esperar hasta que el botón PREPARAR se detenga antes de presionar IR.
+Como en la mayoría de los modelos NetLogo, el primer paso es presionar PREPARAR. Pone las condiciones iniciales que has establecido con los controles deslizantes. Asegúrate de esperar hasta que el botón PREPARAR se detenga antes de presionar IR.
 El botón IR ejecuta los modelos una y otra vez. Este es un botón "para siempre".
 
 Monitores:
-- Monitores PORCENTAJE RÁPIDO, PERCENTAJE MEDIO, PORCENTAJE LENTO: porcentaje de partículas con diferentes velocidades: rápido (rojo), medio (verde) y lento (azul).
-- VELOCIDAD PREMEDIO: velocidad promedio de las partículas.
+- Monitores PORCENTAJE RÁPIDO, PORCENTAJE MEDIO, PORCENTAJE LENTO: porcentaje de partículas con diferentes velocidades: rápido (rojo), medio (verde) y lento (azul).
+- VELOCIDAD PROMEDIO: velocidad promedio de las partículas.
 - ENERGÍA PROMEDIO: energía cinética promedio de las partículas.
 
 Parcelas:
@@ -50,7 +50,7 @@ Inicialmente, todas las partículas tienen la misma velocidad pero direcciones a
 
 Este gas se encuentra en un "espacio infinito" -- sin límites, sin obstrucciones, ¡pero sigue siendo un tamaño finito! ¿Existe una situación física como esta?
 
-Observe la partícula cuya camino se traza en el dibujo. Observe cómo el camino "envuelve" el mundo. ¿Se parece el trazo al movimiento Browniano? ¿Puedes observar cuando ocurre una colisión? ¿Cuáles factores afectan la frecuencia de las colisiones? ¿Qué pasa con la "angularidad" del camino? ¿Podrías hacer que se mantuviera "local" o que viaja por todo el mundo?
+Observa la partícula cuyo camino se traza en el dibujo. Observa cómo el camino "envuelve" el mundo. ¿Se parece el trazo al movimiento Browniano? ¿Puedes observar cuando ocurre una colisión? ¿Cuáles factores afectan la frecuencia de las colisiones? ¿Qué pasa con la "angularidad" del camino? ¿Podrías hacer que se mantuviera "local" o que viajara por todo el mundo?
 
 ¿De qué manera este modelo es una "idealización" del mundo real?
 
@@ -84,11 +84,11 @@ Configura solo dos partículas para que choquen de frente. Esto puede ayudar a m
 
 ¿Qué pasaría si algunas de las partículas tuvieran una tendencia de "deriva", una fuerza que las empujara en una dirección? ¿Podrías desarrollar un modelo de centrífuga o partículas cargadas en un campo eléctrico?
 
-Encuentra una manera de monitorear la frecuencia con la que chocan las partículas y qué tan lejos llegan, en promedio, entre las colisiones. Este último se denomina "camino libre promedio". ¿Qué factores afectan su valor?
+Encuentra una manera de monitorear la frecuencia con la que chocan las partículas y qué tan lejos llegan, en promedio, entre las colisiones. Este último se denomina "camino libre promedio". ¿Qué factores afectan su valor? 
 
 ¿En qué se diferencia esta idealización de la usada para derivar la distribución de Maxwell-Boltzmann? Específicamente, ¿qué otro código se podría usar para representar las colisiones de partículas de dos cuerpos?
 
-Si llegan *más* de dos partículas a la misma marcela, el código actual dice que no chocan. ¿Es esto un error? ¿Cómo afecta a los resultados?
+Si llegan *más* de dos partículas a la misma parcela, el código actual dice que no chocan. ¿Es esto un error? ¿Cómo afecta a los resultados?
 
 ¿Este modelo es válido para fluidos en cualquier aspecto? ¿Cómo se puede hacer que sea como fluido?
 
@@ -102,7 +102,7 @@ Observa cómo las tortugas detectan las colisiones y cómo el código garantiza 
 
 Este modelo fue desarrollado como parte del plan de estudios de GasLab (http://ccl.northwestern.edu/curriculum/gaslab/) y también ha sido incorporado en el plan de estudios de Química Conectada (http://ccl.northwestern.edu/curriculum/ConnectedChemistry/)
 
-Esto fue parte del original Conecciones Máquina StarLogo applicaciones (bajo el nombre GPCEE) y ahora ha sido portado a NetLogo como parte del proyecto Simulaciones Participativas.
+Esto fue parte del original Conecciones Máquina StarLogo aplicaciones (bajo el nombre GPCEE) y ahora ha sido portado a NetLogo como parte del proyecto Simulaciones Participativas.
 
 ##  COMO CITAR 
 
