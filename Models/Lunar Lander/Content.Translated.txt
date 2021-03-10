@@ -2,12 +2,12 @@
 
 Este modelo está basado en el juego de arcade Lunar Lander. El objetivo del juego es aterrizar el módulo lunar rojo en la plataforma de aterrizaje azul en la superficie de la luna sin chocar o romper el módulo.
 
-El módulo lunar es frágil, por lo que debes moverte extremadamente lento para evitar daños cuando aterrices. Tiene un propulsor que ejerce una fuerza en función de la inclinación del módulo. Tiene la capacidad de inclinarse hacia la derecha y izquierda.
+El módulo lunar es frágil, por lo que debes moverte extremadamente lento para evitar daños cuando aterrices. Tiene un propulsor que ejerce una fuerza en función de la inclinación del módulo. Tienes la capacidad de inclinarte hacia la derecha e izquierda.
 
 ##  COMO USARLO
 
 Botones:
-PREPARAR inicia el juego al crear una nueva superficie para que navegues y colocando tu módulo sobre esa superficie, listo para el descenso.
+PREPARAR inicia el juego al crear una nueva superficie para que navegues y coloques tu módulo sobre esa superficie, listo para el descenso.
 IR inicia el juego. Esté listo; el módulo comenzará a descender con bastante rapidez.
 IZQUIERDA y DERECHA inclinan el módulo hacia adelante y hacia atrás
 PROPULSIÓN dispara tus cohetes de acuerdo con tu inclinación actual.
@@ -35,7 +35,7 @@ Actualmente, las colisiones con los bordes del módulo no se detectan, entonces 
 
 Agrega niveles al juego continuamente haciendo que el terreno sea más irregular, la plataforma más pequeña o por algún otro método para hacer el juego más difícil, tal vez naves espaciales alienígenas.
 
-Intenta escribir un piloto de robot que automáticamente aterrizaría el módulo de forma segura.
+Intenta escribir un piloto de robot que automáticamente aterrizará el módulo de forma segura.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
