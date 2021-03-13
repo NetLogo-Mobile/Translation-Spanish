@@ -21,9 +21,9 @@ La red que se crea se basa en la proximidad (distancia euclidiana) entre nodos. 
 
 El control deslizante TAMAÑO-DEL-BROTE-INICIAL determina cuántos de los nodos iniciarán la simulación infectados con el virus.
 
-Luego presiona PREPARAR para crear la red. Presione GO para ejecutar el modelo. El modelo dejará de ejecutarse una vez que el virus se haya extinguido por completo.
+Luego presiona PREPARAR para crear la red. Presione IR para ejecutar el modelo. El modelo dejará de ejecutarse una vez que el virus se haya extinguido por completo.
 
-Los controles deslizantes CHANCE-DE-PROPAGACIÓN-DEL-VIRUS, FRECUENCIA-DE-VERIFICACIÓN-DEL-VIRUS, CHANCE-DE-RECUPERACIÓN y CHANCE-DE-OBTENER-RESISTENCIA (discutidos en "COMO FUNCIONA" más arriba) se pueden ajustar antes de presionar IR, o mientras el modelo está funcionando.
+Los controles deslizantes CHANCE-DE-PROPAGACIÓN-DEL-VIRUS, FRECUENCIA-DE-VERIFICACIÓN-DEL-VIRUS, CHANCE-DE-RECUPERACIÓN y CHANCE-DE-OBTENER-RESISTENCIA (discutidos en "CÓMO FUNCIONA" más arriba) se pueden ajustar antes de presionar IR, o mientras el modelo está funcionando.
 
 El gráfico ESTADO DE LA RED muestra el número de nodos en cada estado (S, I, R) con el tiempo.
 
@@ -33,7 +33,7 @@ Al final de la ejecución, una vez que el virus se ha extinguido, algunos nodos 
 
 ##  COSAS PARA INTENTAR
 
-Establezca CHANCE-DE-OBTENER-RESISTENCIA en 0%. ¿En cuáles condiciones seguirá desapareciendo el virus? ¿Cuánto tiempo se tarda? ¿Qué condiciones se requieren para que viva el virus? Si CHANCE-DE-RECUPERACIÓN es mayor que 0, incluso si CHANCE-DE-PROPAGACIÓN-DEL-VIRUS es alto, ¿crees que si pudiera ejecutar el modelo para siempre, el virus podría seguir vivo?
+Establezca CHANCE-DE-OBTENER-RESISTENCIA en 0%. ¿En cuáles condiciones seguirá desapareciendo el virus? ¿Cuánto tiempo se tarda? ¿Qué condiciones se requieren para que viva el virus? Si CHANCE-DE-RECUPERACIÓN es mayor que 0, incluso si CHANCE-DE-PROPAGACIÓN-DEL-VIRUS es alto, ¿crees que si pudieras ejecutar el modelo para siempre, el virus podría seguir vivo?
 
 ##  EXTENDIENDO EL MODELO
 
@@ -43,7 +43,7 @@ Suponga que el virus se está propagando enviándose por correo electrónico a t
 
 ¿Puedes modelar varios virus al mismo tiempo? ¿Cómo interactuarían? A veces, si una computadora tiene un malware instalado, es más vulnerable a ser infectado por más malware.
 
-Intenta hacer un modelo similar a este, pero donde el virus tenga la capacidad de mutar. Estos virus que se modifican automáticamente son una amenaza considerable para la seguridad informática, ya que los métodos tradicionales de identificación de firmas de virus pueden no funcionar en su contra. En su modelo, los nodos que se vuelven inmunes pueden volver a infectarse si el virus ha mutado para volverse significativamente diferente de la variante que originalmente infectó el nodo.
+Intenta hacer un modelo similar a este, pero donde el virus tenga la capacidad de mutar. Estos virus que se modifican automáticamente son una amenaza considerable para la seguridad informática, ya que los métodos tradicionales de identificación de firmas de virus no pueden funcionar en su contra. En su modelo, los nodos que se vuelven inmunes pueden volver a infectarse si el virus ha mutado para volverse significativamente diferente de la variante que originalmente infectó el nodo.
 
 ##  MODELOS RELACIONADOS 
 
@@ -51,7 +51,7 @@ Virus, Enfermedad, Vinculación Preferencial, Difusión en una Red Directada.
 
 ##  CARACTERÍSTICAS DE NETLOGO 
 
-Enlaces se usan parar modelar la red. La primiitiva `layout-spring` se usa para posicionar los nodos y enlaces para que la estructura de la red es visualmente claro.
+Enlaces se usan para modelar la red. La primitiva `layout-spring` se usa para posicionar los nodos y enlaces para que la estructura de la red es visualmente claro.
 
 No se usa en este modelo, pero una extensión de redes existe para NetLogo que puedes descargar en: https://github.com/NetLogo/NW-Extension.
 
