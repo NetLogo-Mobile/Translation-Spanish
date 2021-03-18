@@ -1198,9 +1198,9 @@ When applied, this rule block will ask each <trigger=Glossary-Turtle,green>turtl
 Cuando se aplica, este bloque de reglas preguntará a cada<trigger=Glossary-Turtle,green> tortuga </trigger> en el mundo para aplicar las reglas que colocó dentro de este bloque. Por lo tanto, en este patio de juegos, solo puede arrastrar bloques con el ícono  . Este bloque se logra mediante<help=observer> pedir</help> primitivo de NetLogo.
 
 ### Source
-When applied, this rule block will ask the <trigger=Glossary-Turtle,green>turtle </trigger> to reproduce a number of turtles in the world. Each new <color,green>turtle </color> will inherit its position, heading and all other properties, and rules within this block will also be applied. This is achieved by <turtle=observer>hatch</turtle> primitive of NetLogo.
+When applied, this rule block will ask the <trigger=Glossary-Turtle,green>turtle </trigger> to reproduce a number of turtles in the world. Each new <color=green>turtle </color> will inherit its position, heading and all other properties, and rules within this block will also be applied. This is achieved by <turtle=observer>hatch</turtle> primitive of NetLogo.
 ### Spanish ***
-Cuando se aplica, este bloque de reglas preguntará al<trigger=Glossary-Turtle,green> tortuga </trigger> para reproducir una serie de tortugas en el mundo. Cada nuevo<color,green> tortuga </color> heredará su posición, encabezado y todas las demás propiedades, y también se aplicarán las reglas dentro de este bloque. Esto se logra por<turtle=observer> escotilla</turtle> primitivo de NetLogo.
+Cuando se aplica, este bloque de reglas preguntará al<trigger=Glossary-Turtle,green> tortuga </trigger> para reproducir una serie de tortugas en el mundo. Cada nuevo<color=green> tortuga </color> heredará su posición, encabezado y todas las demás propiedades, y también se aplicarán las reglas dentro de este bloque. Esto se logra por<turtle=observer> escotilla</turtle> primitivo de NetLogo.
 
 ### Source
 When applied, this rule block will clear everything in the world including <trigger=Glossary-Turtle,green>turtles </trigger>, <trigger=Glossary-Patch,brown>patches </trigger>, trails, and reset the <trigger=Glossary-Tick>ticks </trigger> of time. It is achieved by <help=observer>clear-all</help> and <help=observer>reset-ticks</help> primitives of NetLogo.
