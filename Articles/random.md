@@ -1,4 +1,3 @@
-﻿*** Machine Translated
-`random` es un procedimiento que le permite agregar aleatoriedad a sus modelos. Cuando le da `random` , informará un número aleatorio de 0 a N-1. Imagina que cada vez que ejecutas el comando `random N` , estás lanzando un dado con N número de lados.
+﻿`random` es un procedimiento que te permite agregar aleatoriedad a sus modelos. Cuando le das `random`, informará un número aleatorio de 0 a N-1. Imagina que cada vez que ejecutas el comando `random N`, estás lanzando un dado con N número de lados.
 
-Algo importante que debe recordar al usar `random` es que los números que puede obtener van de 0 a N - 1, en lugar de 1 a N. Por ejemplo, si ejecuta `random 3` , puede obtener 0, 1 o 2. En el En el ejemplo siguiente, agregamos uno al resultado de `random 6` para tener en cuenta esta diferencia entre las tiradas de dados aleatorios de NetLogo y las de un dado de seis caras real.
+Algo importante que debes recordar al usar `random` es que los números que puedes obtener van de 0 a N - 1, en lugar de 1 a N. Por ejemplo, si ejecutas `random 3` , puedes obtener 0, 1 o 2. En el ejemplo siguiente, agregamos uno al resultado de `random 6` para tener en cuenta esta diferencia entre las tiradas de dados aleatorios de NetLogo y las de un dado de seis caras real.
