@@ -1,4 +1,5 @@
-﻿`ifelse` , al igual que `if` , se utiliza para ejecutar ciertos comandos de forma condicional, es decir, en función de alguna condición de verdadero o falso. `ifelse` se utiliza cuando deseas ejecutar un conjunto de comandos *si* una condición es verdadera y otro conjunto en caso contrario.
+﻿*** Machine Translated
+`ifelse` , al igual que `if` , se utiliza para ejecutar ciertos comandos de forma condicional, es decir, en función de alguna condición de verdadero o falso. `ifelse` se utiliza cuando deseas ejecutar un conjunto de comandos *si* una condición es verdadera y otro conjunto en caso contrario.
 
 Por ejemplo, al comienzo de muchos partidos deportivos, se lanza una moneda para determinar quién recibe la pelota primero. *si* el equipo A gana, recibe el balón; *de lo contrario* (en caso contrario), el equipo B recibe el balón. para poner esto en el código NetLogo, diríamos: 
 

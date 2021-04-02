@@ -1,4 +1,5 @@
-﻿`create-links-with` es un procedimiento de tortuga que crea un enlace entre la tortuga actual (mismo) y cada miembro de un conjunto de agentes proporcionado. (compáralo con `create-link-with`, que crea un vínculo desde la tortuga actual a una *sola* otra tortuga).
+﻿*** Machine Translated
+`create-links-with` es un procedimiento de tortuga que crea un enlace entre la tortuga actual (mismo) y cada miembro de un conjunto de agentes proporcionado. (compáralo con `create-link-with`, que crea un vínculo desde la tortuga actual a una *sola* otra tortuga).
 
 Una cosa importante a tener en cuenta al usar `create-links-with` es que una tortuga que crea un vínculo a sí misma provocará un error. Por ejemplo, si escribieras: 
 

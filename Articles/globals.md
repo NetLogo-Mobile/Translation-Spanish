@@ -1,4 +1,5 @@
-﻿`globals` mantiene la información que debería ser común a todo el modelo. Las variables globales siempre se declaran en la parte superior de su código, y su sintaxis es:
+﻿*** Machine Translated
+`globals` mantiene la información que debería ser común a todo el modelo. Las variables globales siempre se declaran en la parte superior de su código, y su sintaxis es:
 
 `globals [ variable-name ]`
 

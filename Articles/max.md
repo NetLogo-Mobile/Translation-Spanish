@@ -1,4 +1,5 @@
-﻿`Max` informa el valor máximo en una lista determinada. Por ejemplo, `show max [1 2 3]` devolverá 3. `Max` se usa comúnmente en una variable específica de un conjunto de agentes, que se vería así:
+﻿*** Machine Translated
+`Max` informa el valor máximo en una lista determinada. Por ejemplo, `show max [1 2 3]` devolverá 3. `Max` se usa comúnmente en una variable específica de un conjunto de agentes, que se vería así:
 
 `max [variable] of agentset`
 

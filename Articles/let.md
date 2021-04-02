@@ -1,4 +1,5 @@
-﻿`Let` se usa para crear una nueva **variable local** y establecer su valor. Una **variable local** es una variable que solo existe dentro de los corchetes o `[...]` procedimiento en el que fue creada, a diferencia de una variable global. Solo se puede usar en el código que viene *después de* su declaración y toma la forma de:
+﻿*** Machine Translated
+`Let` se usa para crear una nueva **variable local** y establecer su valor. Una **variable local** es una variable que solo existe dentro de los corchetes o `[...]` procedimiento en el que fue creada, a diferencia de una variable global. Solo se puede usar en el código que viene *después de* su declaración y toma la forma de:
 
 ```let variable-name initial-value```
 

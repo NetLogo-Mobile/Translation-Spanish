@@ -1,4 +1,5 @@
-﻿`Hatch` se usa para crear nuevas tortugas por una tortuga existente. Toma la forma de:
+﻿*** Machine Translated
+`Hatch` se usa para crear nuevas tortugas por una tortuga existente. Toma la forma de:
 
 `hatch number-of-new-turtles [ optional-commands ]`
 

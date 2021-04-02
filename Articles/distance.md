@@ -1,4 +1,5 @@
-﻿`distance` es una primitiva de tortuga y parcelas que informa la distancia entre el agente actual y algún otro agente. Por ejemplo, si deseas imprimir la distancia de la tortuga 0 a la tortuga 1, puedes escribir
+﻿*** Machine Translated
+`distance` es una primitiva de tortuga y parcelas que informa la distancia entre el agente actual y algún otro agente. Por ejemplo, si deseas imprimir la distancia de la tortuga 0 a la tortuga 1, puedes escribir
 
 `ask turtle 0 [show distance turtle 1]`
 

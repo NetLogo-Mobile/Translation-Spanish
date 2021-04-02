@@ -1,4 +1,5 @@
-﻿`color` es una característica de tortugas que representa el color de la tortuga. `color` es un reportero y se puede usar para acceder al color de la tortuga. También puedes usar el `set` para cambiar el color de la tortuga o puedes cambiar el color en el centro de comando en la pestaña Interfaz. ¡Asegúrate de cambiar el menú desplegable a "tortugas" antes de escribir el comando! Por ejemplo
+﻿*** Machine Translated
+`color` es una característica de tortugas que representa el color de la tortuga. `color` es un reportero y se puede usar para acceder al color de la tortuga. También puedes usar el `set` para cambiar el color de la tortuga o puedes cambiar el color en el centro de comando en la pestaña Interfaz. ¡Asegúrate de cambiar el menú desplegable a "tortugas" antes de escribir el comando! Por ejemplo
 
 `ask turtles [ set color brown ]`
 

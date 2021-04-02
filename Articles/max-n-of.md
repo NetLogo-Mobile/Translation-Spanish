@@ -1,4 +1,5 @@
-﻿`Max-n-of` informa un conjunto de agentes que contiene un **número específico de agentes** con el **valor más alto de un reportero determinado** . Toma la forma de:
+﻿*** Machine Translated
+`Max-n-of` informa un conjunto de agentes que contiene un **número específico de agentes** con el **valor más alto de un reportero determinado** . Toma la forma de:
 
 ```max-n-of number agentset [ reporter ]```
 

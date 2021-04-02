@@ -564,6 +564,11 @@ Can you tell me something about a block?
 ### Spanish ***
 ¿Puedes decirme algo sobre un bloque?
 
+### Source ***
+Can you tell me: how to create such a microworld?
+### Spanish
+
+
 ### Source
 Congratulations! You have made the first step in making rules for this microworld. Click the "restart" button to apply the rules in the "Setup" section.
 ### Spanish ***
@@ -1363,14 +1368,14 @@ When you apply this block to a <trigger=Glossary-Patch,brown>patch </trigger>
 Cuando aplica este bloque a un<trigger=Glossary-Patch,brown> parche </trigger> o un<trigger=Glossary-Turtle,green> tortuga </trigger> , este bloque de reglas verificará si el número de tortugas en el parche es menor que el valor especificado por usted. Si es así, este bloque aplicará el primer conjunto de reglas. De lo contrario, aplicará el segundo conjunto. Cualquiera de los conjuntos de reglas puede estar vacío. Este bloque se logra mediante<help=observer> si no</help> ,<help=observer> contar</help> , y<help=observer> tortugas-aquí</help> primitivas de NetLogo.
 
 ### Source
-When you apply this block to a <trigger=Glossary-Turtle,green>turtle </trigger>, this rule block will check whether it is moving closer to the goal or moving further from it. If so, this block will apply the first set of rules to the turtle. Otherwise, it will apply the second set. Either set of rules can be empty. This block is achieved by <help=observer>ifelse</help> and <help=observer>patch-ahead</help> primitives of NetLogo.
-### Spanish ***
-Cuando aplica este bloque a un<trigger=Glossary-Turtle,green> tortuga </trigger> , este bloque de reglas verificará si se está acercando a la meta o alejándose de ella. Si es así, este bloque aplicará el primer conjunto de reglas a la tortuga. De lo contrario, aplicará el segundo conjunto. Cualquiera de los conjuntos de reglas puede estar vacío. Este bloque se logra mediante<help=observer> si no</help> y<help=observer> parche adelantado</help> primitivas de NetLogo.
-
-### Source
 When you apply this block to a <trigger=Glossary-Turtle,green>turtle </trigger>, this rule block will check whether it is moving closer to the goal or moving further from it. If so, this block will apply the first set of rules to the turtle. Otherwise, it will apply the second set. Either set of rules can be empty. This block is achieved by <help=observer>ifelse</help>, <help=observer>patch-ahead</help>, and <help=observer>distance</help> primitives of NetLogo.
 ### Spanish ***
 Cuando aplica este bloque a un<trigger=Glossary-Turtle,green> tortuga </trigger> , este bloque de reglas verificará si se está acercando a la meta o alejándose de ella. Si es así, este bloque aplicará el primer conjunto de reglas a la tortuga. De lo contrario, aplicará el segundo conjunto. Cualquiera de los conjuntos de reglas puede estar vacío. Este bloque se logra mediante<help=observer> si no</help> ,<help=observer> parche adelantado</help> , y<help=observer> distancia</help> primitivas de NetLogo.
+
+### Source
+When you apply this block to a <trigger=Glossary-Turtle,green>turtle </trigger>, this rule block will check whether it is reaching the goal or not. If so, this block will apply the first set of rules to the turtle. Otherwise, it will apply the second set. Either set of rules can be empty. This block is achieved by <help=observer>ifelse</help> and <help=observer>patch-here</help> primitives of NetLogo.
+### Spanish ***
+Cuando aplica este bloque a un<trigger=Glossary-Turtle,green> tortuga </trigger> , este bloque de reglas comprobará si está alcanzando la meta o no. Si es así, este bloque aplicará el primer conjunto de reglas a la tortuga. De lo contrario, aplicará el segundo conjunto. Cualquiera de los conjuntos de reglas puede estar vacío. Este bloque se logra mediante<help=observer> si no</help> y<help=observer> parche-aquí</help> primitivas de NetLogo.
 
 ### Source
 When you apply this block to a turtle, this rule block will check whether it is near the edge of the world. If so, this block will apply the first set of rules to the turtle. Otherwise, it will apply the second set. Either set of rules can be empty. This block is achieved by <help=observer>ifelse</help>, <help=observer>distancexy</help>, and <help=observer>max-pxcor</help> primitives of NetLogo.
@@ -1438,9 +1443,9 @@ You did perfectly! It is now time to start your own microworld, Curious One! Are
 ¡Lo hiciste perfectamente! ¡Ahora es el momento de comenzar tu propio micromundo, Curious One! ¿Estás listo para un nuevo capítulo de nuestro viaje o te quedas aquí un poco más?
 
 ### Source
-You may notice that every <trigger=Glossary-Turtle,green>turtle </trigger> is simply wandering around. Imagine that people are asked to move together. There is usually a signal - so, I suggest we start fixing this by asking each <color=green>turtle </color> to leave a signal and follow the signals in the world. What do you think, Curious One?
+You may notice that every <trigger=Glossary-Turtle,green>turtle </trigger> is simply wandering around. Imagine that people are asked to move together. There is usually a signal - so, I suggest we start fixing this by asking each <color=green>turtle </color> to leave a chemical signal and follow nearby signals. What do you think, Curious One?
 ### Spanish ***
-Puede notar que cada<trigger=Glossary-Turtle,green> tortuga </trigger> es simplemente deambular. Imagine que se pide a las personas que se muevan juntas. Por lo general, hay una señal, por lo que sugiero que comencemos a solucionarlo preguntando a cada<color=green> tortuga </color> dejar una señal y seguir las señales del mundo. ¿Qué opinas, curioso?
+Puede notar que cada<trigger=Glossary-Turtle,green> tortuga </trigger> es simplemente deambular. Imagine que se pide a las personas que se muevan juntas. Por lo general, hay una señal, por lo que sugiero que comencemos a solucionarlo preguntando a cada<color=green> tortuga </color> para dejar una señal química y seguir las señales cercanas. ¿Qué opinas, curioso?
 
 ### Source
 You might already formed some assumptions about why <trigger=Glossary-Turtle,green>turtles </trigger> form such patterns. Let's solider on! As the rule maker, you can always find a way or two to manipulate them and sort it out. What is in your mind, Curious One?
