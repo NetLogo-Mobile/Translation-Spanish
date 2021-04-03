@@ -1,4 +1,5 @@
-﻿*** Machine Translated
-`Count` devuelve el número de agentes en un conjunto de agentes específico. (Nota: puedes usar `with` para limitar un conjunto de agentes determinado). Por ejemplo, `show count turtles` mostraría el número total de tortugas en un modelo, y `show count turtles with [color = green]` mostraría el número de tortugas verdes en el modelo.
+﻿`Count` es una primitiva que devuelve el número de agentes en un conjunto de agentes específico. Por ejemplo, `count turtles` mostraría el número total de tortugas en un modelo, mientras que `count turtles with [color = green]` mostraría el número de tortugas verdes en el modelo. Puedes usar `count` con tortugas, parcelas, y enlaces.
 
-En el siguiente modelo, un grupo de jugadores intenta organizar un partido de baloncesto. Debido a que se necesitan 10 jugadores para un juego de baloncesto, si hay menos de 10 jugadores, nadie puede jugar. Entonces usamos `if count players < 10` para asegurarnos de que haya suficientes jugadores para el juego.
+También puedes usar `count` con razas de tortugas y razas de enlaces como `count dogs` o en combinación con otras primitivas agentes reporteros como `count turtles-here`.
+
+En el ejemplo de modelo a continuación, tenemos un parque para perros en el centro y tenemos un grupo de tortugas que representan a los perros en un vecindario. Nuestros perros se mueven de forma completamente aleatoria. Cuando hay más de 5 perros en el patio de recreo en un momento dado, nuestro modelo muestra un mensaje *"El patio de recreo está demasiado lleno"*.

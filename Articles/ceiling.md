@@ -1,11 +1,3 @@
-﻿*** Machine Translated
-`Ceiling` es una primitiva de redondeo que informa el número entero más cercano por encima del número dado, redondeando el número hacia arriba. Por ejemplo, el `ceiling 5.2` reportaría 6 y el `ceiling -4.8` reportaría -4.
+﻿`Ceiling` es una primitiva de redondeo que informa el número entero más cercano por encima del número dado, redondeando el número hacia *arriba*. Por ejemplo, el `ceiling 5.2` reportaría 6 y el `ceiling -4.8` reportaría -4.
 
-
-
-```
-FIX THE MODEL EXAMPLE!!!
-```
-
-
-En el ejemplo de modelo a continuación, usamos `floor` para redondear los puntajes de las pruebas de una clase. Si el maestro está siendo amigable, usaremos el `ceiling` para redondear los puntajes hacia arriba, y si el maestro está siendo antipático, usaremos `floor` para redondear los puntajes hacia abajo.
+En el ejemplo abajo, cada tortuga tiene un variable de `my-money` aumenta o disminuye un poco con cada tic. Usamos la primitiva `ceiling` para redondear el variable de `my-money` de una tortuga porque queremos demonstrar un etiqueta abajo de la tortuga mostrando su dinero actual. Si no redondeamos este variable arriba o abajo, su etiqueta enseñará muchos números de punto flotante como `1.822882372836`, lo que sería visualmente desgradable. También usamos la primitiva de `ceiling` al establecer el `ycor` parámetro de cada tortuga para que las tortugas solo mueven cuando la redondeada versión de su `my-money` variable cambia. Si ganan o pierden solo un poco de dinero, se mantienen estacionaria. Por último, usamoms el `ceiling` y su opuesto `floor`, para dos de nuestros tres monitores en la interfaz.
