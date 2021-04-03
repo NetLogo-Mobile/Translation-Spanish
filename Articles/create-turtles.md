@@ -1,4 +1,5 @@
-﻿`create-turtles` es una primitiva que crea tortugas con colores aleatorios y encabezados en la forma predeterminada de un triángulo. `Crt` es la versión abreviada de create-turtles. La sintaxis es:
+﻿*** Machine Translated
+`create-turtles` es una primitiva que crea tortugas con colores aleatorios y encabezados en la forma predeterminada de un triángulo. `Crt` es la versión abreviada de create-turtles. La sintaxis es:
 
 `create-turtles number-of-turtles [ optional-commands ]`
 

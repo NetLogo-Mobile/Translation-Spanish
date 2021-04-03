@@ -1,3 +1,4 @@
-﻿`Count` devuelve el número de agentes en un conjunto de agentes específico. (Nota: puedes usar `with` para limitar un conjunto de agentes determinado). Por ejemplo, `show count turtles` mostraría el número total de tortugas en un modelo, y `show count turtles with [color = green]` mostraría el número de tortugas verdes en el modelo.
+﻿*** Machine Translated
+`Count` devuelve el número de agentes en un conjunto de agentes específico. (Nota: puedes usar `with` para limitar un conjunto de agentes determinado). Por ejemplo, `show count turtles` mostraría el número total de tortugas en un modelo, y `show count turtles with [color = green]` mostraría el número de tortugas verdes en el modelo.
 
 En el siguiente modelo, un grupo de jugadores intenta organizar un partido de baloncesto. Debido a que se necesitan 10 jugadores para un juego de baloncesto, si hay menos de 10 jugadores, nadie puede jugar. Entonces usamos `if count players < 10` para asegurarnos de que haya suficientes jugadores para el juego.

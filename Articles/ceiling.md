@@ -1,4 +1,5 @@
-﻿`Ceiling` es una primitiva de redondeo que informa el número entero más cercano por encima del número dado, redondeando el número hacia arriba. Por ejemplo, el `ceiling 5.2` reportaría 6 y el `ceiling -4.8` reportaría -4.
+﻿*** Machine Translated
+`Ceiling` es una primitiva de redondeo que informa el número entero más cercano por encima del número dado, redondeando el número hacia arriba. Por ejemplo, el `ceiling 5.2` reportaría 6 y el `ceiling -4.8` reportaría -4.
 
 
 

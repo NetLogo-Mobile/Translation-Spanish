@@ -75,6 +75,243 @@ ticks
 ### Spanish
 tics
 
+## Tutorial
+### Source ***
+<trigger=velocity>Speed</trigger> distribution of all the particles. The gray line is the average value, and the black line is the initial average.
+### Spanish
+
+
+### Source ***
+Authors: Charles Cheng, John Chen. Based on NetLogo Lab: Gas in a Box model by Uri Wilensky.
+### Spanish
+
+
+### Source ***
+Average <trigger=energy>kinetic energy</trigger> of the particles
+### Spanish
+
+
+### Source ***
+Average <trigger=velocity>speed</trigger> of the particles
+### Spanish
+
+
+### Source ***
+average energy
+### Spanish
+
+
+### Source ***
+average speed
+### Spanish
+
+
+### Source ***
+Basic Principles
+### Spanish
+
+
+### Source ***
+box-size
+### Spanish
+
+
+### Source ***
+clear trace
+### Spanish
+
+
+### Source ***
+Clears the trace of all particles
+### Spanish
+
+
+### Source ***
+collide?
+### Spanish
+
+
+### Source ***
+Congratulations! 
+### Spanish
+
+
+### Source ***
+Distribution of <trigger=energy>energies</trigger> of all the particles, calculated as m*(v^2)/2. The gray line is the average value, and the black line is the initial average.
+### Spanish
+
+
+### Source ***
+Energy
+### Spanish
+
+
+### Source ***
+Gas Particles
+### Spanish
+
+
+### Source ***
+Initial <trigger=velocity>speed</trigger> of the particles
+### Spanish
+
+
+### Source ***
+Initially, all the particles have the same <trigger=velocity>speed</trigger> but random directions. Therefore the first histogram plots of speed and <trigger=energy>energy</trigger> should show only one column each. As the particles repeatedly collide, they exchange energy and head off in new directions, and the speeds are dispersed. Some particles get faster, some get slower. The histogram distribution changes accordingly.
+### Spanish
+
+
+### Source ***
+init-particle-speed
+### Spanish
+
+
+### Source ***
+Introduction
+### Spanish
+
+
+### Source ***
+Mass of the particles
+### Spanish
+
+
+### Source ***
+Momentum
+### Spanish
+
+
+### Source ***
+Number of gas particles
+### Spanish
+
+
+### Source ***
+number-of-particles
+### Spanish
+
+
+### Source ***
+Option to trace the path of one of the particles
+### Spanish
+
+
+### Source ***
+particle-mass
+### Spanish
+
+
+### Source ***
+percent fast
+### Spanish
+
+
+### Source ***
+percent medium
+### Spanish
+
+
+### Source ***
+percent slow
+### Spanish
+
+
+### Source ***
+Percentage of <color=blue>slow particles (blue)</color>
+### Spanish
+
+
+### Source ***
+Percentage of <color=green>medium speed particles (green)</color>
+### Spanish
+
+
+### Source ***
+Percentage of <color=red>fast particles (red)</color>
+### Spanish
+
+
+### Source ***
+Plot 
+### Spanish
+
+
+### Source ***
+Plots the number of particles in each range of <trigger=velocity>speed</trigger>
+### Spanish
+
+
+### Source ***
+Questions?
+### Spanish
+
+
+### Source ***
+Size of the box (percentage of the world-width)
+### Spanish
+
+
+### Source ***
+The basic principle of all GasLab models, including this one, is the following algorithm:
+1.     A particle moves in a straight line without changing its <trigger=velocity>speed</trigger>, unless it collides with another particle or bounces off the wall.
+2.     Two particles "collide" if they find themselves on the same patch.
+3.     A random axis is chosen, as if they are two balls that hit each other and this axis is the line connecting their centers.
+4.     They exchange <trigger=momentum>momentum</trigger> and <trigger=energy>energy</trigger> along that axis, according to the conservation of momentum and energy. This calculation is done in the center of mass system.
+5.     Each particle is assigned its new velocity, energy, and heading.
+6.     If a particle finds itself on or very close to a wall of the container, it "bounces" (reflects its direction and keeps its same speed).
+### Spanish
+
+
+### Source ***
+The capacity for doing work
+### Spanish
+
+
+### Source ***
+The particles are modeled as hard balls with no internal <trigger=energy>energy</trigger> except that which is due to their motion. Collisions between particles are elastic. Particles are colored according to <trigger=velocity>speed</trigger> --- <color=blue>blue for slow</color> (speed less than 5), <color=green>green for medium</color> (above 5 and below 15), and <color=red>red for high speeds</color> (above 15).
+### Spanish
+
+
+### Source ***
+The product of the mass of a particle and its velocity. Momentum is a vector quantity (it has both magnitude and direction)
+### Spanish
+
+
+### Source ***
+The rate of change of its position with respect to a frame of reference; the displacement over the time elapsed
+### Spanish
+
+
+### Source ***
+This model simulates the behavior of gas particles in a closed box, or a container with a fixed volume. The path of single particle is visualized by a <color=grey>gray colored trace</color> of the particle's most recent positions. The basic principle of the models is that gas particles are assumed to have two elementary actions: they move and they collide --- either with other particles or with any other objects such as walls.
+### Spanish
+
+
+### Source ***
+trace?
+### Spanish
+
+
+### Source ***
+Turns collisions between particles on and off
+### Spanish
+
+
+### Source ***
+Velocity, Speed
+### Spanish
+
+
+### Source ***
+Want to look at the community's or your answers to the questions asked in this model? Click on <b>Go to Q&A Panel</b>.
+### Spanish
+
+
+### Source ***
+Well done! You have completed the Lab: Gas in a Box model tutorial! Time to play with the model!
+### Spanish
+
+
 ## Widgets
 ### Source
 average energy

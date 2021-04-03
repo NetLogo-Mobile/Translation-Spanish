@@ -1,4 +1,5 @@
-﻿`If` se usa cuando deseas ejecutar un comando condicionalmente. Tiene la forma de:
+﻿*** Machine Translated
+`If` se usa cuando deseas ejecutar un comando condicionalmente. Tiene la forma de:
 
 ```if condition [ command ], or `if this-is-true [ then run these commands ]```
 

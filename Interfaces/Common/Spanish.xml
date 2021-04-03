@@ -196,6 +196,7 @@
     <String ID="是否确定删除内容？除非您留有本地存档，否则将无法找回！" Status="0" English="Do you want to delete the content? Unless you have a local save, you won&amp;#39;t be able to retrieve it!">¿Quieres eliminar el contenido? A menos que tengas un guardado local, ¡no podrás recuperarlo!</String>
     <String ID="是否确定删除回复？" Status="0" English="Are you sure to delete the reply?">¿Estás seguro de eliminar la respuesta?</String>
     <String ID="设为封面" Status="0" English="Set as cover">Establecer como portada</String>
+    <String ID="刷新内容" Status="1" English="Refresh content">Actualizar contenido</String>
     <String ID="成功设置为你的封面作品！" Status="0" English="Successfully set as your profile cover!">¡Establecido correctamente como portada de tu perfil!</String>
     <String ID="即将读取的实验版本比您的客户端更新，可能遇到不兼容问题。是否继续？" Status="0" English="The experiment version is newer than your client and may cause incompatibilities. Whether to continue?">La versión del experimento es más reciente que la de su cliente y puede causar incompatibilidades. ¿Continuar?</String>
     <String ID="您需要填写昵称来使用特定功能。" Status="0" English="You need to fill in the nickname to use a specific feature.">Necesitas completar el apodo para usar una función específica.</String>
@@ -306,6 +307,8 @@
     <String ID="移动到{0}" Status="0" English="Move to {0}">Mover a {0}</String>
     <String ID="加入精选" Status="0" English="Add to features">Agregar a funciones</String>
     <String ID="取消精选" Status="0" English="Remove from features">Eliminar de las funciones</String>
+    <String ID="加入知识库" Status="1" English="Add to the knowledge base">Agregar a la base de conocimientos</String>
+    <String ID="移出知识库" Status="1" English="Remove from the knowledge base">Eliminar de la base de conocimientos</String>
   </Hierarchies>
   <AugmentedReality>
     <String ID="您可以拖动陀螺仪来调整视角。" Status="0" English="Drag the gyroscope to adjust the angle of view.">Arrastre el giroscopio para ajustar el ángulo de visión.</String>
@@ -609,4 +612,12 @@
     <String ID="分享答案" Status="0" English="Share your answer">Comparte tu respuesta</String>
     <String ID="是否愿意和大家分享你的答案？被点赞将获得奖励！" Status="0" English="Would you like to share your answers? You will get rewards whenever it is liked!">¿Le gustaría compartir sus respuestas? ¡Siempre obtendrás recompensas cuando es gustado!</String>
   </Tutorials>
+  <Errors>
+    <String ID="未能找到名为 {0} 的元件。" Status="1" English="Cannot find the component named {0}.">No se puede encontrar el componente llamado {0}.</String>
+    <String ID="未能找到名为 {0} 的元件群组。" Status="1" English="Cannot find the component group named {0}.">No se puede encontrar el grupo de componentes denominado {0}.</String>
+    <String ID="未能找到名为 {0} 的图表。" Status="1" English="Cannot find the chart named {0}.">No se puede encontrar el gráfico llamado {0}.</String>
+    <String ID="未能找到名为 {0} 的界面部件。" Status="1" English="Cannot find the interface part named {0}.">No se puede encontrar la parte de la interfaz denominada {0}.</String>
+    <String ID="未能找到序号为 {0} 的程序。" Status="1" English="Cannot find the program with sequence number {0}.">No se puede encontrar el programa con el número de secuencia {0}.</String>
+    <String ID="未能找到序号为 {0} 的积木容器。" Status="1" English="Cannot find the brick container with serial number {0}.">No se puede encontrar el contenedor de ladrillos con el número de serie {0}.</String>
+  </Errors>
 </Strings>

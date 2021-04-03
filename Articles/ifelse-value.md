@@ -1,4 +1,5 @@
-﻿`ifelse-value` es una primitiva que permite al usuario verificar rápida y concisamente una serie de condiciones y ejecutar código diferente según los resultados. No hay nada que puedes hacer con `ifelse-value` que no se podía ya ver con una serie de `if` o `ifelse` declaraciones, pero la fuerza de `ifelse-value` está en su eficiencia sintáctica. Por ejemplo, supongamos que desea comprobar en cuál de los cuatro cuadrantes del mundo se encuentra una tortuga determinada. En comparación con la `if` , la `ifelse-value` es posiblemente mucho más limpia. 
+﻿*** Machine Translated
+`ifelse-value` es una primitiva que permite al usuario verificar rápida y concisamente una serie de condiciones y ejecutar código diferente según los resultados. No hay nada que puedes hacer con `ifelse-value` que no se podía ya ver con una serie de `if` o `ifelse` declaraciones, pero la fuerza de `ifelse-value` está en su eficiencia sintáctica. Por ejemplo, supongamos que desea comprobar en cuál de los cuatro cuadrantes del mundo se encuentra una tortuga determinada. En comparación con la `if` , la `ifelse-value` es posiblemente mucho más limpia. 
 
 ```
 to-report report-quadrant-if

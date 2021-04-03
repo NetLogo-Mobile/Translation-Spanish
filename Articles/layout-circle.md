@@ -1,4 +1,5 @@
-﻿`layout-circle` es un elemento primitivo que mueve un conjunto de agentes o una lista de tortugas a un círculo espaciado uniformemente de un radio determinado. La sintaxis es:
+﻿*** Machine Translated
+`layout-circle` es un elemento primitivo que mueve un conjunto de agentes o una lista de tortugas a un círculo espaciado uniformemente de un radio determinado. La sintaxis es:
 
 `layout-circle agentset radius`
 

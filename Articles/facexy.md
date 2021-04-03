@@ -1,4 +1,5 @@
-﻿`facexy` es un comando para tortugas que establece el rumbo de la tortuga hacia el punto (x, y). Su sintaxis es:
+﻿*** Machine Translated
+`facexy` es un comando para tortugas que establece el rumbo de la tortuga hacia el punto (x, y). Su sintaxis es:
 
 `facexy [x-cor y-cor]`
 

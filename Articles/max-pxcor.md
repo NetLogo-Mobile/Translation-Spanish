@@ -1,4 +1,5 @@
-﻿`Max-pxcor` y `max-pycor` devuelven la coordenada x máxima y la coordenada y máxima de las parcelas, respectivamente. Las coordenadas xey máximas de las parcelas también determinan el tamaño del modelo y siempre deben ser mayores o iguales a cero. `Max-pxcor` y `max-pycor` no se pueden cambiar dentro del código; el tamaño del mundo solo se puede cambiar editando la vista.
+﻿*** Machine Translated
+`Max-pxcor` y `max-pycor` devuelven la coordenada x máxima y la coordenada y máxima de las parcelas, respectivamente. Las coordenadas xey máximas de las parcelas también determinan el tamaño del modelo y siempre deben ser mayores o iguales a cero. `Max-pxcor` y `max-pycor` no se pueden cambiar dentro del código; el tamaño del mundo solo se puede cambiar editando la vista.
 
 De manera similar, `min-pxcor` y `min-pycor` devuelven la coordenada x mínima y la coordenada y mínima de las parcelas, respectivamente. Las coordenadas mínimas xey deben ser menores o iguales a cero. Por ejemplo, `ask patches with [pxcor = min-pxcor or pycor = min-pycor] [ set pcolor blue ]` establecería las parcelas a lo largo de la parte inferior e izquierda del modelo en azul.
 

@@ -1,4 +1,5 @@
-﻿`Clear-turtles` es una primitiva que elimina todas las tortugas del modelo a la vez. La versión abreviada de esta primitiva es `ct` .
+﻿*** Machine Translated
+`Clear-turtles` es una primitiva que elimina todas las tortugas del modelo a la vez. La versión abreviada de esta primitiva es `ct` .
 
 `clear-turtles` solo se usa cuando no queremos usar *clear-all* . Por ejemplo, si quisiera eliminar las tortugas pero mantener los parches iguales y preservar los valores de las variables globales, usaría `clear-turtles` .
 
