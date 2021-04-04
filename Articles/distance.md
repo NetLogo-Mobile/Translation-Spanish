@@ -1,12 +1,9 @@
-﻿*** Machine Translated
-`distance` es una primitiva de tortuga y parcelas que informa la distancia entre el agente actual y algún otro agente. Por ejemplo, si deseas imprimir la distancia de la tortuga 0 a la tortuga 1, puedes escribir
+﻿`distance` es una primitiva de tortuga y parcela que informa la distancia más corta entre el agente actual y otro agente proporcionado. Por ejemplo, el siguiente código haría que las tortugas que están lo suficientemente cerca de la parcela central (0,0) avancen un paso, pero si su distancia al centro es de 5 o más, no se moverán.
 
-`ask turtle 0 [show distance turtle 1]`
+```
+ask turtles [
+	if distance patch 0 0 < 5 [ forward 1 ]
+]
+```
 
-o, desde la otra dirección,
-
-`ask turtle 1 [show distance turtle 0]`
-
-Tenga en cuenta que la `distance` respeta cualquier envoltura para la que el mundo está configurado. Entonces, si el mundo se envuelve horizontal o verticalmente, la `distance` informará la distancia más corta entre dos tortugas, que podría estar a lo largo de un camino que envuelve el mundo.
-
-En este ejemplo, la `distance` se usa para implementar una búsqueda de ruta rudimentaria para un leñador. El leñador tiene un árbol "objetivo" al que intentará acercarse y talar. Una vez que tala ese árbol, establecerá su objetivo para que sea el árbol más cercano. (En el caso de las ataduras, se elegirá al azar uno de los más cercanos). Usamos la `distance` para obtener la distancia entre el leñador y todos los árboles para poder determinar cuál es el árbol más cercano.
+En el ejemplo de modelo a continuación, usamos `distance` para implementar un comportamiento rudimentario de búsqueda de ruta para un leñador. El leñador tiene un árbol "objetivo" al que intentará acercarse y talar. Una vez que talan ese árbol, fijarán sus ojos en el árbol más cercano. Usamos `distance` para obtener la distancia entre el leñador y todos los árboles para que podamos averiguar qué árbol está más cerca. En el caso de los empates, elegimos uno de los árboles más cercanos al azar.

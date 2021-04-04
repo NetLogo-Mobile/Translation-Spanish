@@ -37,7 +37,6 @@ if oil-price < 1.5 and usd-eur-exchange-rate < 0.8 [
 
 Things to keep in mind when using `globals`: 
 
-* When you create an interface element such as a *slider*, *switch*, or *chooser*, its name automatically becomes a global variable and you do not need to define it within the `globals` primitive. 
 * You cannot have two global variables with the same name.
 * You cannot start a variable name with a number. For example, the following code would show an error `globals [1st-offer]`.
 * You should always define your global variables in the beginning of your NetLogo code.

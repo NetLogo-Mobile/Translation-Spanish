@@ -1,2 +1,1 @@
-﻿*** Machine Translated
-`End` es una primitiva especial que solo se usa para finalizar un procedimiento. Así como un procedimiento comienza con `to procedure-name` o `to-report procedure-name`, concluye con el `end`. Un procedimiento que no termina con `end` provocará un error.
+﻿`end` es una primitiva especial que le dice a NetLogo que un procedimiento ha terminado. Bien como un procedimiento empieza con `to` o `to-report`, se concluye con un `end`. Un procedimiento que no termina con `end` causará un error.

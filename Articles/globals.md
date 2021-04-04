@@ -1,8 +1,49 @@
-﻿*** Machine Translated
-`globals` mantiene la información que debería ser común a todo el modelo. Las variables globales siempre se declaran en la parte superior de su código, y su sintaxis es:
+﻿`globals` es una primitiva que usamos para definir *variables globales* personalizadas en NetLogo. Una variable global es una variable que tiene el mismo valor para todos los agentes del modelo en todos los procedimientos. Puedes definir tus variables globales personalizadas al escribir `globals` seguido de corchetes `[]`.
 
-`globals [ variable-name ]`
 
-De la misma manera que se puede acceder al valor de un control deslizante en cualquier parte del código NetLogo, cualquier parte de su código puede establecer (usando el comando `set`) y leer (escribiendo el nombre del global) el valor de un global. Este hecho hace que los globales sean útiles para definir constantes de todo el modelo que no desea que el usuario pueda cambiar desde un control deslizante. También los hace útiles para realizar un seguimiento de la información variable de todo el modelo que cualquier agente puede modificar, por ejemplo, el volumen total acumulado de transacciones en un modelo económico o la cantidad de veces que un depredador atrapó a su presa en un modelo ecológico.
 
-En este ejemplo, se usa un valor global para realizar un seguimiento de una variable de todo el modelo, el total de parches de hierba que comieron las 20 ovejas del modelo. En el `setup`, lo configuramos en 0, y luego en el `go`, cada vez que una oveja come un parche de pasto, lo incrementamos en uno estableciendo su valor en el valor que solía ser más uno, es decir, `set total-food-eaten total-food-eaten + 1`.
+```
+globals [
+	temperature
+	oil-price
+	usd-eur-exchange-rate
+]
+```
+
+
+
+Una vez que definas un variable flobal, luego puedes usar la primitiva `set` para cambiar su valor:
+
+
+
+```
+set usd-eur-exchange-rate 0.85
+set temperature 36
+```
+
+
+
+Y usar su nombre para acceder su valor en el código exactamente como cualquier otro variable:
+
+
+
+
+```
+if oil-price < 1.5 and usd-eur-exchange-rate < 0.8 [
+	buy-oil
+]
+```
+
+
+Cosas para tener en mente cuando usas `globals`:
+
+* No puedes comenzar el nombre de una variable con un número. Por ejemplo, el siguiente código mostraría un error `globals [1st-offer]`.
+* Siempre debes definir sus variables globales al comienzo de su código NetLogo.
+* Siempre debes definir tus variables globales al comienzo de tu código de NetLogo.
+* Si deseas crear una variable que solo sea necesaria temporalmente y dentro de un solo procedimiento específico, debes usar la primitiva `let` en su lugar.
+* Si necesitas un variable que tiene un diferente valor para cada tortuga, cada parcela, o cada enlace debes usar una de las siguientes primitivas: `turtles-own`, `patches-own`,`links-own`.
+
+
+
+En el ejemplo de modelo a continuación, tenemos algunas manchas marrones que representan la tierra y algunas manchas verdes que representan bayas. También tenemos cinco tortugas que representan a las personas que recogen las bayas. Usamos una variable global para realizar un seguimiento del número total de bayas recolectadas por todas las personas en el modelo. En el procedimiento `setup`, lo configuramos en 0, y luego en el procedimiento `go`, cada vez que una persona toma una baya (cambia una parcela de verde a marrón), incrementamos la variable global `berries-pick` por una. Verificamos el valor de esta variable global en cada tic. Si nuestros recolectores recogieron 60 o más bayas, detenemos el modelo. También mostramos el valor de esta variable a través de un monitor en la interfaz del modelo.
+

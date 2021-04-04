@@ -1,10 +1,8 @@
-﻿*** Machine Translated
-`facexy` es un comando para tortugas que establece el rumbo de la tortuga hacia el punto (x, y). Su sintaxis es:
+﻿`facexy` hace que una tortuga cambie su dirección (`heading`) para apuntar hacia una coordenada dada (x, y). Por ejemplo, `ask turtles [facexy 0 0]` convierte a todas las tortugas en un modelo para que miren hacia el centro del modelo.
 
-`facexy [x-cor y-cor]`
+Cosas para tener en mente cuando usas `facexy`:
 
-`facexy` no cambia la posición de una tortuga, solo su rumbo. Por ejemplo, para hacer que tortuga 1 mire hacia el punto (2,3), diríamos:
+* `facexy` no cambia la posición de una tortuga, solo su rumbo.
+* Si una tortuga ya está en el punto dado (x, y), no va a cambiar su rumbo.
 
-`ask turtle 1 [ facexy 2 3 ]`
-
-**Nota:** si la tortuga ya está en el punto (x, y), el rumbo de la tortuga no cambiará. En el modelo a continuación, hay algunos peces y un solo parche de comida. Los peces tienen hambre y todos enfrentan el parche de comida usando `facexy`.
+En el ejemplo de modelo a continuación, hay algunos peces y una sola parcela de comida. Cuando haces clic en el botón ***agregar comida***, cambiamos el `pcolor` de la parcela en (3, -3) a blanco, lo que indica un alimento y le pedimos al pez que mire esta coordenada en orden para indicar que recurren a la comida.
