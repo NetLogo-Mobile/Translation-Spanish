@@ -20,9 +20,9 @@ VEL-INICIAL-X establece la inicial velocidad x- de cada cohete en un número ale
 
 VEL-INICIAL-Y establece la inicial velocidad y- de cada cohete en un número aleatorio entre 0 y el número indicado en el control deslizante más diez. Esto es para asegurar que haya un rango de diferencia en las velocidades y- iniciales de los fuegos artificiales.
 
-TASA-DE-DESVANECIMIENTO determina la velocidad a la que las partículas de explosión se desvanecen después de la explosión.
+TASA-DE-DESVANECIMIENTO determina la tasa a la que las partículas de explosión se desvanecen después de la explosión.
 
-RASTRO permite al usuario encender o apagar los rastros dejados por las partículas de explosión. En otras palabras, si el interruptor TRAILS está ENCENDIDO, las tortugas dejarán rastros. Si está APAGADO, no dejarán rastros.
+RASTRO permite al usuario encender o apagar los rastros dejados por las partículas de explosión. En otras palabras, si el interruptor RASTRO está ENCENDIDO, las tortugas dejarán rastros. Si está APAGADO, no dejarán rastros.
 
 Este modelo ha sido construido para que todos los cambios en los controles deslizantes e interruptores surtan efecto en el modelo durante la ejecución. Entonces, mientras el botón IR aún está presionado, puedes cambiar los valores de los controles deslizantes y el interruptor, y puedes ver estos cambios inmediatamente en la vista.
 
@@ -34,7 +34,7 @@ Con la velocidad inicial y- , observe que, en un valor de GRAVEDAD fijo, las alt
 
 ##  COSAS PARA INTENTAR
 
-Observa lo que le sucede al modelo cuando el control deslizante GRAVEDAD se establece en diferentes valores. Observa lo que le sucede al modelo cuando GRAVEDAD se pone a cero. ¿Puedes explicar qué sucede con los fuegos artificiales en el modelo? ¿Puede explicar por qué ocurre este fenómeno? ¿Qué dice esto sobre la importancia de la gravedad? Ahora establezca el control deslizante GRAVEDAD en su valor más alto. ¿Qué tiene de diferente el comportamiento de los fuegos artificiales en este escenario? ¿Qué puedes concluir sobre la relación entre la gravedad y cómo se mueven los objetos en el espacio?
+Observa lo que le sucede al modelo cuando el control deslizante GRAVEDAD se establece en diferentes valores. Observa lo que le sucede al modelo cuando GRAVEDAD se establece a cero. ¿Puedes explicar qué sucede con los fuegos artificiales en el modelo? ¿Puedes  explicar por qué ocurre este fenómeno? ¿Qué dice esto sobre la importancia de la gravedad? Ahora establezca el control deslizante GRAVEDAD en su valor más alto. ¿Qué tiene de diferente el comportamiento de los fuegos artificiales en este escenario? ¿Qué puedes concluir sobre la relación entre la gravedad y cómo se mueven los objetos en el espacio?
 
 ##  EXTENDIENDO EL MODELO
 
