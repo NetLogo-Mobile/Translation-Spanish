@@ -1,13 +1,34 @@
-﻿*** Machine Translated
-`Let` se usa para crear una nueva **variable local** y establecer su valor. Una **variable local** es una variable que solo existe dentro de los corchetes o `[...]` procedimiento en el que fue creada, a diferencia de una variable global. Solo se puede usar en el código que viene *después de* su declaración y toma la forma de:
+﻿`let` crea una nueva variable local y establece su valor inicial. Una variable local es una variable que solo existe dentro del procedimiento en el que se creó o entre paréntesis de una declaración específica de `ask`. Similar a una variable `global`, el valor de una variable local es el mismo para todas las tortugas.
 
-```let variable-name initial-value```
 
-Por ejemplo, para crear una nueva variable local llamada `my-blue-friends` y establecer su valor para todas las tortugas azules con forma de persona, diríamos:
 
 ```
-let my-blue-friends turtles with [ color = blue and shape = “person” ]
-ask my-blue-friends [ forward 1 ]
+ask turtles [
+	let people-nearby (other turtles in-radius 2)
+  if any? people-nearby [
+  	let new-friend one-of people-nearby
+  	set my-friends (lput new-friend my-friends)
+  ]
+]
 ```
 
-Luego, pedirles a `my-blue-friends` que avancen hace que todas las tortugas azules con forma de persona avancen. Para cambiar el valor de la variable después de crearla, usa `set` .
+
+
+Una vez que creas una variable local con `let`, puedes usar la primitiva `set` para asignarle un nuevo valor. `let` es muy útil para calcular valores temporales o crear conjuntos de agentes temporales. Por ejemplo, si quisiéramos que una tortuga lanzara 6 dados e informara la suma de los dados, podríamos usar `let` como se muestra a continuación:
+
+
+
+```
+to-report roll-six
+	let total-outcome 0
+	repeat 6 [
+		let new-outcome (one-of [1 2 3 4 5 6])
+		set total-outcome (total-outcome + new-outcome)
+	]
+	report total-outcome
+end
+```
+
+
+
+En el ejemplo de modelo a continuación, tenemos algunas tortugas felices y otras tristes. Cada vez que dos tortugas están en la misma parcela, una le pedirá a la otra que cambie su forma. En cierto modo, una tortuga triste entristecerá a su amigo, o una tortuga feliz hará feliz a su amigo. Usamos `let` en este modelo porque nos permite no reescribir un fragmento de código más largo una y otra vez (`other turtles-here`).
