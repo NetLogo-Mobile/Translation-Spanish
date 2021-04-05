@@ -1,31 +1,50 @@
-﻿*** Machine Translated
-`ifelse-value` es una primitiva que permite al usuario verificar rápida y concisamente una serie de condiciones y ejecutar código diferente según los resultados. No hay nada que puedes hacer con `ifelse-value` que no se podía ya ver con una serie de `if` o `ifelse` declaraciones, pero la fuerza de `ifelse-value` está en su eficiencia sintáctica. Por ejemplo, supongamos que desea comprobar en cuál de los cuatro cuadrantes del mundo se encuentra una tortuga determinada. En comparación con la `if` , la `ifelse-value` es posiblemente mucho más limpia. 
+﻿`ifelse-value` es una primitiva que nos permite verificar rápidamente y concisamente una serie de condiciones y elegir un valor en consecuencia. Esta primitiva nos ayuda a no escribir muchas declaraciones "if" o "ifelse" consecutivas.
+
+
+
+Por ejemplo, si quisiéramos comprobar en cuál de los cuatro cuadrantes del mundo se encuentra una determinada tortuga, nuestra primera opción es escribir un código de la siguiente manera:
 
 ```
-to-report report-quadrant-if
+to-report where-am-i
   if xcor > 0 and ycor > 0 [
-	report 1
+    	report "upper-right"
   ]
   if xcor < 0 and ycor > 0 [
-	report 2
+    	report "upper-left"
   ]
   if xcor < 0 and ycor < 0 [
-	report 3
+    	report "lower-left"
   ]
   if xcor > 0 and ycor < 0 [
-	report 4
+    	report "lower-right"
   ]  
 end
+```
 
-to-report report-quadrant-ifelse-value
+
+
+Sin embargo, esta cantidad de declaraciones `if` dificulta la lectura del código. En su lugar, podemos usar la primitiva `ifelse-value` de la siguiente manera para hacer un código mucho más conciso:
+
+
+
+```
+to-report where-am-i
   report (ifelse-value
-	xcor > 0 and ycor > 0 [1]
-	xcor < 0 and ycor > 0 [2]
-	xcor < 0 and ycor < 0 [3]
-                      	[4] ; else
+    	xcor > 0 and ycor > 0 ["upper-right"]
+    	xcor < 0 and ycor > 0 ["upper-left"]
+    	xcor < 0 and ycor < 0 ["lower-left"]
+    	["lower-right"] ; if none of the conditions are true
   )
 end
 ```
- Una cosa importante a tener en cuenta sobre el uso de `ifelse-value` es que debes envolver todo entre paréntesis si usa más de una condición. Además, sepa que puede omitir la condición final y el último conjunto de corchetes que escriba se tratará como una `else` , especificando lo que sucederá si ninguna de las condiciones es verdadera.
 
-El siguiente ejemplo muestra un lugar donde `ifelse-value` se puede usar para hacer que el código sea más conciso y, uno que le resulte familiar, más legible: elegir uno de los seis iconos de dado para un seis
+
+
+Cosas a tener en mente cuando usas `ifelse-value`:
+
+* Debes envolver el `ifelse-value` en complete entre paréntesis `()`.
+* Puedes proporcionar un último conjunto de comando entre corchetes pero sin ninguna condición anterior. Este último conjunto de comandos se tratará como una declaracíon de `else`, especificando lo que sucederá si ninguna de las condiciones son ciertas. También puedes omitir esta condición.
+
+
+
+En el modelo a continuación, tenemos seis dados. Cada vez que hacemos clic en el botón *roll-all*, cada tortuga elige un número aleatorio entre 1 y 6. Luego, usamos la primitiva `ifelse-value` para elegir la forma correcta de la tortuga para representar el calor del dado correspondiente.
