@@ -112,6 +112,9 @@
     <String ID="请输入存档名称" Status="0" English="Enter the name of this archive">Escribe el nombre de este archivo</String>
     <String ID="请输入元件名称" Status="0" English="Enter the name of this component">Escribe el nombre de este componente</String>
     <String ID="成功保存了您的实验进度！" Status="0" English="Successfully saved your experiment progress!">El progreso de su experimento fue guardado con éxito!</String>
+    <String ID="你的修改还没有被保存。想要先保存实验吗？" Status="2" />
+    <String ID="重新开始" Status="2" />
+    <String ID="您之前保存过这个实验。是否加载存档？" Status="2" />
     <String ID="实验存档读取失败！" Status="0" English="Failed to load the experimental archive!">¡No se pudo cargar el archivo experimental!</String>
     <String ID="实验存档读取成功！" Status="0" English="Successfully loaded your experimental archive!">¡Se pudo cargar tu archivo experimental con éxito!</String>
     <String ID="这将覆盖您之前的实验。" Status="0" English="This will overwrite your previous experiment.">Esto sobrescribirá su experimento anterior.</String>
@@ -298,7 +301,7 @@
     <String ID="确定要进行管理操作吗？" Status="0" English="Do you really want to do it?">¿De verdad quieres hacerlo?</String>
     <String ID="是否使用管理权限隐藏内容？只有在违反法律法规或不合适内容时可以这样做！" Status="0" English="Are you going to hide this content? Only when it violates our guidelines!">¿Vas a esconder este contenido? ¡Solo cuando viole nuestras pautas!</String>
     <String ID="是否确认要封禁 {0}？你需要提供合理的理由。" Status="0" English="Do you want to ban {0}? A reason is needed.">¿Quieres prohibir {0}? Se necesita una razón.</String>
-    <String ID="请输入封禁理由" Status="0" English="The reason for the ban">El motivo de la prohibición</String>
+    <String ID="请输入封禁理由" Status="1" English="Reason for the ban">Razón de la prohibición</String>
     <String ID="请输入封禁天数 (1-{0})" Status="0" English="The days of ban (1-{0})">Los días de la prohibición (1- {0})</String>
     <String ID="是否确认要解封 {0}？你需要提供合理的理由。" Status="0" English="Do you want to unban {0}? A reason is needed.">¿Quieres desbloquear {0}? Se necesita una razón.</String>
     <String ID="请输入解封理由" Status="0" English="The reason for the unban">El motivo de la desbandada</String>
