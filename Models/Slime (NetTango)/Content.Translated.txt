@@ -1,16 +1,16 @@
 ﻿## ¿QUÉ ES?
 
-Este modelo fue inspirado por el comportamiento de agregación de las células de slime-limo. El moho de slime pasa gran parte de su vida como miles de unidades unicelulares distintas, cada una de las cuales se mueve por separado. En las condiciones adecuadas, esas células se fusionarán en un solo organismo más grande. Cuando el ambiente es menos hospitalario, el moho slime actúa como un solo organismo; cuando el clima se vuelve más fresco y el moho disfruta de una gran cantidad de alimentos, "el" convierte en un "ellos". El moho de slime oscila entre ser una sola criatura y un enjambre.
+Este modelo fue inspirado por el comportamiento de agregación de las células de slime-moho. El moho de slime pasa gran parte de su vida como miles de unidades unicelulares distintas, cada una de las cuales se mueve por separado. En las condiciones adecuadas, esas células se fusionarán en un solo organismo más grande. Cuando el ambiente es menos hospitalario, el moho slime actúa como un solo organismo; cuando el clima se vuelve más fresco y el moho disfruta de una gran cantidad de alimentos, "el" se convierte en "ellos". El moho de slime oscila entre ser una sola criatura y un enjambre.
 
 Este modelo muestra cómo las criaturas pueden agruparse en grupos sin el control de una célula "líder" o "marcapasos". Este descubrimiento fue descrito por primera vez por Evelyn Fox Keller y Lee Segel en un ensayo en 1970.
 
-Antes de que Keller comenzara sus investigaciones, la creencia convencional era que se formaban enjambres de moho de slime por orden de las células "marcapasos" que ordenaban a las otras células que comenzaran a agregarse. En 1962, Shafer mostró cómo los marcapasos podían usar AMP cíclico como un tipo de señal para reunir a las tropas; los generales del moho de slime liberarían los compuestos en los momentos apropiados, desencadenando ondas de AMP cíclico que se extendieron por toda la comunidad, ya que cada celda aislada transmitía la señal a sus vecinos. Agregación de moho de slime, en efecto, era un juego gigante de Teléfono - pero solo unas pocas células élites hicieron la llamada original.
+Antes de que Keller comenzará sus investigaciones, la creencia convencional era que se formaban enjambres de moho de slime por orden de las células "marcapasos" que ordenaban a las otras células que comenzaran a agregarse. En 1962, Shafer mostró cómo los marcapasos podrían usar AMP cíclico como un tipo de señal para reunir a las tropas; los generales del moho de slime liberarían los compuestos en los momentos apropiados, desencadenando ondas de AMP cíclico que se extendieron por toda la comunidad, ya que cada celda aislada transmitía la señal a sus vecinos. Agregación de moho de slime, en efecto, era un juego gigante de Teléfono - pero solo unas pocas células élites hicieron la llamada original. 
 
 Durante los veinte años después de la publicación del ensayo original de Shafer, los micólogos asumieron que las células marcapasos faltantes eran una señal de datos insuficientes o experimentos mal diseñados. Pero Keller y Segel adoptaron otro enfoque más radical. Muestran que Shafer estaba equivocado -- que la comunidad de células de moho slime se estaban organizando sin la necesidad de marcapasos. Esto fue uno de los primeros ejemplos de emergencia y autoorganización en biología.
 
 Inicialmente, los biólogos no aceptaron esta explicación. De hecho, la hipótesis del marcapasos continuaría siendo el modelo reinante durante otra década. Ahora, la agregación del moho de slime se reconoce como un caso de estudio clásico en el comportamiento autoorganizado de abajo hacia arriba.
 
-En este modelo, cada tortuga deja caer una feromona química (que se muestra en verde). Las tortugas también &quot;olfatean&quot; adelante, tratando de seguir el gradiente de los químicos de otras tortugas. Mientras tanto, los parches difunden y evaporan la feromona. Siguiendo estas reglas simples y descentralizadas, las tortugas se agrupan en grupos.
+En este modelo, cada tortuga deja caer una feromona química (que se muestra en verde). Las tortugas también “olfateo” adelante, tratando de seguir el gradiente de los químicos de otras tortugas. Mientras tanto, los parches difunden y evaporan la feromona. Siguiendo estas reglas simples y descentralizadas, las tortugas se agrupan en grupos.
 
 ## COMO USARLO
 
@@ -28,13 +28,13 @@ UMBRAL-DE-OLFATEO -- La cantidad mínima de químico que debe estar presente en 
 
 PARCIALIDAD-DE-MENEO -- La parcialidad del meneo promedio de una tortuga. Cuando PARCIALIDAD-DE-MENEO = 0, el movimiento promedio de la tortuga es recto. Cuando PARCIALIDAD-DE-MENEO > 0, la tortuga tenderá a moverse más a la derecha que a la izquierda. Cuando PARCIALIDAD < 0, la tortuga tenderá a moverse más hacia la izquierda que hacia la derecha. El valor predeterminado es 0.
 
-Hay varios otros parámetros críticos en el modelo a los que los controles deslizantes no pueden acceder. Se pueden cambiar al modificando el código en la ventana de procedimientos. Son: - la tasa de evaporación de la química -- establecida en 0.9 - la tasa de difusión de la química -- establecida en 1 - la cantidad de química depositada en cada paso -- establecida en 2
+Hay varios otros parámetros críticos en el modelo a los que los controles deslizantes no pueden acceder. Se pueden cambiar modificando el código en la ventana de procedimientos. Son: - la tasa de evaporación de la química -- establecida en 0.9 - la tasa de difusión de la química -- establecida en 1 - la cantidad de química depositada en cada paso -- establecida en 2
 
 ## COSAS PARA NOTAR
 
 Con 100 tortugas, no pasa mucho. Las tortugas deambulan dejando caer química, pero la química se evapora y se difunde demasiado rápido para que las tortugas se agreguen.
 
-Con 400 tortugas, el resultado es bastante diferente. Cuando algunas tortugas se acercan (por casualidad) unas a otras, crean un pequeño "charco" de química que puede atraer a cualquier número de otras tortugas en los alrededores. El charco se vuelve más grande y más atractivo a medida que entran más tortugas y depositan sus propios productos químicos. Este proceso es un buen ejemplo de retroalimentación positiva: cuantas más tortugas, más grande es el charco; y cuanto más grande sea el charco, es más probable que atraiga más tortugas.
+Con 400 tortugas, el resultado es bastante diferente. Cuando algunas tortugas se acercan (por casualidad) unas a otras, crean un pequeño "charco" de química que puede atraer a cualquier número de otras tortugas en los alrededores. El charco se vuelve más grande y más atractivo a medida que entran más tortugas y depositan sus propios químicos. Este proceso es un buen ejemplo de retroalimentación positiva: cuantas más tortugas, más grande es el charco; y cuanto más grande sea el charco, es más probable que atraiga más tortugas.
 
 ## COSAS PARA INTENTAR
 
@@ -48,7 +48,7 @@ Modifica el programa para que las tortugas se agreguen en un solo grupo grande.
 
 ¿Cómo cambian los resultados si hay más (o menos) aleatoriedad en el movimiento de las tortugas?
 
-Tenga en cuenta que las tortugas solo huelen en busca de química en tres lugares: adelante, ÁNGULO-DE-OLFATEO a la izquierda y ÁNGULO-DE-OLFATEO a la derecha. Modifica el modelo para que las tortugas huelan por todos lados. ¿Cómo cambia su comportamiento de agrupamiento? Modifica el modelo para que las tortugas huelan en menos lugares. ¿Cómo cambia su comportamiento de agrupamiento?
+Nota que las tortugas solo huelen en busca de química en tres lugares: adelante, ÁNGULO-DE-OLFATEO a la izquierda y ÁNGULO-DE-OLFATEO a la derecha. Modifica el modelo para que las tortugas huelan por todos lados. ¿Cómo cambia su comportamiento de agrupamiento? Modifica el modelo para que las tortugas huelan en menos lugares. ¿Cómo cambia su comportamiento de agrupamiento?
 
 ¿Qué "número crítico" de tortugas es necesario para que se formen los grupos? ¿Cómo cambia el número crítico si modificas la tasa de evaporación o difusión?
 
@@ -60,7 +60,7 @@ Tenga en cuenta el uso de las primitivas parcela-adelante, parcela-a-izquierda-y
 
 ## MODELOS RELACIONADOS
 
-Hormigas usa una idea similar de criaturas que dejan caer químicas y siguen el gradiente de las mismas.
+“Hormigas” usa una idea similar de criaturas que dejan caer químicas y siguen el gradiente de las mismas.
 
 ## CRÉDITOS Y REFERENCIAS
 
