@@ -1,75 +1,74 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
-## Language = Spanish
+﻿## Language = Spanish
 ## NetTango
 ### Source
 At least
-### Spanish ***
+### Spanish
 Por lo menos
 
 ### Source
 At most
-### Spanish ***
+### Spanish
 A lo sumo
 
 ### Source
 Brightness
-### Spanish ***
+### Spanish
 Brillo
 
 ### Source
 By proportion
-### Spanish ***
+### Spanish
 Por proporcion
 
 ### Source
 By value
-### Spanish ***
+### Spanish
 Por valor
 
 ### Source
 Color
-### Spanish ***
+### Spanish
 Color
 
 ### Source
 Go 
-### Spanish ***
+### Spanish
 Ir 
 
 ### Source
 How far?
-### Spanish ***
-¿Cuán lejos?
+### Spanish
+¿Qué tan lejos?
 
 ### Source
 How large?
-### Spanish ***
-¿Que tan grande?
+### Spanish
+¿Qué tan grande?
 
 ### Source
 How many times?
-### Spanish ***
+### Spanish
 ¿Cuantas veces?
 
 ### Source
 How many?
-### Spanish ***
+### Spanish
 ¿Cuántos?
 
 ### Source
 How much signal?
-### Spanish ***
-Cuanta señal?
+### Spanish
+¿Cuanta señal?
 
 ### Source
 How much?
 ### Spanish ***
-¿Cuánto cuesta?
+¿Cuánto?
 
 ### Source
 How possible?
 ### Spanish ***
-¿Cómo es posible?
+¿Qué tan posible es esto?
 
 ### Source
 Less than
@@ -845,7 +844,7 @@ Mira estas reglas. ¿Qué pasará cuando toquemos el micromundo?
 ### Source
 Look at those colorful <color=brown>patches </color> around the world! Actually, they are the same <color=brown>patches </color> as the black background you just saw. When we are creating your microworld, you will <help=observer>ask</help> them to do their jobs. For example, we can turn them back to black like <observer=ask patches [ set pcolor black ]>this</observer>!
 ### Spanish ***
-Mira esos coloridos<color=brown> parches </color> ¡alrededor del mundo! De hecho, son lo mismo<color=brown> parches </color> como el fondo negro que acaba de ver. Cuando estemos creando tu micromundo,<help=observer> pedir</help> ellos para hacer su trabajo. Por ejemplo, podemos volverlos negros como<observer=ask patches [ set pcolor black ]> esta</observer> !
+Mira esos coloridos <color=brown>parches </color> ¡alrededor del mundo! De hecho, son lo mismo<color=brown> parches </color> como el fondo negro que acaba de ver. Cuando estemos creando tu micromundo,<help=observer> pedir</help> ellos para hacer su trabajo. Por ejemplo, podemos volverlos negros como<observer=ask patches [ set pcolor black ]> esta</observer> !
 
 ### Source
 Look at those colorful arrows around the world! Here, we call them <color=green>turtles </color>. Each turtle may have different shape, size, color, and so on. When we are creating your microworld, you will <help=observer>ask</help> them to do their duties. Actually, we can <observer=ask turtles [ set shape "turtle" ]>ask</observer> them to look like <color=green>turtles </color>!
