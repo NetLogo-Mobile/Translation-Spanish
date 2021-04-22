@@ -1,4 +1,5 @@
-﻿## Language = Spanish
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
 ## Plots
 ### Source
 avg-energy
@@ -76,182 +77,182 @@ ticks
 tics
 
 ## Tutorial
-### Source ***
+### Source
 <trigger=velocity>Speed</trigger> distribution of all the particles. The gray line is the average value, and the black line is the initial average.
-### Spanish
+### Spanish ***
+<trigger=velocity>Velocidad</trigger> distribución de todas las partículas. La línea gris es el valor promedio y la línea negra es el promedio inicial.
 
-
-### Source ***
+### Source
 Authors: Charles Cheng, John Chen. Based on NetLogo Lab: Gas in a Box model by Uri Wilensky.
-### Spanish
+### Spanish ***
+Autores: Charles Cheng, John Chen. Basado en NetLogo Lab: modelo Gas in a Box de Uri Wilensky.
 
-
-### Source ***
+### Source
 Average <trigger=energy>kinetic energy</trigger> of the particles
-### Spanish
+### Spanish ***
+Promedio<trigger=energy> energía cinética</trigger> de las partículas
 
-
-### Source ***
+### Source
 Average <trigger=velocity>speed</trigger> of the particles
-### Spanish
+### Spanish ***
+Promedio<trigger=velocity> velocidad</trigger> de las partículas
 
-
-### Source ***
+### Source
 average energy
-### Spanish
+### Spanish ***
+energía promedio
 
-
-### Source ***
+### Source
 average speed
-### Spanish
+### Spanish ***
+velocidad promedio
 
-
-### Source ***
+### Source
 Basic Principles
-### Spanish
+### Spanish ***
+Principios básicos
 
-
-### Source ***
+### Source
 box-size
-### Spanish
+### Spanish ***
+tamaño-de-caja
 
-
-### Source ***
+### Source
 clear trace
-### Spanish
+### Spanish ***
+borrar rastro
 
-
-### Source ***
+### Source
 Clears the trace of all particles
-### Spanish
+### Spanish ***
+Limpia el rastro de todas las partículas
 
-
-### Source ***
+### Source
 collide?
-### Spanish
+### Spanish ***
+chocar?
 
-
-### Source ***
+### Source
 Congratulations! 
-### Spanish
+### Spanish ***
+¡Felicidades! 
 
-
-### Source ***
+### Source
 Distribution of <trigger=energy>energies</trigger> of all the particles, calculated as m*(v^2)/2. The gray line is the average value, and the black line is the initial average.
-### Spanish
+### Spanish ***
+Distribución de<trigger=energy> energías</trigger> de todas las partículas, calculado como m * (v ^ 2) / 2. La línea gris es el valor promedio y la línea negra es el promedio inicial.
 
-
-### Source ***
+### Source
 Energy
-### Spanish
+### Spanish ***
+Energía
 
-
-### Source ***
+### Source
 Gas Particles
-### Spanish
+### Spanish ***
+Partículas de gas
 
-
-### Source ***
+### Source
 Initial <trigger=velocity>speed</trigger> of the particles
-### Spanish
+### Spanish ***
+Inicial<trigger=velocity> velocidad</trigger> de las partículas
 
-
-### Source ***
+### Source
 Initially, all the particles have the same <trigger=velocity>speed</trigger> but random directions. Therefore the first histogram plots of speed and <trigger=energy>energy</trigger> should show only one column each. As the particles repeatedly collide, they exchange energy and head off in new directions, and the speeds are dispersed. Some particles get faster, some get slower. The histogram distribution changes accordingly.
-### Spanish
+### Spanish ***
+Inicialmente, todas las partículas tienen el mismo<trigger=velocity> velocidad</trigger> pero direcciones aleatorias. Por lo tanto, los primeros gráficos de histograma de velocidad y<trigger=energy> energía</trigger> debe mostrar solo una columna cada uno. A medida que las partículas chocan repetidamente, intercambian energía y se dirigen en nuevas direcciones, y las velocidades se dispersan. Algunas partículas se vuelven más rápidas, otras más lentas. La distribución del histograma cambia en consecuencia.
 
-
-### Source ***
+### Source
 init-particle-speed
-### Spanish
+### Spanish ***
+velocidad-partícula-inicial
 
-
-### Source ***
+### Source
 Introduction
-### Spanish
+### Spanish ***
+Introducción
 
-
-### Source ***
+### Source
 Mass of the particles
-### Spanish
+### Spanish ***
+Masa de las partículas
 
-
-### Source ***
+### Source
 Momentum
-### Spanish
+### Spanish ***
+Impulso
 
-
-### Source ***
+### Source
 Number of gas particles
-### Spanish
+### Spanish ***
+Número de partículas de gas
 
-
-### Source ***
+### Source
 number-of-particles
-### Spanish
+### Spanish ***
+número-de-partículas
 
-
-### Source ***
+### Source
 Option to trace the path of one of the particles
-### Spanish
+### Spanish ***
+Opción de rastrear el camino de una de las partículas.
 
-
-### Source ***
+### Source
 particle-mass
-### Spanish
+### Spanish ***
+masa-de-partículas
 
-
-### Source ***
+### Source
 percent fast
-### Spanish
+### Spanish ***
+porcentaje rápido
 
-
-### Source ***
+### Source
 percent medium
-### Spanish
+### Spanish ***
+porcentaje medio
 
-
-### Source ***
+### Source
 percent slow
-### Spanish
+### Spanish ***
+porcentaje lento
 
-
-### Source ***
+### Source
 Percentage of <color=blue>slow particles (blue)</color>
-### Spanish
+### Spanish ***
+Porcentaje de<color=blue> partículas lentas (azul)</color>
 
-
-### Source ***
+### Source
 Percentage of <color=green>medium speed particles (green)</color>
-### Spanish
+### Spanish ***
+Porcentaje de<color=green> partículas de velocidad media (verde)</color>
 
-
-### Source ***
+### Source
 Percentage of <color=red>fast particles (red)</color>
-### Spanish
+### Spanish ***
+Porcentaje de<color=red> partículas rápidas (rojo)</color>
 
-
-### Source ***
+### Source
 Plot 
-### Spanish
+### Spanish ***
+Trazar 
 
-
-### Source ***
+### Source
 Plots the number of particles in each range of <trigger=velocity>speed</trigger>
-### Spanish
+### Spanish ***
+Traza el número de partículas en cada rango de<trigger=velocity> velocidad</trigger>
 
-
-### Source ***
+### Source
 Questions?
-### Spanish
+### Spanish ***
+¿Preguntas?
 
-
-### Source ***
+### Source
 Size of the box (percentage of the world-width)
-### Spanish
+### Spanish ***
+Tamaño de la caja (porcentaje del ancho mundial)
 
-
-### Source ***
+### Source
 The basic principle of all GasLab models, including this one, is the following algorithm:
 1.     A particle moves in a straight line without changing its <trigger=velocity>speed</trigger>, unless it collides with another particle or bounces off the wall.
 2.     Two particles "collide" if they find themselves on the same patch.
@@ -259,58 +260,64 @@ The basic principle of all GasLab models, including this one, is the following a
 4.     They exchange <trigger=momentum>momentum</trigger> and <trigger=energy>energy</trigger> along that axis, according to the conservation of momentum and energy. This calculation is done in the center of mass system.
 5.     Each particle is assigned its new velocity, energy, and heading.
 6.     If a particle finds itself on or very close to a wall of the container, it "bounces" (reflects its direction and keeps its same speed).
-### Spanish
+### Spanish ***
+El principio básico de todos los modelos GasLab, incluido este, es el siguiente algoritmo:
+1. Una partícula se mueve en línea recta sin cambiar su<trigger=velocity> velocidad</trigger> , a menos que choque con otra partícula o rebote en la pared.
+2. Dos partículas &quot;chocan&quot; si se encuentran en el mismo parche.
+3. Se elige un eje aleatorio, como si fueran dos bolas que se golpean y este eje es la línea que conecta sus centros.
+4. Ellos intercambian<trigger=momentum> impulso</trigger> y<trigger=energy> energía</trigger> a lo largo de ese eje, de acuerdo con la conservación del momento y la energía. Este cálculo se realiza en el sistema de centro de masa.
+5. A cada partícula se le asigna su nueva velocidad, energía y rumbo.
+6. Si una partícula se encuentra en o muy cerca de una pared del contenedor, &quot;rebota&quot; (refleja su dirección y mantiene su misma velocidad).
 
-
-### Source ***
+### Source
 The capacity for doing work
-### Spanish
+### Spanish ***
+La capacidad de hacer el trabajo
 
-
-### Source ***
+### Source
 The particles are modeled as hard balls with no internal <trigger=energy>energy</trigger> except that which is due to their motion. Collisions between particles are elastic. Particles are colored according to <trigger=velocity>speed</trigger> --- <color=blue>blue for slow</color> (speed less than 5), <color=green>green for medium</color> (above 5 and below 15), and <color=red>red for high speeds</color> (above 15).
-### Spanish
+### Spanish ***
+Las partículas se modelan como bolas duras sin internos.<trigger=energy> energía</trigger> excepto lo que se debe a su movimiento. Las colisiones entre partículas son elásticas. Las partículas están coloreadas según<trigger=velocity> velocidad</trigger> ---<color=blue> azul para lento</color> (velocidad inferior a 5),<color=green> verde para medio</color> (por encima de 5 y por debajo de 15), y<color=red> rojo para altas velocidades</color> (por encima de 15).
 
-
-### Source ***
+### Source
 The product of the mass of a particle and its velocity. Momentum is a vector quantity (it has both magnitude and direction)
-### Spanish
+### Spanish ***
+Producto de la masa de una partícula por su velocidad. El momento es una cantidad vectorial (tiene magnitud y dirección)
 
-
-### Source ***
+### Source
 The rate of change of its position with respect to a frame of reference; the displacement over the time elapsed
-### Spanish
+### Spanish ***
+La tasa de cambio de su posición con respecto a un marco de referencia; el desplazamiento en el tiempo transcurrido
 
-
-### Source ***
+### Source
 This model simulates the behavior of gas particles in a closed box, or a container with a fixed volume. The path of single particle is visualized by a <color=grey>gray colored trace</color> of the particle's most recent positions. The basic principle of the models is that gas particles are assumed to have two elementary actions: they move and they collide --- either with other particles or with any other objects such as walls.
-### Spanish
+### Spanish ***
+Este modelo simula el comportamiento de las partículas de gas en una caja cerrada o un recipiente de volumen fijo. El camino de una sola partícula se visualiza mediante un<color=grey> rastro de color gris</color> de las posiciones más recientes de la partícula. El principio básico de los modelos es que se supone que las partículas de gas tienen dos acciones elementales: se mueven y chocan, ya sea con otras partículas o con cualquier otro objeto, como paredes.
 
-
-### Source ***
+### Source
 trace?
-### Spanish
+### Spanish ***
+trazar?
 
-
-### Source ***
+### Source
 Turns collisions between particles on and off
-### Spanish
+### Spanish ***
+Activa y desactiva las colisiones entre partículas.
 
-
-### Source ***
+### Source
 Velocity, Speed
-### Spanish
+### Spanish ***
+Velocidad
 
-
-### Source ***
+### Source
 Want to look at the community's or your answers to the questions asked in this model? Click on <b>Go to Q&A Panel</b>.
-### Spanish
+### Spanish ***
+¿Quiere ver las respuestas de la comunidad o las suyas a las preguntas formuladas en este modelo? Haga clic en <b>Ir al panel de preguntas y respuestas</b> .
 
-
-### Source ***
+### Source
 Well done! You have completed the Lab: Gas in a Box model tutorial! Time to play with the model!
-### Spanish
-
+### Spanish ***
+¡Bien hecho! ¡Ha completado el tutorial del modelo Lab: Gas in a Box! ¡Es hora de jugar con el modelo!
 
 ## Widgets
 ### Source

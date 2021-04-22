@@ -1,4 +1,5 @@
-﻿## Language = Spanish
+﻿*** dd6e18b174474625f893e39c0c656e4f
+## Language = Spanish
 ## Plots
 ### Source
 default
@@ -11,123 +12,296 @@ Global Temperature
 Temperatura Global
 
 ## Tutorial
-### Source ***
-Authors: Charles Cheng, John Chen. Based on NetLogo Climate Change model by Robert Tinker and Uri Wilensky.
-### Spanish
-
-
-### Source ***
-Congratulations! 
-### Spanish
-
-
-### Source ***
+### Excessive
 Explore the effect of albedo holding everything else constant. Does increasing the albedo increase or decrease the earth temperature? When you experiment, be sure to run the model long enough for the temperature to settle down.
 ### Spanish
+Explore el efecto del albedo manteniendo constante todo lo demás. ¿El aumento del albedo aumenta o disminuye la temperatura de la tierra? Cuando experimente, asegúrese de ejecutar el modelo el tiempo suficiente para que la temperatura se estabilice.
 
-
-### Source ***
-Goals 
-### Spanish
-
-
-### Source ***
-Heat Energy from Sunlight
-### Spanish
-
-
-### Source ***
+### Excessive
 Imagine you are sightseeing with your friends in the Himalayas. You had previously travelled there two decade ago, and now upon seeing some alpine glaciers, notice that they are much smaller than you remembered. You wonder: what is causing the glaciers to melt and how can you mitigate the harmful impacts that humans have on Earth's climate system?
 ### Spanish
+Imagina que estás haciendo turismo con tus amigos en el Himalaya. Anteriormente había viajado allí hace dos décadas, y ahora, al ver algunos glaciares alpinos, observe que son mucho más pequeños de lo que recordaba. Te preguntas: ¿qué está causando el derretimiento de los glaciares y cómo puedes mitigar los impactos dañinos que los humanos tienen en el sistema climático de la Tierra?
 
-
-### Source ***
-Infrared Light
-### Spanish
-
-
-### Source ***
-Introduction
-### Spanish
-
-
-### Source ***
+### Excessive
 Play with the model. Change the albedo and run the model. Add clouds and CO2 to the model and then watch a single sunlight arrowhead. What is the highest earth temperature you can produce?
 ### Spanish
+Juega con el modelo. Cambie el albedo y ejecute el modelo. Agregue nubes y CO2 al modelo y luego observe una sola punta de flecha de luz solar. ¿Cuál es la temperatura más alta de la tierra que puede producir?
 
-
-### Source ***
-Questions?
-### Spanish
-
-
-### Source ***
-Simplifications in the Model
-### Spanish
-
-
-### Source ***
+### Excessive
 Sometimes the red dots transform themselves into infrared (IR) light that heads toward space, carrying off energy. The probability of a red dot becoming IR light depends on the earth's temperature. When the earth is cold, few red dots generate IR light; when it is hot, most do. The IR energy is represented by a magenta arrowhead. Each carries the same energy as a yellow arrowhead and as a red dot. The IR light goes through clouds but can bounce off CO2 molecules.
 ### Spanish
+A veces, los puntos rojos se transforman en luz infrarroja (IR) que se dirige hacia el espacio y se lleva energía. La probabilidad de que un punto rojo se convierta en luz infrarroja depende de la temperatura de la tierra. Cuando la tierra está fría, pocos puntos rojos generan luz IR; cuando hace calor, la mayoría lo hace. La energía IR está representada por una punta de flecha magenta. Cada uno lleva la misma energía que una punta de flecha amarilla y un punto rojo. La luz infrarroja atraviesa las nubes pero puede rebotar en las moléculas de CO2.
 
-
-### Source ***
-Temperature of the Earth
-### Spanish
-
-
-### Source ***
+### Excessive
 The relationship exists because the earth temperature goes up as the total thermal energy is increased. Thermal energy is added by sunlight that reaches the earth as well as from infrared (IR) light reflected down to the earth. Thermal energy is removed by IR emitted by the earth. The balance of these determines the energy in the earth, which is proportional to its temperature.
 ### Spanish
+La relación existe porque la temperatura de la tierra aumenta a medida que aumenta la energía térmica total. La energía térmica es agregada por la luz solar que llega a la tierra, así como por la luz infrarroja (IR) reflejada hacia la tierra. La energía térmica es eliminada por los IR emitidos por la tierra. El equilibrio de estos determina la energía en la tierra, que es proporcional a su temperatura.
 
-
-### Source ***
+### Excessive
 There are, of course, many simplifications in this model. The earth is not a single temperature, does not have a single albedo, and does not have a single heat capacity. Visible light is somewhat absorbed by CO2 and some IR light does bounce off clouds. No model is completely accurate. What is important is that a model reacts in some ways like the system it is supposed to model. This model does that, showing how the greenhouse effect is caused by CO2 and other gases that absorb IR.
 ### Spanish
+Por supuesto, hay muchas simplificaciones en este modelo. La tierra no tiene una sola temperatura, no tiene un solo albedo y no tiene una sola capacidad calorífica. La luz visible es algo absorbida por el CO2 y algo de luz infrarroja rebota en las nubes. Ningún modelo es completamente exacto. Lo importante es que un modelo reacciona de alguna manera como el sistema que se supone debe modelar. Este modelo hace eso, mostrando cómo el efecto invernadero es causado por el CO2 y otros gases que absorben IR.
 
-
-### Source ***
+### Excessive
 This is a model of energy flow in the earth, particularly heat energy. It shows the earth as rose colored, and the surface of the planet is represented by a black strip. Above the strip there is a blue atmosphere and black space at the top. Clouds and carbon dioxide (CO2) molecules can be added to the atmosphere. The CO2 molecules represent greenhouse gases that block infrared light that is emitted by the earth. Clouds block incoming or outgoing sun rays, influencing the heating up or cooling down of the planet.
 ### Spanish
+Este es un modelo de flujo de energía en la tierra, particularmente energía térmica. Muestra la tierra de color rosa y la superficie del planeta está representada por una franja negra. Sobre la franja hay una atmósfera azul y un espacio negro en la parte superior. Se pueden agregar nubes y moléculas de dióxido de carbono (CO2) a la atmósfera. Las moléculas de CO2 representan gases de efecto invernadero que bloquean la luz infrarroja que emite la tierra. Las nubes bloquean los rayos solares entrantes o salientes, lo que influye en el calentamiento o enfriamiento del planeta.
 
-
-### Source ***
-Want to look at the community's or your answers to the questions asked in this model? Click on <b>Go to Q&A Panel</b>.
-### Spanish
-
-
-### Source ***
-Welcome to the Climate Change Model!
-### Spanish
-
-
-### Source ***
-Well done! You have completed the Climate Change model tutorial! Time to play with the model!
-### Spanish
-
-
-### Source ***
+### Excessive
 What happens to the arrowhead when it hits the earth? Describe its later path. Does it escape the earth? What happens then? Do all arrowheads follow similar paths?
 ### Spanish
+¿Qué le sucede a la punta de la flecha cuando golpea la tierra? Describe su camino posterior. ¿Se escapa de la tierra? ¿Qué pasa entonces? ¿Todas las puntas de flecha siguen caminos similares?
 
-
-### Source ***
+### Excessive
 What is the relation between the number of red dots and the temperature of the earth?
 ### Spanish
+¿Cuál es la relación entre el número de puntos rojos y la temperatura de la tierra?
 
-
-### Source ***
+### Excessive
 Yellow arrowheads stream downward representing sunlight energy. Some of the sunlight reflects off clouds and more can reflect off the earth's surface. If sunlight is absorbed by the earth, it turns into a red dot, representing heat energy. Each dot represents the energy of one yellow sunlight arrowhead. The red dots randomly move around the earth, and its temperature is related to the total number of red dots.
 ### Spanish
+Las puntas de flecha amarillas fluyen hacia abajo representando la energía de la luz solar. Parte de la luz solar se refleja en las nubes y más puede reflejarse en la superficie de la tierra. Si la luz solar es absorbida por la tierra, se convierte en un punto rojo, que representa la energía térmica. Cada punto representa la energía de una punta de flecha de luz solar amarilla. Los puntos rojos se mueven aleatoriamente alrededor de la tierra y su temperatura está relacionada con el número total de puntos rojos.
 
-
-### Source ***
+### Excessive
  Understand how greenhouse gases affect the climate 
  Observe how carbon dioxide molecules and infrared light interact 
  Examine factors that influence the heating up and cooling down of the Earth 
  Explore concepts of thermal energy that affect the global temperature
 ### Spanish
+ Entender cómo los gases de efecto invernadero afectan el clima.  Observe cómo interactúan las moléculas de dióxido de carbono y la luz infrarroja  Examinar los factores que influyen en el calentamiento y enfriamiento de la Tierra.  Explorar conceptos de energía térmica que afectan la temperatura global
 
+### Source
+<color=#b3b300ff>Yellow arrowheads</color> stream downward  representing <color=#b3b300ff>sunlight  energy </color>. Some of the <color=#b3b300ff>sunlight </color> reflects off <color=grey>clouds </color> and more can reflect off the <color=green>earth's surface </color>. If <color=#b3b300ff>sunlight </color> is absorbed by the <color=green>earth </color>, it turns into a <color=red>red dot</color>, representing <trigger=thermal energy,red>heat  energy </trigger>. Each <color=red>dot</color> represents the energy  of one <color=#b3b300ff>yellow sunlight  arrowhead </color>. The <color=red>red dots</color> randomly  move around the <color=green>earth </color>, and its <trigger=temperature>temperature </trigger> is related to the total number of <color=red>red dots</color>.
+### Spanish ***
+<color=#b3b300ff>Puntas de flecha amarillas</color> fluir hacia abajo  representando<color=#b3b300ff> luz solar  energía </color> . Algunos de los<color=#b3b300ff> luz del sol </color> se refleja<color=grey> nubes </color> y más pueden reflejarse en el<color=green> superficie de la tierra </color> . Si<color=#b3b300ff> luz del sol </color> es absorbido por el<color=green> tierra </color> , se convierte en un<color=red> punto rojo</color> , representando<trigger=thermal energy,red> calor  energía </trigger> . Cada<color=red> punto</color> representa la energía  de uno<color=#b3b300ff> luz del sol amarilla  punta de flecha </color> . La<color=red> puntos rojos</color> aleatoriamente  moverse por el<color=green> tierra </color> , y es<trigger=temperature> temperatura </trigger> está relacionado con el número total de<color=red> puntos rojos</color> .
+
+### Source
+A greenhouse gas is a gas that absorbs and emits radiant energy within the thermal <trigger=infrared light>infrared</trigger> range, causing the greenhouse effect. The primary greenhouse gases in Earth's <trigger=atmosphere>atmosphere</trigger> are water vapor, <trigger=carbon dioxide>carbon dioxide</trigger>, methane, nitrous oxide, and ozone
+### Spanish ***
+Un gas de efecto invernadero es un gas que absorbe y emite energía radiante dentro de la térmica.<trigger=infrared light> infrarrojo</trigger> rango, causando el efecto invernadero. Los principales gases de efecto invernadero en la Tierra<trigger=atmosphere> atmósfera</trigger> son vapor de agua,<trigger=carbon dioxide> dióxido de carbono</trigger> , metano, óxido nitroso y ozono
+
+### Source
+A molecule  is an electrically neutral group of two or more atoms held together by chemical bonds. Molecules  are distinguished from ions by their lack of electrical charge
+### Spanish ***
+Una molécula  es un grupo eléctricamente neutro de dos o más átomos unidos por enlaces químicos. Las moléculas  se distinguen de los iones por su falta de carga eléctrica
+
+### Source
+Albedo
+### Spanish ***
+Albedo
+
+### Source
+Albedo, fraction of light that is reflected by a body or surface. It is commonly used in astronomy to describe the reflective properties of planets , satellites, and asteroids. It is an important consideration in <trigger=climate>climatology</trigger> since recent albedo decreases in the Arctic have increased <color=red>heat </color> absorption at the surface
+### Spanish ***
+Albedo, fracción de luz reflejada por un cuerpo o superficie. Se usa comúnmente en astronomía para describir las propiedades reflectantes de planetas sa, satélites y asteroides. Es una consideración importante en<trigger=climate> climatología</trigger> desde que las recientes disminuciones del albedo en el Ártico han aumentado<color=red> calor </color> absorción en la superficie
+
+### Source
+An atmosphere is a layer or a set of layers of gases surrounding a planet or other material body, that is held in place by the gravity of that body
+### Spanish ***
+Una atmósfera es una capa o un conjunto de capas de gases que rodean un planeta u otro cuerpo material, que se mantiene en su lugar por la gravedad de ese cuerpo.
+
+### Source
+Atmosphere
+### Spanish ***
+Atmósfera
+
+### Source
+Authors: Charles Cheng, John Chen. Based on NetLogo Climate Change model by Robert Tinker and Uri Wilensky.
+### Spanish ***
+Autores: Charles Cheng, John Chen. Basado en el modelo NetLogo Climate Change de Robert Tinker y Uri Wilensky.
+
+### Source
+Carbon dioxide
+### Spanish ***
+Dióxido de carbono
+
+### Source
+Carbon dioxide is an important constituent of Earth's air. A <trigger=molecule>molecule </trigger> of carbon dioxide (CO2) is made up of one carbon atom and two oxygen atoms
+### Spanish ***
+El dióxido de carbono es un componente importante del aire de la Tierra. A<trigger=molecule> molécula </trigger> de dióxido de carbono (CO2) se compone de un átomo de carbono y dos átomos de oxígeno
+
+### Source
+Change the <trigger=albedo>albedo</trigger> and run the model. Add <color=grey>clouds </color> and <trigger=carbon dioxide>CO2</trigger> to the model and then watch a single <color=#b3b300ff>sunlight  arrowhead </color>. What is the highest  <color=green>earth </color> <trigger=temperature>temperature </trigger> you can produce?
+### Spanish ***
+Cambiar el<trigger=albedo> albedo</trigger> y ejecuta el modelo. Agregar<color=grey> nubes </color> y<trigger=carbon dioxide> CO2</trigger> al modelo y luego ver un sencillo<color=#b3b300ff> luz del sol  punta de flecha </color> . ¿Cuál es el más alto?<color=green> tierra </color><trigger=temperature> temperatura </trigger> puedes producir?
+
+### Source
+Climate
+### Spanish ***
+Clima
+
+### Source
+Congratulations! 
+### Spanish ***
+¡Felicidades! 
+
+### Source
+Explore the effect of <trigger=albedo>albedo</trigger> holding everything else constant. Does increasing the albedo increase  or decrease  the <color=green>earth</color> <trigger=temperature>temperature </trigger>? Be sure to run the model long enough  for the temperature  to settle down .
+### Spanish ***
+Explore el efecto de<trigger=albedo> albedo</trigger> manteniendo todo lo demás constante. ¿El aumento del albedo aumenta  o disminuye  la<color=green> tierra</color><trigger=temperature> temperatura </trigger> ? Asegúrese de ejecutar el modelo el tiempo suficiente  para que la temperatura  se estabilice  .
+
+### Source
+Goals 
+### Spanish ***
+Metas 
+
+### Source
+Greenhouse gas
+### Spanish ***
+Gases de efecto invernadero
+
+### Source
+Heat capacity
+### Spanish ***
+Capacidad calorífica
+
+### Source
+Heat capacity or thermal capacity is a physical property of matter, defined as the amount of <color=red>heat </color> to be supplied to a given mass of a material to produce a unit change in its <trigger=temperature>temperature </trigger>
+### Spanish ***
+La capacidad calorífica o capacidad térmica es una propiedad física de la materia, definida como la cantidad de<color=red> calor </color> ser suministrado a una masa dada de un material para producir un cambio unitario en su<trigger=temperature> temperatura </trigger>
+
+### Source
+Heat Energy from Sunlight
+### Spanish ***
+Energía calorífica de la luz solar
+
+### Source
+Imagine you are sightseeing  with your friends in the <color=maroon>Himalayas </color>. You had previously travelled there two decade ago, and now upon seeing some <color=blue>alpine glaciers </color>, notice that they are much smaller than you remembered. You wonder: what is causing the <color=blue>glaciers</color> to melt and how can you mitigate the harmful impacts that humans  have on <color=green>Earth's</color> <trigger=climate>climate</trigger>  system?
+### Spanish ***
+Imagina que estás haciendo turismo  con tus amigos en el<color=maroon> Himalaya </color> . Anteriormente había viajado allí hace dos décadas, y ahora, al ver algunos<color=blue> glaciares alpinos </color> , observe que son mucho más pequeños de lo que recordaba. Te preguntas: ¿qué está causando la<color=blue> glaciares</color> derretirse y cómo puede mitigar los impactos dañinos que los humanos  tienen en<color=green> De la tierra</color><trigger=climate> clima</trigger> sistema?
+
+### Source
+Infrared light
+### Spanish ***
+Luz infrarroja
+
+### Source
+Infrared Light
+### Spanish ***
+Luz infrarroja
+
+### Source
+Infrared light (IR), is electromagnetic radiation (EMR) with wavelengths longer than those of visible light. It is therefore invisible to the human eye . IR is generally understood to encompass wavelengths  from the nominal <color=red>red edge</color> of the visible spectrum around 700 nanometers to 1 millimeter
+### Spanish ***
+La luz infrarroja (IR), es radiación electromagnética (EMR) con longitudes de onda más largas que las de la luz visible. Por tanto, es invisible para el ojo humano  . Por lo general, se entiende que IR abarca las longitudes de onda  del nominal<color=red> borde rojo</color> del espectro visible alrededor de 700 nanómetros a 1 milímetro
+
+### Source
+Introduction
+### Spanish ***
+Introducción
+
+### Source
+IR Energy
+### Spanish ***
+Energía IR
+
+### Source
+Molecule
+### Spanish ***
+Molécula
+
+### Source
+Questions?
+### Spanish ***
+¿Preguntas?
+
+### Source
+Simplifications in the Model
+### Spanish ***
+Simplificaciones en el modelo
+
+### Source
+Sometimes the <color=red>red dots</color> transform themselves into <trigger=infrared light>infrared (IR) light</trigger> that heads toward space , carrying off energy . The probability of a <color=red>red dots</color> becoming IR light depends on the <color=green>earth's </color> <trigger=temperature>temperature </trigger>. When the <color=green>earth </color> is <color=blue>cold </color>, few <color=red>red dots</color> generate IR light; when it is <color=red>hot </color>, most do.
+### Spanish ***
+A veces el<color=red> puntos rojos</color> transformarse en<trigger=infrared light> luz infrarroja (IR)</trigger> que se dirige hacia el espacio  , llevándose energía  . La probabilidad de un<color=red> puntos rojos</color> convertirse en luz IR depende de la<color=green> la tierra </color><trigger=temperature> temperatura </trigger> . Cuando el<color=green> tierra </color> es<color=blue> frío </color> , pocos<color=red> puntos rojos</color> generar luz IR; cuando es<color=red> caliente </color> , debe hacerse.
+
+### Source
+Temperature
+### Spanish ***
+Temperatura
+
+### Source
+Temperature of the Earth
+### Spanish ***
+Temperatura de la tierra
+
+### Source
+Temperature , measure of <color=red>hotness </color> or <color=blue>coldness </color> expressed in terms of any of several arbitrary scales and indicating the direction in which <trigger=thermal energy>heat energy</trigger> will spontaneously flow—i.e., from a <color=red>hotter body (one at a higher temperature )</color> to a <color=blue>colder body (one at a lower temperature )</color>
+### Spanish ***
+Temperatura  , medida de<color=red> picor </color> o<color=blue> frialdad </color> expresado en términos de cualquiera de varias escalas arbitrarias e indicando la dirección en la que<trigger=thermal energy> energía térmica</trigger> fluirá espontáneamente, es decir, de un<color=red> cuerpo más caliente (uno a una temperatura más alta  )</color> a un<color=blue> cuerpo más frío (uno a una temperatura más baja  )</color>
+
+### Source
+The <trigger=infrared light>IR</trigger> energy is represented by a <color=magenta>magenta arrowhead </color>. Each carries the same energy   as a <color=#b3b300ff>yellow arrowhead </color> and as a <color=red>red dot</color>. The IR light goes through <color=grey>clouds </color> but can bounce off <trigger=carbon dioxide>CO2</trigger> <trigger=molecule>molecules </trigger>.
+### Spanish ***
+La<trigger=infrared light> IR</trigger> la energía está representada por un<color=magenta> punta de flecha magenta </color> . Cada uno lleva la misma energía  que un<color=#b3b300ff> punta de flecha amarilla </color> y como<color=red> punto rojo</color> . La luz infrarroja atraviesa<color=grey> nubes </color> pero puede rebotar<trigger=carbon dioxide> CO2</trigger><trigger=molecule> moléculas </trigger> .
+
+### Source
+The relationship exists because the <color=green>earth </color> <trigger=temperature>temperature </trigger> goes up as the total <trigger=thermal energy,red>thermal  energy </trigger> is increased . <color=red>Thermal  energy </color> is added by <color=#b3b300ff>sunlight </color> that reaches the <color=green>earth </color> as well as from <trigger=infrared light>infrared (IR) light</trigger> reflected down to the <color=green>earth </color>. <color=red>Thermal  energy </color> is removed by IR emitted by the <color=green>earth </color>. The balance  of these determines the <color=#b3b300ff>energy </color> in the <color=green>earth </color>, which is proportional to its temperature .
+### Spanish ***
+La relación existe porque el<color=green> tierra </color><trigger=temperature> temperatura </trigger> sube como el total<trigger=thermal energy,red> térmica  energía </trigger> aumenta  .<color=red> Térmica  energía </color> es agregado por<color=#b3b300ff> luz del sol </color> que llega al<color=green> tierra </color> así como de<trigger=infrared light> luz infrarroja (IR)</trigger> reflejado hasta el<color=green> tierra </color> .<color=red> Térmica  energía </color> es eliminado por IR emitido por el<color=green> tierra </color> . El saldo  de estos determina la<color=#b3b300ff> energía </color> en el<color=green> tierra </color> , que es proporcional a su temperatura  .
+
+### Source
+The weather conditions prevailing in an area in general or over a long period
+### Spanish ***
+Las condiciones climáticas que prevalecen en una zona en general o durante un período prolongado.
+
+### Source
+There are, of course, many simplifications in this model. The <color=green>earth </color> is not a single <trigger=temperature>temperature </trigger>, does not have a single <trigger=albedo>albedo</trigger>, and does not have a single <trigger=heat capacity,red>heat  capacity</trigger>. Visible light  is somewhat absorbed by <trigger=carbon dioxide>CO2</trigger> and some <trigger=infrared light>IR light</trigger> does bounce off <color=grey>clouds </color>. No model is completely accurate . What is important is that a model reacts in some ways like the system it is supposed to model. This model does that, showing how the greenhouse effect is caused by C<color=red>O2</color> and other gases  that absorb IR.
+### Spanish ***
+Por supuesto, hay muchas simplificaciones en este modelo. La<color=green> tierra </color> no es un solo<trigger=temperature> temperatura </trigger> , no tiene un solo<trigger=albedo> albedo</trigger> , y no tiene un solo<trigger=heat capacity,red> calor  capacidad</trigger> . La luz visible  es algo absorbida por<trigger=carbon dioxide> CO2</trigger> y algo<trigger=infrared light> Luz infrarroja</trigger> rebota<color=grey> nubes </color> . Ningún modelo es completamente preciso  . Lo importante es que un modelo reacciona de alguna manera como el sistema que se supone debe modelar. Este modelo hace eso, mostrando cómo el efecto invernadero es causado por C<color=red> O2</color> y otros gases  que absorben IR.
+
+### Source
+Thermal energy
+### Spanish ***
+Energía térmica
+
+### Source
+Thermal energy (also called heat energy) is produced when a rise in <trigger=temperature>temperature </trigger> causes atoms and <trigger=molecule>molecules </trigger> to move faster and collide with each other. The energy that comes from the temperature of the heated substance is called thermal energy.
+### Spanish ***
+La energía térmica (también llamada energía térmica) se produce cuando un aumento en<trigger=temperature> temperatura </trigger> causa átomos y<trigger=molecule> moléculas </trigger> para moverse más rápido y chocar entre sí. La energía que proviene de la temperatura de la sustancia calentada se llama energía térmica.
+
+### Source
+This is a model of <color=#b3b300ff>energy  flow</color> in the <color=green>earth </color>, particularly <trigger=thermal energy,red>heat  energy</trigger>. It shows the <color=green>earth </color> as <color=#cd59a1ff>rose</color> colored, and the surface of the <color=green>planet</color> is represented by a <b>black</b> strip. Above the strip there is a <trigger=atmosphere,blue>blue atmosphere</trigger> and <b>black space</b> at the top. <color=grey>Clouds </color> and <trigger=carbon dioxide>carbon dioxide</trigger> (C<color=red>O2</color>) <trigger=molecule>molecules </trigger> can be added to the <trigger=atmosphere>atmosphere</trigger>. The C<color=red>O2</color> molecules  represent <trigger=greenhouse gas>greenhouse gases</trigger> that block <trigger=infrared light>infrared light</trigger> that is emitted by the <color=green>earth </color>. <color=grey>Clouds </color> block incoming or outgoing <color=#b3b300ff>sun  rays</color>, influencing the <color=red>heating up </color> or <color=blue>cooling down </color> of the <color=green>planet</color>.
+### Spanish ***
+Este es un modelo de<color=#b3b300ff> energía  flujo</color> en el<color=green> tierra </color> particularmente<trigger=thermal energy,red> calor  energía</trigger> . Muestra el<color=green> tierra </color> como<color=#cd59a1ff> Rosa</color> coloreado, y la superficie del<color=green> planeta</color> está representado por una franja <b>negra.</b> Por encima de la franja hay un<trigger=atmosphere,blue> atmósfera azul</trigger> y <b>espacio negro</b> en la parte superior.<color=grey> Nubes </color> y<trigger=carbon dioxide> dióxido de carbono</trigger> (C<color=red> O2</color> )<trigger=molecule> moléculas </trigger> se puede agregar al<trigger=atmosphere> atmósfera</trigger> . La C<color=red> O2</color> moléculas  representan<trigger=greenhouse gas> gases de invernadero</trigger> ese bloque<trigger=infrared light> luz infrarroja</trigger> que es emitido por el<color=green> tierra </color> .<color=grey> Nubes </color> bloquear entrantes o salientes<color=#b3b300ff> sol  rayos</color> , influyendo en el<color=red> calentando </color> o<color=blue> enfriando </color> de El<color=green> planeta</color> .
+
+### Source
+Want to look at the community's or your answers to the questions asked in this model? Click on <b>Go to Q&A Panel</b>.
+### Spanish ***
+¿Quiere ver las respuestas de la comunidad o las suyas a las preguntas formuladas en este modelo? Haga clic en <b>Ir al panel de preguntas y respuestas</b> .
+
+### Source
+Welcome to the Climate Change Model!
+### Spanish ***
+¡Bienvenidos al Modelo de Cambio Climático!
+
+### Source
+Well done! You have completed the Climate Change model tutorial! Time to play with the model!
+### Spanish ***
+¡Bien hecho! ¡Ha completado el tutorial del modelo de cambio climático! ¡Es hora de jugar con el modelo!
+
+### Source
+What happens to the <color=#b3b300ff>arrowhead </color> when it hits the <color=green>earth </color>? Describe its later path. Does it escape the <color=green>earth </color>? What happens then? Do all <color=#b3b300ff>arrowhead</color> follow similar paths?
+### Spanish ***
+¿Qué pasa con el<color=#b3b300ff> punta de flecha </color> cuando golpea el<color=green> tierra </color> ? Describe su camino posterior. ¿Se escapa del<color=green> tierra </color> ? ¿Qué pasa entonces? Haz todo<color=#b3b300ff> punta de flecha</color> seguir caminos similares?
+
+### Source
+What is the relation between the number of red dots and Earth's temperature?
+### Spanish ***
+¿Cuál es la relación entre el número de puntos rojos y la temperatura de la Tierra?
+
+### Source
+Where in the model is IR energy represented?
+### Spanish ***
+¿En qué parte del modelo se representa la energía IR?
+
+### Source
+ Understand how <trigger=greenhouse gas>greenhouse gases</trigger> affect the <trigger=climate>climate </trigger>
+ Observe how <trigger=carbon dioxide>carbon dioxide</trigger> <trigger=molecule>molecules </trigger> and <trigger=infrared light>infrared light</trigger> interact 
+ Examine factors that influence the <color=red>heating up </color> and <color=blue>cooling down </color> of the <color=green>Earth </color>
+ Explore concepts of <trigger=thermal energy,red>thermal  energy </trigger> that affect the global <trigger=temperature>temperature </trigger>
+### Spanish ***
+ Entender cómo<trigger=greenhouse gas> gases de invernadero</trigger> afectar el<trigger=climate> clima </trigger> Observa cómo<trigger=carbon dioxide> dióxido de carbono</trigger><trigger=molecule> moléculas </trigger> y<trigger=infrared light> luz infrarroja</trigger> interactuar Examine los factores que influyen en la<color=red> calentando </color> y<color=blue> enfriando </color> de El<color=green> Tierra </color> Explore conceptos de<trigger=thermal energy,red> térmica  energía </trigger> que afectan el global<trigger=temperature> temperatura </trigger>
 
 ## Widgets
 ### Source
