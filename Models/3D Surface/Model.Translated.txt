@@ -26,6 +26,16 @@ This model maps turtles between <trigger=cartesian-coordinates>Cartesian</trigge
 ### Spanish
 Este modelo mapa tortugas entre coordenadas 3D <trigger=cartesian-coordinates>Cartesianas</trigger> y <trigger=spherical-coordinates>esféricas</trigger>. Para crear la aparencia de una superficie 3D curvada, el programa genera tortugas con coordenadas x y z aleatorias, luego calcula la coordenada y de cada tortuga en función de x, z, y tiempo. La función coseno se usa en la fórmula para producir una superficie curvada. La variación de la coordenada y en función del tiempo produce movimiento.
 
+### Excessive
+Creation of the Network
+### Spanish
+Creación de la Red
+
+### Excessive
+To render the surface in the NetLogo view, it maps from 3D to 2D coordinates as follows:
+### Spanish
+Para renderizar la superficie en la vista de NetLogo, se asigna de coordenadas 3D a 2D de la siguiente manera:
+
 ### Source
 A coordinate system that specifies a point by a triplet of numerical coordinates, which are the distances to the point from three perpendicularly oriented axes, x, y, and z
 ### Spanish
@@ -60,11 +70,6 @@ Congratulations! 
 Cosine
 ### Spanish ***
 Coseno
-
-### Source
-Creation of the Network
-### Spanish
-Creación de la Red
 
 ### Source
 Experiment with the num-turtles slider. How many <color=orange>turtles</color> are needed to produce a realistic effect? Why doesn't it keep getting better-looking indefinitely  as you add more <color=orange>turtles</color>?
@@ -102,11 +107,6 @@ Spherical coordinates
 Coordenadas Esféricas
 
 ### Source
-The network that is created is based on proximity (Euclidean distance ) between nodes. A node is randomly chosen and connected  to the nearest node that it is not already connected to. This process is repeated until the network has the correct number of links to give the specified average node degree.
-### Spanish ***
-La red que se crea se basa en la proximidad (distancia euclidiana  ) entre nodos. Un nodo se elige aleatoriamente y se conecta  al nodo más cercano al que aún no está conectado. Este proceso se repite hasta que la red tiene el número correcto de enlaces para dar el grado de nodo promedio especificado.
-
-### Source
 The number of <color=orange>turtles</color> that make up the surface
 ### Spanish ***
 El número de<color=orange> tortugas</color> que componen la superficie
@@ -123,8 +123,14 @@ Este modelo mapea<color=orange> tortugas</color> Entre<trigger=cartesian-coordin
 
 ### Source
 To render the surface in the NetLogo view, it maps from 3D to 2D coordinates as follows:
-### Spanish
-Para renderizar la superficie en la vista de NetLogo, se asigna de coordenadas 3D a 2D de la siguiente manera:
+view x = turtle x + (turtle z) / 2 
+view y = turtle y + (turtle z) / 2
+In other words, increasing z causes the <color=orange>turtle's</color> apparent position to move both up  and to the right .
+### Spanish ***
+Para renderizar la superficie en la vista NetLogo, se asigna de coordenadas 3D a 2D de la siguiente manera:
+ver x = tortuga x + (tortuga z) / 2
+ver y = tortuga y + (tortuga z) / 2
+En otras palabras, aumentar z provoca la<color=orange> tortuga</color> posición aparente para moverse tanto hacia arriba  como hacia la derecha  .
 
 ### Source
 Try changing the formula used to compute the y-coordinate to produce differently shaped surfaces. See if you can draw not just a surface, but a three dimensional shape such as a cone or a sphere. Record what surface/shape you produced and the corresponding formula.
