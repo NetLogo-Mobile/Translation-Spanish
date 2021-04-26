@@ -32,11 +32,6 @@ tiempo
 
 ## Tutorial
 ### Excessive
-This model models the movement of <color=blue>cars </color> on a highway. Each <color=blue>car </color> follows a simple set of rules: it slows  down (<trigger=deceleration,#c1b90fff>decelerates</trigger>) if it sees a <color=blue>car </color> close ahead, and <trigger=speed>speeds </trigger> up (<trigger=acceleration,green>accelerates</trigger>) if it doesn't see a <color=blue>car </color> ahead.
-### Spanish
-Este modelo modela el movimiento de <color=blue>carros </color> en una carretera. Cada <color=blue>carro </color> sigue un conjunto simple de reglas: ralentiza  (<trigger=deceleration,#c1b90fff> desacelera</trigger> ) si ve un <color=blue>carro </color> cerca por delante, y aumenta <trigger=speed>velocidad </trigger> (<trigger=acceleration,green> acelera</trigger> ) si no ve un <color=blue>carro </color> adelante.
-
-### Excessive
 "Want to look at the community's or your answers to the questions asked in this model? Click on <b>Go to Q&A Panel</b>."
 ### Spanish
 "Quieres ver las respuestas de la comunidad o sus respuestas a las preguntas formuladas en este modelo? Haz clic en <b>Ir al panel de Q&A</b>."
@@ -225,6 +220,11 @@ Cosas Para Intentar
 This behavior is common in <trigger=wavephenomena>wave phenomena</trigger>: the behavior of the group  is often very different from the behavior of the individuals  that make up the group.
 ### Spanish
 Este comportamiento es común en <trigger=wavephenomena>fenómenos ondulatorios</trigger>: el comportamiento del grupo  suele ser muy diferente del comportamiento de los individuos  que lo componen.
+
+### Excessive
+This model models the movement of <color=blue>cars </color> on a highway. Each <color=blue>car </color> follows a simple set of rules: it slows  down (<trigger=deceleration,#c1b90fff>decelerates</trigger>) if it sees a <color=blue>car </color> close ahead, and <trigger=speed>speeds </trigger> up (<trigger=acceleration,green>accelerates</trigger>) if it doesn't see a <color=blue>car </color> ahead.
+### Spanish
+Este modelo modela el movimiento de <color=blue>carros </color> en una carretera. Cada <color=blue>carro </color> sigue un conjunto simple de reglas: ralentiza  (<trigger=deceleration,#c1b90fff> desacelera</trigger> ) si ve un <color=blue>carro </color> cerca por delante, y aumenta <trigger=speed>velocidad </trigger> (<trigger=acceleration,green> acelera</trigger> ) si no ve un <color=blue>carro </color> adelante.
 
 ### Source
 This model models the movement of <color=blue>cars </color> on a highway. Each <color=blue>cars </color> follows a simple set of rules: it slows  down (<trigger=deceleration,#c1b90fff>decelerates</trigger>) if it sees a <color=blue>cars </color> close ahead, and <trigger=speed>speeds </trigger> up (<trigger=acceleration,green>accelerates</trigger>) if it doesn't see a <color=blue>cars </color> ahead.

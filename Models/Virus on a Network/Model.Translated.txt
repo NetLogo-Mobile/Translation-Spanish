@@ -37,88 +37,15 @@ tiempo
 ### Spanish
 <trigger=infected,red>Infectado</trigger> los nodos no son inmediatamente conscientes de que están<color=red> infectado</color> . Solo de vez en cuando los nodos comprueban si están<color=red> infectado</color> por un<trigger=virus,green> virus</trigger> . Cuando el<color=green> virus</color> ha sido detectado, existe la probabilidad de que el<color=green> virus</color> será eliminado. Si un nodo se recupera, existe alguna probabilidad de que se convierta en<trigger=resistant,grey> resistente</trigger> a esto<color=green> virus</color> en el futuro. Cuando un nodo se convierte<color=grey> resistente</color> , los vínculos entre él y sus vecinos se oscurecen, ya que ya no son posibles vectores de propagación de la<color=green> virus</color> . El modelo dejará de funcionar una vez que<color=green> virus</color> se ha extinguido por completo.
 
-### Excessive
-A submicroscopic infectious agent that replicates only inside the living cells of an organism. When <trigger=infected,red>infected</trigger>, a host cell is forced to rapidly produce thousands of identical copies of the original virus. Likewise, a computer <color=green>virus</color> is a type of computer program that, when executed, replicates itself by modifying other computer programs and inserting its own code.
-### Spanish
-Un agente infeccioso submicroscópico que se replica solo dentro de las células vivas de un organismo. Cuándo<trigger=infected,red> infectado</trigger> , una célula huésped se ve obligada a producir rápidamente miles de copias idénticas del virus original. Asimismo, una computadora<color=green> virus</color> es un tipo de programa informático que, cuando se ejecuta, se replica modificando otros programas informáticos e insertando su propio código.
-
-### Excessive
-An epidemic of an infectious disease/<trigger=virus,green>virus</trigger> that has spread across a large region, for instance multiple continents or worldwide, affecting a substantial number of people
-### Spanish
-Una epidemia de una enfermedad infecciosa /<trigger=virus,green> virus</trigger> que se ha extendido por una gran región, por ejemplo, en varios continentes o en todo el mundo, afectando a un número sustancial de personas
-
-### Excessive
-At the end of the run, after the <trigger=virus,green>virus</trigger> has died out, some nodes are still <trigger=susceptible,blue>susceptible</trigger>, while others have become <trigger=resistant,grey>immune</trigger>. What is the ratio of the number of <color=grey>immune</color> nodes to the number of <color=blue>susceptible</color> nodes? How is this affected by changing the average-node-degree of the network?
-### Spanish
-Al final de la carrera, después de la<trigger=virus,green> virus</trigger> se ha extinguido, algunos nodos todavía están<trigger=susceptible,blue> susceptible</trigger> , mientras que otros se han convertido<trigger=resistant,grey> inmune</trigger> . ¿Cuál es la razón del número de<color=grey> inmune</color> nodos al número de<color=blue> susceptible</color> nodos? ¿Cómo se ve afectado por cambiar el grado de nodo promedio de la red?
-
-### Excessive
-Each time step (tick), each <trigger=infected,red>infected</trigger> node (colored <color=red>red</color>) attempts to <color=red>infect</color> all of its neighbors. <trigger=susceptible,blue>Susceptible</trigger> neighbors (colored <color=blue>blue</color>) will be <color=red>infected</color> with a certain probability. <trigger=resistant,grey>Resistant</trigger> nodes (colored <color=grey>gray</color>) cannot be <color=red>infected</color>. This might correspond to up-to-date antivirus software and security patches that make a computer <color=grey>immune</color> to this particular <trigger=virus,green>virus</trigger>.
-### Spanish
-Cada paso de tiempo (tic), cada<trigger=infected,red> infectado</trigger> nodo (de color<color=red> rojo</color> ) intenta<color=red> infectar</color> todos sus vecinos.<trigger=susceptible,blue> Susceptible</trigger> vecinos (de color<color=blue> azul</color> ) estarán<color=red> infectado</color> con cierta probabilidad.<trigger=resistant,grey> Resistente</trigger> nodos (coloreados<color=grey> gris</color> ) no puede ser<color=red> infectado</color> . Esto puede corresponder a software antivirus actualizado y parches de seguridad que hacen que una computadora<color=grey> inmune</color> a este particular<trigger=virus,green> virus</trigger> .
-
-### Excessive
-If the recovery-chance is more than 0, even if the virus-spread-chance is high, do you think that if you ran the model forever, the <trigger=virus,green>virus</trigger> could stay alive?
-### Spanish
-Si la probabilidad de recuperación es mayor que 0, incluso si la probabilidad de propagación del virus es alta, ¿cree que si ejecuta el modelo para siempre, la<trigger=virus,green> virus</trigger> podría mantenerse con vida?
-
-### Excessive
-Imagine you turn on the television and switch to your local news channel.  An important announcement comes on, saying that there's a <trigger=pandemic>pandemic</trigger> rapidly spreading, and citizens need to quarantine themselves inside their homes. You wonder: how do medical officials know how fast a <trigger=virus,green>virus</trigger> is spreading and predict how many people will be <trigger=infected,red>infected</trigger> in the future?
-### Spanish
-Imagina que enciendes la televisión y cambias a tu canal de noticias local. Se produce un anuncio importante que dice que hay un<trigger=pandemic> pandemia</trigger> se está extendiendo rápidamente y los ciudadanos deben ponerse en cuarentena dentro de sus hogares. Usted se pregunta: ¿cómo saben los funcionarios médicos qué tan rápido<trigger=virus,green> virus</trigger> se está extendiendo y predice cuántas personas serán<trigger=infected,red> infectado</trigger> ¿en el futuro?
-
-### Excessive
-Set gain-resistance-chance to 0%. Under what conditions will the <trigger=virus,green>virus</trigger> die out? How long does it take? What conditions are required for the <color=green>virus</color> to live?
-### Spanish
-Establezca la probabilidad de resistencia a la ganancia en 0%. ¿En qué condiciones se<trigger=virus,green> virus</trigger> ¿morir? ¿Cuánto tiempo se tarda? ¿Qué condiciones se requieren para<color=green> virus</color> ¿vivir?
-
-### Excessive
-The network status plot shows the percentage of nodes in each state (<trigger=susceptible,blue>susceptible</trigger>, <trigger=infected,red>infected</trigger>, <trigger=resistant,grey>resistant</trigger>) over time.
-### Spanish
-La gráfica de estado de la red muestra el porcentaje de nodos en cada estado (<trigger=susceptible,blue> susceptible</trigger> ,<trigger=infected,red> infectado</trigger> ,<trigger=resistant,grey> resistente</trigger> ) Con el tiempo.
-
-### Excessive
-The network that is created is based on proximity (Euclidean distance) between nodes. A node is randomly chosen and connected to the nearest node that it is not already connected to. This process is repeated until the network has the correct number of links to give the specified average node degree.
-### Spanish
-La red que se crea se basa en la proximidad (distancia euclidiana) entre nodos. Un nodo se elige al azar y se conecta al nodo más cercano al que aún no está conectado. Este proceso se repite hasta que la red tiene el número correcto de enlaces para dar el grado de nodo promedio especificado.
-
-### Excessive
-The probability that <trigger=susceptible,blue>susceptible</trigger> neighbors (colored <color=blue>blue</color>) will be <trigger=infected,red>infected</trigger>; this might correspond to the probability that someone on the <color=blue>susceptible</color> system actually executes the <color=red>infected</color> email attachment.
-### Spanish
-La probabilidad de que<trigger=susceptible,blue> susceptible</trigger> vecinos (de color<color=blue> azul</color> ) estarán<trigger=infected,red> infectado</trigger> ; esto podría corresponder a la probabilidad de que alguien en el<color=blue> susceptible</color> el sistema realmente ejecuta el<color=red> infectado</color> adjunto de correo electrónico.
-
-### Excessive
-The rapid spread of disease/<trigger=virus,green>virus</trigger> to a large number of people in a given population within a short period of time
-### Spanish
-La rápida propagación de enfermedades /<trigger=virus,green> virus</trigger> a un gran número de personas en una población determinada en un corto período de tiempo
-
-### Excessive
-The rate at which nodes check whether they are <trigger=infected,red>infected</trigger> by a <trigger=virus>virus</trigger>; this might correspond to a regularly scheduled virus-scan procedure, or simply a human noticing something fishy about how the computer is behaving
-### Spanish
-La velocidad a la que los nodos comprueban si están<trigger=infected,red> infectado</trigger> por un<trigger=virus> virus</trigger> ; esto podría corresponder a un procedimiento de escaneo de virus programado regularmente, o simplemente a un humano que nota algo sospechoso sobre cómo se está comportando la computadora
-
-### Excessive
-The total number of nodes in the network (or the population of a community)
-### Spanish
-El número total de nodos en la red (o la población de una comunidad)
-
-### Excessive
-This model demonstrates the spread of a <trigger=virus,green>virus</trigger> through a network. Although the model is somewhat abstract, one interpretation is that each node represents a computer, and we are modeling the progress of a computer <color=green>virus</color> (or worm) through this network. Each node may be in one of three states: <trigger= susceptible,blue>susceptible</trigger>, <trigger=infected,red>infected</trigger>, or <trigger=resistant,grey>resistant</trigger>. In the academic literature such a model is sometimes referred to as an SIR model for <trigger=epidemic>epidemics</trigger>.
-### Spanish
-Este modelo demuestra la propagación de un<trigger=virus,green> virus</trigger> a través de una red. Aunque el modelo es algo abstracto, una interpretación es que cada nodo representa una computadora y estamos modelando el progreso de una computadora.<color=green> virus</color> (o gusano) a través de esta red. Cada nodo puede estar en uno de tres estados:<trigger= susceptible,blue> susceptible</trigger> ,<trigger=infected,red> infectado</trigger> , o<trigger=resistant,grey> resistente</trigger> . En la literatura académica, este modelo a veces se denomina modelo SIR para<trigger=epidemic> epidemias</trigger> .
-
-### Excessive
- Understand how a computer and a biological <trigger=virus,green>virus</trigger> spread
- Recognize the assumptions/generalizations made by SIR models
- Examine the factors that change how the <color=green>virus</color> spreads throughout the network 
- Explore how manipulating these factors affect whether equilibrium or instability is reached over time
-### Spanish
- Comprender cómo una computadora y una<trigger=virus,green> virus</trigger> untado  Reconocer las suposiciones / generalizaciones hechas por los modelos SIR  Examine los factores que cambian la forma en que<color=green> virus</color> se propaga por la red  Explore cómo la manipulación de estos factores afecta si se alcanza el equilibrio o la inestabilidad con el tiempo
-
 ### Source
 <trigger=infected,red>Infected</trigger> nodes are not immediately aware that they are <color=red>infected</color>. Only every so often do the nodes check whether they are <color=red>infected</color> by a <trigger=virus,green>virus</trigger>. When the <color=green>virus</color> has been detected, there is a probability that the <color=green>virus</color> will be removed. The model will stop running once the <color=green>virus</color> has completely died out .
 ### Spanish ***
 <trigger=infected,red>Infectado</trigger> los nodos no son inmediatamente conscientes de que están<color=red> infectado</color> . Solo de vez en cuando los nodos comprueban si están<color=red> infectado</color> por un<trigger=virus,green> virus</trigger> . Cuando el<color=green> virus</color> ha sido detectado, existe la probabilidad de que el<color=green> virus</color> será eliminado. El modelo dejará de funcionar una vez que<color=green> virus</color> se ha extinguido por completo  .
+
+### Excessive
+A submicroscopic infectious agent that replicates only inside the living cells of an organism. When <trigger=infected,red>infected</trigger>, a host cell is forced to rapidly produce thousands of identical copies of the original virus. Likewise, a computer <color=green>virus</color> is a type of computer program that, when executed, replicates itself by modifying other computer programs and inserting its own code.
+### Spanish
+Un agente infeccioso submicroscópico que se replica solo dentro de las células vivas de un organismo. Cuándo<trigger=infected,red> infectado</trigger> , una célula huésped se ve obligada a producir rápidamente miles de copias idénticas del virus original. Asimismo, una computadora<color=green> virus</color> es un tipo de programa informático que, cuando se ejecuta, se replica modificando otros programas informáticos e insertando su propio código.
 
 ### Source
 A submicroscopic infectious agent that replicates only inside the living cells of an organism. When <trigger=infected,red>infected</trigger>, a host cell is forced to rapidly produce thousands of identical copies  of the original virus. Likewise, a computer  <color=green>virus</color> is a type of computer program that, when executed, replicates itself by modifying other computer programs and inserting its own code .
@@ -139,6 +66,16 @@ Después de la<trigger=virus,green> virus</trigger> se ha extinguido, algunos no
 An epidemic of an infectious disease/<trigger=virus,green>virus</trigger> that has spread across a large region, for instance multiple continents or worldwide , affecting a substantial number of people 
 ### Spanish ***
 Una epidemia de una enfermedad infecciosa /<trigger=virus,green> virus</trigger> que se ha extendido por una gran región, por ejemplo en varios continentes o en todo el mundo  , afectando a un número sustancial de personas 
+
+### Excessive
+An epidemic of an infectious disease/<trigger=virus,green>virus</trigger> that has spread across a large region, for instance multiple continents or worldwide, affecting a substantial number of people
+### Spanish
+Una epidemia de una enfermedad infecciosa /<trigger=virus,green> virus</trigger> que se ha extendido por una gran región, por ejemplo, en varios continentes o en todo el mundo, afectando a un número sustancial de personas
+
+### Excessive
+At the end of the run, after the <trigger=virus,green>virus</trigger> has died out, some nodes are still <trigger=susceptible,blue>susceptible</trigger>, while others have become <trigger=resistant,grey>immune</trigger>. What is the ratio of the number of <color=grey>immune</color> nodes to the number of <color=blue>susceptible</color> nodes? How is this affected by changing the average-node-degree of the network?
+### Spanish
+Al final de la carrera, después de la<trigger=virus,green> virus</trigger> se ha extinguido, algunos nodos todavía están<trigger=susceptible,blue> susceptible</trigger> , mientras que otros se han convertido<trigger=resistant,grey> inmune</trigger> . ¿Cuál es la razón del número de<color=grey> inmune</color> nodos al número de<color=blue> susceptible</color> nodos? ¿Cómo se ve afectado por cambiar el grado de nodo promedio de la red?
 
 ### Source
 Authors: Charles Cheng, John Chen. Based on NetLogo Virus on a Network model by Uri Wilensky.
@@ -164,6 +101,11 @@ Creación de la Red
 Each time step (tick) , each <trigger=infected,red>infected</trigger> node (colored <color=red>red</color>) attempts to <color=red>infect</color> all of its neighbors . <trigger=susceptible,blue>Susceptible</trigger> neighbors (colored <color=blue>blue</color>) will be <color=red>infected</color> with a certain probability. <trigger=resistant,grey>Resistant</trigger> nodes (colored <color=grey>gray</color>) cannot be <color=red>infected</color>. This might correspond to up-to-date antivirus software and security patches  that make a computer  <color=grey>immune</color> to this particular <trigger=virus,green>virus</trigger>.
 ### Spanish ***
 Cada paso de tiempo (tic)  , cada<trigger=infected,red> infectado</trigger> nodo (de color<color=red> rojo</color> ) intenta<color=red> infectar</color> todos sus vecinos  .<trigger=susceptible,blue> Susceptible</trigger> vecinos (de color<color=blue> azul</color> ) estarán<color=red> infectado</color> con cierta probabilidad.<trigger=resistant,grey> Resistente</trigger> nodos (coloreados<color=grey> gris</color> ) no puede ser<color=red> infectado</color> . Esto podría corresponder a software antivirus actualizado y parches de seguridad  que hacen que una computadora  <color=grey> inmune</color> a este particular<trigger=virus,green> virus</trigger> .
+
+### Excessive
+Each time step (tick), each <trigger=infected,red>infected</trigger> node (colored <color=red>red</color>) attempts to <color=red>infect</color> all of its neighbors. <trigger=susceptible,blue>Susceptible</trigger> neighbors (colored <color=blue>blue</color>) will be <color=red>infected</color> with a certain probability. <trigger=resistant,grey>Resistant</trigger> nodes (colored <color=grey>gray</color>) cannot be <color=red>infected</color>. This might correspond to up-to-date antivirus software and security patches that make a computer <color=grey>immune</color> to this particular <trigger=virus,green>virus</trigger>.
+### Spanish
+Cada paso de tiempo (tic), cada<trigger=infected,red> infectado</trigger> nodo (de color<color=red> rojo</color> ) intenta<color=red> infectar</color> todos sus vecinos.<trigger=susceptible,blue> Susceptible</trigger> vecinos (de color<color=blue> azul</color> ) estarán<color=red> infectado</color> con cierta probabilidad.<trigger=resistant,grey> Resistente</trigger> nodos (coloreados<color=grey> gris</color> ) no puede ser<color=red> infectado</color> . Esto puede corresponder a software antivirus actualizado y parches de seguridad que hacen que una computadora<color=grey> inmune</color> a este particular<trigger=virus,green> virus</trigger> .
 
 ### Source
 Epidemic
@@ -199,6 +141,16 @@ Si un nodo se recupera, existe alguna probabilidad de que se convierta en<trigge
 If the recovery-chance is more than 0, even if the virus-spread-chance is high, do you think that if you ran the model forever, the <trigger=virus,green>virus</trigger> could stay alive ?
 ### Spanish ***
 Si la probabilidad de recuperación es mayor que 0, incluso si la probabilidad de propagación del virus es alta, ¿cree que si ejecuta el modelo para siempre, la<trigger=virus,green> virus</trigger> podría seguir vivo  ?
+
+### Excessive
+If the recovery-chance is more than 0, even if the virus-spread-chance is high, do you think that if you ran the model forever, the <trigger=virus,green>virus</trigger> could stay alive?
+### Spanish
+Si la probabilidad de recuperación es mayor que 0, incluso si la probabilidad de propagación del virus es alta, ¿cree que si ejecuta el modelo para siempre, la<trigger=virus,green> virus</trigger> podría mantenerse con vida?
+
+### Excessive
+Imagine you turn on the television and switch to your local news channel.  An important announcement comes on, saying that there's a <trigger=pandemic>pandemic</trigger> rapidly spreading, and citizens need to quarantine themselves inside their homes. You wonder: how do medical officials know how fast a <trigger=virus,green>virus</trigger> is spreading and predict how many people will be <trigger=infected,red>infected</trigger> in the future?
+### Spanish
+Imagina que enciendes la televisión y cambias a tu canal de noticias local. Se produce un anuncio importante que dice que hay un<trigger=pandemic> pandemia</trigger> se está extendiendo rápidamente y los ciudadanos deben ponerse en cuarentena dentro de sus hogares. Usted se pregunta: ¿cómo saben los funcionarios médicos qué tan rápido<trigger=virus,green> virus</trigger> se está extendiendo y predice cuántas personas serán<trigger=infected,red> infectado</trigger> ¿en el futuro?
 
 ### Source
 Imagine you turn on the television  and switch to your local news  channel.  An important announcement  comes on, saying that there's a <trigger=pandemic>pandemic</trigger> rapidly  spreading, and citizens need to quarantine themselves inside their homes . You wonder: how do medical officials  know how fast a <trigger=virus,green>virus</trigger> is spreading and predict how many people will be <trigger=infected,red>infected</trigger> in the future?
@@ -260,6 +212,11 @@ Resistant
 ### Spanish ***
 Resistente
 
+### Excessive
+Set gain-resistance-chance to 0%. Under what conditions will the <trigger=virus,green>virus</trigger> die out? How long does it take? What conditions are required for the <color=green>virus</color> to live?
+### Spanish
+Establezca la probabilidad de resistencia a la ganancia en 0%. ¿En qué condiciones se<trigger=virus,green> virus</trigger> ¿morir? ¿Cuánto tiempo se tarda? ¿Qué condiciones se requieren para<color=green> virus</color> ¿vivir?
+
 ### Source
 Set gain-resistance-chance to 0%. Under what conditions will the <trigger=virus,green>virus</trigger> die  out? How long  does it take? What conditions are required for the <color=green>virus</color> to live ?
 ### Spanish ***
@@ -285,6 +242,16 @@ The network status plot shows the percentage of nodes in each state (<trigger=su
 ### Spanish ***
 La gráfica de estado de la red muestra el porcentaje de nodos en cada estado (<trigger=susceptible,blue> susceptible</trigger> ,<trigger=infected,red> infectado</trigger> ,<trigger=resistant,grey> resistente</trigger> ) a lo largo del tiempo  .
 
+### Excessive
+The network status plot shows the percentage of nodes in each state (<trigger=susceptible,blue>susceptible</trigger>, <trigger=infected,red>infected</trigger>, <trigger=resistant,grey>resistant</trigger>) over time.
+### Spanish
+La gráfica de estado de la red muestra el porcentaje de nodos en cada estado (<trigger=susceptible,blue> susceptible</trigger> ,<trigger=infected,red> infectado</trigger> ,<trigger=resistant,grey> resistente</trigger> ) Con el tiempo.
+
+### Excessive
+The network that is created is based on proximity (Euclidean distance) between nodes. A node is randomly chosen and connected to the nearest node that it is not already connected to. This process is repeated until the network has the correct number of links to give the specified average node degree.
+### Spanish
+La red que se crea se basa en la proximidad (distancia euclidiana) entre nodos. Un nodo se elige al azar y se conecta al nodo más cercano al que aún no está conectado. Este proceso se repite hasta que la red tiene el número correcto de enlaces para dar el grado de nodo promedio especificado.
+
 ### Source
 The network  that is created is based on proximity (Euclidean distance ) between nodes. A node is randomly  chosen and connected to the nearest node that it is not already connected to. This process is repeated until the network has the correct number of links to give the specified average node degree.
 ### Spanish ***
@@ -294,6 +261,11 @@ La red  que se crea se basa en la proximidad (distancia euclidiana  ) entr
 The number of nodes that will start the simulation <trigger=infected,red>infected</trigger> with the <trigger=virus,green>virus</trigger>
 ### Spanish ***
 El número de nodos que iniciarán la simulación.<trigger=infected,red> infectado</trigger> con el<trigger=virus,green> virus</trigger>
+
+### Excessive
+The probability that <trigger=susceptible,blue>susceptible</trigger> neighbors (colored <color=blue>blue</color>) will be <trigger=infected,red>infected</trigger>; this might correspond to the probability that someone on the <color=blue>susceptible</color> system actually executes the <color=red>infected</color> email attachment.
+### Spanish
+La probabilidad de que<trigger=susceptible,blue> susceptible</trigger> vecinos (de color<color=blue> azul</color> ) estarán<trigger=infected,red> infectado</trigger> ; esto podría corresponder a la probabilidad de que alguien en el<color=blue> susceptible</color> el sistema realmente ejecuta el<color=red> infectado</color> adjunto de correo electrónico.
 
 ### Source
 The probability that <trigger=susceptible,blue>susceptible</trigger> neighbors (colored <color=blue>blue</color>) will be <trigger=infected,red>infected</trigger>; this might correspond to the probability that someone on the <color=blue>susceptible</color> system actually executes the <color=red>infected</color> email  attachment.
@@ -310,10 +282,20 @@ The probability that the <trigger=virus,green>virus</trigger> will be removed wh
 ### Spanish ***
 La probabilidad de que el<trigger=virus,green> virus</trigger> será eliminado cuando el<color=green> virus</color> ha sido detectado
 
+### Excessive
+The rapid spread of disease/<trigger=virus,green>virus</trigger> to a large number of people in a given population within a short period of time
+### Spanish
+La rápida propagación de enfermedades /<trigger=virus,green> virus</trigger> a un gran número de personas en una población determinada en un corto período de tiempo
+
 ### Source
 The rapid  spread of disease/<trigger=virus,green>virus</trigger> to a large number of people  in a given population within a short period of time 
 ### Spanish ***
 La rápida  propagación de enfermedades /<trigger=virus,green> virus</trigger> a un gran número de personas  en una población determinada en un período corto de tiempo 
+
+### Excessive
+The rate at which nodes check whether they are <trigger=infected,red>infected</trigger> by a <trigger=virus>virus</trigger>; this might correspond to a regularly scheduled virus-scan procedure, or simply a human noticing something fishy about how the computer is behaving
+### Spanish
+La velocidad a la que los nodos comprueban si están<trigger=infected,red> infectado</trigger> por un<trigger=virus> virus</trigger> ; esto podría corresponder a un procedimiento de escaneo de virus programado regularmente, o simplemente a un humano que nota algo sospechoso sobre cómo se está comportando la computadora
 
 ### Source
 The rate at which nodes check whether they are <trigger=infected,red>infected</trigger> by a <trigger=virus>virus</trigger>; this might correspond to a regularly scheduled virus-scan  procedure, or simply a human noticing something fishy about how the computer  is behaving
@@ -325,6 +307,11 @@ The state of having a strong capacity to defend against a disease/<trigger=virus
 ### Spanish ***
 El estado de tener una gran capacidad para defenderse de una enfermedad /<trigger=virus,green> virus</trigger>
 
+### Excessive
+The total number of nodes in the network (or the population of a community)
+### Spanish
+El número total de nodos en la red (o la población de una comunidad)
+
 ### Source
 The total number of nodes in the network  (or the population of a community)
 ### Spanish ***
@@ -334,6 +321,11 @@ El número total de nodos en la red  (o la población de una comunidad)
 This model demonstrates the spread of a <trigger=virus,green>virus</trigger> through a network . Although the model is somewhat abstract, one interpretation is that each node represents a computer , and we are modeling the progress of a computer <color=green>virus</color> (or worm) through this network . Each node may be in one of three states: <trigger=susceptible,blue>susceptible</trigger>, <trigger=infected,red>infected</trigger>, or <trigger=resistant,grey>resistant</trigger>. In the academic literature  such a model is sometimes referred to as an <color=blue>S</color><color=red>I</color><color=grey>R</color> model for <trigger=epidemic>epidemics</trigger>.
 ### Spanish ***
 Este modelo demuestra la propagación de un<trigger=virus,green> virus</trigger> a través de una red  . Aunque el modelo es algo abstracto, una interpretación es que cada nodo representa una computadora  , y estamos modelando el progreso de una computadora<color=green> virus</color> (o gusano) a través de esta red  . Cada nodo puede estar en uno de tres estados:<trigger=susceptible,blue> susceptible</trigger> ,<trigger=infected,red> infectado</trigger> , o<trigger=resistant,grey> resistente</trigger> . En la literatura académica, este modelo a veces se denomina<color=blue> S</color><color=red> I</color><color=grey> R</color> modelo para<trigger=epidemic> epidemias</trigger> .
+
+### Excessive
+This model demonstrates the spread of a <trigger=virus,green>virus</trigger> through a network. Although the model is somewhat abstract, one interpretation is that each node represents a computer, and we are modeling the progress of a computer <color=green>virus</color> (or worm) through this network. Each node may be in one of three states: <trigger= susceptible,blue>susceptible</trigger>, <trigger=infected,red>infected</trigger>, or <trigger=resistant,grey>resistant</trigger>. In the academic literature such a model is sometimes referred to as an SIR model for <trigger=epidemic>epidemics</trigger>.
+### Spanish
+Este modelo demuestra la propagación de un<trigger=virus,green> virus</trigger> a través de una red. Aunque el modelo es algo abstracto, una interpretación es que cada nodo representa una computadora y estamos modelando el progreso de una computadora.<color=green> virus</color> (o gusano) a través de esta red. Cada nodo puede estar en uno de tres estados:<trigger= susceptible,blue> susceptible</trigger> ,<trigger=infected,red> infectado</trigger> , o<trigger=resistant,grey> resistente</trigger> . En la literatura académica, este modelo a veces se denomina modelo SIR para<trigger=epidemic> epidemias</trigger> .
 
 ### Source
 Virus
@@ -369,6 +361,14 @@ Well done! You have completed the Virus on a Network model tutorial! Time to pla
 What happens to nodes that remove the virus?
 ### Spanish ***
 ¿Qué sucede con los nodos que eliminan el virus?
+
+### Excessive
+ Understand how a computer and a biological <trigger=virus,green>virus</trigger> spread
+ Recognize the assumptions/generalizations made by SIR models
+ Examine the factors that change how the <color=green>virus</color> spreads throughout the network 
+ Explore how manipulating these factors affect whether equilibrium or instability is reached over time
+### Spanish
+ Comprender cómo una computadora y una<trigger=virus,green> virus</trigger> untado  Reconocer las suposiciones / generalizaciones hechas por los modelos SIR  Examine los factores que cambian la forma en que<color=green> virus</color> se propaga por la red  Explore cómo la manipulación de estos factores afecta si se alcanza el equilibrio o la inestabilidad con el tiempo
 
 ### Source
  Understand how a computer  and a biological  <trigger=virus,green>virus</trigger> spread

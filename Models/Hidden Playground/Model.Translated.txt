@@ -327,7 +327,7 @@ Yes or no?
  Establecer color
 
 ## Tutorial
-### Source
+### Excessive
 * PLEASE. WAIT. YOU. CURIOUS. ONE. *
 A voice interrupted your move. The mechanical voice. After a second of silence, the voice began to speak much more clearly. Even a bit passionately.
 ### Spanish
@@ -335,24 +335,21 @@ A voice interrupted your move. The mechanical voice. After a second of silence, 
 Una voz interrumpió tu movimiento. La voz mecánica. Después de un segundo de silencio, la voz comenzó a hablar mucho más claramente. Incluso un poco apasionadamente.
 
 ### Source
+* PLEASE. WAIT. YOU. CURIOUS. ONE. *
+A voice interrupts your move. The mechanical voice. After a second of silence, the voice begins to speak much more clearly. Even a bit passionately.
+### Spanish ***
+* POR FAVOR. ESPERE. USTED. CURIOSO. UNO. *
+Una voz interrumpe tu movimiento. La voz mecánica. Después de un segundo de silencio, la voz comienza a hablar mucho más claramente. Incluso un poco apasionadamente.
+
+### Source
 <b>Random </b> in this playground is not totally <i>random</i>! Look at the 400 <color=green>turtles </color> I just created. When I ask each of them to find a <b>random </b> place in the world, they resulted in a rather uniformed pattern. For example, <b>random  2</b> is like coin tossing: it produces roughly as many heads as tails.
 ### Spanish
 <b>¡Aleatorio </b> en este patio de recreo no es totalmente <i>aleatorio</i> ! Mira el 400<color=green> tortugas </color> Yo acabo de crear. Cuando les pido a cada uno de ellos que busquen un <b>lugar aleatorio</b> en el mundo, dieron como resultado un patrón bastante uniformado. Por ejemplo, <b>aleatorio  2</b> es como lanzar una moneda: produce aproximadamente tantas caras como cruces.
 
 ### Source
-A microworld for modeling people!
-### Spanish
-¡Un micromundo para modelar personas!
-
-### Source
 A microworld is a tiny world for you to explore endless possibilities. Like what is before you, it is designed to reflect a phenomenon in the real world - or, it can be artistic, fun, or whatsoever that pleases you and allows you to play around and build with it. Actually, you are welcome to play with this one before we start!
 ### Spanish
 Un micromundo es un mundo diminuto para que explores un sinfín de posibilidades. Al igual que lo que está ante usted, está diseñado para reflejar un fenómeno en el mundo real, o puede ser artístico, divertido o lo que sea que le agrade y le permita jugar y construir con él. De hecho, ¡puedes jugar con este antes de empezar!
-
-### Source
-A science microworld!
-### Spanish
-¡Un micromundo científico!
 
 ### Source
 Actually, you have two ways to do that! I have highlighted them for you. <b>Set Heading</b> allows you to give a heading to a turtle, while <b>Set Heading With Time</b> will assign one according to passed <trigger=Glossary-Tick>ticks </trigger>.
@@ -365,6 +362,11 @@ Ah, people! One of the most fascinating species I have seen in this universe. I 
 ¡Ah, gente! Una de las especies más fascinantes que he visto en este universo. Fui construido hace demasiado tiempo y perdí la mayoría de mis recuerdos. El único micromundo que puedo recordar es uno para modelar cómo se forman los caminantes.<color=purple> caminos</color> , que puedo ayudarte a construir. O puede comenzar un modelo en su mente y haré todo lo posible para ayudarlo. ¿Cual preferirías?
 
 ### Source
+All of a sudden, a veil is raised, and a microworld appears before you. It runs continuously before your eyes, like a perpetual clockwork mechanism. You curiously gazes at it, trying to recognize any patterns you are familiar with.
+### Spanish ***
+De repente, se levanta un velo y aparece un micromundo ante ti. Corre continuamente ante sus ojos, como un mecanismo de relojería perpetuo. Lo miras con curiosidad, tratando de reconocer cualquier patrón con el que estés familiarizado.
+
+### Excessive
 All of a sudden, a veil was raised, and a microworld appeared before you. It ran continuously before your eyes, like a perpetual clockwork mechanism. You curiously gazed at it, trying to recognize any patterns you are familiar with.
 ### Spanish
 De repente, se levantó un velo y un micromundo apareció ante ti. Corría continuamente ante tus ojos, como un perpetuo mecanismo de relojería. Lo miró con curiosidad, tratando de reconocer cualquier patrón con el que esté familiarizado.
@@ -378,11 +380,6 @@ Alright, I will try it out!
 An agent is an individual in a microworld. There are three different types of agents here: <trigger=Glossary-Turtle,green>turtles </trigger>,  <trigger=Glossary-Patch,brown>patches </trigger>, and <trigger=Glossary-Link>links </trigger>. Each of them work in different ways, but they do have a lot of similarities. For example, you can <help=observer>ask</help> them to do their duties.
 ### Spanish
 Un agente es un individuo en un micromundo. Aquí hay tres tipos diferentes de agentes:<trigger=Glossary-Turtle,green> tortugas </trigger> ,<trigger=Glossary-Patch,brown> parches </trigger> , y<trigger=Glossary-Link> enlaces </trigger> . Cada uno de ellos funciona de diferentes maneras, pero tienen muchas similitudes. Por ejemplo, puedes<help=observer> pedir</help> ellos para hacer sus deberes.
-
-### Source
-An intriguing idea, Sunflower!
-### Spanish
-¡Una idea fascinante, Sunflower!
 
 ### Source
 As a starting point, this template only does one thing: when the microworld is playing, for each <trigger=Glossary-Tick>tick </trigger> of time, we create one <color=green>turtle </color> and ask all <color=green>turtles </color> to move forward. Now, let's guess: what will happen when we start to play it?
@@ -455,119 +452,9 @@ Both <trigger=Glossary-Turtle,green>turtles </trigger> and <trigger=Glossary-
 Ambos<trigger=Glossary-Turtle,green> tortugas </trigger> y<trigger=Glossary-Patch,brown> parches </trigger> son agentes. Juntos con<trigger=Glossary-Link> enlaces </trigger> , los agentes representan a los individuos que viven en los micromundos. Por ejemplo, acabo de crear 400<color=green> tortugas </color> en el centro del mundo.
 
 ### Source
-But I changed my mind...
-### Spanish
-Pero cambié de opinión ...
-
-### Source
-But... Why is it happening like this?
-### Spanish
-Pero ... ¿Por qué está pasando así?
-
-### Source
-Can I ask a turtle to leave a signal in the world?
-### Spanish
-¿Puedo pedirle a una tortuga que deje una señal en el mundo?
-
-### Source
-Can I ask another question?
-### Spanish
-¿Puedo hacer otra pregunta?
-
-### Source
-Can I ask some more questions?
-### Spanish
-¿Puedo hacer algunas preguntas más?
-
-### Source
-Can I ask turtles to leave trails?
-### Spanish
-¿Puedo pedirle a las tortugas que dejen rastros?
-
-### Source
-Can I change the shape of a turtle?
-### Spanish
-¿Puedo cambiar la forma de una tortuga?
-
-### Source
-Can I change the size and color of a turtle?
-### Spanish
-¿Puedo cambiar el tamaño y el color de una tortuga?
-
-### Source
-Can I go back and create another microworld?
-### Spanish
-¿Puedo volver atrás y crear otro micromundo?
-
-### Source
-Can I just watch one turtle move?
-### Spanish
-¿Puedo ver cómo se mueve una tortuga?
-
-### Source
-Can I make a turtle, or slime cell, to reproduce?
-### Spanish
-¿Puedo hacer una tortuga o una célula de baba para reproducirse?
-
-### Source
-Can I make turtles animate?
-### Spanish
-¿Puedo hacer que las tortugas se animen?
-
-### Source
-Can I paint something else with agents?
-### Spanish
-¿Puedo pintar algo más con los agentes?
-
-### Source
-Can I play with the background of the microworld?
-### Spanish
-¿Puedo jugar con el fondo del micromundo?
-
-### Source
-Can I see other options again?
-### Spanish
-¿Puedo ver otras opciones de nuevo?
-
-### Source
-Can I see some other options again?
-### Spanish
-¿Puedo volver a ver otras opciones?
-
-### Source
-Can I set the heading of a turtle instead of turning it?
-### Spanish
-¿Puedo establecer el rumbo de una tortuga en lugar de girarla?
-
-### Source
-Can I set the position of the turtle around instead of walking it?
-### Spanish
-¿Puedo establecer la posición de la tortuga en lugar de caminar?
-
-### Source
 Can we ask them to do something?
 ### Spanish
 ¿Podemos pedirles que hagan algo?
-
-### Source
-Can we start the journey now?
-### Spanish
-¿Podemos empezar el viaje ahora?
-
-### Source
-Can you show me some more tools?
-### Spanish
-¿Puedes mostrarme algunas herramientas más?
-
-### Source
-Can you tell me something about a block?
-### Spanish
-¿Puedes decirme algo sobre un bloque?
-
-### Source
-Can you tell me: how to create such a microworld?
-### Spanish ***
-¿Puedes decirme cómo crear un micromundo así?
 
 ### Source
 Congratulations! You have made the first step in making rules for this microworld. Click the "restart" button to apply the rules in the "Setup" section.
@@ -597,54 +484,9 @@ Did your <trigger=Glossary-Turtle,green>turtles </trigger> start leaving sign
 Tu<trigger=Glossary-Turtle,green> tortugas </trigger> empezar a dejar señales? Cada<color=green> tortuga </color> Todavía necesito detectar una señal y avanzar hacia ella. He marcado algunos bloques para que lo consigas, y creo en tu capacidad para encontrar cada uno<color=green> tortuga </color> una casa acogedora!
 
 ### Source
-Do you have any suggestion for me?
-### Spanish
-¿Tienes alguna sugerencia para mí?
-
-### Source
-Do you have blocks for asking a turtle to leave a trail?
-### Spanish
-¿Tienes bloques para pedirle a una tortuga que deje un rastro?
-
-### Source
-Do you have some blocks for changing size and color of a turtle?
-### Spanish
-¿Tienes algunos bloques para cambiar el tamaño y el color de una tortuga?
-
-### Source
 Emergence! Although that is the central concept of our microworlds, I want you to <b>touch</b> and <b>sense</b> it in my playground, instead of telling you some complicated terms. Create your microworld, and see how patterns <b>emerge</b> from individual <trigger=Glossary-Agent>agents</trigger>!
 ### Spanish
 ¡Aparición! Aunque ese es el concepto central de nuestros micromundos, quiero que lo <b>toques</b> y lo <b>sientas</b> en mi patio de recreo, en lugar de decirte algunos términos complicados. Crea tu micromundo y observa cómo <b>surgen los</b> patrones de los<trigger=Glossary-Agent> agentes</trigger> !
-
-### Source
-Enlighten me please?
-### Spanish
-Iluminame por favor
-
-### Source
-Explore.
-### Spanish
-Explorar.
-
-### Source
-Follow.
-### Spanish
-Seguir.
-
-### Source
-Give me another moment to guess...
-### Spanish
-Dame otro momento para adivinar ...
-
-### Source
-Got it. What else can I do?
-### Spanish
-Entendido. ¿Que más puedo hacer?
-
-### Source
-Grasp a piece to look at.
-### Spanish
-Agarre una pieza para mirar.
 
 ### Source
 Great question! You may notice the <b>If Out of Sight</b> block, which will check if a <trigger=Glossary-Turtle,green>turtle </trigger> is near edges of the world or not. Then, you can ask such a turtle  to <b>die</b>, removing it from the world.
@@ -659,39 +501,9 @@ Aquí está el viaje: ¡construir un micromundo propio! ¿No es genial y emocion
 Por supuesto, siempre estaré ahí para ayudarte.
 
 ### Source
-Hooray!
-### Spanish
-¡Hurra!
-
-### Source
-How can I align a turtle's heading with time?
-### Spanish
-¿Cómo puedo alinear el rumbo de una tortuga con el tiempo?
-
-### Source
-How long have you been here?
-### Spanish
-Cuanto tiempo llevas aqui?
-
-### Source
 Huh. I just found several blocks for you to do that! I would suggest you to ask a turtle to <b>Add Signal</b> first Then, ask all <trigger=Glossary-Patch,brown>patches </trigger> to <b>Colorize With Signal</b>, so that you can see them in the world. After that, please click the question mark on the blocks - there are quite a lot of them!
 ### Spanish
 Eh. ¡Acabo de encontrar varios bloques para que lo hagas! Le sugiero que primero le pida a una tortuga que <b>agregue señal.</b> Luego, pregunte a todos<trigger=Glossary-Patch,brown> parches </trigger> para <b>colorear con señal</b> , para que pueda verlos en el mundo. Después de eso, haga clic en el signo de interrogación en los bloques; ¡hay muchos de ellos!
-
-### Source
-I am happy with what we achieved. Let's move to the next chapter!
-### Spanish
-Estoy feliz con lo que logramos. ¡Pasemos al siguiente capítulo!
-
-### Source
-I am ready to go!
-### Spanish
-¡Estoy listo para irme!
-
-### Source
-I am ready. What is ahead for us?
-### Spanish
-Estoy listo. ¿Qué nos depara el futuro?
 
 ### Source
 I am really proud of you! You have done a great, great job. Now, it is time for you to decide the fate of your microworld. You can <b>save it</b> on your device, or even <b>publish it</b> - to share it will all other Curious Ones!
@@ -699,39 +511,14 @@ I am really proud of you! You have done a great, great job. Now, it is time for 
 ¡Realmente estoy muy orgulloso de ti! Has hecho un gran, gran trabajo. Ahora es el momento de que decidas el destino de tu micromundo. Puedes <b>guardarlo</b> en tu dispositivo, o incluso <b>publicarlo</b> , ¡para compartirlo con todos los demás Curious!
 
 ### Source
-I am satisfied with what I have done. What else can we do?
-### Spanish
-Estoy satisfecho con lo que he hecho. qué más podemos hacer?
-
-### Source
 I am... I am glad to show you this one before we move on to start your microworld. At first glance, you might notice something similar: we create 400 <trigger=Glossary-Turtle,green>turtles </trigger> again, before asking them to move forward 1 step for 40 times.
 ### Spanish
 Estoy ... Me complace mostrarles este antes de continuar para comenzar su micromundo. A primera vista, puede notar algo similar: creamos 400<trigger=Glossary-Turtle,green> tortugas </trigger> nuevamente, antes de pedirles que avancen 1 paso 40 veces.
 
 ### Source
-I have a better idea!
-### Spanish
-¡Tengo una mejor idea!
-
-### Source
 I have a hypothesis. Let's give it a try!
 ### Spanish
 Tengo una hipótesis. ¡Hagamos un intento!
-
-### Source
-I have some other ideas. Just let me try for a while...
-### Spanish
-Tengo otras ideas. Déjame intentarlo un rato ...
-
-### Source
-I just changed my mind. Can I see the other options again?
-### Spanish
-Acabo de cambiar de opinión. ¿Puedo ver las otras opciones de nuevo?
-
-### Source
-I just changed my mind. I would like to create a different microworld.
-### Spanish
-Acabo de cambiar de opinión. Me gustaría crear un micromundo diferente.
 
 ### Source
 I just found the two blocks for you: <b>Start Tracking</b> and <b>Stop Tracking</b>. Use it and the <color=green>turtles </color> will start leaving trails when moving. If you find too many trails are hard to recognize, try to reduce the number of turtles!
@@ -744,11 +531,6 @@ I just marked <b>When Reaching the Goal</b> block for you to know! Then, when a 
 ¡Acabo de marcar <b>el bloque Al alcanzar la meta</b> para que lo sepas! Entonces, cuando un<color=green> tortuga </color> alcanza su objetivo, puede decidir si <b>buscar un objetivo</b> para él o eliminarlo mediante el bloque <b>Die.</b>
 
 ### Source
-I know them quite well. Let's go!
-### Spanish
-Los conozco bastante bien. ¡Vamos!
-
-### Source
 I love what you did! As you have seen, the different rules created by you lead to different phenomena. Even when we apply the same rules to  different <trigger=Glossary-Turtle,green>turtles </trigger>, they may behave differently. What do you think about it?
 ### Spanish
 ¡Amo lo que hiciste! Como has visto, las diferentes reglas creadas por ti conducen a diferentes fenómenos. Incluso cuando aplicamos las mismas reglas a diferentes<trigger=Glossary-Turtle,green> tortugas </trigger> , pueden comportarse de manera diferente. ¿Qué piensa usted al respecto?
@@ -759,47 +541,26 @@ I made my guess. Let's try!
 Hice mi suposición. ¡Intentemos!
 
 ### Source
-I think I learned something. What else can you show me?
-### Spanish
-Creo que aprendí algo. ¿Qué más puedes mostrarme?
-
-### Source
-I think people needs to leave footprints. How to do that?
-### Spanish
-Creo que la gente necesita dejar huellas. ¿Como hacer eso?
-
-### Source
-I want to go back to the microworld and think a bit more...
-### Spanish
-Quiero volver al micromundo y pensar un poco más ...
-
-### Source
-I want to start a science model of my choice!
-### Spanish
-¡Quiero comenzar con un modelo científico de mi elección!
-
-### Source
-I would like to create some artwork!
-### Spanish
-¡Me gustaría crear una obra de arte!
-
-### Source
 I would suggest you to restart the microworld for a couple of times to see how the turtles move differently! What will happen, then, when there are lots of turtles following the same command?
 ### Spanish
 ¡Te sugiero que reinicies el micromundo un par de veces para ver cómo las tortugas se mueven de manera diferente! ¿Qué pasará, entonces, cuando haya muchas tortugas siguiendo el mismo comando?
 
-### Source
-I'd try to sort it out first. Let's go!
-### Spanish
-Primero trataría de solucionarlo. ¡Vamos!
-
-### Source
+### Excessive
 In jet black darkness, a beam of light captured your eyes. Before you had a chance to examine it, a <color=brown>mechanical voice </color> began to speak. 
 * Welcome. To. The. Hidden. Playground. Of. Turtle. Universe. *
 * To. Enter. It. You. Need. To. Describe. It. Token. Please. *
 ### Spanish
 En la oscuridad negra azabache, un rayo de luz capturó tus ojos. Antes de que tuviera la oportunidad de examinarlo, un<color=brown> voz mecánica </color> comenzó a hablar.
 * Bienvenida. A. Los. Oculto. Patio de recreo. De. Tortuga. Universo. *
+* A. Ingresar. Eso. Tú. Necesitar. A. Describir. Eso. Simbólico. Por favor. *
+
+### Source
+In jet black darkness, a beam of light captures your eyes. Before you have a chance to examine it, a <color=brown>mechanical voice </color> begin to speak. 
+* Welcome. To. The. Hidden. Playground. Of. Turtle. Universe. *
+* To. Enter. It. You. Need. To. Describe. It. Token. Please. *
+### Spanish ***
+En la oscuridad negro azabache, un rayo de luz captura sus ojos. Antes de que tenga la oportunidad de examinarlo,<color=brown> voz mecánica </color> empezar a hablar.
+* Bienvenidos. A. La. Oculto. Patio de recreo. De. Tortuga. Universo. *
 * A. Ingresar. Eso. Tú. Necesitar. A. Describir. Eso. Simbólico. Por favor. *
 
 ### Source
@@ -813,29 +574,14 @@ In this microworld, each <trigger=Glossary-Turtle,green>turtle </trigger> rep
 En este micromundo, cada uno<trigger=Glossary-Turtle,green> tortuga </trigger> representa una celda de limo individual. Míralos durante medio minuto. ¿Qué observaste? ¿Puedes diseñar algunas reglas para cada<color=green> tortuga </color> para amontonarse y formar moldes estables? ¡Dime cuando estés listo para empezar!
 
 ### Source
-Is there a way to reproduce (or clone) a turtle?
-### Spanish
-¿Hay alguna forma de reproducir (o clonar) una tortuga?
+It is total silence, but soon you hear a slight sigh. A mechanical sigh. You wonder how this mechanism is capable to produce a sigh, before it asks again: *Token. Please.* It looks like you get another chance to guess. You say:
+### Spanish ***
+Es un silencio total, pero pronto se escucha un leve suspiro. Un suspiro mecánico. Te preguntas cómo este mecanismo es capaz de producir un suspiro, antes de volver a preguntar: * Token. Por favor. * Parece que tienes otra oportunidad de adivinar. Tu dices:
 
-### Source
-It seems that they are agents. What are they doing with our journey?
-### Spanish
-Parece que son agentes. ¿Qué están haciendo con nuestro viaje?
-
-### Source
-It seems that you did lose some tools...
-### Spanish
-Parece que perdiste algunas herramientas ...
-
-### Source
+### Excessive
 It was total silence, but you heard a slight sigh. A mechanical sigh. You wondered how this mechanism was capable to produce a sigh, before it asked again: *Token. Please.* It looked like you get another chance to guess. You said:
 ### Spanish
 Fue un silencio total, pero escuchaste un ligero suspiro. Un suspiro mecánico. Te preguntaste cómo este mecanismo era capaz de producir un suspiro, antes de que volviera a preguntar: * Token. Por favor. * Parece que tienes otra oportunidad de adivinar. Tu dijiste:
-
-### Source
-Let's do the slime molds!
-### Spanish
-¡Hagamos los moldes de limo!
 
 ### Source
 Look at these rules. What will happen when we play the microworld?
@@ -852,15 +598,10 @@ Look at those colorful arrows around the world! Here, we call them <color=green>
 ### Spanish
 ¡Mira esas flechas de colores alrededor del mundo! Aquí los llamamos<color=green> tortugas </color> . Cada tortuga puede tener diferentes formas, tamaños, colores, etc. Cuando estemos creando tu micromundo,<help=observer> pedir</help> ellos para hacer sus deberes. De hecho, podemos<observer=ask turtles [ set shape "turtle" ]> pedir</observer> que parezcan<color=green> tortugas </color> !
 
-### Source
+### Excessive
 Look, I found something!
 ### Spanish
 ¡Mira, encontré algo!
-
-### Source
-Maybe later. Let's move on!
-### Spanish
-Quizas mas tarde. ¡Vamonos!
 
 ### Source
 Maybe we should start with arranging heading of turtles with time.
@@ -878,19 +619,9 @@ Maybe we should start with asking each <trigger=Glossary-Turtle,green>turtle 
 Tal vez deberíamos empezar preguntando a cada uno<trigger=Glossary-Turtle,green> tortuga </trigger> , o caminante, para cambiar una meta o desaparecer al alcanzar la meta. ¡Como desées!
 
 ### Source
-Memorize.
-### Spanish
-Memorizar.
-
-### Source
 Observe it for a while, Curious One. What do you think this pattern originates from? Can you imagine yourself creating an even better microworld? Just tell me when you are ready to go!
 ### Spanish
 Obsérvalo un rato, curioso. ¿De qué crees que se origina este patrón? ¿Te imaginas creando un micromundo aún mejor? ¡Dime cuando estés listo para empezar!
-
-### Source
-Oops, I changed my idea...
-### Spanish
-Vaya, cambié mi idea ...
 
 ### Source
 People are walking across a lawn! In this microworld, each <trigger=Glossary-Turtle,green>turtle </trigger> represents a walker. When each of them walk toward a goal but also follows <color=purple>paths</color> to a degree, <color=purple>paths</color> gradually come into being. Do you think you can create an even better model for this phenomenon? Just tell me when you are ready to go!
@@ -901,11 +632,6 @@ People are walking across a lawn! In this microworld, each <trigger=Glossary-Tur
 Please try the <b>Set Heading With Time</b> block. It will tell the <trigger=Glossary-Turtle,green>turtle </trigger> to set its heading according to time. For each time <trigger=Glossary-Tick>tick </trigger>, the heading will be increased by a portion of rounds. For example, when you set the value to 0.25, it will produce a cross-like pattern.
 ### Spanish
 Pruebe el bloque <b>Establecer rumbo con tiempo</b> . Le dirá al<trigger=Glossary-Turtle,green> tortuga </trigger> para establecer su rumbo según el tiempo. Por cada vez<trigger=Glossary-Tick> tic </trigger> , el título se incrementará en una parte de las rondas. Por ejemplo, cuando establece el valor en 0,25, producirá un patrón en forma de cruz.
-
-### Source
-Repeat.
-### Spanish
-Repetir.
 
 ### Source
 Science! That's one of my favorite topic. However... Sorry, but I was built too many years ago, and most of my memory has been lost. 
@@ -920,24 +646,9 @@ Shoot! You got me. This is not supposed to happen, but lots of my toolboxes did 
 ¡Disparo! Me tienes. Se supone que esto no debe suceder, pero muchas de mis cajas de herramientas se perdieron a lo largo del tiempo. Podría invitarlo a aprender algo de codificación para resolver su problema. Usamos el lenguaje NetLogo, que puede encontrar en la parte inferior derecha de la interfaz principal.
 
 ### Source
-Signals are everywhere! How can I make them disappear?
-### Spanish
-¡Las señales están por todas partes! ¿Cómo puedo hacerlos desaparecer?
-
-### Source
-So, how can I ask a turtle to leave a signal?
-### Spanish
-Entonces, ¿cómo puedo pedirle a una tortuga que deje una señal?
-
-### Source
 So, how could I know if they reach the goal?
 ### Spanish
 Entonces, ¿cómo puedo saber si alcanzan la meta?
-
-### Source
-Some turtles stay at the edge of the world. How can I remove them?
-### Spanish
-Algunas tortugas se quedan en el borde del mundo. ¿Cómo puedo eliminarlos?
 
 ### Source
 Something went wrong?
@@ -957,26 +668,6 @@ Sure! Use <b>Set Shape</b> block to find a proper shape for your <color=green>tu
 ¡Por supuesto! Utilice el <b>bloque Establecer forma</b> para encontrar una forma adecuada para su<color=green> tortugas </color> . ¡E incluso puedes hacer más que eso! Al usar el <b>bloque With Shape</b> , podemos dar diferentes reglas a<color=green> tortugas </color> con diferentes formas. Por ejemplo, puede pedirle a los lobos que coman ovejas, ¡pero no al revés!
 
 ### Source
-Thank you for reminding me!
-### Spanish
-¡Gracias por recordarme!
-
-### Source
-Thank you for your answer!
-### Spanish
-¡Gracias por su respuesta!
-
-### Source
-Thank you. Let's get back to work!
-### Spanish
-Gracias. ¡Volvamos al trabajo!
-
-### Source
-Thanks. I would like to try it first!
-### Spanish
-Gracias. ¡Me gustaría probarlo primero!
-
-### Source
 That's really exciting! Whatever idea do you have in mind, I will do my best to help. Are you ready to move forward?
 ### Spanish
 ¡Eso es realmente emocionante! Sea cual sea la idea que tengas en mente, haré todo lo posible para ayudarte. ¿Estás listo para seguir adelante?
@@ -986,7 +677,7 @@ The Curious Ones? You are one of them! At least, I myself believe so... You must
 ### Spanish
 ¿Los curiosos? ¡Tú eres uno de ellos! Al menos, yo mismo lo creo ... Debes tener la curiosidad suficiente para entrar aquí. Talentoso, por decirlo con modestia. Y lo más importante, estoy diseñado para servirle.
 
-### Source
+### Excessive
 The voice seemed to capture what you are thinking. It spoke again, but this time, it only gave you several words. You instantly realized that they were the choices.
 * FOLLOW. EXPLORE. REPEAT. MEMORIZE. *
 ### Spanish
@@ -994,9 +685,21 @@ La voz pareció captar lo que estás pensando. Habló de nuevo, pero esta vez so
 * SEGUIR. EXPLORAR. REPETIR. MEMORIZAR. *
 
 ### Source
+The voice seems to capture what you are thinking. It speaks again, but this time, it only gives you several words. You instantly realize that they are the choices.
+* FOLLOW. EXPLORE. REPEAT. MEMORIZE. *
+### Spanish ***
+La voz parece captar lo que estás pensando. Habla de nuevo, pero esta vez, solo te da varias palabras. Al instante te das cuenta de que son las opciones.
+* SEGUIR. EXPLORAR. REPETIR. MEMORIZAR. *
+
+### Excessive
 The voice sounded friendly. A playground, you thought. Words flashed through your memory, while the voice patiently waited for your answer. *Token. Please.* You were ready to make up your mind. You said:
 ### Spanish
 La voz sonaba amigable. Un patio de recreo, pensaste. Las palabras pasaron por tu memoria, mientras la voz esperaba pacientemente tu respuesta. *Simbólico. Por favor. * Estabas listo para tomar una decisión. Tu dijiste:
+
+### Source
+The voice sounds friendly. A playground, you think. Words flash through your memory, while the voice patiently waits for your answer. *Token. Please.* You are ready to make up your mind. You say:
+### Spanish ***
+La voz suena amigable. Un patio de recreo, piensas. Las palabras pasan por tu memoria, mientras la voz espera pacientemente tu respuesta. *Simbólico. Por favor. * Estás listo para tomar una decisión. Tu dices:
 
 ### Source
 There are so many delicate patterns that could be created from little <trigger=Glossary-Turtle,green>turtles </trigger>! My memories may decline a lot, but I still remember one  microworld that produces patterns of sunflowers. Or, you can start a model on your mind, and I will do whatever I can to support you. Which do you prefer?
@@ -1022,16 +725,6 @@ There is always a block for you! The <b>Reproduce</b> block will help a <color=g
 There is always a tool in this playground - unless I cannot find it. Well, if that is the case...
 ### Spanish
 Siempre hay una herramienta en este patio de recreo, a menos que no pueda encontrarla. Bueno, si ese es el caso ...
-
-### Source
-There is still no path forming. Why?
-### Spanish
-Todavía no se está formando ningún camino. ¿Por qué?
-
-### Source
-There must be a way to enter. I just need to guess.
-### Spanish
-Debe haber una forma de entrar. Solo necesito adivinar.
 
 ### Source
 They both contains the rule blocks for the microworld to work! The rule blocks in "Setup" will be applied when you <b>restart</b> the microworld. When the microworld is not paused, each <trigger=Glossary-Tick>tick </trigger> of time, the rule blocks in the "Go" block will be applied for once.
@@ -1068,40 +761,10 @@ Try to ask turtles move forward random steps. What will happen?
 ### Spanish
 Trate de pedirle a las tortugas que avancen pasos aleatorios. ¿Lo que sucederá?
 
-### Source
-Try to touch the microworld.
-### Spanish
-Intenta tocar el micromundo.
-
-### Source
-Turtles still wander around. What should I do?
-### Spanish
-Las tortugas todavía deambulan. ¿Qué tengo que hacer?
-
-### Source
-Wait! I want to stay here for another minute.
-### Spanish
-¡Esperar! Quiero quedarme aquí un minuto más.
-
-### Source
+### Excessive
 Wait, I think I have some more questions...
 ### Spanish
 Espera, creo que tengo algunas preguntas más ...
-
-### Source
-Wait, I want to try it for another minute.
-### Spanish
-Espera, quiero intentarlo un minuto más.
-
-### Source
-Wait… What is the journey?
-### Spanish
-Espera ... ¿Cuál es el viaje?
-
-### Source
-Walkers! As long as they are not... Say, white walkers?
-### Spanish
-¡Caminantes! Mientras no lo sean ... Dime, ¿caminantes blancos?
 
 ### Source
 Welcome to the Hidden Playground of Turtle Universe.
@@ -1128,31 +791,6 @@ Well, do I really need to learn some coding?
 Bueno, ¿realmente necesito aprender algo de codificación?
 
 ### Source
-Well, I do have some other questions for you...
-### Spanish
-Bueno, tengo otras preguntas para ti ...
-
-### Source
-Well, I do have some questions for you...
-### Spanish
-Bueno, tengo algunas preguntas para ti ...
-
-### Source
-Well, I have some other questions for you...
-### Spanish
-Bueno, tengo algunas otras preguntas para ti ...
-
-### Source
-Well, I have some questions for you...
-### Spanish
-Bueno, tengo algunas preguntas para ti ...
-
-### Source
-Well, I just changed my mind...
-### Spanish
-Bueno, acabo de cambiar de opinión ...
-
-### Source
 Well, if you insist...
 ### Spanish
 Bueno si insistes...
@@ -1171,21 +809,6 @@ What are those grey lines between <color=green>turtles </color>? They are lin
 What do you want to know, Curious One?
 ### Spanish
 ¿Qué quieres saber, curioso?
-
-### Source
-What is a microworld?
-### Spanish
-¿Qué es un micromundo?
-
-### Source
-What? Token? I've never heard of it.
-### Spanish
-¿Qué? ¿Simbólico? Nunca antes lo había escuchado.
-
-### Source
-What's the meaning of "Setup" and "Go"?
-### Spanish
-¿Cuál es el significado de &quot;Configuración&quot; y &quot;Ir&quot;?
 
 ### Source
 When applied, this rule block will <trigger=Glossary-Random>roll a dice </trigger> to decide whether to apply the rules you placed within this block. The chance of success is specified by you. This block is achieved by <help=observer>if</help> and <help=observer>random-float</help> primitives of NetLogo.
@@ -1383,19 +1006,9 @@ When you apply this block to a turtle, this rule block will check whether it is 
 Cuando aplica este bloque a una tortuga, este bloque de reglas verificará si está cerca del borde del mundo. Si es así, este bloque aplicará el primer conjunto de reglas a la tortuga. De lo contrario, aplicará el segundo conjunto. Cualquiera de los conjuntos de reglas puede estar vacío. Este bloque se logra mediante<help=observer> si no</help> ,<help=observer> distanciaxy</help> , y<help=observer> max-pxcor</help> primitivas de NetLogo.
 
 ### Source
-Who are the Curious Ones?
-### Spanish
-¿Quiénes son los curiosos?
-
-### Source
 Wonderful! You have made the first step toward creating your microworld. Shall we move on to the next challenge? We can also stay here to explore more possibilities. Remember, you can call me any time with the "Help" button. Moreover, you are welcome to explore more about each block!
 ### Spanish
 ¡Maravilloso! Has dado el primer paso hacia la creación de tu micromundo. ¿Pasamos al próximo desafío? También podemos quedarnos aquí para explorar más posibilidades. Recuerde, puede llamarme en cualquier momento con el botón &quot;Ayuda&quot;. Además, ¡puedes explorar más sobre cada bloque!
-
-### Source
-Would you mind saying it again: what is our goal now?
-### Spanish
-¿Te importaría repetirlo: cuál es nuestro objetivo ahora?
 
 ### Source
 Yes, and we have multiple rule blocks for you to do that! I have highlighted the related blocks, such as <b>Set Color</b> or <b>Set Size</b> for you. When you find them, you can also click on the question mark to learn more about them.
@@ -1408,24 +1021,9 @@ Yes, definitely! Actually, background is composed of lots of smaller <trigger=Gl
 ¡Sí definitivamente! En realidad, el fondo se compone de muchos<trigger=Glossary-Patch,brown> parches </trigger> . Similar a lo que haces con<color=green> tortugas </color> , podemos pedirles que hagan muchas cosas, tal vez excepto mudarse.
 
 ### Source
-Yes, I think I can imagine that. Then what?
-### Spanish
-Sí, creo que puedo imaginarlo. ¿Y que?
-
-### Source
-Yes, let's move on!
-### Spanish
-¡Sí, sigamos adelante!
-
-### Source
 Yes, sure! You are the rule maker for all agents - including <trigger=Glossary-Turtle,green>turtles </trigger> - , and they will obey your rules. Now, let's click the "edit" button in the blocks panel to start.
 ### Spanish
 ¡Si seguro! Eres el creador de reglas para todos los agentes, incluido<trigger=Glossary-Turtle,green> tortugas </trigger> -, y obedecerán tus reglas. Ahora, hagamos clic en el botón &quot;editar&quot; en el panel de bloques para comenzar.
-
-### Source
-Yes. Let's go!
-### Spanish
-Si. ¡Vamos!
 
 ### Source
 Yes. We can always <b>Teleport</b> a <color=green>turtle </color>! In most microworlds, (0, 0) is the center of the world, (1, 1) is to the top-right, and (-1, -1) is to the bottom-left. We can also <b>Teleport Randomly</b> to send a <color=green>turtle </color> to a <trigger=Glossary-Random>random </trigger> place in the world.
@@ -1452,7 +1050,7 @@ You might already formed some assumptions about why <trigger=Glossary-Turtle,gre
 ### Spanish
 Es posible que ya se haya formado algunas suposiciones sobre por qué<trigger=Glossary-Turtle,green> tortugas </trigger> formar tales patrones. ¡Sigamos soldando! Como creador de reglas, siempre puede encontrar una forma o dos de manipularlas y resolverlas. ¿Qué tienes en mente, curioso?
 
-### Source
+### Excessive
 You turned around to find someone.
 ### Spanish
 Te diste la vuelta para encontrar a alguien.
@@ -1603,6 +1201,246 @@ Your current progress will lose (unless you choose this goal again)!
  Cuando las tortugas aquí
 
 ### Source
+ But I changed my mind...
+### Spanish
+ Pero cambié de opinión ...
+
+### Source
+ Can I ask some more questions?
+### Spanish
+ ¿Puedo hacer algunas preguntas más?
+
+### Source
+ Can I go back and create another microworld?
+### Spanish
+ ¿Puedo volver atrás y crear otro micromundo?
+
+### Source
+ Can I see other options again?
+### Spanish
+ ¿Puedo ver otras opciones de nuevo?
+
+### Source
+ Can I see some other options again?
+### Spanish
+ ¿Puedo volver a ver otras opciones?
+
+### Source
+ I just changed my mind. Can I see the other options again?
+### Spanish
+ Acabo de cambiar de opinión. ¿Puedo ver las otras opciones de nuevo?
+
+### Source
+ I just changed my mind. I would like to create a different microworld.
+### Spanish
+ Acabo de cambiar de opinión. Me gustaría crear un micromundo diferente.
+
+### Source
+ I want to go back to the microworld and think a bit more...
+### Spanish
+ Quiero volver al micromundo y pensar un poco más ...
+
+### Source
+ Oops, I changed my idea...
+### Spanish
+ Vaya, cambié mi idea ...
+
+### Source
+ Thank you for reminding me!
+### Spanish
+ ¡Gracias por recordarme!
+
+### Source
+ Thank you for your answer!
+### Spanish
+ ¡Gracias por su respuesta!
+
+### Source
+ Thank you. Let's get back to work!
+### Spanish
+ Gracias. ¡Volvamos al trabajo!
+
+### Source
+ Wait! I want to stay here for another minute.
+### Spanish
+ ¡Esperar! Quiero quedarme aquí un minuto más.
+
+### Source
+ Wait, I think I still have some more questions...
+### Spanish ***
+ Espera, creo que todavía tengo algunas preguntas más ...
+
+### Source
+ Wait, I want to try it for another minute.
+### Spanish
+ Espera, quiero intentarlo un minuto más.
+
+### Source
+ Well, I just changed my mind...
+### Spanish
+ Bueno, acabo de cambiar de opinión ...
+
+### Source
+ A microworld for modeling people!
+### Spanish
+ ¡Un micromundo para modelar personas!
+
+### Source
+ A science microworld!
+### Spanish
+ ¡Un micromundo científico!
+
+### Source
+ Alright, I will try it out!
+### Spanish ***
+ ¡Muy bien, lo probaré!
+
+### Source
+ An intriguing idea, Sunflower!
+### Spanish
+ ¡Una idea fascinante, Sunflower!
+
+### Source
+ Can I paint something else with agents?
+### Spanish
+ ¿Puedo pintar algo más con los agentes?
+
+### Source
+ Can we start the journey now?
+### Spanish
+ ¿Podemos empezar el viaje ahora?
+
+### Source
+ Explore.
+### Spanish
+ Explorar.
+
+### Source
+ Follow.
+### Spanish
+ Seguir.
+
+### Source
+ Got it. What else can I do?
+### Spanish
+ Entendido. ¿Que más puedo hacer?
+
+### Source
+ I am happy with what we achieved. Let's move to the next chapter!
+### Spanish
+ Estoy feliz con lo que logramos. ¡Pasemos al siguiente capítulo!
+
+### Source
+ I am ready to go!
+### Spanish
+ ¡Estoy listo para irme!
+
+### Source
+ I am ready. What is ahead for us?
+### Spanish
+ Estoy listo. ¿Qué nos depara el futuro?
+
+### Source
+ I am satisfied with what I have done. What else can we do?
+### Spanish
+ Estoy satisfecho con lo que he hecho. qué más podemos hacer?
+
+### Source
+ I have a better idea!
+### Spanish
+ ¡Tengo una mejor idea!
+
+### Source
+ I know them quite well. Let's go!
+### Spanish
+ Los conozco bastante bien. ¡Vamos!
+
+### Source
+ I think I learned something. What else can you show me?
+### Spanish
+ Creo que aprendí algo. ¿Qué más puedes mostrarme?
+
+### Source
+ I want to start a science model of my choice!
+### Spanish
+ ¡Quiero comenzar con un modelo científico de mi elección!
+
+### Source
+ I would like to create some artwork!
+### Spanish
+ ¡Me gustaría crear una obra de arte!
+
+### Source
+ I'd try to sort it out first. Let's go!
+### Spanish
+ Primero trataría de solucionarlo. ¡Vamos!
+
+### Source
+ Let's do the slime molds!
+### Spanish
+ ¡Hagamos los moldes de limo!
+
+### Source
+ Maybe later. Let's move on!
+### Spanish
+ Quizas mas tarde. ¡Vamonos!
+
+### Source
+ Memorize.
+### Spanish
+ Memorizar.
+
+### Source
+ Repeat.
+### Spanish
+ Repetir.
+
+### Source
+ Thank you for reminding me!
+### Spanish ***
+ ¡Gracias por recordármelo!
+
+### Source
+ Thank you for your answer!
+### Spanish ***
+ ¡Gracias por tu respuesta!
+
+### Source
+ Thanks. I would like to try it first!
+### Spanish
+ Gracias. ¡Me gustaría probarlo primero!
+
+### Source
+ There must be a way to enter. I just need to guess.
+### Spanish
+ Debe haber una forma de entrar. Solo necesito adivinar.
+
+### Source
+ Walkers! As long as they are not... Say, white walkers?
+### Spanish
+ ¡Caminantes! Mientras no lo sean ... Dime, ¿caminantes blancos?
+
+### Source
+ What? Token? I've never heard of it.
+### Spanish
+ ¿Qué? ¿Simbólico? Nunca antes lo había escuchado.
+
+### Source
+ Yes, I think I can imagine that. Then what?
+### Spanish
+ Sí, creo que puedo imaginarlo. ¿Y que?
+
+### Source
+ Yes, let's move on!
+### Spanish
+ ¡Sí, sigamos adelante!
+
+### Source
+ Yes. Let's go!
+### Spanish
+ Si. ¡Vamos!
+
+### Source
  Emergence
 ### Spanish
  Emergencia
@@ -1611,6 +1449,31 @@ Your current progress will lose (unless you choose this goal again)!
  Agent
 ### Spanish
  Agente
+
+### Source
+ How long have you been here?
+### Spanish
+ Cuanto tiempo llevas aqui?
+
+### Source
+ It seems that you did lose some tools...
+### Spanish
+ Parece que perdiste algunas herramientas ...
+
+### Source
+ Wait… What is the journey?
+### Spanish
+ Espera ... ¿Cuál es el viaje?
+
+### Source
+ What is a microworld?
+### Spanish
+ ¿Qué es un micromundo?
+
+### Source
+ Who are the Curious Ones?
+### Spanish
+ ¿Quiénes son los curiosos?
 
 ### Source
  Tick
@@ -1661,6 +1524,41 @@ Your current progress will lose (unless you choose this goal again)!
  Repeat
 ### Spanish
  Repetir
+
+### Source
+ Grasp a piece to look at.
+### Spanish
+ Agarre una pieza para mirar.
+
+### Source
+ Look, I find something!
+### Spanish ***
+ ¡Mira, encuentro algo!
+
+### Source
+ Try to touch the microworld.
+### Spanish
+ Intenta tocar el micromundo.
+
+### Source
+ You turn around to find someone.
+### Spanish ***
+ Te das la vuelta para encontrar a alguien.
+
+### Source
+ Hooray!
+### Spanish
+ ¡Hurra!
+
+### Source
+ Give me another moment to guess...
+### Spanish
+ Dame otro momento para adivinar ...
+
+### Source
+ I have some other ideas. Just let me try for a while...
+### Spanish
+ Tengo otras ideas. Déjame intentarlo un rato ...
 
 ### Source
  Link
@@ -1956,6 +1854,171 @@ Your current progress will lose (unless you choose this goal again)!
  Yes, I am glad to help!
 ### Spanish
  ¡Sí, me alegra poder ayudar!
+
+### Source
+ But... Why is it happening like this?
+### Spanish
+ Pero ... ¿Por qué está pasando así?
+
+### Source
+ Can I ask a turtle to leave a signal in the world?
+### Spanish
+ ¿Puedo pedirle a una tortuga que deje una señal en el mundo?
+
+### Source
+ Can I ask another question?
+### Spanish
+ ¿Puedo hacer otra pregunta?
+
+### Source
+ Can I ask turtles to leave trails?
+### Spanish
+ ¿Puedo pedirle a las tortugas que dejen rastros?
+
+### Source
+ Can I change the shape of a turtle?
+### Spanish
+ ¿Puedo cambiar la forma de una tortuga?
+
+### Source
+ Can I change the size and color of a turtle?
+### Spanish
+ ¿Puedo cambiar el tamaño y el color de una tortuga?
+
+### Source
+ Can I just watch one turtle move?
+### Spanish
+ ¿Puedo ver cómo se mueve una tortuga?
+
+### Source
+ Can I make a turtle, or slime cell, to reproduce?
+### Spanish
+ ¿Puedo hacer una tortuga o una célula de baba para reproducirse?
+
+### Source
+ Can I make turtles animate?
+### Spanish
+ ¿Puedo hacer que las tortugas se animen?
+
+### Source
+ Can I play with the background of the microworld?
+### Spanish
+ ¿Puedo jugar con el fondo del micromundo?
+
+### Source
+ Can I set the heading of a turtle instead of turning it?
+### Spanish
+ ¿Puedo establecer el rumbo de una tortuga en lugar de girarla?
+
+### Source
+ Can I set the position of the turtle around instead of walking it?
+### Spanish
+ ¿Puedo establecer la posición de la tortuga en lugar de caminar?
+
+### Source
+ Can you show me some more tools?
+### Spanish
+ ¿Puedes mostrarme algunas herramientas más?
+
+### Source
+ Can you tell me something about a block?
+### Spanish
+ ¿Puedes decirme algo sobre un bloque?
+
+### Source
+ Do you have any suggestion for me?
+### Spanish
+ ¿Tienes alguna sugerencia para mí?
+
+### Source
+ Do you have blocks for asking a turtle to leave a trail?
+### Spanish
+ ¿Tienes bloques para pedirle a una tortuga que deje un rastro?
+
+### Source
+ Do you have some blocks for changing size and color of a turtle?
+### Spanish
+ ¿Tienes algunos bloques para cambiar el tamaño y el color de una tortuga?
+
+### Source
+ Enlighten me please?
+### Spanish
+ Iluminame por favor
+
+### Source
+ How can I align a turtle's heading with time?
+### Spanish
+ ¿Cómo puedo alinear el rumbo de una tortuga con el tiempo?
+
+### Source
+ I think people needs to leave footprints. How to do that?
+### Spanish
+ Creo que la gente necesita dejar huellas. ¿Como hacer eso?
+
+### Source
+ Is there a way to reproduce (or clone) a turtle?
+### Spanish
+ ¿Hay alguna forma de reproducir (o clonar) una tortuga?
+
+### Source
+ It seems that they are agents. What are they doing with our journey?
+### Spanish
+ Parece que son agentes. ¿Qué están haciendo con nuestro viaje?
+
+### Source
+ Signals are everywhere! How can I make them disappear?
+### Spanish
+ ¡Las señales están por todas partes! ¿Cómo puedo hacerlos desaparecer?
+
+### Source
+ So, how can I ask a turtle to leave a signal?
+### Spanish
+ Entonces, ¿cómo puedo pedirle a una tortuga que deje una señal?
+
+### Source
+ Some turtles stay at the edge of the world. How can I remove them?
+### Spanish
+ Algunas tortugas se quedan en el borde del mundo. ¿Cómo puedo eliminarlos?
+
+### Source
+ There is still no path forming. Why?
+### Spanish
+ Todavía no se está formando ningún camino. ¿Por qué?
+
+### Source
+ Turtles still wander around. What should I do?
+### Spanish
+ Las tortugas todavía deambulan. ¿Qué tengo que hacer?
+
+### Source
+ Well, I do have some other questions for you...
+### Spanish
+ Bueno, tengo otras preguntas para ti ...
+
+### Source
+ Well, I do have some questions for you...
+### Spanish
+ Bueno, tengo algunas preguntas para ti ...
+
+### Source
+ Well, I have some other questions for you...
+### Spanish
+ Bueno, tengo algunas otras preguntas para ti ...
+
+### Source
+ Well, I have some questions for you...
+### Spanish
+ Bueno, tengo algunas preguntas para ti ...
+
+### Source
+ What's the meaning of "Setup" and "Go"?
+### Spanish
+ ¿Cuál es el significado de &quot;Configuración&quot; y &quot;Ir&quot;?
+
+### Source
+ Would you mind saying it again: what is our goal now?
+### Spanish
+ ¿Te importaría repetirlo: cuál es nuestro objetivo ahora?
 
 ### Source
  Narrator

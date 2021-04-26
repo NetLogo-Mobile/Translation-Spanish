@@ -1,41 +1,6 @@
 ﻿*** dd6e18b174474625f893e39c0c656e4f
 ## Language = Spanish
 ## Tutorial
-### Excessive
-Experiment with the num-turtles slider. How many turtles are needed to produce a realistic effect? Why doesn't it keep getting better-looking indefinitely as you add more turtles?
-### Spanish
-Experimenta con el control deslizante núm-tortugas. ¿Cuántas tortugas se necesitan para producir un efecto realista? ¿Por qué no sigue mejorando indefinidamente a medida que agrega más tortugas?
-
-### Excessive
-Notice that as the turtles move down (y-coordinate decreases) they become <b>darker</b> in color, and when they move up (y-coordinate increases) they become <color=grey>lighter</color>.
-### Spanish
-Observa que a medida que las tortugas se mueven hacia abajo (la coordenada y disminuye) se vuelven <b>más oscuras</b> en color, y cuando se mueven hacia arriba (la coordenada y aumenta) se vuelven <color=grey>más claras</color>
-
-### Excessive
-The network that is created is based on proximity (Euclidean distance) between nodes. A node is randomly chosen and connected to the nearest node that it is not already connected to. This process is repeated until the network has the correct number of links to give the specified average node degree.
-### Spanish
-La red que se crea se basa en proximidad (distancia Euclidiana) entre nodos. Un nodo se elige al azar y se conecta al nodo más cercano al que aún no está conectado. Este proceso se repite hasta que la red tiene el número correcto de enlaces para dar el grado de nodo promedio especificado.
-
-### Excessive
-The number of turtles that make up the surface
-### Spanish
-La cantidad de tortugas que componen la superficie
-
-### Excessive
-This model maps turtles between <trigger=cartesian-coordinates>Cartesian</trigger> and <trigger=spherical-coordinates>spherical</trigger> 3-dimensional coordinates. To create the appearance of a curved 3D surface, the program generates turtles with random x- and z-coordinates, then computes each turtle's y-coordinate based on x and z, and time. The cosine function is used in the formula to produce a curved surface. Varying the y coordinate based on time produces motion.
-### Spanish
-Este modelo mapa tortugas entre coordenadas 3D <trigger=cartesian-coordinates>Cartesianas</trigger> y <trigger=spherical-coordinates>esféricas</trigger>. Para crear la aparencia de una superficie 3D curvada, el programa genera tortugas con coordenadas x y z aleatorias, luego calcula la coordenada y de cada tortuga en función de x, z, y tiempo. La función coseno se usa en la fórmula para producir una superficie curvada. La variación de la coordenada y en función del tiempo produce movimiento.
-
-### Excessive
-Creation of the Network
-### Spanish
-Creación de la Red
-
-### Excessive
-To render the surface in the NetLogo view, it maps from 3D to 2D coordinates as follows:
-### Spanish
-Para renderizar la superficie en la vista de NetLogo, se asigna de coordenadas 3D a 2D de la siguiente manera:
-
 ### Source
 A coordinate system that specifies a point by a triplet of numerical coordinates, which are the distances to the point from three perpendicularly oriented axes, x, y, and z
 ### Spanish
@@ -71,10 +36,20 @@ Cosine
 ### Spanish ***
 Coseno
 
+### Excessive
+Creation of the Network
+### Spanish
+Creación de la Red
+
 ### Source
 Experiment with the num-turtles slider. How many <color=orange>turtles</color> are needed to produce a realistic effect? Why doesn't it keep getting better-looking indefinitely  as you add more <color=orange>turtles</color>?
 ### Spanish ***
 Experimente con el control deslizante num-turtles. Cuantos<color=orange> tortugas</color> son necesarios para producir un efecto realista? ¿Por qué no sigue mejorando indefinidamente  a medida que agrega más<color=orange> tortugas</color> ?
+
+### Excessive
+Experiment with the num-turtles slider. How many turtles are needed to produce a realistic effect? Why doesn't it keep getting better-looking indefinitely as you add more turtles?
+### Spanish
+Experimenta con el control deslizante núm-tortugas. ¿Cuántas tortugas se necesitan para producir un efecto realista? ¿Por qué no sigue mejorando indefinidamente a medida que agrega más tortugas?
 
 ### Source
 Introduction
@@ -85,6 +60,11 @@ Introducción
 Notice that as the <color=orange>turtles</color> move down (y-coordinate decreases ) they become <b>darker</b> in color , and when they move up (y-coordinate increases ) they become <color=grey>lighter</color>.
 ### Spanish ***
 Note que como el<color=orange> tortugas</color> se mueven hacia abajo (la coordenada y disminuye  ) se vuelven <b>más oscuros</b> en color  , y cuando se mueven hacia arriba (la coordenada y aumenta  ) se vuelven<color=grey> encendedor</color> .
+
+### Excessive
+Notice that as the turtles move down (y-coordinate decreases) they become <b>darker</b> in color, and when they move up (y-coordinate increases) they become <color=grey>lighter</color>.
+### Spanish
+Observa que a medida que las tortugas se mueven hacia abajo (la coordenada y disminuye) se vuelven <b>más oscuras</b> en color, y cuando se mueven hacia arriba (la coordenada y aumenta) se vuelven <color=grey>más claras</color>
 
 ### Source
 number
@@ -106,10 +86,20 @@ Spherical coordinates
 ### Spanish
 Coordenadas Esféricas
 
+### Excessive
+The network that is created is based on proximity (Euclidean distance) between nodes. A node is randomly chosen and connected to the nearest node that it is not already connected to. This process is repeated until the network has the correct number of links to give the specified average node degree.
+### Spanish
+La red que se crea se basa en proximidad (distancia Euclidiana) entre nodos. Un nodo se elige al azar y se conecta al nodo más cercano al que aún no está conectado. Este proceso se repite hasta que la red tiene el número correcto de enlaces para dar el grado de nodo promedio especificado.
+
 ### Source
 The number of <color=orange>turtles</color> that make up the surface
 ### Spanish ***
 El número de<color=orange> tortugas</color> que componen la superficie
+
+### Excessive
+The number of turtles that make up the surface
+### Spanish
+La cantidad de tortugas que componen la superficie
 
 ### Source
 The trigonometric function that is equal to the ratio of the side adjacent to an acute angle  (in a right-angled  triangle) to the hypotenuse
@@ -120,6 +110,16 @@ La función trigonométrica que es igual a la razón del lado adyacente a un án
 This model maps <color=orange>turtles</color> between <trigger=cartesian-coordinates>Cartesian</trigger> and <trigger=spherical-coordinates>spherical</trigger> 3-dimensional coordinates. To create the appearance of a curved 3D surface, the program generates <color=orange>turtles</color> with random x- and z-coordinates, then computes each <color=orange>turtle's</color> y-coordinate based on x and z, and time . The <trigger=cosine>cosine</trigger> function is used in the formula to produce a curved surface. Varying the y coordinate based on time  produces motion.
 ### Spanish ***
 Este modelo mapea<color=orange> tortugas</color> Entre<trigger=cartesian-coordinates> cartesiano</trigger> y<trigger=spherical-coordinates> esférico</trigger> Coordenadas tridimensionales. Para crear la apariencia de una superficie 3D curva, el programa genera<color=orange> tortugas</color> con coordenadas xyz aleatorias, luego calcula cada<color=orange> tortuga</color> Coordenada y basada en x y z, y tiempo  . La<trigger=cosine> coseno</trigger> La función se utiliza en la fórmula para producir una superficie curva. Variar la coordenada y en función del tiempo  produce movimiento.
+
+### Excessive
+This model maps turtles between <trigger=cartesian-coordinates>Cartesian</trigger> and <trigger=spherical-coordinates>spherical</trigger> 3-dimensional coordinates. To create the appearance of a curved 3D surface, the program generates turtles with random x- and z-coordinates, then computes each turtle's y-coordinate based on x and z, and time. The cosine function is used in the formula to produce a curved surface. Varying the y coordinate based on time produces motion.
+### Spanish
+Este modelo mapa tortugas entre coordenadas 3D <trigger=cartesian-coordinates>Cartesianas</trigger> y <trigger=spherical-coordinates>esféricas</trigger>. Para crear la aparencia de una superficie 3D curvada, el programa genera tortugas con coordenadas x y z aleatorias, luego calcula la coordenada y de cada tortuga en función de x, z, y tiempo. La función coseno se usa en la fórmula para producir una superficie curvada. La variación de la coordenada y en función del tiempo produce movimiento.
+
+### Excessive
+To render the surface in the NetLogo view, it maps from 3D to 2D coordinates as follows:
+### Spanish
+Para renderizar la superficie en la vista de NetLogo, se asigna de coordenadas 3D a 2D de la siguiente manera:
 
 ### Source
 To render the surface in the NetLogo view, it maps from 3D to 2D coordinates as follows:
