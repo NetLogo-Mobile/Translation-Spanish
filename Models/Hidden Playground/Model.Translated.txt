@@ -384,7 +384,7 @@ Un agente es un individuo en un micromundo. Aquí hay tres tipos diferentes de a
 ### Source
 As a starting point, this template only does one thing: when the microworld is playing, for each <trigger=Glossary-Tick>tick </trigger> of time, we create one <color=green>turtle </color> and ask all <color=green>turtles </color> to move forward. Now, let's guess: what will happen when we start to play it?
 ### Spanish
-Como punto de partida, esta plantilla solo hace una cosa: cuando se reproduce el micromundo, para cada<trigger=Glossary-Tick> tic </trigger> de tiempo, creamos uno<color=green> tortuga </color> y pregunta a todos<color=green> tortugas </color> avanzar. Ahora, adivinemos: ¿qué pasará cuando comencemos a jugarlo?
+Como punto de partida, esta plantilla solo hace una cosa: cuando se reproduce el micromundo, para cada <trigger=Glossary-Tick>tick </trigger> de tiempo, creamos uno <color=green>tortuga </color> y pregunta a todos <color=green>tortugas </color> avanzar. Ahora, adivinemos: ¿qué pasará cuando comencemos a jugarlo?
 
 ### Source
 As you know, signals in the real world - such as odor, footprints, or sandpiles - fade away with time. How can we recreate this in the microworld? I would suggest you to ask each <trigger=Glossary-Patch,brown>patch </trigger> to <b>Evaporate Signals</b> block! Sometimes, signals like odor may diffuse with time. <b>Diffuse Signals</b> block will help you with that!
