@@ -89,7 +89,7 @@ Mínimo
 ### Source
 Rounds/Tick
 ### Spanish
-Rondas / Tick
+Rondas/Tick
 
 ### Source
 Setup 
@@ -119,12 +119,12 @@ Which shape?
 ### Source
 X (Horizontal)
 ### Spanish
-X (horizontal)
+X (Horizontal)
 
 ### Source
 Y (Vertical)
 ### Spanish
-Y (vertical)
+Y (Vertical)
 
 ### Source
 Yes or no?
@@ -139,12 +139,12 @@ Yes or no?
 ### Source
  Find a Path to Goal
 ### Spanish
- Encuentra un camino hacia la meta
+ Encuentra un Camino Hacia la Meta
 
 ### Source
  Find a Random Goal
 ### Spanish
- Encuentra un objetivo aleatorio
+ Encuentra un Objetivo Aleatorio
 
 ### Source
  Forward
@@ -154,17 +154,17 @@ Yes or no?
 ### Source
  Forward Randomly
 ### Spanish
- Reenviar aleatoriamente
+ Adelante Aleatoriamente
 
 ### Source
  If Out of Sight
 ### Spanish
- Si está fuera de la vista
+ Si Está Fuera de la Vista
 
 ### Source
  Increase Size
 ### Spanish
- Aumentar tamaño
+ Aumentar Tamaño
 
 ### Source
  Reproduce
@@ -179,47 +179,47 @@ Yes or no?
 ### Source
  Right Randomly
 ### Spanish
- Derecha aleatoriamente
+ Derecha Aleatoriamente
 
 ### Source
  Set Color
 ### Spanish
- Establecer color
+ Establecer Color
 
 ### Source
  Set Heading
 ### Spanish
- Establecer rumbo
+ Establecer Rumbo
 
 ### Source
  Set Heading Randomly
 ### Spanish
- Establecer rumbo aleatoriamente
+ Establecer Rumbo Aleatoriamente
 
 ### Source
  Set Heading With Time
 ### Spanish
- Establecer rumbo con tiempo
+ Establecer Rumbo con Tiempo
 
 ### Source
  Set Shape
 ### Spanish
- Establecer forma
+ Establecer Forma
 
 ### Source
  Set Size
 ### Spanish
- Establecer tamaño
+ Establecer Tamaño
 
 ### Source
  Start Tracking
 ### Spanish
- Iniciar seguimiento
+ Iniciar Seguimiento
 
 ### Source
  Stop Tracking
 ### Spanish
- Detener seguimiento
+ Detener Seguimiento
 
 ### Source
  Teleport
@@ -229,82 +229,82 @@ Yes or no?
 ### Source
  Teleport Randomly
 ### Spanish
- Teletransportarse aleatoriamente
+ Teletransportarse Aleatoriamente
 
 ### Source
  Turn to Signal
 ### Spanish
- Gire a la señal
+ Gire a la Señal
 
 ### Source
  Turn to the Goal
 ### Spanish
- Gire a la meta
+ Gire a la Meta
 
 ### Source
  When Moving to Goal
 ### Spanish
- Al pasar a la meta
+ Cuando se Mueve a la Meta
 
 ### Source
  When Reaching the Goal
 ### Spanish
- Al alcanzar la meta
+ Al Llegar a la Meta
 
 ### Source
  With Shape
 ### Spanish
- Con forma
+ Con Forma
 
 ### Source
  Add Signal
 ### Spanish
- Agregar señal
+ Agregar Señal
 
 ### Source
  Evaporate Signal
 ### Spanish
- Señal de evaporación
+ Evaporar la Señal
 
 ### Source
  If Signal More Than
 ### Spanish
- Si la señal supera
+ Si la Señal Supera
 
 ### Source
  When Turtles Here
 ### Spanish
- Cuando las tortugas aquí
+ Cuando las Tortugas Están Aquí
 
 ### Source
  Ask Patches 
 ### Spanish
- Preguntar parches 
+ Preguntar Parches 
 
 ### Source
  Ask Turtles 
 ### Spanish
- Pregúntale a las tortugas 
+ Pregúntale a las Tortugas 
 
 ### Source
  Clear Everything
 ### Spanish
- Borrar todo
+ Borrar Todo
 
 ### Source
  Create Turtles 
 ### Spanish
- Crea tortugas 
+ Crea Tortugas 
 
 ### Source
  Diffuse All Signals
 ### Spanish
- Difundir todas las señales
+ Difundir Todas las Señales
 
 ### Source
  Wrapping the World?
 ### Spanish
- ¿Envolviendo el mundo?
+ ¿Envolviendo el Mundo?
 
 ### Source
  Chance
@@ -319,47 +319,47 @@ Yes or no?
 ### Source
  Colorize with Signal
 ### Spanish
- Colorear con Signal
+ Colorear con Señal
 
 ### Source
  Set Color
 ### Spanish
- Establecer color
+ Establecer Color
 
 ## Tutorial
 ### Excessive
 * PLEASE. WAIT. YOU. CURIOUS. ONE. *
 A voice interrupted your move. The mechanical voice. After a second of silence, the voice began to speak much more clearly. Even a bit passionately.
 ### Spanish
-* POR FAVOR. ESPERE. USTED. CURIOSO. UNO. *
+* POR. FAVOR. ESPERE. CURIOSO. *
 Una voz interrumpió tu movimiento. La voz mecánica. Después de un segundo de silencio, la voz comenzó a hablar mucho más claramente. Incluso un poco apasionadamente.
 
 ### Source
 * PLEASE. WAIT. YOU. CURIOUS. ONE. *
 A voice interrupts your move. The mechanical voice. After a second of silence, the voice begins to speak much more clearly. Even a bit passionately.
 ### Spanish ***
-* POR FAVOR. ESPERE. USTED. CURIOSO. UNO. *
+* POR. FAVOR. ESPERE. CURIOSO. *
 Una voz interrumpe tu movimiento. La voz mecánica. Después de un segundo de silencio, la voz comienza a hablar mucho más claramente. Incluso un poco apasionadamente.
 
 ### Source
 <b>Random </b> in this playground is not totally <i>random</i>! Look at the 400 <color=green>turtles </color> I just created. When I ask each of them to find a <b>random </b> place in the world, they resulted in a rather uniformed pattern. For example, <b>random  2</b> is like coin tossing: it produces roughly as many heads as tails.
 ### Spanish
-<b>¡Aleatorio </b> en este patio de recreo no es totalmente <i>aleatorio</i> ! Mira el 400<color=green> tortugas </color> Yo acabo de crear. Cuando les pido a cada uno de ellos que busquen un <b>lugar aleatorio</b> en el mundo, dieron como resultado un patrón bastante uniformado. Por ejemplo, <b>aleatorio  2</b> es como lanzar una moneda: produce aproximadamente tantas caras como cruces.
+<b>Aleatorio </b> en este campo no es totalmente <i>aleatorio</i>! Mira las 400 <color=green>tortugas </color> yo acabo de crear. Cuando les pido a cada uno de ellos que busquen un lugar <b>aleatorio </b> en el mundo, dieron como resultado un patrón bastante uniformado. Por ejemplo, <b>aleatorio  2</b> es como lanzar una moneda: produce aproximadamente tantas caras como cruces.
 
 ### Source
 A microworld is a tiny world for you to explore endless possibilities. Like what is before you, it is designed to reflect a phenomenon in the real world - or, it can be artistic, fun, or whatsoever that pleases you and allows you to play around and build with it. Actually, you are welcome to play with this one before we start!
 ### Spanish
-Un micromundo es un mundo diminuto para que explores un sinfín de posibilidades. Al igual que lo que está ante usted, está diseñado para reflejar un fenómeno en el mundo real, o puede ser artístico, divertido o lo que sea que le agrade y le permita jugar y construir con él. De hecho, ¡puedes jugar con este antes de empezar!
+Un micromundo es un mundo diminuto para que explores posibilidades infinitas. Al igual que lo que está ante usted, está diseñado para reflejar un fenómeno en el mundo real – o puede ser artístico, divertido o lo que sea que le agrade y le permita jugar y construir con él. De hecho, ¡puedes jugar con este antes de empezar!
 
 ### Source
 Actually, you have two ways to do that! I have highlighted them for you. <b>Set Heading</b> allows you to give a heading to a turtle, while <b>Set Heading With Time</b> will assign one according to passed <trigger=Glossary-Tick>ticks </trigger>.
 ### Spanish
-De hecho, ¡tienes dos formas de hacerlo! Los he destacado para ti. <b>Establecer rumbo le</b> permite dar un rumbo a una tortuga, mientras que <b>Establecer rumbo con tiempo</b> asignará uno de acuerdo con el paso<trigger=Glossary-Tick> garrapatas </trigger> .
+De hecho, ¡tienes dos formas de hacerlo! Los he destacado para ti. <b>Establecer Rumbo</b> le permite dar un rumbo a una tortuga, mientras que <b>Establecer Rumbo con Tiempo</b> asignará uno de acuerdo con el paso <trigger=Glossary-Tick>ticks </trigger> .
 
 ### Source
 Ah, people! One of the most fascinating species I have seen in this universe. I was built too long ago, and lost most of my memories. The only microworld I can remember is one for modeling how walkers form <color=purple>paths</color>, which I am able to help you build. Or, you can start a model on your mind, and I will do whatever I can to support you. Which would you prefer?
 ### Spanish
-¡Ah, gente! Una de las especies más fascinantes que he visto en este universo. Fui construido hace demasiado tiempo y perdí la mayoría de mis recuerdos. El único micromundo que puedo recordar es uno para modelar cómo se forman los caminantes.<color=purple> caminos</color> , que puedo ayudarte a construir. O puede comenzar un modelo en su mente y haré todo lo posible para ayudarlo. ¿Cual preferirías?
+¡Ah, humanos! Una de las especies más fascinantes que he visto en este universo. Fui construido hace demasiado tiempo y perdí la mayoría de mis recuerdos. El único micromundo que puedo recordar es uno para modelar cómo se forman los caminantes <color=purple>caminos</color>, que puedo ayudarte a construir. O puede comenzar un modelo en su mente y haré todo lo posible para ayudarlo. ¿Cual preferirías?
 
 ### Source
 All of a sudden, a veil is raised, and a microworld appears before you. It runs continuously before your eyes, like a perpetual clockwork mechanism. You curiously gazes at it, trying to recognize any patterns you are familiar with.
@@ -369,7 +369,7 @@ De repente, se levanta un velo y aparece un micromundo ante ti. Corre continuame
 ### Excessive
 All of a sudden, a veil was raised, and a microworld appeared before you. It ran continuously before your eyes, like a perpetual clockwork mechanism. You curiously gazed at it, trying to recognize any patterns you are familiar with.
 ### Spanish
-De repente, se levantó un velo y un micromundo apareció ante ti. Corría continuamente ante tus ojos, como un perpetuo mecanismo de relojería. Lo miró con curiosidad, tratando de reconocer cualquier patrón con el que esté familiarizado.
+De repente, se levantó un velo y aparece un micromundo ante ti. Corre continuamente ante tus ojos, como un mecanismo de relojería perpetuo. Lo miras con curiosidad, tratando de reconocer cualquier patrón con el que esté familiarizado.
 
 ### Source
 Alright, I will try it out!
@@ -379,7 +379,7 @@ Alright, I will try it out!
 ### Source
 An agent is an individual in a microworld. There are three different types of agents here: <trigger=Glossary-Turtle,green>turtles </trigger>,  <trigger=Glossary-Patch,brown>patches </trigger>, and <trigger=Glossary-Link>links </trigger>. Each of them work in different ways, but they do have a lot of similarities. For example, you can <help=observer>ask</help> them to do their duties.
 ### Spanish
-Un agente es un individuo en un micromundo. Aquí hay tres tipos diferentes de agentes:<trigger=Glossary-Turtle,green> tortugas </trigger> ,<trigger=Glossary-Patch,brown> parches </trigger> , y<trigger=Glossary-Link> enlaces </trigger> . Cada uno de ellos funciona de diferentes maneras, pero tienen muchas similitudes. Por ejemplo, puedes<help=observer> pedir</help> ellos para hacer sus deberes.
+Un agente es un individuo en un micromundo. Aquí hay tres tipos diferentes de agentes: <trigger=Glossary-Turtle,green> tortugas </trigger>,  <trigger=Glossary-Patch,brown> parches </trigger>, y <trigger=Glossary-Link>enlaces </trigger>. Cada uno de ellos funciona de diferentes maneras, pero tienen muchas similitudes. Por ejemplo, puedes <help=observer>pedir</help> ellos para hacer sus deberes.
 
 ### Source
 As a starting point, this template only does one thing: when the microworld is playing, for each <trigger=Glossary-Tick>tick </trigger> of time, we create one <color=green>turtle </color> and ask all <color=green>turtles </color> to move forward. Now, let's guess: what will happen when we start to play it?
