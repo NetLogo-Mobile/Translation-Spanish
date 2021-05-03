@@ -389,22 +389,22 @@ Como punto de partida, esta plantilla solo hace una cosa: cuando se reproduce el
 ### Source
 As you know, signals in the real world - such as odor, footprints, or sandpiles - fade away with time. How can we recreate this in the microworld? I would suggest you to ask each <trigger=Glossary-Patch,brown>patch </trigger> to <b>Evaporate Signals</b> block! Sometimes, signals like odor may diffuse with time. <b>Diffuse Signals</b> block will help you with that!
 ### Spanish
-Como sabe, las señales del mundo real, como el olor, las huellas o los montones de arena, se desvanecen con el tiempo. ¿Cómo podemos recrear esto en el micromundo? Te sugiero que preguntes a cada uno<trigger=Glossary-Patch,brown> parche </trigger> para <b>evaporar el</b> bloque de señales! A veces, señales como el olor pueden difuminarse con el tiempo. <b>¡El</b> bloque de señales difusas te ayudará con eso!
+Como sabe, las señales del mundo real - como el olor, las huellas o los montones de arena - se desvanecen con el tiempo. ¿Cómo podemos recrear esto en el micromundo? Te sugiero que preguntes a cada uno <trigger=Glossary-Patch,brown>parche </trigger> para <b>Evaporar la Señal</b> bloque! A veces, señales como el olor pueden difuminarse con el tiempo. <b>Difundir las Señales</b> bloque te ayudará con eso!
 
 ### Source
 As you might already know, whenever we create a <trigger=Glossary-Turtle,green>turtle </trigger>, we place it on the center of the world and give it a random heading. For the case of sunflower, we might want to arrange the turtles  in a different way. What do you think, Curious One?
 ### Spanish
-Como ya sabrá, siempre que creamos un<trigger=Glossary-Turtle,green> tortuga </trigger> , lo colocamos en el centro del mundo y le asignamos un título aleatorio. Para el caso del girasol, es posible que queramos organizar las tortugas  de otra manera. ¿Qué opinas, curioso?
+Como ya sabrá, siempre que creamos un <trigger=Glossary-Turtle,green>tortuga </trigger>, lo colocamos en el centro del mundo y le asignamos un rumbo aleatorio. Para el caso del girasol, es posible que queramos organizar las tortugas  de otra manera. ¿Qué opinas, curioso?
 
 ### Source
-As you told me before, we are creating a microworld for modeling people's behavior! When people are walking across a lawn, their footprints usually lead to  <color=purple>paths</color>. In this model, each <trigger=Glossary-Turtle,green>turtle </trigger> represents a walker, and we are working on the rules to make it clever enough to form <color=purple>paths</color>. Do you have any other question, Curious One?
+As you told me before, we are creating a microworld for modeling people's behavior! When people are walking across a lawn, their footprints usually lead to <color=purple>paths</color>. In this model, each <trigger=Glossary-Turtle,green>turtle </trigger> represents a walker, and we are working on the rules to make it clever enough to form <color=purple>paths</color>. Do you have any other question, Curious One?
 ### Spanish
-Como me dijiste antes, ¡estamos creando un micromundo para modelar el comportamiento de las personas! Cuando las personas caminan por el césped, sus pisadas suelen llevar a<color=purple> caminos</color> . En este modelo, cada<trigger=Glossary-Turtle,green> tortuga </trigger> representa un caminante, y estamos trabajando en las reglas para que sea lo suficientemente inteligente como para formar<color=purple> caminos</color> . ¿Tienes alguna otra pregunta, curioso?
+Como me dijiste antes, ¡estamos creando un micromundo para modelar el comportamiento de las personas! Cuando las personas caminan por el césped, sus pisadas suelen llevar a <color=purple>caminos</color>. En este modelo, cada <trigger=Glossary-Turtle,green>tortuga </trigger> representa un caminante, y estamos trabajando en las reglas para que sea lo suficientemente inteligente como para formar <color=purple> caminos</color>. ¿Tienes alguna otra pregunta, curioso?
 
 ### Source
 As you told me before, we are creating a science microworld! In the real world, individual cells may aggregate together to form <color=olive>slime molds</color>. In this model, each <trigger=Glossary-Turtle,green>turtle </trigger> represents a cell, and we are working on the rules to reproduce the formation of <color=olive>slime molds</color>. Do you have any other question, Curious One?
 ### Spanish
-Como me dijiste antes, ¡estamos creando un micromundo científico! En el mundo real, las células individuales pueden agregarse juntas para formar<color=olive> moldes de limo</color> . En este modelo, cada<trigger=Glossary-Turtle,green> tortuga </trigger> representa una célula, y estamos trabajando en las reglas para reproducir la formación de<color=olive> moldes de limo</color> . ¿Tienes alguna otra pregunta, curioso?
+Como me dijiste antes, ¡estamos creando un micromundo científico! En el mundo real, las células individuales pueden agregarse juntas para formar <color=olive>moldes de slime</color>. En este modelo, cada <trigger=Glossary-Turtle,green>tortuga </trigger> representa una célula, y estamos trabajando en las reglas para reproducir la formación de <color=olive> moldes de slime</color>. ¿Tienes alguna otra pregunta, curioso?
 
 ### Source
 As you told me before, we are on the way to create a microworld for modeling people with your brilliant idea. We will set up the world and give each turtle (or person) duties, in order to reproduce our desired phenomenon. Do you have any other question?
@@ -414,7 +414,7 @@ Como me dijiste antes, estamos en camino de crear un micromundo para modelar per
 ### Source
 As you told me before, we are on the way to create a microworld to produce intriguing patterns, such as those of sunflowers. We are creating <trigger=Glossary-Turtle,green>turtles </trigger>, asking each of them to move and animate, and form the pattern we desire. Do you have any other question, Curious One?
 ### Spanish
-Como me dijiste antes, estamos en camino de crear un micromundo para producir patrones intrigantes, como los de los girasoles. Estamos creando<trigger=Glossary-Turtle,green> tortugas </trigger> , pidiendo a cada uno de ellos que se mueva y anime, y forme el patrón que deseamos. ¿Tienes alguna otra pregunta, curioso?
+Como me dijiste antes, estamos en camino de crear un micromundo para producir patrones intrigantes, como los de los girasoles. Estamos creando <trigger=Glossary-Turtle,green>tortugas </trigger>, pidiendo a cada uno de ellos que se mueva y anime, y forme el patrón que deseamos. ¿Tienes alguna otra pregunta, curioso?
 
 ### Source
 As you told me before, we are on the way to create a microworld with the aim to produce exciting arts. We will set up the canvas and create turtles. Each turtle will paint the canvas with its body, or you can ask it to paint with its trail. Do you have any other question?
@@ -424,12 +424,12 @@ Como me dijiste antes, estamos en camino de crear un micromundo con el objetivo 
 ### Source
 As you told me before, we are on the way to create a science microworld with your brilliant idea. We will set up the world and give each turtle (or the individual you are interested in) duties, in order to reproduce our desired phenomenon. Do you have any other question?
 ### Spanish
-Como me dijiste antes, estamos en camino de crear un micromundo científico con tu brillante idea. Configuraremos el mundo y le asignaremos deberes a cada tortuga (o al individuo que le interese) para reproducir nuestro fenómeno deseado. ¿Tienes alguna otra pregunta?
+Como me dijiste antes, estamos en camino de crear un micromundo científico con tu brillante idea. Configuraremos el mundo y le asignaremos deberes a cada tortuga (o al individuo que te interesa) para reproducir nuestro fenómeno deseado. ¿Tienes alguna otra pregunta?
 
 ### Source
 As you told me, I have prepared an empty microworld for you. The first step could be populate the world with some <trigger=Glossary-Turtle,green>turtles </trigger> and give them rules to follow. If you have any questions, or if you want to get more building blocks for your microworld, call me via the "Help" button!
 ### Spanish
-Como me dijiste, te he preparado un micromundo vacío. El primer paso podría ser poblar el mundo con algunos<trigger=Glossary-Turtle,green> tortugas </trigger> y dales reglas a seguir. Si tiene alguna pregunta o si desea obtener más componentes básicos para su micromundo, ¡llámeme a través del botón &quot;Ayuda&quot;!
+Como me dijiste, te he preparado un micromundo vacío. El primer paso podría ser poblar el mundo con algunos <trigger=Glossary-Turtle,green>tortugas </trigger> y dales reglas a seguir. Si tiene alguna pregunta o si desea obtener más componentes básicos para su micromundo, ¡llámame a través del botón "Help"!
 
 ### Source
 Ask the questions in your mind. See how I can do my best to help you!
@@ -439,17 +439,17 @@ Haga las preguntas en su mente. ¡Vea cómo puedo hacer todo lo posible para ayu
 ### Source
 Ask turtles to move forward some steps. What will happen?
 ### Spanish
-Pídale a las tortugas que avancen algunos pasos. ¿Lo que sucederá?
+Pídale a las tortugas que avancen algunos pasos. ¿Qué pasará después?
 
 ### Source
 Before we start, I have some basic microworlds that might help our journey. In the good old days, I used them to demonstrate how phenomena <trigger=Glossary-Emergence>emerges</trigger> from individual <trigger=Glossary-Agent>agents</trigger>. Are you familiar with <trigger=Glossary-Turtle,green>turtles </trigger> and <trigger=Glossary-Patch,brown>patches </trigger>?
 ### Spanish
-Antes de comenzar, tengo algunos micromundos básicos que podrían ayudarnos en nuestro viaje. En los buenos viejos tiempos, los usé para demostrar cómo los fenómenos<trigger=Glossary-Emergence> emerge</trigger> de individuo<trigger=Glossary-Agent> agentes</trigger> . Estás familiarizado con<trigger=Glossary-Turtle,green> tortugas </trigger> y<trigger=Glossary-Patch,brown> parches </trigger> ?
+Antes de comenzar, tengo algunos micromundos básicos que podrían ayudarnos en nuestro viaje. En los buenos viejos tiempos, los usé para demostrar cómo los fenómenos <trigger=Glossary-Emergence>emerges</trigger> de individuo <trigger=Glossary-Agent>agentes</trigger>. Estás familiarizado con <trigger=Glossary-Turtle,green>tortugas </trigger> y <trigger=Glossary-Patch,brown>parches </trigger>?
 
 ### Source
 Both <trigger=Glossary-Turtle,green>turtles </trigger> and <trigger=Glossary-Patch,brown>patches </trigger> are agents. Together with <trigger=Glossary-Link>links </trigger>, agents represent the individuals living in the microworlds. For example, I just created 400 <color=green>turtles </color> in the center of the world.
 ### Spanish
-Ambos<trigger=Glossary-Turtle,green> tortugas </trigger> y<trigger=Glossary-Patch,brown> parches </trigger> son agentes. Juntos con<trigger=Glossary-Link> enlaces </trigger> , los agentes representan a los individuos que viven en los micromundos. Por ejemplo, acabo de crear 400<color=green> tortugas </color> en el centro del mundo.
+Ambos <trigger=Glossary-Turtle,green>tortugas </trigger> y <trigger=Glossary-Patch,brown>parches </trigger> son agentes. Juntos con <trigger=Glossary-Link>enlaces </trigger>, los agentes representan a los individuos que viven en los micromundos. Por ejemplo, acabo de crear 400 <color=green>tortugas </color> en el centro del mundo.
 
 ### Source
 Can we ask them to do something?
@@ -459,24 +459,24 @@ Can we ask them to do something?
 ### Source
 Congratulations! You have made the first step in making rules for this microworld. Click the "restart" button to apply the rules in the "Setup" section.
 ### Spanish
-¡Felicidades! Has dado el primer paso para crear reglas para este micromundo. Haga clic en el botón &quot;reiniciar&quot; para aplicar las reglas en la sección &quot;Configuración&quot;.
+¡Felicidades! Has dado el primer paso para crear reglas para este micromundo. Haga clic en el botón "reiniciar" para aplicar las reglas en la sección "Configuración".
 
 ### Source
 Congratulations!
 You have made the first change to the microworld. If you change anything in the "Setup" block, please restart it to apply!
 ### Spanish
 ¡Felicidades!
-Has realizado el primer cambio en el micromundo. Si cambia algo en el bloque &quot;Configuración&quot;, reinícielo para aplicar.
+Has realizado el primer cambio en el micromundo. Si cambia algo en el bloque "Configuración", reinícielo para aplicar.
 
 ### Source
 Covered in heavy layers of dust, you spotted some tools scattered around the ground, right beside the microworld. You turned around, vaguely figuring out the outline of a room . An ancient room, you wondered, that oddly looks like a laboratory . In the center of the room, the microworld ran before you, indefinitely.
 ### Spanish
-Cubierto de densas capas de polvo, viste algunas herramientas esparcidas por el suelo, justo al lado del micromundo. Te volteaste, vagamente descubriendo el contorno de una habitación  . Una habitación antigua, te preguntabas, que extrañamente parece un laboratorio  . En el centro de la habitación, el micromundo corría ante ti, indefinidamente.
+Cubierto de densas capas de polvo, viste algunas herramientas esparcidas por el suelo, justo al lado del micromundo. Te volteaste, vagamente descubriendo el contorno de una habitación . Una habitación antigua, te preguntabas, que extrañamente parece un laboratorio . En el centro de la habitación, el micromundo corría ante ti, indefinidamente.
 
 ### Source
 Did you start to ask every <color=green>turtle </color> to leave a footprint - or a signal - on the ground? Then we need to ask them follow them. <b>Find a Path to Goal</b> block will do the job, though you still need to figure out a strategy: how far will a turtle try to search for a path? And how deep the footprint should it consider as a path?
 ### Spanish
-¿Empezaste a preguntar cada<color=green> tortuga </color> dejar una huella, o una señal, en el suelo? Entonces tenemos que pedirles que los sigan. <b>El bloque Find a Path to Goal</b> hará el trabajo, aunque aún necesita encontrar una estrategia: ¿hasta dónde intentará una tortuga buscar un camino? ¿Y qué profundidad debe considerar la huella como camino?
+¿Empezaste a preguntar cada <color=green>tortuga </color> a dejar una huella - o una señal - en el suelo? Entonces tenemos que pedirles que los sigan. El bloque <b>Find a Path to Goal</b> hará el trabajo, aunque aún necesita encontrar una estrategia: ¿hasta dónde intentará una tortuga buscar un camino? ¿Y qué profundidad debe considerar la huella como camino?
 
 ### Source
 Did your <trigger=Glossary-Turtle,green>turtles </trigger> start leaving signals? Every <color=green>turtle </color> still need to detect a signal and move toward that. I have marked some blocks for you to achieve that, and I believe in your capability to find each <color=green>turtle </color> a cozy home!
