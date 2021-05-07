@@ -7,7 +7,7 @@
     <String ID="关" Status="0" English="Off">Apagado</String>
     <String ID="返回" Status="0" English="Return">Regresar</String>
     <String ID="后退" Status="0" English="Back">Atrás</String>
-    <String ID="退出" Status="1" English="Quit">Dejar</String>
+    <String ID="退出" Status="0" English="Quit">Salir</String>
     <String ID="下一步" Status="0" English="Next">Siguiente</String>
     <String ID="离开" Status="0" English="Leave">Salir</String>
     <String ID="提交" Status="0" English="Submit">Enviar</String>
@@ -26,23 +26,23 @@
     <String ID="列表" Status="0" English="List">Lista</String>
     <String ID="删除" Status="0" English="Delete">Eliminar</String>
     <String ID="保存" Status="0" English="Save">Guardar</String>
-    <String ID="停止" Status="1" English="Stop">Detener</String>
-    <String ID="全部" Status="1" English="All">Todos</String>
+    <String ID="停止" Status="0" English="Stop">Parar</String>
+    <String ID="全部" Status="0" English="All">Todos</String>
     <String ID="读取" Status="0" English="Load">Cargar</String>
     <String ID="选项" Status="0" English="Options">Opciones</String>
     <String ID="行动" Status="0" English="Actions">Acciones</String>
     <String ID="设置" Status="0" English="Settings">Configuraciones</String>
     <String ID="数据" Status="0" English="Data">Datos</String>
     <String ID="隐藏" Status="0" English="Hide">Esconder</String>
-    <String ID="同意" Status="1" English="Agree">Estar de acuerdo</String>
-    <String ID="不同意" Status="1" English="Disagree">Discrepar</String>
+    <String ID="同意" Status="0" English="Agree">Aceptar</String>
+    <String ID="不同意" Status="0" English="Disagree">Disentir</String>
     <String ID="结束教程" Status="0" English="Exit Tutorial">Salir del Tutorial</String>
     <String ID="跳过教程" Status="0" English="Skip Tutorial">Saltar Tutorial</String>
     <String ID="隐藏教程" Status="0" English="Hide Tutorial">Esconder tutorial</String>
     <String ID="致谢" Status="0" English="Credit">Crédito</String>
     <String ID="致谢和版权" Status="0" English="Credit and Copyright">Créditos y Derechos de Autor</String>
-    <String ID="否则" Status="1" English="otherwise">de otra manera</String>
-    <String ID="清空" Status="1" English="Clear">Claro</String>
+    <String ID="否则" Status="0" English="otherwise">si no</String>
+    <String ID="清空" Status="0" English="Clear">Borrar</String>
   </Shared>
   <Interfaces>
     <String ID="进入应用" Status="0" English="Enter app">Entrar en la aplicación</String>
@@ -115,9 +115,9 @@
     <String ID="请输入存档名称" Status="0" English="Enter the name of this archive">Escribe el nombre de este archivo</String>
     <String ID="请输入元件名称" Status="0" English="Enter the name of this component">Escribe el nombre de este componente</String>
     <String ID="成功保存了您的实验进度！" Status="0" English="Successfully saved your experiment progress!">El progreso de su experimento fue guardado con éxito!</String>
-    <String ID="你的修改还没有被保存。想要先保存实验吗？" Status="1" English="Your changes have not been saved. Do you want to save before leaving?">Tus cambios no se han guardado. ¿Quieres ahorrar antes de irte?</String>
-    <String ID="重新开始" Status="1" English="Start anew">Empezar de nuevo</String>
-    <String ID="您之前保存过这个实验。是否加载存档？" Status="1" English="You saved this experiment before. Do you want to load it?">Guardaste este experimento antes. ¿Quieres cargarlo?</String>
+    <String ID="你的修改还没有被保存。想要先保存实验吗？" Status="0" English="Your changes have not been saved. Do you want to save before leaving?">Tus cambios no se han guardado. ¿Quieres guardar antes de irte?</String>
+    <String ID="重新开始" Status="0" English="Start anew">Empezar de nuevo</String>
+    <String ID="您之前保存过这个实验。是否加载存档？" Status="0" English="You saved this experiment before. Do you want to load it?">Ya has guardado este experiment. ¿Quieres cargarlo?</String>
     <String ID="实验存档读取失败！" Status="0" English="Failed to load the experimental archive!">¡No se pudo cargar el archivo experimental!</String>
     <String ID="实验存档读取成功！" Status="0" English="Successfully loaded your experimental archive!">¡Se pudo cargar tu archivo experimental con éxito!</String>
     <String ID="这将覆盖您之前的实验。" Status="0" English="This will overwrite your previous experiment.">Esto sobrescribirá su experimento anterior.</String>
@@ -178,7 +178,7 @@
     <String ID="待上传的内容不合要求，请重试。" Status="0" English="The content to be uploaded is illegal. Try again.">El contenido que se subirá es ilegal. Inténtalo de nuevo.</String>
     <String ID="抱歉，暂时未能完成上传……" Status="0" English="Sorry, the upload failed for now...">Lo sentimos, la carga ha fallado por ahora ...</String>
     <String ID="成功完成了内容上传！" Status="0" English="Successfully uploaded the content!">¡El contenido fue subido con éxito!</String>
-    <String ID="请在 {0} 分钟后发布新的内容。谢谢你的支持！" Status="1" English="Please post again in {0} minutes. Thanks!">Vuelve a publicar en {0} minutos. ¡Gracias!</String>
+    <String ID="请在 {0} 分钟后发布新的内容。谢谢你的支持！" Status="0" English="Please post again in {0} minutes. Thanks!">Vuelve a publicar en {0} minutos. ¡Gracias!</String>
     <String ID="随机化世界内容？" Status="0" English="Randomize the world?">¿Aleatorizar el mundo?</String>
     <String ID="确定将使每次加载模型时重置 (Setup) 世界！" Status="0" English="Confirm to reset the world every time when loaded!">Confirme para restablecer el mundo cada vez que se cargue.</String>
     <String ID="更新实验状态？" Status="0" English="Update experiment status?">¿Actualizar el estado del experimento?</String>
@@ -195,7 +195,7 @@
     <String ID="请选择下列标签中的一个：{1}。" Status="0" English="Please choose one of tags: {1}.">Por favor elija una de las etiquetas: {1}.</String>
     <String ID="请选择正确的分类。" Status="0" English="Please choose the correct category.">Por favor elija la categoría correcta.</String>
     <String ID="你输入的内容中包含不适宜字句。" Status="0" English="The content you entered contains inappropriate words.">El contenido que escriviste contiene palabras inapropiadas.</String>
-    <String ID="请不要过于频繁地发布内容。" Status="1" English="Please do not post too frequently.">No publiques con demasiada frecuencia.</String>
+    <String ID="请不要过于频繁地发布内容。" Status="0" English="Please do not post too frequently.">No publiques con demasiada frecuencia por favor.</String>
     <String ID="{0}至少需要包含两个元件。" Status="0" English="{0} must contain at least two components.">{0} debe contener al menos dos componentes.</String>
     <String ID="成功发布了您的{0}！" Status="0" English="Successfully published your {0}!">¡Publicó su {0} con exitó!</String>
     <String ID="删除过程中遇到错误。" Status="0" English="An error was encountered during the deletion.">Se encontró un error durante la eliminación.</String>
@@ -204,7 +204,7 @@
     <String ID="是否确定删除内容？除非您留有本地存档，否则将无法找回！" Status="0" English="Do you want to delete the content? Unless you have a local save, you won&amp;#39;t be able to retrieve it!">¿Quieres eliminar el contenido? A menos que tengas un guardado local, ¡no podrás recuperarlo!</String>
     <String ID="是否确定删除回复？" Status="0" English="Are you sure to delete the reply?">¿Estás seguro de eliminar la respuesta?</String>
     <String ID="设为封面" Status="0" English="Set as cover">Establecer como portada</String>
-    <String ID="刷新内容" Status="1" English="Refresh content">Actualizar contenido</String>
+    <String ID="刷新内容" Status="0" English="Refresh content">Actualizar contenido</String>
     <String ID="成功设置为你的封面作品！" Status="0" English="Successfully set as your profile cover!">¡Establecido correctamente como portada de tu perfil!</String>
     <String ID="即将读取的实验版本比您的客户端更新，可能遇到不兼容问题。是否继续？" Status="0" English="The experiment version is newer than your client and may cause incompatibilities. Whether to continue?">La versión del experimento es más reciente que la de su cliente y puede causar incompatibilidades. ¿Continuar?</String>
     <String ID="您需要填写昵称来使用特定功能。" Status="0" English="You need to fill in the nickname to use a specific feature.">Necesitas completar el apodo para usar una función específica.</String>
@@ -260,8 +260,8 @@
     <String ID="您无法在匿名状态下退出登录。" Status="0" English="You cannot log out anonymously.">No puedes cerrar la sesión de forma anónima.</String>
     <String ID="教程完成后才能开始发布实验。" Status="0" English="Once the tutorial is completed, you may publish experiments to the community.">Cuando el tutorial ya ha sido completado, puede publicar experimentos en la comunidad.</String>
     <String ID="可能需要继续或重启实验以应用你的设置。" Status="0" English="You may need to continue or restart the experiment to apply the settings.">Es posible que necesitas continuar o reiniciar el experimento para aplicar la configuración.</String>
-    <String ID="向开发者发送日志" Status="1" English="Send logs to developers">Envíe registros a los desarrolladores</String>
-    <String ID="您是否愿意向开发者发送匿名日志？您的隐私信息将不会被上传。匿名数据将用于学术研究，帮助我们改进您的实验体验。您的选择不会影响使用体验。" Status="1" English="Do you agree to send anonymous logs to developers? Your private information will not be uploaded. Anonymous data will be used for academic research to help us improve your experience. Your choice will not affect your experience.">¿Acepta enviar registros anónimos a los desarrolladores? No se cargará su información privada. Los datos anónimos se utilizarán para la investigación académica para ayudarnos a mejorar su experiencia. Tu elección no afectará tu experiencia.</String>
+    <String ID="向开发者发送日志" Status="0" English="Send logs to developers">Enviar registros a los desarrolladores</String>
+    <String ID="您是否愿意向开发者发送匿名日志？您的隐私信息将不会被上传。匿名数据将用于学术研究，帮助我们改进您的实验体验。您的选择不会影响使用体验。" Status="0" English="Do you agree to send anonymous logs to developers? Your private information will not be uploaded. Anonymous data will be used for academic research to help us improve your experience. Your choice will not affect your experience.">¿Aceptas enviar registros anónimos a los desarrolladores? No se cargará su información privada. Los datos anónimos se usarán para la investigación académica para ayudarnos a mejorar su experiencia. Tu elección no afectará tu experiencia.</String>
   </Messages>
   <Regions>
     <String ID="中文区" Status="0" English="Chinese">Chino</String>
@@ -308,7 +308,7 @@
     <String ID="确定要进行管理操作吗？" Status="0" English="Do you really want to do it?">¿De verdad quieres hacerlo?</String>
     <String ID="是否使用管理权限隐藏内容？只有在违反法律法规或不合适内容时可以这样做！" Status="0" English="Are you going to hide this content? Only when it violates our guidelines!">¿Vas a esconder este contenido? ¡Solo cuando viole nuestras pautas!</String>
     <String ID="是否确认要封禁 {0}？你需要提供合理的理由。" Status="0" English="Do you want to ban {0}? A reason is needed.">¿Quieres prohibir {0}? Se necesita una razón.</String>
-    <String ID="请输入封禁理由" Status="1" English="Reason for the ban">Razón de la prohibición</String>
+    <String ID="请输入封禁理由" Status="0" English="Reason for the ban">Razón para la prohibición</String>
     <String ID="请输入封禁天数 (1-{0})" Status="0" English="The days of ban (1-{0})">Los días de la prohibición (1- {0})</String>
     <String ID="是否确认要解封 {0}？你需要提供合理的理由。" Status="0" English="Do you want to unban {0}? A reason is needed.">¿Quieres desbloquear {0}? Se necesita una razón.</String>
     <String ID="请输入解封理由" Status="0" English="The reason for the unban">El motivo de la desbandada</String>
@@ -317,8 +317,8 @@
     <String ID="移动到{0}" Status="0" English="Move to {0}">Mover a {0}</String>
     <String ID="加入精选" Status="0" English="Add to features">Agregar a funciones</String>
     <String ID="取消精选" Status="0" English="Remove from features">Eliminar de las funciones</String>
-    <String ID="加入知识库" Status="1" English="Add to the knowledge base">Agregar a la base de conocimientos</String>
-    <String ID="移出知识库" Status="1" English="Remove from the knowledge base">Eliminar de la base de conocimientos</String>
+    <String ID="加入知识库" Status="0" English="Add to the knowledge base">Agregar a la base de conocimientos</String>
+    <String ID="移出知识库" Status="0" English="Remove from the knowledge base">Eliminar de la base de conocimientos</String>
   </Hierarchies>
   <AugmentedReality>
     <String ID="您可以拖动陀螺仪来调整视角。" Status="0" English="Drag the gyroscope to adjust the angle of view.">Arrastre el giroscopio para ajustar el ángulo de visión.</String>
@@ -604,7 +604,7 @@
     <String ID="如果您对内容做出了实质性更改，可以改编并发布。是否继续？" Status="0" English="If you make substantial changes to the content, you can remix and publish it. Continue?">Si realiza cambios sustanciales en el contenido, puede mezclarlo y publicarlo. ¿Seguir?</String>
     <String ID="作为模型发布者，您可以编辑模型，也可以改编并发布内容。您的计划是？" Status="0" English="As the model aurthor, you can edit the model, or you can remix and publish a new one. What is your plan?">Como autor del modelo, puede editar el modelo o puede mezclar y publicar uno nuevo. ¿Cual es tu plan?</String>
     <String ID="原作者不允许您改编并发布。您需要重新创作才能发布。" Status="0" English="The original author does not allow you to adapt and publish. You need to re-author to publish.">El autor original no le permite adaptar y publicar. Necesita volver a escribir para publicar.</String>
-    <String ID="你正在发布内容到其它语言的社区，请注意使用对应语言。" Status="1" English="You are publishing in other languages. Please use the corresponding language.">Está publicando en otros idiomas. Utilice el idioma correspondiente.</String>
+    <String ID="你正在发布内容到其它语言的社区，请注意使用对应语言。" Status="0" English="You are publishing in other languages. Please use the corresponding language.">Estás publicando en otros idiomas. Usa el idioma correspondiente.</String>
   </Forums>
   <Editors>
     <String ID="正在显示由 Google 翻译的内容。" Status="0" English="Below is translated by Google.">A continuación fue traducido por Google.</String>
@@ -623,11 +623,11 @@
     <String ID="是否愿意和大家分享你的答案？被点赞将获得奖励！" Status="0" English="Would you like to share your answers? You will get rewards whenever it is liked!">¿Le gustaría compartir sus respuestas? ¡Siempre obtendrás recompensas cuando es gustado!</String>
   </Tutorials>
   <Errors>
-    <String ID="未能找到名为 {0} 的元件。" Status="1" English="Cannot find the component named {0}.">No se puede encontrar el componente llamado {0}.</String>
-    <String ID="未能找到名为 {0} 的元件群组。" Status="1" English="Cannot find the component group named {0}.">No se puede encontrar el grupo de componentes denominado {0}.</String>
-    <String ID="未能找到名为 {0} 的图表。" Status="1" English="Cannot find the chart named {0}.">No se puede encontrar el gráfico llamado {0}.</String>
-    <String ID="未能找到名为 {0} 的界面部件。" Status="1" English="Cannot find the interface part named {0}.">No se puede encontrar la parte de la interfaz denominada {0}.</String>
-    <String ID="未能找到序号为 {0} 的程序。" Status="1" English="Cannot find the program with sequence number {0}.">No se puede encontrar el programa con el número de secuencia {0}.</String>
-    <String ID="未能找到序号为 {0} 的积木容器。" Status="1" English="Cannot find the brick container with serial number {0}.">No se puede encontrar el contenedor de ladrillos con el número de serie {0}.</String>
+    <String ID="未能找到名为 {0} 的元件。" Status="0" English="Cannot find the component named {0}.">No se puede encontrar el componente llamado {0}.</String>
+    <String ID="未能找到名为 {0} 的元件群组。" Status="0" English="Cannot find the component group named {0}.">No se puede encontrar el grupo de componentes llamado {0}.</String>
+    <String ID="未能找到名为 {0} 的图表。" Status="0" English="Cannot find the chart named {0}.">No se puede encontrar el gráfico llamado {0}.</String>
+    <String ID="未能找到名为 {0} 的界面部件。" Status="0" English="Cannot find the interface part named {0}.">No se puede encontrar la parte de la interfaz llamada {0}.</String>
+    <String ID="未能找到序号为 {0} 的程序。" Status="0" English="Cannot find the program with sequence number {0}.">No se puede encontrar el programa con el número de secuencia {0}.</String>
+    <String ID="未能找到序号为 {0} 的积木容器。" Status="0" English="Cannot find the brick container with serial number {0}.">No se puede encontrar el contenedor de ladrillos con el número de serie {0}.</String>
   </Errors>
 </Strings>
