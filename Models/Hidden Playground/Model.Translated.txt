@@ -279,7 +279,7 @@ Yes or no?
 ### Source
  Ask Patches 
 ### Spanish
- Preguntar Parches 
+ Preguntar parcels 
 
 ### Source
  Ask Turtles 
@@ -379,7 +379,7 @@ Alright, I will try it out!
 ### Source
 An agent is an individual in a microworld. There are three different types of agents here: <trigger=Glossary-Turtle,green>turtles </trigger>,  <trigger=Glossary-Patch,brown>patches </trigger>, and <trigger=Glossary-Link>links </trigger>. Each of them work in different ways, but they do have a lot of similarities. For example, you can <help=observer>ask</help> them to do their duties.
 ### Spanish
-Un agente es un individuo en un micromundo. Aquí hay tres tipos diferentes de agentes: <trigger=Glossary-Turtle,green> tortugas </trigger>,  <trigger=Glossary-Patch,brown> parches </trigger>, y <trigger=Glossary-Link>enlaces </trigger>. Cada uno de ellos funciona de diferentes maneras, pero tienen muchas similitudes. Por ejemplo, puedes <help=observer>pedir</help> ellos para hacer sus deberes.
+Un agente es un individuo en un micromundo. Aquí hay tres tipos diferentes de agentes: <trigger=Glossary-Turtle,green> tortugas </trigger>,  <trigger=Glossary-Patch,brown> parcels </trigger>, y <trigger=Glossary-Link>enlaces </trigger>. Cada uno de ellos funciona de diferentes maneras, pero tienen muchas similitudes. Por ejemplo, puedes <help=observer>pedir</help> ellos para hacer sus deberes.
 
 ### Source
 As a starting point, this template only does one thing: when the microworld is playing, for each <trigger=Glossary-Tick>tick </trigger> of time, we create one <color=green>turtle </color> and ask all <color=green>turtles </color> to move forward. Now, let's guess: what will happen when we start to play it?
@@ -389,7 +389,7 @@ Como punto de partida, esta plantilla solo hace una cosa: cuando se reproduce el
 ### Source
 As you know, signals in the real world - such as odor, footprints, or sandpiles - fade away with time. How can we recreate this in the microworld? I would suggest you to ask each <trigger=Glossary-Patch,brown>patch </trigger> to <b>Evaporate Signals</b> block! Sometimes, signals like odor may diffuse with time. <b>Diffuse Signals</b> block will help you with that!
 ### Spanish
-Como sabe, las señales del mundo real - como el olor, las huellas o los montones de arena - se desvanecen con el tiempo. ¿Cómo podemos recrear esto en el micromundo? Te sugiero que preguntes a cada uno <trigger=Glossary-Patch,brown>parche </trigger> para <b>Evaporar la Señal</b> bloque! A veces, señales como el olor pueden difuminarse con el tiempo. <b>Difundir las Señales</b> bloque te ayudará con eso!
+Como sabe, las señales del mundo real - como el olor, las huellas o los montones de arena - se desvanecen con el tiempo. ¿Cómo podemos recrear esto en el micromundo? Te sugiero que preguntes a cada uno <trigger=Glossary-Patch,brown>parcel </trigger> para <b>Evaporar la Señal</b> bloque! A veces, señales como el olor pueden difuminarse con el tiempo. <b>Difundir las Señales</b> bloque te ayudará con eso!
 
 ### Source
 As you might already know, whenever we create a <trigger=Glossary-Turtle,green>turtle </trigger>, we place it on the center of the world and give it a random heading. For the case of sunflower, we might want to arrange the turtles  in a different way. What do you think, Curious One?
@@ -444,12 +444,12 @@ Pídale a las tortugas que avancen algunos pasos. ¿Qué pasará después?
 ### Source
 Before we start, I have some basic microworlds that might help our journey. In the good old days, I used them to demonstrate how phenomena <trigger=Glossary-Emergence>emerges</trigger> from individual <trigger=Glossary-Agent>agents</trigger>. Are you familiar with <trigger=Glossary-Turtle,green>turtles </trigger> and <trigger=Glossary-Patch,brown>patches </trigger>?
 ### Spanish
-Antes de comenzar, tengo algunos micromundos básicos que podrían ayudarnos en nuestro viaje. En los buenos viejos tiempos, los usé para demostrar cómo los fenómenos <trigger=Glossary-Emergence>emerges</trigger> de individuo <trigger=Glossary-Agent>agentes</trigger>. Estás familiarizado con <trigger=Glossary-Turtle,green>tortugas </trigger> y <trigger=Glossary-Patch,brown>parches </trigger>?
+Antes de comenzar, tengo algunos micromundos básicos que podrían ayudarnos en nuestro viaje. En los buenos viejos tiempos, los usé para demostrar cómo los fenómenos <trigger=Glossary-Emergence>emerges</trigger> de individuo <trigger=Glossary-Agent>agentes</trigger>. Estás familiarizado con <trigger=Glossary-Turtle,green>tortugas </trigger> y <trigger=Glossary-Patch,brown>parcels </trigger>?
 
 ### Source
 Both <trigger=Glossary-Turtle,green>turtles </trigger> and <trigger=Glossary-Patch,brown>patches </trigger> are agents. Together with <trigger=Glossary-Link>links </trigger>, agents represent the individuals living in the microworlds. For example, I just created 400 <color=green>turtles </color> in the center of the world.
 ### Spanish
-Ambos <trigger=Glossary-Turtle,green>tortugas </trigger> y <trigger=Glossary-Patch,brown>parches </trigger> son agentes. Juntos con <trigger=Glossary-Link>enlaces </trigger>, los agentes representan a los individuos que viven en los micromundos. Por ejemplo, acabo de crear 400 <color=green>tortugas </color> en el centro del mundo.
+Ambos <trigger=Glossary-Turtle,green>tortugas </trigger> y <trigger=Glossary-Patch,brown>parcels </trigger> son agentes. Juntos con <trigger=Glossary-Link>enlaces </trigger>, los agentes representan a los individuos que viven en los micromundos. Por ejemplo, acabo de crear 400 <color=green>tortugas </color> en el centro del mundo.
 
 ### Source
 Can we ask them to do something?
@@ -481,64 +481,64 @@ Did you start to ask every <color=green>turtle </color> to leave a footprint 
 ### Source
 Did your <trigger=Glossary-Turtle,green>turtles </trigger> start leaving signals? Every <color=green>turtle </color> still need to detect a signal and move toward that. I have marked some blocks for you to achieve that, and I believe in your capability to find each <color=green>turtle </color> a cozy home!
 ### Spanish
-Tu<trigger=Glossary-Turtle,green> tortugas </trigger> empezar a dejar señales? Cada<color=green> tortuga </color> Todavía necesito detectar una señal y avanzar hacia ella. He marcado algunos bloques para que lo consigas, y creo en tu capacidad para encontrar cada uno<color=green> tortuga </color> una casa acogedora!
+Tus <trigger=Glossary-Turtle,green>tortugas </trigger> empezaron a dejar señales? Cada <color=green>tortuga </color> todavía necesita detectar una señal y avanzar hacia ella. ¡He marcado algunos bloques para que lo consigas, y creo en tu capacidad para encontrar cada <color=green>tortuga </color> una casa cómodo!
 
 ### Source
 Emergence! Although that is the central concept of our microworlds, I want you to <b>touch</b> and <b>sense</b> it in my playground, instead of telling you some complicated terms. Create your microworld, and see how patterns <b>emerge</b> from individual <trigger=Glossary-Agent>agents</trigger>!
 ### Spanish
-¡Aparición! Aunque ese es el concepto central de nuestros micromundos, quiero que lo <b>toques</b> y lo <b>sientas</b> en mi patio de recreo, en lugar de decirte algunos términos complicados. Crea tu micromundo y observa cómo <b>surgen los</b> patrones de los<trigger=Glossary-Agent> agentes</trigger> !
+¡Aparición! Aunque ese es el concepto central de nuestros micromundos, quiero que lo <b>toques</b> y lo <b>sientas</b> en mi campo, en lugar de decirte algunos términos complicados. ¡Crea tu micromundo y observa cómo <b>surgen</b> los patrones de los <trigger=Glossary-Agent>agentes</trigger> individuales!
 
 ### Source
 Great question! You may notice the <b>If Out of Sight</b> block, which will check if a <trigger=Glossary-Turtle,green>turtle </trigger> is near edges of the world or not. Then, you can ask such a turtle  to <b>die</b>, removing it from the world.
 ### Spanish
-¡Gran pregunta! Puede notar el <b>bloque If Out of Sight</b> , que verificará si un<trigger=Glossary-Turtle,green> tortuga </trigger> está cerca de los confines del mundo o no. Entonces, puedes pedirle a esa tortuga  que <b>muera</b> , sacándola del mundo.
+¡Buena pregunta! Puede notar el bloque <b>Si Está Fuera de la Vista</b>, que verificará si un <trigger=Glossary-Turtle,green>tortuga </trigger> está cerca de los confines del mundo o no. Entonces, puedes pedirle a esa tortuga  que <b>muera</b>, sacándola del mundo.
 
 ### Source
 Here is the journey: to build a microworld of your own! Isn't it cool and exciting? Imagine a world created by you, where you are the one that creates and breaks rules... This experience will help your exploration across many microworlds in Turtle Universe. 
 Of course, I  will always be there to help you.
 ### Spanish
-Aquí está el viaje: ¡construir un micromundo propio! ¿No es genial y emocionante? Imagina un mundo creado por ti, donde tú eres el que crea y rompe las reglas ... Esta experiencia te ayudará a explorar muchos micromundos en Turtle Universe.
+Aquí está el viaje: ¡para construir tu propio micromundo! ¿No es genial y emocionante? Imagina un mundo creado por ti, donde tú eres el que crea y rompe las reglas... Esta experiencia te ayudará a explorar muchos micromundos en El Universo Tortuga.
 Por supuesto, siempre estaré ahí para ayudarte.
 
 ### Source
-Huh. I just found several blocks for you to do that! I would suggest you to ask a turtle to <b>Add Signal</b> first Then, ask all <trigger=Glossary-Patch,brown>patches </trigger> to <b>Colorize With Signal</b>, so that you can see them in the world. After that, please click the question mark on the blocks - there are quite a lot of them!
+Huh. I just found several blocks for you to do that! I would suggest you to ask a turtle to <b>Add Signal</b> first. Then, ask all <trigger=Glossary-Patch,brown>patches </trigger> to <b>Colorize With Signal</b>, so that you can see them in the world. After that, please click the question mark on the blocks - there are quite a lot of them!
 ### Spanish
-Eh. ¡Acabo de encontrar varios bloques para que lo hagas! Le sugiero que primero le pida a una tortuga que <b>agregue señal.</b> Luego, pregunte a todos<trigger=Glossary-Patch,brown> parches </trigger> para <b>colorear con señal</b> , para que pueda verlos en el mundo. Después de eso, haga clic en el signo de interrogación en los bloques; ¡hay muchos de ellos!
+Eh. ¡Acabo de encontrar varios bloques para que lo hagas! Le sugiero que primero le pides a una tortuga que <b>Agregar Señal</b>. Luego, pregunte a todos <trigger=Glossary-Patch,brown>parcels </trigger> para <b>Colorear con Señal</b>, para que pueda verlos en el mundo. Después de eso, haga clic en el signo de interrogación en los bloques - ¡hay muchos de ellos!
 
 ### Source
 I am really proud of you! You have done a great, great job. Now, it is time for you to decide the fate of your microworld. You can <b>save it</b> on your device, or even <b>publish it</b> - to share it will all other Curious Ones!
 ### Spanish
-¡Realmente estoy muy orgulloso de ti! Has hecho un gran, gran trabajo. Ahora es el momento de que decidas el destino de tu micromundo. Puedes <b>guardarlo</b> en tu dispositivo, o incluso <b>publicarlo</b> , ¡para compartirlo con todos los demás Curious!
+¡Realmente estoy muy orgulloso de ti! Has hecho un gran, gran trabajo. Ahora, es el momento de que decidas el destino de tu micromundo. Puedes <b>guardarlo</b> en tu aparato, o incluso <b>publicarlo</b> - ¡para compartirlo todas las demás personas curiosas!
 
 ### Source
 I am... I am glad to show you this one before we move on to start your microworld. At first glance, you might notice something similar: we create 400 <trigger=Glossary-Turtle,green>turtles </trigger> again, before asking them to move forward 1 step for 40 times.
 ### Spanish
-Estoy ... Me complace mostrarles este antes de continuar para comenzar su micromundo. A primera vista, puede notar algo similar: creamos 400<trigger=Glossary-Turtle,green> tortugas </trigger> nuevamente, antes de pedirles que avancen 1 paso 40 veces.
+Yo estoy ... yo estoy contento mostrarle este antes de continuar para comenzar su micromundo. A primera vista, tal vez tu notas algo similar: creamos 400 <trigger=Glossary-Turtle,green>tortugas </trigger> nuevamente, antes de pedirles que avancen 1 paso 40 veces.
 
 ### Source
 I have a hypothesis. Let's give it a try!
 ### Spanish
-Tengo una hipótesis. ¡Hagamos un intento!
+Tengo una hipótesis. ¡Vamos a probarlo!
 
 ### Source
 I just found the two blocks for you: <b>Start Tracking</b> and <b>Stop Tracking</b>. Use it and the <color=green>turtles </color> will start leaving trails when moving. If you find too many trails are hard to recognize, try to reduce the number of turtles!
 ### Spanish
-Acabo de encontrar los dos bloques para ti: <b>Iniciar seguimiento</b> y <b>Detener seguimiento</b> . Úselo y el<color=green> tortugas </color> comenzará a dejar rastros al moverse. Si encuentra demasiados senderos que son difíciles de reconocer, ¡intente reducir la cantidad de tortugas!
+Acabo de encontrar los dos bloques para ti: <b>Iniciar Seguimiento</b> y <b>Detener Seguimiento</b>. Úselo y las < color=green>tortugas </color> comenzará a dejar rastros al moverse. Si encuentras que demasiados rastros son difíciles de reconocer, ¡intente reducir la cantidad de tortugas!
 
 ### Source
 I just marked <b>When Reaching the Goal</b> block for you to know! Then, when a <color=green>turtle </color> reaches its goal, you can decide whether to <b>Find a Goal</b> for it, or to remove it by <b>Die</b> block.
 ### Spanish
-¡Acabo de marcar <b>el bloque Al alcanzar la meta</b> para que lo sepas! Entonces, cuando un<color=green> tortuga </color> alcanza su objetivo, puede decidir si <b>buscar un objetivo</b> para él o eliminarlo mediante el bloque <b>Die.</b>
+¡Acabo de marcar el bloque <b>Al Llegar a la Meta</b> para que lo sepas! Entonces, cuando una <color=green>tortuga </color> alcanza su objetivo, puede decidir si debes <b>Buscar un Objetivo</b> para él o eliminarlo mediante el bloque <b>Muera</b>.
 
 ### Source
 I love what you did! As you have seen, the different rules created by you lead to different phenomena. Even when we apply the same rules to  different <trigger=Glossary-Turtle,green>turtles </trigger>, they may behave differently. What do you think about it?
 ### Spanish
-¡Amo lo que hiciste! Como has visto, las diferentes reglas creadas por ti conducen a diferentes fenómenos. Incluso cuando aplicamos las mismas reglas a diferentes<trigger=Glossary-Turtle,green> tortugas </trigger> , pueden comportarse de manera diferente. ¿Qué piensa usted al respecto?
+¡Amo lo que hiciste! Como has visto, las diferentes reglas creado por ti conducen fenómenos diferentes. Incluso cuando aplicamos las mismas reglas a diferentes <trigger=Glossary-Turtle,green>tortugas </trigger>, pueden comportarse de manera diferente. ¿Qué piensas de esto?
 
 ### Source
 I made my guess. Let's try!
 ### Spanish
-Hice mi suposición. ¡Intentemos!
+Adiviné por qué. ¡Intentemos!
 
 ### Source
 I would suggest you to restart the microworld for a couple of times to see how the turtles move differently! What will happen, then, when there are lots of turtles following the same command?
@@ -550,48 +550,48 @@ In jet black darkness, a beam of light captured your eyes. Before you had a chan
 * Welcome. To. The. Hidden. Playground. Of. Turtle. Universe. *
 * To. Enter. It. You. Need. To. Describe. It. Token. Please. *
 ### Spanish
-En la oscuridad negra azabache, un rayo de luz capturó tus ojos. Antes de que tuviera la oportunidad de examinarlo, un<color=brown> voz mecánica </color> comenzó a hablar.
-* Bienvenida. A. Los. Oculto. Patio de recreo. De. Tortuga. Universo. *
-* A. Ingresar. Eso. Tú. Necesitar. A. Describir. Eso. Simbólico. Por favor. *
+En la oscuridad negro azabache, un rayo de luz captura sus ojos. Antes de que tenga la oportunidad de examinarlo, un <color=brown>voz mecánica </color> empezar a hablar.
+* Bienvenidos. A. El. Campo. Escondido. De. El. Universo. Tortuga. *
+* Para. Ingresar. Necesitas. Describirlo. Ficha. Por. Favor. *
 
 ### Source
 In jet black darkness, a beam of light captures your eyes. Before you have a chance to examine it, a <color=brown>mechanical voice </color> begin to speak. 
 * Welcome. To. The. Hidden. Playground. Of. Turtle. Universe. *
 * To. Enter. It. You. Need. To. Describe. It. Token. Please. *
 ### Spanish ***
-En la oscuridad negro azabache, un rayo de luz captura sus ojos. Antes de que tenga la oportunidad de examinarlo,<color=brown> voz mecánica </color> empezar a hablar.
-* Bienvenidos. A. La. Oculto. Patio de recreo. De. Tortuga. Universo. *
-* A. Ingresar. Eso. Tú. Necesitar. A. Describir. Eso. Simbólico. Por favor. *
+En la oscuridad negro azabache, un rayo de luz captura sus ojos. Antes de que tenga la oportunidad de examinarlo, un <color=brown>voz mecánica </color> empezar a hablar.
+* Bienvenidos. A. El. Campo. Escondido. De. El. Universo. Tortuga. *
+* Para. Ingresar. Necesitas. Describirlo. Ficha. Por. Favor. *
 
 ### Source
 In this challenge, we have two <trigger=Glossary-Random>random </trigger> factors: the heading of turtles; and the distance they move forward.
 ### Spanish
-En este desafío, tenemos dos<trigger=Glossary-Random> aleatorio </trigger> factores: el rubro de las tortugas; y la distancia que avanzan.
+En este desafío, tenemos dos factores <trigger=Glossary-Random>aleatorio </trigger>: el rubro de las tortugas; y la distancia que avanzan.
 
 ### Source
 In this microworld, each <trigger=Glossary-Turtle,green>turtle </trigger> represents an individual slime cell. Watch them for half a minute. What did you observe? Can you design some rules for each <color=green>turtle </color> to huddle together and form stable molds? Just tell me when you are ready to go!
 ### Spanish
-En este micromundo, cada uno<trigger=Glossary-Turtle,green> tortuga </trigger> representa una celda de limo individual. Míralos durante medio minuto. ¿Qué observaste? ¿Puedes diseñar algunas reglas para cada<color=green> tortuga </color> para amontonarse y formar moldes estables? ¡Dime cuando estés listo para empezar!
+En este micromundo, cada <trigger=Glossary-Turtle,green>tortuga </trigger> representa una célula de slime individual. Míralos por medio minuto. ¿Qué observaste? ¿Puedes diseñar algunas reglas para cada <color=green>tortuga </color> para amontonarse y formar moldes estables? ¡Dime cuando estés listo para empezar!
 
 ### Source
 It is total silence, but soon you hear a slight sigh. A mechanical sigh. You wonder how this mechanism is capable to produce a sigh, before it asks again: *Token. Please.* It looks like you get another chance to guess. You say:
 ### Spanish ***
-Es un silencio total, pero pronto se escucha un leve suspiro. Un suspiro mecánico. Te preguntas cómo este mecanismo es capaz de producir un suspiro, antes de volver a preguntar: * Token. Por favor. * Parece que tienes otra oportunidad de adivinar. Tu dices:
+Fue un silencio total, pero escuchaste un ligero suspiro. Un suspiro mecánico. Te preguntas cómo este mecanismo es capaz de producir un suspiro, antes de que volviera a preguntar: *Ficha. Por. Favor.* Parece que tienes otra oportunidad de adivinar. Tu dices:
 
 ### Excessive
 It was total silence, but you heard a slight sigh. A mechanical sigh. You wondered how this mechanism was capable to produce a sigh, before it asked again: *Token. Please.* It looked like you get another chance to guess. You said:
 ### Spanish
-Fue un silencio total, pero escuchaste un ligero suspiro. Un suspiro mecánico. Te preguntaste cómo este mecanismo era capaz de producir un suspiro, antes de que volviera a preguntar: * Token. Por favor. * Parece que tienes otra oportunidad de adivinar. Tu dijiste:
+Fue un silencio total, pero escuchaste un ligero suspiro. Un suspiro mecánico. Te preguntas cómo este mecanismo es capaz de producir un suspiro, antes de que volviera a preguntar: *Ficha. Por. Favor.* Parece que tienes otra oportunidad de adivinar. Tu dices:
 
 ### Source
 Look at these rules. What will happen when we play the microworld?
 ### Spanish
-Mira estas reglas. ¿Qué pasará cuando toquemos el micromundo?
+Mira estas reglas. ¿Qué pasará cuando iniciamos el micromundo?
 
 ### Source
 Look at those colorful <color=brown>patches </color> around the world! Actually, they are the same <color=brown>patches </color> as the black background you just saw. When we are creating your microworld, you will <help=observer>ask</help> them to do their jobs. For example, we can turn them back to black like <observer=ask patches [ set pcolor black ]>this</observer>!
 ### Spanish
-Mira esos coloridos <color=brown>parches </color> ¡alrededor del mundo! De hecho, son lo mismo<color=brown> parches </color> como el fondo negro que acaba de ver. Cuando estemos creando tu micromundo,<help=observer> pedir</help> ellos para hacer su trabajo. Por ejemplo, podemos volverlos negros como<observer=ask patches [ set pcolor black ]> esta</observer> !
+¡Mira esos <color=brown>parcels </color> coloridos alrededor del mundo! De hecho, son lo mismo <color=brown>parcels </color> como el fondo negro que acabas de ver. Cuando estemos creando tu micromundo, Tu <help=observer>pediras</help> ellos para hacer su trabajos. Por ejemplo, podemos volverlos negros como <observer=ask patches [ set pcolor black ]>this</observer>!
 
 ### Source
 Look at those colorful arrows around the world! Here, we call them <color=green>turtles </color>. Each turtle may have different shape, size, color, and so on. When we are creating your microworld, you will <help=observer>ask</help> them to do their duties. Actually, we can <observer=ask turtles [ set shape "turtle" ]>ask</observer> them to look like <color=green>turtles </color>!
@@ -739,7 +739,7 @@ Este bloque de reglas aplicará las reglas que colocó dentro de este bloque var
 ### Source
 This rule block will check whether the signal on the <trigger=Glossary-Patch,brown>patch </trigger>, or on the patch  below the turtle, is higher than a value or not. The value is specified by you. If so, this block will apply the first set of rules. Otherwise, it will apply the second set. Either set of rules can be empty. This block is achieved by <help=observer>ifelse</help> primitive of NetLogo.
 ### Spanish
-Este bloque de reglas verificará si la señal en el<trigger=Glossary-Patch,brown> parche </trigger> , o en el parche  debajo de la tortuga, es mayor que un valor o no. El valor lo especifica usted. Si es así, este bloque aplicará el primer conjunto de reglas. De lo contrario, aplicará el segundo conjunto. Cualquiera de los conjuntos de reglas puede estar vacío. Este bloque se logra mediante<help=observer> si no</help> primitivo de NetLogo.
+Este bloque de reglas verificará si la señal en el<trigger=Glossary-Patch,brown> parcel </trigger> , o en el parcel  debajo de la tortuga, es mayor que un valor o no. El valor lo especifica usted. Si es así, este bloque aplicará el primer conjunto de reglas. De lo contrario, aplicará el segundo conjunto. Cualquiera de los conjuntos de reglas puede estar vacío. Este bloque se logra mediante<help=observer> si no</help> primitivo de NetLogo.
 
 ### Source
 This rule block will tell the <trigger=Glossary-Turtle,green>turtle </trigger> to set its heading according to time. For each time <trigger=Glossary-Tick>tick </trigger>, the heading will be increased by a portion of rounds you specified. This block is achieved by <help=observer>set</help>, <help=observer>heading</help>, and <help=observer>ticks</help> primitives of NetLogo.
@@ -818,7 +818,7 @@ Cuando se aplica, este bloque de reglas<trigger=Glossary-Random> tira un dado �
 ### Source
 When applied, this rule block will ask each <trigger=Glossary-Patch,brown>patch </trigger> in the world to apply the rules you placed within this block. Hence, in this playground, you may only drag blocks with  icon into it. This block is achieved by <help=observer>ask</help> primitive of NetLogo.
 ### Spanish
-Cuando se aplica, este bloque de reglas preguntará a cada<trigger=Glossary-Patch,brown> parche </trigger> en el mundo para aplicar las reglas que colocó dentro de este bloque. Por lo tanto, en este patio de juegos, solo puede arrastrar bloques con el ícono  . Este bloque se logra mediante<help=observer> pedir</help> primitivo de NetLogo.
+Cuando se aplica, este bloque de reglas preguntará a cada<trigger=Glossary-Patch,brown> parcel </trigger> en el mundo para aplicar las reglas que colocó dentro de este bloque. Por lo tanto, en este patio de juegos, solo puede arrastrar bloques con el ícono  . Este bloque se logra mediante<help=observer> pedir</help> primitivo de NetLogo.
 
 ### Source
 When applied, this rule block will ask each <trigger=Glossary-Turtle,green>turtle </trigger> in the world to apply the rules you placed within this block. Hence, in this playground, you may only drag blocks with  icon into it. This block is achieved by <help=observer>ask</help> primitive of NetLogo.
@@ -833,7 +833,7 @@ Cuando se aplica, este bloque de reglas preguntará al<trigger=Glossary-Turtle,g
 ### Source
 When applied, this rule block will clear everything in the world including <trigger=Glossary-Turtle,green>turtles </trigger>, <trigger=Glossary-Patch,brown>patches </trigger>, trails, and reset the <trigger=Glossary-Tick>ticks </trigger> of time. It is achieved by <help=observer>clear-all</help> and <help=observer>reset-ticks</help> primitives of NetLogo.
 ### Spanish
-Cuando se aplica, este bloque de reglas borrará todo en el mundo, incluido<trigger=Glossary-Turtle,green> tortugas </trigger> ,<trigger=Glossary-Patch,brown> parches </trigger> , senderos y restablecer el<trigger=Glossary-Tick> garrapatas </trigger> de tiempo. Se logra por<help=observer> limpiar todo</help> y<help=observer> reset-ticks</help> primitivas de NetLogo.
+Cuando se aplica, este bloque de reglas borrará todo en el mundo, incluido<trigger=Glossary-Turtle,green> tortugas </trigger> ,<trigger=Glossary-Patch,brown> parcels </trigger> , senderos y restablecer el<trigger=Glossary-Tick> garrapatas </trigger> de tiempo. Se logra por<help=observer> limpiar todo</help> y<help=observer> reset-ticks</help> primitivas de NetLogo.
 
 ### Source
 When applied, this rule block will create a number of <trigger=Glossary-Turtle,green>turtles </trigger> in the world. Turtles  will be placed at the center of the world with a <trigger=Glossary-Random>random </trigger> heading. Rules within this block will be applied to the newly-created turtles. This is achieved by <help=observer>create-turtles</help> primitive of NetLogo.
@@ -848,27 +848,27 @@ Cuando se aplica, este bloque de reglas determinará cómo las tortugas interact
 ### Source
 When applied, this rule block will tell all <trigger=Glossary-Patch,brown>patches </trigger> to give equal shares of a its signal to eight neighboring patches. You will determine how much proportion of signal to give out. This block is achieved by <help=observer>diffuse</help> primitive of NetLogo.
 ### Spanish
-Cuando se aplica, este bloque de reglas le dirá a todos<trigger=Glossary-Patch,brown> parches </trigger> para dar partes iguales de su señal a ocho parches vecinos. Determinará la proporción de señal que se debe emitir. Este bloque se logra mediante<help=observer> difuso</help> primitivo de NetLogo.
+Cuando se aplica, este bloque de reglas le dirá a todos<trigger=Glossary-Patch,brown> parcels </trigger> para dar partes iguales de su señal a ocho parcels vecinos. Determinará la proporción de señal que se debe emitir. Este bloque se logra mediante<help=observer> difuso</help> primitivo de NetLogo.
 
 ### Source
 When applied, this rule block will tell the <trigger=Glossary-Patch,brown>patch </trigger> to be colorful. The stronger the signal is, the brighter the patch  will be. If the signal is above the maximum, the block will be white. If the signal is below the minimum, the block will be black. This block is achieved by <jumpto=procedure>show-signal</jumpto> procedure in the code.
 ### Spanish
-Cuando se aplica, este bloque de reglas le dirá al<trigger=Glossary-Patch,brown> parche </trigger> ser colorido. Cuanto más fuerte sea la señal, más brillante será el parche  . Si la señal está por encima del máximo, el bloque será de color blanco. Si la señal está por debajo del mínimo, el bloque será negro. Este bloque se logra mediante<jumpto=procedure> mostrar-señal</jumpto> procedimiento en el código.
+Cuando se aplica, este bloque de reglas le dirá al<trigger=Glossary-Patch,brown> parcel </trigger> ser colorido. Cuanto más fuerte sea la señal, más brillante será el parcel  . Si la señal está por encima del máximo, el bloque será de color blanco. Si la señal está por debajo del mínimo, el bloque será negro. Este bloque se logra mediante<jumpto=procedure> mostrar-señal</jumpto> procedimiento en el código.
 
 ### Source
 When applied, this rule block will tell the <trigger=Glossary-Patch,brown>patch </trigger> to set its color to a value you specified. This block is achieved by <help=observer>set</help> and <help=observer>pcolor</help> primitives of NetLogo.
 ### Spanish
-Cuando se aplica, este bloque de reglas le dirá al<trigger=Glossary-Patch,brown> parche </trigger> para establecer su color en un valor especificado. Este bloque se logra mediante<help=observer> colocar</help> y<help=observer> color</help> primitivas de NetLogo.
+Cuando se aplica, este bloque de reglas le dirá al<trigger=Glossary-Patch,brown> parcel </trigger> para establecer su color en un valor especificado. Este bloque se logra mediante<help=observer> colocar</help> y<help=observer> color</help> primitivas de NetLogo.
 
 ### Source
 When applied, this rule block will tell the <trigger=Glossary-Patch,brown>patch </trigger>, or the patch  under the <trigger=Glossary-Turtle,green>turtle </trigger>, to evaporate a portion of the signal on it. How much signal will be evaporated is specified by you. This block is achieved by <help=observer>set</help> primitive of NetLogo.
 ### Spanish
-Cuando se aplica, este bloque de reglas le dirá al<trigger=Glossary-Patch,brown> parche </trigger> , o el parche  debajo del<trigger=Glossary-Turtle,green> tortuga </trigger> , para evaporar una parte de la señal en él. Usted especifica la cantidad de señal que se evaporará. Este bloque se logra mediante<help=observer> colocar</help> primitivo de NetLogo.
+Cuando se aplica, este bloque de reglas le dirá al<trigger=Glossary-Patch,brown> parcel </trigger> , o el parcel  debajo del<trigger=Glossary-Turtle,green> tortuga </trigger> , para evaporar una parte de la señal en él. Usted especifica la cantidad de señal que se evaporará. Este bloque se logra mediante<help=observer> colocar</help> primitivo de NetLogo.
 
 ### Source
 When applied, this rule block will tell the <trigger=Glossary-Turtle,green>turtle </trigger> to add some signal to the <trigger=Glossary-Patch,brown>patch </trigger> beneath it, or the <trigger=Glossary-Patch,brown>patch </trigger> to add some signal to itself. Then, you can use the <b> Colorize with Signal</b> block to show it. The strength of the signal is specified by you. This block is achieved by <help=observer>set</help> primitive of NetLogo.
 ### Spanish
-Cuando se aplica, este bloque de reglas le dirá al<trigger=Glossary-Turtle,green> tortuga </trigger> para agregar alguna señal a la<trigger=Glossary-Patch,brown> parche </trigger> debajo de él, o el<trigger=Glossary-Patch,brown> parche </trigger> para agregar alguna señal a sí mismo. Luego, puede usar el <b>bloque  Colorear con señal</b> para mostrarlo. La fuerza de la señal la especifica usted. Este bloque se logra mediante<help=observer> colocar</help> primitivo de NetLogo.
+Cuando se aplica, este bloque de reglas le dirá al<trigger=Glossary-Turtle,green> tortuga </trigger> para agregar alguna señal a la<trigger=Glossary-Patch,brown> parcel </trigger> debajo de él, o el<trigger=Glossary-Patch,brown> parcel </trigger> para agregar alguna señal a sí mismo. Luego, puede usar el <b>bloque  Colorear con señal</b> para mostrarlo. La fuerza de la señal la especifica usted. Este bloque se logra mediante<help=observer> colocar</help> primitivo de NetLogo.
 
 ### Source
 When applied, this rule block will tell the <trigger=Glossary-Turtle,green>turtle </trigger> to find a <trigger=Glossary-Random>random </trigger> goal in the world. Then, you may need to ask the turtle to <b>turn to</b> the goal, or <b>find a path</b> to it. This block is achieved by <jumpto=procedure>find-a-goal</jumpto> procedure in the code.
@@ -878,7 +878,7 @@ Cuando se aplica, este bloque de reglas le dirá al<trigger=Glossary-Turtle,gree
 ### Source
 When applied, this rule block will tell the <trigger=Glossary-Turtle,green>turtle </trigger> to find a path to its goal. The turtle  will try to find a <trigger=Glossary-Patch,brown>patch </trigger> within its vision, with more signals than you specified, and brings it closer to the goal. Then, it will change its heading to <b>face</b> it. This block is achieved by <jumpto=procedure>find-a-path</jumpto> procedure in the code.
 ### Spanish
-Cuando se aplica, este bloque de reglas le dirá al<trigger=Glossary-Turtle,green> tortuga </trigger> para encontrar un camino hacia su meta. La tortuga  intentará encontrar un<trigger=Glossary-Patch,brown> parche </trigger> dentro de su visión, con más señales de las que especificaste, y lo acerca a la meta. Luego, cambiará su rumbo para <b>enfrentarlo</b> . Este bloque se logra mediante<jumpto=procedure> encontrar un camino</jumpto> procedimiento en el código.
+Cuando se aplica, este bloque de reglas le dirá al<trigger=Glossary-Turtle,green> tortuga </trigger> para encontrar un camino hacia su meta. La tortuga  intentará encontrar un<trigger=Glossary-Patch,brown> parcel </trigger> dentro de su visión, con más señales de las que especificaste, y lo acerca a la meta. Luego, cambiará su rumbo para <b>enfrentarlo</b> . Este bloque se logra mediante<jumpto=procedure> encontrar un camino</jumpto> procedimiento en el código.
 
 ### Source
 When applied, this rule block will tell the <trigger=Glossary-Turtle,green>turtle </trigger> to increase its size in two ways: first, to increase by a proportion you specified; second, to increase by a value you specified. This block is achieved by <help=observer>set</help> and <help=observer>size</help> primitives of NetLogo.
@@ -988,17 +988,17 @@ Cuando comenzamos el micromundo, creamos 400<color=green> tortugas </color> y
 ### Source
 When you apply this block to a <trigger=Glossary-Patch,brown>patch </trigger> or a <trigger=Glossary-Turtle,green>turtle </trigger>, this rule block will check whether the number of turtles on the patch is smaller than the value specified by you. If so, this block will apply the first set of rules. Otherwise, it will apply the second set. Either set of rules can be empty. This block is achieved by <help=observer>ifelse</help>, <help=observer>count</help>, and <help=observer>turtles-here</help> primitives of NetLogo.
 ### Spanish
-Cuando aplica este bloque a un<trigger=Glossary-Patch,brown> parche </trigger> o un<trigger=Glossary-Turtle,green> tortuga </trigger> , este bloque de reglas verificará si el número de tortugas en el parche es menor que el valor especificado por usted. Si es así, este bloque aplicará el primer conjunto de reglas. De lo contrario, aplicará el segundo conjunto. Cualquiera de los conjuntos de reglas puede estar vacío. Este bloque se logra mediante<help=observer> si no</help> ,<help=observer> contar</help> , y<help=observer> tortugas-aquí</help> primitivas de NetLogo.
+Cuando aplica este bloque a un<trigger=Glossary-Patch,brown> parcel </trigger> o un<trigger=Glossary-Turtle,green> tortuga </trigger> , este bloque de reglas verificará si el número de tortugas en el parcel es menor que el valor especificado por usted. Si es así, este bloque aplicará el primer conjunto de reglas. De lo contrario, aplicará el segundo conjunto. Cualquiera de los conjuntos de reglas puede estar vacío. Este bloque se logra mediante<help=observer> si no</help> ,<help=observer> contar</help> , y<help=observer> tortugas-aquí</help> primitivas de NetLogo.
 
 ### Source
 When you apply this block to a <trigger=Glossary-Turtle,green>turtle </trigger>, this rule block will check whether it is moving closer to the goal or moving further from it. If so, this block will apply the first set of rules to the turtle. Otherwise, it will apply the second set. Either set of rules can be empty. This block is achieved by <help=observer>ifelse</help>, <help=observer>patch-ahead</help>, and <help=observer>distance</help> primitives of NetLogo.
 ### Spanish
-Cuando aplica este bloque a un<trigger=Glossary-Turtle,green> tortuga </trigger> , este bloque de reglas verificará si se está acercando a la meta o alejándose de ella. Si es así, este bloque aplicará el primer conjunto de reglas a la tortuga. De lo contrario, aplicará el segundo conjunto. Cualquiera de los conjuntos de reglas puede estar vacío. Este bloque se logra mediante<help=observer> si no</help> ,<help=observer> parche adelantado</help> , y<help=observer> distancia</help> primitivas de NetLogo.
+Cuando aplica este bloque a un<trigger=Glossary-Turtle,green> tortuga </trigger> , este bloque de reglas verificará si se está acercando a la meta o alejándose de ella. Si es así, este bloque aplicará el primer conjunto de reglas a la tortuga. De lo contrario, aplicará el segundo conjunto. Cualquiera de los conjuntos de reglas puede estar vacío. Este bloque se logra mediante<help=observer> si no</help> ,<help=observer> parcel adelantado</help> , y<help=observer> distancia</help> primitivas de NetLogo.
 
 ### Source
 When you apply this block to a <trigger=Glossary-Turtle,green>turtle </trigger>, this rule block will check whether it is reaching the goal or not. If so, this block will apply the first set of rules to the turtle. Otherwise, it will apply the second set. Either set of rules can be empty. This block is achieved by <help=observer>ifelse</help> and <help=observer>patch-here</help> primitives of NetLogo.
 ### Spanish
-Cuando aplica este bloque a un<trigger=Glossary-Turtle,green> tortuga </trigger> , este bloque de reglas comprobará si está alcanzando la meta o no. Si es así, este bloque aplicará el primer conjunto de reglas a la tortuga. De lo contrario, aplicará el segundo conjunto. Cualquiera de los conjuntos de reglas puede estar vacío. Este bloque se logra mediante<help=observer> si no</help> y<help=observer> parche-aquí</help> primitivas de NetLogo.
+Cuando aplica este bloque a un<trigger=Glossary-Turtle,green> tortuga </trigger> , este bloque de reglas comprobará si está alcanzando la meta o no. Si es así, este bloque aplicará el primer conjunto de reglas a la tortuga. De lo contrario, aplicará el segundo conjunto. Cualquiera de los conjuntos de reglas puede estar vacío. Este bloque se logra mediante<help=observer> si no</help> y<help=observer> parcel-aquí</help> primitivas de NetLogo.
 
 ### Source
 When you apply this block to a turtle, this rule block will check whether it is near the edge of the world. If so, this block will apply the first set of rules to the turtle. Otherwise, it will apply the second set. Either set of rules can be empty. This block is achieved by <help=observer>ifelse</help>, <help=observer>distancexy</help>, and <help=observer>max-pxcor</help> primitives of NetLogo.
@@ -1018,7 +1018,7 @@ Sí, ¡y tenemos varios bloques de reglas para que lo haga! He resaltado los blo
 ### Source
 Yes, definitely! Actually, background is composed of lots of smaller <trigger=Glossary-Patch,brown>patches </trigger>. Similar to what you do with <color=green>turtles </color>, we can ask them to do a lot of things - maybe except for moving.
 ### Spanish
-¡Sí definitivamente! En realidad, el fondo se compone de muchos<trigger=Glossary-Patch,brown> parches </trigger> . Similar a lo que haces con<color=green> tortugas </color> , podemos pedirles que hagan muchas cosas, tal vez excepto mudarse.
+¡Sí definitivamente! En realidad, el fondo se compone de muchos<trigger=Glossary-Patch,brown> parcels </trigger> . Similar a lo que haces con<color=green> tortugas </color> , podemos pedirles que hagan muchas cosas, tal vez excepto mudarse.
 
 ### Source
 Yes, sure! You are the rule maker for all agents - including <trigger=Glossary-Turtle,green>turtles </trigger> - , and they will obey your rules. Now, let's click the "edit" button in the blocks panel to start.
@@ -1488,7 +1488,7 @@ Your current progress will lose (unless you choose this goal again)!
 ### Source
  Ask Patches 
 ### Spanish
- Preguntar parches 
+ Preguntar parcels 
 
 ### Source
  Ask Turtles 
@@ -1743,7 +1743,7 @@ Your current progress will lose (unless you choose this goal again)!
 ### Source
  Play with patches in the world
 ### Spanish
- Juega con parches del mundo
+ Juega con parcels del mundo
 
 ### Source
  Remove turtles staying on the edge of the world
@@ -2038,7 +2038,7 @@ Your current progress will lose (unless you choose this goal again)!
 ### Source
  Patch
 ### Spanish
- Parche
+ parcel
 
 ### Source
  Set Color
