@@ -1,4 +1,5 @@
-﻿`Patches-own` define variables que pertenecen exclusivamente a las parcelas de un modelo. (Vea su contraparte `turtles-own` de las tortugas para definir las variables de las tortugas.) Las variables son usualmente un rasgo o característica de las parcelas; por ejemplo, si sus parcelas representan suelo en su modelo, puedes usar `patches-own [ nutrients ]`. Tiene la forma:
+﻿*** Machine Translated
+`Patches-own` define variables que pertenecen exclusivamente a las parcelas de un modelo. (Vea su contraparte `turtles-own` de las tortugas para definir las variables de las tortugas.) Las variables son usualmente un rasgo o característica de las parcelas; por ejemplo, si sus parcelas representan suelo en su modelo, puedes usar `patches-own [ nutrients ]`. Tiene la forma:
 
 ```patches-own [ variable1 variable2 ... ] ```
 

@@ -1,4 +1,5 @@
-﻿`move-to` permite que una tortuga establezca sus coordenadas xey para que sean las mismas que las de otra tortuga o parcela sin alterar las otras variables de la tortuga (por ejemplo, rumbo, color, tamaño). Su sintaxis es:
+﻿*** Machine Translated
+`move-to` permite que una tortuga establezca sus coordenadas xey para que sean las mismas que las de otra tortuga o parcela sin alterar las otras variables de la tortuga (por ejemplo, rumbo, color, tamaño). Su sintaxis es:
 
 ```move-to desired-agent ```
 

@@ -1,4 +1,5 @@
-﻿`n-of` se usa cuando deseas seleccionar aleatoriamente exactamente n elementos de un conjunto de agentes. Su sintaxis es:
+﻿*** Machine Translated
+`n-of` se usa cuando deseas seleccionar aleatoriamente exactamente n elementos de un conjunto de agentes. Su sintaxis es:
 
 ```n-of desired-number agentset ```
 

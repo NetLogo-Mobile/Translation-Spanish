@@ -1,4 +1,5 @@
-﻿`forward` es un primitivo de tortuga que hace que la tortuga solicitada se mueva hacia adelante en una parcela recta para un número determinado de unidades. La versión abreviada de esta primitiva es `fd`.
+﻿*** Machine Translated
+`forward` es un primitivo de tortuga que hace que la tortuga solicitada se mueva hacia adelante en una parcela recta para un número determinado de unidades. La versión abreviada de esta primitiva es `fd`.
 
 
 

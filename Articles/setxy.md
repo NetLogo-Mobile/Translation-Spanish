@@ -1,4 +1,5 @@
-﻿`setxy` mueve una tortuga a una determinada coordenada del mundo. Toma la forma de:
+﻿*** Machine Translated
+`setxy` mueve una tortuga a una determinada coordenada del mundo. Toma la forma de:
 
 ```setxy xy ```
 

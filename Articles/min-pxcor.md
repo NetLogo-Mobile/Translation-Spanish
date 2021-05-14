@@ -1,6 +1,37 @@
 ﻿*** Machine Translated
-`Max-pxcor` y `max-pycor` devuelven la coordenada x máxima y la coordenada y máxima de las parcelas, respectivamente. Las coordenadas xey máximas de las parcelas también determinan el tamaño del modelo y siempre deben ser mayores o iguales a cero. `Max-pxcor` y `max-pycor` no se pueden cambiar dentro del código; el tamaño del mundo solo se puede cambiar editando la vista.
+`min-pxcor` informa el `pxcor` de los parches más a la izquierda en un modelo. Este primitivo, y sus hermanos `max-pxcor` , `max-pycor` , `min-pycor` , son muy útiles para modelar el comportamiento del agente que involucra los límites de un entorno. Por ejemplo, si quisiéramos construir un modelo donde tuviéramos una pared en los bordes, escribiríamos el siguiente código:
 
-De manera similar, `min-pxcor` y `min-pycor` devuelven la coordenada x mínima y la coordenada y mínima de las parcelas, respectivamente. Las coordenadas mínimas xey deben ser menores o iguales a cero. Por ejemplo, `ask patches with [pxcor = min-pxcor or pycor = min-pycor] [ set pcolor blue ]` establecería las parcelas a lo largo de la parte inferior e izquierda del modelo en azul.
 
-Nota: al igual que las tortugas usan el `color` y las parcelas usan `pcolor` , es importante distinguir entre `xcor` e `ycor` , que solo usan las tortugas, y `pxcor` y `pycor` , que solo usan las parcelas.
+
+```
+ask patches [
+	if pxcor = max-pxcor or
+	   pxcor = min-pxcor or
+	   pycor = max-pycor or
+	   pycor = min-pycor [
+	   		set pcolor gray
+	   ]
+]
+```
+
+
+O si quisiéramos que las tortugas no caminaran más allá de las fronteras del mundo, escribiríamos el siguiente código:
+
+
+
+```
+ask turtles [
+	if [pxcor] of patch-ahead 1 < min-pxcor [
+		forward 1
+	] 
+]
+```
+
+
+Cosas a tener en cuenta al usar `min-pxcor` :
+
+- `max-pxcor` , `min-pxcor` , `max-pycor` y `min-pycor` no son variables; son reporteros constantes. Es decir, un código como `set min-pxcor 30` mostraría un mensaje de error.
+- Puede cambiar el tamaño de su modelo a través del **botón Configuración** en la pestaña Interfaz o usando la primitiva `resize-world`
+
+
+En el ejemplo de modelo a continuación, usamos `min-pxcor` y sus hermanos para crear paredes que representan un contenedor. Las bolas dentro del contenedor rebotan en la pared verde pero se *adhieren* a la pared roja.

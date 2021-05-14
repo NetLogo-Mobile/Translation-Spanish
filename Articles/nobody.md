@@ -1,4 +1,5 @@
-﻿`Nobody` es un valor especial que se usa para indicar que el agente que buscabas no existe. Cuando una tortuga muere, se vuelve igual a `nobody` . `Nobody` se suele usar a nadie para comprobar que hay un agente en un conjunto de agentes para evitar un error. Por ejemplo, puedes incluir 
+﻿*** Machine Translated
+`Nobody` es un valor especial que se usa para indicar que el agente que buscabas no existe. Cuando una tortuga muere, se vuelve igual a `nobody` . `Nobody` se suele usar a nadie para comprobar que hay un agente en un conjunto de agentes para evitar un error. Por ejemplo, puedes incluir 
 
 ```
 if one-of turtles with [color = red] != nobody [ 

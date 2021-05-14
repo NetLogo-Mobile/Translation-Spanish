@@ -1,4 +1,5 @@
-﻿`Random-normal` es similar a la primitiva `random`, ya que genera e informa un número aleatoriamente. Sin embargo, `random` y `random-normal` difieren en la distribución que generan. `Random` producirá una **distribución uniforme**, lo que significa que cada número tiene la misma probabilidad de ser generado, y habrá aproximadamente la misma cantidad de cada número. Entonces, en `random 4`, 0, 1, 2 y 3 tienen la misma probabilidad de generarse, y después de muchas repeticiones de `random 4`, habrá un número igual de 0, 1, 2 y 3.
+﻿*** Machine Translated
+`Random-normal` es similar a la primitiva `random`, ya que genera e informa un número aleatoriamente. Sin embargo, `random` y `random-normal` difieren en la distribución que generan. `Random` producirá una **distribución uniforme**, lo que significa que cada número tiene la misma probabilidad de ser generado, y habrá aproximadamente la misma cantidad de cada número. Entonces, en `random 4`, 0, 1, 2 y 3 tienen la misma probabilidad de generarse, y después de muchas repeticiones de `random 4`, habrá un número igual de 0, 1, 2 y 3.
 
 Pero `random-normal` producirá una **distribución normal**, que parece una curva de campana con muchos valores en el medio y menos valores en las colas superior e inferior. Su sintaxis es:
 

@@ -1,4 +1,5 @@
-﻿`other` informa un conjunto de agentes que es el mismo que el conjunto de agentes de entrada pero omite el agente que solicita. En otras palabras, se excluye del conjunto de agentes resultante. Por ejemplo:
+﻿*** Machine Translated
+`other` informa un conjunto de agentes que es el mismo que el conjunto de agentes de entrada pero omite el agente que solicita. En otras palabras, se excluye del conjunto de agentes resultante. Por ejemplo:
 
 
 

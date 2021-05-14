@@ -1,4 +1,5 @@
-﻿`While` comienza un bucle que ejecuta un **bloque de comandos**, siempre que un **reportero** dado devuelva **Cierto** . Si el reportero informa **Falso**, se sale del ciclo. Toma la forma:
+﻿*** Machine Translated
+`While` comienza un bucle que ejecuta un **bloque de comandos**, siempre que un **reportero** dado devuelva **Cierto** . Si el reportero informa **Falso**, se sale del ciclo. Toma la forma:
 
 `while [ reporter ] [ commands ]`
 

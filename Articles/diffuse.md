@@ -1,4 +1,5 @@
-﻿`diffuse` es una primitiva de observador que actúa en cada parcela del modelo. Hace que cada uno de ellos difunda (o distribuya) el valor de una variable de parcela dada a sus 8 parcelas [vecinos](/primitives/neighbors). Esta primitiva es muy útil cuando queremos simular procesos donde ocurre la difusión como la difusión de un olor o la contaminación en el aire.
+﻿*** Machine Translated
+`diffuse` es una primitiva de observador que actúa en cada parcela del modelo. Hace que cada uno de ellos difunda (o distribuya) el valor de una variable de parcela dada a sus 8 parcelas [vecinos](/primitives/neighbors). Esta primitiva es muy útil cuando queremos simular procesos donde ocurre la difusión como la difusión de un olor o la contaminación en el aire.
 
 Por ejemplo, si cada parcela tuviera una variable de *contaminación* que registrara qué tan contaminado estaba ese parcela, podrías usar (como observador, no dentro de un bloque `ask patches`)` difuse heat 0.5` y cada parcela la haría igualmente distribuir la mitad de su calor a sus 8 vecinos circundantes. Cada vecino obtendría 1/8 de la 1/2 del calor original, lo que haría que el calor de cada vecino aumentara pero el calor de la parcela original se redujera a la mitad.
 

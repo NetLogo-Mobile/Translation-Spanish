@@ -1,4 +1,5 @@
-﻿`any?` se usa para determinar si hay al menos un agente dentro de un conjunto de agentes determinado. Si los hay, devolverá **verdadero**; de lo contrario, devolverá **falso**.
+﻿*** Machine Translated
+`any?` se usa para determinar si hay al menos un agente dentro de un conjunto de agentes determinado. Si los hay, devolverá **verdadero**; de lo contrario, devolverá **falso**.
 
 Por ejemplo, el siguiente código repetiría la ejecución del `go` de forma repetida siempre que haya al menos 1 tortuga en el modelo. Si, digamos, hubiera muchas tortugas pero pudieran `die` , el modelo se detendría cuando todas las tortugas se mueren. 
 

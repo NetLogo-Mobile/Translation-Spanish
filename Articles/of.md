@@ -1,4 +1,5 @@
-﻿`of` es una primitiva que te permite acceder a un agente y extraer el valor de alguna variable que posee. Normalmente, se accede a las variables del agente (como `color`, `size`, `shape`, así como las variables definidas con los `<agent>-own`) dentro de un contexto de agente, es decir, dentro de un `ask turtles [...]` o `ask patches [...]` bloque. `of` le permitirá llegar a esas variables fuera de dicho bloque, o obtener todos los valores para cada agente en un conjunto de agentes de una sola vez.
+﻿*** Machine Translated
+`of` es una primitiva que te permite acceder a un agente y extraer el valor de alguna variable que posee. Normalmente, se accede a las variables del agente (como `color`, `size`, `shape`, así como las variables definidas con los `<agent>-own`) dentro de un contexto de agente, es decir, dentro de un `ask turtles [...]` o `ask patches [...]` bloque. `of` le permitirá llegar a esas variables fuera de dicho bloque, o obtener todos los valores para cada agente en un conjunto de agentes de una sola vez.
 
 `of` se usa con un reportero dentro de un `[]` bloque, como:
 

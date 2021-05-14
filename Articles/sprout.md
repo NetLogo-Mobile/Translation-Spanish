@@ -1,4 +1,5 @@
-﻿`Sprout` crea nuevas tortugas a partir de la parcela actual y se debe usar dentro de un contexto `ask patches [...]` Toma la forma de:
+﻿*** Machine Translated
+`Sprout` crea nuevas tortugas a partir de la parcela actual y se debe usar dentro de un contexto `ask patches [...]` Toma la forma de:
 
  ```sprout number-of-turtles [ optional-commands ]```
 

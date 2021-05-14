@@ -1,4 +1,5 @@
-﻿`one-of` se usa para seleccionar aleatoriamente solo un agente de un conjunto de agentes o una lista. Toma la forma de:
+﻿*** Machine Translated
+`one-of` se usa para seleccionar aleatoriamente solo un agente de un conjunto de agentes o una lista. Toma la forma de:
 
 ```one-of <agentset/list> ```
 

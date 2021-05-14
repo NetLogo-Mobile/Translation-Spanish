@@ -1,4 +1,5 @@
-﻿`repeat` te permite ejecutar cualquier conjunto de comandos *n* cantidad de veces. Toma la forma de:
+﻿*** Machine Translated
+`repeat` te permite ejecutar cualquier conjunto de comandos *n* cantidad de veces. Toma la forma de:
 
 ```repeat n [ commands ] ```
 

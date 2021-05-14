@@ -1,4 +1,5 @@
-﻿`Turtles-here` devuelve el **conjunto de agentes** de todas las tortugas en la parcela de la persona que llama, incluido él mismo si la persona que llama es una tortuga. Por ejemplo, 
+﻿*** Machine Translated
+`Turtles-here` devuelve el **conjunto de agentes** de todas las tortugas en la parcela de la persona que llama, incluido él mismo si la persona que llama es una tortuga. Por ejemplo, 
 
 ```
 create-turtles 3 

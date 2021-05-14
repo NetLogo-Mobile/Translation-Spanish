@@ -1,3 +1,4 @@
-﻿`face` hace que una tortuga cambie su rumbo para apuntar hacia una parcela específica u otra tortuga. Por ejemplo, `ask turtles [face patch 0 0]` convierte a todas las tortugas en un modelo para que miren hacia el centro del modelo.
+﻿*** Machine Translated
+`face` hace que una tortuga cambie su rumbo para apuntar hacia una parcela específica u otra tortuga. Por ejemplo, `ask turtles [face patch 0 0]` convierte a todas las tortugas en un modelo para que miren hacia el centro del modelo.
 
 En el ejemplo de modelo a continuación, tenemos una persona y una mariposa. La persona está tratando de atrapar a la mariposa, mientras que la mariposa está tratando de huir de la persona. Usamos la primitiva `face` para hacer que la persona se vuelva hacia la mariposa con cada tic antes de acercarse un paso más a la mariposa. También usamos la primitiva `face` para hacer que la mariposa gire en la dirección opuesta haciendo que mire a la persona primero y luego gire 180 grados (y agregue un poco de aleatoriedad para simular el vuelo de la mariposa) en cada tic antes de moverse 1 un paso adelante.

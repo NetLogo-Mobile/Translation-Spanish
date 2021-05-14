@@ -1,4 +1,5 @@
-﻿`distance` es una primitiva de tortuga y parcela que informa la distancia más corta entre el agente actual y otro agente proporcionado. Por ejemplo, el siguiente código haría que las tortugas que están lo suficientemente cerca de la parcela central (0,0) avancen un paso, pero si su distancia al centro es de 5 o más, no se moverán.
+﻿*** Machine Translated
+`distance` es una primitiva de tortuga y parcela que informa la distancia más corta entre el agente actual y otro agente proporcionado. Por ejemplo, el siguiente código haría que las tortugas que están lo suficientemente cerca de la parcela central (0,0) avancen un paso, pero si su distancia al centro es de 5 o más, no se moverán.
 
 ```
 ask turtles [

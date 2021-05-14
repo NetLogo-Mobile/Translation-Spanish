@@ -1,4 +1,5 @@
-﻿`To` se usa para comenzar un procedimiento de comando. Puedes pensar en `to` como una forma de definir un conjunto de acciones/verbos para NetLogo, como `to go`, `to add-money`, etc. Puedes usar estos procedimientos en cualquier parte del código. **Nota**: Necesitas poner `end` al final del procedimiento para que funcione. ¡Los procedimientos también se pueden llamar desde botones! Por ejemplo, el uso de botón de `go` (el que se encuentra en la pestaña Interfaz) ejecuta el procedimiento creado como ir ... terminar. Ahora vamos a ver eso en acción. 
+﻿*** Machine Translated
+`To` se usa para comenzar un procedimiento de comando. Puedes pensar en `to` como una forma de definir un conjunto de acciones/verbos para NetLogo, como `to go`, `to add-money`, etc. Puedes usar estos procedimientos en cualquier parte del código. **Nota**: Necesitas poner `end` al final del procedimiento para que funcione. ¡Los procedimientos también se pueden llamar desde botones! Por ejemplo, el uso de botón de `go` (el que se encuentra en la pestaña Interfaz) ejecuta el procedimiento creado como ir ... terminar. Ahora vamos a ver eso en acción. 
 
 ```
 to setup

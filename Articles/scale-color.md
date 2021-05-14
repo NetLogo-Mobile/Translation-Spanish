@@ -1,4 +1,5 @@
-﻿`scale-color` es una primitiva que informa un tono de un color proporcional al valor de un número dado. Por ejemplo, en un modelo de tráfico, se podría usar `scale-color` para colorear los carros con un tanque lleno de gasolina más brillantes que aquellos con un tanque de gasolina más vacío, o, en un modelo de un rebaño de ovejas, colorear áreas más frondosas de pasto más brillantes que los que ya se han comido.
+﻿*** Machine Translated
+`scale-color` es una primitiva que informa un tono de un color proporcional al valor de un número dado. Por ejemplo, en un modelo de tráfico, se podría usar `scale-color` para colorear los carros con un tanque lleno de gasolina más brillantes que aquellos con un tanque de gasolina más vacío, o, en un modelo de un rebaño de ovejas, colorear áreas más frondosas de pasto más brillantes que los que ya se han comido.
 
 En la práctica, usas el `scale-color` así:
 

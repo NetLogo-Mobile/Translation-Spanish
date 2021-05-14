@@ -1,4 +1,5 @@
-﻿`layout-circle` es un elemento primitivo que mueve un conjunto de tortugas a un círculo espaciado uniformemente de un radio determinado. Por ejemplo:
+﻿*** Machine Translated
+`layout-circle` es un elemento primitivo que mueve un conjunto de tortugas a un círculo espaciado uniformemente de un radio determinado. Por ejemplo:
 
 
 

@@ -1,4 +1,5 @@
-﻿`breed` es una primitiva especial que solo se puede colocar en la parte superior de una pestaña de código de netlogo. Usando la `breed`, puedes definir tipos personalizados o *razas* de tortugas. Es más útil cuando tienes diferentes grupos de tortugas que necesitan tener su propio comportamiento y quieres tener una manera fácil de hacer referencia a cada grupo dentro de tu código.
+﻿*** Machine Translated
+`breed` es una primitiva especial que solo se puede colocar en la parte superior de una pestaña de código de netlogo. Usando la `breed`, puedes definir tipos personalizados o *razas* de tortugas. Es más útil cuando tienes diferentes grupos de tortugas que necesitan tener su propio comportamiento y quieres tener una manera fácil de hacer referencia a cada grupo dentro de tu código.
 
 Para crear un nuevo tipo de tortugas, usa la primitiva `breed` seguida de un corchete de apertura `[` , la versión plural de la raza, un espacio, la versión singular de la raza y un corchete de cierre `]` . Por ejemplo, `breed [dogs dog]`, `breed [buildings building]` y `breed [cars car]`.
 

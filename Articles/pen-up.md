@@ -1,17 +1,20 @@
 ﻿*** Machine Translated
-`Pen-down` (abreviado como `pd` ) se usa para rastrear los movimientos de las tortugas. El color de la pluma es el mismo que el color de la tortuga. Mientras que la `pen-down` comienza a rastrear, la `pen-up` (abreviado a `pu` ) deja de rastrear el movimiento de una tortuga. Piense en la `pen-up` y `pen-down` como una pluma en el vientre de una tortuga; `pen-down` baja el bolígrafo al suelo, dejando una marca en su camino, mientras que `pen-up` tira del bolígrafo hacia arriba, sin marcar más el suelo. `Pen-down` y `pen-up` son primitivas que se usan solo con tortugas. Por ejemplo, `ask turtles [ pen-down]` que comiencen a dibujar líneas a partir del movimiento de las tortugas, y `ask turtles [ pen-up]` que ya no sigan el movimiento. (El `Pen-down` , `pen-up` y `pen-erase` son equivalentes a configurar el `pen-mode` la tortuga en `down` , `up` o `erase` )
+`pen-up` (versión corta `pu` ) se utiliza para dejar de rastrear los movimientos de las tortugas. El color del bolígrafo es el mismo que el color de la tortuga. Mientras que la `pen-up` deja de rastrear, la `pen-down` (versión corta de `pd` ) comienza a rastrear el movimiento de una tortuga.
 
-El siguiente código haría que las tortugas dibujen cuadrados y luego se muevan a una ubicación aleatoria sin dejar rastro:
-
-
-    ask turtles [
-    pen-down
-    repeat 4 [ forward 10 right 90 ]
-    pen-up
-    setxy random-xcor random-ycor
-    ]
+Piense en la `pen-up` y `pen-down` como una pluma en el vientre de una tortuga; `pen-down` baja el bolígrafo al suelo, dejando una marca en su camino, mientras que `pen-up` tira del bolígrafo hacia arriba, sin marcar más el suelo. `Pen-down` y `pen-up` son primitivas que se usan solo con tortugas. Por ejemplo, si quisiéramos que nuestras tortugas dibujaran un cuadrado, escribiríamos el siguiente código:
 
 
-`Pen-erase` (abreviado como `pe` ) borra las líneas dibujadas previamente cuando la tortuga pasa sobre ellas. Piense en ello como un borrador en el vientre de la tortuga.
 
-En el siguiente modelo, un avión está volando. Dependiendo del procedimiento seleccionado, el avión simplemente volará (usando el `pen-up` ), volará dejando un rastro (usando el `pen-down` ) o volará mientras borra las líneas pasadas (usando `pen-erase` ).
+```
+ask turtles [
+	pen-down
+	repeat 4 [
+		right 90
+		forward 5
+	]
+	pen-up
+]
+```
+
+
+En el siguiente modelo, un avión vuela entre dos destinos míticos: Atlantis y Valhalla. Mientras vuela, deja un rastro detrás de él si el `draw-path?` el interruptor está encendido. Cada vez que un avión llega a un destino y gira, también cambia su color, lo que lleva a un nuevo color de ruta. Si la `draw-path?` el interruptor está apagado, nuestro avión toma su bolígrafo y deja de dibujar. También usamos la `clear-drawing` claro para borrar todos los trazados dibujados anteriormente cuando el `draw-path?` el interruptor está apagado. Tenga en cuenta que `clear-drawing` es una primitiva solo para el observador, por lo que lo usamos fuera de la declaración `ask turtles`

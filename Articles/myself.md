@@ -1,4 +1,5 @@
-﻿Aunque `self` y `myself` parecen similares, se usan en situaciones diferentes y no se deben confundir. `Myself` se usa cuando un agente necesita referirse a sí mismo mientras intenta dirigirse a un agente o conjunto de agentes diferente dentro de un `ask` o un informador (por ejemplo, de, con). Por ejemplo, si deseas que la puerta de una casa abra su puerta solo cuando una persona tenga el código de acceso correcto, puedes escribir 
+﻿*** Machine Translated
+Aunque `self` y `myself` parecen similares, se usan en situaciones diferentes y no se deben confundir. `Myself` se usa cuando un agente necesita referirse a sí mismo mientras intenta dirigirse a un agente o conjunto de agentes diferente dentro de un `ask` o un informador (por ejemplo, de, con). Por ejemplo, si deseas que la puerta de una casa abra su puerta solo cuando una persona tenga el código de acceso correcto, puedes escribir 
 
 ```
 ask person 1 [ 

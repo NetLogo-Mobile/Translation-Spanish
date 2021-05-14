@@ -1,4 +1,5 @@
-﻿Un **informador** es algo que devuelve un valor y, a diferencia de un comando, no puede ser un elemento de código independiente. NetLogo tiene algunos reporteros integrados útiles que no se pueden cambiar directamente, como `ticks`, `pi`, `e`, `world-width` y `world-height`. Por ejemplo, no podemos simplemente escribir `ticks` en el código. Necesitamos usar tics en algún otro algoritmo como: `if ticks > 9 [ wake-up ]` o `let world-area (world-width * world-height)`.
+﻿*** Machine Translated
+Un **informador** es algo que devuelve un valor y, a diferencia de un comando, no puede ser un elemento de código independiente. NetLogo tiene algunos reporteros integrados útiles que no se pueden cambiar directamente, como `ticks`, `pi`, `e`, `world-width` y `world-height`. Por ejemplo, no podemos simplemente escribir `ticks` en el código. Necesitamos usar tics en algún otro algoritmo como: `if ticks > 9 [ wake-up ]` o `let world-area (world-width * world-height)`.
 
 Otras primitivas que usamos para filtrar conjuntos de agentes o manipular listas como `of`, `with`, `sort-on` y `word` son reporteros.
 

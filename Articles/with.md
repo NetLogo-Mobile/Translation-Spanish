@@ -1,4 +1,5 @@
-﻿`With` se usa para delimitar un conjunto de agentes, generalmente **parcelas** o **tortugas**, al dirigirse a un grupo específico de agentes que tienen una determinada característica. El uso de `with` se dirigirá solo a los agentes del conjunto que coincidan con la característica determinada. Su sintaxis es:
+﻿*** Machine Translated
+`With` se usa para delimitar un conjunto de agentes, generalmente **parcelas** o **tortugas**, al dirigirse a un grupo específico de agentes que tienen una determinada característica. El uso de `with` se dirigirá solo a los agentes del conjunto que coincidan con la característica determinada. Su sintaxis es:
 
 ```agentset with [ desired-characteristic ] ```
 

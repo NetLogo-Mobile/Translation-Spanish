@@ -1,4 +1,5 @@
-﻿`ifelse-value` es una primitiva que nos permite verificar rápidamente y concisamente una serie de condiciones y elegir un valor en consecuencia. Esta primitiva nos ayuda a no escribir muchas declaraciones "if" o "ifelse" consecutivas.
+﻿*** Machine Translated
+`ifelse-value` es una primitiva que nos permite verificar rápidamente y concisamente una serie de condiciones y elegir un valor en consecuencia. Esta primitiva nos ayuda a no escribir muchas declaraciones "if" o "ifelse" consecutivas.
 
 
 

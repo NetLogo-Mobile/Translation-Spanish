@@ -1,4 +1,5 @@
-﻿`patch-ahead` informa la parcela única que es la distancia dada *por delante* de esta tortuga. Puedes pensar en ella como la tortuga mirando una parcela frente a ella. La sintaxis de `patch-ahead` es
+﻿*** Machine Translated
+`patch-ahead` informa la parcela única que es la distancia dada *por delante* de esta tortuga. Puedes pensar en ella como la tortuga mirando una parcela frente a ella. La sintaxis de `patch-ahead` es
 
 ``patch-ahead distance ``
 

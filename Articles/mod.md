@@ -1,4 +1,5 @@
-﻿El `mod` primitivo completa la **operación de módulo** , que toma dos números, los divide y devuelve el resto. El resto de `(number1 / number2)` es el valor informado. Su sintaxis es:
+﻿*** Machine Translated
+El `mod` primitivo completa la **operación de módulo** , que toma dos números, los divide y devuelve el resto. El resto de `(number1 / number2)` es el valor informado. Su sintaxis es:
 
 ``` number1 mod number2 ```
 

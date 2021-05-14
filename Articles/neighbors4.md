@@ -1,4 +1,5 @@
-﻿`neighbors` se usa para informar un conjunto de agentes que contiene las ocho parcelas circundantes del agente en las direcciones norte, noreste, este, sureste, este, suroeste, oeste y noroeste. Tanto las tortugas como las parcelas pueden usar este reportero. Por ejemplo, para poner en rojo las parcelas vecinos de la tortuga 1, diríamos:
+﻿*** Machine Translated
+`neighbors` se usa para informar un conjunto de agentes que contiene las ocho parcelas circundantes del agente en las direcciones norte, noreste, este, sureste, este, suroeste, oeste y noroeste. Tanto las tortugas como las parcelas pueden usar este reportero. Por ejemplo, para poner en rojo las parcelas vecinos de la tortuga 1, diríamos:
 
 ```ask turtle 1 [ ```
 

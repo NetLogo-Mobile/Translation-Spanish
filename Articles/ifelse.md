@@ -1,4 +1,5 @@
-﻿`ifelse` se usa para definir dos conjuntos de reglas que deben seguir las tortugas condicionalmente: un conjunto si una condición proporcionada es *cierto* y otro conjunto si la condición es *falso*. Para hacerlo, usamos el siguiente formato: `ifelse condition (s) [...] [...]`.
+﻿*** Machine Translated
+`ifelse` se usa para definir dos conjuntos de reglas que deben seguir las tortugas condicionalmente: un conjunto si una condición proporcionada es *cierto* y otro conjunto si la condición es *falso*. Para hacerlo, usamos el siguiente formato: `ifelse condition (s) [...] [...]`.
 
 
 

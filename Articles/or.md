@@ -1,4 +1,5 @@
-﻿`or` es una primitiva que se usa para verificar si *alguna* de las dos condiciones es cierto. Dadas dos verificaciones, o declaraciones de cierto o falso, `or` informará **Cierto** si 1) la primera es cierto, 2) la segunda es cierta o 3) ambas son ciertas. Solo informará **Falso** solo si *ambas* condiciones son falsas. Por ejemplo, digamos que tenía un cerdo y quería que comiera la comida en su parcela, sin importar si era comida para animales o para humanos. Podrías modelar eso con
+﻿*** Machine Translated
+`or` es una primitiva que se usa para verificar si *alguna* de las dos condiciones es cierto. Dadas dos verificaciones, o declaraciones de cierto o falso, `or` informará **Cierto** si 1) la primera es cierto, 2) la segunda es cierta o 3) ambas son ciertas. Solo informará **Falso** solo si *ambas* condiciones son falsas. Por ejemplo, digamos que tenía un cerdo y quería que comiera la comida en su parcela, sin importar si era comida para animales o para humanos. Podrías modelar eso con
 
 ````ask pigs [ ```
 

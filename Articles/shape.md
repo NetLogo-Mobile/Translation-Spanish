@@ -1,4 +1,5 @@
-﻿`shape` es una tortuga y una variable de enlace que representa la forma de un agente. Nuevos tortugas y se crean vínculos con el valor por defecto formas correspondientes, y se pueden cambiar usando `set shape “shape-name”` formato dentro de un `ask` contexto para cambiar las tortugas o Enlaces formas. También puede usar `shape` como reportero, como cualquier otra característica del agente, como 
+﻿*** Machine Translated
+`shape` es una tortuga y una variable de enlace que representa la forma de un agente. Nuevos tortugas y se crean vínculos con el valor por defecto formas correspondientes, y se pueden cambiar usando `set shape “shape-name”` formato dentro de un `ask` contexto para cambiar las tortugas o Enlaces formas. También puede usar `shape` como reportero, como cualquier otra característica del agente, como 
 
 ```
 ask turtles [ 

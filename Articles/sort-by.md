@@ -1,4 +1,5 @@
-﻿`sort-by` te permite ordenar listas o conjuntos de agentes mediante una comparación definida por el usuario. Aunque la `sort-by` funciona tanto en conjuntos de agentes como en listas, para clasificar conjuntos de agentes casi siempre querrás usar la `sort-on` porque es mucho más fácil de usar. `sort-by` se usa mejor en la circunstancia específica de que está ordenando una lista y necesita un control muy específico de cómo se ordenan los elementos de esa lista.
+﻿*** Machine Translated
+`sort-by` te permite ordenar listas o conjuntos de agentes mediante una comparación definida por el usuario. Aunque la `sort-by` funciona tanto en conjuntos de agentes como en listas, para clasificar conjuntos de agentes casi siempre querrás usar la `sort-on` porque es mucho más fácil de usar. `sort-by` se usa mejor en la circunstancia específica de que está ordenando una lista y necesita un control muy específico de cómo se ordenan los elementos de esa lista.
 
 Como ejemplo de cómo usar la `sort-by`, considera el ejemplo de clasificación de una lista de cadenas de acuerdo con su longitud: 
 

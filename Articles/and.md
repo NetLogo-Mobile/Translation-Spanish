@@ -1,4 +1,5 @@
-﻿`and` es un primitivo que nos permite combinar dos declaraciones verdadero-falso en una sola declaración que es verdadera *si y solo si* ambas declaraciones son verdaderas.
+﻿*** Machine Translated
+`and` es un primitivo que nos permite combinar dos declaraciones verdadero-falso en una sola declaración que es verdadera *si y solo si* ambas declaraciones son verdaderas.
 
 
 

@@ -1,4 +1,5 @@
-﻿`sort-on` te permite clasificar los agentes en un conjunto de agentes. Los agentes se ordenan en función de alguna variable de agente elegida por el usuario o un informador arbitrario. Su sintaxis es:
+﻿*** Machine Translated
+`sort-on` te permite clasificar los agentes en un conjunto de agentes. Los agentes se ordenan en función de alguna variable de agente elegida por el usuario o un informador arbitrario. Su sintaxis es:
 
 ```sort-on [ variable-or-reporter ] agentset ```
 

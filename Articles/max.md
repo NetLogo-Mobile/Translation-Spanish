@@ -1,10 +1,16 @@
 ﻿*** Machine Translated
-`Max` informa el valor máximo en una lista determinada. Por ejemplo, `show max [1 2 3]` devolverá 3. `Max` se usa comúnmente en una variable específica de un conjunto de agentes, que se vería así:
+`max` informa el valor máximo en una lista determinada. Por ejemplo, `show max [14 -2 7]` reportaría 14. `max` se usa comúnmente para encontrar un agente específico dentro de un conjunto de agentes. Por ejemplo, si quisiéramos crear un modelo de división celular y tener la celda más grande para dividir por la mitad en cada tic, escribiríamos el siguiente código:
 
-`max [variable] of agentset`
 
-Entonces, para colocar la tortuga o tortugas más grandes en un modelo blanco, diríamos:
 
-`ask turtles with max [size] of turtles [ set color white ]`
+```
+ask cells [
+	if size = max [size] of cells [
+		set size (size / 2)
+		hatch 1
+	]
+]
+```
 
-En el modelo siguiente, hay un grupo de personas que están envejeciendo. Queremos realizar un seguimiento de quién es el mayor, por lo que usamos `max` para cambiar el color de la persona mayor.
+
+En el ejemplo de modelo a continuación, tenemos algunas personas que representan una economía absurdamente simple. En cada tic, una tortuga elegida al azar ejecuta un intercambio al elegir otra tortuga al azar y darle a esa tortuga 5 de su dinero. Este intercambio se representa con un vínculo temporal entre las dos tortugas. Usamos `max` para cambiar el color de la tortuga más rica a azul. También usamos `min` para cambiar el color de la tortuga más pobre a rojo.

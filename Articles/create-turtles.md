@@ -1,4 +1,5 @@
-﻿`create-turtles` es una primitiva que crea un número dado de tortugas nuevas en el modelo. Estas nuevas tortugas se colocan en el centro del modelo con la misma forma predeterminada pero con colores y encabezados aleatorios. La versión abreviada de este primitivo es `crt`. por ejemplo, `create-turtles 100`.
+﻿*** Machine Translated
+`create-turtles` es una primitiva que crea un número dado de tortugas nuevas en el modelo. Estas nuevas tortugas se colocan en el centro del modelo con la misma forma predeterminada pero con colores y encabezados aleatorios. La versión abreviada de este primitivo es `crt`. por ejemplo, `create-turtles 100`.
 
 
 

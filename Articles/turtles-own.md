@@ -1,4 +1,5 @@
-﻿`Turtles-own` define variables que pertenecen a todas las tortugas en un modelo. Las variables suelen ser un rasgo o aspecto específico de la tortuga, como *tiene hambre?* o *energía*. Su sintaxis es:
+﻿*** Machine Translated
+`Turtles-own` define variables que pertenecen a todas las tortugas en un modelo. Las variables suelen ser un rasgo o aspecto específico de la tortuga, como *tiene hambre?* o *energía*. Su sintaxis es:
 
 ```turtles-own [ variable1 variable2 ... ]```
 

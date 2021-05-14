@@ -1,4 +1,5 @@
-﻿`facexy` hace que una tortuga cambie su dirección (`heading`) para apuntar hacia una coordenada dada (x, y). Por ejemplo, `ask turtles [facexy 0 0]` convierte a todas las tortugas en un modelo para que miren hacia el centro del modelo.
+﻿*** Machine Translated
+`facexy` hace que una tortuga cambie su dirección (`heading`) para apuntar hacia una coordenada dada (x, y). Por ejemplo, `ask turtles [facexy 0 0]` convierte a todas las tortugas en un modelo para que miren hacia el centro del modelo.
 
 Cosas para tener en mente cuando usas `facexy`:
 

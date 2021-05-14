@@ -1,4 +1,5 @@
-﻿`ask` es una de las primitivas fundamentales en NetLogo. Nos permite *pedirle a* uno o más agentes (es decir, tortugas, enlaces, parcelas) que sigan un conjunto de reglas proporcionado. Cuando `ask` se usa con más de un agente, cada agente tomará su turno en un orden aleatorio.
+﻿*** Machine Translated
+`ask` es una de las primitivas fundamentales en NetLogo. Nos permite *pedirle a* uno o más agentes (es decir, tortugas, enlaces, parcelas) que sigan un conjunto de reglas proporcionado. Cuando `ask` se usa con más de un agente, cada agente tomará su turno en un orden aleatorio.
 
 Por ejemplo, el siguiente código haría que todas las tortugas en un modelo avanzaran una unidad y todos los parches en un modelo rosa. 
 

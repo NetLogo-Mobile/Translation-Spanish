@@ -1,4 +1,5 @@
-﻿`Count` es una primitiva que devuelve el número de agentes en un conjunto de agentes específico. Por ejemplo, `count turtles` mostraría el número total de tortugas en un modelo, mientras que `count turtles with [color = green]` mostraría el número de tortugas verdes en el modelo. Puedes usar `count` con tortugas, parcelas, y enlaces.
+﻿*** Machine Translated
+`Count` es una primitiva que devuelve el número de agentes en un conjunto de agentes específico. Por ejemplo, `count turtles` mostraría el número total de tortugas en un modelo, mientras que `count turtles with [color = green]` mostraría el número de tortugas verdes en el modelo. Puedes usar `count` con tortugas, parcelas, y enlaces.
 
 También puedes usar `count` con razas de tortugas y razas de enlaces como `count dogs` o en combinación con otras primitivas agentes reporteros como `count turtles-here`.
 

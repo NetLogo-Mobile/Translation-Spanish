@@ -1,4 +1,5 @@
-﻿`in-cone` es una primitiva que nos ayuda a simular un "cono de visión" frente a una tortuga. Nos permite modelar a un agente que tiene alguna vista u otro sentido frente a ellos, pero no detrás o al lado de ellos.
+﻿*** Machine Translated
+`in-cone` es una primitiva que nos ayuda a simular un "cono de visión" frente a una tortuga. Nos permite modelar a un agente que tiene alguna vista u otro sentido frente a ellos, pero no detrás o al lado de ellos.
 
 El cono se construye con dos entradas: qué tan lejos puede ver el agente (*radio*) y qué tan ancho puede ver el agente (*grados entre 0 y 360*). Por ejemplo, si quisiéramos comer unos conejos si hubiera zanahorias delante de ellos, pero no detrás ni a los lados, podríamos escribir el siguiente código:
 
