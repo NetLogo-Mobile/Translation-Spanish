@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+  <Categories>
+    <String ID="电学" Status="1" English="Circuit">Circuito</String>
+    <String ID="天体物理" Status="1" English="Astrophysics">Astrofísica</String>
+    <String ID="电与磁" Status="1" English="Electromagnets">Electroimanes</String>
+    <String ID="基础电路" Status="1" English="Basic">Básico</String>
+    <String ID="仪器仪表" Status="1" English="Meters">Metros</String>
+    <String ID="家庭电路" Status="1" English="Home &amp; Power">Hogar y energía</String>
+    <String ID="模拟电路" Status="1" English="Analog">Cosa análoga</String>
+    <String ID="逻辑电路" Status="1" English="Digital">Digital</String>
+    <String ID="演示元件" Status="1" English="Demo">Manifestación</String>
+    <String ID="行星" Status="1" English="Planet">Planeta</String>
+    <String ID="恒星" Status="1" English="Star">Estrella</String>
+    <String ID="卫星" Status="1" English="Satellite">Satélite</String>
+    <String ID="小行星" Status="1" English="Asteroid">Asteroide</String>
+    <String ID="彗星" Status="1" English="Comet">Cometa</String>
+    <String ID="航天器" Status="1" English="Spacecraft">Astronave</String>
+    <String ID="静电场" Status="1" English="Electrostatic">Electrostático</String>
+    <String ID="静磁场" Status="1" English="Magnetostatic">Magnetostático</String>
+    <String ID="黑色导线" Status="1" English="Black wire">Alambre negro</String>
+    <String ID="蓝色导线" Status="1" English="Blue wire">Alambre azul</String>
+    <String ID="黄色导线" Status="1" English="Yellow wire">Alambre amarillo</String>
+    <String ID="红色导线" Status="1" English="Red wire">cable rojo</String>
+    <String ID="绿色导线" Status="1" English="Green wire">Alambre verde</String>
+    <String ID="即将来临" Status="1" English="Coming Soon">Próximamente</String>
+  </Categories>
+  <Components>
+    <String ID="水星" Status="1" English="Mercury">Mercurio</String>
+    <String ID="金星" Status="1" English="Venus">Venus</String>
+    <String ID="地球" Status="1" English="Earth">Tierra</String>
+    <String ID="火星" Status="1" English="Mars">marzo</String>
+    <String ID="木星" Status="1" English="Jupiter">Júpiter</String>
+    <String ID="土星" Status="1" English="Saturn">Saturno</String>
+    <String ID="太阳" Status="1" English="Sun">Dom</String>
+    <String ID="月球" Status="1" English="Moon">Luna</String>
+    <String ID="天王星" Status="1" English="Uranus">Urano</String>
+    <String ID="海王星" Status="1" English="Neptune">Neptuno</String>
+    <String ID="冥王星" Status="1" English="Pluto">Plutón</String>
+    <String ID="幻想恒星" Status="1" English="Fantasy star">Estrella de fantasía</String>
+    <String ID="黑洞" Status="1" English="Black hole">Calabozo</String>
+    <String ID="巧克力球" Status="1" English="Chocolate ball">Bola de chocolate</String>
+    <String ID="仙人球" Status="1" English="Cactus">Cactus</String>
+    <String ID="随机行星" Status="1" English="Random Planet">Planeta aleatorio</String>
+    <String ID="大陆行星" Status="1" English="Continental Planet">Planeta continental</String>
+    <String ID="封冻行星" Status="1" English="Frozen Planet">Planeta congelado</String>
+    <String ID="干旱行星" Status="1" English="Arid Planet">Planeta árido</String>
+    <String ID="贫瘠行星" Status="1" English="Barren Planet">Planeta estéril</String>
+    <String ID="沙漠行星" Status="1" English="Desert Planet">Planeta del desierto</String>
+    <String ID="丛林行星" Status="1" English="Jungle Planet">Jungle Planet</String>
+    <String ID="剧毒行星" Status="1" English="Toxic Planet">Planeta tóxico</String>
+    <String ID="熔岩行星" Status="1" English="Lava planet">Planeta de lava</String>
+    <String ID="海洋行星" Status="1" English="Ocean Planet">Ocean Planet</String>
+    <String ID="蓝巨星" Status="1" English="Blue Giant">Gigante azul</String>
+    <String ID="红巨星" Status="1" English="Red Giant">Gigante rojo</String>
+    <String ID="红矮星" Status="1" English="Red Dwarf">Enano Rojo</String>
+    <String ID="白矮星" Status="1" English="White Dwarf">Enano blanco</String>
+    <String ID="中子星" Status="1" English="Neutron Star">Estrella neutrón</String>
+    <String ID="脉冲星" Status="1" English="Pulsar">Pulsar</String>
+    <String ID="负电荷" Status="1" English="Negative charge">Carga negativa</String>
+    <String ID="负试验电荷" Status="1" English="Negative test charge">Carga de prueba negativa</String>
+    <String ID="正电荷" Status="1" English="Positive charge">Carga positiva</String>
+    <String ID="正试验电荷" Status="1" English="Positive test charge">Carga de prueba positiva</String>
+    <String ID="匀强磁场" Status="1" English="Uniform magnetic field">Campo magnético uniforme</String>
+    <String ID="条形磁铁" Status="1" English="Bar magnet">Barra magnética</String>
+    <String ID="马蹄磁铁" Status="1" English="Horseshoe magnet">Imán de herradura</String>
+    <String ID="简单开关" Status="1" English="Simple switch">Interruptor simple</String>
+    <String ID="一节电池" Status="1" English="Battery">Batería</String>
+    <String ID="白炽灯泡" Status="1" English="Light bulb">Bombilla</String>
+    <String ID="学生电源" Status="1" English="Student source">Fuente del estudiante</String>
+    <String ID="滑动变阻器" Status="1" English="Sliding rheostat">Reóstato deslizante</String>
+    <String ID="直流安培表" Status="1" English="DC Ammeter">Amperímetro DC</String>
+    <String ID="直流电压表" Status="1" English="DC Voltmeter">Voltímetro DC</String>
+    <String ID="电阻箱" Status="1" English="Resistance box">Caja de resistencia</String>
+    <String ID="定值电阻" Status="1" English="Fixed resistance">Resistencia fija</String>
+    <String ID="微安表" Status="1" English="Micro-ammeter">Microamperímetro</String>
+    <String ID="灵敏电流计" Status="1" English="Galvanometer">Galvanómetro</String>
+    <String ID="单刀双掷开关" Status="1" English="Single pole double throw switch">Interruptor monopolar de doble tiro</String>
+    <String ID="双刀双掷开关" Status="1" English="Double pole double throw switch">Interruptor bipolar de doble tiro</String>
+    <String ID="电阻定律实验" Status="1" English="Resistivity">Resistividad</String>
+    <String ID="万用表" Status="1" English="Multimeter">Multímetro</String>
+    <String ID="二极管" Status="1" English="Diode">Diodo</String>
+    <String ID="电容" Status="1" English="Capacitance">Capacidad</String>
+    <String ID="电感" Status="1" English="Inductance">Inductancia</String>
+    <String ID="小电扇" Status="1" English="Electric fan">Ventilador eléctrico</String>
+    <String ID="理想互感" Status="1" English="Mutual inductance">Inductancia mutua</String>
+    <String ID="逻辑输出" Status="1" English="Logic output">Salida lógica</String>
+    <String ID="逻辑输入" Status="1" English="Logic input">Entrada lógica</String>
+    <String ID="是门" Status="1" English="YES gate">SÍ puerta</String>
+    <String ID="非门" Status="1" English="NO gate">SIN puerta</String>
+    <String ID="与门" Status="1" English="AND gate">Y puerta</String>
+    <String ID="或门" Status="1" English="OR gate">Puerta OR</String>
+    <String ID="或非门" Status="1" English="NOR gate">Puerta NOR</String>
+    <String ID="异或门" Status="1" English="XOR gate">Puerta XOR</String>
+    <String ID="同或门" Status="1" English="XNOR gate">Puerta XNOR</String>
+    <String ID="与非门" Status="1" English="NAND gate">Puerta NAND</String>
+    <String ID="蕴含门" Status="1" English="IMP gate">Puerta IMP</String>
+    <String ID="蕴含非门" Status="1" English="NIMP gate">Puerta NIMP</String>
+    <String ID="继电器" Status="1" English="Relay">Relé</String>
+    <String ID="按钮开关" Status="1" English="Push Switch">Pulsador</String>
+    <String ID="接地元件" Status="1" English="Ground">Suelo</String>
+    <String ID="三极管" Status="1" English="Transistor">Transistor</String>
+    <String ID="中心抽头变压器" Status="1" English="Tapped transformer">Transformador roscado</String>
+    <String ID="火花隙" Status="1" English="Spark gap">Espacio de chispa</String>
+    <String ID="特斯拉线圈" Status="1" English="Tesla coil">bobina de Tesla</String>
+    <String ID="发光二极管" Status="1" English="LED">LED</String>
+    <String ID="彩色发光二极管" Status="1" English="Color LED">LED de color</String>
+    <String ID="演示发光二极管" Status="1" English="LED Demo">Demostración LED</String>
+    <String ID="理想变压器" Status="1" English="Transformer">Transformador</String>
+    <String ID="全波整流器" Status="1" English="Rectifier">Rectificador</String>
+    <String ID="保险丝" Status="1" English="Fuse">Fusible</String>
+    <String ID="电能表" Status="1" English="Electricity meter">Medidor de electricidad</String>
+    <String ID="电铃" Status="1" English="Electric bell">Timbre electrico</String>
+    <String ID="八音盒" Status="1" English="Music box">Caja de música</String>
+    <String ID="空气开关" Status="1" English="Air switch">Interruptor del aire</String>
+    <String ID="通电螺线管" Status="1" English="Solenoid">Solenoide</String>
+    <String ID="灯塔实验" Status="1" English="Lighthouse">Faro</String>
+    <String ID="蜂鸣器" Status="1" English="Buzzer">Zumbador</String>
+    <String ID="方波发生器" Status="1" English="Square wave generator">Generador de ondas cuadradas</String>
+    <String ID="三角波发生器" Status="1" English="Triangle wave generator">Generador de ondas triangulares</String>
+    <String ID="锯齿波发生器" Status="1" English="Sawtooth generator">Generador de dientes de sierra</String>
+    <String ID="脉冲波发生器" Status="1" English="Pulse wave generator">Generador de ondas de pulso</String>
+    <String ID="正弦波发生器" Status="1" English="Sine wave generator">Generador de onda sinusoidal</String>
+    <String ID="全加器" Status="1" English="Full adder">Sumador completo</String>
+    <String ID="半加器" Status="1" English="Half adder">Media víbora</String>
+    <String ID="二位乘法器" Status="1" English="Two-digit multiplier">Multiplicador de dos dígitos</String>
+    <String ID="比较器" Status="1" English="Comparator">Comparador</String>
+    <String ID="计数器" Status="1" English="Counter">Mostrador</String>
+    <String ID="随机数发生器" Status="1" English="Random generator">Generador aleatorio</String>
+    <String ID="JK 触发器" Status="1" English="JK flip-flop">Chanclas JK</String>
+    <String ID="T 触发器" Status="1" English="T flip-flop">T flip-flop</String>
+    <String ID="D 触发器" Status="1" English="D flip-flop">Chanclas D</String>
+    <String ID="运算放大器" Status="1" English="Operational amplifier">Amplificador operacional</String>
+    <String ID="指南针" Status="1" English="Compass">Brújula</String>
+    <String ID="555 定时器" Status="1" English="555 timer">555 horas</String>
+    <String ID="施密特触发器" Status="1" English="Schmitt trigger">Schmitt Trigger</String>
+  </Components>
+  <Properties>
+    <String ID="电路状态" Status="1" English="Circuit State">Estado del circuito</String>
+    <String ID="电学性质" Status="1" English="Circuit Properties">Propiedades del circuito</String>
+    <String ID="尚未通电" Status="1" English="Not Powered">No alimentado</String>
+    <String ID="电荷性质" Status="1" English="Charge Property">Cargo de propiedad</String>
+    <String ID="磁体性质" Status="1" English="Magnet Properties">Propiedades del imán</String>
+    <String ID="运动状态" Status="1" English="Motion State">Estado de movimiento</String>
+    <String ID="绝对速度" Status="1" English="Velocity (Absolute)">Velocidad (absoluta)</String>
+    <String ID="解除锁定" Status="1" English="Unlock">desbloquear</String>
+    <String ID="天体数据" Status="1" English="Celestial characteristics">Características celestiales</String>
+    <String ID="相对速度" Status="1" English="Velocity (Relative)">Velocidad (relativa)</String>
+    <String ID="开普勒轨道" Status="1" English="Kepler orbit">Órbita de kepler</String>
+    <String ID="预测轨道" Status="1" English="Orbit estimation">Estimación de órbita</String>
+    <String ID="电流" Status="1" English="Current">Actual</String>
+    <String ID="电压" Status="1" English="Voltage">voltaje</String>
+    <String ID="功率" Status="1" English="Power">Poder</String>
+    <String ID="增益" Status="1" English="Gain">Ganancia</String>
+    <String ID="常闭" Status="1" English="NC contact">Contacto NC</String>
+    <String ID="常开" Status="1" English="NO contact">Sin contacto</String>
+    <String ID="线圈" Status="1" English="Coil">Bobina</String>
+    <String ID="吸合" Status="1" English="Pickup">Recoger</String>
+    <String ID="状态" Status="1" English="Status">Estado</String>
+    <String ID="电荷强度" Status="1" English="Charge intensity">Intensidad de carga</String>
+    <String ID="低电平" Status="1" English="Low Level">Nivel bajo</String>
+    <String ID="高电平" Status="1" English="High Level">Nivel alto</String>
+    <String ID="相位" Status="1" English="Phase">Fase</String>
+    <String ID="偏移" Status="1" English="Offset">Compensar</String>
+    <String ID="速度" Status="1" English="Speed">Velocidad</String>
+    <String ID="加速度" Status="1" English="Acceleration">Aceleración</String>
+    <String ID="内阻" Status="1" English="Internal Resistance">Resistencia interna</String>
+    <String ID="电阻" Status="1" English="Resistance">Resistencia</String>
+    <String ID="长度" Status="1" English="Length">Longitud</String>
+    <String ID="半径" Status="1" English="Radius">Radio</String>
+    <String ID="强度" Status="1" English="Strength">Fuerza</String>
+    <String ID="额定" Status="1" English="Rated">Calificado</String>
+    <String ID="直流" Status="1" English="DC">corriente continua</String>
+    <String ID="交流" Status="1" English="AC">C.A.</String>
+    <String ID="熔断" Status="1" English="Fuse">Fusible</String>
+    <String ID="滑块" Status="1" English="Slider">Deslizador</String>
+    <String ID="未连接" Status="1" English="Disconnected">Desconectado</String>
+    <String ID="耐压" Status="1" English="Peak Voltage">Voltaje pico</String>
+    <String ID="等效" Status="1" English="Equivalent">Equivalente</String>
+    <String ID="初级" Status="1" English="Primary">Primario</String>
+    <String ID="次级" Status="1" English="Secondary">Secundario</String>
+    <String ID="耦合" Status="1" English="Coupling">Acoplamiento</String>
+    <String ID="维持" Status="1" English="Holding">Participación</String>
+    <String ID="示数" Status="1" English="Number">Número</String>
+    <String ID="红色" Status="1" English="Red">rojo</String>
+    <String ID="绿色" Status="1" English="Green">Verde</String>
+    <String ID="蓝色" Status="1" English="Blue">Azul</String>
+    <String ID="总计" Status="1" English="Total">Total</String>
+    <String ID="输出" Status="1" English="Output">Salida</String>
+    <String ID="输入" Status="1" English="Input">Entrada</String>
+    <String ID="最大值 {0}" Status="1" English="Max {0}">{0} máx.</String>
+    <String ID="最小值 {0}" Status="1" English="Min {0}">Mín. {0}</String>
+    <String ID="镍铬" Status="1" English="Nichrome">Nicromo</String>
+    <String ID="锰铜" Status="1" English="Manganin">Manganina</String>
+    <String ID="纯铜" Status="1" English="Copper">Cobre</String>
+    <String ID="动能" Status="1" English="Kinetic energy">Energía cinética</String>
+    <String ID="幅度" Status="1" English="Magnitude">Magnitud</String>
+    <String ID="匝数" Status="1" English="Turns">Vueltas</String>
+    <String ID="周期" Status="1" English="Cycle">Ciclo</String>
+    <String ID="质量" Status="1" English="Mass">Masa</String>
+    <String ID="密度" Status="1" English="Density">Densidad</String>
+    <String ID="自转周期" Status="1" English="Rotation period">Período de rotación</String>
+    <String ID="重力加速度" Status="1" English="Gravity acceleration">Aceleración por gravedad</String>
+    <String ID="离心率" Status="1" English="Eccentricity">Excentricidad</String>
+    <String ID="半长轴" Status="1" English="Semi-major">Semi-mayor</String>
+    <String ID="近日点" Status="1" English="Perihelion">Perihelio</String>
+    <String ID="远日点" Status="1" English="Aphelion">Afelio</String>
+    <String ID="真近点角" Status="1" English="True anomaly">Verdadera anomalía</String>
+    <String ID="轨道倾角" Status="1" English="Inclination">Inclinación</String>
+    <String ID="近心点幅角" Status="1" English="Periapsis">Periapsis</String>
+    <String ID="升交点经度" Status="1" English="RAAN">RAAN</String>
+    <String ID="额定电阻" Status="1" English="Rated resistance">Resistencia nominal</String>
+    <String ID="左侧电压" Status="1" English="Left voltage">Voltaje izquierdo</String>
+    <String ID="右侧电压" Status="1" English="Right voltage">Voltaje correcto</String>
+    <String ID="左侧电流" Status="1" English="Left current">Corriente izquierda</String>
+    <String ID="右侧电流" Status="1" English="Right current">Corriente correcta</String>
+    <String ID="左侧功率" Status="1" English="Left power">Poder izquierdo</String>
+    <String ID="右侧功率" Status="1" English="Right power">Poder correcto</String>
+    <String ID="滑块位置" Status="1" English="Slider position">Posición del control deslizante</String>
+    <String ID="瞬间电压" Status="1" English="Transient voltage">Voltaje transitorio</String>
+    <String ID="有效电压" Status="1" English="Effective voltage">Voltaje efectivo</String>
+    <String ID="最小电压" Status="1" English="Minimum voltage">Voltaje mínimo</String>
+    <String ID="最大电压" Status="1" English="Maximum voltage">Voltaje maximo</String>
+    <String ID="增益系数" Status="1" English="Gain">Ganancia</String>
+    <String ID="瞬间电流" Status="1" English="Transient current">Corriente transitoria</String>
+    <String ID="有效电流" Status="1" English="Effective current">Corriente efectiva</String>
+    <String ID="瞬间功率" Status="1" English="Transient power">Poder transitorio</String>
+    <String ID="有效功率" Status="1" English="Effective power">Poder efectivo</String>
+    <String ID="额定电压" Status="1" English="Rated voltage">Voltaje nominal</String>
+    <String ID="额定功率" Status="1" English="Rated power">Potencia nominal</String>
+    <String ID="量程" Status="1" English="Range">Rango</String>
+    <String ID="次级电压" Status="1" English="Secondary voltage">Voltaje secundario</String>
+    <String ID="击穿电压" Status="1" English="Breakdown voltage">Cortocircuito</String>
+    <String ID="初级电感" Status="1" English="1st inductance">1a inductancia</String>
+    <String ID="次级电感" Status="1" English="2nd inductance">2da inductancia</String>
+    <String ID="次级等效电容" Status="1" English="Secondary capacitance">Capacitancia secundaria</String>
+    <String ID="波形幅度" Status="1" English="Waveform amplitude">Amplitud de forma de onda</String>
+    <String ID="直流偏移" Status="1" English="DC offset">Desplazamiento DC</String>
+    <String ID="初始相位" Status="1" English="Initial phase">Fase inicial</String>
+    <String ID="波形频率" Status="1" English="Waveform frequency">Frecuencia de forma de onda</String>
+    <String ID="输出电压" Status="1" English="Output voltage">Tensión de salida</String>
+    <String ID="输出电流" Status="1" English="Output current">Corriente de salida</String>
+    <String ID="输出功率" Status="1" English="Output power">Potencia de salida</String>
+    <String ID="最大功率" Status="1" English="Maximum power">Poder maximo</String>
+    <String ID="交流相位" Status="1" English="AC phase">Fase AC</String>
+    <String ID="交流频率" Status="1" English="AC frequency">Frecuencia AC</String>
+    <String ID="直流电流" Status="1" English="DC current">Corriente continua</String>
+    <String ID="直流功率" Status="1" English="DC power">Energía DC</String>
+    <String ID="交流电流" Status="1" English="AC current">Corriente alterna</String>
+    <String ID="交流电压" Status="1" English="AC voltage">voltaje de corriente alterna</String>
+    <String ID="直流电压" Status="1" English="DC voltage">Voltaje DC</String>
+    <String ID="输入电压" Status="1" English="Input voltage">Voltaje de entrada</String>
+    <String ID="输入电流" Status="1" English="Input Current">Corriente de entrada</String>
+    <String ID="输入功率" Status="1" English="Input power">Potencia de entrada</String>
+    <String ID="耦合系数" Status="1" English="Coupling coefficient">Coeficiente de acoplamiento</String>
+    <String ID="额定电流" Status="1" English="Rated current">Corriente nominal</String>
+    <String ID="前向压降" Status="1" English="Forward drop">Caída hacia adelante</String>
+    <String ID="初级电压" Status="1" English="Primary voltage">Tensión primaria</String>
+    <String ID="初级电流" Status="1" English="Primary current">Corriente primaria</String>
+    <String ID="初级功率" Status="1" English="Primary power">Poder primario</String>
+    <String ID="次级电流" Status="1" English="Secondary current">Corriente secundaria</String>
+    <String ID="次级功率" Status="1" English="Secondary power">Poder secundario</String>
+    <String ID="现实电表" Status="1" English="Realistic meter">Medidor realista</String>
+    <String ID="占空比" Status="1" English="Duty cycle">Ciclo de trabajo</String>
+    <String ID="B(基极)" Status="1" English="Base">Base</String>
+    <String ID="C(集电极)" Status="1" English="Collector">Coleccionista</String>
+    <String ID="E(发射极)" Status="1" English="Emitter">Emisor</String>
+    <String ID="放大系数" Status="1" English="Gain">Ganancia</String>
+    <String ID="阈值电压" Status="1" English="Threshold voltage">Voltaje umbral</String>
+    <String ID="模式" Status="1" English="Mode">Modo</String>
+    <String ID="维持电流" Status="1" English="Hold current">Mantener actual</String>
+    <String ID="击穿电阻" Status="1" English="Breakdown resistance">Resistencia a la rotura</String>
+    <String ID="吸合电流" Status="1" English="Pull-in current">Corriente de entrada</String>
+    <String ID="线圈电感" Status="1" English="Coil inductance">Inductancia de la bobina</String>
+    <String ID="线圈电阻" Status="1" English="Coil resistance">Resistencia de la bobina</String>
+    <String ID="金属丝半径" Status="1" English="Wire radius">Radio del alambre</String>
+    <String ID="金属丝长度" Status="1" English="Wire length">Longitud de cable</String>
+    <String ID="切割速度" Status="1" English="Cutting speed">Velocidad cortante</String>
+    <String ID="线圈匝数" Status="1" English="Coil number">Número de bobina</String>
+    <String ID="磁通量" Status="1" English="Magnetic flux">Flujo magnético</String>
+    <String ID="内线圈电压" Status="1" English="Inner coil voltage">Voltaje de la bobina interna</String>
+    <String ID="外线圈电压" Status="1" English="Outer coil voltage">Voltaje de la bobina exterior</String>
+    <String ID="工作电压" Status="1" English="Operating voltage">Tensión de funcionamiento</String>
+    <String ID="工作电流" Status="1" English="Working current">Corriente de trabajo</String>
+    <String ID="熔断电流" Status="1" English="Fuse current">Fusible actual</String>
+    <String ID="实时电阻" Status="1" English="Actual resistance">Resistencia real</String>
+    <String ID="火线" Status="1" English="Fire line">Línea de fuego</String>
+    <String ID="零线" Status="1" English="Neutral line">Línea neutra</String>
+    <String ID="供电" Status="1" English="Power">Poder</String>
+    <String ID="放电" Status="1" English="Discharge">Descarga</String>
+    <String ID="阈值" Status="1" English="Threshold">Límite</String>
+    <String ID="控制" Status="1" English="Control">Controlar</String>
+    <String ID="触发" Status="1" English="Trigger">Desencadenar</String>
+    <String ID="重设" Status="1" English="Reset">Reiniciar</String>
+    <String ID="接地" Status="1" English="Ground">Suelo</String>
+    <String ID="高电准位" Status="1" English="High level">Nivel alto</String>
+    <String ID="正向阈值" Status="1" English="High threshold">Umbral alto</String>
+    <String ID="低电准位" Status="1" English="Low level">Nivel bajo</String>
+    <String ID="负向阈值" Status="1" English="Low threshold">Umbral bajo</String>
+    <String ID="切变速率" Status="1" English="Slew rate">Velocidad de subida</String>
+    <String ID="反相模式" Status="1" English="Inverted mode">Modo invertido</String>
+    <String ID="天体光度" Status="1" English="Luminosity">Luminosidad</String>
+    <String ID="有效温度" Status="1" English="Effective temperature">Temperatura efectiva</String>
+    <String ID="平衡温度" Status="1" English="Equilibrium temperature">Temperatura de equilibrio</String>
+    <String ID="球面反照率" Status="1" English="Bond albedo">Bond albedo</String>
+    <String ID="洛希极限" Status="1" English="Roche limit">Limitar roca</String>
+    <String ID="负荷扭矩" Status="1" English="Load torque">Par de carga</String>
+    <String ID="马达电感" Status="1" English="Motor inductance">Inductancia del motor</String>
+    <String ID="马达常数" Status="1" English="Motor constant">Constante del motor</String>
+    <String ID="反电动势系数" Status="1" English="Back EMF coefficient">Coeficiente EMF trasero</String>
+    <String ID="粘性摩擦系数" Status="1" English="Viscous friction coefficient">Coeficiente de fricción viscoso</String>
+    <String ID="转速" Status="1" English="Rotating speed">Velocidad de rotación</String>
+    <String ID="摩擦扭矩" Status="1" English="Friction torque">Torque de fricción</String>
+    <String ID="角速度" Status="1" English="Angular velocity">Velocidad angular</String>
+    <String ID="反电动势" Status="1" English="Back EMF">EMF trasero</String>
+    <String ID="转动惯量" Status="1" English="Moment of inertia">Momento de inercia</String>
+  </Properties>
+  <Calculators>
+    <String ID="电感计算器" Status="1" English="Inductance calculator">Calculadora de inductancia</String>
+    <String ID="螺旋电感" Status="1" English="Single layer solenoid">Solenoide de una capa</String>
+    <String ID="相关参数" Status="1" English="Related parameters">Parámetros relacionados</String>
+    <String ID="相对磁导率" Status="1" English="Relative permeability">Permeabilidad relativa</String>
+    <String ID="环绕半径" Status="1" English="Mean radius">Radio medio</String>
+    <String ID="线圈高度" Status="1" English="Height (length)">Altitud longitud)</String>
+    <String ID="横截面积" Status="1" English="Cross-sectional area">Área de sección transversal</String>
+    <String ID="Nagaoka 系数" Status="1" English="Nagaoka coefficient">Coeficiente de Nagaoka</String>
+    <String ID="电阻计算器" Status="1" English="Resistance calculator">Calculadora de resistencia</String>
+    <String ID="导线电阻" Status="1" English="Wire resistance">Resistencia del alambre</String>
+    <String ID="电阻率" Status="1" English="Resistivity">Resistividad</String>
+    <String ID="导线半径" Status="1" English="Wire radius">Radio del alambre</String>
+    <String ID="导线长度" Status="1" English="Wire length">Longitud de cable</String>
+  </Calculators>
+  <Application>
+    <String ID="物理实验室" Status="1" English="Physics Lab">Laboratorio de física</String>
+    <String ID="版本 {0}" Status="1" English="Version {0}">Versión {0}</String>
+    <String ID="清空桌面" Status="1" English="Empty desktop">Escritorio vacío</String>
+    <String ID="电学设置" Status="1" English="Circuit Settings">Configuración del circuito</String>
+    <String ID="天体设置" Status="1" English="Celestial Settings">Configuración celestial</String>
+    <String ID="电与磁设置" Status="1" English="Electromagnets">Electroimanes</String>
+    <String ID="电子流动" Status="1" English="Show Electrons">Mostrar electrones</String>
+  </Application>
+  <Samples>
+    <String ID="太阳系" Status="1" English="Solar System">Sistema solar</String>
+    <String ID="星际空间" Status="1" English="Interstellar">Interestelar</String>
+    <String ID="等量异种电荷" Status="1" English="Opposite Charges">Cargos opuestos</String>
+    <String ID="等量同种电荷" Status="1" English="Same Charges">Mismos Cargos</String>
+    <String ID="内太阳系" Status="1" English="Inner Solar">Solar interior</String>
+    <String ID="外太阳系" Status="1" English="External Solar">Solar externo</String>
+    <String ID="地月系" Status="1" English="Earth-Moon">Tierra-Luna</String>
+    <String ID="木星系" Status="1" English="Jupiter System">Sistema de Júpiter</String>
+    <String ID="双星系统" Status="1" English="Binary System">Sistema binario</String>
+    <String ID="虚构星系" Status="1" English="Fictional System">Sistema ficticio</String>
+    <String ID="双曲线轨道" Status="1" English="Hyperbolic Orbit">Órbita hiperbólica</String>
+    <String ID="电容和电感" Status="1" English="Capacitance n Inductance">Capacitancia n Inductancia</String>
+    <String ID="科洛7" Status="1" English="Colo 7">Colo 7</String>
+    <String ID="延时灯" Status="1" English="Delayed lamp">Lámpara retardada</String>
+    <String ID="对称电荷" Status="1" English="Symmetric charges">Cargas simétricas</String>
+    <String ID="三足鼎立" Status="1" English="Triple charges">Cargas triples</String>
+    <String ID="施密特触发器基础用法" Status="1" English="Usage of schmidt trigger">Uso del disparador schmidt</String>
+    <String ID="555 计时器的使用" Status="1" English="Usage of 555 timers">Uso de 555 temporizadores</String>
+  </Samples>
+  <Messages>
+    <String ID="（已烧毁）" Status="1" English="(Burnt)">(Quemado)</String>
+    <String ID="您需要 Android 5 以上系统以进入电路图模式。" Status="1" English="You need Android 5 or above to enter the diagram mode.">Necesita Android 5 o superior para ingresar al modo de diagrama.</String>
+    <String ID="过分复杂的电路可能无法转换。" Status="1" English="Overly complex circuits may not be converted.">Es posible que los circuitos demasiado complejos no se conviertan.</String>
+    <String ID="撤销动作" Status="1" English="Undo action">Deshacer acción</String>
+    <String ID="进入电路图" Status="1" English="Enter the diagram">Entrar en el diagrama</String>
+    <String ID="转换回实验" Status="1" English="Switch back to experiment">Volver al experimento</String>
+    <String ID="只有导线和元件增减可以撤销。" Status="1" English="Only the addition and removal of wires and components can be undone.">Solo se puede deshacer la adición y eliminación de cables y componentes.</String>
+    <String ID="{0} 已经被 {1} 吸收合并了！" Status="1" English="{0} has been absorbed by {1}!">{0} ha sido absorbido por {1}.</String>
+  </Messages>
+  <Tutorial>
+    <String ID="实验教程" Status="1" English="Tutorial">Tutorial</String>
+    <String ID="退出教程" Status="1" English="Exit Tutorial">Salir del tutorial</String>
+    <String ID="拖动位置" Status="1" English="Drag">Arrastrar</String>
+    <String ID="单击选中" Status="1" English="Tap">Grifo</String>
+    <String ID="进入新手教程" Status="1" English="Enter Tutorial">Entrar en el tutorial</String>
+    <String ID="双指缩放" Status="1" English="Pinch">Pellizco</String>
+    <String ID="双指旋转" Status="1" English="Rotate">Girar</String>
+    <String ID="基本操作手势" Status="1" English="Common Gestures">Gestos comunes</String>
+    <String ID="您将了解如何创建一个自定义星系。\n首先，点击工具栏中的地球。" Status="1" English="In this tutorial you will learn how to create a custom system. First, click on Earth in the toolbox.">En este tutorial aprenderá a crear un sistema personalizado. Primero, haga clic en Tierra en la caja de herramientas.</String>
+    <String ID="点击【现实轨道】按钮来放置地球。" Status="1" English="Click the [Realistic Orbit] button to place the Earth.">Haga clic en el botón [Órbita realista] para colocar la Tierra.</String>
+    <String ID="点击刚刚放置的地球来选中它。" Status="1" English="Click on the Earth you just placed to select it.">Haga clic en la Tierra que acaba de colocar para seleccionarla.</String>
+    <String ID="黄色箭头指示地球的受力方向和大小。\n红色箭头指示地球的速度方向和大小。\n尝试拖动红色箭头来调整地球轨道。" Status="1" English="Yellow arrow indicates the acceleration, while red one represents the velocity. Drag the red arrow to adjust its orbit.">La flecha amarilla indica la aceleración, mientras que la roja representa la velocidad. Arrastre la flecha roja para ajustar su órbita.</String>
+    <String ID="小卡片中实时显示地球的运动数据。\n点击编辑按钮，展开大卡片。" Status="1" English="Small card shows basic concepts of the earth. Click the Edit button to expand.">La tarjeta pequeña muestra los conceptos básicos de la tierra. Haga clic en el botón Editar para expandir.</String>
+    <String ID="在大卡片中了解和调整更多天体参数。\n点击阴影位置，继续教程……" Status="1" English="View and edit more parameters here. Tap the screen and continue...">Vea y edite más parámetros aquí. Toque la pantalla y continúe ...</String>
+    <String ID="你也可以创建完全虚构的星系。\n试着将大陆行星拖动到星空之中。" Status="1" English="You can also create fictional galaxies. Drag a continential planet into the space.">También puedes crear galaxias ficticias. Arrastra un planeta continental al espacio.</String>
+    <String ID="祝贺你！点击阴影部分完成教程。\n我们将不断引入更多天体现象和现实数据库。" Status="1" English="Tap the screen to complete the tutorial. We will continue to introduce more features here.">Toque la pantalla para completar el tutorial. Continuaremos presentando más funciones aquí.</String>
+    <String ID="祝贺你成功完成了新手教程！\n尽情体验物理实验的奥秘吧……" Status="1" English="Congratulations on finishing the tutorial! Try to explore more in Physics Lab...">¡Felicitaciones por terminar el tutorial! Intenta explorar más en Physics Lab ...</String>
+    <String ID="开始实验" Status="1" English="Start experiment">Iniciar experimento</String>
+    <String ID="来自全球物理爱好者的作品" Status="1" English="Works from global enthusiasts">Obras de entusiastas globales</String>
+    <String ID="创作属于自己的物理实验" Status="1" English="Create your own physical experiment">Crea tu propio experimento físico</String>
+    <String ID="浏览热门实验" Status="1" English="Browse the forum">Navegar por el foro</String>
+    <String ID="您将学习如何连接一个简单电路。\n首先，将简单开关拖动到桌面上。" Status="1" English="You will learn to connect a simple circuit. First, drag a simple switch to the desktop.">Aprenderá a conectar un circuito simple. Primero, arrastre un simple interruptor al escritorio.</String>
+    <String ID="点击刚刚放置的开关来选中它。" Status="1" English="Click on the switch you just placed to select it.">Haga clic en el interruptor que acaba de colocar para seleccionarlo.</String>
+    <String ID="拖动接线柱到电池的红色接线柱上。\n这样，开关和电池就连接起来了。" Status="1" English="Drag the terminal to the red terminal of the battery. This way, the switch and the battery are connected.">Arrastre el terminal al terminal rojo de la batería. De esta manera, el interruptor y la batería están conectados.</String>
+    <String ID="再将另一个接线柱拖动到灯泡的黑色接线柱上，连接开关和灯泡。" Status="1" English="Drag another terminal to the black terminal of the lamp to connect them.">Arrastre otro terminal al terminal negro de la lámpara para conectarlos.</String>
+    <String ID="电路已经连接好了。\n现在，再次选中开关。" Status="1" English="The circuit has been connected. Now, click the switch again.">El circuito se ha conectado. Ahora, vuelva a hacer clic en el interruptor.</String>
+    <String ID="开关可以通过旁边的按钮进行控制。\n按下开关闸刀，看看会发生什么……" Status="1" English="The switch can be controlled by the button next to it. Now press the button...">El interruptor se puede controlar con el botón junto a él. Ahora presione el botón ...</String>
+    <String ID="如灯泡没有点亮，说明导线连接有误。\n不论如何，请再次点击灯泡。" Status="1" English="You may connect incorrectly if the light isn't lit. Click on the light bulb anyway.">Puede conectarse incorrectamente si la luz no está encendida. Haga clic en la bombilla de todos modos.</String>
+    <String ID="小卡片展示了灯泡的核心信息。\n点击编辑按钮，展开大卡片。" Status="1" English="Small card shows core parameters of it. Click the Edit button to expand.">La tarjeta pequeña muestra los parámetros básicos de la misma. Haga clic en el botón Editar para expandir.</String>
+    <String ID="在大卡片中调整参数或查看波形。\n点击阴影位置完成教程……" Status="1" English="Adjust parameters or view waveforms here. Tap the screen and continue...">Ajuste los parámetros o vea las formas de onda aquí. Toque la pantalla y continúe ...</String>
+    <String ID="添加元件" Status="1" English="Create">Crear</String>
+    <String ID="将元件添加到实验中" Status="1" English="Add a component">Agregar un componente</String>
+    <String ID="实验菜单" Status="1" English="Menu">Menú</String>
+    <String ID="保存、读取或发布实验" Status="1" English="Save, read, or publish">Guardar, leer o publicar</String>
+    <String ID="分享实验" Status="1" English="Share">Compartir</String>
+    <String ID="分享你的实验" Status="1" English="Share your experiment">Comparte tu experimento</String>
+    <String ID="AR 模式" Status="1" English="AR">CON</String>
+    <String ID="在现实场景中体验实验" Status="1" English="Put simulation in real-life">Pon la simulación en la vida real</String>
+    <String ID="电路图" Status="1" English="Diagram">Diagrama</String>
+    <String ID="将实验转换到电路图" Status="1" English="Convert to circuit diagram">Convertir a diagrama de circuito</String>
+    <String ID="暂停/继续" Status="1" English="Pause/Play">Pausa / Reproducir</String>
+    <String ID="控制模拟实验的状态" Status="1" English="Control simulation status">Control del estado de la simulación</String>
+    <String ID="实验速度" Status="1" English="Speed">Velocidad</String>
+    <String ID="调整实验的模拟速度" Status="1" English="Adjust simulation speed">Ajustar la velocidad de simulación</String>
+    <String ID="跳过教程" Status="1" English="Skip tutorial">Saltar tutorial</String>
+    <String ID="是否不再显示本类实验的操作教程？你可以在设置界面重新启用。" Status="1" English="Do you want to skip the tutorials? You may re-enable it in settings.">¿Quieres saltarte los tutoriales? Puede volver a habilitarlo en la configuración.</String>
+  </Tutorial>
+  <Contexts>
+    <String ID="元件 {0} 已被烧毁！" Status="1" English="{0} has been burned!">¡{0} se ha quemado!</String>
+    <String ID="{0} 等 {1} 个元件已被烧毁！" Status="1" English="{1} components, including {0}, have been burned!">Se han quemado {1} componentes, incluido {0}.</String>
+    <String ID="模拟效率不足，精度暂时下降至每秒 {2} 轮。" Status="1" English="Simulation too slow. Accuracy drops to {2} rounds/s.">Simulación demasiado lenta. La precisión cae a {2} rondas / s.</String>
+    <String ID="模拟出现错误，请分享到 BUG 标签下。" Status="1" English="An error occurs in the simulation. Please share it under the BUG tab.">Se produce un error en la simulación. Compártelo en la pestaña ERROR.</String>
+    <String ID="星球 {0} 因为过高的温度熔化了！" Status="1" English="The surface of {0} melted!">¡La superficie de {0} se derritió!</String>
+    <String ID="星球 {0} 的冰层融化蒸发，化为一片荒芜！" Status="1" English="The ice of the planet {0} melts and evaporates!">¡El hielo del planeta {0} se derrite y se evapora!</String>
+    <String ID="星球 {0} 的地表水被蒸发，化为一片沙漠！" Status="1" English="The surface water of the planet {0} is evaporated!">¡El agua de la superficie del planeta {0} se evapora!</String>
+    <String ID="星球 {0} 的地表水被冻结了，成为冰封星球！" Status="1" English="The surface water of the planet {0} is frozen!">¡El agua de la superficie del planeta {0} está congelada!</String>
+    <String ID="天体 {3} 未能逃脱 {2} 的引力，已被吸收合并！" Status="1" English="The {3} failed to escape the gravity of {2} and has been absorbed!">¡El {3} no pudo escapar de la gravedad de {2} y ha sido absorbido!</String>
+    <String ID="天体 {3} 撞击 {2} 表面时发生巨大爆炸！" Status="1" English="An explosion occurred when the {3} hit the surface of {2}!">¡Se produjo una explosión cuando el {3} golpeó la superficie de {2}!</String>
+    <String ID="天体 {3} 被 {2} 的引力撕碎了！" Status="1" English="The {3} was shredded by the gravity of {2}!">¡El {3} fue destrozado por la gravedad de {2}!</String>
+  </Contexts>
+  <Festivals>
+    <String ID="物理实验室祝你愚人节快乐！" Status="1" English="Happy April Fool's Day!">¡Feliz Día de los Inocentes!</String>
+  </Festivals>
+</Strings>

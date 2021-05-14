@@ -43,7 +43,7 @@
       <Japanese>{Users} からコメントがありました。</Japanese>
       <Italian>{Users} ti ha menzionato nel commento.</Italian>
       <Polish>{Users} wspomnieli o Tobie w komentarzu.</Polish>
-      <Spanish>{Users} te mencionó en un comentario.</Spanish>
+      <Spanish>{Users} te mencionaron en un comentario.</Spanish>
     </Subject>
     <Content>
       <Chinese>{$Content}</Chinese>
@@ -74,7 +74,7 @@
       <Japanese>{Users} があなたの {Experiment} にコメントしました。</Japanese>
       <Italian>{Users} ha commentato il tuo {Experiment}.</Italian>
       <Polish>{Users} skomentowali Twój {Experiment}.</Polish>
-      <Spanish>{Users} comentó en su {Experimento}.</Spanish>
+      <Spanish>{Users} comentaron su {Experiment}.</Spanish>
     </Subject>
     <Content>
       <Chinese>{$Content}</Chinese>
@@ -105,7 +105,7 @@
       <Japanese>{Users} があなたの {Experiment} にコメントしました。</Japanese>
       <Italian>{Users} ha commentato il tuo {Experiment}.</Italian>
       <Polish>{Users} skomentowali Twój {Experiment}.</Polish>
-      <Spanish>{Users} comentó en su {Experimento}.</Spanish>
+      <Spanish>{Users} comentaron su {Experiment}.</Spanish>
     </Subject>
     <Content>
       <Chinese>{$Content}</Chinese>
@@ -135,7 +135,7 @@
       <Japanese>{Users} があなたの {Experiment} にコメントしました。</Japanese>
       <Italian>{Users} ha commentato il tuo {Experiment}.</Italian>
       <Polish>{Users} skomentowali Twój {Experiment}.</Polish>
-      <Spanish>{Users} comentó en su {Experimento}.</Spanish>
+      <Spanish>{Users} comentaron su {Experiment}.</Spanish>
     </Subject>
     <Content>
       <Chinese>{$Content}</Chinese>
@@ -166,7 +166,7 @@
       <Japanese>{Users} があなたのホームページにコメントしました。</Japanese>
       <Italian>{Users} ha commentato la tua home page.</Italian>
       <Polish>{Users} skomentowali Twoją stronę główną.</Polish>
-      <Spanish>{Users} comentó en su página inicial.</Spanish>
+      <Spanish>{Users} comentaron en su página de inicio.</Spanish>
     </Subject>
     <Content>
       <Chinese>{$Content}</Chinese>
@@ -197,7 +197,7 @@
       <Japanese>{Users} からあなたのコメントが返信されました。</Japanese>
       <Italian>{Users} ha risposto al tuo commento.</Italian>
       <Polish>{Users} odpowiedzieli na Twój komentarz.</Polish>
-      <Spanish>{Users} respondió a tu comentario.</Spanish>
+      <Spanish>{Users} respondieron tu comentario.</Spanish>
     </Subject>
     <Content>
       <Chinese>{$Content}</Chinese>

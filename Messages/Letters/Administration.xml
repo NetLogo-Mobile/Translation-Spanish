@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+  <Message>
+    <ID>5c91201c890d955280649a45</ID>
+    <Identifier>Letter-Featured</Identifier>
+    <CategoryID>Letter</CategoryID>
+    <Subject>
+      <Chinese>你的作品 {$Experiment} 评为精选！</Chinese>
+      <English>Your work {$Experiment} is featured!</English>
+      <ChineseTraditional>你的作品 {$Experiment} 評為精選！</ChineseTraditional>
+      <German>Ihre Arbeit {$Experiment} wird vorgestellt!</German>
+      <French>Votre travail {$Experiment} est en vedette!</French>
+      <Japanese>あなたの作品 {$Experiment} が紹介されました！</Japanese>
+      <Italian>Il tuo lavoro {$Experiment} è in primo piano!</Italian>
+      <Polish>Twoja praca {$Experiment} jest polecana!</Polish>
+      <Spanish>¡Tu trabajo {$Experiment} está destacado!</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>祝贺你，{$TargetName}！
+你的作品 {$Experiment} 已经被 {Users} 评为精选实验了。精选实验会为你带来更多粉丝，你可以在首页的“精选”栏目看到所有入选的实验。
+为了表彰你对海龟实验室社区的贡献，60 钻石和 500 经验奖励已经发送到你的帐户。你可以用它解锁更多元件！</Chinese>
+      <English>Congratulations, {$TargetName}!
+Your work {$Experiment} has been featured by {Users}. Getting featured may bring you more followers, and we recommend you to visit more featured experiments from the homepage.
+In order to reward your contribution to Turtle Universe community, 60 Diamonds and 500 Experiences has been sent to your account. Unlock more components now!</English>
+      <ChineseTraditional>祝賀你，{$TargetName}！
+你的作品 {$Experiment} 已經被 {Users} 評為精選實驗了。精選實驗會為你帶來更多粉絲，你可以在首頁的“精選”欄目看到所有入選的實驗。
+為了表彰你對海龜實驗室社區的貢獻，60 鑽石和 500 經驗獎勵已經發送到你的帳戶。你可以用它解鎖更多元件！</ChineseTraditional>
+      <German>Herzlichen Glückwunsch, {$ TargetName}!
+Ihre Arbeit {$ Experiment} wurde von {Users} vorgestellt. Wenn Sie vorgestellt werden, erhalten Sie möglicherweise mehr Follower. Wir empfehlen Ihnen, mehr ausgewählte Experimente von der Homepage aus zu besuchen.
+Um Ihren Beitrag zur Turtle Universe-Community zu belohnen, wurden 60 Diamanten und 500 Erfahrungen an Ihr Konto gesendet. Schalte jetzt mehr Komponenten frei!</German>
+      <French>Félicitations, {$ TargetName}!
+Votre travail {$ Experiment} a été présenté par {Users}. La mise en avant peut vous attirer plus d'abonnés, et nous vous recommandons de consulter davantage d'expériences en vedette depuis la page d'accueil.
+Afin de récompenser votre contribution à la communauté Turtle Universe, 60 diamants et 500 expériences ont été envoyés sur votre compte. Débloquez plus de composants maintenant!</French>
+      <Japanese>おめでとうございます、{$ TargetName}！
+あなたの作品{$ Experiment}は{Users}によって紹介されました。注目を集めるとフォロワーが増える可能性があるため、ホームページから注目の実験にアクセスすることをお勧めします。
+Turtle Universeコミュニティへの貢献に報いるために、60個のDiamondsと500個のExperiencesがアカウントに送信されました。今すぐより多くのコンポーネントのロックを解除してください！</Japanese>
+      <Italian>Congratulazioni, {$ TargetName}!
+Il tuo lavoro {$ Experiment} è stato presentato da {Users}. Essere in primo piano può portarti più follower e ti consigliamo di visitare più esperimenti in primo piano dalla home page.
+Per ricompensare il tuo contributo alla comunità di Turtle Universe, 60 diamanti e 500 esperienze sono stati inviati al tuo account. Sblocca più componenti ora!</Italian>
+      <Polish>Gratulacje, {$ TargetName}!
+Twoja praca {$ Experiment} została wyróżniona przez {Users}. Polecenie może przynieść więcej obserwujących, dlatego zalecamy odwiedzanie większej liczby polecanych eksperymentów ze strony głównej.
+Aby nagrodzić twój wkład w społeczność Turtle Universe, 60 Diamentów i 500 Doświadczeń zostało wysłanych na twoje konto. Odblokuj więcej komponentów już teraz!</Polish>
+      <Spanish>¡Felicitaciones, {$ TargetName}!
+Tu trabajo {$ Experiment} ha sido destacado por {Users}. Ser destacado puede traerle más seguidores, y le recomendamos que visite más experimentos destacados desde la página de inicio.
+Para recompensar su contribución a la comunidad de Turtle Universe, se han enviado 60 Diamantes y 500 Experiencias a su cuenta. ¡Desbloquea más componentes ahora!</Spanish>
+    </Content>
+    <Bonuses>
+      <Diamond>60</Diamond>
+      <Experience>500</Experience>
+    </Bonuses>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+  </Message>
+  <Message>
+    <ID>5c99efbf44539c568c1a6bc8</ID>
+    <Identifier>Letter-Editor</Identifier>
+    <CategoryID>Letter</CategoryID>
+    <Subject>
+      <Chinese>给认证编辑的一封信</Chinese>
+      <English>A letter to Editors</English>
+      <ChineseTraditional>給認證編輯的一封信</ChineseTraditional>
+      <German>Ein Brief an die Redakteure</German>
+      <French>Une lettre aux rédacteurs</French>
+      <Japanese>編集者への手紙</Japanese>
+      <Italian>Una lettera agli editori</Italian>
+      <Polish>List do redakcji</Polish>
+      <Spanish>Una carta a los editores</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>{$TargetName}，你好！
+海龟实验室欢迎你的加入。作为认证编辑，现在你有权加入或移除精选实验、编辑实验内容和标签，也有权任命志愿者帮助管理社区。请加入编辑 QQ 群：661842686，方便编辑之间的交流。
+由于入选精选实验会自动发放一些奖励，请不要随意使用你的权限！如果发现存在任何滥用行为，可能会导致你失去编辑身份。</Chinese>
+      <English>Hi, {$TargetName}!
+Turtle Universe warmly welcome you! As an editor, you can now feature or un-feature any experiments according to the regulations, or edit them if applicable. You are also authorized to appoint volunteers to help manage the community.
+Please be cautious to use your permissions! If we found any misuse, it may lead to the deprivation of your editorial identity.</English>
+      <ChineseTraditional>{$TargetName}，你好！
+海龜實驗室歡迎你的加入。作為認證編輯，現在你有權加入或移除精選實驗、編輯實驗內容和標籤，也有權任命志願者幫助管理社區。請加入編輯 QQ 群：661842686，方便編輯之間的交流。
+由於入選精選實驗會自動發放一些獎勵，請不要隨意使用你的權限！如果發現存在任何濫用行為，可能會導致你失去編輯身份。</ChineseTraditional>
+      <German>Hallo, {$ TargetName}!
+Turtle Universe heißt Sie herzlich willkommen! Als Redakteur können Sie jetzt alle Experimente gemäß den Vorschriften kennzeichnen oder deaktivieren oder gegebenenfalls bearbeiten. Sie sind auch berechtigt, Freiwillige zu ernennen, die bei der Verwaltung der Community helfen.
+Bitte seien Sie vorsichtig, wenn Sie Ihre Berechtigungen verwenden! Wenn wir einen Missbrauch feststellen, kann dies zum Entzug Ihrer redaktionellen Identität führen.</German>
+      <French>Bonjour {$ TargetName}!
+Turtle Universe vous souhaite la bienvenue! En tant qu'éditeur, vous pouvez désormais présenter ou désactiver des expériences conformément à la réglementation, ou les modifier le cas échéant. Vous êtes également autorisé à nommer des bénévoles pour aider à gérer la communauté.
+Soyez prudent lorsque vous utilisez vos autorisations! Si nous constatons une utilisation abusive, cela peut conduire à la privation de votre identité éditoriale.</French>
+      <Japanese>こんにちは、{$ TargetName}！
+タートルユニバースがあなたを暖かく歓迎します！編集者は、規制に従って実験をフィーチャーまたはフィーチャー解除したり、該当する場合は編集したりできるようになりました。また、コミュニティの管理を支援するボランティアを任命することも許可されています。
+権限の使用には注意してください。誤用が見つかった場合は、編集者のアイデンティティが剥奪される可能性があります。</Japanese>
+      <Italian>Ciao {$ TargetName}!
+Turtle Universe ti dà un caloroso benvenuto! In qualità di editore, ora puoi mostrare o rimuovere eventuali esperimenti in base alle normative o modificarli se applicabile. Sei anche autorizzato a nominare volontari per aiutare a gestire la comunità.
+Si prega di essere cauti nell'usare le proprie autorizzazioni! Se abbiamo riscontrato un uso improprio, potrebbe portare alla privazione della tua identità editoriale.</Italian>
+      <Polish>Cześć {$ TargetName}!
+Serdecznie witamy w Turtle Universe! Jako redaktor możesz teraz dodawać lub usuwać funkcje eksperymentów zgodnie z przepisami lub edytować je, jeśli ma to zastosowanie. Jesteś również upoważniony do wyznaczania wolontariuszy do pomocy w zarządzaniu społecznością.
+Zachowaj ostrożność, korzystając ze swoich uprawnień! Jeśli wykryjemy nadużycie, może to doprowadzić do pozbawienia Państwa tożsamości redakcyjnej.</Polish>
+      <Spanish>¡Hola, {$ TargetName}!
+¡Turtle Universe te da una calurosa bienvenida! Como editor, ahora puede presentar o quitar los experimentos de acuerdo con las regulaciones, o editarlos si corresponde. También está autorizado a designar voluntarios para ayudar a administrar la comunidad.
+¡Tenga cuidado al utilizar sus permisos! Si encontramos algún uso indebido, puede resultar en la privación de su identidad editorial.</Spanish>
+    </Content>
+    <Bonuses>
+      <Diamond>120</Diamond>
+      <Experience>2000</Experience>
+    </Bonuses>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+  </Message>
+  <Message>
+    <ID>5ed6d3d5e5654e0ec0d0ed7d</ID>
+    <Identifier>Letter-Junior</Identifier>
+    <CategoryID>Letter</CategoryID>
+    <Subject>
+      <Chinese>给见习编辑的一封信</Chinese>
+      <English>A letter to Junior Editors</English>
+      <ChineseTraditional>給見習編輯的一封信</ChineseTraditional>
+      <German>Ein Brief an Junior Editors</German>
+      <French>Une lettre aux rédacteurs en chef juniors</French>
+      <Japanese>ジュニア編集者への手紙</Japanese>
+      <Italian>Una lettera ai redattori junior</Italian>
+      <Polish>List do młodszych redaktorów</Polish>
+      <Spanish>Una carta a los editores junior</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>{$TargetName}，你好！
+海龟实验室欢迎你的加入。作为见习编辑，现在你有权加入或移除精选实验、编辑实验标签。请加入编辑 QQ 群：661842686，方便编辑之间的交流。
+由于入选精选实验会自动发放一些奖励，请不要随意使用你的权限！如果发现存在任何滥用行为，可能会导致你失去编辑身份。</Chinese>
+      <English>Hi, {$TargetName}!
+Turtle Universe warmly welcome you! As a junior editor, you can now feature or un-feature any experiments according to the regulations. You may also re-tag the experiments to help organize the community.
+Please be cautious to use your permissions! If we found any misuse, it may lead to the deprivation of your editorial identity.</English>
+      <ChineseTraditional>{$TargetName}，你好！
+海龜實驗室歡迎你的加入。作為見習編輯，現在你有權加入或移除精選實驗、編輯實驗標籤。請加入編輯 QQ 群：661842686，方便編輯之間的交流。
+由於入選精選實驗會自動發放一些獎勵，請不要隨意使用你的權限！如果發現存在任何濫用行為，可能會導致你失去編輯身份。</ChineseTraditional>
+      <German>Hallo, {$ TargetName}!
+Turtle Universe heißt Sie herzlich willkommen! Als Junior-Redakteur können Sie jetzt alle Experimente gemäß den Vorschriften ein- oder ausblenden. Sie können die Experimente auch neu markieren, um die Community zu organisieren.
+Bitte seien Sie vorsichtig, wenn Sie Ihre Berechtigungen verwenden! Wenn wir einen Missbrauch feststellen, kann dies zum Entzug Ihrer redaktionellen Identität führen.</German>
+      <French>Bonjour {$ TargetName}!
+Turtle Universe vous souhaite la bienvenue! En tant qu'éditeur junior, vous pouvez désormais présenter ou désactiver toutes les expériences conformément à la réglementation. Vous pouvez également renommer les expériences pour aider à organiser la communauté.
+Soyez prudent lorsque vous utilisez vos autorisations! Si nous constatons une utilisation abusive, cela peut conduire à la privation de votre identité éditoriale.</French>
+      <Japanese>こんにちは、{$ TargetName}！
+タートルユニバースがあなたを暖かく歓迎します！ジュニアエディターとして、規制に従って実験をフィーチャーまたはフィーチャー解除できるようになりました。コミュニティを整理するために、実験にタグを付け直すこともできます。
+権限の使用には注意してください。誤用が見つかった場合は、編集者のアイデンティティが剥奪される可能性があります。</Japanese>
+      <Italian>Ciao {$ TargetName}!
+Turtle Universe ti dà un caloroso benvenuto! In qualità di redattore junior, ora puoi mostrare o rimuovere eventuali esperimenti secondo le normative. Puoi anche ricodificare gli esperimenti per aiutare a organizzare la comunità.
+Si prega di essere cauti nell'usare le proprie autorizzazioni! Se abbiamo riscontrato un uso improprio, potrebbe portare alla privazione della tua identità editoriale.</Italian>
+      <Polish>Cześć {$ TargetName}!
+Serdecznie witamy w Turtle Universe! Jako młodszy redaktor możesz teraz dodawać lub wyłączać dowolne eksperymenty zgodnie z przepisami. Możesz także ponownie otagować eksperymenty, aby pomóc w uporządkowaniu społeczności.
+Zachowaj ostrożność, korzystając ze swoich uprawnień! Jeśli wykryjemy nadużycie, może to doprowadzić do pozbawienia Państwa tożsamości redakcyjnej.</Polish>
+      <Spanish>¡Hola, {$ TargetName}!
+¡Turtle Universe te da una calurosa bienvenida! Como editor junior, ahora puede presentar o quitar cualquier experimento de acuerdo con las regulaciones. También puede volver a etiquetar los experimentos para ayudar a organizar la comunidad.
+¡Tenga cuidado al utilizar sus permisos! Si encontramos algún uso indebido, puede resultar en la privación de su identidad editorial.</Spanish>
+    </Content>
+    <Bonuses>
+      <Diamond>60</Diamond>
+      <Experience>1000</Experience>
+    </Bonuses>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+  </Message>
+  <Message>
+    <ID>5ed6d3d6e5654e0ec0d0ed7e</ID>
+    <Identifier>Letter-Volunteer</Identifier>
+    <CategoryID>Letter</CategoryID>
+    <Subject>
+      <Chinese>给志愿者的一封信</Chinese>
+      <English>A letter to Volunteers</English>
+      <ChineseTraditional>給志願者的一封信</ChineseTraditional>
+      <German>Ein Brief an die Freiwilligen</German>
+      <French>Une lettre aux volontaires</French>
+      <Japanese>ボランティアへの手紙</Japanese>
+      <Italian>Una lettera ai volontari</Italian>
+      <Polish>List do wolontariuszy</Polish>
+      <Spanish>Una carta a los voluntarios</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>{$TargetName}，你好！
+海龟实验室欢迎你的加入。作为志愿者，现在你有权移动实验到不同分区。请不要随意使用你的权限！如果发现存在任何滥用行为，可能会导致你失去志愿者身份。请加入志愿者 QQ 群：1045216848，方便进行交流。</Chinese>
+      <English>Hi, {$TargetName}!
+Turtle Universe warmly welcome you! As an volunteer, you can now move contents to experiments or the Black Hole to help organize the community.
+Please be cautious to use your permissions! If we found any misuse, it may lead to the deprivation of your editorial identity.</English>
+      <ChineseTraditional>{$TargetName}，你好！
+海龜實驗室歡迎你的加入。作為志願者，現在你有權移動實驗到不同分區。請不要隨意使用你的權限！如果發現存在任何濫用行為，可能會導致你失去志願者身份。請加入志願者 QQ 群：1045216848，方便進行交流。</ChineseTraditional>
+      <German>Hallo, {$ TargetName}!
+Turtle Universe heißt Sie herzlich willkommen! Als Freiwilliger können Sie jetzt Inhalte in Experimente oder ins Schwarze Loch verschieben, um die Community zu organisieren.
+Bitte seien Sie vorsichtig, wenn Sie Ihre Berechtigungen verwenden! Wenn wir einen Missbrauch feststellen, kann dies zum Entzug Ihrer redaktionellen Identität führen.</German>
+      <French>Bonjour {$ TargetName}!
+Turtle Universe vous souhaite la bienvenue! En tant que bénévole, vous pouvez désormais déplacer le contenu vers des expériences ou le trou noir pour aider à organiser la communauté.
+Soyez prudent lorsque vous utilisez vos autorisations! Si nous constatons une utilisation abusive, cela peut conduire à la privation de votre identité éditoriale.</French>
+      <Japanese>こんにちは、{$ TargetName}！
+タートルユニバースがあなたを暖かく歓迎します！ボランティアとして、コンテンツを実験またはブラックホールに移動して、コミュニティの編成に役立てることができます。
+権限の使用には注意してください。誤用が見つかった場合は、編集者のアイデンティティが剥奪される可能性があります。</Japanese>
+      <Italian>Ciao {$ TargetName}!
+Turtle Universe ti dà un caloroso benvenuto! Come volontario, ora puoi trasferire i contenuti agli esperimenti o al Black Hole per aiutare a organizzare la comunità.
+Si prega di essere cauti nell'usare le proprie autorizzazioni! Se abbiamo riscontrato un uso improprio, potrebbe portare alla privazione della tua identità editoriale.</Italian>
+      <Polish>Cześć {$ TargetName}!
+Serdecznie witamy w Turtle Universe! Jako wolontariusz możesz teraz przenosić zawartość do eksperymentów lub Czarnej Dziury, aby pomóc zorganizować społeczność.
+Zachowaj ostrożność, korzystając ze swoich uprawnień! Jeśli wykryjemy nadużycie, może to doprowadzić do pozbawienia Państwa tożsamości redakcyjnej.</Polish>
+      <Spanish>¡Hola, {$ TargetName}!
+¡Turtle Universe te da una calurosa bienvenida! Como voluntario, ahora puede mover contenidos a experimentos o al Agujero Negro para ayudar a organizar la comunidad.
+¡Tenga cuidado al utilizar sus permisos! Si encontramos algún uso indebido, puede resultar en la privación de su identidad editorial.</Spanish>
+    </Content>
+    <Bonuses>
+      <Gold>500</Gold>
+      <Experience>500</Experience>
+    </Bonuses>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+  </Message>
+</Messages>

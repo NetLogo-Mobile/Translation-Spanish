@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Strings>
   <Interfaces>
+    <String ID="海龟实验室" Status="1" English="Turtle Universe">Universo de tortugas</String>
     <String ID="点击了" Status="0" English="Clicked">Cliqueado</String>
     <String ID="加载错误" Status="0" English="Loading error">Error de carga</String>
     <String ID="模型消息" Status="0" English="Message from the model">Mensaje del modelo</String>
@@ -20,21 +21,20 @@
   <Toolbar>
     <String ID="编译" Status="0" English="Compile">Compilar</String>
     <String ID="编辑" Status="0" English="Edit">Editar</String>
+    <String ID="查看" Status="1" English="View">Vista</String>
     <String ID="图形" Status="0" English="Blocks">Bloques</String>
     <String ID="代码" Status="0" English="Code">Código</String>
     <String ID="重置" Status="0" English="Reset">Reiniciar</String>
     <String ID="帮助" Status="0" English="Help">Ayuda</String>
     <String ID="控制台" Status="0" English="Console">Consola</String>
     <String ID="编程区 {0}" Status="0" English="Blockspace {0}">Espacio de Bloques {0}</String>
-    <String ID="重置代码" Status="0" English="Reset Code">Restablecer Código</String>
-    <String ID="是否将代码重置到最后一次成功编译的状态？" Status="0" English="Do you want to reset the code to the last successful compilation?">¿Quieres restablecer el código a la última compilación exitosa?</String>
     <String ID="正在进行编译……" Status="0" English="Compiling your model...">Compilando tu modelo ...</String>
     <String ID="你的模型编译成功！" Status="0" English="Successfully compiled your model!">¡Tu modelo fue compilado exitosamente!</String>
     <String ID="编译过程遇到错误。" Status="0" English="An error occurs during the compilation.">Se produce un error durante la compilación.</String>
   </Toolbar>
   <Editors>
     <String ID="编辑器支持竖屏使用。旋转屏幕获得最佳体验！" Status="0" English="Rotate your device for better experience!">¡Gire tu aparato para una mejor experiencia!</String>
-    <String ID="抱歉，未能理解你输入的命令" Status="2" />
+    <String ID="抱歉，未能理解你输入的命令" Status="1" English="Sorry, I can't understand">Lo siento, no puedo entender</String>
     <String ID="成功执行了命令。" Status="0" English="The command was executed successfully.">El comando se ejecutó con éxito.</String>
     <String ID="工具" Status="0" English="Utilities">Utilidades</String>
     <String ID="海龟" Status="0" English="Turtles">Tortugas</String>
@@ -52,8 +52,8 @@
     <String ID="跳转到子程序" Status="0" English="Jump to Procedures">Saltar a Procedimientos</String>
     <String ID="代码中还没有任何子程序。" Status="0" English="There are no procedures in the code.">No hay procedimientos en el código.</String>
     <String ID="你可以在这里输入 NetLogo 代码，试试会发生什么。" Status="0" English="Try to type some NetLogo code here and see what happens.">Intenta escribir un poco de código de NetLogo aquí y observa lo que pasa.</String>
-    <String ID="不同的主语决定了代码会“由谁执行”。例如，“海龟”的意思是让所有海龟一起执行。你也可以由“观察者”向海龟发布命令：" Status="0" English="You may give instructions to different subjects. For example, &quot;turtles&quot; will have all turtles follow the same command. You can also issue commands to turtles from the observer:">Puedes dar instrucciones a diferentes sujetos. Por ejemplo, &quot;turtles&quot; harán que todas las tortugas sigan el mismo comando. También puedes emitir comandos a las tortugas desde el observador:</String>
-    <String ID="点击“帮助”按钮显示关于 NetLogo 建模语言的帮助。有些模型可能会提供专属的探索指南。" Status="0" English="Click the &quot;Help&quot; button to learn more about NetLogo. Some models may provide some code examples and in-depth explanations for you to try out.">Haz clic en el botón &quot;Ayuda&quot; para obtener más información sobre NetLogo. Algunos modelos pueden proporcionar unos ejemplos de código y explicaciones detalladas para que los pruebes.</String>
+    <String ID="不同的主语决定了代码会“由谁执行”。例如，“海龟”的意思是让所有海龟一起执行。你也可以由“观察者”向海龟发布命令：" Status="0" English="You may give instructions to different subjects. For example, &quot;turtles&quot; will have all turtles follow the same command. You can also issue commands to turtles from the observer:">Puedes dar instrucciones a diferentes sujetos. Por ejemplo, "turtles" harán que todas las tortugas sigan el mismo comando. También puedes emitir comandos a las tortugas desde el observador:</String>
+    <String ID="点击“帮助”按钮显示关于 NetLogo 建模语言的帮助。有些模型可能会提供专属的探索指南。" Status="0" English="Click the &quot;Help&quot; button to learn more about NetLogo. Some models may provide some code examples and in-depth explanations for you to try out.">Haz clic en el botón "Ayuda" para obtener más información sobre NetLogo. Algunos modelos pueden proporcionar unos ejemplos de código y explicaciones detalladas para que los pruebes.</String>
     <String ID="点击“代码”按钮可以查看和编辑模型的完整代码。" Status="0" English="Click the &quot;Code&quot; button to view and edit the code of the model.">Haz clic en el botón quot;Códigoquot; para ver y editar el código del modelo.</String>
     <String ID="参见" Status="0" English="See also">También consulta</String>
     <String ID="阅读全文" Status="0" English="full text">texto completo</String>
@@ -77,6 +77,8 @@
     <String ID="{0} 是一个函数。" Status="0" English="{0} is a reporter.">{0} es reportero.</String>
     <String ID="{0} 是一个变量、一个程序或一个函数的名字。" Status="0" English="{0} is the name of a variable, a procedure, or a reporter.">{0} es el nombre de una variable, un procedimiento o un reportero.</String>
     <String ID="{0} 是一个程序语言规定的常量。" Status="0" English="{0} is a constant defined by NetLogo.">{0} es una constante definida por NetLogo.</String>
+    <String ID="重置代码" Status="0" English="Reset Code">Restablecer Código</String>
+    <String ID="是否将代码重置到最后一次成功编译的状态？" Status="0" English="Do you want to reset the code to the last successful compilation?">¿Quieres restablecer el código a la última compilación exitosa?</String>
   </Editors>
   <NetTango>
     <String ID="拖到这里删除" Status="0" English="Drag here to delete">Arrastra aquí para borrar</String>

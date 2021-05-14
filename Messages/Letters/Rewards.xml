@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+  <Message>
+    <ID>5f779d72afec668e98755350</ID>
+    <Identifier>Letter-Reward-Diamond</Identifier>
+    <CategoryID>Letter</CategoryID>
+    <Subject>
+      <Chinese>感谢你的参与，这里是你的奖励！</Chinese>
+      <English>Thanks for your participation. Here is your rewards!</English>
+      <ChineseTraditional>感謝你的參與，這裡是你的獎勵！</ChineseTraditional>
+      <German>Danke für Ihre Teilnahme. Hier sind deine Belohnungen!</German>
+      <French>Merci pour votre participation. Voici vos récompenses!</French>
+      <Japanese>ご参加いただきありがとうございます。これがあなたの報酬です！</Japanese>
+      <Italian>Grazie per la tua partecipazione. Ecco le tue ricompense!</Italian>
+      <Polish>Dziękuję za udział. Oto twoje nagrody!</Polish>
+      <Spanish>Gracias por tu participación. ¡Aquí tienes tus recompensas!</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>感谢你，{$TargetName}！
+海龟实验室的成长离不开你的意见和反馈，海龟实验室因为你的参与变得更好。参与活动的奖励已经发送到你的帐户：钻石 &lt;b&gt;{$Diamond}&lt;/b&gt;！欢迎你参加海龟实验室官方组织的更多访谈、电台和设计活动。</Chinese>
+      <English>Thanks, {$TargetName}!
+Turtle Universe benefits from your opinions and feedback; Turtle Universe becomes better from your participation. Here is the reward for your participation: Diamond &lt;b&gt;{$Diamond}&lt;/b&gt;! Welcome to participate in more interviews, radios, and design activities hosted by Turtle Universe.</English>
+      <ChineseTraditional>感謝你，{$TargetName}！
+海龜實驗室的成長離不開你的意見和反饋，海龜實驗室因為你的參與變得更好。參與活動的獎勵已經發送到你的帳戶：鑽石 &lt;b&gt;{$Diamond}&lt;/b&gt;！歡迎你參加海龜實驗室官方組織的更多訪談、電台和設計活動。</ChineseTraditional>
+      <German>Danke, {$ TargetName}!
+Turtle Universe profitiert von Ihren Meinungen und Ihrem Feedback. Turtle Universe wird durch Ihre Teilnahme besser. Hier ist die Belohnung für Ihre Teilnahme: Diamond &lt;b&gt; {$ Diamond} &lt;/ b&gt;! Willkommen zur Teilnahme an weiteren Interviews, Radios und Designaktivitäten von Turtle Universe.</German>
+      <French>Merci, {$ TargetName}!
+Turtle Universe bénéficie de vos opinions et commentaires; Turtle Universe devient meilleur grâce à votre participation. Voici la récompense de votre participation: Diamond &lt;b&gt; {$ Diamond} &lt;/b&gt;! Bienvenue pour participer à d'autres interviews, radios et activités de design organisées par Turtle Universe.</French>
+      <Japanese>ありがとう、{$ TargetName}！
+Turtle Universeは、あなたの意見やフィードバックから恩恵を受けます。タートルユニバースはあなたの参加からより良くなります。参加に対する報酬は次のとおりです。Diamond&lt;b&gt; {$ Diamond} &lt;/ b&gt;！ Turtle Universeが主催するインタビュー、ラジオ、デザイン活動への参加を歓迎します。</Japanese>
+      <Italian>Grazie, {$ TargetName}!
+Turtle Universe beneficia delle tue opinioni e feedback; Turtle Universe migliora grazie alla tua partecipazione. Ecco la ricompensa per la tua partecipazione: Diamante &lt;b&gt; {$ Diamond} &lt;/b&gt;! Benvenuti a partecipare a più interviste, radio e attività di progettazione ospitate da Turtle Universe.</Italian>
+      <Polish>Dzięki, {$ TargetName}!
+Turtle Universe korzysta z twoich opinii i opinii; Twój udział w Turtle Universe staje się lepszy. Oto nagroda za Twój udział: Diament &lt;b&gt; {$ Diament} &lt;/b&gt;! Zapraszamy do udziału w większej liczbie wywiadów, radia i działań projektowych organizowanych przez Turtle Universe.</Polish>
+      <Spanish>¡Gracias, {$ TargetName}!
+Turtle Universe se beneficia de tus opiniones y comentarios; Turtle Universe mejora con tu participación. Aquí está la recompensa por su participación: ¡Diamante &lt;b&gt; {$ Diamante} &lt;/b&gt;! Bienvenido a participar en más entrevistas, radios y actividades de diseño organizadas por Turtle Universe.</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+  </Message>
+  <Message>
+    <ID>5f779d74afec668e98755351</ID>
+    <Identifier>Letter-Reward-Gold</Identifier>
+    <CategoryID>Letter</CategoryID>
+    <Subject>
+      <Chinese>感谢你的参与，这里是你的奖励！</Chinese>
+      <English>Thanks for your participation. Here is your rewards!</English>
+      <ChineseTraditional>感謝你的參與，這裡是你的獎勵！</ChineseTraditional>
+      <German>Danke für Ihre Teilnahme. Hier sind deine Belohnungen!</German>
+      <French>Merci pour votre participation. Voici vos récompenses!</French>
+      <Japanese>ご参加いただきありがとうございます。これがあなたの報酬です！</Japanese>
+      <Italian>Grazie per la tua partecipazione. Ecco le tue ricompense!</Italian>
+      <Polish>Dziękuję za udział. Oto twoje nagrody!</Polish>
+      <Spanish>Gracias por tu participación. ¡Aquí tienes tus recompensas!</Spanish>
+    </Subject>
+    <Content>
+      <Chinese>感谢你，{$TargetName}！
+海龟实验室的成长离不开你的意见和反馈，海龟实验室因为你的参与变得更好。参与活动的奖励已经发送到你的帐户：金币 &lt;b&gt;{$Gold}&lt;/b&gt;！欢迎你参加海龟实验室官方组织的更多访谈、电台和设计活动。</Chinese>
+      <English>Thanks, {$TargetName}!
+Turtle Universe benefits from your opinions and feedback; Turtle Universe becomes better from your participation. Here is the reward for your participation: Diamond &lt;b&gt;{$Gold}&lt;/b&gt;! Welcome to participate in more interviews, radios, and design activities hosted by Turtle Universe.</English>
+      <ChineseTraditional>感謝你，{$TargetName}！
+海龜實驗室的成長離不開你的意見和反饋，海龜實驗室因為你的參與變得更好。參與活動的獎勵已經發送到你的帳戶：金幣 &lt;b&gt;{$Gold}&lt;/b&gt;！歡迎你參加海龜實驗室官方組織的更多訪談、電台和設計活動。</ChineseTraditional>
+      <German>Danke, {$ TargetName}!
+Turtle Universe profitiert von Ihren Meinungen und Ihrem Feedback. Turtle Universe wird durch Ihre Teilnahme besser. Hier ist die Belohnung für Ihre Teilnahme: Diamond &lt;b&gt; {$ Gold} &lt;/ b&gt;! Willkommen zur Teilnahme an weiteren Interviews, Radios und Designaktivitäten von Turtle Universe.</German>
+      <French>Merci, {$ TargetName}!
+Turtle Universe bénéficie de vos opinions et commentaires; Turtle Universe devient meilleur grâce à votre participation. Voici la récompense de votre participation: Diamant &lt;b&gt; {$ Gold} &lt;/b&gt;! Bienvenue pour participer à d'autres interviews, radios et activités de design organisées par Turtle Universe.</French>
+      <Japanese>ありがとう、{$ TargetName}！
+Turtle Universeは、あなたの意見やフィードバックから恩恵を受けます。タートルユニバースはあなたの参加からより良くなります。参加に対する報酬は次のとおりです：Diamond &lt;b&gt; {$ Gold} &lt;/ b&gt;！ Turtle Universeが主催するインタビュー、ラジオ、デザイン活動への参加を歓迎します。</Japanese>
+      <Italian>Grazie, {$ TargetName}!
+Turtle Universe beneficia delle tue opinioni e feedback; Turtle Universe migliora grazie alla tua partecipazione. Ecco la ricompensa per la tua partecipazione: Diamante &lt;b&gt; {$ Gold} &lt;/b&gt;! Benvenuti a partecipare a più interviste, radio e attività di progettazione ospitate da Turtle Universe.</Italian>
+      <Polish>Dzięki, {$ TargetName}!
+Turtle Universe korzysta z twoich opinii i opinii; Twój udział w Turtle Universe staje się lepszy. Oto nagroda za Twój udział: Diament &lt;b&gt; {$ Gold} &lt;/b&gt;! Zapraszamy do udziału w większej liczbie wywiadów, radia i działań projektowych organizowanych przez Turtle Universe.</Polish>
+      <Spanish>¡Gracias, {$ TargetName}!
+Turtle Universe se beneficia de tus opiniones y comentarios; Turtle Universe mejora con tu participación. Aquí está la recompensa por su participación: ¡Diamante &lt;b&gt; {$ Gold} &lt;/b&gt;! Bienvenido a participar en más entrevistas, radios y actividades de diseño organizadas por Turtle Universe.</Spanish>
+    </Content>
+    <From>2019-01-01</From>
+    <Until>2030-01-01</Until>
+  </Message>
+</Messages>

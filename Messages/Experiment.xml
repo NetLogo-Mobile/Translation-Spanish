@@ -44,7 +44,7 @@
       <Japanese>あなたの仕事はサポートされています！</Japanese>
       <Italian>Il tuo lavoro è supportato!</Italian>
       <Polish>Twoja praca jest wspierana!</Polish>
-      <Spanish>¡Tu trabajo es apoyado!</Spanish>
+      <Spanish>¡Tu trabajo está respaldado!</Spanish>
     </Subject>
     <Content>
       <Chinese>{Users} 支持了你的作品 {Experiment}，并且带来了 {$Gold} 金币收入！</Chinese>
@@ -75,7 +75,7 @@
       <Japanese>あなたの作品が好きです！</Japanese>
       <Italian>Il tuo lavoro è piaciuto!</Italian>
       <Polish>Twoja praca jest lubiana!</Polish>
-      <Spanish>¡Tu trabajo ha sido gustado!</Spanish>
+      <Spanish>¡Tu trabajo ha gustado!</Spanish>
     </Subject>
     <Content>
       <Chinese>{Users} 点赞了你的作品 {Experiment}，并且带来了 {$Gold} 金币收入！</Chinese>
@@ -86,7 +86,7 @@
       <Japanese>{Users} があなたの作品 {Experiment} にスターを付け、{$Gold} ゴールドを獲得しました！</Japanese>
       <Italian>{Users} ha recitato nel tuo lavoro {Experiment}, che ti porta {$Gold} oro!</Italian>
       <Polish>{Users} oznaczyli twoją pracę {Experiment} gwiazdką, co daje Ci {$Gold} złota!</Polish>
-      <Spanish>{Users} destacó tu trabajo {Experiment}, ¡lo que le brinda {$Gold} oro!</Spanish>
+      <Spanish>{Users} destacó tu trabajo {Experiment}, ¡lo que te trae {$Gold} oro!</Spanish>
     </Content>
     <CombineLimit>10</CombineLimit>
     <From>2019-01-01</From>
