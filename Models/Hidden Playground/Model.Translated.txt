@@ -397,6 +397,11 @@ As you might already know, whenever we create a <trigger=Glossary-Turtle,green>t
 Como ya sabrá, siempre que creamos un <trigger=Glossary-Turtle,green>tortuga </trigger>, lo colocamos en el centro del mundo y le asignamos un rumbo aleatorio. Para el caso del girasol, es posible que queramos organizar las tortugas  de otra manera. ¿Qué opinas, curioso?
 
 ### Source
+As you told me before, we are creating a microworld for modeling people's behavior! When people are walking across a lawn, their footprints usually lead to  <color=purple>paths</color>. In this model, each <trigger=Glossary-Turtle,green>turtle </trigger> represents a walker, and we are working on the rules to make it clever enough to form <color=purple>paths</color>. Do you have any other question, Curious One?
+### Spanish
+Como me dijiste antes, ¡estamos creando un micromundo para modelar el comportamiento de las personas! Cuando las personas caminan por el césped, sus pisadas suelen llevar a<color=purple> caminos</color> . En este modelo, cada<trigger=Glossary-Turtle,green> tortuga </trigger> representa un caminante, y estamos trabajando en las reglas para que sea lo suficientemente inteligente como para formar<color=purple> caminos</color> . ¿Tienes alguna otra pregunta, curioso?
+
+### Excessive
 As you told me before, we are creating a microworld for modeling people's behavior! When people are walking across a lawn, their footprints usually lead to <color=purple>paths</color>. In this model, each <trigger=Glossary-Turtle,green>turtle </trigger> represents a walker, and we are working on the rules to make it clever enough to form <color=purple>paths</color>. Do you have any other question, Curious One?
 ### Spanish
 Como me dijiste antes, ¡estamos creando un micromundo para modelar el comportamiento de las personas! Cuando las personas caminan por el césped, sus pisadas suelen llevar a <color=purple>caminos</color>. En este modelo, cada <trigger=Glossary-Turtle,green>tortuga </trigger> representa un caminante, y estamos trabajando en las reglas para que sea lo suficientemente inteligente como para formar <color=purple> caminos</color>. ¿Tienes alguna otra pregunta, curioso?
@@ -501,6 +506,11 @@ Aquí está el viaje: ¡para construir tu propio micromundo! ¿No es genial y em
 Por supuesto, siempre estaré ahí para ayudarte.
 
 ### Source
+Huh. I just found several blocks for you to do that! I would suggest you to ask a turtle to <b>Add Signal</b> first Then, ask all <trigger=Glossary-Patch,brown>patches </trigger> to <b>Colorize With Signal</b>, so that you can see them in the world. After that, please click the question mark on the blocks - there are quite a lot of them!
+### Spanish
+Eh. ¡Acabo de encontrar varios bloques para que lo hagas! Le sugiero que primero le pida a una tortuga que <b>agregue señal.</b> Luego, pregunte a todos<trigger=Glossary-Patch,brown> parches </trigger> para <b>colorear con señal</b> , para que pueda verlos en el mundo. Después de eso, haga clic en el signo de interrogación en los bloques; ¡hay muchos de ellos!
+
+### Excessive
 Huh. I just found several blocks for you to do that! I would suggest you to ask a turtle to <b>Add Signal</b> first. Then, ask all <trigger=Glossary-Patch,brown>patches </trigger> to <b>Colorize With Signal</b>, so that you can see them in the world. After that, please click the question mark on the blocks - there are quite a lot of them!
 ### Spanish
 Eh. ¡Acabo de encontrar varios bloques para que lo hagas! Le sugiero que primero le pides a una tortuga que <b>Agregar Señal</b>. Luego, pregunte a todos <trigger=Glossary-Patch,brown>parcels </trigger> para <b>Colorear con Señal</b>, para que pueda verlos en el mundo. Después de eso, haga clic en el signo de interrogación en los bloques - ¡hay muchos de ellos!

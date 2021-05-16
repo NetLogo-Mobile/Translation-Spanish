@@ -102,7 +102,7 @@ La cantidad de tortugas que componen la superficie
 
 ### Source
 The trigonometric function that is equal to the ratio of the side adjacent to an acute angle  (in a right-angled  triangle) to the hypotenuse
-### Spanish ***
+### Spanish
 La función trigonométrica que es igual a la razón del lado adyacente a un ángulo agudo  (en un triángulo rectángulo) a la hipotenusa
 
 ### Source

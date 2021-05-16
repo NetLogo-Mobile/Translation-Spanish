@@ -1,5 +1,5 @@
 ﻿*** Machine Translated
- `Set` establece una variable en un cierto valor y toma la forma:
+`Set` establece una variable en un cierto valor y toma la forma:
 
  `set variable value`
 
