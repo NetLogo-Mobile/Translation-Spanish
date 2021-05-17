@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Library>
+  <ID>60a1cd85e1b05d6930327718</ID>
+  <Identifier>Discussions</Identifier>
+  <Subject>Turtle Universe: Community</Subject>
+  <Language>Spanish</Language>
+  <IsNavigation>True</IsNavigation>
+  <Block>
+    <Type>Topic</Type>
+    <Subject>ANNOUNCEMENT</Subject>
+    <TargetLink>discussions://Tags/公告</TargetLink>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Discussion</Category>
+      <Tags>公告</Tags>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>Topic</Type>
+    <Subject>FEATURED DISCUSSIONS</Subject>
+    <TargetLink>discussions://Tags/精选</TargetLink>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Discussion</Category>
+      <Tags>精选</Tags>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>POPULAR DISCUSSIONS</Header>
+    <TargetLink>discussions://Days/14/Sort/Popularity</TargetLink>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Discussion</Category>
+      <Sort>Popularity</Sort>
+      <Days>14</Days>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>LATEST DISCUSSIONS</Header>
+    <TargetLink>discussions://Latest</TargetLink>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Discussion</Category>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>KNOWLEDGE BASE</Header>
+    <TargetLink>discussions://Tags/知识库</TargetLink>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Discussion</Category>
+      <Tags>知识库</Tags>
+    </FetchConfiguration>
+  </Block>
+</Library>

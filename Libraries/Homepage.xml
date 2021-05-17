@@ -9,7 +9,7 @@
     <Header>DESTACADO</Header>
     <FetchSource>Individual</FetchSource>
     <FetchConfiguration>
-      <ID>5eb997fef6954b93209189e3</ID>
+      <ID>604febe10db48200014e448e</ID>
       <Category>Model</Category>
     </FetchConfiguration>
     <AuxiliaryText>ACTIVIDADES DIARIAS</AuxiliaryText>
@@ -19,7 +19,7 @@
   <Block>
     <Type>List</Type>
     <Header>MODELOS GUIADOS</Header>
-    <TargetLink>models://Sort/Default</TargetLink>
+    <TargetLink>models://Tags/探索指南/Sort/Default</TargetLink>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>
       <Category>Model</Category>
@@ -57,6 +57,16 @@
     </FetchConfiguration>
   </Block>
   <Block>
+    <Type>Topic</Type>
+    <Subject>FEATURED EXPERIMENTS</Subject>
+    <TargetLink>experiments://Tags/精选</TargetLink>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Experiment</Category>
+      <Tags>精选</Tags>
+    </FetchConfiguration>
+  </Block>
+  <Block>
     <Type>List</Type>
     <Header>EXPERIMENTOS EN TENDENCIA</Header>
     <TargetLink>experiments://Days/14/Sort/Popularity</TargetLink>
@@ -65,6 +75,16 @@
       <Category>Experiment</Category>
       <Sort>Popularity</Sort>
       <Days>14</Days>
+    </FetchConfiguration>
+  </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>KNOWLEDGE BASE</Header>
+    <TargetLink>experiments://Tags/知识库</TargetLink>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Experiment</Category>
+      <Tags>知识库</Tags>
     </FetchConfiguration>
   </Block>
   <Block>

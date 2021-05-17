@@ -99,13 +99,4 @@
       <English>Network</English>
     </Subject>
   </Tag>
-  <Tag>
-    <ID>600237b932b986d19d64e797</ID>
-    <Identifier>探索指南</Identifier>
-    <Flags json:Array="true">Model</Flags>
-    <Subject>
-      <Chinese>探索指南</Chinese>
-      <English>Guided Intro</English>
-    </Subject>
-  </Tag>
 </Tags>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tags xmlns:json="http://james.newtonking.com/projects/json">
+  <Tag>
+    <ID>60a1cda7876db01f028ba2a7</ID>
+    <Identifier>置顶</Identifier>
+    <Flags json:Array="true">Discussion</Flags>
+    <Flags json:Array="true">Editor</Flags>
+    <Subject>
+      <Chinese>置顶</Chinese>
+      <ChineseTraditional>置顶</ChineseTraditional>
+      <English>Sticky</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5fb55a3830b4ec8bbd260374</ID>
+    <Identifier>公告</Identifier>
+    <Flags json:Array="true">Discussion</Flags>
+    <Flags json:Array="true">Category</Flags>
+    <Flags json:Array="true">Editor</Flags>
+    <Subject>
+      <Chinese>管理公告</Chinese>
+      <ChineseTraditional>管理公告</ChineseTraditional>
+      <English>Announcement</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>60a1cda7876db01f028ba2aa</ID>
+    <Identifier>BUG</Identifier>
+    <Flags json:Array="true">Discussion</Flags>
+    <Subject>
+      <Chinese>BUG</Chinese>
+      <ChineseTraditional>BUG</ChineseTraditional>
+      <English>BUG</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>60a1cda7876db01f028ba2af</ID>
+    <Identifier>交流</Identifier>
+    <Flags json:Array="true">Discussion</Flags>
+    <Flags json:Array="true">Category</Flags>
+    <Subject>
+      <Chinese>综合交流</Chinese>
+      <ChineseTraditional>综合交流</ChineseTraditional>
+      <English>Discussion</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>60a1cda7876db01f028ba2b1</ID>
+    <Identifier>聊天</Identifier>
+    <Flags json:Array="true">Discussion</Flags>
+    <Flags json:Array="true">Category</Flags>
+    <Subject>
+      <Chinese>聊天室</Chinese>
+      <ChineseTraditional>聊天室</ChineseTraditional>
+      <English>Chatroom</English>
+    </Subject>
+  </Tag>
+</Tags>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Tags xmlns:json="http://james.newtonking.com/projects/json">
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d869</ID>
+    <ID>5fb55a3830b4ec8bbd260378</ID>
     <Identifier>探索</Identifier>
     <Flags json:Array="true">Experiment</Flags>
     <Subject>
@@ -10,7 +10,7 @@
     </Subject>
   </Tag>
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d86b</ID>
+    <ID>5fb55a3930b4ec8bbd26037a</ID>
     <Identifier>交互</Identifier>
     <Flags json:Array="true">Experiment</Flags>
     <Subject>
@@ -19,16 +19,16 @@
     </Subject>
   </Tag>
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d86d</ID>
-    <Identifier>展示</Identifier>
+    <ID>60a1cda7876db01f028ba2b6</ID>
+    <Identifier>动画</Identifier>
     <Flags json:Array="true">Experiment</Flags>
     <Subject>
-      <Chinese>展示</Chinese>
-      <English>Presentation</English>
+      <Chinese>动画</Chinese>
+      <English>Animation</English>
     </Subject>
   </Tag>
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d86f</ID>
+    <ID>5fb55a3930b4ec8bbd26037e</ID>
     <Identifier>改进</Identifier>
     <Flags json:Array="true">Experiment</Flags>
     <Subject>
@@ -37,21 +37,12 @@
     </Subject>
   </Tag>
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d871</ID>
-    <Identifier>讨论</Identifier>
+    <ID>60a1cda7876db01f028ba2b9</ID>
+    <Identifier>教学</Identifier>
     <Flags json:Array="true">Experiment</Flags>
     <Subject>
-      <Chinese>讨论</Chinese>
-      <English>Discussion</English>
-    </Subject>
-  </Tag>
-  <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d873</ID>
-    <Identifier>知识库</Identifier>
-    <Flags json:Array="true">Experiment</Flags>
-    <Subject>
-      <Chinese>知识库</Chinese>
-      <English>Knowledge Base</English>
+      <Chinese>教学</Chinese>
+      <English>Curricular</English>
     </Subject>
   </Tag>
 </Tags>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Tags xmlns:json="http://james.newtonking.com/projects/json">
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d861</ID>
+    <ID>5fb55a3830b4ec8bbd260370</ID>
     <Identifier>精选</Identifier>
     <Flags json:Array="true">Model</Flags>
     <Flags json:Array="true">Experiment</Flags>
@@ -14,7 +14,7 @@
     </Subject>
   </Tag>
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d863</ID>
+    <ID>5fb55a3830b4ec8bbd260372</ID>
     <Identifier>精选申请</Identifier>
     <Flags json:Array="true">Model</Flags>
     <Flags json:Array="true">Experiment</Flags>
@@ -26,33 +26,58 @@
     </Subject>
   </Tag>
   <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d865</ID>
-    <Identifier>公告</Identifier>
-    <Flags json:Array="true">Experiment</Flags>
-    <Flags json:Array="true">Discussion</Flags>
-    <Flags json:Array="true">Editor</Flags>
-    <Subject>
-      <Chinese>管理公告</Chinese>
-      <ChineseTraditional>管理公告</ChineseTraditional>
-      <English>Announcement</English>
-    </Subject>
-  </Tag>
-  <Tag>
-    <ID>5f4d2e4179c0a31e3cc4d867</ID>
+    <ID>5fb55a3830b4ec8bbd260376</ID>
     <Identifier>游戏</Identifier>
     <Flags json:Array="true">Model</Flags>
     <Flags json:Array="true">Experiment</Flags>
+    <Flags json:Array="true">Discussion</Flags>
     <Subject>
       <Chinese>游戏</Chinese>
       <English>Game</English>
     </Subject>
   </Tag>
   <Tag>
-    <ID>5fd832621bdeae16c67aea80</ID>
+    <ID>5fd832ef1bdeae16c67aedac</ID>
     <Identifier>指南</Identifier>
+    <Flags json:Array="true">Hidden</Flags>
     <Subject>
       <Chinese>指南</Chinese>
       <English>Guided</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>5fb55a3930b4ec8bbd260382</ID>
+    <Identifier>知识库</Identifier>
+    <Flags json:Array="true">Experiment</Flags>
+    <Flags json:Array="true">Discussion</Flags>
+    <Flags json:Array="true">Volunteer</Flags>
+    <Subject>
+      <Chinese>知识库</Chinese>
+      <English>Knowledge Base</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>60a1cda7876db01f028ba2a5</ID>
+    <Identifier>投稿</Identifier>
+    <Flags json:Array="true">Experiment</Flags>
+    <Flags json:Array="true">Discussion</Flags>
+    <Flags json:Array="true">Volunteer</Flags>
+    <Subject>
+      <Chinese>投稿</Chinese>
+      <ChineseTraditional>投稿</ChineseTraditional>
+      <English>Submission</English>
+    </Subject>
+  </Tag>
+  <Tag>
+    <ID>60a1df4a876db01f028be5ce</ID>
+    <Identifier>禁止改编</Identifier>
+    <Flags json:Array="true">Model</Flags>
+    <Flags json:Array="true">Experiment</Flags>
+    <Flags json:Array="true">Discussion</Flags>
+    <Subject>
+      <Chinese>禁止改编</Chinese>
+      <ChineseTraditional>禁止改编</ChineseTraditional>
+      <English>No Remixes</English>
     </Subject>
   </Tag>
 </Tags>

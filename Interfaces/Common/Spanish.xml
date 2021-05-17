@@ -62,6 +62,7 @@
     <String ID="通知" Status="0" English="Notice">Aviso</String>
     <String ID="好友" Status="0" English="Friend">Amigo</String>
     <String ID="首页" Status="0" English="Home">Casa</String>
+    <String ID="社区" Status="1" English="Community">Comunidad</String>
     <String ID="实验室" Status="0" English="Laboratory">Laboratorio</String>
     <String ID="我的实验室" Status="0" English="My Lab">Mi Laboratorio</String>
     <String ID="我的" Status="0" English="Workspace">Espacio de Trabajo</String>
@@ -565,13 +566,15 @@
     <String ID="发布到官方模型库" Status="0" English="Publish to the model library">Publicar en la biblioteca de modelos</String>
     <String ID="分享你的科学实验" Status="0" English="Share your scientific experiments">Comparte tus experimentos científicos</String>
     <String ID="参与贡献社区讨论" Status="0" English="Participate in discussions">Participar en discusiones</String>
+    <String ID="在社区中自由讨论" Status="1" English="Discuss freely in the community">Discutir libremente en la comunidad.</String>
     <String ID="点击输入标题" Status="0" English="Click to enter title">Haz clic para escribir el título</String>
     <String ID="点击输入介绍" Status="0" English="Click to enter description">Haz clic para escribir la descripción</String>
     <String ID="改编自 {0}" Status="0" English="Remixed from {0}">Remixclado  de {0}</String>
-    <String ID="发布为实验" Status="0" English="Publish as Experiment">Publicar como Experimento</String>
-    <String ID="发布为讨论" Status="0" English="Post as Discussion">Publicar como Discusión</String>
-    <String ID="发布为模型" Status="0" English="Publish as Model">Publicar como Modelo</String>
-    <String ID="发布到黑洞" Status="0" English="Post to Black Hole">Publicar en Agujero Negro</String>
+    <String ID="发布为实验" Status="1" English="Publish as an Experiment">Publicar como experimento</String>
+    <String ID="发布为讨论" Status="1" English="Post as a Discussion">Publicar como discusión</String>
+    <String ID="发布到社区" Status="1" English="Publish to the Community">Publicar en la comunidad</String>
+    <String ID="发布为模型" Status="1" English="Publish as a Model">Publicar como modelo</String>
+    <String ID="发布到黑洞" Status="1" English="Post to the Black Hole">Publicar en el agujero negro</String>
     <String ID="松手即可刷新" Status="0" English="Release to refresh">Suéltelo para actualizar</String>
     <String ID="已经为您展示了所有实验……" Status="0" English="All the experiments have been shown...">Se han mostrado todos los experimentos ...</String>
     <String ID="为你收藏了这个作品！" Status="0" English="You have favorited this work!">¡Has marcado este trabajo como favorito!</String>
@@ -605,7 +608,7 @@
     <String ID="如果您对内容做出了实质性更改，可以改编并发布。是否继续？" Status="0" English="If you make substantial changes to the content, you can remix and publish it. Continue?">Si realiza cambios sustanciales en el contenido, puede mezclarlo y publicarlo. ¿Seguir?</String>
     <String ID="作为模型发布者，您可以编辑模型，也可以改编并发布内容。您的计划是？" Status="0" English="As the model aurthor, you can edit the model, or you can remix and publish a new one. What is your plan?">Como autor del modelo, puede editar el modelo o puede mezclar y publicar uno nuevo. ¿Cual es tu plan?</String>
     <String ID="原作者不允许您改编并发布。您需要重新创作才能发布。" Status="0" English="The original author does not allow you to adapt and publish. You need to re-author to publish.">El autor original no le permite adaptar y publicar. Necesita volver a escribir para publicar.</String>
-    <String ID="你正在发布内容到其它语言的社区，请注意使用对应语言。" Status="0" English="You are publishing in other languages. Please use the corresponding language.">Estás publicando en otros idiomas. Usa el idioma correspondiente.</String>
+    <String ID="你正在发布内容到其它语言的社区，请注意使用对应语言。" Status="1" English="You are publishing in another language. Please use the corresponding language.">Estás publicando en otro idioma. Utilice el idioma correspondiente.</String>
   </Forums>
   <Editors>
     <String ID="正在显示由 Google 翻译的内容。" Status="0" English="Below is translated by Google.">A continuación fue traducido por Google.</String>
