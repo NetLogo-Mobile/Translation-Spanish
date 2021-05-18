@@ -11,6 +11,7 @@
       <Chinese>精选</Chinese>
       <ChineseTraditional>精選</ChineseTraditional>
       <English>Featured</English>
+      <Spanish>Destacado</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -23,6 +24,7 @@
       <Chinese>精选申请</Chinese>
       <ChineseTraditional>精選申請</ChineseTraditional>
       <English>Apply for Feature</English>
+      <Spanish>Solicitar ser Destacado</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -34,6 +36,7 @@
     <Subject>
       <Chinese>游戏</Chinese>
       <English>Game</English>
+      <Spanish>Juego</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -43,6 +46,7 @@
     <Subject>
       <Chinese>指南</Chinese>
       <English>Guided</English>
+      <Spanish>Guiado</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -54,6 +58,7 @@
     <Subject>
       <Chinese>知识库</Chinese>
       <English>Knowledge Base</English>
+      <Spanish>Base de Conocimiento</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -66,6 +71,7 @@
       <Chinese>投稿</Chinese>
       <ChineseTraditional>投稿</ChineseTraditional>
       <English>Submission</English>
+      <Spanish>Sumisión</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -78,6 +84,7 @@
       <Chinese>禁止改编</Chinese>
       <ChineseTraditional>禁止改编</ChineseTraditional>
       <English>No Remixes</English>
+      <Spanish>Sin Remixes</Spanish>
     </Subject>
   </Tag>
 </Tags>

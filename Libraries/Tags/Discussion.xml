@@ -9,6 +9,7 @@
       <Chinese>置顶</Chinese>
       <ChineseTraditional>置顶</ChineseTraditional>
       <English>Sticky</English>
+      <Spanish>Nota</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -21,6 +22,7 @@
       <Chinese>管理公告</Chinese>
       <ChineseTraditional>管理公告</ChineseTraditional>
       <English>Announcement</English>
+      <Spanish>Anuncio</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -31,6 +33,7 @@
       <Chinese>BUG</Chinese>
       <ChineseTraditional>BUG</ChineseTraditional>
       <English>BUG</English>
+      <Spanish>ERROR</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -42,6 +45,7 @@
       <Chinese>综合交流</Chinese>
       <ChineseTraditional>综合交流</ChineseTraditional>
       <English>Discussion</English>
+      <Spanish>Discusión</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -53,6 +57,7 @@
       <Chinese>聊天室</Chinese>
       <ChineseTraditional>聊天室</ChineseTraditional>
       <English>Chatroom</English>
+      <Spanish>Sala de Chat</Spanish>
     </Subject>
   </Tag>
 </Tags>

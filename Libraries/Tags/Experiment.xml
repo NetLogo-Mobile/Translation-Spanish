@@ -7,6 +7,7 @@
     <Subject>
       <Chinese>探索</Chinese>
       <English>Exploration</English>
+      <Spanish>Exploración</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -16,6 +17,7 @@
     <Subject>
       <Chinese>交互</Chinese>
       <English>Interaction</English>
+      <Spanish>Interacción</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -25,6 +27,7 @@
     <Subject>
       <Chinese>动画</Chinese>
       <English>Animation</English>
+      <Spanish>Animación</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -34,6 +37,7 @@
     <Subject>
       <Chinese>改进</Chinese>
       <English>Improvement</English>
+      <Spanish>Una Mejora</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -43,6 +47,7 @@
     <Subject>
       <Chinese>教学</Chinese>
       <English>Curricular</English>
+      <Spanish>Curricular</Spanish>
     </Subject>
   </Tag>
 </Tags>

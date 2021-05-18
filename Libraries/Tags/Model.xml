@@ -7,6 +7,7 @@
     <Subject>
       <Chinese>生物</Chinese>
       <English>Biology</English>
+      <Spanish>Biología</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -16,6 +17,7 @@
     <Subject>
       <Chinese>物理</Chinese>
       <English>Physics</English>
+      <Spanish>Física</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -25,6 +27,7 @@
     <Subject>
       <Chinese>化学</Chinese>
       <English>Chemistry</English>
+      <Spanish>Química</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -34,6 +37,7 @@
     <Subject>
       <Chinese>数学</Chinese>
       <English>Mathematics</English>
+      <Spanish>Matemáticas</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -43,6 +47,7 @@
     <Subject>
       <Chinese>艺术</Chinese>
       <English>Art</English>
+      <Spanish>Arte</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -52,6 +57,7 @@
     <Subject>
       <Chinese>社会科学</Chinese>
       <English>Social Science</English>
+      <Spanish>Ciencia Social</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -61,6 +67,7 @@
     <Subject>
       <Chinese>流行病学</Chinese>
       <English>Epidemiology</English>
+      <Spanish>Epidemiología</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -70,6 +77,7 @@
     <Subject>
       <Chinese>地球科学</Chinese>
       <English>Earth Science</English>
+      <Spanish>Ciencias de la Tierra</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -79,6 +87,7 @@
     <Subject>
       <Chinese>交通</Chinese>
       <English>Traffic</English>
+      <Spanish>Tráfico</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -88,6 +97,7 @@
     <Subject>
       <Chinese>游戏</Chinese>
       <English>Game</English>
+      <Spanish>Juego</Spanish>
     </Subject>
   </Tag>
   <Tag>
@@ -97,6 +107,7 @@
     <Subject>
       <Chinese>网络</Chinese>
       <English>Network</English>
+      <Spanish>Red</Spanish>
     </Subject>
   </Tag>
 </Tags>
