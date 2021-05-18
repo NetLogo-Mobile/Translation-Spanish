@@ -2,12 +2,12 @@
 <Library>
   <ID>60a1cd85e1b05d6930327718</ID>
   <Identifier>Discussions</Identifier>
-  <Subject>Turtle Universe: Community</Subject>
+  <Subject>El Universo Tortuga: Comunidad</Subject>
   <Language>Spanish</Language>
   <IsNavigation>True</IsNavigation>
   <Block>
     <Type>Topic</Type>
-    <Subject>ANNOUNCEMENT</Subject>
+    <Subject>ANUNCIO</Subject>
     <TargetLink>discussions://Tags/公告</TargetLink>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>
@@ -17,7 +17,7 @@
   </Block>
   <Block>
     <Type>Topic</Type>
-    <Subject>FEATURED DISCUSSIONS</Subject>
+    <Subject>DISCUSIONES DESTACADOS</Subject>
     <TargetLink>discussions://Tags/精选</TargetLink>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>
@@ -27,7 +27,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>POPULAR DISCUSSIONS</Header>
+    <Header>DISCUSIONES POPULARES</Header>
     <TargetLink>discussions://Days/14/Sort/Popularity</TargetLink>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>
@@ -38,7 +38,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>LATEST DISCUSSIONS</Header>
+    <Header>DISCUSIONES MÁS RECIENTES</Header>
     <TargetLink>discussions://Latest</TargetLink>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>
@@ -47,7 +47,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>KNOWLEDGE BASE</Header>
+    <Header>BASE DE CONOCIMIENTO</Header>
     <TargetLink>discussions://Tags/知识库</TargetLink>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>

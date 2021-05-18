@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Strings>
   <Interfaces>
-    <String ID="海龟实验室" Status="1" English="Turtle Universe">Universo de tortugas</String>
+    <String ID="海龟实验室" Status="0" English="Turtle Universe">El Universo Tortuga</String>
     <String ID="点击了" Status="0" English="Clicked">Cliqueado</String>
     <String ID="加载错误" Status="0" English="Loading error">Error de carga</String>
     <String ID="模型消息" Status="0" English="Message from the model">Mensaje del modelo</String>
@@ -21,7 +21,7 @@
   <Toolbar>
     <String ID="编译" Status="0" English="Compile">Compilar</String>
     <String ID="编辑" Status="0" English="Edit">Editar</String>
-    <String ID="查看" Status="1" English="View">Vista</String>
+    <String ID="查看" Status="0" English="View">Ver</String>
     <String ID="图形" Status="0" English="Blocks">Bloques</String>
     <String ID="代码" Status="0" English="Code">Código</String>
     <String ID="重置" Status="0" English="Reset">Reiniciar</String>
@@ -34,7 +34,7 @@
   </Toolbar>
   <Editors>
     <String ID="编辑器支持竖屏使用。旋转屏幕获得最佳体验！" Status="0" English="Rotate your device for better experience!">¡Gire tu aparato para una mejor experiencia!</String>
-    <String ID="抱歉，未能理解你输入的命令" Status="1" English="Sorry, I can't understand">Lo siento, no puedo entender</String>
+    <String ID="抱歉，未能理解你输入的命令" Status="0" English="Sorry, I can't understand">Lo siento, no entiendo</String>
     <String ID="成功执行了命令。" Status="0" English="The command was executed successfully.">El comando se ejecutó con éxito.</String>
     <String ID="工具" Status="0" English="Utilities">Utilidades</String>
     <String ID="海龟" Status="0" English="Turtles">Tortugas</String>

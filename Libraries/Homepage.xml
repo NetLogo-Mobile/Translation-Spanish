@@ -58,7 +58,7 @@
   </Block>
   <Block>
     <Type>Topic</Type>
-    <Subject>FEATURED EXPERIMENTS</Subject>
+    <Subject>EXPERIMENTOS DESTACADOS</Subject>
     <TargetLink>experiments://Tags/精选</TargetLink>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>
@@ -79,7 +79,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>KNOWLEDGE BASE</Header>
+    <Header>BASE DE CONOCIMIENTO</Header>
     <TargetLink>experiments://Tags/知识库</TargetLink>
     <FetchSource>Community</FetchSource>
     <FetchConfiguration>

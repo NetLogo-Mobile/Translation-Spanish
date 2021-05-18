@@ -2,7 +2,7 @@
 <Library>
   <ID>5fac3b6a7b4386e93cf61e56</ID>
   <Identifier>Workspace</Identifier>
-  <Subject>Mi Espacio de Trabajo</Subject>
+  <Subject>MI ESPACIO DE TRABAJO</Subject>
   <!-- To translate: Subject -->
   <Language>Spanish</Language>
   <IsNavigation>True</IsNavigation>
@@ -16,7 +16,7 @@
     <Type>Topic</Type>
     <Header>PUBLICADO</Header>
     <!-- To translate: Header -->
-    <Subject>Mis modelos</Subject>
+    <Subject>MIS MODELOS</Subject>
     <!-- To translate: Subject -->
     <TargetLink>models://UserID/Mine</TargetLink>
     <FetchSource>User</FetchSource>
@@ -27,7 +27,7 @@
   <Block>
     <Type>Topic</Type>
     <Header>PUBLICADO</Header>
-    <Subject>Mis Experimentos</Subject>
+    <Subject>MIS EXPERIMENTOS</Subject>
     <TargetLink>experiments://UserID/Mine</TargetLink>
     <FetchSource>User</FetchSource>
     <FetchConfiguration>
@@ -37,7 +37,7 @@
   <Block>
     <Type>Topic</Type>
     <Header>PUBLICADO</Header>
-    <Subject>My Discussions</Subject>
+    <Subject>MIS DISCUSIONES</Subject>
     <TargetLink>discussions://UserID/Mine</TargetLink>
     <FetchSource>User</FetchSource>
     <FetchConfiguration>
@@ -66,7 +66,7 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>SUPPORTED DISCUSSIONS</Header>
+    <Header>DISCUSIONES APROBADOS</Header>
     <TargetLink>discussions://UserID/Mine/Special/Support</TargetLink>
     <FetchSource>User</FetchSource>
     <FetchConfiguration>
