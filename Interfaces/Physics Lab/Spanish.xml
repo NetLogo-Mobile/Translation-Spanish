@@ -1,139 +1,139 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Strings>
   <Categories>
-    <String ID="电学" Status="1" English="Circuit">Circuito</String>
-    <String ID="天体物理" Status="1" English="Astrophysics">Astrofísica</String>
-    <String ID="电与磁" Status="1" English="Electromagnets">Electroimanes</String>
-    <String ID="基础电路" Status="1" English="Basic">Básico</String>
-    <String ID="仪器仪表" Status="1" English="Meters">Metros</String>
-    <String ID="家庭电路" Status="1" English="Home &amp; Power">Hogar y energía</String>
-    <String ID="模拟电路" Status="1" English="Analog">Cosa análoga</String>
-    <String ID="逻辑电路" Status="1" English="Digital">Digital</String>
-    <String ID="演示元件" Status="1" English="Demo">Manifestación</String>
-    <String ID="行星" Status="1" English="Planet">Planeta</String>
-    <String ID="恒星" Status="1" English="Star">Estrella</String>
-    <String ID="卫星" Status="1" English="Satellite">Satélite</String>
-    <String ID="小行星" Status="1" English="Asteroid">Asteroide</String>
-    <String ID="彗星" Status="1" English="Comet">Cometa</String>
-    <String ID="航天器" Status="1" English="Spacecraft">Astronave</String>
-    <String ID="静电场" Status="1" English="Electrostatic">Electrostático</String>
-    <String ID="静磁场" Status="1" English="Magnetostatic">Magnetostático</String>
-    <String ID="黑色导线" Status="1" English="Black wire">Alambre negro</String>
-    <String ID="蓝色导线" Status="1" English="Blue wire">Alambre azul</String>
-    <String ID="黄色导线" Status="1" English="Yellow wire">Alambre amarillo</String>
-    <String ID="红色导线" Status="1" English="Red wire">cable rojo</String>
-    <String ID="绿色导线" Status="1" English="Green wire">Alambre verde</String>
-    <String ID="即将来临" Status="1" English="Coming Soon">Próximamente</String>
+    <String ID="电学" Status="0" English="Circuit">Circuito</String>
+    <String ID="天体物理" Status="0" English="Astrophysics">Astrofísica</String>
+    <String ID="电与磁" Status="0" English="Electromagnets">Electroimanes</String>
+    <String ID="基础电路" Status="0" English="Basic">Básico</String>
+    <String ID="仪器仪表" Status="0" English="Meters">Metros</String>
+    <String ID="家庭电路" Status="0" English="Home &amp; Power">Hogar y energía</String>
+    <String ID="模拟电路" Status="0" English="Analog">Analógico</String>
+    <String ID="逻辑电路" Status="0" English="Digital">Digital</String>
+    <String ID="演示元件" Status="0" English="Demo">Demostración</String>
+    <String ID="行星" Status="0" English="Planet">Planeta</String>
+    <String ID="恒星" Status="0" English="Star">Estrella</String>
+    <String ID="卫星" Status="0" English="Satellite">Satélite</String>
+    <String ID="小行星" Status="0" English="Asteroid">Asteroide</String>
+    <String ID="彗星" Status="0" English="Comet">Cometa</String>
+    <String ID="航天器" Status="0" English="Spacecraft">Nave Espacial</String>
+    <String ID="静电场" Status="0" English="Electrostatic">Electrostático</String>
+    <String ID="静磁场" Status="0" English="Magnetostatic">Magnetostático</String>
+    <String ID="黑色导线" Status="0" English="Black wire">Cable negro</String>
+    <String ID="蓝色导线" Status="0" English="Blue wire">Cable azul</String>
+    <String ID="黄色导线" Status="0" English="Yellow wire">Cable amarillo</String>
+    <String ID="红色导线" Status="0" English="Red wire">Cable rojo</String>
+    <String ID="绿色导线" Status="0" English="Green wire">Cable verde</String>
+    <String ID="即将来临" Status="0" English="Coming Soon">Inminente</String>
   </Categories>
   <Components>
-    <String ID="水星" Status="1" English="Mercury">Mercurio</String>
-    <String ID="金星" Status="1" English="Venus">Venus</String>
-    <String ID="地球" Status="1" English="Earth">Tierra</String>
-    <String ID="火星" Status="1" English="Mars">marzo</String>
-    <String ID="木星" Status="1" English="Jupiter">Júpiter</String>
-    <String ID="土星" Status="1" English="Saturn">Saturno</String>
-    <String ID="太阳" Status="1" English="Sun">Dom</String>
-    <String ID="月球" Status="1" English="Moon">Luna</String>
-    <String ID="天王星" Status="1" English="Uranus">Urano</String>
-    <String ID="海王星" Status="1" English="Neptune">Neptuno</String>
-    <String ID="冥王星" Status="1" English="Pluto">Plutón</String>
-    <String ID="幻想恒星" Status="1" English="Fantasy star">Estrella de fantasía</String>
-    <String ID="黑洞" Status="1" English="Black hole">Calabozo</String>
-    <String ID="巧克力球" Status="1" English="Chocolate ball">Bola de chocolate</String>
-    <String ID="仙人球" Status="1" English="Cactus">Cactus</String>
-    <String ID="随机行星" Status="1" English="Random Planet">Planeta aleatorio</String>
-    <String ID="大陆行星" Status="1" English="Continental Planet">Planeta continental</String>
-    <String ID="封冻行星" Status="1" English="Frozen Planet">Planeta congelado</String>
-    <String ID="干旱行星" Status="1" English="Arid Planet">Planeta árido</String>
-    <String ID="贫瘠行星" Status="1" English="Barren Planet">Planeta estéril</String>
-    <String ID="沙漠行星" Status="1" English="Desert Planet">Planeta del desierto</String>
-    <String ID="丛林行星" Status="1" English="Jungle Planet">Jungle Planet</String>
-    <String ID="剧毒行星" Status="1" English="Toxic Planet">Planeta tóxico</String>
-    <String ID="熔岩行星" Status="1" English="Lava planet">Planeta de lava</String>
-    <String ID="海洋行星" Status="1" English="Ocean Planet">Ocean Planet</String>
-    <String ID="蓝巨星" Status="1" English="Blue Giant">Gigante azul</String>
-    <String ID="红巨星" Status="1" English="Red Giant">Gigante rojo</String>
-    <String ID="红矮星" Status="1" English="Red Dwarf">Enano Rojo</String>
-    <String ID="白矮星" Status="1" English="White Dwarf">Enano blanco</String>
-    <String ID="中子星" Status="1" English="Neutron Star">Estrella neutrón</String>
-    <String ID="脉冲星" Status="1" English="Pulsar">Pulsar</String>
-    <String ID="负电荷" Status="1" English="Negative charge">Carga negativa</String>
-    <String ID="负试验电荷" Status="1" English="Negative test charge">Carga de prueba negativa</String>
-    <String ID="正电荷" Status="1" English="Positive charge">Carga positiva</String>
-    <String ID="正试验电荷" Status="1" English="Positive test charge">Carga de prueba positiva</String>
-    <String ID="匀强磁场" Status="1" English="Uniform magnetic field">Campo magnético uniforme</String>
-    <String ID="条形磁铁" Status="1" English="Bar magnet">Barra magnética</String>
-    <String ID="马蹄磁铁" Status="1" English="Horseshoe magnet">Imán de herradura</String>
-    <String ID="简单开关" Status="1" English="Simple switch">Interruptor simple</String>
-    <String ID="一节电池" Status="1" English="Battery">Batería</String>
-    <String ID="白炽灯泡" Status="1" English="Light bulb">Bombilla</String>
-    <String ID="学生电源" Status="1" English="Student source">Fuente del estudiante</String>
-    <String ID="滑动变阻器" Status="1" English="Sliding rheostat">Reóstato deslizante</String>
-    <String ID="直流安培表" Status="1" English="DC Ammeter">Amperímetro DC</String>
-    <String ID="直流电压表" Status="1" English="DC Voltmeter">Voltímetro DC</String>
-    <String ID="电阻箱" Status="1" English="Resistance box">Caja de resistencia</String>
-    <String ID="定值电阻" Status="1" English="Fixed resistance">Resistencia fija</String>
-    <String ID="微安表" Status="1" English="Micro-ammeter">Microamperímetro</String>
-    <String ID="灵敏电流计" Status="1" English="Galvanometer">Galvanómetro</String>
-    <String ID="单刀双掷开关" Status="1" English="Single pole double throw switch">Interruptor monopolar de doble tiro</String>
-    <String ID="双刀双掷开关" Status="1" English="Double pole double throw switch">Interruptor bipolar de doble tiro</String>
-    <String ID="电阻定律实验" Status="1" English="Resistivity">Resistividad</String>
-    <String ID="万用表" Status="1" English="Multimeter">Multímetro</String>
-    <String ID="二极管" Status="1" English="Diode">Diodo</String>
-    <String ID="电容" Status="1" English="Capacitance">Capacidad</String>
-    <String ID="电感" Status="1" English="Inductance">Inductancia</String>
-    <String ID="小电扇" Status="1" English="Electric fan">Ventilador eléctrico</String>
-    <String ID="理想互感" Status="1" English="Mutual inductance">Inductancia mutua</String>
-    <String ID="逻辑输出" Status="1" English="Logic output">Salida lógica</String>
-    <String ID="逻辑输入" Status="1" English="Logic input">Entrada lógica</String>
-    <String ID="是门" Status="1" English="YES gate">SÍ puerta</String>
-    <String ID="非门" Status="1" English="NO gate">SIN puerta</String>
-    <String ID="与门" Status="1" English="AND gate">Y puerta</String>
-    <String ID="或门" Status="1" English="OR gate">Puerta OR</String>
-    <String ID="或非门" Status="1" English="NOR gate">Puerta NOR</String>
-    <String ID="异或门" Status="1" English="XOR gate">Puerta XOR</String>
-    <String ID="同或门" Status="1" English="XNOR gate">Puerta XNOR</String>
-    <String ID="与非门" Status="1" English="NAND gate">Puerta NAND</String>
-    <String ID="蕴含门" Status="1" English="IMP gate">Puerta IMP</String>
-    <String ID="蕴含非门" Status="1" English="NIMP gate">Puerta NIMP</String>
-    <String ID="继电器" Status="1" English="Relay">Relé</String>
-    <String ID="按钮开关" Status="1" English="Push Switch">Pulsador</String>
-    <String ID="接地元件" Status="1" English="Ground">Suelo</String>
-    <String ID="三极管" Status="1" English="Transistor">Transistor</String>
-    <String ID="中心抽头变压器" Status="1" English="Tapped transformer">Transformador roscado</String>
-    <String ID="火花隙" Status="1" English="Spark gap">Espacio de chispa</String>
-    <String ID="特斯拉线圈" Status="1" English="Tesla coil">bobina de Tesla</String>
-    <String ID="发光二极管" Status="1" English="LED">LED</String>
-    <String ID="彩色发光二极管" Status="1" English="Color LED">LED de color</String>
-    <String ID="演示发光二极管" Status="1" English="LED Demo">Demostración LED</String>
-    <String ID="理想变压器" Status="1" English="Transformer">Transformador</String>
-    <String ID="全波整流器" Status="1" English="Rectifier">Rectificador</String>
-    <String ID="保险丝" Status="1" English="Fuse">Fusible</String>
-    <String ID="电能表" Status="1" English="Electricity meter">Medidor de electricidad</String>
-    <String ID="电铃" Status="1" English="Electric bell">Timbre electrico</String>
-    <String ID="八音盒" Status="1" English="Music box">Caja de música</String>
-    <String ID="空气开关" Status="1" English="Air switch">Interruptor del aire</String>
-    <String ID="通电螺线管" Status="1" English="Solenoid">Solenoide</String>
-    <String ID="灯塔实验" Status="1" English="Lighthouse">Faro</String>
-    <String ID="蜂鸣器" Status="1" English="Buzzer">Zumbador</String>
-    <String ID="方波发生器" Status="1" English="Square wave generator">Generador de ondas cuadradas</String>
-    <String ID="三角波发生器" Status="1" English="Triangle wave generator">Generador de ondas triangulares</String>
-    <String ID="锯齿波发生器" Status="1" English="Sawtooth generator">Generador de dientes de sierra</String>
-    <String ID="脉冲波发生器" Status="1" English="Pulse wave generator">Generador de ondas de pulso</String>
-    <String ID="正弦波发生器" Status="1" English="Sine wave generator">Generador de onda sinusoidal</String>
-    <String ID="全加器" Status="1" English="Full adder">Sumador completo</String>
-    <String ID="半加器" Status="1" English="Half adder">Media víbora</String>
-    <String ID="二位乘法器" Status="1" English="Two-digit multiplier">Multiplicador de dos dígitos</String>
-    <String ID="比较器" Status="1" English="Comparator">Comparador</String>
-    <String ID="计数器" Status="1" English="Counter">Mostrador</String>
-    <String ID="随机数发生器" Status="1" English="Random generator">Generador aleatorio</String>
-    <String ID="JK 触发器" Status="1" English="JK flip-flop">Chanclas JK</String>
-    <String ID="T 触发器" Status="1" English="T flip-flop">T flip-flop</String>
-    <String ID="D 触发器" Status="1" English="D flip-flop">Chanclas D</String>
-    <String ID="运算放大器" Status="1" English="Operational amplifier">Amplificador operacional</String>
-    <String ID="指南针" Status="1" English="Compass">Brújula</String>
-    <String ID="555 定时器" Status="1" English="555 timer">555 horas</String>
-    <String ID="施密特触发器" Status="1" English="Schmitt trigger">Schmitt Trigger</String>
+    <String ID="水星" Status="0" English="Mercury">Mercurio</String>
+    <String ID="金星" Status="0" English="Venus">Venus</String>
+    <String ID="地球" Status="0" English="Earth">Tierra</String>
+    <String ID="火星" Status="0" English="Mars">Marte</String>
+    <String ID="木星" Status="0" English="Jupiter">Júpiter</String>
+    <String ID="土星" Status="0" English="Saturn">Saturno</String>
+    <String ID="太阳" Status="0" English="Sun">Sol</String>
+    <String ID="月球" Status="0" English="Moon">Luna</String>
+    <String ID="天王星" Status="0" English="Uranus">Urano</String>
+    <String ID="海王星" Status="0" English="Neptune">Neptuno</String>
+    <String ID="冥王星" Status="0" English="Pluto">Plutón</String>
+    <String ID="幻想恒星" Status="0" English="Fantasy star">Estrella de Fantasía</String>
+    <String ID="黑洞" Status="0" English="Black hole">Agujero Negro</String>
+    <String ID="巧克力球" Status="0" English="Chocolate ball">Bola de Chocolate</String>
+    <String ID="仙人球" Status="0" English="Cactus">Cacto</String>
+    <String ID="随机行星" Status="0" English="Random Planet">Planeta Aleatorio</String>
+    <String ID="大陆行星" Status="0" English="Continental Planet">Planeta Continental</String>
+    <String ID="封冻行星" Status="0" English="Frozen Planet">Planeta Congelado</String>
+    <String ID="干旱行星" Status="0" English="Arid Planet">Planeta Árido</String>
+    <String ID="贫瘠行星" Status="0" English="Barren Planet">Planeta Estéril</String>
+    <String ID="沙漠行星" Status="0" English="Desert Planet">Planeta Desierto</String>
+    <String ID="丛林行星" Status="0" English="Jungle Planet">Planeta Selva</String>
+    <String ID="剧毒行星" Status="0" English="Toxic Planet">Planeta Tóxico</String>
+    <String ID="熔岩行星" Status="0" English="Lava planet">Planeta de Lava</String>
+    <String ID="海洋行星" Status="0" English="Ocean Planet">Planeta Oceano</String>
+    <String ID="蓝巨星" Status="0" English="Blue Giant">Gigante Azul</String>
+    <String ID="红巨星" Status="0" English="Red Giant">Gigante Rojo</String>
+    <String ID="红矮星" Status="0" English="Red Dwarf">Enano Rojo</String>
+    <String ID="白矮星" Status="0" English="White Dwarf">Enano Blanco</String>
+    <String ID="中子星" Status="0" English="Neutron Star">Estrella Neutrón</String>
+    <String ID="脉冲星" Status="0" English="Pulsar">Pulsar</String>
+    <String ID="负电荷" Status="0" English="Negative charge">Carga negativa</String>
+    <String ID="负试验电荷" Status="0" English="Negative test charge">Carga de prueba negativa</String>
+    <String ID="正电荷" Status="0" English="Positive charge">Carga positiva</String>
+    <String ID="正试验电荷" Status="0" English="Positive test charge">Carga de prueba positiva</String>
+    <String ID="匀强磁场" Status="0" English="Uniform magnetic field">Campo magnético uniforme</String>
+    <String ID="条形磁铁" Status="0" English="Bar magnet">Barra magnética</String>
+    <String ID="马蹄磁铁" Status="0" English="Horseshoe magnet">Imán de herradura</String>
+    <String ID="简单开关" Status="0" English="Simple switch">Interruptor simple</String>
+    <String ID="一节电池" Status="0" English="Battery">Batería</String>
+    <String ID="白炽灯泡" Status="0" English="Light bulb">Bombilla</String>
+    <String ID="学生电源" Status="0" English="Student source">Cita del estudiante</String>
+    <String ID="滑动变阻器" Status="0" English="Sliding rheostat">Reóstato Deslizante</String>
+    <String ID="直流安培表" Status="0" English="DC Ammeter">Amperímetro DC</String>
+    <String ID="直流电压表" Status="0" English="DC Voltmeter">Voltímetro DC</String>
+    <String ID="电阻箱" Status="0" English="Resistance box">Caja de resistencia</String>
+    <String ID="定值电阻" Status="0" English="Fixed resistance">Resistencia Fija</String>
+    <String ID="微安表" Status="0" English="Micro-ammeter">Microamperímetro</String>
+    <String ID="灵敏电流计" Status="0" English="Galvanometer">Galvanómetro</String>
+    <String ID="单刀双掷开关" Status="0" English="Single pole double throw switch">Interruptor monopolar de doble tiro</String>
+    <String ID="双刀双掷开关" Status="0" English="Double pole double throw switch">Interruptor bipolar de doble tiro</String>
+    <String ID="电阻定律实验" Status="0" English="Resistivity">Resistividad</String>
+    <String ID="万用表" Status="0" English="Multimeter">Multímetro</String>
+    <String ID="二极管" Status="0" English="Diode">Diodo</String>
+    <String ID="电容" Status="0" English="Capacitance">Capacidad</String>
+    <String ID="电感" Status="0" English="Inductance">Inductancia</String>
+    <String ID="小电扇" Status="0" English="Electric fan">Ventilador eléctrico</String>
+    <String ID="理想互感" Status="0" English="Mutual inductance">Inductancia mutua</String>
+    <String ID="逻辑输出" Status="0" English="Logic output">Salida lógica</String>
+    <String ID="逻辑输入" Status="0" English="Logic input">Entrada lógica</String>
+    <String ID="是门" Status="0" English="YES gate">Compuerta de SÍ</String>
+    <String ID="非门" Status="0" English="NO gate">Compuerta de NO</String>
+    <String ID="与门" Status="0" English="AND gate">Compuerta de Y</String>
+    <String ID="或门" Status="0" English="OR gate">Compuerta de O</String>
+    <String ID="或非门" Status="0" English="NOR gate">Compuerta de NOR</String>
+    <String ID="异或门" Status="0" English="XOR gate">Compuerta de XOR</String>
+    <String ID="同或门" Status="0" English="XNOR gate">Compuerta de XNOR</String>
+    <String ID="与非门" Status="0" English="NAND gate">Compuerta de NAND</String>
+    <String ID="蕴含门" Status="0" English="IMP gate">Compuerta de IMP</String>
+    <String ID="蕴含非门" Status="0" English="NIMP gate">Compuerta de NIMP</String>
+    <String ID="继电器" Status="0" English="Relay">Relé</String>
+    <String ID="按钮开关" Status="0" English="Push Switch">Interruptores de Botón</String>
+    <String ID="接地元件" Status="0" English="Ground">Poner a tierra</String>
+    <String ID="三极管" Status="0" English="Transistor">Transistor</String>
+    <String ID="中心抽头变压器" Status="0" English="Tapped transformer">Transformador centro</String>
+    <String ID="火花隙" Status="0" English="Spark gap">Distancia disruptiva</String>
+    <String ID="特斯拉线圈" Status="0" English="Tesla coil">Bobina de Tesla</String>
+    <String ID="发光二极管" Status="0" English="LED">LED</String>
+    <String ID="彩色发光二极管" Status="0" English="Color LED">LED de color</String>
+    <String ID="演示发光二极管" Status="0" English="LED Demo">Demostración de LED</String>
+    <String ID="理想变压器" Status="0" English="Transformer">Transformador</String>
+    <String ID="全波整流器" Status="0" English="Rectifier">Rectificador</String>
+    <String ID="保险丝" Status="0" English="Fuse">Fusible</String>
+    <String ID="电能表" Status="0" English="Electricity meter">Medidor de electricidad</String>
+    <String ID="电铃" Status="0" English="Electric bell">Timbre eléctrico</String>
+    <String ID="八音盒" Status="0" English="Music box">Caja de música</String>
+    <String ID="空气开关" Status="0" English="Air switch">Interruptor del aire</String>
+    <String ID="通电螺线管" Status="0" English="Solenoid">Solenoide</String>
+    <String ID="灯塔实验" Status="0" English="Lighthouse">Faro</String>
+    <String ID="蜂鸣器" Status="0" English="Buzzer">Timbre</String>
+    <String ID="方波发生器" Status="0" English="Square wave generator">Generador de ondas cuadradas</String>
+    <String ID="三角波发生器" Status="0" English="Triangle wave generator">Generador de ondas triangulares</String>
+    <String ID="锯齿波发生器" Status="0" English="Sawtooth generator">Generador de dientes de sierra</String>
+    <String ID="脉冲波发生器" Status="0" English="Pulse wave generator">Generador de ondas de pulso</String>
+    <String ID="正弦波发生器" Status="0" English="Sine wave generator">Generador de onda sinusoidal</String>
+    <String ID="全加器" Status="0" English="Full adder">Sumador completo</String>
+    <String ID="半加器" Status="0" English="Half adder">Sumador Medio</String>
+    <String ID="二位乘法器" Status="0" English="Two-digit multiplier">Multiplicador de dos dígitos</String>
+    <String ID="比较器" Status="0" English="Comparator">Comparador</String>
+    <String ID="计数器" Status="0" English="Counter">Mostrador</String>
+    <String ID="随机数发生器" Status="0" English="Random generator">Generador aleatorio</String>
+    <String ID="JK 触发器" Status="0" English="JK flip-flop">Biestable JK</String>
+    <String ID="T 触发器" Status="0" English="T flip-flop">Biestable T</String>
+    <String ID="D 触发器" Status="0" English="D flip-flop">Biestable D</String>
+    <String ID="运算放大器" Status="0" English="Operational amplifier">Amplificador operacional</String>
+    <String ID="指南针" Status="0" English="Compass">Brújula</String>
+    <String ID="555 定时器" Status="0" English="555 timer">555 cronómetro</String>
+    <String ID="施密特触发器" Status="0" English="Schmitt trigger">Disparador Schmitt</String>
   </Components>
   <Properties>
     <String ID="电路状态" Status="1" English="Circuit State">Estado del circuito</String>
