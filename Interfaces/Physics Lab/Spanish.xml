@@ -136,82 +136,82 @@
     <String ID="施密特触发器" Status="0" English="Schmitt trigger">Disparador Schmitt</String>
   </Components>
   <Properties>
-    <String ID="电路状态" Status="1" English="Circuit State">Estado del circuito</String>
-    <String ID="电学性质" Status="1" English="Circuit Properties">Propiedades del circuito</String>
-    <String ID="尚未通电" Status="1" English="Not Powered">No alimentado</String>
-    <String ID="电荷性质" Status="1" English="Charge Property">Cargo de propiedad</String>
-    <String ID="磁体性质" Status="1" English="Magnet Properties">Propiedades del imán</String>
-    <String ID="运动状态" Status="1" English="Motion State">Estado de movimiento</String>
-    <String ID="绝对速度" Status="1" English="Velocity (Absolute)">Velocidad (absoluta)</String>
-    <String ID="解除锁定" Status="1" English="Unlock">desbloquear</String>
-    <String ID="天体数据" Status="1" English="Celestial characteristics">Características celestiales</String>
-    <String ID="相对速度" Status="1" English="Velocity (Relative)">Velocidad (relativa)</String>
-    <String ID="开普勒轨道" Status="1" English="Kepler orbit">Órbita de kepler</String>
-    <String ID="预测轨道" Status="1" English="Orbit estimation">Estimación de órbita</String>
-    <String ID="电流" Status="1" English="Current">Actual</String>
-    <String ID="电压" Status="1" English="Voltage">voltaje</String>
-    <String ID="功率" Status="1" English="Power">Poder</String>
-    <String ID="增益" Status="1" English="Gain">Ganancia</String>
-    <String ID="常闭" Status="1" English="NC contact">Contacto NC</String>
-    <String ID="常开" Status="1" English="NO contact">Sin contacto</String>
-    <String ID="线圈" Status="1" English="Coil">Bobina</String>
-    <String ID="吸合" Status="1" English="Pickup">Recoger</String>
-    <String ID="状态" Status="1" English="Status">Estado</String>
-    <String ID="电荷强度" Status="1" English="Charge intensity">Intensidad de carga</String>
-    <String ID="低电平" Status="1" English="Low Level">Nivel bajo</String>
-    <String ID="高电平" Status="1" English="High Level">Nivel alto</String>
-    <String ID="相位" Status="1" English="Phase">Fase</String>
-    <String ID="偏移" Status="1" English="Offset">Compensar</String>
-    <String ID="速度" Status="1" English="Speed">Velocidad</String>
-    <String ID="加速度" Status="1" English="Acceleration">Aceleración</String>
-    <String ID="内阻" Status="1" English="Internal Resistance">Resistencia interna</String>
-    <String ID="电阻" Status="1" English="Resistance">Resistencia</String>
-    <String ID="长度" Status="1" English="Length">Longitud</String>
-    <String ID="半径" Status="1" English="Radius">Radio</String>
-    <String ID="强度" Status="1" English="Strength">Fuerza</String>
-    <String ID="额定" Status="1" English="Rated">Calificado</String>
-    <String ID="直流" Status="1" English="DC">corriente continua</String>
-    <String ID="交流" Status="1" English="AC">C.A.</String>
-    <String ID="熔断" Status="1" English="Fuse">Fusible</String>
-    <String ID="滑块" Status="1" English="Slider">Deslizador</String>
-    <String ID="未连接" Status="1" English="Disconnected">Desconectado</String>
-    <String ID="耐压" Status="1" English="Peak Voltage">Voltaje pico</String>
-    <String ID="等效" Status="1" English="Equivalent">Equivalente</String>
-    <String ID="初级" Status="1" English="Primary">Primario</String>
-    <String ID="次级" Status="1" English="Secondary">Secundario</String>
-    <String ID="耦合" Status="1" English="Coupling">Acoplamiento</String>
-    <String ID="维持" Status="1" English="Holding">Participación</String>
-    <String ID="示数" Status="1" English="Number">Número</String>
-    <String ID="红色" Status="1" English="Red">rojo</String>
-    <String ID="绿色" Status="1" English="Green">Verde</String>
-    <String ID="蓝色" Status="1" English="Blue">Azul</String>
-    <String ID="总计" Status="1" English="Total">Total</String>
-    <String ID="输出" Status="1" English="Output">Salida</String>
-    <String ID="输入" Status="1" English="Input">Entrada</String>
-    <String ID="最大值 {0}" Status="1" English="Max {0}">{0} máx.</String>
-    <String ID="最小值 {0}" Status="1" English="Min {0}">Mín. {0}</String>
-    <String ID="镍铬" Status="1" English="Nichrome">Nicromo</String>
-    <String ID="锰铜" Status="1" English="Manganin">Manganina</String>
-    <String ID="纯铜" Status="1" English="Copper">Cobre</String>
-    <String ID="动能" Status="1" English="Kinetic energy">Energía cinética</String>
-    <String ID="幅度" Status="1" English="Magnitude">Magnitud</String>
-    <String ID="匝数" Status="1" English="Turns">Vueltas</String>
-    <String ID="周期" Status="1" English="Cycle">Ciclo</String>
-    <String ID="质量" Status="1" English="Mass">Masa</String>
-    <String ID="密度" Status="1" English="Density">Densidad</String>
-    <String ID="自转周期" Status="1" English="Rotation period">Período de rotación</String>
-    <String ID="重力加速度" Status="1" English="Gravity acceleration">Aceleración por gravedad</String>
-    <String ID="离心率" Status="1" English="Eccentricity">Excentricidad</String>
-    <String ID="半长轴" Status="1" English="Semi-major">Semi-mayor</String>
-    <String ID="近日点" Status="1" English="Perihelion">Perihelio</String>
-    <String ID="远日点" Status="1" English="Aphelion">Afelio</String>
-    <String ID="真近点角" Status="1" English="True anomaly">Verdadera anomalía</String>
-    <String ID="轨道倾角" Status="1" English="Inclination">Inclinación</String>
-    <String ID="近心点幅角" Status="1" English="Periapsis">Periapsis</String>
-    <String ID="升交点经度" Status="1" English="RAAN">RAAN</String>
-    <String ID="额定电阻" Status="1" English="Rated resistance">Resistencia nominal</String>
-    <String ID="左侧电压" Status="1" English="Left voltage">Voltaje izquierdo</String>
-    <String ID="右侧电压" Status="1" English="Right voltage">Voltaje correcto</String>
+    <String ID="电路状态" Status="0" English="Circuit State">Estado del Circuito</String>
+    <String ID="电学性质" Status="0" English="Circuit Properties">Propiedades del Circuito</String>
+    <String ID="尚未通电" Status="0" English="Not Powered">No Alimentado</String>
+    <String ID="电荷性质" Status="0" English="Charge Property">Cargo de Propiedad</String>
+    <String ID="磁体性质" Status="0" English="Magnet Properties">Propiedades del Imán</String>
+    <String ID="运动状态" Status="0" English="Motion State">Estado de Movimiento</String>
+    <String ID="绝对速度" Status="0" English="Velocity (Absolute)">Velocidad (Absoluta)</String>
+    <String ID="解除锁定" Status="0" English="Unlock">Desbloquear</String>
+    <String ID="天体数据" Status="0" English="Celestial characteristics">Características celestiales</String>
+    <String ID="相对速度" Status="0" English="Velocity (Relative)">Velocidad (Relativa)</String>
+    <String ID="开普勒轨道" Status="0" English="Kepler orbit">Órbita de Kepler</String>
+    <String ID="预测轨道" Status="0" English="Orbit estimation">Estimación de órbita</String>
+    <String ID="电流" Status="0" English="Current">Corriente</String>
+    <String ID="电压" Status="0" English="Voltage">Voltaje</String>
+    <String ID="功率" Status="0" English="Power">Electricidad</String>
+    <String ID="增益" Status="0" English="Gain">Ganancia</String>
+    <String ID="常闭" Status="0" English="NC contact">Contacto NC</String>
+    <String ID="常开" Status="0" English="NO contact">Contacto NO</String>
+    <String ID="线圈" Status="0" English="Coil">Rollo</String>
+    <String ID="吸合" Status="0" English="Pickup">Pastilla</String>
+    <String ID="状态" Status="0" English="Status">Estado</String>
+    <String ID="电荷强度" Status="0" English="Charge intensity">Intensidad de carga</String>
+    <String ID="低电平" Status="0" English="Low Level">Nivel Bajo</String>
+    <String ID="高电平" Status="0" English="High Level">Nivel Alto</String>
+    <String ID="相位" Status="0" English="Phase">Fase</String>
+    <String ID="偏移" Status="0" English="Offset">Compensación</String>
+    <String ID="速度" Status="0" English="Speed">Velocidad</String>
+    <String ID="加速度" Status="0" English="Acceleration">Aceleración</String>
+    <String ID="内阻" Status="0" English="Internal Resistance">Resistencia Interna</String>
+    <String ID="电阻" Status="0" English="Resistance">Resistencia</String>
+    <String ID="长度" Status="0" English="Length">Longitud</String>
+    <String ID="半径" Status="0" English="Radius">Radio</String>
+    <String ID="强度" Status="0" English="Strength">Fuerza</String>
+    <String ID="额定" Status="0" English="Rated">Calificado</String>
+    <String ID="直流" Status="0" English="DC">Corriente Continua</String>
+    <String ID="交流" Status="0" English="AC">Corriente Alterna</String>
+    <String ID="熔断" Status="0" English="Fuse">Fusible</String>
+    <String ID="滑块" Status="0" English="Slider">Deslizador</String>
+    <String ID="未连接" Status="0" English="Disconnected">Desconectado</String>
+    <String ID="耐压" Status="0" English="Peak Voltage">Voltaje Pico</String>
+    <String ID="等效" Status="0" English="Equivalent">Equivalente</String>
+    <String ID="初级" Status="0" English="Primary">Primario</String>
+    <String ID="次级" Status="0" English="Secondary">Secundario</String>
+    <String ID="耦合" Status="0" English="Coupling">Acoplamiento</String>
+    <String ID="维持" Status="0" English="Holding">Propiedad</String>
+    <String ID="示数" Status="0" English="Number">Número</String>
+    <String ID="红色" Status="0" English="Red">Rojo</String>
+    <String ID="绿色" Status="0" English="Green">Verde</String>
+    <String ID="蓝色" Status="0" English="Blue">Azul</String>
+    <String ID="总计" Status="0" English="Total">Total</String>
+    <String ID="输出" Status="0" English="Output">Salida</String>
+    <String ID="输入" Status="0" English="Input">Entrada</String>
+    <String ID="最大值 {0}" Status="0" English="Max {0}">{0} máx</String>
+    <String ID="最小值 {0}" Status="0" English="Min {0}">{0} mín</String>
+    <String ID="镍铬" Status="0" English="Nichrome">Nicromo</String>
+    <String ID="锰铜" Status="0" English="Manganin">Manganina</String>
+    <String ID="纯铜" Status="0" English="Copper">Cobre</String>
+    <String ID="动能" Status="0" English="Kinetic energy">Energía cinética</String>
+    <String ID="幅度" Status="0" English="Magnitude">Magnitud</String>
+    <String ID="匝数" Status="0" English="Turns">Vueltas</String>
+    <String ID="周期" Status="0" English="Cycle">Ciclo</String>
+    <String ID="质量" Status="0" English="Mass">Masa</String>
+    <String ID="密度" Status="0" English="Density">Densidad</String>
+    <String ID="自转周期" Status="0" English="Rotation period">Período de rotación</String>
+    <String ID="重力加速度" Status="0" English="Gravity acceleration">Aceleración por gravedad</String>
+    <String ID="离心率" Status="0" English="Eccentricity">Excentricidad</String>
+    <String ID="半长轴" Status="0" English="Semi-major">Semi-mayor</String>
+    <String ID="近日点" Status="0" English="Perihelion">Perihelio</String>
+    <String ID="远日点" Status="0" English="Aphelion">Afelio</String>
+    <String ID="真近点角" Status="0" English="True anomaly">Anomalía verdadera</String>
+    <String ID="轨道倾角" Status="0" English="Inclination">Inclinación</String>
+    <String ID="近心点幅角" Status="0" English="Periapsis">Periapsis</String>
+    <String ID="升交点经度" Status="0" English="RAAN">RAAN</String>
+    <String ID="额定电阻" Status="0" English="Rated resistance">Resistencia Valorado</String>
+    <String ID="左侧电压" Status="0" English="Left voltage">Voltaje izquierdo</String>
+    <String ID="右侧电压" Status="0" English="Right voltage">Voltaje correcto</String>
     <String ID="左侧电流" Status="1" English="Left current">Corriente izquierda</String>
     <String ID="右侧电流" Status="1" English="Right current">Corriente correcta</String>
     <String ID="左侧功率" Status="1" English="Left power">Poder izquierdo</String>
