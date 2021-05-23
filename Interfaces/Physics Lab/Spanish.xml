@@ -212,108 +212,108 @@
     <String ID="额定电阻" Status="0" English="Rated resistance">Resistencia Valorado</String>
     <String ID="左侧电压" Status="0" English="Left voltage">Voltaje izquierdo</String>
     <String ID="右侧电压" Status="0" English="Right voltage">Voltaje correcto</String>
-    <String ID="左侧电流" Status="1" English="Left current">Corriente izquierda</String>
-    <String ID="右侧电流" Status="1" English="Right current">Corriente correcta</String>
-    <String ID="左侧功率" Status="1" English="Left power">Poder izquierdo</String>
-    <String ID="右侧功率" Status="1" English="Right power">Poder correcto</String>
-    <String ID="滑块位置" Status="1" English="Slider position">Posición del control deslizante</String>
-    <String ID="瞬间电压" Status="1" English="Transient voltage">Voltaje transitorio</String>
-    <String ID="有效电压" Status="1" English="Effective voltage">Voltaje efectivo</String>
-    <String ID="最小电压" Status="1" English="Minimum voltage">Voltaje mínimo</String>
-    <String ID="最大电压" Status="1" English="Maximum voltage">Voltaje maximo</String>
-    <String ID="增益系数" Status="1" English="Gain">Ganancia</String>
-    <String ID="瞬间电流" Status="1" English="Transient current">Corriente transitoria</String>
-    <String ID="有效电流" Status="1" English="Effective current">Corriente efectiva</String>
-    <String ID="瞬间功率" Status="1" English="Transient power">Poder transitorio</String>
-    <String ID="有效功率" Status="1" English="Effective power">Poder efectivo</String>
-    <String ID="额定电压" Status="1" English="Rated voltage">Voltaje nominal</String>
-    <String ID="额定功率" Status="1" English="Rated power">Potencia nominal</String>
-    <String ID="量程" Status="1" English="Range">Rango</String>
-    <String ID="次级电压" Status="1" English="Secondary voltage">Voltaje secundario</String>
-    <String ID="击穿电压" Status="1" English="Breakdown voltage">Cortocircuito</String>
-    <String ID="初级电感" Status="1" English="1st inductance">1a inductancia</String>
-    <String ID="次级电感" Status="1" English="2nd inductance">2da inductancia</String>
-    <String ID="次级等效电容" Status="1" English="Secondary capacitance">Capacitancia secundaria</String>
-    <String ID="波形幅度" Status="1" English="Waveform amplitude">Amplitud de forma de onda</String>
-    <String ID="直流偏移" Status="1" English="DC offset">Desplazamiento DC</String>
-    <String ID="初始相位" Status="1" English="Initial phase">Fase inicial</String>
-    <String ID="波形频率" Status="1" English="Waveform frequency">Frecuencia de forma de onda</String>
-    <String ID="输出电压" Status="1" English="Output voltage">Tensión de salida</String>
-    <String ID="输出电流" Status="1" English="Output current">Corriente de salida</String>
-    <String ID="输出功率" Status="1" English="Output power">Potencia de salida</String>
-    <String ID="最大功率" Status="1" English="Maximum power">Poder maximo</String>
-    <String ID="交流相位" Status="1" English="AC phase">Fase AC</String>
-    <String ID="交流频率" Status="1" English="AC frequency">Frecuencia AC</String>
-    <String ID="直流电流" Status="1" English="DC current">Corriente continua</String>
-    <String ID="直流功率" Status="1" English="DC power">Energía DC</String>
-    <String ID="交流电流" Status="1" English="AC current">Corriente alterna</String>
-    <String ID="交流电压" Status="1" English="AC voltage">voltaje de corriente alterna</String>
-    <String ID="直流电压" Status="1" English="DC voltage">Voltaje DC</String>
-    <String ID="输入电压" Status="1" English="Input voltage">Voltaje de entrada</String>
-    <String ID="输入电流" Status="1" English="Input Current">Corriente de entrada</String>
-    <String ID="输入功率" Status="1" English="Input power">Potencia de entrada</String>
-    <String ID="耦合系数" Status="1" English="Coupling coefficient">Coeficiente de acoplamiento</String>
-    <String ID="额定电流" Status="1" English="Rated current">Corriente nominal</String>
-    <String ID="前向压降" Status="1" English="Forward drop">Caída hacia adelante</String>
-    <String ID="初级电压" Status="1" English="Primary voltage">Tensión primaria</String>
-    <String ID="初级电流" Status="1" English="Primary current">Corriente primaria</String>
-    <String ID="初级功率" Status="1" English="Primary power">Poder primario</String>
-    <String ID="次级电流" Status="1" English="Secondary current">Corriente secundaria</String>
-    <String ID="次级功率" Status="1" English="Secondary power">Poder secundario</String>
-    <String ID="现实电表" Status="1" English="Realistic meter">Medidor realista</String>
-    <String ID="占空比" Status="1" English="Duty cycle">Ciclo de trabajo</String>
-    <String ID="B(基极)" Status="1" English="Base">Base</String>
-    <String ID="C(集电极)" Status="1" English="Collector">Coleccionista</String>
-    <String ID="E(发射极)" Status="1" English="Emitter">Emisor</String>
-    <String ID="放大系数" Status="1" English="Gain">Ganancia</String>
-    <String ID="阈值电压" Status="1" English="Threshold voltage">Voltaje umbral</String>
-    <String ID="模式" Status="1" English="Mode">Modo</String>
-    <String ID="维持电流" Status="1" English="Hold current">Mantener actual</String>
-    <String ID="击穿电阻" Status="1" English="Breakdown resistance">Resistencia a la rotura</String>
-    <String ID="吸合电流" Status="1" English="Pull-in current">Corriente de entrada</String>
-    <String ID="线圈电感" Status="1" English="Coil inductance">Inductancia de la bobina</String>
-    <String ID="线圈电阻" Status="1" English="Coil resistance">Resistencia de la bobina</String>
-    <String ID="金属丝半径" Status="1" English="Wire radius">Radio del alambre</String>
-    <String ID="金属丝长度" Status="1" English="Wire length">Longitud de cable</String>
-    <String ID="切割速度" Status="1" English="Cutting speed">Velocidad cortante</String>
-    <String ID="线圈匝数" Status="1" English="Coil number">Número de bobina</String>
-    <String ID="磁通量" Status="1" English="Magnetic flux">Flujo magnético</String>
-    <String ID="内线圈电压" Status="1" English="Inner coil voltage">Voltaje de la bobina interna</String>
-    <String ID="外线圈电压" Status="1" English="Outer coil voltage">Voltaje de la bobina exterior</String>
-    <String ID="工作电压" Status="1" English="Operating voltage">Tensión de funcionamiento</String>
-    <String ID="工作电流" Status="1" English="Working current">Corriente de trabajo</String>
-    <String ID="熔断电流" Status="1" English="Fuse current">Fusible actual</String>
-    <String ID="实时电阻" Status="1" English="Actual resistance">Resistencia real</String>
-    <String ID="火线" Status="1" English="Fire line">Línea de fuego</String>
-    <String ID="零线" Status="1" English="Neutral line">Línea neutra</String>
-    <String ID="供电" Status="1" English="Power">Poder</String>
-    <String ID="放电" Status="1" English="Discharge">Descarga</String>
-    <String ID="阈值" Status="1" English="Threshold">Límite</String>
-    <String ID="控制" Status="1" English="Control">Controlar</String>
-    <String ID="触发" Status="1" English="Trigger">Desencadenar</String>
-    <String ID="重设" Status="1" English="Reset">Reiniciar</String>
-    <String ID="接地" Status="1" English="Ground">Suelo</String>
-    <String ID="高电准位" Status="1" English="High level">Nivel alto</String>
-    <String ID="正向阈值" Status="1" English="High threshold">Umbral alto</String>
-    <String ID="低电准位" Status="1" English="Low level">Nivel bajo</String>
-    <String ID="负向阈值" Status="1" English="Low threshold">Umbral bajo</String>
-    <String ID="切变速率" Status="1" English="Slew rate">Velocidad de subida</String>
-    <String ID="反相模式" Status="1" English="Inverted mode">Modo invertido</String>
-    <String ID="天体光度" Status="1" English="Luminosity">Luminosidad</String>
-    <String ID="有效温度" Status="1" English="Effective temperature">Temperatura efectiva</String>
-    <String ID="平衡温度" Status="1" English="Equilibrium temperature">Temperatura de equilibrio</String>
-    <String ID="球面反照率" Status="1" English="Bond albedo">Bond albedo</String>
-    <String ID="洛希极限" Status="1" English="Roche limit">Limitar roca</String>
-    <String ID="负荷扭矩" Status="1" English="Load torque">Par de carga</String>
-    <String ID="马达电感" Status="1" English="Motor inductance">Inductancia del motor</String>
-    <String ID="马达常数" Status="1" English="Motor constant">Constante del motor</String>
-    <String ID="反电动势系数" Status="1" English="Back EMF coefficient">Coeficiente EMF trasero</String>
-    <String ID="粘性摩擦系数" Status="1" English="Viscous friction coefficient">Coeficiente de fricción viscoso</String>
-    <String ID="转速" Status="1" English="Rotating speed">Velocidad de rotación</String>
-    <String ID="摩擦扭矩" Status="1" English="Friction torque">Torque de fricción</String>
-    <String ID="角速度" Status="1" English="Angular velocity">Velocidad angular</String>
-    <String ID="反电动势" Status="1" English="Back EMF">EMF trasero</String>
-    <String ID="转动惯量" Status="1" English="Moment of inertia">Momento de inercia</String>
+    <String ID="左侧电流" Status="0" English="Left current">Corriente izquierda</String>
+    <String ID="右侧电流" Status="0" English="Right current">Corriente derecha</String>
+    <String ID="左侧功率" Status="0" English="Left power">Poder izquierdo</String>
+    <String ID="右侧功率" Status="0" English="Right power">Poder correcto</String>
+    <String ID="滑块位置" Status="0" English="Slider position">Posición del control deslizante</String>
+    <String ID="瞬间电压" Status="0" English="Transient voltage">Voltaje transitorio</String>
+    <String ID="有效电压" Status="0" English="Effective voltage">Voltaje efectivo</String>
+    <String ID="最小电压" Status="0" English="Minimum voltage">Voltaje mínimo</String>
+    <String ID="最大电压" Status="0" English="Maximum voltage">Voltaje maximo</String>
+    <String ID="增益系数" Status="0" English="Gain">Ganancia</String>
+    <String ID="瞬间电流" Status="0" English="Transient current">Corriente transitoria</String>
+    <String ID="有效电流" Status="0" English="Effective current">Corriente efectiva</String>
+    <String ID="瞬间功率" Status="0" English="Transient power">Electricidad transitorio</String>
+    <String ID="有效功率" Status="0" English="Effective power">Electricidad efectivo</String>
+    <String ID="额定电压" Status="0" English="Rated voltage">Voltaje valorado</String>
+    <String ID="额定功率" Status="0" English="Rated power">Electricidad valorado</String>
+    <String ID="量程" Status="0" English="Range">Rango</String>
+    <String ID="次级电压" Status="0" English="Secondary voltage">Voltaje secundario</String>
+    <String ID="击穿电压" Status="0" English="Breakdown voltage">Voltaje de ruptura</String>
+    <String ID="初级电感" Status="0" English="1st inductance">1a inductancia</String>
+    <String ID="次级电感" Status="0" English="2nd inductance">2da inductancia</String>
+    <String ID="次级等效电容" Status="0" English="Secondary capacitance">Capacitancia secundaria</String>
+    <String ID="波形幅度" Status="0" English="Waveform amplitude">Amplitud ondulatorio</String>
+    <String ID="直流偏移" Status="0" English="DC offset">Compensación DC</String>
+    <String ID="初始相位" Status="0" English="Initial phase">Fase inicial</String>
+    <String ID="波形频率" Status="0" English="Waveform frequency">Frecuencia ondulatorio</String>
+    <String ID="输出电压" Status="0" English="Output voltage">Voltaje de salida</String>
+    <String ID="输出电流" Status="0" English="Output current">Corriente de salida</String>
+    <String ID="输出功率" Status="0" English="Output power">Electricidad de salida</String>
+    <String ID="最大功率" Status="0" English="Maximum power">Poder maximo</String>
+    <String ID="交流相位" Status="0" English="AC phase">Fase AC</String>
+    <String ID="交流频率" Status="0" English="AC frequency">Frecuencia AC</String>
+    <String ID="直流电流" Status="0" English="DC current">Corriente continua</String>
+    <String ID="直流功率" Status="0" English="DC power">Electricidad DC</String>
+    <String ID="交流电流" Status="0" English="AC current">Corriente Alterna</String>
+    <String ID="交流电压" Status="0" English="AC voltage">Voltaje de corriente alterna</String>
+    <String ID="直流电压" Status="0" English="DC voltage">Voltaje DC</String>
+    <String ID="输入电压" Status="0" English="Input voltage">Voltaje de entrada</String>
+    <String ID="输入电流" Status="0" English="Input Current">Corriente de entrada</String>
+    <String ID="输入功率" Status="0" English="Input power">Electricidad de entrada</String>
+    <String ID="耦合系数" Status="0" English="Coupling coefficient">Coeficiente de acoplamiento</String>
+    <String ID="额定电流" Status="0" English="Rated current">Corriente valorado</String>
+    <String ID="前向压降" Status="0" English="Forward drop">Caída hacia adelante</String>
+    <String ID="初级电压" Status="0" English="Primary voltage">Voltaje primaria</String>
+    <String ID="初级电流" Status="0" English="Primary current">Corriente primaria</String>
+    <String ID="初级功率" Status="0" English="Primary power">Electricidad primaria</String>
+    <String ID="次级电流" Status="0" English="Secondary current">Electricidad secundaria</String>
+    <String ID="次级功率" Status="0" English="Secondary power">Electricidad secundaria</String>
+    <String ID="现实电表" Status="0" English="Realistic meter">Medidor realista</String>
+    <String ID="占空比" Status="0" English="Duty cycle">Ciclo de trabajo</String>
+    <String ID="B(基极)" Status="0" English="Base">Base</String>
+    <String ID="C(集电极)" Status="0" English="Collector">Colector</String>
+    <String ID="E(发射极)" Status="0" English="Emitter">Emisor</String>
+    <String ID="放大系数" Status="0" English="Gain">Ganancia</String>
+    <String ID="阈值电压" Status="0" English="Threshold voltage">Voltaje umbral</String>
+    <String ID="模式" Status="0" English="Mode">Modo</String>
+    <String ID="维持电流" Status="0" English="Hold current">Corriente de mantener</String>
+    <String ID="击穿电阻" Status="0" English="Breakdown resistance">Resistencia de ruptura</String>
+    <String ID="吸合电流" Status="0" English="Pull-in current">Corriente de jalar</String>
+    <String ID="线圈电感" Status="0" English="Coil inductance">Inductancia de la bobina</String>
+    <String ID="线圈电阻" Status="0" English="Coil resistance">Resistencia de la bobina</String>
+    <String ID="金属丝半径" Status="0" English="Wire radius">Radio del cable</String>
+    <String ID="金属丝长度" Status="0" English="Wire length">Longitud de cable</String>
+    <String ID="切割速度" Status="0" English="Cutting speed">Velocidad cortante</String>
+    <String ID="线圈匝数" Status="0" English="Coil number">Número de bobina</String>
+    <String ID="磁通量" Status="0" English="Magnetic flux">Flujo magnético</String>
+    <String ID="内线圈电压" Status="0" English="Inner coil voltage">Voltaje de la bobina interna</String>
+    <String ID="外线圈电压" Status="0" English="Outer coil voltage">Voltaje de la bobina exterior</String>
+    <String ID="工作电压" Status="0" English="Operating voltage">Voltaje operario</String>
+    <String ID="工作电流" Status="0" English="Working current">Corriente operativo</String>
+    <String ID="熔断电流" Status="0" English="Fuse current">Corriente de fusible</String>
+    <String ID="实时电阻" Status="0" English="Actual resistance">Resistencia actual</String>
+    <String ID="火线" Status="0" English="Fire line">Línea de fuego</String>
+    <String ID="零线" Status="0" English="Neutral line">Línea neutra</String>
+    <String ID="供电" Status="0" English="Power">Electricidad</String>
+    <String ID="放电" Status="0" English="Discharge">Descarga</String>
+    <String ID="阈值" Status="0" English="Threshold">Umbral</String>
+    <String ID="控制" Status="0" English="Control">Controlar</String>
+    <String ID="触发" Status="0" English="Trigger">Desencadenar</String>
+    <String ID="重设" Status="0" English="Reset">Restablecer</String>
+    <String ID="接地" Status="0" English="Ground">Poner a tierra</String>
+    <String ID="高电准位" Status="0" English="High level">Nivel alto</String>
+    <String ID="正向阈值" Status="0" English="High threshold">Umbral alto</String>
+    <String ID="低电准位" Status="0" English="Low level">Nivel bajo</String>
+    <String ID="负向阈值" Status="0" English="Low threshold">Umbral bajo</String>
+    <String ID="切变速率" Status="0" English="Slew rate">Velocidad de subida</String>
+    <String ID="反相模式" Status="0" English="Inverted mode">Modo invertido</String>
+    <String ID="天体光度" Status="0" English="Luminosity">Luminosidad</String>
+    <String ID="有效温度" Status="0" English="Effective temperature">Temperatura efectiva</String>
+    <String ID="平衡温度" Status="0" English="Equilibrium temperature">Temperatura de equilibrio</String>
+    <String ID="球面反照率" Status="0" English="Bond albedo">Albedo de Bond</String>
+    <String ID="洛希极限" Status="0" English="Roche limit">Límite de Roche</String>
+    <String ID="负荷扭矩" Status="0" English="Load torque">Carga de Torque</String>
+    <String ID="马达电感" Status="0" English="Motor inductance">Inductancia del motor</String>
+    <String ID="马达常数" Status="0" English="Motor constant">Constante del motor</String>
+    <String ID="反电动势系数" Status="0" English="Back EMF coefficient">Coeficiente de FEM</String>
+    <String ID="粘性摩擦系数" Status="0" English="Viscous friction coefficient">Coeficiente de fricción viscoso</String>
+    <String ID="转速" Status="0" English="Rotating speed">Velocidad de rotación</String>
+    <String ID="摩擦扭矩" Status="0" English="Friction torque">Torque de fricción</String>
+    <String ID="角速度" Status="0" English="Angular velocity">Velocidad angular</String>
+    <String ID="反电动势" Status="0" English="Back EMF">FEM</String>
+    <String ID="转动惯量" Status="0" English="Moment of inertia">Momento de inercia</String>
   </Properties>
   <Calculators>
     <String ID="电感计算器" Status="1" English="Inductance calculator">Calculadora de inductancia</String>
