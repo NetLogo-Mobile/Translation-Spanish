@@ -316,121 +316,121 @@
     <String ID="转动惯量" Status="0" English="Moment of inertia">Momento de inercia</String>
   </Properties>
   <Calculators>
-    <String ID="电感计算器" Status="1" English="Inductance calculator">Calculadora de inductancia</String>
-    <String ID="螺旋电感" Status="1" English="Single layer solenoid">Solenoide de una capa</String>
-    <String ID="相关参数" Status="1" English="Related parameters">Parámetros relacionados</String>
-    <String ID="相对磁导率" Status="1" English="Relative permeability">Permeabilidad relativa</String>
-    <String ID="环绕半径" Status="1" English="Mean radius">Radio medio</String>
-    <String ID="线圈高度" Status="1" English="Height (length)">Altitud longitud)</String>
-    <String ID="横截面积" Status="1" English="Cross-sectional area">Área de sección transversal</String>
-    <String ID="Nagaoka 系数" Status="1" English="Nagaoka coefficient">Coeficiente de Nagaoka</String>
-    <String ID="电阻计算器" Status="1" English="Resistance calculator">Calculadora de resistencia</String>
-    <String ID="导线电阻" Status="1" English="Wire resistance">Resistencia del alambre</String>
-    <String ID="电阻率" Status="1" English="Resistivity">Resistividad</String>
-    <String ID="导线半径" Status="1" English="Wire radius">Radio del alambre</String>
-    <String ID="导线长度" Status="1" English="Wire length">Longitud de cable</String>
+    <String ID="电感计算器" Status="0" English="Inductance calculator">Calculadora de inductancia</String>
+    <String ID="螺旋电感" Status="0" English="Single layer solenoid">Solenoide de una capa</String>
+    <String ID="相关参数" Status="0" English="Related parameters">Parámetros relacionados</String>
+    <String ID="相对磁导率" Status="0" English="Relative permeability">Permeabilidad relativa</String>
+    <String ID="环绕半径" Status="0" English="Mean radius">Radio promedio</String>
+    <String ID="线圈高度" Status="0" English="Height (length)">Altura (longitud)</String>
+    <String ID="横截面积" Status="0" English="Cross-sectional area">Área de sección transversal</String>
+    <String ID="Nagaoka 系数" Status="0" English="Nagaoka coefficient">Coeficiente de Nagaoka</String>
+    <String ID="电阻计算器" Status="0" English="Resistance calculator">Calculadora de resistencia</String>
+    <String ID="导线电阻" Status="0" English="Wire resistance">Resistencia de cable</String>
+    <String ID="电阻率" Status="0" English="Resistivity">Resistividad</String>
+    <String ID="导线半径" Status="0" English="Wire radius">Radio de cable</String>
+    <String ID="导线长度" Status="0" English="Wire length">Longitud de cable</String>
   </Calculators>
   <Application>
-    <String ID="物理实验室" Status="1" English="Physics Lab">Laboratorio de física</String>
-    <String ID="版本 {0}" Status="1" English="Version {0}">Versión {0}</String>
-    <String ID="清空桌面" Status="1" English="Empty desktop">Escritorio vacío</String>
-    <String ID="电学设置" Status="1" English="Circuit Settings">Configuración del circuito</String>
-    <String ID="天体设置" Status="1" English="Celestial Settings">Configuración celestial</String>
-    <String ID="电与磁设置" Status="1" English="Electromagnets">Electroimanes</String>
-    <String ID="电子流动" Status="1" English="Show Electrons">Mostrar electrones</String>
+    <String ID="物理实验室" Status="0" English="Physics Lab">Laboratorio de Física</String>
+    <String ID="版本 {0}" Status="0" English="Version {0}">Versión {0}</String>
+    <String ID="清空桌面" Status="0" English="Empty desktop">Escritorio vacío</String>
+    <String ID="电学设置" Status="0" English="Circuit Settings">Configuración del Circuito</String>
+    <String ID="天体设置" Status="0" English="Celestial Settings">Configuración Celestial</String>
+    <String ID="电与磁设置" Status="0" English="Electromagnets">Electroimanes</String>
+    <String ID="电子流动" Status="0" English="Show Electrons">Mostrar Electrones</String>
   </Application>
   <Samples>
-    <String ID="太阳系" Status="1" English="Solar System">Sistema solar</String>
-    <String ID="星际空间" Status="1" English="Interstellar">Interestelar</String>
-    <String ID="等量异种电荷" Status="1" English="Opposite Charges">Cargos opuestos</String>
-    <String ID="等量同种电荷" Status="1" English="Same Charges">Mismos Cargos</String>
-    <String ID="内太阳系" Status="1" English="Inner Solar">Solar interior</String>
-    <String ID="外太阳系" Status="1" English="External Solar">Solar externo</String>
-    <String ID="地月系" Status="1" English="Earth-Moon">Tierra-Luna</String>
-    <String ID="木星系" Status="1" English="Jupiter System">Sistema de Júpiter</String>
-    <String ID="双星系统" Status="1" English="Binary System">Sistema binario</String>
-    <String ID="虚构星系" Status="1" English="Fictional System">Sistema ficticio</String>
-    <String ID="双曲线轨道" Status="1" English="Hyperbolic Orbit">Órbita hiperbólica</String>
-    <String ID="电容和电感" Status="1" English="Capacitance n Inductance">Capacitancia n Inductancia</String>
-    <String ID="科洛7" Status="1" English="Colo 7">Colo 7</String>
-    <String ID="延时灯" Status="1" English="Delayed lamp">Lámpara retardada</String>
-    <String ID="对称电荷" Status="1" English="Symmetric charges">Cargas simétricas</String>
-    <String ID="三足鼎立" Status="1" English="Triple charges">Cargas triples</String>
-    <String ID="施密特触发器基础用法" Status="1" English="Usage of schmidt trigger">Uso del disparador schmidt</String>
-    <String ID="555 计时器的使用" Status="1" English="Usage of 555 timers">Uso de 555 temporizadores</String>
+    <String ID="太阳系" Status="0" English="Solar System">Sistema Solar</String>
+    <String ID="星际空间" Status="0" English="Interstellar">Interestelar</String>
+    <String ID="等量异种电荷" Status="0" English="Opposite Charges">Cargos Opuestos</String>
+    <String ID="等量同种电荷" Status="0" English="Same Charges">Mismos Cargos</String>
+    <String ID="内太阳系" Status="0" English="Inner Solar">Solar Interior</String>
+    <String ID="外太阳系" Status="0" English="External Solar">Solar Externo</String>
+    <String ID="地月系" Status="0" English="Earth-Moon">Tierra-Luna</String>
+    <String ID="木星系" Status="0" English="Jupiter System">Sistema de Júpiter</String>
+    <String ID="双星系统" Status="0" English="Binary System">Sistema Binario</String>
+    <String ID="虚构星系" Status="0" English="Fictional System">Sistema Ficticio</String>
+    <String ID="双曲线轨道" Status="0" English="Hyperbolic Orbit">Órbita Hiperbólica</String>
+    <String ID="电容和电感" Status="0" English="Capacitance n Inductance">Capacitancia n Inductancia</String>
+    <String ID="科洛7" Status="0" English="Colo 7">Colo 7</String>
+    <String ID="延时灯" Status="0" English="Delayed lamp">Lámpara retrasada</String>
+    <String ID="对称电荷" Status="0" English="Symmetric charges">Cargas simétricas</String>
+    <String ID="三足鼎立" Status="0" English="Triple charges">Cargas triples</String>
+    <String ID="施密特触发器基础用法" Status="0" English="Usage of schmidt trigger">Uso del Disparador Schmidt</String>
+    <String ID="555 计时器的使用" Status="0" English="Usage of 555 timers">Uso de 555 temporizadores</String>
   </Samples>
   <Messages>
-    <String ID="（已烧毁）" Status="1" English="(Burnt)">(Quemado)</String>
-    <String ID="您需要 Android 5 以上系统以进入电路图模式。" Status="1" English="You need Android 5 or above to enter the diagram mode.">Necesita Android 5 o superior para ingresar al modo de diagrama.</String>
-    <String ID="过分复杂的电路可能无法转换。" Status="1" English="Overly complex circuits may not be converted.">Es posible que los circuitos demasiado complejos no se conviertan.</String>
-    <String ID="撤销动作" Status="1" English="Undo action">Deshacer acción</String>
-    <String ID="进入电路图" Status="1" English="Enter the diagram">Entrar en el diagrama</String>
-    <String ID="转换回实验" Status="1" English="Switch back to experiment">Volver al experimento</String>
-    <String ID="只有导线和元件增减可以撤销。" Status="1" English="Only the addition and removal of wires and components can be undone.">Solo se puede deshacer la adición y eliminación de cables y componentes.</String>
-    <String ID="{0} 已经被 {1} 吸收合并了！" Status="1" English="{0} has been absorbed by {1}!">{0} ha sido absorbido por {1}.</String>
+    <String ID="（已烧毁）" Status="0" English="(Burnt)">(Quemado)</String>
+    <String ID="您需要 Android 5 以上系统以进入电路图模式。" Status="0" English="You need Android 5 or above to enter the diagram mode.">Necesita Android 5 o superior para entrar al modo de diagrama.</String>
+    <String ID="过分复杂的电路可能无法转换。" Status="0" English="Overly complex circuits may not be converted.">Es posible que los circuitos demasiado complejos no se conviertan.</String>
+    <String ID="撤销动作" Status="0" English="Undo action">Deshacer acción</String>
+    <String ID="进入电路图" Status="0" English="Enter the diagram">Entrar el diagrama</String>
+    <String ID="转换回实验" Status="0" English="Switch back to experiment">Volver al experimento</String>
+    <String ID="只有导线和元件增减可以撤销。" Status="0" English="Only the addition and removal of wires and components can be undone.">Solo se puede deshacer la adición y eliminación de cables y componentes.</String>
+    <String ID="{0} 已经被 {1} 吸收合并了！" Status="0" English="{0} has been absorbed by {1}!">{0} ha sido absorbido por {1}.</String>
   </Messages>
   <Tutorial>
-    <String ID="实验教程" Status="1" English="Tutorial">Tutorial</String>
-    <String ID="退出教程" Status="1" English="Exit Tutorial">Salir del tutorial</String>
-    <String ID="拖动位置" Status="1" English="Drag">Arrastrar</String>
-    <String ID="单击选中" Status="1" English="Tap">Grifo</String>
-    <String ID="进入新手教程" Status="1" English="Enter Tutorial">Entrar en el tutorial</String>
-    <String ID="双指缩放" Status="1" English="Pinch">Pellizco</String>
-    <String ID="双指旋转" Status="1" English="Rotate">Girar</String>
-    <String ID="基本操作手势" Status="1" English="Common Gestures">Gestos comunes</String>
-    <String ID="您将了解如何创建一个自定义星系。\n首先，点击工具栏中的地球。" Status="1" English="In this tutorial you will learn how to create a custom system. First, click on Earth in the toolbox.">En este tutorial aprenderá a crear un sistema personalizado. Primero, haga clic en Tierra en la caja de herramientas.</String>
-    <String ID="点击【现实轨道】按钮来放置地球。" Status="1" English="Click the [Realistic Orbit] button to place the Earth.">Haga clic en el botón [Órbita realista] para colocar la Tierra.</String>
-    <String ID="点击刚刚放置的地球来选中它。" Status="1" English="Click on the Earth you just placed to select it.">Haga clic en la Tierra que acaba de colocar para seleccionarla.</String>
-    <String ID="黄色箭头指示地球的受力方向和大小。\n红色箭头指示地球的速度方向和大小。\n尝试拖动红色箭头来调整地球轨道。" Status="1" English="Yellow arrow indicates the acceleration, while red one represents the velocity. Drag the red arrow to adjust its orbit.">La flecha amarilla indica la aceleración, mientras que la roja representa la velocidad. Arrastre la flecha roja para ajustar su órbita.</String>
-    <String ID="小卡片中实时显示地球的运动数据。\n点击编辑按钮，展开大卡片。" Status="1" English="Small card shows basic concepts of the earth. Click the Edit button to expand.">La tarjeta pequeña muestra los conceptos básicos de la tierra. Haga clic en el botón Editar para expandir.</String>
-    <String ID="在大卡片中了解和调整更多天体参数。\n点击阴影位置，继续教程……" Status="1" English="View and edit more parameters here. Tap the screen and continue...">Vea y edite más parámetros aquí. Toque la pantalla y continúe ...</String>
-    <String ID="你也可以创建完全虚构的星系。\n试着将大陆行星拖动到星空之中。" Status="1" English="You can also create fictional galaxies. Drag a continential planet into the space.">También puedes crear galaxias ficticias. Arrastra un planeta continental al espacio.</String>
-    <String ID="祝贺你！点击阴影部分完成教程。\n我们将不断引入更多天体现象和现实数据库。" Status="1" English="Tap the screen to complete the tutorial. We will continue to introduce more features here.">Toque la pantalla para completar el tutorial. Continuaremos presentando más funciones aquí.</String>
-    <String ID="祝贺你成功完成了新手教程！\n尽情体验物理实验的奥秘吧……" Status="1" English="Congratulations on finishing the tutorial! Try to explore more in Physics Lab...">¡Felicitaciones por terminar el tutorial! Intenta explorar más en Physics Lab ...</String>
-    <String ID="开始实验" Status="1" English="Start experiment">Iniciar experimento</String>
-    <String ID="来自全球物理爱好者的作品" Status="1" English="Works from global enthusiasts">Obras de entusiastas globales</String>
-    <String ID="创作属于自己的物理实验" Status="1" English="Create your own physical experiment">Crea tu propio experimento físico</String>
-    <String ID="浏览热门实验" Status="1" English="Browse the forum">Navegar por el foro</String>
-    <String ID="您将学习如何连接一个简单电路。\n首先，将简单开关拖动到桌面上。" Status="1" English="You will learn to connect a simple circuit. First, drag a simple switch to the desktop.">Aprenderá a conectar un circuito simple. Primero, arrastre un simple interruptor al escritorio.</String>
-    <String ID="点击刚刚放置的开关来选中它。" Status="1" English="Click on the switch you just placed to select it.">Haga clic en el interruptor que acaba de colocar para seleccionarlo.</String>
-    <String ID="拖动接线柱到电池的红色接线柱上。\n这样，开关和电池就连接起来了。" Status="1" English="Drag the terminal to the red terminal of the battery. This way, the switch and the battery are connected.">Arrastre el terminal al terminal rojo de la batería. De esta manera, el interruptor y la batería están conectados.</String>
-    <String ID="再将另一个接线柱拖动到灯泡的黑色接线柱上，连接开关和灯泡。" Status="1" English="Drag another terminal to the black terminal of the lamp to connect them.">Arrastre otro terminal al terminal negro de la lámpara para conectarlos.</String>
-    <String ID="电路已经连接好了。\n现在，再次选中开关。" Status="1" English="The circuit has been connected. Now, click the switch again.">El circuito se ha conectado. Ahora, vuelva a hacer clic en el interruptor.</String>
-    <String ID="开关可以通过旁边的按钮进行控制。\n按下开关闸刀，看看会发生什么……" Status="1" English="The switch can be controlled by the button next to it. Now press the button...">El interruptor se puede controlar con el botón junto a él. Ahora presione el botón ...</String>
-    <String ID="如灯泡没有点亮，说明导线连接有误。\n不论如何，请再次点击灯泡。" Status="1" English="You may connect incorrectly if the light isn't lit. Click on the light bulb anyway.">Puede conectarse incorrectamente si la luz no está encendida. Haga clic en la bombilla de todos modos.</String>
-    <String ID="小卡片展示了灯泡的核心信息。\n点击编辑按钮，展开大卡片。" Status="1" English="Small card shows core parameters of it. Click the Edit button to expand.">La tarjeta pequeña muestra los parámetros básicos de la misma. Haga clic en el botón Editar para expandir.</String>
-    <String ID="在大卡片中调整参数或查看波形。\n点击阴影位置完成教程……" Status="1" English="Adjust parameters or view waveforms here. Tap the screen and continue...">Ajuste los parámetros o vea las formas de onda aquí. Toque la pantalla y continúe ...</String>
-    <String ID="添加元件" Status="1" English="Create">Crear</String>
-    <String ID="将元件添加到实验中" Status="1" English="Add a component">Agregar un componente</String>
-    <String ID="实验菜单" Status="1" English="Menu">Menú</String>
-    <String ID="保存、读取或发布实验" Status="1" English="Save, read, or publish">Guardar, leer o publicar</String>
-    <String ID="分享实验" Status="1" English="Share">Compartir</String>
-    <String ID="分享你的实验" Status="1" English="Share your experiment">Comparte tu experimento</String>
-    <String ID="AR 模式" Status="1" English="AR">CON</String>
-    <String ID="在现实场景中体验实验" Status="1" English="Put simulation in real-life">Pon la simulación en la vida real</String>
-    <String ID="电路图" Status="1" English="Diagram">Diagrama</String>
-    <String ID="将实验转换到电路图" Status="1" English="Convert to circuit diagram">Convertir a diagrama de circuito</String>
-    <String ID="暂停/继续" Status="1" English="Pause/Play">Pausa / Reproducir</String>
-    <String ID="控制模拟实验的状态" Status="1" English="Control simulation status">Control del estado de la simulación</String>
-    <String ID="实验速度" Status="1" English="Speed">Velocidad</String>
-    <String ID="调整实验的模拟速度" Status="1" English="Adjust simulation speed">Ajustar la velocidad de simulación</String>
-    <String ID="跳过教程" Status="1" English="Skip tutorial">Saltar tutorial</String>
-    <String ID="是否不再显示本类实验的操作教程？你可以在设置界面重新启用。" Status="1" English="Do you want to skip the tutorials? You may re-enable it in settings.">¿Quieres saltarte los tutoriales? Puede volver a habilitarlo en la configuración.</String>
+    <String ID="实验教程" Status="0" English="Tutorial">Tutorial</String>
+    <String ID="退出教程" Status="0" English="Exit Tutorial">Salir Tutorial</String>
+    <String ID="拖动位置" Status="0" English="Drag">Arrastrar</String>
+    <String ID="单击选中" Status="0" English="Tap">Tocar</String>
+    <String ID="进入新手教程" Status="0" English="Enter Tutorial">Entrar el tutorial</String>
+    <String ID="双指缩放" Status="0" English="Pinch">Pellizcar</String>
+    <String ID="双指旋转" Status="0" English="Rotate">Girar</String>
+    <String ID="基本操作手势" Status="0" English="Common Gestures">Gestos Comunes</String>
+    <String ID="您将了解如何创建一个自定义星系。\n首先，点击工具栏中的地球。" Status="0" English="In this tutorial you will learn how to create a custom system. First, click on Earth in the toolbox.">En este tutorial aprenderás a crear un sistema personalizado. Primero, haz clic en Tierra en la caja de herramientas.</String>
+    <String ID="点击【现实轨道】按钮来放置地球。" Status="0" English="Click the [Realistic Orbit] button to place the Earth.">Haz clic en el botón [Órbita Realista] para colocar la Tierra.</String>
+    <String ID="点击刚刚放置的地球来选中它。" Status="0" English="Click on the Earth you just placed to select it.">Haz clic en la Tierra que acabas de colocar para seleccionarla.</String>
+    <String ID="黄色箭头指示地球的受力方向和大小。\n红色箭头指示地球的速度方向和大小。\n尝试拖动红色箭头来调整地球轨道。" Status="0" English="Yellow arrow indicates the acceleration, while red one represents the velocity. Drag the red arrow to adjust its orbit.">La flecha amarilla indica la aceleración, mientras que la roja representa la velocidad. Arrastra la flecha roja para ajustar su órbita.</String>
+    <String ID="小卡片中实时显示地球的运动数据。\n点击编辑按钮，展开大卡片。" Status="0" English="Small card shows basic concepts of the earth. Click the Edit button to expand.">La tarjeta pequeña muestra los conceptos básicos de la tierra. Haz clic en el botón Editar para expandir.</String>
+    <String ID="在大卡片中了解和调整更多天体参数。\n点击阴影位置，继续教程……" Status="0" English="View and edit more parameters here. Tap the screen and continue...">Ve y edita más parámetros aquí. Toque la pantalla y continúe ...</String>
+    <String ID="你也可以创建完全虚构的星系。\n试着将大陆行星拖动到星空之中。" Status="0" English="You can also create fictional galaxies. Drag a continential planet into the space.">También puedes crear galaxias ficticias. Arrastra un planeta continental al espacio.</String>
+    <String ID="祝贺你！点击阴影部分完成教程。\n我们将不断引入更多天体现象和现实数据库。" Status="0" English="Tap the screen to complete the tutorial. We will continue to introduce more features mhere.">Toque la pantalla para completar el tutorial. Continuaremos a presentar más funciones aquí.</String>
+    <String ID="祝贺你成功完成了新手教程！\n尽情体验物理实验的奥秘吧……" Status="0" English="Congratulations on finishing the tutorial! Try to explore more in Physics Lab...">¡Felicitaciones por terminar el tutorial! Trata de explorar más en el Laboratorio de Física ...</String>
+    <String ID="开始实验" Status="0" English="Start experiment">Iniciar experimento</String>
+    <String ID="来自全球物理爱好者的作品" Status="0" English="Works from global enthusiasts">Obras de entusiastas globales</String>
+    <String ID="创作属于自己的物理实验" Status="0" English="Create your own physical experiment">Crea tu propio experimento físico</String>
+    <String ID="浏览热门实验" Status="0" English="Browse the forum">Navegar por el foro</String>
+    <String ID="您将学习如何连接一个简单电路。\n首先，将简单开关拖动到桌面上。" Status="0" English="You will learn to connect a simple circuit. First, drag a simple switch to the desktop.">Vas a aprender a conectar un circuito simple. Primero, arrastra un simple interruptor al escritorio.</String>
+    <String ID="点击刚刚放置的开关来选中它。" Status="0" English="Click on the switch you just placed to select it.">Haz clic en el interruptor que acabas de colocar para seleccionarlo.</String>
+    <String ID="拖动接线柱到电池的红色接线柱上。\n这样，开关和电池就连接起来了。" Status="0" English="Drag the terminal to the red terminal of the battery. This way, the switch and the battery are connected.">Arrastra el terminal al terminal rojo de la batería. Ahora, el interruptor y la batería están conectados.</String>
+    <String ID="再将另一个接线柱拖动到灯泡的黑色接线柱上，连接开关和灯泡。" Status="0" English="Drag another terminal to the black terminal of the lamp to connect them.">Arrastra otro terminal al terminal negro de la lámpara para conectarlos.</String>
+    <String ID="电路已经连接好了。\n现在，再次选中开关。" Status="0" English="The circuit has been connected. Now, click the switch again.">El circuito se ha conectado. Ahora, vuelve a hacer clic en el interruptor.</String>
+    <String ID="开关可以通过旁边的按钮进行控制。\n按下开关闸刀，看看会发生什么……" Status="0" English="The switch can be controlled by the button next to it. Now press the button...">El interruptor se puede controlar con el botón junto a él. Ahora presiona el botón ...</String>
+    <String ID="如灯泡没有点亮，说明导线连接有误。\n不论如何，请再次点击灯泡。" Status="0" English="You may connect incorrectly if the light isn't lit. Click on the light bulb anyway.">Es posible que lo has conectado incorrectamente si la luz no está encendida. Haz clic en la bombilla de todos modos.</String>
+    <String ID="小卡片展示了灯泡的核心信息。\n点击编辑按钮，展开大卡片。" Status="0" English="Small card shows core parameters of it. Click the Edit button to expand.">La tarjeta pequeña muestra los parámetros básicos de la misma. Haz clic en el botón Editar para expandir.</String>
+    <String ID="在大卡片中调整参数或查看波形。\n点击阴影位置完成教程……" Status="0" English="Adjust parameters or view waveforms here. Tap the screen and continue...">Ajusta los parámetros o vea las formas de onda aquí. Toque la pantalla y continúe ...</String>
+    <String ID="添加元件" Status="0" English="Create">Crear</String>
+    <String ID="将元件添加到实验中" Status="0" English="Add a component">Agregar un componente</String>
+    <String ID="实验菜单" Status="0" English="Menu">Menú</String>
+    <String ID="保存、读取或发布实验" Status="0" English="Save, read, or publish">Guardar, leer o publicar</String>
+    <String ID="分享实验" Status="0" English="Share">Compartir</String>
+    <String ID="分享你的实验" Status="0" English="Share your experiment">Comparte tu experimento</String>
+    <String ID="AR 模式" Status="0" English="AR">RA</String>
+    <String ID="在现实场景中体验实验" Status="0" English="Put simulation in real-life">Poner la simulación en la vida real</String>
+    <String ID="电路图" Status="0" English="Diagram">Diagrama</String>
+    <String ID="将实验转换到电路图" Status="0" English="Convert to circuit diagram">Convertir a diagrama de circuito</String>
+    <String ID="暂停/继续" Status="0" English="Pause/Play">Pausar/Poner</String>
+    <String ID="控制模拟实验的状态" Status="0" English="Control simulation status">Control del estado de la simulación</String>
+    <String ID="实验速度" Status="0" English="Speed">Velocidad</String>
+    <String ID="调整实验的模拟速度" Status="0" English="Adjust simulation speed">Ajustar la velocidad de simulación</String>
+    <String ID="跳过教程" Status="0" English="Skip tutorial">Saltar tutorial</String>
+    <String ID="是否不再显示本类实验的操作教程？你可以在设置界面重新启用。" Status="0" English="Do you want to skip the tutorials? You may re-enable it in settings.">¿Quieres saltar los tutoriales? Puedes volver a habilitarlo en la configuración.</String>
   </Tutorial>
   <Contexts>
-    <String ID="元件 {0} 已被烧毁！" Status="1" English="{0} has been burned!">¡{0} se ha quemado!</String>
-    <String ID="{0} 等 {1} 个元件已被烧毁！" Status="1" English="{1} components, including {0}, have been burned!">Se han quemado {1} componentes, incluido {0}.</String>
-    <String ID="模拟效率不足，精度暂时下降至每秒 {2} 轮。" Status="1" English="Simulation too slow. Accuracy drops to {2} rounds/s.">Simulación demasiado lenta. La precisión cae a {2} rondas / s.</String>
-    <String ID="模拟出现错误，请分享到 BUG 标签下。" Status="1" English="An error occurs in the simulation. Please share it under the BUG tab.">Se produce un error en la simulación. Compártelo en la pestaña ERROR.</String>
-    <String ID="星球 {0} 因为过高的温度熔化了！" Status="1" English="The surface of {0} melted!">¡La superficie de {0} se derritió!</String>
-    <String ID="星球 {0} 的冰层融化蒸发，化为一片荒芜！" Status="1" English="The ice of the planet {0} melts and evaporates!">¡El hielo del planeta {0} se derrite y se evapora!</String>
-    <String ID="星球 {0} 的地表水被蒸发，化为一片沙漠！" Status="1" English="The surface water of the planet {0} is evaporated!">¡El agua de la superficie del planeta {0} se evapora!</String>
-    <String ID="星球 {0} 的地表水被冻结了，成为冰封星球！" Status="1" English="The surface water of the planet {0} is frozen!">¡El agua de la superficie del planeta {0} está congelada!</String>
-    <String ID="天体 {3} 未能逃脱 {2} 的引力，已被吸收合并！" Status="1" English="The {3} failed to escape the gravity of {2} and has been absorbed!">¡El {3} no pudo escapar de la gravedad de {2} y ha sido absorbido!</String>
-    <String ID="天体 {3} 撞击 {2} 表面时发生巨大爆炸！" Status="1" English="An explosion occurred when the {3} hit the surface of {2}!">¡Se produjo una explosión cuando el {3} golpeó la superficie de {2}!</String>
-    <String ID="天体 {3} 被 {2} 的引力撕碎了！" Status="1" English="The {3} was shredded by the gravity of {2}!">¡El {3} fue destrozado por la gravedad de {2}!</String>
+    <String ID="元件 {0} 已被烧毁！" Status="0" English="{0} has been burned!">¡{0} se ha quemado!</String>
+    <String ID="{0} 等 {1} 个元件已被烧毁！" Status="0" English="{1} components, including {0}, have been burned!">Se han quemado {1} componentes, incluido {0}.</String>
+    <String ID="模拟效率不足，精度暂时下降至每秒 {2} 轮。" Status="0" English="Simulation too slow. Accuracy drops to {2} rounds/s.">Simulación demasiado lenta. La precisión cae a {2} rondas.</String>
+    <String ID="模拟出现错误，请分享到 BUG 标签下。" Status="0" English="An error occurs in the simulation. Please share it under the BUG tab.">Se produce un error en la simulación. Por favor compártelo en la pestaña ERROR.</String>
+    <String ID="星球 {0} 因为过高的温度熔化了！" Status="0" English="The surface of {0} melted!">¡La superficie de {0} se derritió!</String>
+    <String ID="星球 {0} 的冰层融化蒸发，化为一片荒芜！" Status="0" English="The ice of the planet {0} melts and evaporates!">¡El hielo del planeta {0} se derrite y se evapora!</String>
+    <String ID="星球 {0} 的地表水被蒸发，化为一片沙漠！" Status="0" English="The surface water of the planet {0} is evaporated!">¡El agua de la superficie del planeta {0} se evapora!</String>
+    <String ID="星球 {0} 的地表水被冻结了，成为冰封星球！" Status="0" English="The surface water of the planet {0} is frozen!">¡El agua de la superficie del planeta {0} está congelada!</String>
+    <String ID="天体 {3} 未能逃脱 {2} 的引力，已被吸收合并！" Status="0" English="The {3} failed to escape the gravity of {2} and has been absorbed!">¡El {3} no pudo escapar de la gravedad de {2} y ha sido absorbido!</String>
+    <String ID="天体 {3} 撞击 {2} 表面时发生巨大爆炸！" Status="0" English="An explosion occurred when the {3} hit the surface of {2}!">¡Se produjo una explosión cuando el {3} golpeó la superficie de {2}!</String>
+    <String ID="天体 {3} 被 {2} 的引力撕碎了！" Status="0" English="The {3} was shredded by the gravity of {2}!">¡El {3} fue destrozado por la gravedad de {2}!</String>
   </Contexts>
   <Festivals>
-    <String ID="物理实验室祝你愚人节快乐！" Status="1" English="Happy April Fool's Day!">¡Feliz Día de los Inocentes!</String>
+    <String ID="物理实验室祝你愚人节快乐！" Status="0" English="Happy April Fool's Day!">¡Feliz Día de los Inocentes!</String>
   </Festivals>
 </Strings>
