@@ -601,12 +601,12 @@ Mira estas reglas. ¿Qué pasará cuando iniciamos el micromundo?
 ### Source
 Look at those colorful <color=brown>patches </color> around the world! Actually, they are the same <color=brown>patches </color> as the black background you just saw. When we are creating your microworld, you will <help=observer>ask</help> them to do their jobs. For example, we can turn them back to black like <observer=ask patches [ set pcolor black ]>this</observer>!
 ### Spanish
-¡Mira esos <color=brown>parcels </color> coloridos alrededor del mundo! De hecho, son lo mismo <color=brown>parcels </color> como el fondo negro que acabas de ver. Cuando estemos creando tu micromundo, Tu <help=observer>pediras</help> ellos para hacer su trabajos. Por ejemplo, podemos volverlos negros como <observer=ask patches [ set pcolor black ]>this</observer>!
+¡Mira esos <color=brown>parcels </color> alrededor del mundo! De hecho, son lo mismo <color=brown>parcels </color> como el fondo negro que acabas de ver. Cuando estemos creando tu micromundo, Tu <help=observer>pedirás</help> a ellos para hacer su trabajos. Por ejemplo, podemos volverlos a negro como <observer=ask patches [ set pcolor black ]>this</observer>!
 
 ### Source
 Look at those colorful arrows around the world! Here, we call them <color=green>turtles </color>. Each turtle may have different shape, size, color, and so on. When we are creating your microworld, you will <help=observer>ask</help> them to do their duties. Actually, we can <observer=ask turtles [ set shape "turtle" ]>ask</observer> them to look like <color=green>turtles </color>!
 ### Spanish
-¡Mira esas flechas de colores alrededor del mundo! Aquí los llamamos<color=green> tortugas </color> . Cada tortuga puede tener diferentes formas, tamaños, colores, etc. Cuando estemos creando tu micromundo,<help=observer> pedir</help> ellos para hacer sus deberes. De hecho, podemos<observer=ask turtles [ set shape "turtle" ]> pedir</observer> que parezcan<color=green> tortugas </color> !
+¡Mira esas flechas de colores alrededor del mundo! Aquí los llamamos <color=green>tortugas </color>  Cada tortuga puede tener diferentes formas, tamaños, colores, etc. Cuando estemos creando tu micromundo, tu <help=observer>pedirás</help> a ellos para hacer sus deberes. De hecho, podemos <observer=ask turtles [ set shape "turtle" ]> pedir</observer> que parezcan como <color=green>tortugas </color>!
 
 ### Excessive
 Look, I found something!
@@ -621,12 +621,12 @@ Tal vez deberíamos comenzar organizando el rumbo de las tortugas con el tiempo.
 ### Source
 Maybe we should start with asking each <trigger=Glossary-Turtle,green>turtle </trigger>, or cell, to leave a signal and follow the signals in the world.
 ### Spanish
-Tal vez deberíamos empezar preguntando a cada uno<trigger=Glossary-Turtle,green> tortuga </trigger> , o celular, para dejar una señal y seguir las señales del mundo.
+Tal vez deberíamos empezar preguntando a cada <trigger=Glossary-Turtle,green>tortuga </trigger>, o celular, para dejar una señal y seguir las señales del mundo.
 
 ### Source
 Maybe we should start with asking each <trigger=Glossary-Turtle,green>turtle </trigger>, or walker, to switch a goal or disappear when reaching the goal. As you wish!
 ### Spanish
-Tal vez deberíamos empezar preguntando a cada uno<trigger=Glossary-Turtle,green> tortuga </trigger> , o caminante, para cambiar una meta o desaparecer al alcanzar la meta. ¡Como desées!
+Tal vez deberíamos empezar preguntando a cada uno<trigger=Glossary-Turtle,green>tortuga </trigger>, o caminante, para cambiar una meta o desaparecer al alcanzar la meta. ¡Como desées!
 
 ### Source
 Observe it for a while, Curious One. What do you think this pattern originates from? Can you imagine yourself creating an even better microworld? Just tell me when you are ready to go!
@@ -636,24 +636,24 @@ Obsérvalo un rato, curioso. ¿De qué crees que se origina este patrón? ¿Te i
 ### Source
 People are walking across a lawn! In this microworld, each <trigger=Glossary-Turtle,green>turtle </trigger> represents a walker. When each of them walk toward a goal but also follows <color=purple>paths</color> to a degree, <color=purple>paths</color> gradually come into being. Do you think you can create an even better model for this phenomenon? Just tell me when you are ready to go!
 ### Spanish
-¡La gente camina por el césped! En este micromundo, cada uno<trigger=Glossary-Turtle,green> tortuga </trigger> representa un caminante. Cuando cada uno de ellos camina hacia una meta pero también sigue<color=purple> caminos</color> en un grado,<color=purple> caminos</color> poco a poco van surgiendo. ¿Crees que puedes crear un modelo aún mejor para este fenómeno? ¡Dime cuando estés listo para empezar!
+¡La gente camina por el césped! En este micromundo, cada <trigger=Glossary-Turtle,green>tortuga </trigger> representa un caminante. Cuando cada uno de ellos camina hacia una meta pero también sigue <color=purple>caminos</color> en un grado, <color=purple>caminos</color> poco a poco van surgiendo. ¿Crees que puedes crear un modelo aún mejor para este fenómeno? ¡Dime cuando estés listo para empezar!
 
 ### Source
 Please try the <b>Set Heading With Time</b> block. It will tell the <trigger=Glossary-Turtle,green>turtle </trigger> to set its heading according to time. For each time <trigger=Glossary-Tick>tick </trigger>, the heading will be increased by a portion of rounds. For example, when you set the value to 0.25, it will produce a cross-like pattern.
 ### Spanish
-Pruebe el bloque <b>Establecer rumbo con tiempo</b> . Le dirá al<trigger=Glossary-Turtle,green> tortuga </trigger> para establecer su rumbo según el tiempo. Por cada vez<trigger=Glossary-Tick> tic </trigger> , el título se incrementará en una parte de las rondas. Por ejemplo, cuando establece el valor en 0,25, producirá un patrón en forma de cruz.
+Pruebe el bloque <b>Establecer Rumbo con Tiempo</b>. Le dirá al< trigger=Glossary-Turtle,green>tortuga </trigger> para establecer su rumbo según el tiempo. Por cada vez <trigger=Glossary-Tick>tick </trigger>, el rumbo se incrementará en una parte de las rondas. Por ejemplo, cuando establece el valor en 0,25, producirá un patrón en forma de cruz.
 
 ### Source
 Science! That's one of my favorite topic. However... Sorry, but I was built too many years ago, and most of my memory has been lost. 
 For now, I can help you build a microworld that describes the formation of <trigger=Glossary-Slime>slime molds</trigger>, which I am still knowledgeable of. Or, you can start a new model on your mind, and I will do whatever I can to support you. Which would you like to choose?
 ### Spanish
 ¡Ciencias! Ese es uno de mis temas favoritos. Sin embargo ... Lo siento, pero me construí hace muchos años y la mayor parte de mi memoria se ha perdido.
-Por ahora, puedo ayudarte a construir un micromundo que describa la formación de<trigger=Glossary-Slime> moldes de limo</trigger> , del que todavía tengo conocimiento. O puede comenzar un nuevo modelo en su mente, y haré todo lo posible para ayudarlo. ¿Cuál te gustaría elegir?
+Por ahora, puedo ayudarte a construir un micromundo que describa la formación de <trigger=Glossary-Slime>moldes de slime</trigger>, del que todavía tengo conocimiento. O puede comenzar un nuevo modelo en su mente, y haré todo lo posible para ayudarlo. ¿Cuál te gustaría elegir?
 
 ### Source
 Shoot! You got me. This is not supposed to happen, but lots of my toolboxes did get lost throughout time. I could invite you to learn some coding to solve your problem. We use NetLogo language, which you can find in the bottom-right of the main interface.
 ### Spanish
-¡Disparo! Me tienes. Se supone que esto no debe suceder, pero muchas de mis cajas de herramientas se perdieron a lo largo del tiempo. Podría invitarlo a aprender algo de codificación para resolver su problema. Usamos el lenguaje NetLogo, que puede encontrar en la parte inferior derecha de la interfaz principal.
+¡Caramba! Me tienes. Se supone que esto no debe suceder, pero muchas de mis cajas de herramientas se perdieron a lo largo del tiempo. Podría invitarlo a aprender algo de codificación para resolver su problema. Usamos el lenguaje NetLogo, que puede encontrar en la parte inferior derecha de la interfaz principal.
 
 ### Source
 So, how could I know if they reach the goal?
@@ -665,7 +665,7 @@ Something went wrong?
 It happens a lot, I have to admit. Don't worry, you can simply remove some or all blocks and see if it works. You can also call me anytime using the "Help" button. Good luck!
 ### Spanish
 ¿Algo salió mal?
-Pasa mucho, tengo que admitirlo. No se preocupe, simplemente puede eliminar algunos o todos los bloques y ver si funciona. También puedes llamarme en cualquier momento usando el botón &quot;Ayuda&quot;. ¡Buena suerte!
+Pasa mucho, tengo que admitirlo. No se preocupe, simplemente puede eliminar algunos o todos los bloques y ver si funciona. También puedes llamarme en cualquier momento usando el botón "Ayuda". ¡Buena suerte!
 
 ### Source
 Start creating rules for turtles!
@@ -675,12 +675,12 @@ Start creating rules for turtles!
 ### Source
 Sure! Use <b>Set Shape</b> block to find a proper shape for your <color=green>turtles </color>. And you can even do more than that! By using <b>With Shape</b> block, we can give different rules to <color=green>turtles </color> with different shapes. For example, you may ask wolves to eat sheep, but not vice versa!
 ### Spanish
-¡Por supuesto! Utilice el <b>bloque Establecer forma</b> para encontrar una forma adecuada para su<color=green> tortugas </color> . ¡E incluso puedes hacer más que eso! Al usar el <b>bloque With Shape</b> , podemos dar diferentes reglas a<color=green> tortugas </color> con diferentes formas. Por ejemplo, puede pedirle a los lobos que coman ovejas, ¡pero no al revés!
+¡Por supuesto! Utilice el bloque <b>Establecer Forma</b> para encontrar una forma adecuada para tus <color=green>tortugas </color>. ¡E incluso puedes hacer más que eso! Al usar el bloque <b>Con Forma</b>, podemos dar diferentes reglas a los <color=green>tortugas </color> con diferentes formas. Por ejemplo, puede pedirle a los lobos que coman ovejas, ¡pero no al revés!
 
 ### Source
 That's really exciting! Whatever idea do you have in mind, I will do my best to help. Are you ready to move forward?
 ### Spanish
-¡Eso es realmente emocionante! Sea cual sea la idea que tengas en mente, haré todo lo posible para ayudarte. ¿Estás listo para seguir adelante?
+¡Eso es realmente emocionante! Cualquiera idea que tengas en mente, haré todo lo posible para ayudarte. ¿Estás listo para seguir adelante?
 
 ### Source
 The Curious Ones? You are one of them! At least, I myself believe so... You must be curious enough to enter here. Talented, to say it modestly. And most importantly, I am designed to serve you.
@@ -698,23 +698,23 @@ La voz pareció captar lo que estás pensando. Habló de nuevo, pero esta vez so
 The voice seems to capture what you are thinking. It speaks again, but this time, it only gives you several words. You instantly realize that they are the choices.
 * FOLLOW. EXPLORE. REPEAT. MEMORIZE. *
 ### Spanish ***
-La voz parece captar lo que estás pensando. Habla de nuevo, pero esta vez, solo te da varias palabras. Al instante te das cuenta de que son las opciones.
+La voz pareció captar lo que estás pensando. Habló de nuevo, pero esta vez solo te dio algunas palabras. Al instante te diste cuenta de que eran las opciones.
 * SEGUIR. EXPLORAR. REPETIR. MEMORIZAR. *
 
 ### Excessive
 The voice sounded friendly. A playground, you thought. Words flashed through your memory, while the voice patiently waited for your answer. *Token. Please.* You were ready to make up your mind. You said:
 ### Spanish
-La voz sonaba amigable. Un patio de recreo, pensaste. Las palabras pasaron por tu memoria, mientras la voz esperaba pacientemente tu respuesta. *Simbólico. Por favor. * Estabas listo para tomar una decisión. Tu dijiste:
+La voz sonaba amigable. Un campo de recreo, pensaste. Las palabras pasaron por tu memoria, mientras la voz esperaba pacientemente tu respuesta. *Ficha. Por. Favor.* Estabas listo para tomar una decisión. Tu dijiste:
 
 ### Source
 The voice sounds friendly. A playground, you think. Words flash through your memory, while the voice patiently waits for your answer. *Token. Please.* You are ready to make up your mind. You say:
 ### Spanish ***
-La voz suena amigable. Un patio de recreo, piensas. Las palabras pasan por tu memoria, mientras la voz espera pacientemente tu respuesta. *Simbólico. Por favor. * Estás listo para tomar una decisión. Tu dices:
+La voz sonaba amigable. Un campo de recreo, pensaste. Las palabras pasaron por tu memoria, mientras la voz esperaba pacientemente tu respuesta. *Ficha. Por. Favor.* Estabas listo para tomar una decisión. Tu dijiste:
 
 ### Source
 There are so many delicate patterns that could be created from little <trigger=Glossary-Turtle,green>turtles </trigger>! My memories may decline a lot, but I still remember one  microworld that produces patterns of sunflowers. Or, you can start a model on your mind, and I will do whatever I can to support you. Which do you prefer?
 ### Spanish
-Hay tantos patrones delicados que podrían crearse a partir de pequeños<trigger=Glossary-Turtle,green> tortugas </trigger> ! Mis recuerdos pueden declinar mucho, pero todavía recuerdo un micromundo que produce patrones de girasoles. O puede comenzar un modelo en su mente y haré todo lo posible para ayudarlo. ¿Cual prefieres?
+Hay tantos patrones delicados que podrían crearse a partir de pequeños< trigger=Glossary-Turtle,green>tortugas </trigger>! Mis recuerdos pueden declinar mucho, pero todavía recuerdo un micromundo que produce patrones de girasoles. O puede comenzar un modelo en su mente y haré todo lo posible para ayudarlo. ¿Cual prefieres?
 
 ### Source
 There are so many options! For now, let's pick one route and start working on your microworld. Later, you will have chances to go back and do another one. What is on your mind, then?
@@ -724,52 +724,52 @@ There are so many options! For now, let's pick one route and start working on yo
 ### Source
 There are too many <trigger=Glossary-Turtle,green>turtles </trigger>, Curious One! I am afraid our playground cannot sustain all of them. Please tweak the rules a little bit and <b>restart</b> the microworld.
 ### Spanish
-Hay demasiados<trigger=Glossary-Turtle,green> tortugas </trigger> ¡Curioso! Me temo que nuestro patio de recreo no puede sostenerlos a todos. Modifique un poco las reglas y <b>reinicie</b> el micromundo.
+Hay demasiados <trigger=Glossary-Turtle,green>tortugas </trigger>, ¡Curioso! Me temo que nuestro campo de recreo no puede sostenerlos a todos. Modifique un poco las reglas y <b>reinicie</b> el micromundo.
 
 ### Source
 There is always a block for you! The <b>Reproduce</b> block will help a <color=green>turtle </color> to reproduce itself - with the position, heading, and all other properties the same. What if there are too many <color=green>turtles </color>? Create some rules so they will disappear, or <b>Die</b>!
 ### Spanish
-¡Siempre hay un bloque para ti! El <b>bloque Reproduce</b> ayudará a<color=green> tortuga </color> reproducirse a sí mismo, con la posición, el encabezado y todas las demás propiedades iguales. ¿Y si hay demasiados?<color=green> tortugas </color> ? ¡Crea algunas reglas para que desaparezcan o <b>mueran</b> !
+¡Siempre hay un bloque para ti! El bloque <b>Reproducir</b> ayudará a la <color=green>tortuga </color> reproducirse a sí mismo - con la posición, el encabezado y todas las demás propiedades iguales. ¿Y si hay demasiados <color=green>tortugas </color>? ¡Crea algunas reglas para que desaparezcan o <b>Mueran</b>!
 
 ### Source
 There is always a tool in this playground - unless I cannot find it. Well, if that is the case...
 ### Spanish
-Siempre hay una herramienta en este patio de recreo, a menos que no pueda encontrarla. Bueno, si ese es el caso ...
+Siempre hay una herramienta en este campo de recreo - a menos que no pueda encontrarla. Bueno, si ese es el caso ...
 
 ### Source
 They both contains the rule blocks for the microworld to work! The rule blocks in "Setup" will be applied when you <b>restart</b> the microworld. When the microworld is not paused, each <trigger=Glossary-Tick>tick </trigger> of time, the rule blocks in the "Go" block will be applied for once.
 ### Spanish
-¡Ambos contienen los bloques de reglas para que funcione el micromundo! Los bloques de reglas en &quot;Configuración&quot; se aplicarán cuando <b>reinicie</b> el micromundo. Cuando el micromundo no está en pausa, cada<trigger=Glossary-Tick> tic </trigger> de tiempo, los bloques de reglas en el bloque &quot;Ir&quot; se aplicarán por una vez.
+¡Ambos contienen los bloques de reglas para que funcione el micromundo! Los bloques de reglas en "Configuración" se aplicarán cuando <b>reinicie</b> el micromundo. Cuando el micromundo no está en pausa, cada <trigger=Glossary-Tick>tick </trigger> de tiempo, los bloques de reglas en el bloque "Ir" se aplicarán por una vez.
 
 ### Source
 This rule block will apply the rules you placed within this block for a number of times. The number of times is specified by you. This block is achieved by <help=observer>repeat</help> primitive of NetLogo.
 ### Spanish
-Este bloque de reglas aplicará las reglas que colocó dentro de este bloque varias veces. El número de veces lo especifica usted. Este bloque se logra mediante<help=observer> repetir</help> primitivo de NetLogo.
+Este bloque de reglas aplicará las reglas que colocó dentro de este bloque varias veces. El número de veces lo especifica usted. Este bloque se logra mediante <help=observer>repetir</help> primitivo de NetLogo.
 
 ### Source
 This rule block will check whether the signal on the <trigger=Glossary-Patch,brown>patch </trigger>, or on the patch  below the turtle, is higher than a value or not. The value is specified by you. If so, this block will apply the first set of rules. Otherwise, it will apply the second set. Either set of rules can be empty. This block is achieved by <help=observer>ifelse</help> primitive of NetLogo.
 ### Spanish
-Este bloque de reglas verificará si la señal en el<trigger=Glossary-Patch,brown> parcel </trigger> , o en el parcel  debajo de la tortuga, es mayor que un valor o no. El valor lo especifica usted. Si es así, este bloque aplicará el primer conjunto de reglas. De lo contrario, aplicará el segundo conjunto. Cualquiera de los conjuntos de reglas puede estar vacío. Este bloque se logra mediante<help=observer> si no</help> primitivo de NetLogo.
+Este bloque de reglas verificará si la señal en el <trigger=Glossary-Patch,brown>parche </trigger>, o en el parche  debajo de la tortuga, es mayor que un valor o no. El valor lo especifica usted. Si es así, este bloque aplicará el primer conjunto de reglas. De lo contrario, aplicará el segundo conjunto. Cualquiera de los conjuntos de reglas puede estar vacío. Este bloque se logra mediante <help=observer>sino</help> primitivo de NetLogo.
 
 ### Source
 This rule block will tell the <trigger=Glossary-Turtle,green>turtle </trigger> to set its heading according to time. For each time <trigger=Glossary-Tick>tick </trigger>, the heading will be increased by a portion of rounds you specified. This block is achieved by <help=observer>set</help>, <help=observer>heading</help>, and <help=observer>ticks</help> primitives of NetLogo.
 ### Spanish
-Este bloque de reglas le dirá al<trigger=Glossary-Turtle,green> tortuga </trigger> para establecer su rumbo según el tiempo. Por cada vez<trigger=Glossary-Tick> tic </trigger> , el título se incrementará en una parte de las rondas que especificó. Este bloque se logra mediante<help=observer> colocar</help> ,<help=observer> título</help> , y<help=observer> garrapatas</help> primitivas de NetLogo.
+Este bloque de reglas le dirá al <trigger=Glossary-Turtle,green>tortuga </trigger> para establecer su rumbo según el tiempo. Por cada vez <trigger=Glossary-Tick>tick </trigger>, el rumbo se incrementará en una parte de las rondas que especificó. Este bloque se logra mediante <help=observer>colocar</help>, <help=observer>rumbo</help>, y <help=observer>ticks</help> primitivas de NetLogo.
 
 ### Source
 Tick  is the unit of time in Turtle Universe. When you start a microworld, the time flows and tick passes. Normally, each time the rules in "Go" is applied, we will add one to the tick counter, and we can then use the counter to calculate things. In my playground, this process is hidden.
 ### Spanish
-Tick  es la unidad de tiempo en Turtle Universe. Cuando comienzas un micromundo, el tiempo fluye y pasa el tic . Normalmente, cada vez que se aplican las reglas en &quot;Ir&quot;, agregaremos una al contador de tic , y luego podemos usar el contador para calcular las cosas. En mi patio de recreo, este proceso está oculto.
+Tick  es la unidad de tiempo en El Universo Tortuga. Cuando comienzas un micromundo, el tiempo fluye y pasa el tics. Normalmente, cada vez que se aplican las reglas en "Ir", agregaremos una al contador de tick, y luego podemos usar el contador para calcular las cosas. En mi campo de recreo, este proceso está oculto.
 
 ### Source
 Try the " Right Random" block from the toolbox! You are even smarter than I thought. If you want to ask <trigger=Glossary-Turtle,green>turtles </trigger> turn to any <trigger=Glossary-Random>random</trigger> heading, set the range between -180 and 180 degrees. Then, think of what will happen when you change it.
 ### Spanish
-Prueba el bloque &quot;  Aleatorio a la derecha&quot; de la caja de herramientas. Eres incluso más inteligente de lo que pensaba. Si quieres preguntar<trigger=Glossary-Turtle,green> tortugas </trigger> recurrir a cualquiera<trigger=Glossary-Random> aleatorio</trigger> rumbo, establezca el rango entre -180 y 180 grados. Luego, piense en lo que sucederá cuando lo cambie.
+Prueba el bloque "Derecha aleatoriamente" de la caja de herramientas. Eres incluso más inteligente de lo que pensaba. Si quieres preguntar las <trigger=Glossary-Turtle,green>tortugas </trigger> recurrir a cualquiera rumbo <trigger=Glossary-Random>aleatorio</trigger>, establezca el rango entre -180 y 180 grados. Luego, piense en lo que sucederá cuando lo cambie.
 
 ### Source
 Try to ask turtles move forward random steps. What will happen?
 ### Spanish
-Trate de pedirle a las tortugas que avancen pasos aleatorios. ¿Lo que sucederá?
+Trate de pedirle a las tortugas que avancen pasos aleatorios. ¿Que sucederá?
 
 ### Excessive
 Wait, I think I have some more questions...
@@ -781,19 +781,19 @@ Welcome to the Hidden Playground of Turtle Universe.
 As an AI assistant, I am built to serve the Curious Ones to create their microworlds.
 Please, ask any questions. Or, we can start our journey. As you wish!
 ### Spanish
-Bienvenido al patio de recreo oculto de Turtle Universe.
+Bienvenido al Campo Escondido de El Univero Tortuga.
 Como asistente de IA, estoy construido para servir a los Curiosos para crear sus micromundos.
 Por favor, haga cualquier pregunta. O podemos comenzar nuestro viaje. ¡Como desées!
 
 ### Source
 Well done! Whenever your microworld is ready, we are ready to go at any moment!
 ### Spanish
-¡Bien hecho! Siempre que su micromundo esté listo, ¡nosotros estamos listos para comenzar en cualquier momento!
+¡Bien hecho! Siempre que tu micromundo esté listo, nosotros estamos listos para comenzar!
 
 ### Source
 Well done, Curious One. A great idea! I just found the two blocks for you: <b>Start Tracking</b> and <b>Stop Tracking</b>. Use it and the <trigger=Glossary-Turtle,green>turtles </trigger> will start leaving trails when moving. If you find too many trails hard to recognize, try to reduce the number of turtles!
 ### Spanish
-Bien hecho, Curious One. ¡Una gran idea! Acabo de encontrar los dos bloques para ti: <b>Iniciar seguimiento</b> y <b>Detener seguimiento</b> . Úselo y el<trigger=Glossary-Turtle,green> tortugas </trigger> comenzará a dejar rastros al moverse. Si encuentra demasiados senderos difíciles de reconocer, ¡intente reducir el número de tortugas!
+Bien hecho, Curioso. ¡Una gran idea! Acabo de encontrar los dos bloques para ti: <b>Iniciar Seguimiento</b> y <b>Detener Seguimiento</b>. Úselo y el <trigger=Glossary-Turtle,green>tortugas </trigger> comenzará a dejar rastros al moverse. Si encuentra demasiados rastros difíciles de reconocer, ¡intente reducir el número de tortugas!
 
 ### Source
 Well, do I really need to learn some coding?
@@ -808,12 +808,12 @@ Bueno si insistes...
 ### Source
 Well, it seems that every <trigger=Glossary-Turtle,green>turtle </trigger> is moving directly toward its goal. And you may notice that they never stop! I would suggest we start asking them to switch a goal, or to disappear, when one reaches her/his goal. What do you think, Curious One?
 ### Spanish
-Bueno, parece que cada<trigger=Glossary-Turtle,green> tortuga </trigger> se está moviendo directamente hacia su objetivo. ¡Y puede notar que nunca se detienen! Sugeriría que empecemos a pedirles que cambien de objetivo, o que desaparezcan, cuando uno alcance su objetivo. ¿Qué opinas, curioso?
+Bueno, parece que cada <trigger=Glossary-Turtle,green>tortuga </trigger> se está moviendo directamente hacia su objetivo. ¡Y puede notar que nunca se detienen! Sugeriría que empecemos a pedirles que cambien de objetivo, o que desaparezcan, cuando uno alcance su objetivo. ¿Qué opinas, curioso?
 
 ### Source
 What are those grey lines between <color=green>turtles </color>? They are links ! While my playground does not touch them, you will find them elsewhere in Turtle Universe. Each link connects two <color=green>turtles </color>, so it can be used to represent relationships.
 ### Spanish
-¿Qué son esas líneas grises entre<color=green> tortugas </color> ? ¡Son enlaces  ! Si bien mi patio de recreo no los toca, los encontrará en otras partes del Universo Tortuga. Cada enlace conecta dos<color=green> tortugas </color> , por lo que se puede utilizar para representar relaciones.
+¿Qué son esas líneas grises entre las <color=green>tortugas </color>? ¡Son enlaces ! Si bien mi campo de recreo no los toca, los encontrará en otras partes en El Universo Tortuga. Cada enlace conecta dos <color=green>tortugas </color>, por lo que se puede utilizar para representar relaciones.
 
 ### Source
 What do you want to know, Curious One?
@@ -823,7 +823,7 @@ What do you want to know, Curious One?
 ### Source
 When applied, this rule block will <trigger=Glossary-Random>roll a dice </trigger> to decide whether to apply the rules you placed within this block. The chance of success is specified by you. This block is achieved by <help=observer>if</help> and <help=observer>random-float</help> primitives of NetLogo.
 ### Spanish
-Cuando se aplica, este bloque de reglas<trigger=Glossary-Random> tira un dado </trigger> para decidir si aplicar las reglas que colocó dentro de este bloque. La probabilidad de éxito la especifica usted. Este bloque se logra mediante<help=observer> si</help> y<help=observer> flotador aleatorio</help> primitivas de NetLogo.
+Cuando se aplica, este bloque de reglas <trigger=Glossary-Random>tira un dado </trigger> para decidir si aplicar las reglas que colocó dentro de este bloque. La probabilidad de éxito la especifica usted. Este bloque se logra mediante <help=observer>si</help> y <help=observer>flotador-aleatorio</help> primitivas de NetLogo.
 
 ### Source
 When applied, this rule block will ask each <trigger=Glossary-Patch,brown>patch </trigger> in the world to apply the rules you placed within this block. Hence, in this playground, you may only drag blocks with  icon into it. This block is achieved by <help=observer>ask</help> primitive of NetLogo.
