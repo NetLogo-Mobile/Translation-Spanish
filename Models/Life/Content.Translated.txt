@@ -1,0 +1,111 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Que es
+
+Este programa es un ejemplo de un autómata celular bidimensional. Este autómata celular en particular se llama El juego de la vida.
+
+Un autómata celular es una máquina computacional que realiza acciones basadas en ciertas reglas. Se puede pensar en un tablero que se divide en celdas (como las celdas cuadradas de un tablero de ajedrez). Cada celda puede estar &quot;viva&quot; o &quot;muerta&quot;. A esto se le llama el &quot;estado&quot; de la celda. De acuerdo con las reglas especificadas, cada celda estará viva o muerta en el siguiente paso de tiempo.
+
+##  COMO FUNCIONA
+
+Las reglas del juego son las siguientes. Cada celda verifica el estado de sí misma y de sus ocho vecinos circundantes y luego se establece como viva o muerta. Si hay menos de dos vecinos vivos, la celda muere. Si hay más de tres vecinos vivos, la celda muere. Si hay 2 vecinos vivos, la celda permanece en el estado en el que se encuentra. Si hay exactamente tres vecinos vivos, la celda se activa. Esto se hace en paralelo y continúa para siempre.
+
+Hay ciertas formas recurrentes en la vida, por ejemplo, el &quot;planeador&quot; y el &quot;intermitente&quot;. El planeador está compuesto por 5 celdas que forman una pequeña forma de punta de flecha, así:
+
+`` texto
+O
+O
+OOO
+&#39;&#39;
+
+Este planeador se moverá por todo el mundo, conservando su forma. Un intermitente es un bloque de tres celdas (arriba y abajo o izquierda y derecha) que gira entre las orientaciones horizontal y vertical.
+
+##  COMO USARLO
+
+El control deslizante DENSIDAD INICIAL determina la densidad inicial de las células vivas. SETUP-RANDOM coloca estas celdas. GO-FOREVER ejecuta la regla para siempre. GO-ONCE ejecuta la regla una vez.
+
+Si desea dibujar su propio patrón, use el botón DRAW-CELLS y luego use el mouse para &quot;dibujar&quot; y &quot;borrar&quot; en la vista.
+
+##  COSAS PARA NOTAR
+
+Encuentra algunos objetos que estén vivos, pero inmóviles.
+
+¿Existe una &quot;densidad crítica&quot;, una en la que todo cambio y movimiento se detiene / comienza el movimiento eterno?
+
+##  COSAS PARA INTENTAR
+
+¿Hay formas recurrentes además de planeadores y luces intermitentes?
+
+Construye algunos objetos que no mueran (usando DRAW-CELLS)
+
+¿Cuánta vida puede aguantar el tablero y permanecer inmóvil e inmutable? (utilice DRAW-CELLS)
+
+El cañón planeador es un gran conglomerado de células que escupe planeadores repetidamente. Encuentra un &quot;cañón planeador&quot; (¡muy, muy difícil!).
+
+##  EXTENDIENDO EL MODELO
+
+Dale a la vida algunas reglas diferentes y mira qué pasa.
+
+Experimente con el uso de vecinos4 en lugar de vecinos (ver más abajo).
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+El primitivo de vecinos devuelve el conjunto de agentes de los parches al norte, sur, este, oeste, noreste, noroeste, sureste y suroeste. Entonces, `count vecinos con [living?]` Cuenta cuántos de esos ocho parches tienen la variable de parche `living?` Establecida en true.
+
+`vecinos4` es como` vecinos` pero solo usa los parches al norte, sur, este y oeste. Algunos autómatas celulares, como éste, se definen utilizando la regla de los 8 vecinos, otros la de los 4 vecinos.
+
+##  MODELOS RELACIONADOS 
+
+Life Turtle-Based --- same as this, but implemented using turtles instead of patches, for a more attractive display
+CA 1D Elementary --- a model that shows all 256 possible simple 1D cellular automata
+CA 1D Totalistic --- a model that shows all 2,187 possible 1D 3-color totalistic cellular automata
+CA 1D Rule 30 --- the basic rule 30 model
+CA 1D Rule 30 Turtle --- the basic rule 30 model implemented using turtles
+CA 1D Rule 90 --- the basic rule 90 model
+CA 1D Rule 110 --- the basic rule 110 model
+CA 1D Rule 250 --- the basic rule 250 model
+
+##  CRÉDITOS Y REFERENCIAS 
+
+The Game of Life was invented by John Horton Conway.
+
+See also:
+
+Von Neumann, J. and Burks, A. W., Eds, 1966. Theory of Self-Reproducing Automata. University of Illinois Press, Champaign, IL.
+
+"LifeLine: A Quarterly Newsletter for Enthusiasts of John Conway's Game of Life", nos. 1-11, 1971-1973.
+
+Martin Gardner, "Mathematical Games: The fantastic combinations of John Conway's new solitaire game `life',", Scientific American, October, 1970, pp. 120-123.
+
+Martin Gardner, "Mathematical Games: On cellular automata, self-reproduction, the Garden of Eden, and the game `life',", Scientific American, February, 1971, pp. 112-117.
+
+Berlekamp, Conway, and Guy, Winning Ways for your Mathematical Plays, Academic Press: New York, 1982.
+
+William Poundstone, The Recursive Universe, William Morrow: New York, 1985.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1998).  NetLogo Life model.  http://ccl.northwestern.edu/netlogo/models/Life.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1998 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1998 2001 -->

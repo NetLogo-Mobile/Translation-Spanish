@@ -1,0 +1,18 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Que es
+
+Composer es un modelo de juguete que te permite escribir canciones y reproducirlas usando la extensión de sonido.
+
+##  COMO USARLO
+
+Haga clic en CONFIGURAR para dibujar un pentagrama. Luego elija una longitud de nota (negras o medias notas), haz clic en DRAW-NOTES y dibuje notas en el pentagrama. Elija un instrumento, haga clic en REPRODUCIR y escuche su música.
+
+##  EXTENDIENDO EL MODELO
+
+Agrega corcheas.
+
+Agregue sostenidos y bemoles.
+
+Admite varios instrumentos a la vez.
+
+<!-- 2004 -->

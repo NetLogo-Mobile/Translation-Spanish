@@ -1,0 +1,72 @@
+﻿## Language = Spanish
+## Widgets
+### Source
+go
+### Spanish
+ir
+
+### Source
+gravity-constant
+### Spanish
+constante de gravedad
+
+### Source
+initial-range-x
+### Spanish
+rango-inicial-x
+
+### Source
+initial-velocity-x
+### Spanish
+velocidad-inicial-x
+
+### Source
+initial-velocity-y
+### Spanish
+velocidad-inicial-y
+
+### Source
+max-number-of-particles
+### Spanish
+número-máximo-de-partículas
+
+### Source
+particles
+### Spanish
+partículas
+
+### Source
+rate
+### Spanish
+Velocidad
+
+### Source
+restitution-coefficient
+### Spanish
+coeficiente de restitución
+
+### Source
+setup
+### Spanish
+configuración
+
+### Source
+step-size
+### Spanish
+Numero de pie
+
+### Source
+viscosity-constant
+### Spanish
+constante de viscosidad
+
+### Source
+wind-constant-x
+### Spanish
+viento-constante-x
+
+### Source
+wind-constant-y
+### Spanish
+viento-constante-y
+

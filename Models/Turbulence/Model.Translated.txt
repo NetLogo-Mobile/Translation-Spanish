@@ -1,0 +1,32 @@
+﻿## Language = Spanish
+## Widgets
+### Source
+auto-continue?
+### Spanish
+continuar automáticamente?
+
+### Source
+coupling-strength
+### Spanish
+fuerza de acoplamiento
+
+### Source
+go
+### Spanish
+ir
+
+### Source
+initial-turbulence
+### Spanish
+turbulencia inicial
+
+### Source
+roughness
+### Spanish
+aspereza
+
+### Source
+setup
+### Spanish
+configuración
+

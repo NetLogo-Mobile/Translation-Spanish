@@ -1,1 +1,111 @@
-﻿
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Que es
+
+Este proyecto está inspirado en dos modelos más simples: uno de termitas juntando astillas de madera en pilas y otro de ovejas en movimiento. En este proyecto, las ovejas deambulan al azar mientras los pastores circulan tratando de pastorearlas. El que las ovejas terminen o no en un solo rebaño depende de la cantidad de pastores y de la rapidez con que se muevan en comparación con las ovejas.
+
+##  COMO FUNCIONA
+
+Los pastores siguen un conjunto de reglas simples. Cada pastor comienza a vagar al azar. Si choca con una oveja, la levanta y continúa deambulando al azar. Cuando se encuentra con otra oveja, encuentra un espacio vacío cercano, deja su oveja y busca otra.
+
+##  COMO USARLO
+
+Haga clic en el botón CONFIGURAR para configurar los pastores (marrón) y las ovejas (blanco). Haga clic en el botón IR para iniciar la simulación. Un pastor se pone azul cuando lleva una oveja.
+
+Hay tres controles deslizantes. NUM-SHEEP y NUM-SHEPHERDS controlan el número de ovejas y pastores, respectivamente. Los cambios en estos controles deslizantes no surten efecto hasta la siguiente configuración.
+
+El control deslizante SHEEP-SPEED controla la velocidad de las ovejas en relación con los pastores. Este control deslizante se puede cambiar mientras se ejecuta el modelo.
+
+Mientras se ejecuta la simulación, se muestra un gráfico de la eficiencia de pastoreo de los pastores. La eficiencia del pastoreo se mide aquí contando el número de parcelas que no tienen ovejas en su vecindario:
+
+eficiencia = vecindarios sin ovejas / (# de parches - # de ovejas)
+[expresado como porcentaje]
+
+A medida que los pastores pastorean las ovejas, más vecindarios deberían estar vacíos. La medida de la eficiencia es bastante arbitraria; podrían idearse otras medidas.
+
+##  COSAS PARA NOTAR
+
+A medida que comienzan a formarse pequeños rebaños de ovejas, los rebaños no están &quot;protegidos&quot; de ninguna manera. Es decir, los pastores a veces se llevan las ovejas de los rebaños existentes. Esa estrategia puede parecer contraproducente. Pero si los rebaños estuvieran &quot;protegidos&quot;, terminaría con muchos rebaños pequeños, no varios grandes. ¿Por qué es esto?
+
+En general, si hay suficientes pastores y / o los pastores se mueven mucho más rápido que las ovejas, el número de rebaños disminuye con el tiempo. ¿Por qué? Una explicación es la siguiente: algunos rebaños desaparecen cuando los pastores se llevan todas las ovejas. Si las ovejas nunca se movieran, no sería posible que un nuevo rebaño comenzara de cero, ya que los pastores siempre ponen sus ovejas cerca de otras ovejas. Por lo tanto, el número de rebaños necesariamente disminuiría con el tiempo. (La única forma en que una manada &quot;nueva&quot; comenzaría es cuando una manada existente se divide en dos). Sin embargo, dado que las ovejas se mueven, pueden formar nuevas manadas. Si se mueven demasiado rápido en relación con los pastores, el pastoreo se romperá.
+
+Si no hay suficientes pastores, o si las ovejas se mueven lo suficientemente rápido en relación con los pastores, los pastores no pueden seguir el paso de sus ovejas y las ovejas se dispersarán.
+
+¿Son los rebaños finales más o menos redondos? ¿Qué otras situaciones físicas también producen cosas redondas?
+
+Este proyecto es un buen ejemplo de estrategia probabilística y descentralizada. No hay un pastor a cargo, ni un sitio preestablecido especial para los rebaños. El movimiento de los pastores y ovejas y por tanto su comportamiento es probabilístico. Cada pastor sigue un conjunto de reglas simples, pero el grupo en su conjunto realiza una tarea bastante sofisticada.
+
+##  COSAS PARA INTENTAR
+
+¿Puede encontrar el número mínimo de pastores necesarios para pastorear un número determinado de ovejas? ¿Qué ayuda más, duplicar el número de pastores o duplicar la velocidad de los pastores existentes (cortando SHEEP-SPEED a la mitad)?
+
+¿Cuántas ovejas puede tener un pastor individual en un grupo?
+
+Comience con una VELOCIDAD DE OVEJA de cero (las ovejas se quedan quietas), deje que el pastor las junte en manadas y luego aumente lentamente la VELOCIDAD DE LAS OVEJAS. ¿Cómo se ve afectada la eficiencia del pastoreo? ¿Qué tan alto debe ser SHEEP-SPEED para que los pastores sean inútiles, es decir, para que la eficiencia del pastoreo vuelva a su valor inicial? Esto es lo mismo que decir que la distribución de ovejas no es mejor que la aleatoria.
+
+Cuando sólo quedan dos o tres rebaños, ¿cuál de ellos es más probable que &quot;gane&quot; como el único rebaño final? ¿Con qué frecuencia gana el más grande de los dos rebaños? Si un rebaño tiene solo una oveja y el otro rebaño tiene el resto de las ovejas, ¿cuáles son las posibilidades de que gane el primer rebaño?
+
+Compare este modelo con las &quot;termitas&quot;. Funciona más lento, pero aparte de eso, ¿los resultados son los mismos?
+
+Tanto en los modelos Termitas como en los Pastores, si las tortugas no saltan de los montones / manadas que forman, el apilamiento / pastoreo ocurre más lentamente y en menor medida. ¿Esto tiene sentido? Experimente con diferentes comandos de búsqueda que podría darles a los pastores además de &quot;fd 1&quot; y &quot;jump 20&quot;.
+
+##  EXTENDIENDO EL MODELO
+
+¿Puede encontrar otras formas de medir la eficiencia del pastoreo?
+
+¿Puede ampliar el modelo para que las ovejas se sigan unas a otras, tendiendo a agruparse?
+
+¿Puede ampliar el modelo para que los pastores separen las ovejas blancas de las negras?
+
+¿Puedes cambiar el modelo para que solo haya una oveja en un parche? ¿Cambia el comportamiento del modelo?
+
+De la forma en que el modelo está escrito actualmente, se permite que varias ovejas ocupen la misma ubicación física. Y, dado que todos los pastores buscan una oveja para recoger antes de que cualquiera de ellos realmente se lleve a sus ovejas, un pastor puede llegar a un lugar con varias ovejas y, al examinar una al azar, descubrir que otro pastor ya ha agarrado esa oveja. oveja. Actualmente, los pastores abandonan todas las ovejas en ese lugar cuando esto sucede, en lugar de ver si hay otras ovejas allí que todavía están desatendidas. (Si los pastores no verificaron si una oveja fue atendida, varios pastores podrían recoger la misma oveja y llevársela, ¡clonándola así!) ¿Puedes encontrar una manera de hacer que los pastores revisen todas las ovejas en un lugar antes de irse?
+
+Los verdaderos pastores a menudo usan perros pastores para ayudarlos con su pastoreo. Un perro pastor en este contexto podría dejar algún producto químico que &quot;asusta&quot; a la oveja, es decir, una oveja errante trata de evitarlo y desciende por la pendiente. ¿Puedes implementar perros pastores y ver lo útiles que son? ¿Puede llegar a una equivalencia aproximada de cuántos pastores puede reemplazar un perro pastor (para mantener la misma eficiencia de pastoreo), o cuántos perros pastor se necesitan para reemplazar a un solo pastor?
+
+Dado que sería difícil obligar a las tortugas-oveja a seguir a las tortugas-pastoras que las han &quot;recogido&quot;, la mecánica de recoger una oveja en realidad implica &quot;matar&quot; a la oveja y crear un colectivo de pastores de ovejas que deambule siguiendo las reglas del pastor. hasta que encuentra un lugar para poner la oveja, momento en el que se &quot;crea&quot; otra oveja en ese lugar, y el colectivo vuelve a ser un pastor normal de nuevo. ¿Puedes cambiar el modelo para que los pastores realmente pastoreen las ovejas en lugar de matarlas y recrearlas?
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Compare este código con el de &quot;Termitas&quot;. Es similar, excepto que las ovejas y los pastores son tortugas aquí y activos, mientras que en las termitas las astillas de madera son parches y permanecen pasivas. Como resultado, el modelo de las termitas se ejecuta más rápido.
+
+Sin embargo, los dos modelos están codificados de forma algo diferente. Las termitas utilizan una estructura de bucles dentro de GO que vale la pena señalar. GO es un botón de tortuga para siempre, por lo que cada tortuga ejecuta el código en la función GO en paralelo e independientemente entre sí. Dado que cada tortuga se mueve a través de la función GO a su propio ritmo, está bien que funciones como la búsqueda de chip se escriban como bucles, que se ejecutan repetidamente hasta que se cumple una determinada condición. Luego, cada tortuga pasa al siguiente bucle.
+
+Pero en este modelo, GO es un botón de observador para siempre, porque queremos tener bloques de &quot;preguntar&quot; separados para las ovejas y los pastores, y porque queremos actualizar la gráfica de vez en cuando. Dado que el observador espera a que todas las tortugas terminen el &quot;preguntar&quot; antes de pasar a la siguiente línea de código, no estaría bien que una tortuga diera más de un paso dentro del &quot;preguntar&quot;, porque entonces todos las otras tortugas tendrían que esperarlo. Entonces, en lugar de usar bucles, este modelo usa las variables booleanas carry-sheep? y encontrado-rebaño? para realizar un seguimiento de si cada tortuga está en modo de búsqueda de ovejas, modo de búsqueda de rebaños o modo de búsqueda de lugares vacíos.
+
+##  MODELOS RELACIONADOS 
+
+* Termites
+* Painted Desert Challenge
+* State Machine Example
+
+##  CRÉDITOS Y REFERENCIAS 
+
+Thanks to Christopher Kribs Zaleta for his help with converting the model from StarLogoT to NetLogo.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1998).  NetLogo Shepherds model.  http://ccl.northwestern.edu/netlogo/models/Shepherds.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1998 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1998 2001 -->

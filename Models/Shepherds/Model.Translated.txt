@@ -1,0 +1,53 @@
+﻿## Language = Spanish
+## Plots
+### Source
+efficiency
+### Spanish
+eficiencia
+
+### Source
+Herding Efficiency
+### Spanish
+Eficiencia de pastoreo
+
+### Source
+Percent
+### Spanish
+Por ciento
+
+### Source
+Time
+### Spanish
+Hora
+
+## Widgets
+### Source
+current efficiency
+### Spanish
+eficiencia actual
+
+### Source
+go
+### Spanish
+ir
+
+### Source
+num-sheep
+### Spanish
+num-ovejas
+
+### Source
+num-shepherds
+### Spanish
+número-pastores
+
+### Source
+setup
+### Spanish
+configuración
+
+### Source
+sheep-speed
+### Spanish
+velocidad de oveja
+

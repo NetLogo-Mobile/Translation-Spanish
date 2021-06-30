@@ -1,0 +1,78 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Que es
+
+Como el modelo principal de DLA, este modelo demuestra agregación limitada por difusión. En esta variante, en lugar de que las partículas formen un agregado circular que crece desde un punto central, las partículas forman agregados verticales que crecen a lo largo de un borde.
+
+En la agregación limitada por difusión, las partículas que se mueven (difunden) en trayectorias aleatorias se unen (agregan) para formar hermosas estructuras fractales ramificadas en forma de árbol. Hay muchos patrones que se encuentran en la naturaleza que se asemejan a los patrones producidos por este modelo: cristales, coral, hongos, rayos, etc.
+
+Este modelo tiene &quot;Alternate&quot; en su nombre porque, como DLA Alternate, se basa en reglas ligeramente diferentes a las del modelo DLA principal. En el modelo principal, el agregado se forma en una cuadrícula. En esta versión, no hay cuadrícula; las partículas son círculos y hacemos los cálculos necesarios para determinar exactamente cuando los círculos se tocan entre sí. Eso hace que esta versión sea más complicada, pero posiblemente más precisa físicamente.
+
+##  COMO FUNCIONA
+
+Las partículas grises caen desde la cima del mundo, hacia abajo. Cuando una partícula que cae toca el piso, o una partícula estacionaria, la partícula que cae deja de moverse. Periódicamente, se crea una nueva partícula para mantener el proceso en marcha.
+
+Cuando una partícula toca el suelo, cambia de color. Cuando una partícula toca otra partícula, toma el color de esa partícula. Eso facilita ver los agregados separados que se forman.
+
+##  COMO USARLO
+
+Presione SETUP, luego presione GO.
+
+SETUP: elimina todas las partículas existentes y comienza de nuevo
+
+GO: ejecuta la simulación
+
+##  COSAS PARA NOTAR
+
+Las partículas atascadas bloquean el paso de las partículas que caen. Obtenemos áreas negras que no tienen partículas atascadas, porque las partículas que caen se mueven en línea recta, por lo que no pueden abrirse camino para llenar las áreas negras.
+
+La simulación se ejecuta más lentamente a medida que avanza. Eso es porque hay cada vez más partículas en la vista que deben volver a dibujarse. Si congela la vista, el modelo siempre se ejecutará a la misma velocidad. También puede utilizar el control deslizante de velocidad para &quot;avanzar rápidamente&quot; el modelo.
+
+El número de agregados &quot;vivos&quot; (que aún pueden crecer) disminuye con el tiempo.
+
+##  COSAS PARA INTENTAR
+
+Intente cambiar el tamaño del mundo (editando la vista). ¿Qué pasa cuando el mundo es muy alto? ¿Con cuántos agregados en vivo terminas?
+
+##  EXTENDIENDO EL MODELO
+
+Cree un gráfico que muestre el número de agregados vivos a lo largo del tiempo. En varias corridas, ¿este gráfico tiene una forma típica?
+
+Introduzca un &quot;meneo&quot; en la trayectoria de las partículas que caen. Eso significa que justo antes de que la partícula se mueva hacia adelante, gira un poco al azar. ¿Cómo afecta el agregado? Experimente con diferentes cantidades de meneo.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+El código es prácticamente el mismo que en DLA Alternate.
+
+En particular, el procedimiento de &quot;distancia de colisión&quot;, el que tiene todas las matemáticas complicadas, es el mismo. En realidad, sería posible usar matemáticas más simples en este modelo, porque sabemos que solo cambia la coordenada y de la partícula en movimiento, mientras que su coordenada x permanece igual.
+
+##  MODELOS RELACIONADOS 
+
+DLA and DLA Alternate are the same idea, but with particles all falling towards a central point instead of straight down.
+
+##  CRÉDITOS Y REFERENCIAS 
+
+The mathematical procedures used in calculating the collision paths comes from: Eric W. Weisstein, "Circle-Line Intersection". From MathWorld--A Wolfram Web Resource.  http://mathworld.wolfram.com/Circle-LineIntersection.html
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (2005).  NetLogo DLA Alternate Linear model.  http://ccl.northwestern.edu/netlogo/models/DLAAlternateLinear.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2005 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2005 -->

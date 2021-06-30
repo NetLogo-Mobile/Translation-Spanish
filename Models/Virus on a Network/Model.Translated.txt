@@ -1,4 +1,4 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
 ## Language = Spanish
 ## Plots
 ### Source
@@ -60,7 +60,7 @@ Después de estar infectado
 ### Source
 After the <trigger=virus,green>virus</trigger> has died  out, some nodes are still <trigger=susceptible,blue>susceptible</trigger>, while others have become <trigger=resistant,grey>immune</trigger>. What is the ratio of the number of <color=grey>immune</color> nodes to the number of <color=blue>susceptible</color> nodes?
 ### Spanish ***
-Después de la<trigger=virus,green> virus</trigger> se ha extinguido, algunos nodos todavía están<trigger=susceptible,blue> susceptible</trigger> , mientras que otros se han convertido<trigger=resistant,grey> inmune</trigger> . ¿Cuál es la razón del número de<color=grey> inmune</color> nodos al número de<color=blue> susceptible</color> nodos?
+Después de la<trigger=virus,green> virus</trigger> ha muerto  , algunos nodos todavía están<trigger=susceptible,blue> susceptible</trigger> , mientras que otros se han convertido<trigger=resistant,grey> inmune</trigger> . ¿Cuál es la razón del número de<color=grey> inmune</color> nodos al número de<color=blue> susceptible</color> nodos?
 
 ### Source
 An epidemic of an infectious disease/<trigger=virus,green>virus</trigger> that has spread across a large region, for instance multiple continents or worldwide , affecting a substantial number of people 
@@ -100,7 +100,7 @@ Creación de la Red
 ### Source
 Each time step (tick) , each <trigger=infected,red>infected</trigger> node (colored <color=red>red</color>) attempts to <color=red>infect</color> all of its neighbors . <trigger=susceptible,blue>Susceptible</trigger> neighbors (colored <color=blue>blue</color>) will be <color=red>infected</color> with a certain probability. <trigger=resistant,grey>Resistant</trigger> nodes (colored <color=grey>gray</color>) cannot be <color=red>infected</color>. This might correspond to up-to-date antivirus software and security patches  that make a computer  <color=grey>immune</color> to this particular <trigger=virus,green>virus</trigger>.
 ### Spanish ***
-Cada paso de tiempo (tic)  , cada<trigger=infected,red> infectado</trigger> nodo (de color<color=red> rojo</color> ) intenta<color=red> infectar</color> todos sus vecinos  .<trigger=susceptible,blue> Susceptible</trigger> vecinos (de color<color=blue> azul</color> ) estarán<color=red> infectado</color> con cierta probabilidad.<trigger=resistant,grey> Resistente</trigger> nodos (coloreados<color=grey> gris</color> ) no puede ser<color=red> infectado</color> . Esto podría corresponder a software antivirus actualizado y parches de seguridad  que hacen que una computadora  <color=grey> inmune</color> a este particular<trigger=virus,green> virus</trigger> .
+Cada paso de tiempo (tic)  , cada<trigger=infected,red> infectado</trigger> nodo (de color<color=red> rojo</color> ) intenta<color=red> infectar</color> todos sus vecinos  .<trigger=susceptible,blue> Susceptible</trigger> vecinos (de color<color=blue> azul</color> ) estarán<color=red> infectado</color> con cierta probabilidad.<trigger=resistant,grey> Resistente</trigger> nodos (coloreados<color=grey> gris</color> ) no puede ser<color=red> infectado</color> . Esto puede corresponder a software antivirus actualizado y parches de seguridad  que hacen que una computadora  <color=grey> inmune</color> a este particular<trigger=virus,green> virus</trigger> .
 
 ### Excessive
 Each time step (tick), each <trigger=infected,red>infected</trigger> node (colored <color=red>red</color>) attempts to <color=red>infect</color> all of its neighbors. <trigger=susceptible,blue>Susceptible</trigger> neighbors (colored <color=blue>blue</color>) will be <color=red>infected</color> with a certain probability. <trigger=resistant,grey>Resistant</trigger> nodes (colored <color=grey>gray</color>) cannot be <color=red>infected</color>. This might correspond to up-to-date antivirus software and security patches that make a computer <color=grey>immune</color> to this particular <trigger=virus,green>virus</trigger>.
@@ -125,7 +125,7 @@ Metas 
 ### Source
 How Infection Occurs
 ### Spanish ***
-Cómo se produce la infección
+Cómo ocurre la infección
 
 ### Source
 How is the network created?
@@ -140,7 +140,7 @@ Si un nodo se recupera, existe alguna probabilidad de que se convierta en<trigge
 ### Source
 If the recovery-chance is more than 0, even if the virus-spread-chance is high, do you think that if you ran the model forever, the <trigger=virus,green>virus</trigger> could stay alive ?
 ### Spanish ***
-Si la probabilidad de recuperación es mayor que 0, incluso si la probabilidad de propagación del virus es alta, ¿cree que si ejecuta el modelo para siempre, la<trigger=virus,green> virus</trigger> podría seguir vivo  ?
+Si la probabilidad de recuperación es mayor que 0, incluso si la probabilidad de propagación del virus es alta, ¿cree que si ejecuta el modelo para siempre,<trigger=virus,green> virus</trigger> podría seguir vivo  ?
 
 ### Excessive
 If the recovery-chance is more than 0, even if the virus-spread-chance is high, do you think that if you ran the model forever, the <trigger=virus,green>virus</trigger> could stay alive?
@@ -155,7 +155,7 @@ Imagina que enciendes la televisión y cambias a tu canal de noticias local. Se 
 ### Source
 Imagine you turn on the television  and switch to your local news  channel.  An important announcement  comes on, saying that there's a <trigger=pandemic>pandemic</trigger> rapidly  spreading, and citizens need to quarantine themselves inside their homes . You wonder: how do medical officials  know how fast a <trigger=virus,green>virus</trigger> is spreading and predict how many people will be <trigger=infected,red>infected</trigger> in the future?
 ### Spanish ***
-Imagina que enciendes la televisión  y cambias a tu canal de noticias local  . Se produce un anuncio importante  , que dice que hay un<trigger=pandemic> pandemia</trigger> se está extendiendo rápidamente, y los ciudadanos deben ponerse en cuarentena dentro de sus hogares  . Usted se pregunta: ¿cómo saben los funcionarios médicos qué tan rápido<trigger=virus,green> virus</trigger> se está extendiendo y predice cuántas personas serán<trigger=infected,red> infectado</trigger> ¿en el futuro?
+Imagina que enciendes la televisión  y cambias a tu canal de noticias local  . Se produce un anuncio importante  , que dice que hay un<trigger=pandemic> pandemia</trigger> Se está extendiendo rápidamente y los ciudadanos deben ponerse en cuarentena dentro de sus hogares. Usted se pregunta: ¿cómo saben los funcionarios médicos qué tan rápido<trigger=virus,green> virus</trigger> se está extendiendo y predice cuántas personas serán<trigger=infected,red> infectado</trigger> ¿en el futuro?
 
 ### Source
 Infected
@@ -220,7 +220,7 @@ Establezca la probabilidad de resistencia a la ganancia en 0%. ¿En qué condici
 ### Source
 Set gain-resistance-chance to 0%. Under what conditions will the <trigger=virus,green>virus</trigger> die  out? How long  does it take? What conditions are required for the <color=green>virus</color> to live ?
 ### Spanish ***
-Establezca la probabilidad de resistencia a la ganancia en 0%. ¿En qué condiciones se<trigger=virus,green> virus</trigger> morir? ¿Cuánto tiempo se tarda? ¿Qué condiciones se requieren para<color=green> virus</color> vivir  ?
+Establezca la probabilidad de resistencia a la ganancia en 0%. ¿En qué condiciones se<trigger=virus,green> virus</trigger> morir? ¿Cuánto tiempo se tarda? ¿Qué condiciones se requieren para<color=green> virus</color> para vivir  ?
 
 ### Source
 Susceptible
@@ -255,7 +255,7 @@ La red que se crea se basa en la proximidad (distancia euclidiana) entre nodos. 
 ### Source
 The network  that is created is based on proximity (Euclidean distance ) between nodes. A node is randomly  chosen and connected to the nearest node that it is not already connected to. This process is repeated until the network has the correct number of links to give the specified average node degree.
 ### Spanish ***
-La red  que se crea se basa en la proximidad (distancia euclidiana  ) entre nodos. Un nodo se elige al azar  y se conecta al nodo más cercano al que aún no está conectado. Este proceso se repite hasta que la red tiene el número correcto de enlaces para dar el grado de nodo promedio especificado.
+La red  que se crea se basa en la proximidad (distancia euclidiana  ) entre nodos. Un nodo se elige aleatoriamente connected y se conecta al nodo más cercano al que aún no está conectado. Este proceso se repite hasta que la red tiene el número correcto de enlaces para dar el grado de nodo promedio especificado.
 
 ### Source
 The number of nodes that will start the simulation <trigger=infected,red>infected</trigger> with the <trigger=virus,green>virus</trigger>
@@ -275,7 +275,7 @@ La probabilidad de que<trigger=susceptible,blue> susceptible</trigger> vecinos (
 ### Source
 The probability that a node that has recovered will become <trigger=resistant,grey>resistant</trigger> to this <trigger=virus,green>virus</trigger> in the future
 ### Spanish ***
-La probabilidad de que un nodo que se ha recuperado se convierta en<trigger=resistant,grey> resistente</trigger> a esto<trigger=virus,green> virus</trigger> en el futuro
+La probabilidad de que un nodo que se ha recuperado se convierta<trigger=resistant,grey> resistente</trigger> a esto<trigger=virus,green> virus</trigger> en el futuro
 
 ### Source
 The probability that the <trigger=virus,green>virus</trigger> will be removed when the <color=green>virus</color> has been detected
@@ -300,7 +300,7 @@ La velocidad a la que los nodos comprueban si están<trigger=infected,red> infec
 ### Source
 The rate at which nodes check whether they are <trigger=infected,red>infected</trigger> by a <trigger=virus>virus</trigger>; this might correspond to a regularly scheduled virus-scan  procedure, or simply a human noticing something fishy about how the computer  is behaving
 ### Spanish ***
-La velocidad a la que los nodos comprueban si están<trigger=infected,red> infectado</trigger> por un<trigger=virus> virus</trigger> ; Esto podría corresponder a un procedimiento de escaneo de virus programado regularmente, o simplemente a un ser humano que se da cuenta de algo sospechoso sobre el comportamiento de la computadora.
+La velocidad a la que los nodos comprueban si están<trigger=infected,red> infectado</trigger> por un<trigger=virus> virus</trigger> ; Esto podría corresponder a un procedimiento de exploración de virus  programado regularmente, o simplemente a un ser humano que nota algo sospechoso sobre cómo se está comportando la computadora the
 
 ### Source
 The state of having a strong capacity to defend against a disease/<trigger=virus,green>virus</trigger>
@@ -376,7 +376,7 @@ What happens to nodes that remove the virus?
  Examine the factors that change how the <color=green>virus</color> spreads throughout the network 
  Explore how manipulating these factors affect whether equilibrium  or instability  is reached over time 
 ### Spanish ***
- Entender cómo una computadora  y una biología  <trigger=virus,green> virus</trigger> propagar  Reconocer las suposiciones / generalizaciones hechas por<color=blue> S</color><color=red> I</color><color=grey> R</color> modelos  Examine los factores que cambian la forma en que<color=green> virus</color> se propaga por la red  Explore cómo la manipulación de estos factores afecta si el equilibrio  o la inestabilidad  se alcanza con el tiempo 
+ Entender cómo una computadora  y un biológico  <trigger=virus,green> virus</trigger> propagar  Reconocer las suposiciones / generalizaciones hechas por<color=blue> S</color><color=red> I</color><color=grey> R</color> modelos  Examine los factores que cambian la forma en que<color=green> virus</color> se extiende por toda la red  Explore cómo la manipulación de estos factores afecta si el equilibrio  o la inestabilidad  se alcanza con el tiempo 
 
 ## Widgets
 ### Source

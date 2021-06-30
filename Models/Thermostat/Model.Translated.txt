@@ -1,0 +1,63 @@
+﻿## Language = Spanish
+## Plots
+### Source
+goal-temp
+### Spanish
+objetivo-temp
+
+### Source
+Temp
+### Spanish
+Temperatura
+
+### Source
+temperature
+### Spanish
+temperatura
+
+### Source
+Temperature
+### Spanish
+Temperatura
+
+### Source
+Time
+### Spanish
+Hora
+
+## Widgets
+### Source
+go
+### Spanish
+ir
+
+### Source
+goal-temp
+### Spanish
+objetivo-temp
+
+### Source
+heater-strength
+### Spanish
+resistencia del calentador
+
+### Source
+initial-temp
+### Spanish
+temperatura inicial
+
+### Source
+insulation
+### Spanish
+aislamiento
+
+### Source
+setup
+### Spanish
+configuración
+
+### Source
+temperature
+### Spanish
+temperatura
+

@@ -1,0 +1,42 @@
+﻿## Language = Spanish
+## Widgets
+### Source
+current density
+### Spanish
+densidad actual
+
+### Source
+draw-cells
+### Spanish
+dibujar-celdas
+
+### Source
+go-forever
+### Spanish
+ir para siempre
+
+### Source
+go-once
+### Spanish
+ir una vez
+
+### Source
+initial-density
+### Spanish
+densidad inicial
+
+### Source
+recolor
+### Spanish
+volver a colorear
+
+### Source
+setup-blank
+### Spanish
+configuración-en blanco
+
+### Source
+setup-random
+### Spanish
+configuración-aleatoria
+

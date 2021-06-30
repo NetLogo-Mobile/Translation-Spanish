@@ -1,1 +1,75 @@
-﻿
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Que es
+
+Un termostato es un dispositivo que responde a la temperatura de una habitación para mantener la temperatura en un nivel deseado. Esto se usa a menudo como un ejemplo de control de retroalimentación, donde un sistema ajusta su comportamiento en respuesta a los efectos de su comportamiento anterior. En términos generales, los sistemas de calefacción tienen solo dos configuraciones, encendido y apagado, y es el trabajo del termostato encender y apagar el calentador en los momentos apropiados. Un simple termostato hace esto encendiendo el calentador cuando la temperatura de la habitación ha caído por debajo de la temperatura deseada, y apagando el calentador una vez que se ha alcanzado o superado la temperatura deseada.
+
+##  COMO FUNCIONA
+
+En este modelo, las tortugas rojas representan el calor y el borde amarillo delimita la habitación cuya temperatura se está regulando. El borde amarillo es semipermeable, lo que permite que parte del calor que lo golpea escape de la habitación. Este calor desaparece del modelo una vez que llega al borde del mundo. Un termómetro, indicado por el cuadrado verde, mide la temperatura aproximada de la habitación (efectivamente, la densidad de las tortugas rojas). El calentador está ubicado en el centro de la habitación, representado por un parche blanco.
+
+Cabe señalar que el uso de tortugas en este modelo para representar el calor ** no pretende ser físicamente realista **. En cambio, es un ejemplo en el que un modelo se simplifica de tal manera que se resalta otra característica del modelo. En este caso, es la función de regulación del termostato lo que nos preocupa principalmente.
+
+##  COMO USARLO
+
+SETUP: Restablece la simulación y establece la temperatura inicial de acuerdo con init-temp.
+GO: inicia y detiene la simulación.
+
+INITIAL-TEMP: La temperatura inicial de la habitación. Esto tiene efecto solo cuando se presiona el botón SETUP.
+META-TEMPERATURA: El termostato tiene como objetivo mantener la habitación a esta temperatura. Puede ajustarse en medio de una simulación.
+TEMPERATURA: monitorea la temperatura en la habitación, según lo detecta el cuadro verde cerca de la parte superior.
+
+RESISTENCIA DEL CALENTADOR: El número de tortugas rojas creadas por el calentador en un tic (si el calentador está &#39;encendido&#39;).
+
+AISLAMIENTO: La eficiencia del aislamiento de la habitación o la velocidad a la que el calor se escapa de la habitación. Los números más altos permiten que escape menos calor; los números más bajos permiten más. Esto se puede ajustar durante una simulación.
+
+También hay un gráfico, que rastrea la temperatura a lo largo del tiempo (en rojo) y la temperatura deseada (en verde).
+
+##  COSAS PARA NOTAR
+
+Con algunos ajustes, la habitación no se puede calentar a la temperatura deseada (por ejemplo, la habitación alcanza una temperatura máxima inferior a la temperatura deseada). ¿En qué circunstancias sucede esto?
+
+Mire la gráfica: ¿el termostato hace un buen trabajo para mantener la temperatura en el nivel deseado? Si mantenemos las variables constantes, ¿a qué factores podemos atribuir las fluctuaciones de la temperatura (en rojo) sobre la temperatura deseada (en verde)?
+
+Intente ajustar el aislamiento de la habitación y la fuerza del calentador. ¿Estos factores afectan la eficiencia del termostato (es decir, hacen que la temperatura se mantenga más cerca o más lejos de la temperatura deseada)?
+
+Tenga en cuenta que hay un retraso desde el momento en que se enciende el calentador hasta el momento en que este calor agregado llega al termómetro. ¿Cuáles son las consecuencias de este retraso?
+
+##  EXTENDIENDO EL MODELO
+
+El termostato en este modelo usa una regla muy simple para controlar el calentador en función de la temperatura. Podría ser posible mejorar el rendimiento de este sistema haciéndolo &quot;más inteligente&quot;. Una sugerencia es escribir un programa de control que encienda y apague el calentador antes de que la temperatura alcance la temperatura deseada; esto compensaría el retraso mencionado anteriormente. Intente reescribir la función THERMO-CONTROL. Tenga en cuenta que las únicas entradas que debe tener su función de control son GOAL-TEMP y TEMPERATURE, y la única acción debe ser llamar a RUN-HEATER o no. Tenga en cuenta que esto deja abierta la posibilidad de crear variables para almacenar información pasada.
+
+Gran parte de la inestabilidad observada en la temperatura podría atribuirse simplemente al termómetro que estamos usando. El termómetro actual toma un promedio del número de tortugas que ocupan los parches verdes durante las últimas diez garrapatas. ¿Por qué supone que estamos midiendo la temperatura de esa manera, en lugar de simplemente contar el número de tortugas dentro de la habitación? ¿Puedes diseñar un termómetro mejor?
+
+Este modelo no tiene en cuenta cómo la temperatura exterior (fuera del cuadro amarillo) podría afectar la temperatura interior. Modifique el modelo para que ahora esto se convierta en un factor.
+
+El calentador de este modelo emite calor a un ritmo fijo, independientemente del tiempo que haya estado encendido. Los calentadores reales generalmente tienen un período de calentamiento durante el cual aumentan lentamente su salida, hasta que alcanzan su velocidad máxima. Intente ajustar el calentador en este modelo para que actúe más como un calentador real. ¿Cómo afecta esto el comportamiento o la eficiencia del termostato? ¿Cómo podríamos modificar THERMO-CONTROL para dar cuenta de esto?
+
+Comience una simulación con INITIAL-TEMP en cero y observe cuánto tiempo se tarda en calentar la habitación. Esto significa que si quisiéramos calentar la habitación en un momento determinado, podría tener sentido encender el calentador de antemano. Introduzca el tiempo en este modelo e intente ajustar el termostato para que caliente la habitación de acuerdo con un horario.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1998).  NetLogo Thermostat model.  http://ccl.northwestern.edu/netlogo/models/Thermostat.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1998 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1998 2001 -->

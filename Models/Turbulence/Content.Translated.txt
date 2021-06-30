@@ -1,1 +1,123 @@
-﻿
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Que es
+
+Este modelo demuestra la transición del orden o &quot;laminaridad&quot; al desorden o &quot;turbulencia&quot; en los fluidos. Usando un autómata celular continuo unidimensional, este modelo le permite explorar la relación entre la turbulencia, laminaridad y la viscosidad de un fluido que fluye a través de una &quot;tubería&quot;. También le muestra cómo la aspereza de las tuberías por las que viaja el fluido afecta el comportamiento del fluido.
+
+##  COMO FUNCIONA
+
+Este modelo se basa en un &quot;entramado de mapa acoplado&quot;, también conocido como autómata celular continuo. Consulte CA 1D Elementary para obtener una introducción a los autómatas celulares de una dimensión, y consulte CA 1D Continuous para obtener una introducción a las CA continuas.
+
+Cada celda tiene un valor que varía continuamente de 0 a 1,5, donde 0 es el mayor grado de turbulencia y 1,5 es el mayor grado de laminaridad. Las celdas se consideran laminares cuando su valor es mayor que 1 y turbulentas cuando su valor es menor o igual a 1.
+
+Para dibujar cada fila posterior, cada celda de la fila anterior se actualiza en tres pasos:
+
+1) El primer paso es el acoplamiento, donde el valor de la celda se &quot;difunde&quot; o se promedia con sus vecinos más cercanos en cada lado. El grado de influencia que las células tienen entre sí se determina mediante el control deslizante ACOPLAMIENTO-FUERZA. Cuanto mayor sea el valor de la fuerza de acoplamiento, más se influirán las células entre sí. COUPLING-STRENGTH es un análogo aproximado de viscosidad.
+
+2) En el segundo paso, se aplica otra función para escalar correctamente el resultado de la función de acoplamiento.
+
+3) El tercer y último paso es la aplicación de fricción, que es el análogo de la rugosidad (en, por ejemplo, el interior de una tubería o la superficie de una hoja de vidrio). El parámetro RUGOSIDAD controla la cantidad de fricción impuesta sobre el fluido, aumentando la turbulencia de la celda. Esto puede parecer un poco extraño, pero es importante recordar que la turbulencia se mide en términos de desorden; cuando la velocidad del fluido cambia, estas fluctuaciones causan más desorden.
+
+Luego, estos pasos se repiten para la siguiente fila y así sucesivamente.
+
+##  COMO USARLO
+
+Configuración:
+
+* SETUP inicializa el modelo con una combinación de condiciones iniciales turbulentas y no turbulentas.
+* INITIAL-TURBULENCE controla el grado de turbulencia inicial.
+
+Parámetros:
+
+* ACOPLAMIENTO-FUERZA es la cantidad de &quot;difusión&quot; o la influencia que las células tienen entre sí.
+* RUGOSIDAD es la cantidad de turbulencia que se agrega a cada celda en cada paso de tiempo.
+
+Ejecutando el modelo:
+
+* Si es AUTO-CONTINUE? está apagado, GO ejecuta el modelo hasta que llega al final (`min-pycor`). Si se presiona nuevamente, GO continuará la misma ejecución en la fila superior de parches. Si AUTO-CONTINUE? está encendido, al llegar a la fila inferior de parches, GO continuará inmediatamente la ejecución desde la parte superior.
+* ¿CONTINUAR AUTOMÁTICAMENTE? hará que GO vuelva automáticamente a la parte superior y continúe cuando se encienda. Si el modelo ha alcanzado un estado completamente laminar y no puede producir más turbulencias, no volverá a funcionar.
+
+##  COSAS PARA NOTAR
+
+¿En qué circunstancias se producen parches más oscuros y &quot;laminares&quot;? ¿Cómo depende esto de la turbulencia?
+
+¿Por qué las corrientes turbulentas rectas que no brotan eventualmente se extinguen cuando RUGOSIDAD se establece en 0? ¿Cómo es que esto no ocurre tanto cuando la RUGOSIDAD es mayor que 0?
+
+##  COSAS PARA INTENTAR
+
+Establezca la RUGOSIDAD en 0:
+
+Cambie la FUERZA DE ACOPLAMIENTO hasta que encuentre el &quot;valor crítico&quot; que debe estar por encima de la FUERZA DE ACOPLAMIENTO para producir turbulencias de larga duración. Esta transición es muy rápida y ocurre dentro de un rango muy pequeño del parámetro COUPLING-STRENGTH.
+
+Cuando la FUERZA DE ACOPLAMIENTO está por encima del valor crítico, ¿qué cambio ve que podría explicar por qué la turbulencia es capaz de perpetuarse tan bien?
+
+Con una FUERZA DE ACOPLAMIENTO por encima del valor crítico, ¿aproximadamente cuánta TURBULENCIA INICIAL se requiere para que la turbulencia continúe indefinidamente?
+
+¿Qué sucede cuando la FUERZA DE ACOPLAMIENTO es demasiado alta? ¿Puede dar una interpretación física de esto?
+
+Piense en estas preguntas mientras experimenta con valores de RUGOSIDAD por encima de 0:
+
+¿Cómo afecta la RUGOSIDAD a la turbulencia en el fluido?
+
+¿Cómo afecta la RUGOSIDAD al valor crítico requerido para las turbulencias de larga duración?
+
+Con valores de RUGOSIDAD más altos, ¿es necesario que haya una cierta cantidad de TURBULENCIA INICIAL para producir turbulencias de larga duración? ¿Por qué o por qué no?
+
+¿Existe alguna diferencia entre la turbulencia causada por grandes FUERZAS DE ACOPLAMIENTO y la turbulencia causada por la fricción? Si es así, ¿en qué se diferencian?
+
+¿Puede dar una interpretación física de una RUGOSIDAD de 0?
+
+##  EXTENDIENDO EL MODELO
+
+Aunque se trata de un CA de valor continuo, en cierto sentido el sistema es discreto en el sentido de que existe una clara distinción entre células &quot;turbulentas&quot; y &quot;laminares&quot;. Si modifica el procedimiento COLOR-PATCH para colorear las celdas solo como negro o blanco, dependiendo de en cuál de estos dos estados discretos se encuentren, verá una &quot;vista&quot; discreta de este modelo continuo.
+
+En los sistemas físicos, la &quot;fuerza de acoplamiento&quot; es producto de varios factores, como la temperatura, la presión y la viscosidad. ¿Puede pensar en una forma de tener en cuenta estos factores en este modelo?
+
+La tensión superficial es un tema común a la dinámica de fluidos y la turbulencia. ¿Puedes encontrar una forma de integrarlo en el modelo?
+
+Hay muchas formas de analizar cuantitativamente la turbulencia. Intente crear un gráfico de la entropía (consulte &#39;CA Stochastic&#39; para ver un ejemplo), o el tamaño promedio de las regiones laminares.
+
+¿Puedes crear un modelo de turbulencia en dos dimensiones?
+
+##  MODELOS RELACIONADOS 
+
+* CA 1D Elementary - the elementary two-state 1D cellular automata
+* CA Continuous - an elementary continuous 1D cellular automaton
+* CA Stochastic - a probabilistic cellular automaton that exhibits critical phase transitions similar to this model
+* Lattice Gas Automaton - two-dimensional wave propagation through a lattice gas
+* Wave Machine - wave motion in a two-dimensional membrane
+* Percolation - the percolation of oil through soil
+
+##  CRÉDITOS Y REFERENCIAS 
+
+Criticality in cellular automata: H. Chate and P. Manneville. 1990 Physica D 45 122-135
+Pattern Dynamics in Spatiotemporal Chaos: Kunihiko Kaneko. 1989 Physica D 34 1-41
+Supertransients, spatiotemporal intermittency and stability of fully developed spatiotemporal chaos: Kunihiko Kaneko. 1990 Physics Letters A Vol 149, Number 2,3
+Shepherd, Dennis G. 1965. Elements of Fluid Mechanics.  Harcourt, Brace, & World, Inc., New York, NY.
+
+Thanks to Eytan Bakshy for his work on this model.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (2003).  NetLogo Turbulence model.  http://ccl.northwestern.edu/netlogo/models/Turbulence.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2003 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227.
+
+<!-- 2003 -->

@@ -1,0 +1,78 @@
+﻿## Language = Spanish
+## Plots
+### Source
+# of nodes
+### Spanish
+# de nodos
+
+### Source
+default
+### Spanish
+defecto
+
+### Source
+degree
+### Spanish
+la licenciatura
+
+### Source
+Degree Distribution
+### Spanish
+Distribución de títulos
+
+### Source
+Degree Distribution (log-log)
+### Spanish
+Distribución de grados (log-log)
+
+### Source
+log(# of nodes)
+### Spanish
+log (# de nodos)
+
+### Source
+log(degree)
+### Spanish
+log (grado)
+
+## Widgets
+### Source
+# of nodes
+### Spanish
+# de nodos
+
+### Source
+go
+### Spanish
+ir
+
+### Source
+go-once
+### Spanish
+ir una vez
+
+### Source
+layout?
+### Spanish
+¿diseño?
+
+### Source
+plot?
+### Spanish
+¿gráfico?
+
+### Source
+redo layout
+### Spanish
+rehacer el diseño
+
+### Source
+resize nodes
+### Spanish
+cambiar el tamaño de los nodos
+
+### Source
+setup
+### Spanish
+configuración
+

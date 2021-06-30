@@ -1,0 +1,52 @@
+﻿## Language = Spanish
+## Widgets
+### Source
+go
+### Spanish
+ir
+
+### Source
+initial-density
+### Spanish
+densidad inicial
+
+### Source
+inner-radius-x
+### Spanish
+radio-interior-x
+
+### Source
+inner-radius-y
+### Spanish
+radio-interior-y
+
+### Source
+outer-radius-x
+### Spanish
+radio-exterior-x
+
+### Source
+outer-radius-y
+### Spanish
+radio-exterior-y
+
+### Source
+ratio
+### Spanish
+proporción
+
+### Source
+restart
+### Spanish
+Reanudar
+
+### Source
+setup
+### Spanish
+configuración
+
+### Source
+step
+### Spanish
+paso
+

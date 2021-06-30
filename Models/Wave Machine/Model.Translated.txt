@@ -1,0 +1,57 @@
+﻿## Language = Spanish
+## Widgets
+### Source
+driver-amplitude
+### Spanish
+amplitud del conductor
+
+### Source
+driver-frequency
+### Spanish
+frecuencia del conductor
+
+### Source
+driver-size
+### Spanish
+tamaño del conductor
+
+### Source
+driver-x
+### Spanish
+controlador-x
+
+### Source
+driver-y
+### Spanish
+conductor-y
+
+### Source
+friction
+### Spanish
+fricción
+
+### Source
+go
+### Spanish
+ir
+
+### Source
+setup
+### Spanish
+configuración
+
+### Source
+stiffness
+### Spanish
+rigidez
+
+### Source
+three-d?
+### Spanish
+tres-d?
+
+### Source
+view-angle
+### Spanish
+ángulo de visión
+

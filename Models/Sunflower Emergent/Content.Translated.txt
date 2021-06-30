@@ -1,1 +1,97 @@
-﻿
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Que es
+
+Este modelo muestra la característica formación de doble espiral que vemos en muchas plantas. La mayoría de las plantas tienen hojas que ascienden en espiral por el tallo, apareciendo como una doble espiral cuando se ven desde arriba. Esta misma doble espiral también se ve en cabezas de flores como girasoles y piñas.
+
+La idea clave es que el patrón surge de la física simple: la minimización de la energía repulsiva. En este modelo no se invoca ni la biología evolutiva ni la geometría de los ángulos.
+
+##  COMO FUNCIONA
+
+El modelo se inicializa con una partícula en un anillo interior alrededor del origen.
+
+En cada tic del modelo, se agrega una nueva partícula y se coloca en un anillo concéntrico, a una distancia fija del último anillo.
+
+La ubicación de la nueva partícula se determina de la siguiente manera. Coloque 360 o más partículas temporales en el anillo, calcule la energía repulsiva para cada partícula temporal eligiendo uno de los dos métodos de aproximación de energía y elija la partícula temporal que tenga la energía repulsiva total mínima. A continuación, se eliminan el resto de las partículas temporales.
+
+Este modelo incluye dos métodos diferentes para aproximar la energía repulsiva total de una partícula. Ambos métodos se basan en el supuesto de que las partículas más cercanas entre sí ejercen mucha más energía repulsiva que las partículas más alejadas. El primer método asume que la relación entre distancia y repulsión es inversa, mientras que el segundo asume que es una de decadencia exponencial.
+
+##  COMO USARLO
+
+El procedimiento SETUP coloca una partícula a una distancia de RING-DIST del origen.
+
+ADD-PARTICLE agrega una nueva partícula al siguiente anillo concéntrico.
+
+RING-DIST es la distancia entre anillos sucesivos.
+
+El TAMAÑO DE LAS PARTÍCULAS es solo el tamaño de visualización de las partículas. No afecta el patrón de ubicación del crecimiento.
+
+GO agrega partículas hasta que la espiral llega al borde del mundo.
+
+¿Las TEMPERATURAS FIJAS? El interruptor determina si se debe utilizar un número fijo o variable de partículas temporales. Si está activado, se utilizan 360 partículas temporales. Si está desactivado, el número de partículas aumenta con la distancia desde el origen.
+
+¿Los SHOW-TEMPS? el interruptor, si está activado, muestra las partículas temporales.
+
+El selector de APROXIMACIÓN DE ENERGÍA determina qué método de aproximación de energía se utiliza. DISTANCIA INVERSA usa la aproximación de energía repulsiva 1 / distancia ^ ALPHA, y EXPONENTIAL usa la aproximación de energía repulsiva de Born y Mayer, e ^ (- distancia / BETA). Los controles deslizantes ALPHA y BETA determinan las constantes utilizadas en cada una de estas aproximaciones.
+
+##  COSAS PARA NOTAR
+
+Observe el patrón de doble espiral que surge de estas simples reglas. ¿El patrón en espiral es siempre el mismo con la misma configuración? ¿Por qué o por qué no?
+
+¿Notas algún otro patrón en las espirales para diestros y zurdos?
+
+##  COSAS PARA INTENTAR
+
+Intente variar el RING-DIST para obtener espirales más sueltas o más apretadas.
+
+Juega con los distintos interruptores para visualizar las partículas temporales y el efecto de diferentes aproximaciones de energía.
+
+##  EXTENDIENDO EL MODELO
+
+¿Puedes encontrar una manera de generar espirales de colores agradables?
+
+¿Qué sucede si permite algunas perturbaciones aleatorias en la ubicación de las partículas?
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Nótese el uso de la primitiva `min-one-of` para encontrar la partícula temporal con la menor energía repulsiva.
+
+##  MODELOS RELACIONADOS 
+
+Sunflower
+Sunflower Biomorphs
+
+##  CRÉDITOS Y REFERENCIAS 
+
+This model is a replication of Victor Stenger's double spiral model in:
+Stenger, V. (2008). God: The Failed Hypothesis.
+
+The double spiral patterns as seen in nature are described in:
+Ball, P. (1995). The Self-Made Tapestry.
+
+Douady, S. and Couder, Y. (1992). Phyllotaxis as a Physical Self-Organized Process. Physical Review Letters, 68(13), 2098--2101.
+
+Dove, M. T. Structure and Dynamics: An Atomic View of Materials. New York: Oxford University Press, 2003.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (2009).  NetLogo Sunflower Emergent model.  http://ccl.northwestern.edu/netlogo/models/SunflowerEmergent.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2009 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2009 -->

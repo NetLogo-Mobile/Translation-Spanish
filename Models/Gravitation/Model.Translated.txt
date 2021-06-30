@@ -1,0 +1,32 @@
+﻿## Language = Spanish
+## Widgets
+### Source
+colors?
+### Spanish
+¿colores?
+
+### Source
+fade-rate
+### Spanish
+tasa de desvanecimiento
+
+### Source
+go
+### Spanish
+ir
+
+### Source
+mass
+### Spanish
+masa
+
+### Source
+number
+### Spanish
+número
+
+### Source
+setup
+### Spanish
+configuración
+

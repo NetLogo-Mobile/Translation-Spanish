@@ -1,4 +1,4 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
 ## Language = Spanish
 ## NetTango
 ### Source
@@ -338,8 +338,8 @@ Una voz interrumpió tu movimiento. La voz mecánica. Después de un segundo de 
 * PLEASE. WAIT. YOU. CURIOUS. ONE. *
 A voice interrupts your move. The mechanical voice. After a second of silence, the voice begins to speak much more clearly. Even a bit passionately.
 ### Spanish ***
-* POR. FAVOR. ESPERE. CURIOSO. *
-Una voz interrumpe tu movimiento. La voz mecánica. Después de un segundo de silencio, la voz comienza a hablar mucho más claramente. Incluso un poco apasionadamente.
+* POR FAVOR. ESPERE. USTED. CURIOSO. UNO. *
+Una voz interrumpe tu movimiento. La voz mecánica. Después de un segundo de silencio, la voz comienza a hablar con mucha más claridad. Incluso un poco apasionadamente.
 
 ### Source
 <b>Random </b> in this playground is not totally <i>random</i>! Look at the 400 <color=green>turtles </color> I just created. When I ask each of them to find a <b>random </b> place in the world, they resulted in a rather uniformed pattern. For example, <b>random  2</b> is like coin tossing: it produces roughly as many heads as tails.
@@ -364,7 +364,7 @@ Ah, people! One of the most fascinating species I have seen in this universe. I 
 ### Source
 All of a sudden, a veil is raised, and a microworld appears before you. It runs continuously before your eyes, like a perpetual clockwork mechanism. You curiously gazes at it, trying to recognize any patterns you are familiar with.
 ### Spanish ***
-De repente, se levanta un velo y aparece un micromundo ante ti. Corre continuamente ante sus ojos, como un mecanismo de relojería perpetuo. Lo miras con curiosidad, tratando de reconocer cualquier patrón con el que estés familiarizado.
+De repente, se levanta un velo y aparece un micromundo ante ti. Corre continuamente ante tus ojos, como un mecanismo de relojería perpetuo. Lo miras con curiosidad, tratando de reconocer cualquier patrón con el que estés familiarizado.
 
 ### Excessive
 All of a sudden, a veil was raised, and a microworld appeared before you. It ran continuously before your eyes, like a perpetual clockwork mechanism. You curiously gazed at it, trying to recognize any patterns you are familiar with.
@@ -569,9 +569,9 @@ In jet black darkness, a beam of light captures your eyes. Before you have a cha
 * Welcome. To. The. Hidden. Playground. Of. Turtle. Universe. *
 * To. Enter. It. You. Need. To. Describe. It. Token. Please. *
 ### Spanish ***
-En la oscuridad negro azabache, un rayo de luz captura sus ojos. Antes de que tenga la oportunidad de examinarlo, un <color=brown>voz mecánica </color> empezar a hablar.
-* Bienvenidos. A. El. Campo. Escondido. De. El. Universo. Tortuga. *
-* Para. Ingresar. Necesitas. Describirlo. Ficha. Por. Favor. *
+En la oscuridad negro azabache, un rayo de luz captura tus ojos. Antes de que tenga la oportunidad de examinarlo,<color=brown> voz mecánica </color> empezar a hablar.
+* Bienvenidos. A. La. Oculto. Patio de recreo. De. Tortuga. Universo. *
+* A. Ingresar. Eso. Tú. Necesitar. A. Describir. Eso. Simbólico. Por favor. *
 
 ### Source
 In this challenge, we have two <trigger=Glossary-Random>random </trigger> factors: the heading of turtles; and the distance they move forward.
@@ -586,7 +586,7 @@ En este micromundo, cada <trigger=Glossary-Turtle,green>tortuga </trigger> re
 ### Source
 It is total silence, but soon you hear a slight sigh. A mechanical sigh. You wonder how this mechanism is capable to produce a sigh, before it asks again: *Token. Please.* It looks like you get another chance to guess. You say:
 ### Spanish ***
-Fue un silencio total, pero escuchaste un ligero suspiro. Un suspiro mecánico. Te preguntas cómo este mecanismo es capaz de producir un suspiro, antes de que volviera a preguntar: *Ficha. Por. Favor.* Parece que tienes otra oportunidad de adivinar. Tu dices:
+Es un silencio total, pero pronto se escucha un leve suspiro. Un suspiro mecánico. Te preguntas cómo este mecanismo es capaz de producir un suspiro, antes de volver a preguntar: * Token. Por favor. * Parece que tienes otra oportunidad de adivinar. Tu dices:
 
 ### Excessive
 It was total silence, but you heard a slight sigh. A mechanical sigh. You wondered how this mechanism was capable to produce a sigh, before it asked again: *Token. Please.* It looked like you get another chance to guess. You said:
@@ -698,7 +698,7 @@ La voz pareció captar lo que estás pensando. Habló de nuevo, pero esta vez so
 The voice seems to capture what you are thinking. It speaks again, but this time, it only gives you several words. You instantly realize that they are the choices.
 * FOLLOW. EXPLORE. REPEAT. MEMORIZE. *
 ### Spanish ***
-La voz pareció captar lo que estás pensando. Habló de nuevo, pero esta vez solo te dio algunas palabras. Al instante te diste cuenta de que eran las opciones.
+La voz parece captar lo que estás pensando. Habla de nuevo, pero esta vez, solo te da varias palabras. Al instante te das cuenta de que son las opciones.
 * SEGUIR. EXPLORAR. REPETIR. MEMORIZAR. *
 
 ### Excessive
@@ -709,7 +709,7 @@ La voz sonaba amigable. Un campo de recreo, pensaste. Las palabras pasaron por t
 ### Source
 The voice sounds friendly. A playground, you think. Words flash through your memory, while the voice patiently waits for your answer. *Token. Please.* You are ready to make up your mind. You say:
 ### Spanish ***
-La voz sonaba amigable. Un campo de recreo, pensaste. Las palabras pasaron por tu memoria, mientras la voz esperaba pacientemente tu respuesta. *Ficha. Por. Favor.* Estabas listo para tomar una decisión. Tu dijiste:
+La voz suena amigable. Un patio de recreo, piensas. Las palabras pasan por tu memoria, mientras la voz espera pacientemente tu respuesta. *Simbólico. Por favor. * Estás listo para tomar una decisión. Tu dices:
 
 ### Source
 There are so many delicate patterns that could be created from little <trigger=Glossary-Turtle,green>turtles </trigger>! My memories may decline a lot, but I still remember one  microworld that produces patterns of sunflowers. Or, you can start a model on your mind, and I will do whatever I can to support you. Which do you prefer?

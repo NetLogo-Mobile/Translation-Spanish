@@ -1,0 +1,153 @@
+﻿## Language = Spanish
+## Plots
+### Source
+all
+### Spanish
+todas
+
+### Source
+Average Fitness
+### Spanish
+Estado físico medio
+
+### Source
+Drummer
+### Spanish
+Batería
+
+### Source
+Fitness
+### Spanish
+Aptitud física
+
+### Source
+high
+### Spanish
+elevado
+
+### Source
+Hits per Drummer (total)
+### Spanish
+Éxitos por baterista (total)
+
+### Source
+Hits Since Evolution
+### Spanish
+Éxitos desde la evolución
+
+### Source
+low
+### Spanish
+bajo
+
+### Source
+med
+### Spanish
+medicina
+
+### Source
+Number of Hits
+### Spanish
+Número de hits
+
+### Source
+pen-1
+### Spanish
+bolígrafo-1
+
+### Source
+pen-2
+### Spanish
+bolígrafo-2
+
+### Source
+Ticks
+### Spanish
+Garrapatas
+
+## Widgets
+### Source
+Density
+### Spanish
+Densidad
+
+### Source
+generations
+### Spanish
+generaciones
+
+### Source
+go
+### Spanish
+ir
+
+### Source
+go-no-evolve
+### Spanish
+ir-no-evolucionar
+
+### Source
+go-once
+### Spanish
+ir una vez
+
+### Source
+go-once-no-evolve
+### Spanish
+ir una vez sin evolucionar
+
+### Source
+hit-density-modifier
+### Spanish
+modificador de densidad de aciertos
+
+### Source
+hit-limit
+### Spanish
+límite de aciertos
+
+### Source
+mutation-strength
+### Spanish
+fuerza de mutación
+
+### Source
+num-chromosomes
+### Spanish
+num-cromosomas
+
+### Source
+num-mutations
+### Spanish
+num-mutaciones
+
+### Source
+setup
+### Spanish
+configuración
+
+### Source
+shuffle-parts?
+### Spanish
+barajar-partes?
+
+### Source
+solo?
+### Spanish
+¿solo?
+
+### Source
+soloer
+### Spanish
+solitario
+
+### Source
+sound?
+### Spanish
+¿sonar?
+
+### Source
+tempo-bpm
+### Spanish
+tempo-bpm
+

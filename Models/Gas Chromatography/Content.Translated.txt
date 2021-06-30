@@ -1,1 +1,68 @@
-﻿
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Que es
+
+Este es un modelo de cromatografía de gases. Gran parte de la química moderna depende de la cromatografía para la separación de sustancias químicas. (La cromatografía de gases es una forma de cromatografía que involucra gases). La cromatografía puede incluso ser tan sensible como para separar enantiómeros (es decir, moléculas que solo se diferencian por ser imágenes especulares entre sí).
+
+La cromatografía separa los productos químicos mediante interacciones superficiales. La idea es sencilla. Los diferentes productos químicos tienen diferentes tendencias a moverse a través de espacios pequeños (por ejemplo, si son de diferentes tamaños) y diferentes tendencias a adherirse a las superficies. Esto se puede observar en la vida cotidiana. Por ejemplo, si coloca una gota de agua y una gota de pegamento en un plano inclinado, el agua se escurrirá, pero el pegamento se pegará donde estaba. Las moléculas individuales también pueden adherirse de manera muy diferente a las superficies. Por ejemplo, el vapor de agua se condensará en un vaso frío, pero el oxígeno del aire no. Esto se debe a que los enlaces que el oxígeno puede formar con el vidrio no son lo suficientemente fuertes para retener el oxígeno allí. Solo se necesita un pequeño paso para imaginar el uso de la diferente adherencia de las moléculas para separarlas.
+
+Prácticamente, en la cromatografía de gases, las moléculas se ven obligadas a pasar a través de un medio poroso, que actúa como superficie pegajosa. Un medio poroso es un material que tiene agujeros, como el queso suizo, pero estos agujeros son de tamaño microscópico. Los agujeros permiten que las moléculas pasen de un lado del medio al otro. Un ejemplo sería la sílice compacta. Bajo un microscopio, la sílice compacta no se parece a un trozo de viruta de madera, por lo que las moléculas pueden atravesarla como lo haría el agua a través de las virutas de madera.
+
+##  COMO FUNCIONA
+
+El área azul del mundo representa el medio poroso. Las moléculas comienzan en la parte superior; se recogen en la parte inferior. Las partículas rojas y verdes representan dos tipos diferentes de moléculas. (En la cromatografía de gases real, estos suelen ser transportados por un gas inerte. El gas inerte se fuerza a través del medio aplicando presión. Pero la cromatografía de gases también se puede utilizar para separar gases sin un portador). Las moléculas de este modelo deambulan aleatoriamente hacia abajo a través del medio. Las moléculas rojas no se adhieren al medio, pero las moléculas verdes sí. Químicamente, esto se debe a una serie de factores: interacciones superficiales, geometría y tamaño de la molécula, etc.
+
+La cantidad de pegajosidad se controla mediante un control deslizante. Por ejemplo, si la adherencia se establece en cinco, las moléculas verdes se adhieren a cada parte del medio azul durante cinco ciclos, lo que esencialmente ralentiza su movimiento descendente en comparación con las moléculas rojas. Esto conduce a la separación.
+
+Este modelo también intenta demostrar el concepto de &quot;efecto muro&quot;. Si hay algo de espacio cerca de las paredes, las moléculas pueden atravesar estos canales. Esto reducirá drásticamente la calidad de la separación. El espacio vacío cerca de las paredes puede resultar de la mala calidad del absorbente o de un relleno inadecuado.
+
+##  COMO USARLO
+
+Primero configure la porosidad del absorbedor azul con el control deslizante NÚMERO DE POROS. Puede cambiar el grosor de la capa absorbente con un control deslizante llamado GROSOR DE MEDIO. ¿EL EFECTO PARED? El interruptor enciende y apaga el efecto de pared.
+
+Para ejecutar el modelo, presione SETUP, luego presione GO.
+
+El control deslizante STICKINESS cambia el parámetro de adherencia. Cuanto mayor sea el valor de la pegajosidad, más lentamente se moverán las tortugas verdes a través de la capa absorbente.
+
+El programa funciona más rápido cuando la PEGADO está entre 3 y 7 y cuando el NÚMERO DE POROS es superior a 30. Si el PEGADO es demasiado alto o el NÚMERO DE POROS es demasiado pequeño, las tortugas verdes pueden tardar mucho en pasar. a través de la capa absorbente.
+
+##  COSAS PARA NOTAR
+
+La separación depende de la porosidad. Si la porosidad es demasiado pequeña, el absorbente se contamina y se obstruye y el proceso se detiene. Si la porosidad es demasiado alta, no hay suficiente separación. También el efecto pared reduce drásticamente la calidad de la separación.
+
+##  COSAS PARA INTENTAR
+
+Se podría intentar mejorar la rutina de trazado. En un cromatógrafo real, solo hay una curva de salida que muestra la velocidad a la que salen las moléculas y un dispositivo llamado integrador que indica la cantidad de materia que ha salido.
+
+Intente separar más de dos gases.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Observe la rutina que excava túneles. Es muy fácil implementar algoritmos de caminata aleatoria paralela con NetLogo.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1998).  NetLogo Gas Chromatography model.  http://ccl.northwestern.edu/netlogo/models/GasChromatography.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1998 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1998 2001 -->

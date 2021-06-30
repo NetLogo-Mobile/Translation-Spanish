@@ -1,0 +1,128 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Que es
+
+Este modelo simula el efecto de la gravedad sobre las partículas de gas. Es muy similar a GasLab Atmosphere, pero con un &quot;techo&quot; sobre el gas, por lo que las partículas nunca pueden escapar.
+
+Este modelo es uno de una serie de modelos de GasLab. Utilizan las mismas reglas básicas para simular el comportamiento de los gases. Cada modelo integra diferentes características para resaltar diferentes aspectos del comportamiento del gas.
+
+El principio básico de los modelos es que se supone que las partículas de gas tienen dos acciones elementales: se mueven y chocan, ya sea con otras partículas o con cualquier otro objeto, como paredes.
+
+Este modelo es parte del proyecto de modelado de matemáticas conectadas &quot;Dar sentido a fenómenos complejos&quot;.
+
+##  COMO FUNCIONA
+
+Las partículas se modelan como bolas duras sin energía interna, excepto la que se debe a su movimiento. Las colisiones entre partículas son elásticas. Las partículas se colorean de acuerdo con la velocidad: azul para velocidades lentas, verde para medias y rojas para velocidades altas.
+
+La coloración de las partículas es con respecto a una velocidad (10).
+Las partículas con una velocidad inferior a 5 son azules, las que son más de
+15 son rojos, mientras que todos los intermedios son verdes.
+
+La forma exacta en que chocan dos partículas es la siguiente:
+1. Una partícula se mueve en línea recta sin cambiar su velocidad, a menos que choque con otra partícula o rebote en la pared.
+2. Dos partículas &quot;chocan&quot; si se encuentran en el mismo parche.
+3. Se elige un eje aleatorio, como si fueran dos bolas que se golpean entre sí y este eje es la línea que conecta sus centros.
+4. Intercambian impulso y energía a lo largo de ese eje, de acuerdo con la conservación del impulso y la energía. Este cálculo se realiza en el sistema de centro de masa.
+5. A cada partícula se le asigna su nueva velocidad, energía y rumbo.
+6. Si una partícula se encuentra en o muy cerca de una pared del contenedor, &quot;rebota&quot;, es decir, refleja su dirección y mantiene su misma velocidad.
+
+En este modelo, las partículas se comportan exactamente como en el modelo básico de Gas in a Box, excepto que por ahora la gravedad actúa sobre las partículas. A cada partícula se le da una velocidad adicional hacia abajo durante cada tic, como lo haría en un campo gravitacional. Las partículas rebotan tanto en el &quot;suelo&quot; como en el techo.
+
+##  COMO USARLO
+
+Ajustes iniciales:
+- GRAVEDAD: fuerza de la aceleración gravitacional
+- NÚMERO DE PARTÍCULAS: número de partículas de gas
+- INIT-PARTICLE-SPEED: velocidad inicial de cada partícula
+- PARTICLE-MASS: masa de cada partícula
+
+Otros ajustes:
+- ¿TRACE ?: Traza el camino de una de las partículas.
+- ¿COLLIDE ?: Activa y desactiva las colisiones entre partículas.
+
+El botón SETUP establecerá las condiciones iniciales.
+El botón GO ejecutará la simulación.
+
+Monitores:
+- RÁPIDO, MEDIO, LENTO: número de partículas con diferentes velocidades: rápido (rojo), medio (verde) y lento (azul).
+- VELOCIDAD MEDIA: velocidad media de las partículas.
+- ENERGÍA MEDIA: energía media de las partículas.
+
+Parcelas:
+- CUENTOS DE VELOCIDAD: traza el número de partículas en cada rango de velocidad.
+- HISTOGRAMA DE VELOCIDAD: distribución de la velocidad de todas las partículas. La línea gris es el valor promedio y la línea negra es el promedio inicial.
+- HISTOGRAMA DE ENERGÍA: distribución de energías de todas las partículas, calculada como m * (v ^ 2) / 2.
+- ALTURA VS. TEMPERATURA: muestra la temperatura de las partículas en cada &#39;capa&#39; de la caja.
+- HISTOGRAMA DE DENSIDAD: muestra el número de partículas en cada &#39;capa&#39; de la caja, es decir, su densidad local.
+- TEMPERATURA AGREGADA: muestra la suma agregada de la ALTURA VS. Gráfico de TEMPERATURA para toda la ejecución del modelo.
+
+##  COSAS PARA NOTAR
+
+Intente predecir cómo se verá la vista después de un tiempo y por qué.
+
+Observa el camino gris de una partícula. ¿Qué puedes decir sobre su movimiento?
+
+Observe el cambio en la distribución de la densidad a medida que se ejecuta el modelo.
+
+A medida que se ejecuta el modelo, ¿qué sucede con la velocidad promedio y la energía cinética de las partículas? Si obtienen energía, ¿de dónde viene? ¿Qué sucede con las distribuciones de velocidad y energía?
+
+¿Cuál es la forma del camino de las partículas individuales?
+
+¿Qué sucede con la gráfica de temperatura agregada a lo largo del tiempo? ¿La temperatura es uniforme sobre la caja?
+
+##  COSAS PARA INTENTAR
+
+¿Qué sucede cuando la gravedad aumenta o disminuye?
+
+Cambie el número, la velocidad y la masa iniciales. ¿Qué sucede con la distribución de la densidad?
+
+¿Este modelo llega a algún tipo de equilibrio? ¿Cómo puede saber cuándo se ha alcanzado?
+
+Intente averiguar si la distribución de las partículas en este modelo es la misma que la predicha por las leyes físicas convencionales.
+
+Intenta hacer que la gravedad sea negativa.
+
+Variando los parámetros del modelo como NÚMERO y GRAVEDAD, ¿qué observa acerca del gráfico de temperatura agregada? ¿Puede explicar estos resultados? ¿Cómo cuadraría estos resultados con a) el hecho de que &quot;el aire caliente sube&quot; en una habitación yb) que hace más frío a medida que aumenta la altura?
+
+##  EXTENDIENDO EL MODELO
+
+Prueba este modelo con partículas de diferentes masas. Podrías colorear cada masa de manera diferente para poder ver a dónde van. ¿Son sus distribuciones diferentes? ¿Las diferentes masas tienden a tener diferentes alturas medias? ¿Qué sugiere esto sobre la composición de una atmósfera?
+
+Este modelo básico podría usarse para explorar otras situaciones en las que las partículas que se mueven libremente tienen fuerzas sobre ellas, por ejemplo, una centrífuga o partículas cargadas (iones) en un campo eléctrico.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Debido a la influencia de la gravedad, las partículas siguen trayectorias curvas. Dado que NetLogo modela el tiempo en pasos discretos, estas trayectorias curvas deben aproximarse con una serie de líneas rectas cortas. Esta es la fuente de una ligera inexactitud en la que las partículas pierden energía gradualmente si el modelo funciona durante mucho tiempo. (El efecto es como si las colisiones con el suelo fueran ligeramente inelásticas). La inexactitud se puede reducir aumentando `vsplit`, pero el modelo funcionará más lento.
+
+##  MODELOS RELACIONADOS 
+
+This model is part of the GasLab suite and curriculum.  See, in particular, Gas in a Box and GasLab Atmosphere.
+
+##  CRÉDITOS Y REFERENCIAS 
+
+This model was developed as part of the GasLab curriculum (http://ccl.northwestern.edu/curriculum/gaslab/) and has also been incorporated into the Connected Chemistry curriculum (http://ccl.northwestern.edu/curriculum/ConnectedChemistry/)
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (2002).  NetLogo GasLab Gravity Box model.  http://ccl.northwestern.edu/netlogo/models/GasLabGravityBox.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2002 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227.
+
+<!-- 2002 -->

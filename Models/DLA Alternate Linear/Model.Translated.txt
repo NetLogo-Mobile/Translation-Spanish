@@ -1,0 +1,12 @@
+﻿## Language = Spanish
+## Widgets
+### Source
+go
+### Spanish
+ir
+
+### Source
+setup
+### Spanish
+configuración
+

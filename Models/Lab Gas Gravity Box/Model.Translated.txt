@@ -1,0 +1,188 @@
+﻿## Language = Spanish
+## Plots
+### Source
+Aggregate Temperature
+### Spanish
+Temperatura agregada
+
+### Source
+avg-energy
+### Spanish
+energía media
+
+### Source
+avg-speed
+### Spanish
+la velocidad promedio
+
+### Source
+count
+### Spanish
+contar
+
+### Source
+count (%)
+### Spanish
+contar (%)
+
+### Source
+default
+### Spanish
+defecto
+
+### Source
+Density Histogram
+### Spanish
+Histograma de densidad
+
+### Source
+energy
+### Spanish
+energía
+
+### Source
+Energy Histogram
+### Spanish
+Histograma de energía
+
+### Source
+fast
+### Spanish
+rápido
+
+### Source
+height
+### Spanish
+altura
+
+### Source
+init-avg-energy
+### Spanish
+init-avg-energy
+
+### Source
+init-avg-speed
+### Spanish
+init-avg-speed
+
+### Source
+medium
+### Spanish
+medio
+
+### Source
+slow
+### Spanish
+lento
+
+### Source
+speed
+### Spanish
+velocidad
+
+### Source
+Speed Counts
+### Spanish
+Conteos de velocidad
+
+### Source
+Speed Histogram
+### Spanish
+Histograma de velocidad
+
+### Source
+temperature
+### Spanish
+temperatura
+
+### Source
+Temperature vs. Height
+### Spanish
+Temperatura frente a altura
+
+### Source
+time
+### Spanish
+hora
+
+## Widgets
+### Source
+average energy
+### Spanish
+energía media
+
+### Source
+average speed
+### Spanish
+velocidad media
+
+### Source
+clear trace
+### Spanish
+rastro claro
+
+### Source
+close sensor
+### Spanish
+cerrar sensor
+
+### Source
+collide?
+### Spanish
+¿chocar?
+
+### Source
+go/stop
+### Spanish
+ir / parar
+
+### Source
+gravity-acceleration
+### Spanish
+aceleración de la gravedad
+
+### Source
+init-particle-speed
+### Spanish
+init-partícula-velocidad
+
+### Source
+number-of-particles
+### Spanish
+número-de-partículas
+
+### Source
+open sensor
+### Spanish
+sensor abierto
+
+### Source
+particle-mass
+### Spanish
+partícula-masa
+
+### Source
+percent fast
+### Spanish
+porcentaje rápido
+
+### Source
+percent medium
+### Spanish
+porcentaje medio
+
+### Source
+percent slow
+### Spanish
+porcentaje lento
+
+### Source
+setup
+### Spanish
+configuración
+
+### Source
+trace?
+### Spanish
+¿rastro?
+

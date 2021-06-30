@@ -1,0 +1,62 @@
+﻿## Language = Spanish
+## Widgets
+### Source
+# particles
+### Spanish
+# partículas
+
+### Source
+# temps
+### Spanish
+# temps
+
+### Source
+alpha
+### Spanish
+alfa
+
+### Source
+beta
+### Spanish
+beta
+
+### Source
+energy-approximation
+### Spanish
+aproximación de energía
+
+### Source
+fixed-temps?
+### Spanish
+temperaturas fijas?
+
+### Source
+go
+### Spanish
+ir
+
+### Source
+particle-size
+### Spanish
+tamaño de partícula
+
+### Source
+ring-dist
+### Spanish
+ring-dist
+
+### Source
+setup
+### Spanish
+configuración
+
+### Source
+show-temps?
+### Spanish
+show-temps?
+
+### Source
+step
+### Spanish
+paso
+

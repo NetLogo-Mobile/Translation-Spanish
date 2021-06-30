@@ -1,0 +1,88 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Que es
+
+Este sistema de partículas modela una llama como una colección de partículas que se elevan desde el fondo del mundo.
+
+Para conocer los conceptos básicos de los sistemas de partículas, comience con Particle System Basic.
+
+##  COMO FUNCIONA
+
+Una partícula con una velocidad inicial emerge del centro inferior del mundo con un INICIAL-VELOCIDAD-X y INICIAL-VELOCIDAD-Y alrededor de una INICIAL-POSICIÓN-X aleatoria. Está sometido a fuerzas de viento de ambos lados, balanceando las partículas hacia la izquierda y la derecha de la mitad del mundo. Las partículas se elevan, disminuyen de tamaño y se oscurecen a medida que se mueven hacia la izquierda y hacia la derecha.
+
+El NÚMERO MÁXIMO DE PARTÍCULAS y la VELOCIDAD de partículas se pueden cambiar usando los controles deslizantes inferiores. Finalmente, STEP-SIZE del sistema controla la precisión de los cálculos del sistema. Por ejemplo, disminuir STEP-SIZE ralentizará la velocidad del modelo ya que se necesitan más cálculos para una simulación más precisa. A continuación se explica el uso de cada control deslizante, botón e interruptor.
+
+##  COMO USARLO
+
+Presione SETUP seguido del botón GO para iniciar la llama de partículas. Luego puede modificar la configuración para cambiar el comportamiento de la llama. Tenga en cuenta que si se alcanza el número máximo de partículas, las partículas dejarán de emerger hasta que desaparezca otra partícula.
+
+Velocidades iniciales: Los deslizadores INITIAL-VELOCITY-X e INITIAL-VELOCITY-Y controlan la velocidad inicial en los ejes xey para cada partícula.
+
+Posición inicial en el eje x: para que el sistema de partículas parezca más realista, a cada partícula se le puede asignar un punto de partida aleatorio. Cuando INITIAL-POSITION-X se establece en cero, las partículas emergerán del centro de la pantalla, sin embargo, si el deslizador inicial INITIAL-POSITION-X aumenta, las partículas emergerán a una distancia aleatoria entre 0 y INITIAL-POSITION-X desde el centro inferior del mundo.
+
+Viento: La fuerza del viento balancea las partículas del sistema hacia el centro del mundo agregando una fuerza CONSTANTE DE VIENTO en el eje x para atraer la partícula hacia la mitad del mundo.
+
+Tamaño del paso: un paso más pequeño aumentará la precisión de las trayectorias de cada partícula, pero también ralentizará el cálculo del modelo; Un gran paso disminuirá la precisión de las trayectorias pero acelerará el cálculo del modelo. En cada iteración, STEP-SIZE escala la velocidad y la ubicación de la partícula.
+
+Número máximo de partículas: el número de partículas en el sistema está limitado por el control deslizante MAX-NUMBER-OF-PARTICLES. Una vez que el recuento de tortugas alcanza el límite de NÚMERO MÁXIMO DE PARTÍCULAS, se detiene la generación de nuevas partículas. Tenga en cuenta que cada vez que una partícula alcanza el borde de la pantalla, muere, lo que deja espacio para que se cree otra partícula.
+
+- Tasa de partículas: la tasa de partículas establece la tasa a la que se generan nuevas partículas. Una tasa de 0 detendrá la llama.
+
+##  COSAS PARA NOTAR
+
+Tenga en cuenta que el viento en este modelo se comporta de manera diferente a otros modelos de sistemas de partículas: fluye desde la izquierda y la derecha hacia el centro del mundo.
+
+No hay viscosidad ni fuerza gravitacional en este modelo.
+
+##  COSAS PARA INTENTAR
+
+Mueva los controles deslizantes e interruptores para ver los comportamientos que obtiene de la condición inicial y la fuerza del viento. Por ejemplo, mueva todos los controles deslizantes excepto WIND-CONSTANT a una posición neutral, para ver cómo actúa el viento sobre las partículas. Después de haber visto cómo la fuerza del viento, las velocidades iniciales y las posiciones iniciales afectan la forma de la llama, combínelas para ver cómo actúan juntas.
+
+Mueva los controles deslizantes para que el modelo se parezca más a una llama.
+
+Recuerde, puede mover los controles deslizantes mientras se ejecuta el modelo.
+
+##  EXTENDIENDO EL MODELO
+
+Esconda las partículas y pida a una o algunas partículas que dejen su bolígrafo para rastrear sus trayectorias.
+
+Cambia el color de las partículas a otro color.
+
+Agregue algo de aleatoriedad al envejecimiento de las partículas para que no se oscurezcan de manera uniforme.
+
+Cambie el modelo para que emita partículas con diferentes formas, tamaños y colores para que el sistema de partículas parezca burbujas de aire en el agua u otros fenómenos físicos.
+
+##  MODELOS RELACIONADOS 
+
+Particle System Basic
+Particle System Fountain
+Particle System Waterfall
+
+##  CRÉDITOS Y REFERENCIAS 
+
+See Particle System Basic for a list of references on particle systems.
+
+Thanks to Daniel Kornhauser for his work on this model.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Kornhauser, D. and Wilensky, U. (2007).  NetLogo Particle System Flame model.  http://ccl.northwestern.edu/netlogo/models/ParticleSystemFlame.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2007 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2007 Cite: Kornhauser, D. -->

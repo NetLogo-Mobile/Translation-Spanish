@@ -1,0 +1,58 @@
+﻿## Language = Spanish
+## Plots
+### Source
+Gas Output
+### Spanish
+Salida de gas
+
+### Source
+Greens
+### Spanish
+Verduras
+
+### Source
+Molecules
+### Spanish
+Moléculas
+
+### Source
+Reds
+### Spanish
+Rojos
+
+### Source
+Time
+### Spanish
+Hora
+
+## Widgets
+### Source
+go
+### Spanish
+ir
+
+### Source
+number-of-pores
+### Spanish
+número de poros
+
+### Source
+setup
+### Spanish
+configuración
+
+### Source
+stickiness
+### Spanish
+pegajosidad
+
+### Source
+thickness-of-medium
+### Spanish
+espesor-de-medio
+
+### Source
+wall-effect?
+### Spanish
+efecto de pared?
+

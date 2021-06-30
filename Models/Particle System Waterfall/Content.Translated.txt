@@ -1,0 +1,115 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Que es
+
+Este sistema de partículas modela una cascada donde se crea un flujo constante de partículas, que luego caen y rebotan en el fondo.
+
+Para conocer los conceptos básicos sobre sistemas de partículas, comience con Particle System Basic y Particle System Fountain.
+
+##  COMO FUNCIONA
+
+En este modelo, cada partícula tiene tres comportamientos principales:
+- Si hay espacio por delante, continúa su trayectoria.
+- Si está a punto de tocar el suelo, su velocidad-y se invierte y se escala mediante un coeficiente de restitución.
+- Si está a punto de tocar el lado izquierdo, el lado derecho o el techo, desaparece.
+
+Una partícula con una velocidad inicial emerge desde la parte superior izquierda del mundo. Está sometido a la fuerza de la gravedad, que lo frena y lo arrastra al fondo del mundo. Además, están presentes las fuerzas del viento y la viscosidad. El número máximo de partículas y la tasa de partículas se pueden cambiar con los controles deslizantes apropiados. Finalmente, el paso de los sistemas, que controla la precisión de los cálculos del sistema, se puede aumentar o disminuir, pero cambiará la velocidad de los sistemas ya que se tienen que hacer más cálculos para una simulación más precisa. A continuación, se explica el uso de cada control deslizante, botón e interruptor.
+
+##  COMO USARLO
+
+Presione GO para iniciar la cascada de partículas. Luego puede modificar la configuración para cambiar el comportamiento de la cascada. Tenga en cuenta que no emergerán nuevas partículas una vez que se haya alcanzado el NÚMERO MÁXIMO DE PARTÍCULAS, hasta que una o más mueran al alcanzar el techo o los lados.
+
+- Límites del mundo: cuando una partícula abandona el mundo, el comando PATCH-AT devuelve NADIE. Por lo tanto, en cada iteración, si PATCH-AT no devuelve NADIE, la partícula continúa su trayectoria. Sin embargo, si la partícula está cerca de la pared izquierda, la pared derecha o el techo, y el comando patch-at devuelve que el siguiente parche no existe (es decir, NADIE), y la partícula &quot;muere&quot;.
+
+- Rebote: Para poder rebotar en el suelo, la partícula debe detectar si su próxima posición estará fuera del mundo. Si el parche en la siguiente ubicación es igual a NADIE y la partícula está alejada de las otras paredes, la velocidad-y de la partícula (VELOCIDAD-Y en el código) se multiplica por una constante negativa (relacionada con RESTITUCIÓN-COEFICIENTE) para hacerla rebotar verticalmente.
+
+- Restitución de energía: RESTITUCIÓN-COEFICIENTE modela la energía intercambiada por la partícula cuando rebota en las paredes. Si el coeficiente es menor que 1, modela un amortiguamiento realista causado por la energía disipada en la colisión. Si el coeficiente es mayor que 1, las paredes incrementan la energía cinética de la partícula con cada rebote. Este comportamiento a veces se puede observar en máquinas de pinball.
+
+- Velocidades iniciales: Los deslizadores INITIAL-VELOCITY-X e INITIAL-VELOCITY-Y controlan la velocidad inicial en los ejes xey para cada partícula.
+
+- INITIAL-RANGE-X: para que el sistema de partículas parezca más realista, a cada partícula se le puede dar una velocidad aleatoria diferente al inicio. Para establecer las velocidades aleatorias, dé a INITIAL-RANGE-X un valor distinto de cero. Los valores más altos extenderán más la cascada. (Incluso cuando este interruptor está apagado, las partículas tendrán trayectorias distintas, debido a sus diferentes masas).
+
+- Número máximo de partículas: el número de partículas en el sistema está limitado por el control deslizante MAX-NUMBER-OF-PARTICLES. Una vez que el recuento de partículas alcanza el límite de NÚMERO MÁXIMO DE PARTÍCULAS, se detiene la generación de nuevas partículas. Tenga en cuenta que cada vez que una partícula alcanza el borde de la pantalla muere, proporcionando una abertura para que se cree otra partícula.
+
+- Gravedad: La gravedad actúa hacia abajo y se implementa agregando un número negativo, la CONSTANTE DE GRAVEDAD, al acumulador de fuerza y. También escalamos el efecto de la gravedad de acuerdo con la masa de la partícula. Esto simula el efecto de la resistencia del aire.
+
+- Viento: La fuerza del viento balancea las partículas del sistema de izquierda a derecha en el mundo agregando una fuerza de VIENTO-CONSTANTE-X en el eje x.
+
+- Viscosidad: La fuerza de viscosidad resiste el movimiento de una partícula ejerciendo una fuerza opuesta proporcional a la VISCOSIDAD-CONSTANTE a la velocidad de la partícula. Una CONSTANTE DE VISCOSIDAD más alta significa que las partículas fluyen más fácilmente.
+
+- Tamaño de paso: un tamaño de paso más pequeño aumentará la precisión de las trayectorias pero ralentizará el cálculo del modelo. Un TAMAÑO DE PASO grande disminuirá la precisión de las trayectorias pero acelerará el cálculo del modelo. En cada iteración, STEP-SIZE escala la velocidad de la partícula y el cambio de ubicación.
+
+- Tasa de partículas: la tasa de partículas establece la tasa a la que se generan nuevas partículas. Una tasa de 0 detendrá el flujo de la cascada.
+
+##  COSAS PARA NOTAR
+
+Las partículas se esparcen horizontalmente según el tamaño. ¿Por qué?
+
+##  COSAS PARA INTENTAR
+
+Mueva los controles deslizantes e interruptores para ver los comportamientos que obtiene de cada fuerza. Por ejemplo, al mover todos los controles deslizantes excepto CONSTANTE DE GRAVEDAD a una posición neutral, puede ver cómo actúa la gravedad sobre las partículas. Una vez que haya visto cómo actúa cada fuerza individual (velocidades iniciales, viscosidad, viento y coeficiente de restitución), combínelas para ver cómo actúan juntas.
+
+Debe prestar especial atención a la constante de restitución, ¿qué sucede cuando la constante de restitución está por debajo de 1 y qué sucede cuando la constante de restitución está por encima de 1?
+
+Mueva los controles deslizantes para que el modelo se parezca más a una cascada real.
+
+Recuerde que puede mover los controles deslizantes mientras se ejecuta el modelo.
+
+##  EXTENDIENDO EL MODELO
+
+Oculte las partículas y coloque la pluma en el procedimiento CREAR PARTICULA para ver las trayectorias de las partículas que se acumulan con el tiempo.
+
+Cambia el color de las partículas cuando rebotan.
+
+Cambie la posición de la fuente de partículas.
+
+Trate de hacer que las partículas reboten en la pared derecha e izquierda para que el agua se acumule.
+
+Agregue una fuerza de repulsión para que las partículas no se superpongan y el nivel del agua suba.
+
+Cambie el modelo para que parezca otro fenómeno físico.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Una dificultad en este ejemplo es detectar cuándo una partícula va a chocar contra una pared para hacerla rebotar o morir. Verifique el procedimiento `apply-forces` para ver cómo están los` patch-at`, `anyone`,` max-pxcor`, `max-pycor` y` min-pxcor`. Si no tiene cuidado de detectar los límites e intenta mover la tortuga fuera de los límites, recibirá el siguiente mensaje de error:
+
+&gt; No se puede mover la tortuga más allá del borde del mundo.
+
+Para evitar recibir este mensaje de error, verifique si el parche en la siguiente posición xcor ypos existe, por ejemplo, con el siguiente informador de verdadero / falso:
+
+parche-en el paso-x paso-y = nadie
+
+##  MODELOS RELACIONADOS 
+
+Particle System Basic
+Particle System Fountain
+Particle System Flame
+
+##  CRÉDITOS Y REFERENCIAS 
+
+See Particle System Basic for a list of references on particle systems.
+
+Thanks to Daniel Kornhauser for his work on this model.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Kornhauser, D. and Wilensky, U. (2007).  NetLogo Particle System Waterfall model.  http://ccl.northwestern.edu/netlogo/models/ParticleSystemWaterfall.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2007 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2007 Cite: Kornhauser, D. -->

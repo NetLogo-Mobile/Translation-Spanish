@@ -1,0 +1,52 @@
+﻿## Language = Spanish
+## Widgets
+### Source
+go
+### Spanish
+ir
+
+### Source
+initial-position-x
+### Spanish
+posición-inicial-x
+
+### Source
+initial-velocity-x
+### Spanish
+velocidad-inicial-x
+
+### Source
+initial-velocity-y
+### Spanish
+velocidad-inicial-y
+
+### Source
+max-number-of-particles
+### Spanish
+número-máximo-de-partículas
+
+### Source
+particles
+### Spanish
+partículas
+
+### Source
+rate
+### Spanish
+Velocidad
+
+### Source
+setup
+### Spanish
+configuración
+
+### Source
+step-size
+### Spanish
+Numero de pie
+
+### Source
+wind-constant
+### Spanish
+viento constante
+

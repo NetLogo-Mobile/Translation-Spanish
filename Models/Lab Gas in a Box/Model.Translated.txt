@@ -1,4 +1,4 @@
-﻿*** dd6e18b174474625f893e39c0c656e4f
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
 ## Language = Spanish
 ## Plots
 ### Source
@@ -264,7 +264,7 @@ The basic principle of all GasLab models, including this one, is the following a
 El principio básico de todos los modelos GasLab, incluido este, es el siguiente algoritmo:
 1. Una partícula se mueve en línea recta sin cambiar su<trigger=velocity> velocidad</trigger> , a menos que choque con otra partícula o rebote en la pared.
 2. Dos partículas &quot;chocan&quot; si se encuentran en el mismo parche.
-3. Se elige un eje aleatorio, como si fueran dos bolas que se golpean y este eje es la línea que conecta sus centros.
+3. Se elige un eje aleatorio, como si fueran dos bolas que se golpean entre sí y este eje es la línea que conecta sus centros.
 4. Ellos intercambian<trigger=momentum> impulso</trigger> y<trigger=energy> energía</trigger> a lo largo de ese eje, de acuerdo con la conservación del momento y la energía. Este cálculo se realiza en el sistema de centro de masa.
 5. A cada partícula se le asigna su nueva velocidad, energía y rumbo.
 6. Si una partícula se encuentra en o muy cerca de una pared del contenedor, &quot;rebota&quot; (refleja su dirección y mantiene su misma velocidad).
@@ -277,7 +277,7 @@ La capacidad de hacer el trabajo
 ### Source
 The particles are modeled as hard balls with no internal <trigger=energy>energy</trigger> except that which is due to their motion. Collisions between particles are elastic. Particles are colored according to <trigger=velocity>speed</trigger> --- <color=blue>blue for slow</color> (speed less than 5), <color=green>green for medium</color> (above 5 and below 15), and <color=red>red for high speeds</color> (above 15).
 ### Spanish ***
-Las partículas se modelan como bolas duras sin internos.<trigger=energy> energía</trigger> excepto lo que se debe a su movimiento. Las colisiones entre partículas son elásticas. Las partículas están coloreadas según<trigger=velocity> velocidad</trigger> ---<color=blue> azul para lento</color> (velocidad inferior a 5),<color=green> verde para medio</color> (por encima de 5 y por debajo de 15), y<color=red> rojo para altas velocidades</color> (por encima de 15).
+Las partículas se modelan como bolas duras sin internos.<trigger=energy> energía</trigger> excepto lo que se deba a su movimiento. Las colisiones entre partículas son elásticas. Las partículas están coloreadas según<trigger=velocity> velocidad</trigger> ---<color=blue> azul para lento</color> (velocidad inferior a 5),<color=green> verde para medio</color> (por encima de 5 y por debajo de 15), y<color=red> rojo para altas velocidades</color> (por encima de 15).
 
 ### Source
 The product of the mass of a particle and its velocity. Momentum is a vector quantity (it has both magnitude and direction)
@@ -302,7 +302,7 @@ trazar?
 ### Source
 Turns collisions between particles on and off
 ### Spanish ***
-Activa y desactiva las colisiones entre partículas.
+Activa y desactiva las colisiones entre partículas
 
 ### Source
 Velocity, Speed

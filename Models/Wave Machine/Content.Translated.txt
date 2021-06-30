@@ -1,0 +1,92 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Que es
+
+Este modelo simula el movimiento de las ondas en una membrana. Los cuatro bordes de la membrana están fijados a un marco. Un área rectangular verde representa una placa impulsora que se mueve hacia arriba y hacia abajo, exhibiendo un movimiento sinusoidal.
+
+##  COMO FUNCIONA
+
+La membrana está formada por líneas de tortugas. Cada tortuga actúa como si estuviera conectada a sus cuatro tortugas vecinas por medio de manantiales. En este modelo, las tortugas se mueven solo hacia arriba y hacia abajo; la dirección de la fuerza ES solo hacia arriba y hacia abajo. Cuanto mayor es la distancia entre una tortuga y sus vecinas, más fuerte es la fuerza.
+
+Cuando las tortugas verdes se mueven hacia arriba, &quot;jalan&quot; a las tortugas que son sus vecinas, que a su vez jalan a las tortugas que son sus vecinas, y así sucesivamente. De esa forma, una onda se mueve a lo largo de la membrana. Cuando la onda alcanza los bordes de la membrana (las tortugas azules), la onda se refleja de regreso al centro de la membrana.
+
+La amplitud de las tortugas verdes se fija independientemente de la rigidez de la membrana. Sin embargo, mover una membrana rígida requiere mucha más fuerza para moverla en la misma cantidad que una membrana rígida. Entonces, incluso cuando se aumenta la rigidez de la membrana, la altura de la ola seguirá siendo la misma porque la amplitud se mantiene igual.
+
+##  COMO USARLO
+
+Controles de las propiedades de la membrana:
+
+El control deslizante FRICCIÓN controla la cantidad de fricción o atenuación en la membrana. El control deslizante RIGIDEZ controla la fuerza ejercida sobre una tortuga por una diferencia de deflexión unitaria entre la tortuga y sus cuatro vecinas.
+
+Controles de la fuerza motriz:
+
+El control deslizante DRIVER-FREQUENCY controla la frecuencia a la que el área verde de la membrana (la fuerza impulsora) se mueve hacia arriba y hacia abajo. El control deslizante DRIVER-AMPLITUDE controla la altura máxima del área verde de la membrana.
+
+Los controles deslizantes DRIVER-X y DRIVER-Y controlan la posición del conductor. El control deslizante DRIVER-SIZE controla el tamaño del controlador.
+
+Controles de visualización:
+
+¿El TRES-D? El interruptor controla el punto de vista de la proyección. OFF es para la vista superior (2-D mirando hacia abajo) y ON proporciona una vista isométrica, en un ángulo elegido con el control deslizante VIEW-ANGLE.
+
+##  COSAS PARA INTENTAR
+
+Haga clic en el botón CONFIGURAR para configurar la membrana. Haga clic en IR para hacer que el área seleccionada de la membrana (las tortugas verdes) comience a moverse hacia arriba y hacia abajo.
+
+Pruebe diferentes membranas. Las membranas blandas tienen valores de rigidez más pequeños y las membranas duras tienen valores de rigidez mayores.
+
+Pruebe diferentes fuerzas impulsoras o intente cambiar la frecuencia o amplitud. Es muy interesante cambiar el tamaño y la posición de la fuerza impulsora para ver movimientos ondulantes simétricos y asimétricos.
+
+Intente crear una &quot;onda estacionaria&quot;, en la que algunos puntos de la membrana no se muevan en absoluto.
+
+##  EXTENDIENDO EL MODELO
+
+En este modelo, el movimiento de las tortugas es solo en dirección vertical, perpendicular a la membrana. Modifique el modelo de modo que el movimiento esté dentro del plano de la membrana, es decir, el plano x / y.
+
+También puede intentar agregar fuerzas impulsoras adicionales para hacer un modelo de membrana de múltiples entradas. Otra cosa que puede intentar es aplicar diferentes formas de onda a la fuerza impulsora para ver cómo reacciona la membrana a diferentes entradas. Intente cambiar la forma general de la fuerza motriz.
+
+Intente construir un modelo sólido, es decir, un modelo de formas de onda dentro de las tres dimensiones.
+
+En lugar de utilizar la amplitud para crear la onda, cámbiela para aplicar una cantidad fija de fuerza de forma continua.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Note el uso del reportero `turtles-on` para encontrar tortugas en parcelas vecinas.
+
+Un paso clave en el desarrollo de este modelo fue crear un sistema de coordenadas interno. X, Y y Z son solo tres variables propias de las tortugas. Puedes imaginar que las tortugas están situadas y se mueven en 3 espacios. Pero para mostrar las tortugas en la vista, que es bidimensional, las tres coordenadas de la tortuga deben mapearse en dos.
+
+En la vista 2-D, las coordenadas xey de la tortuga se traducen directamente a coordenadas NetLogo, y la coordenada z se indica solo variando el color de la tortuga usando la primitiva `scale-color`.
+
+En la vista 3-D, se usa una proyección isométrica para trasladar x, y y z (la posición real de la tortuga) a xcor e ycor (su posición en la vista). En esta proyección, un punto del mundo puede corresponder a más de un punto en el sistema de coordenadas tridimensional. Por lo tanto, en esta proyección todavía variamos el color de la tortuga de acuerdo con su posición z, para ayudar al ojo a discriminar.
+
+En la versión 3-D, no tiene sentido que las tortugas se &quot;envuelvan&quot; si llegan a la cima o al fondo del mundo ni tiene sentido que permanezcan en la cima del mundo, por lo que las tortugas se esconden si su ycor calculado excede los límites del mundo.
+
+##  CRÉDITOS Y REFERENCIAS 
+
+Thanks to Weiguo Yang for his help with this model.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1997).  NetLogo Wave Machine model.  http://ccl.northwestern.edu/netlogo/models/WaveMachine.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1997 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1997 2001 -->

@@ -1,0 +1,63 @@
+﻿## Language = Spanish
+## Plots
+### Source
+flashing
+### Spanish
+brillante
+
+### Source
+Flashing Fireflies
+### Spanish
+Luciérnagas parpadeantes
+
+### Source
+Number
+### Spanish
+Número
+
+### Source
+Time
+### Spanish
+Hora
+
+## Widgets
+### Source
+cycle-length
+### Spanish
+duración del ciclo
+
+### Source
+flashes-to-reset
+### Spanish
+parpadea para reiniciar
+
+### Source
+flash-length
+### Spanish
+longitud del flash
+
+### Source
+go
+### Spanish
+ir
+
+### Source
+number
+### Spanish
+número
+
+### Source
+setup
+### Spanish
+configuración
+
+### Source
+show-dark-fireflies?
+### Spanish
+mostrar-luciérnagas-oscuras?
+
+### Source
+strategy
+### Spanish
+estrategia
+

@@ -1,1 +1,100 @@
-﻿
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Que es
+
+Este modelo demuestra una población de luciérnagas que sincronizan su destello usando solo las interacciones entre las luciérnagas individuales. Es un buen ejemplo de cómo un sistema distribuido (es decir, un sistema con muchos elementos que interactúan, pero sin &quot;líder&quot;) puede coordinarse sin ningún coordinador central.
+
+Aunque generalmente no se sabe que la mayoría de las especies de luciérnagas se sincronizan en grupos, se ha observado que algunas (por ejemplo, Pteroptyx cribellata, Luciola pupilla y Pteroptyx malaccae) lo hacen en ciertos entornos. Este modelo generaliza dos estrategias principales utilizadas por dichos insectos para sincronizarse entre sí (sincronización de retardo de fase y avance de fase, como se describe a continuación), conservando lo esencial de las estrategias y minimizando los detalles biológicos.
+
+##  COMO FUNCIONA
+
+Cada luciérnaga recorre constantemente su propio reloj, parpadeando al comienzo de cada ciclo y luego reiniciando el reloj a cero una vez que ha alcanzado el máximo. Al comienzo de cada simulación, todas las luciérnagas comienzan en un punto aleatorio de sus ciclos (aunque todas tienen la misma duración de ciclo), por lo que el destello se producirá de forma errática en la población. A medida que las luciérnagas perciben otros destellos a su alrededor, pueden usar esta información para restablecer sus propios relojes para intentar sincronizarse con las otras luciérnagas en su vecindad. Cada luciérnaga usa el mismo conjunto de reglas para gobernar su propio reloj y, dependiendo de los parámetros de la simulación, la población puede sincronizarse de manera más o menos efectiva.
+
+##  COMO USARLO
+
+GO: inicia y detiene la simulación.
+
+SETUP: restablece la simulación de acuerdo con los parámetros establecidos por los controles deslizantes.
+
+NÚMERO: establece el número de luciérnagas que se crearán.
+
+CYCLE-LENGTH: establece la longitud del reloj de cada luciérnaga antes de que se restablezca a 0.
+
+FLASHES-TO-RESET: establece el número de destellos que una luciérnaga debe ver en un solo tic antes de que su reloj se reinicie.
+
+FLASH-LENGTH: establece la duración, en tics, de cada destello.
+
+ESTRATEGIA: establece la estrategia de sincronización que se utilizará cuando una luciérnaga vea suficientes otras luciérnagas parpadeando a su alrededor (donde &quot;suficiente&quot; se define mediante FLASHES-TO-RESET). Hay dos estrategias posibles:
+
+- ** &quot;retraso&quot; **: la luciérnaga restablece su reloj a la LONGITUD DE DESTELLO (justo después de que se produjera normalmente un destello). Esto hace que la luciérnaga se sincronice con el próximo destello de la luciérnaga a la que está respondiendo.
+
+- ** &quot;avance&quot; **: la luciérnaga parpadea inmediatamente. Al usar esta estrategia, las luciérnagas solo pueden comenzar a reiniciar sus relojes durante una ventana que comienza dos tics después de que hayan parpadeado. Esto asegura que los flashes no se atasquen en un ciclo corto en el que reinician persistentemente sus relojes y permanecen encendidos indefinidamente.
+
+¿SHOW-DARK-FIREFLIES ?: si el interruptor está encendido, las luciérnagas que no parpadean se muestran en gris. Si el interruptor está apagado, las luciérnagas que no parpadean se colorean de negro y, por lo tanto, son invisibles.
+
+Es necesario establecer algunos ajustes antes de presionar el botón SETUP. Los cambios en los controles deslizantes NUMBER, STRATEGY y FLASH-LENGTH no tendrán ningún efecto en una simulación en curso. FLASHES-TO-RESET, CYCLE-LENGTH y SHOW-DARK-FIREFLIES ?, por otro lado, se pueden modificar y _will_ tendrán un efecto mientras se ejecuta la simulación.
+
+##  COSAS PARA NOTAR
+
+Usando la configuración predeterminada (número: 1500, duración del ciclo: 10, duración del destello: 1, destellos numéricos: 1, destellos para restablecer: 1, estrategia: &quot;retraso&quot;), observe cómo los grupos locales de sincronización comienzan a formulario. Vea si puede averiguar dónde está representado cada grupo en la gráfica. A medida que avanza la simulación, intente determinar qué grupo local eventualmente &quot;se hará cargo&quot; de la población. ¿Este grupo originalmente tenía el pico más alto en la gráfica?
+
+En las simulaciones de avance de fase, ¿por qué las parcelas generalmente terminan antes de que los picos alcancen a toda la población?
+
+En este modelo, las luciérnagas no pueden restablecer su ciclo cuando están en medio de un destello. ¿Por qué se impuso esta restricción?
+
+##  COSAS PARA INTENTAR
+
+Ejecute el modelo con la estrategia de &quot;retraso&quot; en la configuración predeterminada. Cambie FLASHES-TO-RESET a 2 y ejecute el modelo con la estrategia de &quot;avance&quot; (mientras mantiene estables las otras configuraciones). ¿Qué estrategia parece más eficaz? ¿Por qué?
+
+Intente ajustar FLASHES-TO-RESET entre 0, 1 y 2 usando los ajustes de retardo de fase y avance de fase. Tenga en cuenta que cada ajuste dará una trama característicamente diferente, y algunos de ellos no permiten la sincronización en absoluto (por ejemplo, con la estrategia de retardo, contraste FLASHES-TO-RESET establecido en 1 en lugar de 2). ¿Por qué este control marca tanta diferencia en el resultado de la simulación?
+
+Cambiar el número de luciérnagas en una simulación afecta la densidad de la población (al igual que ajustar el tamaño del mundo). ¿Qué efecto tiene esto en una simulación?
+
+##  EXTENDIENDO EL MODELO
+
+Este modelo explora solo dos estrategias generales para lograr la sincronía en tales luciérnagas gobernadas por ciclos. ¿Puedes encontrar otros? ¿Puede mejorar las estrategias existentes (es decir, acelerándolas)?
+
+Hay muchas otras situaciones posibles en las que los agentes distribuidos deben sincronizar su comportamiento mediante el uso de reglas simples. ¿Qué pasaría si, en lugar de percibir solo otros destellos discretos, un insecto pudiera sentir dónde estaba otro insecto en su ciclo (tal vez al escuchar un zumbido cada vez más fuerte)? ¿Qué tipo de estrategias de sincronización podrían ser útiles en tal situación?
+
+Si todas las luciérnagas tuvieran ciclos de duración ajustables (inicialmente establecidos en intervalos aleatorios), ¿sería posible coordinar tanto la duración de sus ciclos como su destello?
+
+Introduce algunas luciérnagas ciegas. ¿Cómo les va a las estrategias con esta adición?
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Tenga en cuenta el uso de conjuntos de agentes para contar la cantidad de luciérnagas cercanas que parpadean:
+
+cuente tortugas en el radio 1 con [color = amarillo]
+
+##  CRÉDITOS Y REFERENCIAS 
+
+Buck, John. (1988). Synchronous Rhythmic Flashing of Fireflies. The Quarterly Review of Biology, September 1988, 265 - 286.
+
+Carlson, A.D. & Copeland, J. (1985). Flash Communication in Fireflies. The Quarterly Review of Biology, December 1985, 415 - 433.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1997).  NetLogo Fireflies model.  http://ccl.northwestern.edu/netlogo/models/Fireflies.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1997 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1997 2001 -->

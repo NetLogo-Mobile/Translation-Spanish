@@ -1,0 +1,78 @@
+﻿## Language = Spanish
+## Plots
+### Source
+blues
+### Spanish
+blues
+
+### Source
+greens
+### Spanish
+verduras
+
+### Source
+Molecule amounts
+### Spanish
+Cantidades de moléculas
+
+### Source
+number
+### Spanish
+número
+
+### Source
+pinks
+### Spanish
+rosas
+
+### Source
+ticks
+### Spanish
+garrapatas
+
+### Source
+yellows
+### Spanish
+amarillos
+
+## Widgets
+### Source
+blue-molecules
+### Spanish
+moléculas azules
+
+### Source
+blues
+### Spanish
+blues
+
+### Source
+go
+### Spanish
+ir
+
+### Source
+greens
+### Spanish
+verduras
+
+### Source
+pinks
+### Spanish
+rosas
+
+### Source
+setup
+### Spanish
+configuración
+
+### Source
+yellow-molecules
+### Spanish
+moléculas amarillas
+
+### Source
+yellows
+### Spanish
+amarillos
+

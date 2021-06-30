@@ -1,0 +1,52 @@
+﻿## Language = Spanish
+## Widgets
+### Source
+draw-notes
+### Spanish
+dibujar-notas
+
+### Source
+erase-notes
+### Spanish
+borrar-notas
+
+### Source
+instrument-name
+### Spanish
+nombre-instrumento
+
+### Source
+instrument-number
+### Spanish
+número de instrumento
+
+### Source
+metronome?
+### Spanish
+¿metrónomo?
+
+### Source
+note-length
+### Spanish
+longitud de nota
+
+### Source
+play
+### Spanish
+tocar
+
+### Source
+quarter-note-length
+### Spanish
+longitud de una negra
+
+### Source
+rewind
+### Spanish
+rebobinar
+
+### Source
+setup
+### Spanish
+configuración
+

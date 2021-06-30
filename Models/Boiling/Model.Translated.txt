@@ -1,0 +1,33 @@
+﻿## Language = Spanish
+## Plots
+### Source
+ave-heat
+### Spanish
+ave-calor
+
+### Source
+Average Heat
+### Spanish
+Calor medio
+
+### Source
+Avg Heat
+### Spanish
+Calor medio
+
+### Source
+Time
+### Spanish
+Hora
+
+## Widgets
+### Source
+go
+### Spanish
+ir
+
+### Source
+setup
+### Spanish
+configuración
+

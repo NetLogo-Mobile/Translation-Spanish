@@ -1,0 +1,42 @@
+﻿## Language = Spanish
+## Widgets
+### Source
+go
+### Spanish
+ir
+
+### Source
+max-align-turn
+### Spanish
+giro máximo de alineación
+
+### Source
+max-cohere-turn
+### Spanish
+max-cohere-turn
+
+### Source
+max-separate-turn
+### Spanish
+giro máximo separado
+
+### Source
+minimum-separation
+### Spanish
+separación mínima
+
+### Source
+population
+### Spanish
+población
+
+### Source
+setup
+### Spanish
+configuración
+
+### Source
+vision
+### Spanish
+visión
+

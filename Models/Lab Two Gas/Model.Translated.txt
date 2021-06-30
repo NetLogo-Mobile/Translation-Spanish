@@ -1,0 +1,138 @@
+﻿## Language = Spanish
+## Plots
+### Source
+Average Energies
+### Spanish
+Energías medias
+
+### Source
+Average Speeds
+### Spanish
+Velocidades medias
+
+### Source
+cyan
+### Spanish
+cian
+
+### Source
+energy
+### Spanish
+energía
+
+### Source
+magenta
+### Spanish
+magenta
+
+### Source
+speed
+### Spanish
+velocidad
+
+### Source
+time
+### Spanish
+hora
+
+## Widgets
+### Source
+average energy cyan
+### Spanish
+energía media cian
+
+### Source
+average energy magenta
+### Spanish
+magenta de energía media
+
+### Source
+average speed cyan
+### Spanish
+cian de velocidad media
+
+### Source
+average speed magenta
+### Spanish
+magenta de velocidad media
+
+### Source
+box-size
+### Spanish
+tamaño de caja
+
+### Source
+close
+### Spanish
+cerca
+
+### Source
+collide?
+### Spanish
+¿chocar?
+
+### Source
+cyan-init-speed
+### Spanish
+cyan-init-speed
+
+### Source
+cyan-mass
+### Spanish
+masa cian
+
+### Source
+cyans in right chamber
+### Spanish
+cyanes en la recámara derecha
+
+### Source
+go/stop
+### Spanish
+ir / parar
+
+### Source
+magenta-init-speed
+### Spanish
+magenta-init-speed
+
+### Source
+magenta-mass
+### Spanish
+masa magenta
+
+### Source
+magentas in left chamber
+### Spanish
+magentas en la cámara izquierda
+
+### Source
+max particle speed
+### Spanish
+velocidad máx de partículas
+
+### Source
+num-cyans
+### Spanish
+num-cyans
+
+### Source
+num-magentas
+### Spanish
+num-magentas
+
+### Source
+open
+### Spanish
+abierto
+
+### Source
+opening-size
+### Spanish
+tamaño de apertura
+
+### Source
+setup
+### Spanish
+configuración
+

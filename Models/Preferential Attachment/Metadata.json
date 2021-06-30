@@ -1,8 +1,8 @@
 {
   "ID": "60bf7bbb9190cb00017ce404",
   "SubjectTranslated": false,
-  "ContentTranslated": false,
-  "ContentMachineTranslated": false,
-  "ModelTranslated": false,
+  "ContentTranslated": true,
+  "ContentMachineTranslated": true,
+  "ModelTranslated": true,
   "ModelMachineTranslated": false
 }

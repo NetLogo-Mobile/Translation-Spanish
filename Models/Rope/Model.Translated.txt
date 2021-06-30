@@ -1,0 +1,27 @@
+﻿## Language = Spanish
+## Widgets
+### Source
+amplitude
+### Spanish
+amplitud
+
+### Source
+frequency
+### Spanish
+frecuencia
+
+### Source
+friction
+### Spanish
+fricción
+
+### Source
+go
+### Spanish
+ir
+
+### Source
+setup
+### Spanish
+configuración
+
