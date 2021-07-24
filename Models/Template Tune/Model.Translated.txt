@@ -1,0 +1,13 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Widgets
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+setup
+### Spanish ***
+configuración
+

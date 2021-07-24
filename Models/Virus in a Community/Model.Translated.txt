@@ -1,0 +1,314 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Plots
+### Source
+# Cases
+### Spanish ***
+# Casos
+
+### Source
+# Residents
+### Spanish ***
+# Residentes
+
+### Source
+Daily Statistics
+### Spanish ***
+Estadísticas diarias
+
+### Source
+Days
+### Spanish ***
+Dias
+
+### Source
+Deaths
+### Spanish ***
+Fallecidos
+
+### Source
+Detected
+### Spanish ***
+Detectado
+
+### Source
+Infected
+### Spanish ***
+Infectado
+
+### Source
+New Cases
+### Spanish ***
+Casos nuevos
+
+### Source
+New Recovered
+### Spanish ***
+Nuevo recuperado
+
+### Source
+Not Infected
+### Spanish ***
+No infectado
+
+### Source
+Quarantined
+### Spanish ***
+En cuarentena
+
+### Source
+Situation Overview
+### Spanish ***
+Resumen de la situación
+
+### Source
+Symptoms
+### Spanish ***
+Síntomas
+
+## Widgets
+### Source
+% Hospital Capacity
+### Spanish ***
+% De capacidad hospitalaria
+
+### Source
+% Masked
+### Spanish ***
+% Enmascarado
+
+### Source
+Acc. Death %
+### Spanish ***
+Acc. Muerte %
+
+### Source
+Acc. Detected %
+### Spanish ***
+Acc. % Detectado
+
+### Source
+Acc. Hospitalized %
+### Spanish ***
+Acc. Hospitalizado%
+
+### Source
+Acc. Infected %
+### Spanish ***
+Acc. Infectado %
+
+### Source
+Acc. Recovered %
+### Spanish ***
+Acc. Recuperado %
+
+### Source
+Acc. Symptoms %
+### Spanish ***
+Acc. Síntomas%
+
+### Source
+Apply your policy belief
+### Spanish ***
+Aplique su creencia en la política
+
+### Source
+apply-your-personal-belief-to-family
+### Spanish ***
+aplica-tu-creencia-personal-a-la-familia
+
+### Source
+Are masks needed to protect us?
+### Spanish ***
+¿Se necesitan máscaras para protegernos?
+
+### Source
+Current residents
+### Spanish ***
+Residentes actuales
+
+### Source
+Do we need more testing?
+### Spanish ***
+¿Necesitamos más pruebas?
+
+### Source
+Go
+### Spanish ***
+Ir
+
+### Source
+hospital-detect-chance-per-hour
+### Spanish ***
+hospital-detecta-oportunidad-por-hora
+
+### Source
+hospital-hospitalize-capacity
+### Spanish ***
+hospitalizar-capacidad-hospitalización
+
+### Source
+hospital-hospitalize-chance-per-hour
+### Spanish ***
+hospitalizar-hospitalizar-oportunidad-por-hora
+
+### Source
+initial-facilities
+### Spanish ***
+instalaciones-iniciales
+
+### Source
+initial-hospitals
+### Spanish ***
+hospitales-iniciales
+
+### Source
+initial-households
+### Spanish ***
+hogares-iniciales
+
+### Source
+initial-infected-percentage
+### Spanish ***
+porcentaje-infectado-inicial
+
+### Source
+initial-residents
+### Spanish ***
+residentes-iniciales
+
+### Source
+initial-workplaces
+### Spanish ***
+lugares-de-trabajo-iniciales
+
+### Source
+Is lockdown necessary?
+### Spanish ***
+¿Es necesario el bloqueo?
+
+### Source
+lockdown?
+### Spanish ***
+¿aislamiento?
+
+### Source
+lockdown-announcement-increase
+### Spanish ***
+bloqueo-anuncio-aumento
+
+### Source
+lockdown-announcement-percentage
+### Spanish ***
+porcentaje-anuncio-bloqueo
+
+### Source
+lockdown-lifting-patience
+### Spanish ***
+bloqueo-levantamiento-paciencia
+
+### Source
+lockdown-lifting-threshold
+### Spanish ***
+umbral de elevación de bloqueo
+
+### Source
+lockdown-obeyance-chance
+### Spanish ***
+oportunidad-de-bloqueo-de-obediencia
+
+### Source
+mask-inclination-healthy
+### Spanish ***
+mascarilla-inclinacion-saludable
+
+### Source
+mask-inclination-quarantined
+### Spanish ***
+máscara-inclinación-en cuarentena
+
+### Source
+mask-inclination-symptoms
+### Spanish ***
+síntomas de inclinación de la máscara
+
+### Source
+max-residents-per-household
+### Spanish ***
+máximo de residentes por hogar
+
+### Source
+min-residents-per-household
+### Spanish ***
+min-residentes-por-hogar
+
+### Source
+Original Residents
+### Spanish ***
+Residentes originales
+
+### Source
+quarantine-days
+### Spanish ***
+días de cuarentena
+
+### Source
+quarantine-obeyance-chance-contacts
+### Spanish ***
+cuarentena-obediencia-contactos-fortuitos
+
+### Source
+quarantine-obeyance-chance-detected
+### Spanish ***
+cuarentena-obediencia-casualidad-detectada
+
+### Source
+resident-size
+### Spanish ***
+tamaño residente
+
+### Source
+Select yourself
+### Spanish ***
+Seleccione usted mismo
+
+### Source
+Setup
+### Spanish ***
+Configuración
+
+### Source
+Should we quarantine contacts of confirmed cases?
+### Spanish ***
+¿Deberíamos poner en cuarentena a los contactos de los casos confirmados?
+
+### Source
+street-size-x
+### Spanish ***
+calle-tamaño-x
+
+### Source
+street-size-y
+### Spanish ***
+tamaño de la calle y
+
+### Source
+tutorial?
+### Spanish ***
+¿tutorial?
+
+### Source
+will-you-go-out-when-lockdown
+### Spanish ***
+¿Saldrás cuando estés encerrado?
+
+### Source
+will-you-go-out-when-lockdown-lifted
+### Spanish ***
+¿Saldrás cuando se levante el bloqueo?
+
+### Source
+will-you-wear-masks
+### Spanish ***
+¿Usarás máscaras?
+

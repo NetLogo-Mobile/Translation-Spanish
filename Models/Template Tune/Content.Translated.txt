@@ -1,0 +1,8 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿Qué es?
+Esta es una plantilla vacía para crear un modelo de NetLogo, aunque también incluimos algunos comentarios para que aprenda los primeros pasos para un modelo de &quot;Hola mundo&quot;.
+
+##  ¿Cómo usarlo?
+Abra el modelo y haga clic en reproducir: ¡encontrará algunos parches de color parpadeantes! Ese es el espíritu. Luego, abra el panel de código, cambie al modo editor. Allí descubrirás cómo se implementó este modelo simple y comenzarás a hacer tu propio modelo.
+
+**¿Alguna pregunta? ¡No dudes en dejarlo en el área de comentarios! **

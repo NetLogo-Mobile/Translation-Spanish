@@ -55,4 +55,16 @@
       <Tags>知识库</Tags>
     </FetchConfiguration>
   </Block>
+  <Block>
+    <Type>List</Type>
+    <Header>COMUNIDAD PLANTILLAS</Header>
+    <TargetLink>models://Tags/海水/Sort/Popularity</TargetLink>
+    <TargetJson></TargetJson>
+    <FetchSource>Community</FetchSource>
+    <FetchConfiguration>
+      <Category>Model</Category>
+      <Sort>Popularity</Sort>
+      <Tags>海水</Tags>
+    </FetchConfiguration>
+  </Block>
 </Library>
