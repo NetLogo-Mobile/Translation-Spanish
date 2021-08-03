@@ -1,49 +1,48 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Que es
+﻿## ¿QUÉ ES?
 
-Este proyecto representa un modelo de autómata celular simple que se asemeja a una olla de agua hirviendo. El calor se aplica de manera uniforme a toda la olla, pero cuando la temperatura de un parche alcanza la temperatura de ebullición, la burbuja explota y la temperatura del parche desciende a cero.
+Este proyecto muestra un modelo de autómata celular simple que se asemeja a una olla de agua hirviendo. El calor se aplica de manera uniforme a toda la olla, pero cuando la temperatura de una parcela alcanza la temperatura hirviente, la burbuja explota y la temperatura de la parcela desciende a cero.
 
 Este proceso es análogo a la forma en que una región de agua suficientemente caliente cede algo de calor formando una burbuja de vapor. El agua que rodea la burbuja de vapor se enfría por un momento.
 
 ##  COMO FUNCIONA
 
-Si todos los vecinos de una celda están en el valor máximo de 212, entonces el nuevo valor de esa celda será 213, que se reduce a cero. En la siguiente tic, la presencia de esta celda de valor cero reducirá los valores de los vecinos más cercanos de la celda.
+Si todos los vecinos de una célula están en el valor máximo de 212, entonces el nuevo valor de esa célula será 213, lo que se reduce a cero. En el siguiente tic, la presencia de esta célula de valor cero reducirá los valores de los vecinos más cercanos de la célula.
 
 ##  COMO USARLO
 
-Haga clic en el botón CONFIGURAR para configurar un campo de calor aleatorio.
+HHaz clic en el botón PREPARAR para configurar un campo de calor aleatorio.
 
-Haga clic en el botón HERVIR para comenzar a calentar la olla y verla hervir. Cuanto más rojo sea el color, más caliente será el parche (el negro es muy frío y el blanco muy caliente).
+Haz clic en el botón HERVIR para comenzar a calentar la olla y verla hervir. Cuanto más rojo sea el color, más caliente será la parcela (el negro es muy frío y el blanco muy caliente).
 
 ##  COSAS PARA NOTAR
 
-Observe cómo el calor agregado se difunde a través de la olla. Cuando las burbujas explotan, la caída de calor resultante también afecta a los parches cercanos al quitarles el calor.
+Observa cómo el calor agregado se difunde a través de la olla. Cuando las burbujas explotan, la caída de calor resultante también afecta a las parcelas cercanas al quitarles el calor.
 
-¿Qué pasa con el calor promedio en la olla?
+¿Qué pasa con el calor medio en la olla?
 
 ##  EXTENDIENDO EL MODELO
 
-Intente difundir el calor más lentamente a través del sistema.
+Intenta difundir el calor más lentamente a través del sistema.
 
-Cambie el parámetro difuso de 1 a una fracción más pequeña.
+Cambia el parámetro difuso de 1 a una fracción más pequeña.
 
-Agrega &quot;cubitos de hielo&quot;.
+Agrega "cubos de hielo".
 
-Agregue un disipador de calor, como bordes, que enfríen constantemente el líquido.
+Agrega un disipador de calor, como bordes, que enfríen constantemente el líquido.
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-This model is described on page 79 in "Artificial Life Lab", by Rudy Rucker, published in 1993 by Waite Group Press.
+Este modelo se describe en la página 79 en "Artificial Life Lab", por Rudy Rucker, publicado en 1993 por Waite Group Press.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1998).  NetLogo Boiling model.  http://ccl.northwestern.edu/netlogo/models/Boiling.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -62,3 +61,5 @@ This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SEN
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
 
 <!-- 1998 2001 -->
+
+Translated by: Cassandra Lagunas

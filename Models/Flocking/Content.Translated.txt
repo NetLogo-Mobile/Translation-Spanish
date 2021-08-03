@@ -1,89 +1,88 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Que es
+﻿## ¿QUÉ ES?
 
-Este modelo es un intento de imitar la bandada de pájaros. (El movimiento resultante también se asemeja a bancos de peces). Las bandadas que aparecen en este modelo no son creadas ni dirigidas de ninguna manera por aves líderes especiales. Más bien, cada ave sigue exactamente el mismo conjunto de reglas, de las cuales emergen las bandadas.
+Este modelo intenta imitar el rebaño de pájaros. (El movimiento resultante también se parece a bancos de peces). Los rebaños que aparecen en este modelo no son creados o dirigidos de ninguna manera por pájaros líderes especiales. Más bien, cada pájaro sigue exactamente el mismo conjunto de reglas, de las cuales emergen los rebaños.
 
 ##  COMO FUNCIONA
 
-Las aves siguen tres reglas: &quot;alineación&quot;, &quot;separación&quot; y &quot;cohesión&quot;.
+Los pájaros siguen tres reglas: "alineación", "separación" y "cohesión".
 
-&quot;Alineación&quot; significa que un pájaro tiende a girar de modo que se mueve en la misma dirección en que se mueven las aves cercanas.
+"Alineación" significa que un pájaro tiende a girar de manera que se mueve en la misma dirección en la que se mueven los pájaros cercanos.
 
-&quot;Separación&quot; significa que un pájaro girará para evitar a otro pájaro que se acerque demasiado.
+"Separación" significa que un pájaro girará para evitar a otro pájaro que se acerque demasiado.
 
-&quot;Cohesión&quot; significa que un pájaro se moverá hacia otros pájaros cercanos (a menos que otro pájaro esté demasiado cerca).
+"Cohesión" significa que un pájaro se moverá hacia otros pájaros cercanos (a menos que otro pájaro esté demasiado cerca).
 
-Cuando dos aves están demasiado cerca, la regla de &quot;separación&quot; anula las otras dos, que se desactivan hasta que se logra la separación mínima.
+Cuando dos pájaros están demasiado cerca, la regla de "separación" anula las otras dos, que se desactivan hasta que se logra la separación mínima.
 
-Las tres reglas afectan solo el rumbo del ave. Cada pájaro siempre avanza a la misma velocidad constante.
+Las tres reglas afectan solo el rumbo del pájaro. Cada pájaro siempre avanza a la misma velocidad constante.
 
 ##  COMO USARLO
 
-Primero, determine la cantidad de aves que desea en la simulación y establezca el control deslizante POBLACIÓN en ese valor. Presione SETUP para crear las aves, y presione GO para que comiencen a volar.
+Primero, determina la cantidad de pájaros que deseas en la simulación y establece el control deslizante POBLACIÓN en ese valor. Presiona PREPARAR para crear los pájaros, y presiona IR para que comiencen a volar.
 
-La configuración predeterminada de los controles deslizantes producirá un comportamiento de flocado razonablemente bueno. Sin embargo, puedes jugar con ellos para obtener variaciones:
+La configuración predeterminada de los controles deslizantes producirá un comportamiento de rebaño razonablemente bueno. Sin embargo, puedes jugar con ellos para obtener variaciones:
 
-Tres controles deslizantes de ÁNGULO DE GIRO controlan el ángulo máximo que un pájaro puede girar como resultado de cada regla.
+Tres controles deslizantes de ÁNGULO-DE-GIRO controlan el ángulo máximo que un pájaro puede girar como resultado de cada regla.
 
 VISIÓN es la distancia que cada pájaro puede ver 360 grados a su alrededor.
 
 ##  COSAS PARA NOTAR
 
-Un elemento central del modelo es la observación de que las bandadas se forman sin un líder.
+Un elemento central del modelo es la observación de que los rebaños se forman sin un líder.
 
-No se utilizan números aleatorios en este modelo, excepto para posicionar las aves inicialmente. El comportamiento fluido y realista de las aves se produce enteramente por reglas deterministas.
+No se usan números aleatorios en este modelo, excepto para posicionar los pájaros inicialmente. El comportamiento fluido y realista de los pájaros se produce enteramente por reglas deterministas.
 
-Además, observe que cada bandada es dinámica. No se garantiza que una manada, una vez junta, se quede con todos sus miembros. ¿Por qué crees que es esto?
+Además, observa que cada rebaño es dinámico. No se garantiza que un rebaño, una vez junta, se quede con todos sus miembros. ¿Por qué crees que es esto?
 
-Después de ejecutar el modelo durante un tiempo, todas las aves tienen aproximadamente el mismo rumbo. ¿Por qué?
+Después de ejecutar el modelo durante un tiempo, todos los pájaros tienen aproximadamente el mismo rumbo. ¿Por qué?
 
-A veces, un pájaro se separa de su bandada. ¿Como sucedió esto? Es posible que deba reducir la velocidad del modelo o ejecutarlo paso a paso para observar este fenómeno.
+A veces, un pájaro se separa de su rebaño. ¿Cómo sucedió esto? Tendrás que reducir la velocidad del modelo o ejecutarlo paso a paso para observar este fenómeno.
 
 ##  COSAS PARA INTENTAR
 
-Juegue con los controles deslizantes para ver si puede obtener bandadas más apretadas, bandadas más sueltas, menos bandadas, más bandadas, más o menos división y unión de bandadas, más o menos reorganización de aves dentro de bandadas, etc.
+Juega con los controles deslizantes para ver si puedes obtener: rebaños más apretados, rebaños más sueltos, menos rebaños, más rebaños, más o menos división y unión de rebaños, más o menos reorganización de pájaros dentro de rebaños, etc.
 
-Puede desactivar una regla por completo estableciendo el control deslizante de ángulo de esa regla en cero. ¿Es suficiente una regla por sí sola para producir al menos algo de bandada? ¿Qué hay de dos reglas? ¿Qué falta en el comportamiento resultante cuando omite cada regla?
+Puedes desactivar una regla por completo estableciendo el control deslizante de ángulo de esa regla en cero. ¿Es una regla por sí sola suficiente para producir al menos algo de rebaño? ¿Qué hay de dos reglas? ¿Qué falta en el comportamiento resultante cuando omites cada regla?
 
-¿Ejecutar el modelo durante mucho tiempo producirá una bandada estática? ¿O los pájaros nunca se asentarán en una formación inmutable? Recuerde, no se utilizan números aleatorios en este modelo.
+¿Ejecutando el modelo durante mucho tiempo producirá un rebaño estática? ¿O los pájaros nunca se asentarán en una formación inmutable? Recuerda, no se usan números aleatorios en este modelo.
 
 ##  EXTENDIENDO EL MODELO
 
-Actualmente, los pájaros pueden &quot;ver&quot; a su alrededor. ¿Qué pasa si los pájaros solo pueden ver frente a ellos? La primitiva &quot;in-cone&quot; se puede utilizar para esto.
+Actualmente, los pájaros pueden "ver" a su alrededor. ¿Qué pasa si los pájaros solo pueden ver frente a ellos? El primitivo in-cone se puede usar para esto.
 
-¿Hay alguna forma de obtener bandadas en forma de V, como los gansos migratorios?
+¿Hay alguna forma de obtener rebaños en forma de V, como los gansos migratorios?
 
 ¿Qué pasa si pones paredes alrededor de los bordes del mundo donde los pájaros no pueden volar?
 
 ¿Puedes hacer que los pájaros vuelen alrededor de obstáculos en el medio del mundo?
 
-¿Qué pasaría si les dieras a los pájaros diferentes velocidades? Por ejemplo, podría hacer que las aves que no están cerca de otras aves vuelen más rápido para alcanzar a la bandada. O puede simular la disminución de la resistencia del aire que experimentan las aves cuando vuelan juntas haciéndolas volar más rápido cuando están en grupo.
+¿Qué pasaría si les dieras a los pájaros diferentes velocidades? Por ejemplo, podrías hacer que los pájaros que no están cerca de otros pájaros vuelan más rápido para alcanzar el rebaño. O puedes simular la disminución de la resistencia del aire que experimentan los pájaros cuando vuelan juntos haciéndolos volar más rápido cuando están en grupo.
 
-¿Hay otras formas interesantes de hacer que las aves sean diferentes entre sí? Podría haber una variación aleatoria en la población, o podría tener distintas &quot;especies&quot; de aves.
+¿Hay otras formas interesantes que puedes hacer para que los pájaros sean diferentes entre sí? Podría haber una variación aleatoria en la población, o podrías tener distintas "especies" de pájaros.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Observe la necesidad del procedimiento primitivo y especial `restar-encabezados &#39;para promediar grupos de encabezados. Simplemente restar los números, o promediar los números, no le da los resultados que esperaría, debido a la discontinuidad en la que los encabezados vuelven a 0 una vez que llegan a 360.
+Observa la necesidad de la primitiva de rebajar encabezados y el procedimiento especial para promediar grupos de encabezados. Simplemente rebajar los números, o promediar los números, no te da los resultados que esperarías, debido a la discontinuidad en la que los encabezados vuelven a 0 una vez que llegan a 360.
 
 ##  MODELOS RELACIONADOS 
 
-* Moths
-* Flocking Vee Formation
-* Flocking - Alternative Visualizations
+* Polillas
+* Formación de Rebaño V
+* Rebaño – Visualizaciones Alternativas
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-This model is inspired by the Boids simulation invented by Craig Reynolds.  The algorithm we use here is roughly similar to the original Boids algorithm, but it is not the same.  The exact details of the algorithm tend not to matter very much -- as long as you have alignment, separation, and cohesion, you will usually get flocking behavior resembling that produced by Reynolds' original model.  Information on Boids is available at http://www.red3d.com/cwr/boids/.
+Este modelo fue inspirado por la simulación Boids inventado por Craig Reynolds. El algoritmo que usamos aquí es aproximadamente similar al original algoritmo de Boids, pero no son los mismos. Los detalles exactos del algoritmo no tienden importar mucho -- siempre que tenga alineación, separación y cohesión, generalmente obtendrás un comportamiento de agrupación similar al producido por el modelo original de Reynolds. La información sobre Boids está disponible en http://www.red3d.com/cwr/boids/. 
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1998).  NetLogo Flocking model.  http://ccl.northwestern.edu/netlogo/models/Flocking.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -102,3 +101,5 @@ This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SEN
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2002.
 
 <!-- 1998 2002 -->
+
+Translated by: Cassandra Lagunas

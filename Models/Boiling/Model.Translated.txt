@@ -3,22 +3,22 @@
 ### Source
 ave-heat
 ### Spanish
-ave-calor
+calor-prom
 
 ### Source
 Average Heat
 ### Spanish
-Calor medio
+Calor Promedio
 
 ### Source
 Avg Heat
 ### Spanish
-Calor medio
+Clr Prom
 
 ### Source
 Time
 ### Spanish
-Hora
+Tiempo
 
 ## Widgets
 ### Source
@@ -29,5 +29,4 @@ ir
 ### Source
 setup
 ### Spanish
-configuración
-
+preparar

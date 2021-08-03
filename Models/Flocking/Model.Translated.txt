@@ -8,22 +8,22 @@ ir
 ### Source
 max-align-turn
 ### Spanish
-giro máximo de alineación
+giro-máx-de-alineación
 
 ### Source
 max-cohere-turn
 ### Spanish
-max-cohere-turn
+giro-cohere-máx
 
 ### Source
 max-separate-turn
 ### Spanish
-giro máximo separado
+giro-máx-separado
 
 ### Source
 minimum-separation
 ### Spanish
-separación mínima
+separación-mínima
 
 ### Source
 population
@@ -33,7 +33,7 @@ población
 ### Source
 setup
 ### Spanish
-configuración
+preparar
 
 ### Source
 vision
