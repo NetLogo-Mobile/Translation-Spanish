@@ -8,7 +8,7 @@ brillante
 ### Source
 Flashing Fireflies
 ### Spanish
-Luciérnagas parpadeantes
+Luciérnagas Parpadeantes
 
 ### Source
 Number
@@ -18,23 +18,23 @@ Número
 ### Source
 Time
 ### Spanish
-Hora
+Tiempo
 
 ## Widgets
 ### Source
 cycle-length
 ### Spanish
-duración del ciclo
+duración-del-ciclo
 
 ### Source
 flashes-to-reset
 ### Spanish
-parpadea para reiniciar
+parpadeas-para-restablecer
 
 ### Source
 flash-length
 ### Spanish
-longitud del flash
+longitud-del-parpadea
 
 ### Source
 go
@@ -49,7 +49,7 @@ número
 ### Source
 setup
 ### Spanish
-configuración
+preparar
 
 ### Source
 show-dark-fireflies?

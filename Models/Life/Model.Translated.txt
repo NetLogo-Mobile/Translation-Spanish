@@ -8,35 +8,35 @@ densidad actual
 ### Source
 draw-cells
 ### Spanish
-dibujar-celdas
+dibujar-células
 
 ### Source
 go-forever
 ### Spanish
-ir para siempre
+ir-para-siempre
 
 ### Source
 go-once
 ### Spanish
-ir una vez
+ir-una-vez
 
 ### Source
 initial-density
 ### Spanish
-densidad inicial
+densidad-inicial
 
 ### Source
 recolor
 ### Spanish
-volver a colorear
+volver-a-colorear
 
 ### Source
 setup-blank
 ### Spanish
-configuración-en blanco
+preparar-en-blanco
 
 ### Source
 setup-random
 ### Spanish
-configuración-aleatoria
+preparar-aleatoria
 

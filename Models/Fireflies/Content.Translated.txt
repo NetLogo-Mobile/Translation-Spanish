@@ -1,69 +1,68 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Que es
+﻿## ¿QUÉ ES?
 
-Este modelo demuestra una población de luciérnagas que sincronizan su destello usando solo las interacciones entre las luciérnagas individuales. Es un buen ejemplo de cómo un sistema distribuido (es decir, un sistema con muchos elementos que interactúan, pero sin &quot;líder&quot;) puede coordinarse sin ningún coordinador central.
+Este modelo demuestra una población de luciérnagas que sincronizan sus destellos usando solo las interacciones entre luciérnagas individuales. Es un buen ejemplo de cómo un sistema distribuida (i.e. un sistema con muchos componentes interactivo, pero sin jefe) se puede coordinar sin un tipo de comandante central. 
 
-Aunque generalmente no se sabe que la mayoría de las especies de luciérnagas se sincronizan en grupos, se ha observado que algunas (por ejemplo, Pteroptyx cribellata, Luciola pupilla y Pteroptyx malaccae) lo hacen en ciertos entornos. Este modelo generaliza dos estrategias principales utilizadas por dichos insectos para sincronizarse entre sí (sincronización de retardo de fase y avance de fase, como se describe a continuación), conservando lo esencial de las estrategias y minimizando los detalles biológicos.
+Aunque la mayoría de las especies de luciérnagas no se conocen a sincronizar en grupos, hay algunos (por ejemplo, Pteroptyx cribellata, Luciola pupilla, y Pteroptyx malaccae) que se han visto hacerlo en unos escenarios. Este modelo generaliza dos estrategias principales usadas por estos insectos para sincronizar uno con el otro (sincronización de retardo y avance de fase, como está descrito abajo) reteniendo las partes esenciales de las estrategias mientras minimizando los detalles biológicos. 
 
 ##  COMO FUNCIONA
 
-Cada luciérnaga recorre constantemente su propio reloj, parpadeando al comienzo de cada ciclo y luego reiniciando el reloj a cero una vez que ha alcanzado el máximo. Al comienzo de cada simulación, todas las luciérnagas comienzan en un punto aleatorio de sus ciclos (aunque todas tienen la misma duración de ciclo), por lo que el destello se producirá de forma errática en la población. A medida que las luciérnagas perciben otros destellos a su alrededor, pueden usar esta información para restablecer sus propios relojes para intentar sincronizarse con las otras luciérnagas en su vecindad. Cada luciérnaga usa el mismo conjunto de reglas para gobernar su propio reloj y, dependiendo de los parámetros de la simulación, la población puede sincronizarse de manera más o menos efectiva.
+Cada luciérnaga continuamente va por el ciclo de su propio reloj, brillando cuando comienza su ciclo y después reiniciando el reloj a cero cuando al fin llega a su máximo. Al comienzo de cada simulación todas las luciérnagas comienzan puntos aleatorios en su ciclos (aunque todos tienen la misma duración del ciclo) y entonces los destellos ocurren erráticamente en la población. Mientras las luciérnagas notan los destellos a su alrededor, ellos son capaces de usar esta información para reiniciar sus propios relojes para intentar sincronizar con las otras luciérnagas en su vecindad. Cada luciérnaga usa las mismas reglas para gobernar su reloj, y dependiendo de los parámetros de la simulación, la población puede sincronizar más o menos efectivamente.
 
 ##  COMO USARLO
 
-GO: inicia y detiene la simulación.
+IR: Inicia y para la simulación.
 
-SETUP: restablece la simulación de acuerdo con los parámetros establecidos por los controles deslizantes.
+PREPARAR: Restablece la simulación según los parámetros puestos por los deslizadores.
 
-NÚMERO: establece el número de luciérnagas que se crearán.
+NÚMERO: Establece el número de luciérnagas que se van a crear.
 
-CYCLE-LENGTH: establece la longitud del reloj de cada luciérnaga antes de que se restablezca a 0.
+CICLO-DURACIÓN: Dirige la duración de todos los relojes de las luciérnagas antes de que se reinicie a 0.
 
-FLASHES-TO-RESET: establece el número de destellos que una luciérnaga debe ver en un solo tic antes de que su reloj se reinicie.
+DESTELLOS-A-RESTABLECER: Dirige cuantos destellos una luciérnaga tiene que ver en un tic antes que el reloj se restablece.
 
-FLASH-LENGTH: establece la duración, en tics, de cada destello.
+DURACIÓN-DE-DESTELLO: Dirige la duración, en ticks, de cada destello.
 
-ESTRATEGIA: establece la estrategia de sincronización que se utilizará cuando una luciérnaga vea suficientes otras luciérnagas parpadeando a su alrededor (donde &quot;suficiente&quot; se define mediante FLASHES-TO-RESET). Hay dos estrategias posibles:
+ESTRATEGIA: Establece la estrategia de sincronización que se usará cuando una luciérnaga vea suficiente destellos de otras luciérnagas alrededor (dónde “suficiente” está definido por DESTELLOS-A-RESTABLECER). Hay dos estrategias possible:
 
-- ** &quot;retraso&quot; **: la luciérnaga restablece su reloj a la LONGITUD DE DESTELLO (justo después de que se produjera normalmente un destello). Esto hace que la luciérnaga se sincronice con el próximo destello de la luciérnaga a la que está respondiendo.
+- ** “Retardo”: ** la luciérnaga reinicia su reloj a la DURACIÓN-DE-DESTELLO (justo después que un destello normalmente ocurriría). Esto causa que la luciérnaga se sincronice con el próximo destello de la luciérnaga que está respondiendo.
 
-- ** &quot;avance&quot; **: la luciérnaga parpadea inmediatamente. Al usar esta estrategia, las luciérnagas solo pueden comenzar a reiniciar sus relojes durante una ventana que comienza dos tics después de que hayan parpadeado. Esto asegura que los flashes no se atasquen en un ciclo corto en el que reinician persistentemente sus relojes y permanecen encendidos indefinidamente.
+- ** “Avanzar”: ** la luciérnaga brilla inmediatamente. Cuando usa esta estrategia, las luciérnagas sólo pueden reiniciar sus relojes durante un período de tiempo que comienza dos ticks después que destellan. Esto garantiza que los destellos no se quedan trabados en un ciclo corto donde ellos reinician persistentemente sus relojes y permanecen encendido sin parar.
 
-¿SHOW-DARK-FIREFLIES ?: si el interruptor está encendido, las luciérnagas que no parpadean se muestran en gris. Si el interruptor está apagado, las luciérnagas que no parpadean se colorean de negro y, por lo tanto, son invisibles.
+¿DEMOSTRAR-LUCIÉRNAGAS-OSCURAS?: Si el interruptor está encendido, las luciérnagas sin destellos aparecen grises. Si el interruptor está apagado, las luciérnagas sin destellos aparecen negras, y en consecuencia invisible. 
 
-Es necesario establecer algunos ajustes antes de presionar el botón SETUP. Los cambios en los controles deslizantes NUMBER, STRATEGY y FLASH-LENGTH no tendrán ningún efecto en una simulación en curso. FLASHES-TO-RESET, CYCLE-LENGTH y SHOW-DARK-FIREFLIES ?, por otro lado, se pueden modificar y _will_ tendrán un efecto mientras se ejecuta la simulación.
+Algunas configuraciones necesitan estar establecidas antes de presionar el botón de PREPARAR. Cambios al NÚMERO, ESTRATEGIA, y DURACIÓN-DE-DESTELLO deslizadores no van a tener ningún efecto en la simulación en progreso. DESTELLOS-A-RESTABLECER, CICLO-DURACIÓN, y ¿DEMOSTRAR-LUCIÉRNAGAS-OSCURAS?, pueden ser modificadas y van a tener un efecto en la simulación en progreso. 
 
 ##  COSAS PARA NOTAR
 
-Usando la configuración predeterminada (número: 1500, duración del ciclo: 10, duración del destello: 1, destellos numéricos: 1, destellos para restablecer: 1, estrategia: &quot;retraso&quot;), observe cómo los grupos locales de sincronización comienzan a formulario. Vea si puede averiguar dónde está representado cada grupo en la gráfica. A medida que avanza la simulación, intente determinar qué grupo local eventualmente &quot;se hará cargo&quot; de la población. ¿Este grupo originalmente tenía el pico más alto en la gráfica?
+Usando los configuraciones predeterminadas (número: 1500, ciclo-duración: 10, duración-de-destello: 1, número-de-destellos: 1, destellos-a-restablecer: 1, estrategia: "retardo"), nota como clústeres locales de sincronización comienzan a formar. Mira si se puede averiguar donde cada clúster está representado en el gráfico. Mientras se ejecuta la simulación, intenta determinar cual clúster local eventualmente se hará cargo de la población. ¿Este clúster originalmente tenía el pico más alto en el gráfico?
 
-En las simulaciones de avance de fase, ¿por qué las parcelas generalmente terminan antes de que los picos alcancen a toda la población?
+¿En simulaciones de avance de fase, por qué los gráficos generalmente terminan antes de que los picos alcancen a toda la población?
 
-En este modelo, las luciérnagas no pueden restablecer su ciclo cuando están en medio de un destello. ¿Por qué se impuso esta restricción?
+En este modelo, las luciérnagas no pueden reiniciar su ciclo cuando están en medio de un destello. ¿Por qué se impuso esta restricción?
 
 ##  COSAS PARA INTENTAR
 
-Ejecute el modelo con la estrategia de &quot;retraso&quot; en la configuración predeterminada. Cambie FLASHES-TO-RESET a 2 y ejecute el modelo con la estrategia de &quot;avance&quot; (mientras mantiene estables las otras configuraciones). ¿Qué estrategia parece más eficaz? ¿Por qué?
+Ejecuta el modelo con la “retardo” estrategia usando las configuraciones predeterminadas. Cambia DESTELLOS-A-RESTABLECER a 2, y ejecuta el modelo con la “avanzar” estrategia (mientras manteniendo los otros configuraciones igual). ¿Cuál estrategia parece más efectiva? ¿Por qué?
 
-Intente ajustar FLASHES-TO-RESET entre 0, 1 y 2 usando los ajustes de retardo de fase y avance de fase. Tenga en cuenta que cada ajuste dará una trama característicamente diferente, y algunos de ellos no permiten la sincronización en absoluto (por ejemplo, con la estrategia de retardo, contraste FLASHES-TO-RESET establecido en 1 en lugar de 2). ¿Por qué este control marca tanta diferencia en el resultado de la simulación?
+Trata de ajustar DESTELLOS-A-RESTABLECER entre 0, 1, y 2 usando configuraciones de retardo de fase y avance de fase. Nota que cada configuración dará un gráfico característicamente diferente, y algunos no permiten sincronización en absoluto (por ejemplo, con el retardo estrategia, contraste DESTELLOS-A-RESTABLECER establecido en 1 en lugar de 2). ¿Por qué este control causa tanta diferencia en el resultado de la simulación?
 
-Cambiar el número de luciérnagas en una simulación afecta la densidad de la población (al igual que ajustar el tamaño del mundo). ¿Qué efecto tiene esto en una simulación?
+Cambiando el número de luciérnagas en la simulación afecta la densidad de la población (al igual que ajustar el tamaño del mundo). ¿Qué efecto tiene esto en la simulación?
 
 ##  EXTENDIENDO EL MODELO
 
-Este modelo explora solo dos estrategias generales para lograr la sincronía en tales luciérnagas gobernadas por ciclos. ¿Puedes encontrar otros? ¿Puede mejorar las estrategias existentes (es decir, acelerándolas)?
+Este modelo solo explora dos estrategias generales para lograr sincronía en estas luciérnagas gobernadas por ciclos. ¿Puedes encontrar otras estrategias? ¿Puedes mejorar las estrategias existentes (i.e., acelerando las estrategias)?
 
-Hay muchas otras situaciones posibles en las que los agentes distribuidos deben sincronizar su comportamiento mediante el uso de reglas simples. ¿Qué pasaría si, en lugar de percibir solo otros destellos discretos, un insecto pudiera sentir dónde estaba otro insecto en su ciclo (tal vez al escuchar un zumbido cada vez más fuerte)? ¿Qué tipo de estrategias de sincronización podrían ser útiles en tal situación?
+Hay muchas otras situaciones posibles donde agentes distribuidos deben sincronizar su comportamiento mediante el uso de reglas simples.¿Qué pasaría si, en lugar de percibir solo otros destellos discretos, un insecto pudiera sentir dónde estaba otro insecto en su ciclo (tal vez al escuchar un zumbido que sube en volumen)? ¿Qué tipo de estrategias de sincronización podrían ser útiles en tal situación? 
 
-Si todas las luciérnagas tuvieran ciclos de duración ajustables (inicialmente establecidos en intervalos aleatorios), ¿sería posible coordinar tanto la duración de sus ciclos como su destello?
+Si todas las luciérnagas tuvieran duraciones de ciclo ajustables (inicialmente establecido en intervalos aleatorios) ¿sería posible entonces coordinar la duración de sus ciclos y sus destellos?
 
-Introduce algunas luciérnagas ciegas. ¿Cómo les va a las estrategias con esta adición?
+Introduce algunas luciérnagas ciegas. ¿Cómo funcionan las estrategias con esta adición?
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Tenga en cuenta el uso de conjuntos de agentes para contar la cantidad de luciérnagas cercanas que parpadean:
+Nota el uso de conjuntos de agentes para contar el número de luciérnagas cercanas que están destellando.
 
-cuente tortugas en el radio 1 con [color = amarillo]
+Contar tortugas dentro-del-radio 1 con [color = amarillo]
 
 ##  CRÉDITOS Y REFERENCIAS 
 
@@ -73,13 +72,13 @@ Carlson, A.D. & Copeland, J. (1985). Flash Communication in Fireflies. The Quart
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1997).  NetLogo Fireflies model.  http://ccl.northwestern.edu/netlogo/models/Fireflies.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Cite el software NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -98,3 +97,5 @@ This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SEN
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
 
 <!-- 1997 2001 -->
+
+Translated by: Gerardo Rodriguez

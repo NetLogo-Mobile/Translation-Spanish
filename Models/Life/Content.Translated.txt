@@ -1,75 +1,71 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Que es
+﻿## ¿QUÉ ES?
 
-Este programa es un ejemplo de un autómata celular bidimensional. Este autómata celular en particular se llama El juego de la vida.
+Este programa es un ejemplo de un autómata celular bidimensional. Este autómata celular en particular se llama El Juego de la Vida.
 
-Un autómata celular es una máquina computacional que realiza acciones basadas en ciertas reglas. Se puede pensar en un tablero que se divide en celdas (como las celdas cuadradas de un tablero de ajedrez). Cada celda puede estar &quot;viva&quot; o &quot;muerta&quot;. A esto se le llama el &quot;estado&quot; de la celda. De acuerdo con las reglas especificadas, cada celda estará viva o muerta en el siguiente paso de tiempo.
+Un autómata celular es una máquina computacional que realiza acciones basadas en ciertas reglas. Se puede considerar como un tablero que se divide en células (como las células cuadradas de un tablero de ajedrez). Cada célula puede estar "viva" o "muerta". Esto se llama el "estado" de la celda. De acuerdo con las reglas especificadas, cada célula estará viva o muerta en el siguiente paso de tiempo.
 
 ##  COMO FUNCIONA
 
-Las reglas del juego son las siguientes. Cada celda verifica el estado de sí misma y de sus ocho vecinos circundantes y luego se establece como viva o muerta. Si hay menos de dos vecinos vivos, la celda muere. Si hay más de tres vecinos vivos, la celda muere. Si hay 2 vecinos vivos, la celda permanece en el estado en el que se encuentra. Si hay exactamente tres vecinos vivos, la celda se activa. Esto se hace en paralelo y continúa para siempre.
+Las reglas del juego son las siguientes. Cada célula verifica el estado de sí misma y de sus ocho vecinos circundantes y luego se establece como viva o muerta. Si hay menos de dos vecinos vivos, la célula muere. Si hay más de tres vecinos vivos, la célula muere. Si hay 2 vecinos vivos, la célula permanece en el estado en el que se encuentra. Si hay exactamente tres vecinos vivos, la célula se activa. Esto se hace en paralelo y continúa para siempre.
 
-Hay ciertas formas recurrentes en la vida, por ejemplo, el &quot;planeador&quot; y el &quot;intermitente&quot;. El planeador está compuesto por 5 celdas que forman una pequeña forma de punta de flecha, así:
+Hay ciertas formas recurrentes en Vida, por ejemplo, el "planeador" y el "intermitente". El planeador está compuesto por 5 células que forman una pequeña forma de punta de flecha, como esta:
 
-`` texto
-O
-O
-OOO
-&#39;&#39;
+''
+texto O O OOO
+''
 
-Este planeador se moverá por todo el mundo, conservando su forma. Un intermitente es un bloque de tres celdas (arriba y abajo o izquierda y derecha) que gira entre las orientaciones horizontal y vertical.
+Este planeador se moverá por todo el mundo, conservando su forma. Un intermitente es un bloque de tres células (arriba y abajo o izquierda y derecha) que gira entre las orientaciones horizontal y vertical.
 
 ##  COMO USARLO
 
-El control deslizante DENSIDAD INICIAL determina la densidad inicial de las células vivas. SETUP-RANDOM coloca estas celdas. GO-FOREVER ejecuta la regla para siempre. GO-ONCE ejecuta la regla una vez.
+El control deslizante DENSIDAD-INICIAL determina la densidad inicial de las células vivas. PREPARAR-ALEATORIO coloca estas celdas. CONTINUAR-PARA-SIEMPRE ejecuta la regla para siempre. IR-UNA-VEZ ejecuta la regla una vez.
 
-Si desea dibujar su propio patrón, use el botón DRAW-CELLS y luego use el mouse para &quot;dibujar&quot; y &quot;borrar&quot; en la vista.
+Si deseas dibujar tu propio patrón, usa el botón DIBUJAR-CÉLULAS y luego usa el ratón para "dibujar" y "borrar" en la vista.
 
 ##  COSAS PARA NOTAR
 
 Encuentra algunos objetos que estén vivos, pero inmóviles.
 
-¿Existe una &quot;densidad crítica&quot;, una en la que todo cambio y movimiento se detiene / comienza el movimiento eterno?
+¿Existe una "densidad crítica" – una en la que todo cambio y movimiento se detiene/comienza el movimiento eterno?
 
 ##  COSAS PARA INTENTAR
 
-¿Hay formas recurrentes además de planeadores y luces intermitentes?
+¿Hay formas recurrentes además de planeadores y intermitentes?
 
-Construye algunos objetos que no mueran (usando DRAW-CELLS)
+Construya algunos objetos que no mueran (usando DIBUJAR-CÉLULAS)
 
-¿Cuánta vida puede aguantar el tablero y permanecer inmóvil e inmutable? (utilice DRAW-CELLS)
+¿Cuánta vida puede aguantar el tablero y permanecer inmóvil e inmutable? (usa DIBUJAR-CÉLULAS)
 
-El cañón planeador es un gran conglomerado de células que escupe planeadores repetidamente. Encuentra un &quot;cañón planeador&quot; (¡muy, muy difícil!).
+El cañón de planeador es un gran conglomerado de células que escupe planeadores repetidamente. Encuentra un "cañón planeador" (¡muy, muy difícil!).
 
 ##  EXTENDIENDO EL MODELO
 
-Dale a la vida algunas reglas diferentes y mira qué pasa.
+Dale algunas reglas diferentes a la vida y mira qué pasa.
 
-Experimente con el uso de vecinos4 en lugar de vecinos (ver más abajo).
+Experimenta con el uso de vecinos4 en lugar de vecinos (ver más abajo).
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-El primitivo de vecinos devuelve el conjunto de agentes de los parches al norte, sur, este, oeste, noreste, noroeste, sureste y suroeste. Entonces, `count vecinos con [living?]` Cuenta cuántos de esos ocho parches tienen la variable de parche `living?` Establecida en true.
+El primitivo de vecinos devuelve el conjunto de agentes de las parcelas al norte, sur, este, oeste, noreste, noroeste, sureste y suroeste. Entonces, cuenta a los vecinos con [¿vivos?] cuenta cuántos de esos ocho parches tienen los ¿vivos? variable de parche establecida en verdadero.
 
-`vecinos4` es como` vecinos` pero solo usa los parches al norte, sur, este y oeste. Algunos autómatas celulares, como éste, se definen utilizando la regla de los 8 vecinos, otros la de los 4 vecinos.
+`vecinos4` es como` vecinos` pero solo usa las parcelas parches al norte, sur, este y oeste. Algunos autómatas celulares, como éste, se definen utilizando la regla de los 8 vecinos, otros la de los 4 vecinos.
 
 ##  MODELOS RELACIONADOS 
 
-Life Turtle-Based --- same as this, but implemented using turtles instead of patches, for a more attractive display
-CA 1D Elementary --- a model that shows all 256 possible simple 1D cellular automata
-CA 1D Totalistic --- a model that shows all 2,187 possible 1D 3-color totalistic cellular automata
-CA 1D Rule 30 --- the basic rule 30 model
-CA 1D Rule 30 Turtle --- the basic rule 30 model implemented using turtles
-CA 1D Rule 90 --- the basic rule 90 model
-CA 1D Rule 110 --- the basic rule 110 model
-CA 1D Rule 250 --- the basic rule 250 model
+Vida Basada en Tortugas --- igual que este, pero implementado usando tortugas en lugar de parcelas, para una pantalla más atractiva 
+CA 1D Elemental --- un modelo que muestra los 256 posibles autómatas celulares 
+CA 1D Totalista --- un modelo que muestra todos los 2187 posibles autómatas celulares totalistas 1D de 3 colores 
+CA 1D Regla 30 --- la regla básica 30 modelo 
+CA 1D Regla 30 Tortuga --- la regla básica 30 modelo implementado usando tortugas 
+CA 1D Regla 90 --- la regla básica 90 modelo
+CA 1D Regla 110 --- la regla básica 110 modelo 
+CA 1D Regla 250 --- la regla básica modelo 250
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-The Game of Life was invented by John Horton Conway.
+El Juego de la Vida fue inventado por John Horton Conway.
 
-See also:
-
+También consulta:
 Von Neumann, J. and Burks, A. W., Eds, 1966. Theory of Self-Reproducing Automata. University of Illinois Press, Champaign, IL.
 
 "LifeLine: A Quarterly Newsletter for Enthusiasts of John Conway's Game of Life", nos. 1-11, 1971-1973.
@@ -84,13 +80,13 @@ William Poundstone, The Recursive Universe, William Morrow: New York, 1985.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1998).  NetLogo Life model.  http://ccl.northwestern.edu/netlogo/models/Life.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -109,3 +105,5 @@ This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SEN
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
 
 <!-- 1998 2001 -->
+
+Translated by: Cassandra Lagunas
