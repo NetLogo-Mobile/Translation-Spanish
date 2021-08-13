@@ -8,12 +8,12 @@ blues
 ### Source
 greens
 ### Spanish
-verduras
+verdes
 
 ### Source
 Molecule amounts
 ### Spanish
-Cantidades de moléculas
+Cantidades de Moléculas
 
 ### Source
 number
@@ -28,7 +28,7 @@ rosas
 ### Source
 ticks
 ### Spanish
-garrapatas
+tics
 
 ### Source
 yellows
@@ -39,12 +39,12 @@ amarillos
 ### Source
 blue-molecules
 ### Spanish
-moléculas azules
+moléculas-azules
 
 ### Source
 blues
 ### Spanish
-blues
+azules
 
 ### Source
 go
@@ -54,7 +54,7 @@ ir
 ### Source
 greens
 ### Spanish
-verduras
+verdes
 
 ### Source
 pinks
@@ -64,15 +64,15 @@ rosas
 ### Source
 setup
 ### Spanish
-configuración
+preparar
 
 ### Source
 yellow-molecules
 ### Spanish
-moléculas amarillas
+moléculas-amarillas
 
 ### Source
 yellows
 ### Spanish
-amarillos
+amarillas
 

@@ -1,43 +1,42 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Que es
+﻿## ¿QUÉ ES?
 
-Este modelo muestra cómo un sistema químico simple llega a diferentes estados de equilibrio dependiendo de las concentraciones de los reactivos iniciales. Equilibrio es el término que usamos para describir un sistema en el que no hay cambios macroscópicos. Esto significa que el sistema &quot;parece&quot; como si nada estuviera sucediendo. De hecho, en todos los sistemas químicos los procesos a nivel atómico continúan pero en un equilibrio que no produce cambios a nivel macroscópico.
+Este modelo muestra cómo un sistema químico simple llega a diferentes estados de equilibrio dependiendo de las concentraciones de los reactivos iniciales. Equilibrio es el término que usamos para describir un sistema en el que no hay cambios macroscópicos. Esto significa que el sistema "parece" como si nada estuviera sucediendo. De hecho, en todos los sistemas químicos los procesos a nivel atómico continúan pero en un equilibrio que no produce cambios a nivel macroscópico.
 
 Este modelo simula dos reacciones simples de cuatro moléculas. Las reacciones se pueden escribir:
 
-`` texto
-A + B =======&gt; C + D
-&#39;&#39;
+`` 
+texto A + B =======> C + D
+``
 
 y
 
-`` texto
-C + D =======&gt; A + B
-&#39;&#39;
+`` 
+texto C + D =======> A + B
+``
 
 Esto también se puede escribir como una reacción única y reversible:
 
-`` texto
-A + B &lt;=======&gt; C + D
-&#39;&#39;
+`` 
+texto A + B <=======> C + D
+``
 
-Un ejemplo clásico de la vida real de tal reacción ocurre cuando el monóxido de carbono reacciona con el dióxido de nitrógeno para producir dióxido de carbono y monóxido de nitrógeno (o óxido nítrico). La reacción inversa (donde el dióxido de carbono y el monóxido de nitrógeno reaccionan para formar monóxido de carbono y dióxido de nitrógeno) también es posible. Si bien todas las sustancias en la reacción son gases, en realidad podríamos ver cómo tal sistema alcanza el equilibrio, ya que el dióxido de nitrógeno (NO <sub>2</sub> ) es un gas visible de color rojizo. Cuando el dióxido de nitrógeno (NO <sub>2</sub> ) se combina con el monóxido de carbono (CO), los productos resultantes, monóxido de nitrógeno (NO) y dióxido de carbono (CO <sub>2</sub> ), son incoloros, lo que hace que el sistema pierda algo de su color rojizo. Finalmente, el sistema llega a un estado de equilibrio con algunos de los &quot;reactivos&quot; y algunos de los &quot;productos&quot; presentes.
+Un ejemplo clásico de la vida real de tal reacción ocurre cuando el monóxido de carbono reacciona con el dióxido de nitrógeno para producir dióxido de carbono y monóxido de nitrógeno (o óxido nítrico). La reacción inversa (donde el dióxido de carbono y el monóxido de nitrógeno reaccionan para formar monóxido de carbono y dióxido de nitrógeno) también es posible. Mientras que todas las sustancias en la reacción son gases, en realidad podríamos ver cómo tal sistema alcanza el equilibrio, ya que el dióxido de nitrógeno (NO <sub>2 </sub> ) es un gas visible de color rojizo. Cuando el dióxido de nitrógeno (NO <sub>2 </sub>) se combina con el monóxido de carbono (CO), los productos resultantes, monóxido de nitrógeno (NO) y dióxido de carbono (CO <sub>2 </sub>), son incoloros, lo que hace que el sistema pierda algo de su color rojizo. Finalmente, el sistema llega a un estado de equilibrio con algunos de los "reactivos" y algunos de los "productos" presentes.
 
-Si bien la cantidad de cada &quot;reactivo&quot; y &quot;producto&quot; con el que termina un sistema depende de una serie de factores (que incluyen, por ejemplo, cuánta energía se libera cuando las sustancias reaccionan o la temperatura del sistema), este modelo se centra en la concentraciones de los reactivos.
+Si bien la cantidad de cada "reactivo" y "producto" con el que termina un sistema depende de una serie de factores (que incluyen, por ejemplo, cuánta energía se libera cuando las sustancias reaccionan o la temperatura del sistema), este modelo se centra en la concentraciones de los reactivos.
 
 ##  COMO FUNCIONA
 
-En el modelo, las moléculas azules y amarillas pueden reaccionar entre sí al igual que las moléculas verdes y rosadas. En cada tic, cada molécula se mueve aleatoriamente por todo el mundo encontrando otras moléculas. Si se encuentra con una molécula con la que puede reaccionar (por ejemplo, una molécula amarilla que se encuentra con un azul, o una rosa que se encuentra con un verde, se produce una reacción. Porque las moléculas azules y amarillas reaccionan para producir moléculas verdes y rosas, y las moléculas verdes y rosadas reaccionan para producir moléculas azules y amarillas, finalmente se alcanza un estado de equilibrio.
+En el maodelo, las moléculas azules y amarillas pueden reaccionar entre sí al igual que las moléculas verdes y rosadas. En cada tic, cada molécula se mueve aleatoriamente por todo el mundo encontrando otras moléculas. Si se encuentra con una molécula con la que puede reaccionar (por ejemplo, una molécula amarilla que se encuentra con un azul, o una rosa que se encuentra con un verde, se produce una reacción. Porque las moléculas azules y amarillas reaccionan para producir moléculas verdes y rosas, y las moléculas verdes y rosadas reaccionan para producir moléculas azules y amarillas, finalmente se alcanza un estado de equilibrio.
 
-Para evitar que las moléculas reaccionen inmediatamente dos veces seguidas, cada molécula tiene un &quot;temporizador&quot;. Después de una reacción, este temporizador se establece en 2, y después de dos tics, el temporizador se reduce a cero, lo que permite que la molécula reaccione de nuevo.
+Para evitar que las moléculas reaccionen inmediatamente dos veces seguidas, cada molécula tiene un "temporizador". Después de una reacción, este temporizador se establece en 2, y después de dos tics, el temporizador se reduce a cero, lo que permite que la molécula reaccione de nuevo.
 
 ##  COMO USARLO
 
-Los deslizadores AMARILLO-MOLÉCULAS y AZUL-MOLÉCULAS determinan el número inicial de moléculas amarillas y azules respectivamente. Una vez que estos controles deslizantes están configurados, presionar el botón SETUP crea estas moléculas y las distribuye por todo el mundo.
+Los deslizadores MOLÉCULAS-AMARILLAS y MOLÉCULAS-AZULES determinan el número inicial de moléculas amarillas y azules respectivamente. Una vez que estos controles deslizantes están configurados, presionar el botón PREPARAR crea estas moléculas y las distribuye por todo el mundo.
 
 El botón IR pone en movimiento la simulación. Las moléculas se mueven al azar y reaccionan entre sí, cambiando de color para representar el reordenamiento de los átomos en diferentes estructuras moleculares. El sistema pronto se equilibra.
 
-Cuatro monitores muestran cuántas moléculas de cada tipo hay en el sistema. El gráfico CANTIDADES DE MOLÉCULAS muestra el número de cada tipo de molécula presente a lo largo del tiempo.
+Cuatro monitores muestran cuántas moléculas de cada tipo hay en el sistema. El gráfico NÚMERO-DE-MOLÉCULAS muestra el número de cada tipo de molécula presente a lo largo del tiempo.
 
 ##  COSAS PARA NOTAR
 
@@ -47,34 +46,34 @@ Puede notar que la cantidad de moléculas de producto está limitada por la meno
 
 ¿Cómo afectan las diferentes cantidades de los dos reactivos al equilibrio final? ¿Son importantes las cantidades absolutas, es la diferencia entre las cantidades o es la relación de los dos reactivos lo que importa?
 
-Intente configurar el control deslizante YELLOW-MOLECULES en 400 y el control deslizante BLUE-MOLECULES en 20, 40, 100, 200 y 400 en cinco simulaciones sucesivas. ¿Qué tipo de estado de equilibrio predice en cada caso? ¿Son predecibles ciertas proporciones?
+Intente configurar el control deslizante MOLÉCULAS-AMARILLAS en 400 y el control deslizante MOLÉCULAS-AZULES en 20, 40, 100, 200 y 400 en cinco simulaciones sucesivas. ¿Qué tipo de estado de equilibrio predice en cada caso? ¿Son predecibles ciertas proporciones?
 
-¿Qué sucede cuando comienzas con el mismo número de MOLÉCULAS AMARILLAS y MOLÉCULAS AZULES? Después de ejecutar el modelo, ¿cuál es la relación entre el recuento de estos dos tipos de moléculas?
+¿Qué sucede cuando comienzas con el mismo número de MOLÉCULAS-AMARILLAS y MOLÉCULAS-AZULES? Después de ejecutar el modelo, ¿cuál es la relación entre el recuento de estos dos tipos de moléculas?
 
 ##  EXTENDIENDO EL MODELO
 
-¿Qué pasaría si las velocidades de reacción directa e inversa estuvieran determinadas por una variable en lugar de las concentraciones iniciales? Puede comparar dicha simulación con la de este modelo y ver si la concentración y las velocidades de reacción actúan de forma independiente entre sí, según lo medido por el estado de equilibrio final.
+¿Qué pasaría si las velocidades de reacción directa e inversa estuvieran determinadas por una variable en lugar de las concentraciones iniciales? Puedes comparar dicha simulación con la de este modelo y ver si la concentración y las velocidades de reacción actúan de forma independiente entre sí, según lo medido por el estado de equilibrio final.
 
-También puede ampliar el programa permitiendo que el usuario introduzca nuevas moléculas en la simulación mientras se está ejecutando. ¿Cómo afectaría la adición de cincuenta moléculas azules a un sistema que ya está en equilibrio?
+También puedes ampliar el programa permitiendo que el usuario introduzca nuevas moléculas en la simulación mientras se está ejecutando. ¿Cómo afectaría la adición de cincuenta moléculas azules a un sistema que ya está en equilibrio?
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-La línea `si hay alguna? turtles-here con [color = reactant-2-color] `usa una combinación de los comandos` any? `y` turtles-here` para verificar si hay otras tortugas de un tipo específico ocupando el mismo camino. Esta es una forma sucinta y fácilmente legible de lograr este comportamiento.
+La línea `if any? turtles-here con [ color = reactant-2-color ]` usa una combinación de los comandos `any?` y `turtles-here` para verificar si hay otras tortugas de un tipo específico ocupando el mismo camino. Esta es una forma sucinta y fácilmente legible de lograr este comportamiento.
 
 ##  MODELOS RELACIONADOS 
 
-Enzyme Kinetics
-Simple Kinetics 1
+Cinética de Enzimas
+Cinética Simple 1
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si menciones este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1998).  NetLogo Chemical Equilibrium model.  http://ccl.northwestern.edu/netlogo/models/ChemicalEquilibrium.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -93,3 +92,5 @@ This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SEN
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
 
 <!-- 1998 2001 -->
+
+Translated by: Chelsea Guzmán
