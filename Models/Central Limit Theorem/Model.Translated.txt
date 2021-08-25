@@ -1,0 +1,134 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Plots
+### Source
+Count
+### Spanish ***
+Contar
+
+### Source
+Mean Value
+### Spanish ***
+Valor medio
+
+### Source
+means
+### Spanish ***
+medio
+
+### Source
+means-mean
+### Spanish ***
+significa-significa
+
+### Source
+Sample-Data Distribution
+### Spanish ***
+Distribución de datos de muestra
+
+### Source
+sums
+### Spanish ***
+sumas
+
+### Source
+sums-mean
+### Spanish ***
+sumas-significan
+
+## Widgets
+### Source
+also-sums?
+### Spanish ***
+también-sumas?
+
+### Source
+Create My Own People
+### Spanish ***
+Crear mi propia gente
+
+### Source
+Create Random People
+### Spanish ***
+Crear personas al azar
+
+### Source
+Expected Value
+### Spanish ***
+Valor esperado
+
+### Source
+go
+### Spanish ***
+Vamos
+
+### Source
+Go Once
+### Spanish ***
+Ir una vez
+
+### Source
+max-value
+### Spanish ***
+valor máximo
+
+### Source
+num-samples
+### Spanish ***
+num-samples
+
+### Source
+Preset 1
+### Spanish ***
+Preestablecido 1
+
+### Source
+Preset 2
+### Spanish ***
+Preestablecido 2
+
+### Source
+Preset 3
+### Spanish ***
+Preajuste 3
+
+### Source
+Preset 4
+### Spanish ***
+Preajuste 4
+
+### Source
+Preset 5
+### Spanish ***
+Preajuste 5
+
+### Source
+Preset 6
+### Spanish ***
+Preajuste 6
+
+### Source
+sample-size
+### Spanish ***
+tamaño de la muestra
+
+### Source
+setup
+### Spanish ***
+configuración
+
+### Source
+show-ev?
+### Spanish ***
+show-ev?
+
+### Source
+std-dev-means
+### Spanish ***
+std-dev-means
+
+### Source
+std-dev-sums
+### Spanish ***
+std-dev-sums
+

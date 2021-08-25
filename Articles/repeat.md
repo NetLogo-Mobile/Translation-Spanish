@@ -1,16 +1,18 @@
 ﻿*** Machine Translated
-`repeat` te permite ejecutar cualquier conjunto de comandos *n* cantidad de veces. Toma la forma de:
+`repeat` nos permite ejecutar cualquier conjunto de comandos *n* cantidad de veces consecutivas. `repeat` es especialmente útil cuando se dibujan formas geométricas junto con las primitivas de `pen-down` y `pen-up` Por ejemplo, si quisiéramos que nuestras tortugas dibujaran un cuadrado, escribiríamos el siguiente código:
 
-```repeat n [ commands ] ```
 
-Por ejemplo, si le pides a una tortuga que `repeat 10 [ forward 1 ]`, ejecutará esos comandos 10 veces consecutivas, lo que dará como resultado que la tortuga avance 10 unidades hacia adelante. Puedes usar la `repeat` en cualquier contexto siempre que esté dentro de un comando de preguntar o fuera de un comando de preguntar. `repeat` puede ser especialmente útil al dibujar formas. Por ejemplo, el siguiente código haría que las tortugas dibujaran un cuadrado:
 
 ```
- ask turtles [
-  pen-down
-      repeat 4 [
-      forward 10
-      right 90
-   ]
+ask turtles [
+	pen-down
+	repeat 4 [
+		right 90
+		forward 5
+	]
+	pen-up
 ]
 ```
+
+
+En el ejemplo de modelo a continuación, tenemos 36 tortugas que se colocan inicialmente en un diseño de círculo cuando se hace clic *en el botón de configuración.* Cuando hacemos clic en el botón Ir, cada tortuga gira a la derecha 1 grado y avanza 0.03 unidades 360 veces. Este simple comportamiento de repetición da como resultado una forma muy interesante.

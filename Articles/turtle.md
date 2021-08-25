@@ -1,7 +1,7 @@
 ﻿*** Machine Translated
 Las tortugas son agentes móviles en NetLogo que se pueden colocar en cualquier parte del mundo, pueden verse como cualquier cosa (por ejemplo, forma, color, tamaño) y pueden moverse. Son el tipo principal de agentes en los modelos NetLogo.
 
-La primitiva `turtle` informa sobre la tortuga específica con el número dado. Por ejemplo, si quisiéramos crear un modelo con solo dos tortugas, una un gato y la otra un mouse, podríamos escribir el siguiente código. Observe que cuando creamos tortugas, la numeración comienza con cero.
+La primitiva `turtle` reporta una tortuga específica con el número dado. Por ejemplo, si quisiéramos crear un modelo con solo dos tortugas, una un gato y la otra un ratón, podríamos escribir el siguiente código. Observe que cuando creamos tortugas, la numeración comienza con cero.
 
 
 
@@ -35,7 +35,7 @@ ask one-of turtles with [color = yellow][
 Cosas a tener en cuenta al usar `turtle` y `turtles` :
 
 - Las `turtles` primitivas siempre reportarán el mismo conjunto de agentes (a menos que una tortuga muera), pero el orden de las tortugas será aleatorio cada vez que lo usemos.
-- Las tortugas tienen algunas características predeterminadas que pueden tener un valor diferente para cada tortuga. Algunas de las características vienen preconstruidas (p. Ej., `color` , `xcor` , `ycor` , `label` , `size` , `heading` ), pero también podemos definir características personalizadas con la primitiva `turtles-own` las `turtles-own` , como `turtles-own [minerals water]` .
+- Las tortugas tienen algunas características predeterminadas que pueden tener un valor diferente para cada tortuga. Algunas de las características vienen preconstruidas (por ejemplo, `color` , `xcor` , `ycor` , `label` , `size` , `heading` ), pero también podemos definir características personalizadas con el primitivo `turtles-own` las `turtles-own` , como `turtles-own [minerals water]` .
 - También podemos crear razas de tortugas personalizadas utilizando el primitivo de la `breed` , como la `breed [trees tree]` .
 
 

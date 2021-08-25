@@ -102,6 +102,7 @@
     <String ID="键盘输入" Status="0" English="Keyboard input">Input del teclado</String>
   </Interfaces>
   <Messages>
+    <String ID="如果网页未能打开，请扫描二维码" Status="1" English="Scan the QR code if fails to load">Escanee el código QR si no se carga</String>
     <String ID="更多功能将于后续版本中更新。" Status="0" English="More features will be updated in a future release.">Se actualizarán más funciones en una versión futura.</String>
     <String ID="没有适合目前实验模式的 AR 体验！" Status="0" English="No AR experience is found for current experiment!">¡No se encontró experiencia de RA para el experimento actual!</String>
     <String ID="没有可供撤销的操作。" Status="0" English="There are no actions to undo.">No hay acciones para deshacer.</String>
@@ -363,6 +364,7 @@
   <Preferences>
     <String ID="应用设置" Status="0" English="App Settings">Configuración de Aplicacion</String>
     <String ID="通用设置" Status="0" English="General Settings">Configuración General</String>
+    <String ID="黑暗模式" Status="1" English="Dark Mode">Modo oscuro</String>
     <String ID="显示通知数量" Status="0" English="Badge Number">Numero de Placa</String>
     <String ID="画面抗锯齿" Status="0" English="Antialiasing">Antialiasing</String>
     <String ID="隐私设置" Status="0" English="Privacy Setting">Configuración de Privacidad</String>

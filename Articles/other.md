@@ -1,26 +1,15 @@
 ﻿*** Machine Translated
-`other` informa un conjunto de agentes que es el mismo que el conjunto de agentes de entrada pero omite el agente que solicita. En otras palabras, se excluye del conjunto de agentes resultante. Por ejemplo:
+`other` informa un conjunto de agentes que es el mismo que el conjunto de agentes de entrada pero omite el agente que solicita. Es muy útil cuando queremos que las tortugas se comuniquen entre sí. Por ejemplo, si quisiéramos crear un modelo de red en el que cada tortuga esté conectada a otra tortuga elegida al azar con un enlace, escribiríamos el siguiente enlace:
 
 
 
 ```
-show count turtles-here
-=> 10
-show count other turtles-here
-=> 9  
+ask turtles [
+	create-link-with one-of other turtles
+]
 ```
 
 
-muestra cómo un agente, la tortuga original que llamó al comando, se excluye del conjunto de agentes, lo que da como resultado el recuento final de "9". `other` suele ser útil cuando queremos que nuestros agentes interactúen con otros agentes. Por ejemplo,
+Usamos `other` en este contexto porque si no lo hiciéramos, existe la posibilidad de que `one-of turtles` informe la misma tortuga. Si esto sucede, NetLogo mostraría un error porque una tortuga no puede crear un vínculo consigo misma.
 
-```ask turtles [ if any? turtles-here [ ```
-
-```                             set color red ] ] ```
-
- haría que todas las tortugas sean rojas porque `turtles-here` informa la tortuga original también. Siempre hay al menos 1 tortuga cuando usamos `turtles-here` . Sin embargo, si escribimos
-
-```ask turtles [if any? other turtles-here [ ```
-
-```                             set color red ] ] ```
-
- sólo las tortugas que tienen otra tortuga en la misma parcela se pondrían rojas.
+En el ejemplo de modelo a continuación, tenemos grupos de tortugas estacionarias distribuidas aleatoriamente en el mundo que representan a las personas y tenemos una tortuga móvil que representa a un médico. El médico se mueve al azar y cuando se encuentra con `other turtles` , les pide a las otras tortugas en el mismo parche que se pongan verdes si están sanas y rojas si están infectadas.

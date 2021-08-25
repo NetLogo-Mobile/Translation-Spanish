@@ -29,7 +29,7 @@ ask patches with [pxcor = min-pxcor][
 Cosas a tener en cuenta al usar `patch` y `patches` :
 
 - Los `patches` primitivos siempre informarán del mismo conjunto de agentes, pero el orden de los parches será aleatorio cada vez que lo usemos.
-- Como las tortugas, los parches también tienen características. Algunas de las características vienen preconstruidas (por ejemplo, `pcolor` , `pxcor` , `pycor` , `plabel` ), pero también podemos definir características personalizadas con la `patches-own` los parches, como los `patches own [minerals water]` .
+- Como las tortugas, los parches también tienen características. Algunas de las características vienen preconstruidas (por ejemplo, `pcolor` , `pxcor` , `pycor` , `plabel` ), pero también podemos definir características personalizadas con la `patches-own` los parches, como `patches own [minerals water]` .
 - No podemos crear razas de parches personalizados.
 
 

@@ -1,14 +1,26 @@
 ﻿*** Machine Translated
-`neighbors` se usa para informar un conjunto de agentes que contiene las ocho parcelas circundantes del agente en las direcciones norte, noreste, este, sureste, este, suroeste, oeste y noroeste. Tanto las tortugas como las parcelas pueden usar este reportero. Por ejemplo, para poner en rojo las parcelas vecinos de la tortuga 1, diríamos:
+`neighbors4` informa de un agentset que contiene los cuatro parches que rodean el parche actual de un agente en el norte, este, oeste, sur y las instrucciones. Tanto las tortugas como los parches pueden usar este reportero. Por ejemplo, si quisiéramos crear un modelo en el que un incendio se propagara desde un parche a sus vecinos, escribiríamos el siguiente código:
 
-```ask turtle 1 [ ```
 
- ```ask neighbors [ set pcolor red ] ] ```
 
-`neighbors4` se usa para informar de un agentset que contiene sólo las cuatro muestras cercanas en el norte, este, sur, oeste y direcciones (también llamados puntos cardinales). Tanto las tortugas como las parcelas pueden usar este reportero. Por ejemplo, para cambiar a amarillo solo las parcelas directamente arriba, abajo, a la derecha y a la izquierda de la tortuga 1, diríamos:
+```
+ask patches [
+	if pcolor = red [
+		ask neighbors4 [
+			if pcolor = green [
+				set pcolor red
+			]
+		]
+	]
+]
+```
 
-```ask turtle 1 [ ```
 
- ```ask neighbors4 [ set pcolor yellow ] ] ```
+Cosas a tener en cuenta al usar `neighbors4` :
 
-En el siguiente modelo, hay un incendio que se propaga en un bosque. Una parcela encendida se extenderá a las parcelas vecinas que contienen árboles. Dependiendo de si el interruptor está en `neighbors` o `neighbors4` , el fuego se extenderá a todos los árboles vecinos o solo a los árboles en las direcciones cardinales, respectivamente.
+- `neighbors4` siempre reportará parches incluso si lo usamos dentro de un contexto `ask turtles` Si desea que un agente vea las tortugas vecinas, puede usar las `turtles-on neighbors4` .
+- También hay una `neighbors` que informa de los ocho parches vecinos.
+- Tenga en cuenta *la envoltura* del mundo cuando use `neighbors4` como un parche en el borde del mundo informará el parche en el otro extremo del modelo como su vecino. Si desactiva el ajuste del *mundo* , un parche informará dos parches si está en la esquina o tres parches si está en el borde.
+
+
+En el ejemplo de modelo a continuación, hay un incendio que se propaga en un bosque. Un parche en llamas se extenderá a los parches vecinos en direcciones cardinales que contienen árboles. Si un parche de fuego tiene parches marrones vecinos que indican suelo, se volverán grises para indicar el borde del incendio forestal.

@@ -1,0 +1,135 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Que es
+
+Esto demuestra las relaciones entre las distribuciones de la población y sus distribuciones medias muestrales, así como el efecto del tamaño de la muestra en esta relación. En este modelo, una población se distribuye por alguna variable, por ejemplo, por sus activos totales en miles de dólares. La población se distribuye aleatoriamente, no necesariamente &quot;normalmente&quot;, pero las medias muestrales de esta población se acumulan, no obstante, en una distribución que se aproxima a una curva normal. El programa permite el muestreo repetido de especímenes individuales en la población.
+
+Este modelo es parte del plan de estudios de ProbLab. El plan de estudios de ProbLab se encuentra actualmente en desarrollo en el CCL. Para obtener más información sobre el plan de estudios ProbLab, consulte http://ccl.northwestern.edu/curriculum/ProbLab/.
+
+##  COMO FUNCIONA
+
+O el programa o el usuario crean una población que varía a lo largo de alguna dimensión, como los activos totales. En la Vista, vemos esta población organizada en un &quot;gráfico de barras de imagen&quot;. Por ejemplo, las personas más pobres están más a la izquierda y las personas más ricas están más a la derecha. A continuación, se selecciona un grupo de especímenes individuales de esta población como muestra (estas personas muestreadas están pintadas de un color diferente). El programa calcula el valor medio de esta muestra - sus activos promedio - y traza esta media en el histograma debajo de la vista. Podemos configurar el programa para muestrear repetidamente y podemos observar el surgimiento de la distribución de medias muestrales. También podemos mirar el histograma correspondiente de las sumas de las muestras. Esto nos permite estudiar la relación entre las sumas y las medias en términos de propiedades de sus distribuciones.
+
+##  COMO USARLO
+
+Presione CONFIGURAR, y luego presione CREAR PERSONAS ALEATORIAS o CREAR MI PROPIA PERSONA o simplemente presione uno de los botones PREAJUSTAR. Si ha creado personas al azar o si ha presionado uno de los ajustes preestablecidos, ahora está listo para presionar IR UNA VEZ o IR. Pero si presionó CREAR MIS PROPIAS PERSONAS, ahora debe hacer haz clic en Ver para crear estas personas. Solo entonces debe presionar CONTINUAR UNA VEZ o CONTINUAR. También puede variar la configuración de los controles deslizantes. Observe los resultados en la gráfica y explore las relaciones entre la configuración y los resultados. Si desea adivinar el valor medio de las medias de la muestra antes de comenzar a muestrear, puede usar el control deslizante RANGE para indicar la ubicación de esta media.
+
+Botones:
+CONFIGURACIÓN - inicializar variables
+CREAR PERSONAS ALEATORIAS: activa CONFIGURACIÓN y luego crea una población aleatoria en la Vista
+CREAR MIS PROPIAS PERSONAS: permite al usuario crear personas haciendo clic en Ver
+PRESET 1 - PRESET 6 - crea poblaciones con patrones especiales de posible interés
+IR UNA VEZ: marca una muestra en la población y calcula y grafica su valor medio.
+IR - repite IR UNA VEZ indefinidamente.
+
+Deslizadores:
+TAMAÑO DEL MUESTREADOR: determina el número de muestras muestreadas en cada ejecución mediante el procedimiento Go
+MAX-VALUE: determina el rango de valores que pueden tomar los miembros de la población (un número en el intervalo 0 a MAX-VALUE)
+
+Interruptores:
+¿TAMBIÉN SUMAS? - si se establece en &quot;Activado&quot;, se grafican las sumas de las muestras (y las medias de estas sumas), así como las medias de las muestras (y la media de estas medias). Si se establece en &quot;Desactivado&quot;, solo se trazan las medias.
+SHOW-EV? - si se establece en &quot;On&quot;, el monitor de VALOR ESPERADO (EV) mostrará un valor
+
+Monitores:
+NUM-SAMPLES: muestra el número total de muestras tomadas, esta es la última &quot;configuración&quot;.
+VALOR ESPERADO: calcula el valor x medio de la población. Para cada columna, el programa calcula el producto del número de tortugas por el valor x de esa columna. A continuación, todos estos productos se suman y se dividen por el número total de tortugas.
+STD-DEV-MEANS: muestra la desviación estándar del histograma de las medias de la muestra. Este es un índice de cuán &quot;difusa&quot; es la distribución. Cuanto menor sea el número, más ajustada (más estrecha, más agrupada) es la distribución de las medias muestrales.
+STD-DEV-MEANS: muestra la desviación estándar del histograma de sumas de muestra.
+
+Parcelas:
+DISTRIBUCIÓN DE MUESTRA-MEDIA: distribución de los valores medios de todas las muestras tomadas y la suma media de todas las muestras tomadas.
+
+##  COSAS PARA NOTAR
+
+La propiedad que estamos viendo está indexada por el &quot;valor x&quot; de las personas en el gráfico de barras que está en la Vista. El valor x de una persona se puede ver en la etiqueta numérica en la parte inferior de su columna en la vista. Por ejemplo, el valor x de las personas en la columna más a la izquierda es 0. En principio, no podría haber ninguna persona con el valor x &quot;0&quot;, podría haber una sola persona con ese valor, o podría haber dos o más. Todos comparten el mismo valor, porque todos están en la misma columna.
+
+Los miembros de la población que se vuelven verdes cuando presiona CONTINUAR o CONTINUAR UNA VEZ son la &#39;muestra&#39;. Su valor x medio, por ejemplo, sus ahorros, se traza en el histograma debajo de la vista. Por ejemplo, si se toma una muestra de tres personas y sus valores x son 7, 8 y 12, la columna del histograma &quot;9&quot; aumentará en una unidad, porque 9 es la media de 7, 8 y 12. .
+
+Para algunos entornos de la población, cuantas más muestras tome, más probabilidades tendrá de obtener una muestra rara. Por lo tanto, la distribución que obtiene después de unas pocas muestras no refleja necesariamente todos los valores medios posibles.
+
+##  COSAS PARA INTENTAR
+
+¿Puede ver alguna conexión entre la distribución de la población (en la ventana de visualización de gráficos) y el valor medio del histograma (en la ventana la gráfica )? Por ejemplo, si resulta que hay más especímenes de población (&quot;personas&quot;) en el lado izquierdo del rango, ¿dónde espera ver la mayoría de las medias de la muestra?
+
+Intente ejecutar el modelo con un TAMAÑO DE MUESTRA de solo 1. ¿Qué obtiene? Ahora intente con un TAMAÑO DE MUESTRA de 2. ¿Ha cambiado algo? ¿Qué tal una muestra más grande?
+
+¿Existe alguna conexión entre SAMPLE SIZE, RANGE y STD-DEV? Una forma de explorar esta pregunta es mantener dos de estas variables constantes y examinar qué sucede cuando cambia la tercera variable. Es posible que desee tomar un número igual de muestras para cada uno de estos ensayos.
+
+Si configura el modelo en un tamaño de muestra que es mayor que el tamaño total de la población, recibirá un mensaje indicándole que no puede hacer esto. Sin embargo, puede establecer un tamaño de muestra mayor que la mayoría de las columnas. Esto significa que toda la muestra no puede caber en esas columnas. ¿Es esto un problema? ¿Qué efecto tiene esto en la distribución de las medias muestrales?
+
+Con la opción CREAR MI PROPIA GENTE, cree algunas poblaciones &quot;inusuales&quot;. Algunos de estos ya se han colocado en los botones PRESET. Por ejemplo, podría crear personas solo en una o dos columnas, o podría hacer que la población tenga &quot;forma de U&quot; (más en el exterior y cada vez menos a medida que avanza hacia el medio). ¿Cuáles son tus hallazgos?
+
+Nuevamente, usando la opción CREAR MI PROPIA GENTE, construya una columna muy alta en el lado derecho de la vista (aproximadamente en el valor x 8) y construya algunas columnas muy cortas. Establezca TAMAÑO DE MUESTRA en 10. Presione CONTINUAR UNA VEZ. ¿Qué puede decir sobre el número de personas que fueron elegidas de la columna alta? Inténtelo de nuevo y luego presione GO. Mira la gráfica. ¿Ve alguna conexión entre la posibilidad de obtener muestras de la columna alta y la ubicación de la media en la gráfica?
+
+¿Establecer TAMBIÉN-SUMAS? a &quot;On&quot; y active el programa. ¿Puede explicar las similitudes y diferencias entre los dos histogramas que obtiene? Por ejemplo, puede observar su rango, el área total que cubren, su altura y su forma. Intente explicar la transformación entre los dos histogramas. Por ejemplo, ¿por qué el histograma de la izquierda es más alto que el histograma de la derecha? Observa la desviación estándar de las medias y de las sumas. ¿Cuál es la razón entre estos dos valores? ¿Esta relación se relaciona con algún otro valor en la configuración de este modelo?
+
+En relación con los dos histogramas, ¿puede encontrar un caso en el que los dos histogramas converjan en un solo histograma?
+
+Presione SETUP, presione CREATE MY OWN PEOPLE y haga 6 columnas de la altura 2 (dos personas), configure el tamaño de la muestra en 2 y configure ALSO-SUMS? a &quot;Activado&quot;. Ahora presione GO. Es interesante comparar entre esta actividad estadística y una actividad de probabilidad en la que está tirando un par de dados. Por ejemplo, ¿cuántas columnas posibles hay en el histograma de sumas? De hecho, tal comparación puede ayudarnos a pensar en las similitudes y diferencias entre la estadística y la probabilidad.
+
+¿Cuál es la relación entre el número de muestras que toma, el tamaño de cada muestra y la distribución resultante de las medias muestrales? Por ejemplo, si tiene un presupuesto para muestrear a 1000 personas, ¿debería tomar 10 muestras de tamaño 100 cada una o 100 muestras de tamaño 10 cada una? ¿Qué gana y qué pierde, quizás, en cada una de estas opciones? Por ejemplo, en términos de confianza o en términos de información sobre la población de la que está muestreando. Para explorar esta pregunta, es posible que desee ampliar el rango del tamaño de la muestra. Es posible que también desee cambiar el tamaño de la vista para permitir más especímenes en su población. Finalmente, puede ser útil tener un control deslizante y el código correspondiente para controlar el número total de muestras que está tomando.
+
+##  NOTA PEDAGÓGICA
+
+Lo primero que debemos recordar es que, en realidad, no conocemos la distribución de la población de la que estamos muestreando. Solo tenemos la gráfica, por así decirlo. Por lo tanto, mientras interactúa con este modelo, debe recordar que en las estadísticas aplicadas, la pantalla gráfica no existe. En este modelo, sin embargo, estamos simulando la población, como si supiéramos su distribución, para comprender la relación entre las métricas de población y sus distribuciones de medias muestrales.
+
+Es posible que haya notado que, casi independientemente de la forma de su población, el histograma siempre toma una forma determinada. Esta forma se llama &quot;curva normal&quot; o &quot;curva de campana&quot; o &quot;curva en forma de campana&quot;. Decimos que el histograma &quot;se acerca&quot; a la curva normal a medida que se toman más y más muestras. Para distribuciones de población especiales, podemos obtener casos especiales de esta curva. Por ejemplo, si ha creado una población que tiene a todas las personas en la misma columna, su histograma será un caso extremo de una curva de campana; en sí mismo, constará de una sola columna.
+
+A menudo, la gente dice que &quot;una población está distribuida ... etc&quot;, pero podría ser que, a veces, lo que realmente quieren decir es que &quot;las medias muestrales de la población están distribuidas ... etc&quot;. Esto no implica que la segunda figura retórica sea necesariamente preferible, sino solo que debemos entender la diferencia entre estas dos ideas. En este modelo, la vista muestra cómo se distribuye la población en sí, mientras que la gráfica muestra cómo se distribuyen las medias muestrales. Al trabajar con este modelo, uno puede sorprenderse por el contraste entre estas dos distribuciones.
+
+El gráfico muestra tanto la distribución de las medias muestrales como la media de estas medias. Esta media de medias converge con el valor esperado del muestreo de esta población. Puede calcularse como el valor x medio. Es decir, multiplique los valores xey de cada columna, sume estos productos y divida la suma por el número total de puntos de datos (&quot;personas&quot;). Por ejemplo, si hay 3 personas por encima del valor 0, 2 personas por encima del valor 1 y 5 personas por encima del valor 2, la suma de los tres productos xey es:
+3 * 0 + 2 * 1 + 5 * 2 = 12. Ahora dividimos 12 entre 10 (el número total de personas).
+12:10 = 1,2. Entonces, si tomamos muestras de esta población, la media de las medias muestrales convergerá en 1.2. Prueba esto. Puede utilizar el ejemplo anterior o cualquier otro ejemplo que invente.
+
+El mayor desafío es utilizar este modelo para encontrar una explicación de por qué, casi siempre obtenemos una curva de campana cuando tomamos suficientes muestras.
+
+Tenga en cuenta el siguiente punto de posible confusión. Para permitir un examen detenido del proceso de muestreo, las poblaciones de este modelo contienen menos especímenes que la mayoría de las poblaciones que los investigadores suelen estudiar mediante análisis estadístico. Por ejemplo, puede que no haya más de 5 especímenes individuales en una población que compartan el mismo valor x (es decir, que estén todos en la misma columna). Por lo tanto, una muestra de mayor tamaño que el número de especímenes en esa columna, digamos una muestra de tamaño 8, nunca puede incluir especímenes exclusivamente de esa columna. En la &quot;vida real&quot;, teóricamente podría suceder que se tomara una muestra aleatoria completa de una sola columna. Esto significa que si usa tamaños de muestra grandes, debe esperar obtener distribuciones medias de muestra más estrechas de lo que cabría esperar. Por ejemplo, si la columna de la izquierda no es lo suficientemente alta para contener la muestra completa, nunca recibirá una media de la muestra que sea igual en valor al valor x de esa columna. Esto se debe a que parte de la muestra se &quot;desbordará&quot; a la derecha de esa columna, lo que dará como resultado una media muestral mayor. Dado que la misma lógica se aplica a las muestras tomadas desde el extremo derecho, los valores medios de la muestra estarán más cerca del centro de lo que estarían para muestras de tamaño pequeño.
+
+##  EXTENDIENDO EL MODELO
+
+La versión actual del modelo permite el muestreo repetido de muestras individuales. Eso significa que si una persona fue seleccionada al azar en la primera muestra, puede ser muestreada nuevamente en la segunda muestra, etc. Si no permitimos este muestreo repetido, ¿la distribución de la media de la muestra se vería afectada en absoluto? ¿Si es así, cómo? Agregue código que permita el muestreo repetido solo como una opción y compare los resultados entre las dos opciones.
+
+¿Cómo se comportan las medianas? ¿De la misma manera que los medios? Agregue una opción para ver la mediana tanto de la población como de los datos de muestra.
+
+Agregue un monitor que muestre la relación entre las dos desviaciones estándar representadas en este modelo.
+
+Este modelo muestra medias y sumas de datos muestreados. Puede resultar interesante observar otros análisis de las muestras. Por ejemplo, el producto de todos los valores de las personas muestreadas, así como la raíz n-ésima de este producto (para una muestra de tamaño n).
+
+¿Cómo cambia la desviación estándar a medida que recolectamos más y más muestras? Para examinar esto, puede agregar una gráfica de la desviación estándar sobre &quot;tiempo&quot; (sobre muestras).
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+En el procedimiento `dibujar` usamos una variable temporal,` temp-mouse-xcor`. Esta variable asegura que el programa no se &quot;confundirá&quot;. Sin esta variable, el programa podría ingresar una cláusula en el código `ifelse` que ya no satisface lo que el usuario realmente quiso decir cuando hizo clic con el mouse. Esto podría ocurrir porque el usuario está moviendo el mouse rápidamente. Entonces, el programa selecciona la cláusula `ifelse` que es correcta en ese momento, pero mientras tanto, el clic del mouse ya estaría en otro lugar, por lo que la selección de la cláusula ya no sería adecuada. La variable temporal evita esto siguiendo las instrucciones como si el mouse todavía estuviera presionado donde estaba hace un momento.
+
+En la versión actual, puede crear la población, pero no puede experimentar con el muestreo. Cree un procedimiento que le permita tomar sus propias muestras.
+
+##  MODELOS RELACIONADOS 
+
+Several ProbLab models look at the emergence of bell-shaped curves through the accumulation of sample means. See, for example, Prob Graphs Basic and Random Basic Advanced. To look closer at the idea of expected value, see the models Expected Value and Expected Value Advanced.
+
+##  CRÉDITOS Y REFERENCIAS 
+
+This model is a part of the ProbLab curriculum. The ProbLab Curriculum is currently under development at Northwestern's Center for Connected Learning and Computer-Based Modeling. . For more information about the ProbLab Curriculum please refer to http://ccl.northwestern.edu/curriculum/ProbLab/.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Abrahamson, D. and Wilensky, U. (2005).  NetLogo Central Limit Theorem model.  http://ccl.northwestern.edu/netlogo/models/CentralLimitTheorem.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2005 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2005 Cite: Abrahamson, D. -->

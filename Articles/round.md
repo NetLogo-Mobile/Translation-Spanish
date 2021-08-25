@@ -1,7 +1,4 @@
 ﻿*** Machine Translated
-`round` informa el entero al número entero más cercano. Los números en NetLogo siempre se **redondean**. Por ejemplo:
+`round` es una primitiva matemática que informa el número entero más cercano a un número dado. Por ejemplo, la `round 5.2` reportaría 5 y la `round -4.8` reportaría -5.
 
- ```
- show round 4.5 => 5
- show round -4.5 => -4
- ```
+En el ejemplo de modelo a continuación, tenemos un agricultor y una granja. Cada parche de nuestro modelo representa un parche de terreno. Cada parche tiene un valor nutricional diferente que asignamos con la `random-float` y mostramos la nutrición de cada parche como su `plabel` . Sin embargo, no mostramos el valor nutricional tal cual porque tendría muchos números decimales (por ejemplo, 2,3936518), lo que haría imposible su lectura. En cambio, redondeamos el número que mostramos en la interfaz. Además, usamos `round` para que nuestro agricultor decida qué planta plantar en un parche específico. Si la nutrición de un parche es demasiado baja, nuestro agricultor no planea nada. Si la nutrición de un parche es aproximadamente 3, nuestro agricultor planta una planta simple. Si la nutrición de un parche es de aproximadamente 4, nuestro agricultor planta una flor en ciernes. Si la nutrición de un parche es de aproximadamente 5, nuestro agricultor planta una flor.

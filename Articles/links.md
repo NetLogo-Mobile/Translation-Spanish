@@ -1,7 +1,7 @@
 ﻿*** Machine Translated
-`links` son una categoría especial de agentes (como tortugas y parches) en NetLogo para representar conexiones entre tortugas. Un enlace en sí mismo es solo una conexión entre dos tortugas (distintas) con alguna información adjunta. Con solo esta sencilla herramienta de conexiones entre tortugas, podemos representar relaciones muy sofisticadas entre tortugas como árboles genealógicos, relaciones de "amigos" en las redes sociales (comúnmente conocidas como "gráficos sociales") o incluso mapas de calle para software de navegación como mapas de google o waze.
+`links` son una categoría especial de agentes (como tortugas y parches) en NetLogo para representar conexiones entre tortugas. Un enlace en sí mismo es solo una conexión entre dos tortugas (distintas) con alguna información adjunta. Con solo esta sencilla herramienta de conexiones entre tortugas, podemos representar relaciones muy sofisticadas entre tortugas como árboles genealógicos, relaciones de "amigos" en las redes sociales (comúnmente conocidas como "gráficos sociales") o incluso mapas de calle para software de navegación como Google Maps o Waze.
 
-Puede crear nuevos vínculos entre tortugas usando las primitivas `create-link-with` y `create-links-with` . Observe que `create-link-with` crea solo un vínculo entre dos tortugas y requiere una tortuga específica, mientras que `create-links-with` crea múltiples tortugas a la vez y requiere un conjunto de agentes.
+Puede crear nuevos vínculos entre tortugas utilizando las primitivas `create-link-with` y `create-links-with` . Observe que `create-link-with` crea solo un vínculo entre dos tortugas y requiere una tortuga específica, mientras que `create-links-with` crea múltiples tortugas a la vez y requiere un conjunto de agentes.
 
 
 

@@ -1,10 +1,22 @@
 ﻿*** Machine Translated
-`Turtles-here` devuelve el **conjunto de agentes** de todas las tortugas en la parcela de la persona que llama, incluido él mismo si la persona que llama es una tortuga. Por ejemplo, 
+`turtles-here` informa un conjunto de **agentes** que contiene todas las tortugas en el mismo parche con la tortuga original, incluida la tortuga original en sí. Por ejemplo, si quisiéramos crear un modelo de enfermedad contagiosa donde las tortugas rojas transmitieran la enfermedad a todas las tortugas en el mismo parche, escribiríamos el siguiente código:
+
+
 
 ```
-create-turtles 3 
-ask turtles [ show count turtles-here ]
+ask turtles with [color = red][
+	ask turtles-here [
+		set color red
+	]
+]
 ```
-informaría `3`. También puedes especificar una raza usando `<breed>-here` ; si hubiera algunos gatos y ratones juntos en un modelo, `ask cats [ if any? mice-here [ chase ] ]` haría que un gato persiguiera a los ratones si están en la misma parcela.
 
-En el modelo de abajo, hay algunas ranas moviéndose en un estanque. Si una rana salta sobre un nenúfar (parcela verde), su peso empujará el nenúfar al agua, volviéndolo azul. Usamos `turtles-here` para comprobar si hay una rana encima de un nenúfar.
+
+Cosas a tener en cuenta al usar `turtles-here` :
+
+- A menudo no es deseable tener la tortuga original en el conjunto de agentes que informa `turtles-here` . Incluso puede causar errores en raras ocasiones. Por ejemplo, el siguiente código mostraría un error `ask turtles [ create-links-with turtles-here ]` porque la tortuga original intentaría crear un enlace consigo misma. En tales casos, podemos usar la `other` primitiva. Por ejemplo, el siguiente código no mostraría un error: `ask turtles [ create-links-with other turtles-here ]`
+- Siempre podemos usar el `with` para delimitar el conjunto de agentes informado por las `turtles-here` . Por ejemplo, el siguiente código solo reportaría las tortugas rojas que están en el mismo parche con la tortuga original: `turtles-here with [color = red]` .
+- También puede usar `turtles-here` con razas personalizadas cambiando el término *tortugas* con el nombre plural de la raza como `<breed>-here` . Por ejemplo: `ask goats [ if any? plants-here [ eat ] ]` .
+
+
+En el ejemplo de modelo a continuación, tenemos tres parches blancos que representan hospitales y algunas tortugas que representan personas. Algunas de nuestras tortugas son verdes, lo que indica que están sanas, y algunas son violetas / moradas, lo que indica enfermedad. Usamos `turtles-here` para pedir manchas blancas para curar a las personas violetas.

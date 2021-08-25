@@ -90,6 +90,7 @@
     <String ID="{0} 是一个变量、一个程序或一个函数的名字。" Status="0" English="{0} is the name of a variable, a procedure, or a reporter.">{0} es el nombre de una variable, un procedimiento o un reportero.</String>
     <String ID="{0} 是一个程序语言规定的常量。" Status="0" English="{0} is a constant defined by NetLogo.">{0} es una constante definida por NetLogo.</String>
     <String ID="是否将代码重置到最后一次成功编译的状态？" Status="0" English="Do you want to reset the code to the last successful compilation?">¿Quieres restablecer el código a la última compilación exitosa?</String>
+    <String ID="请先修复代码中的错误，然后才能执行命令。" Status="1" English="Please fix the error in the code first, then execute the command.">Primero corrija el error en el código y luego ejecute el comando.</String>
   </Editors>
   <NetTango>
     <String ID="拖到这里删除" Status="0" English="Drag here to delete">Arrastra aquí para borrar</String>

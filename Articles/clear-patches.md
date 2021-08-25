@@ -1,6 +1,6 @@
 ﻿*** Machine Translated
-`Clear-patches` es una primitiva que restablece todos las parcelas a la vez. Hace que los valores de las variables de parcela personalizadas (definidas con `patches-own`) tengan sus valores iniciales predeterminados y hace que todos las parcelas sean negros. La versión abreviada de esta primitiva es `cp` .
+`clear-patches` es una primitiva que restablece todos los parches a la vez. Hace que los valores de las variables de parche personalizadas (definidas con la `patches-own` los parches) tengan sus valores iniciales predeterminados y hace que todos los parches sean negros. También puede usar su versión abreviada `cp` en su código.
 
-`clear-patches` solo se usa cuando no queremos usar *clear-all* . Por ejemplo, si quisieras borrar las parcelas pero mantener los valores de algunas variables globales y mantener iguales las tortugas existentes, usarías `clear-patches`.
+`clear-patches` solo se usa cuando no queremos usar *clear-all* . Por ejemplo, si quisiéramos borrar los parches pero mantener los valores de algunas variables globales y las tortugas existentes iguales, usaríamos `clear-patches` .
 
-En el ejemplo de modelo a continuación, tenemos tres botones. El primero hace que el color de las parcelas sea verde y crea algunas vacas en posiciones aleatorias. El segundo botón simplemente ejecuta la `clear-patches` para borrar las parcelas pero dejar las vacas igual. El tercero ejecuta la `clear-turtles` priimitiva para eliminar las vacas del modelo pero deja parcelas/pasto como es.
+En el ejemplo de modelo a continuación, tenemos tres botones. El primero hace que el color de los parches sea verde y crea algunas vacas en ubicaciones aleatorias. El segundo botón ejecuta la `clear-patches` para limpiar los parches, como un sustituto del césped, pero deja las vacas igual. El tercer botón ejecuta la `clear-turtles` para eliminar las vacas del modelo pero dejar los parches / césped como están.

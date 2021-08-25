@@ -84,8 +84,9 @@
   "ask": {
     "identity": "ask",
     "display_name": "ask",
-    "short_original": "Asks agents do things.",
+    "short_original": "Asks agents to do things.",
     "short_description": "Pide a los agentes que hagan cosas.",
+    "short_updated": true,
     "search_terms": [
       "do",
       "commands",
@@ -310,8 +311,9 @@
   "color": {
     "identity": "color",
     "display_name": "color",
-    "short_original": "Built-in turtle characteristic that the color of a turtle and allows us to change it.",
+    "short_original": "Built-in turtle characteristic that reports the color of a turtle and allows us to change it.",
     "short_description": "Característica de tortuga incorporada que cambia el color de la tortuga y nos permite cambiarla",
+    "short_updated": true,
     "search_terms": [
       "color",
       "pencil",
@@ -999,8 +1001,9 @@
   "let": {
     "identity": "let",
     "display_name": "let",
-    "short_original": "Creates a local variable that only exists within just one procedure or a statement surrended with brackets (`[  ]`).",
+    "short_original": "Creates a local variable that only exists within a procedure or a statement surrounded with brackets (`[  ]`).",
     "short_description": "Crea una variable local que solo existe dentro un solo procedimiento o una declaración rodeado con corchetes (`[  ]`).",
+    "short_updated": true,
     "search_terms": [
       "variable",
       "local",
@@ -2327,8 +2330,9 @@
   "to": {
     "identity": "to",
     "display_name": "to",
-    "short_original": "used to begin a command procedure",
+    "short_original": "Begins a command procedure",
     "short_description": "usado para comenzar un procedimiento de comando",
+    "short_updated": true,
     "search_terms": [
       "to",
       "begin",
@@ -2413,8 +2417,9 @@
   "turtle": {
     "identity": "turtle",
     "display_name": "turtle",
-    "short_original": "Reports a specific turtle that has the provided who number.",
+    "short_original": "Reports a specific turtle that has the provided unique number.",
     "short_description": "Reporta una tortuga específica que tiene el número proporcionado.",
+    "short_updated": true,
     "search_terms": [
       "shape",
       "triangle",
