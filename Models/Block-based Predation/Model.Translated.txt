@@ -1,425 +1,424 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Language = Spanish
+﻿## Language = Spanish
 ## NetTango
 ### Source
 all
-### Spanish ***
+### Spanish
 todas
 
 ### Source
 Angle?
-### Spanish ***
+### Spanish
 ¿Ángulo?
 
 ### Source
 black
-### Spanish ***
+### Spanish
 negro
 
 ### Source
 blue
-### Spanish ***
+### Spanish
 azul
 
 ### Source
 Brightness
-### Spanish ***
+### Spanish
 Brillo
 
 ### Source
 brown
-### Spanish ***
+### Spanish
 marrón
 
 ### Source
 Energy gains
-### Spanish ***
-Ganancias energéticas
+### Spanish
+Ganancias Energéticas
 
 ### Source
 Every how many rounds?
-### Spanish ***
+### Spanish
 ¿Cada cuántas rondas?
 
 ### Source
 fire
-### Spanish ***
+### Spanish
 fuego
 
 ### Source
 grass
-### Spanish ***
-hierba
+### Spanish
+pasto
 
 ### Source
 green
-### Spanish ***
+### Spanish
 verde
 
 ### Source
 How large?
-### Spanish ***
+### Spanish
 ¿Que tan grande?
 
 ### Source
 How many times?
-### Spanish ***
+### Spanish
 ¿Cuantas veces?
 
 ### Source
 How many?
-### Spanish ***
+### Spanish
 ¿Cuantos?
 
 ### Source
 How much?
-### Spanish ***
-¿Cuánto cuesta?
+### Spanish
+¿Cuánto?
 
 ### Source
 How possible?
-### Spanish ***
-¿Cómo es posible?
+### Spanish
+¿Cuanto posible?
 
 ### Source
 Only smaller?
-### Spanish ***
+### Spanish
 ¿Solo más pequeño?
 
 ### Source
 orange
-### Spanish ***
-naranja
+### Spanish
+anaranjado
 
 ### Source
 pink
-### Spanish ***
-Rosa
+### Spanish
+rosa
 
 ### Source
 Randomly?
-### Spanish ***
+### Spanish
 ¿Al azar?
 
 ### Source
 red
-### Spanish ***
+### Spanish
 rojo
 
 ### Source
 Scale with size
-### Spanish ***
+### Spanish
 Escala con tamaño
 
 ### Source
 Scale with speed
-### Spanish ***
+### Spanish
 Escala con velocidad
 
 ### Source
 sheep
-### Spanish ***
+### Spanish
 oveja
 
 ### Source
 soil
-### Spanish ***
-suelo
+### Spanish
+tierra
 
 ### Source
 water
-### Spanish ***
+### Spanish
 agua
 
 ### Source
 What kind?
-### Spanish ***
+### Spanish
 ¿Que tipo?
 
 ### Source
 Which color?
-### Spanish ***
+### Spanish
 ¿Qué color?
 
 ### Source
 Which shape?
-### Spanish ***
+### Spanish
 ¿Qué forma?
 
 ### Source
 white
-### Spanish ***
+### Spanish
 blanco
 
 ### Source
 wolf
-### Spanish ***
+### Spanish
 Lobo
 
 ### Source
 wolves
-### Spanish ***
-Lobos
+### Spanish
+lobos
 
 ### Source
 yellow
-### Spanish ***
+### Spanish
 amarillo
 
 ### Source
  Add Energy
-### Spanish ***
- Agregar energía
+### Spanish
+ Agregar Energía
 
 ### Source
  Become a
-### Spanish ***
- Conviértete en
+### Spanish
+ Convertirse en
 
 ### Source
  Change Size
-### Spanish ***
- Cambiar tamaño
+### Spanish
+ Cambiar Tamaño
 
 ### Source
  Change Speed
-### Spanish ***
- Cambiar velocidad
+### Spanish
+ Cambiar Velocidad
 
 ### Source
  Eat Grass
-### Spanish ***
- Come hierba
+### Spanish 
+ Come Pasto
 
 ### Source
  Eat Prey
-### Spanish ***
- Come presa
+### Spanish
+ Comer Presa
 
 ### Source
  If Energy <=
-### Spanish ***
- Si Energía &lt;=
+### Spanish
+ Si Energía <=
 
 ### Source
  If Size <=
-### Spanish ***
- Si Tamaño &lt;=
+### Spanish
+ Si Tamaño <=
 
 ### Source
  Move and Wiggle
-### Spanish ***
- Mover y mover
+### Spanish
+ Mover y Serpentear
 
 ### Source
  Reproduce
-### Spanish ***
+### Spanish
  Reproducir
 
 ### Source
  Set Color
-### Spanish ***
- Establecer color
+### Spanish
+ Establecer Color
 
 ### Source
  Set Size
-### Spanish ***
- Establecer tamaño
+### Spanish
+ Establecer Tamaño
 
 ### Source
  Spend Energy
-### Spanish ***
- Gastar energía
+### Spanish
+ Gastar Energía
 
 ### Source
  Go 
-### Spanish ***
+### Spanish
  Ir 
 
 ### Source
  Setup 
-### Spanish ***
- Configuración 
+### Spanish
+ Preparar 
 
 ### Source
  Ask Animals 
-### Spanish ***
- Preguntar a los animales 
+### Spanish
+ Preguntar a los Animales 
 
 ### Source
  Ask Patches 
-### Spanish ***
- Preguntar parches 
+### Spanish
+ Preguntar Parcelas 
 
 ### Source
  Ask Sheep 
-### Spanish ***
- Pregúntale a la oveja 
+### Spanish
+ Preguntar a la Oveja 
 
 ### Source
  Ask Wolves 
-### Spanish ***
- Pregúntale a los lobos 
+### Spanish
+ Preguntar a los Lobos 
 
 ### Source
  Create Sheep 
-### Spanish ***
- Crear oveja 
+### Spanish
+ Crear Oveja 
 
 ### Source
  Create Wolves 
-### Spanish ***
- Crear lobos 
+### Spanish
+ Crear Lobos 
 
 ### Source
  Chance
-### Spanish ***
+### Spanish
  Oportunidad
 
 ### Source
  Repeat
-### Spanish ***
+### Spanish
  Repetir
 
 ### Source
  Ask Neighbors 
-### Spanish ***
- Preguntar a los vecinos 
+### Spanish
+ Preguntar a los Vecinos 
 
 ### Source
  Grow Grass
-### Spanish ***
- Cultivar hierba
+### Spanish
+ Cultivar Pasto
 
 ### Source
  Set Terrain
-### Spanish ***
- Establecer terreno
+### Spanish
+ Establecer Terreno
 
 ### Source
  Summon Rain
-### Spanish ***
- Invocar lluvia
+### Spanish
+ Invocar Lluvia
 
 ### Source
  Throw Thunder
-### Spanish ***
- Lanzar trueno
+### Spanish
+ Lanzar Trueno
 
 ### Source
  With Terrain
-### Spanish ***
- Con terreno
+### Spanish
+ Con Terreno
 
 ## Plots
 ### Source
 grass / 4
-### Spanish ***
-hierba / 4
+### Spanish
+pasto / 4
 
 ### Source
 pop.
-### Spanish ***
-música pop.
+### Spanish
+pob.
 
 ### Source
 populations
-### Spanish ***
+### Spanish
 poblaciones
 
 ### Source
 sheep
-### Spanish ***
+### Spanish
 oveja
 
 ### Source
 time
-### Spanish ***
-hora
+### Spanish
+tiempo
 
 ### Source
 wolves
-### Spanish ***
-Lobos
+### Spanish
+lobos
 
 ## Widgets
 ### Source
 go
-### Spanish ***
+### Spanish
 ir
 
 ### Source
 go once
-### Spanish ***
+### Spanish
 ir una vez
 
 ### Source
 grass / 4
-### Spanish ***
-hierba / 4
+### Spanish
+pasto / 4
 
 ### Source
 set fire randomly
-### Spanish ***
+### Spanish
 prender fuego al azar
 
 ### Source
 set-fire
-### Spanish ***
+### Spanish
 prender fuego
 
 ### Source
 setup
-### Spanish ***
-configuración
+### Spanish
+preparar
 
 ### Source
 sheep
-### Spanish ***
+### Spanish
 oveja
 
 ### Source
 show-energy?
-### Spanish ***
-show-energy?
+### Spanish
+¿mostrar-energía?
 
 ### Source
 spawn-sheep
-### Spanish ***
-desove de ovejas
+### Spanish
+desovar-ovejas
 
 ### Source
 spawn-wolves
-### Spanish ***
-engendro-lobos
+### Spanish
+desovar-lobos
 
 ### Source
 summon rain randomly
-### Spanish ***
+### Spanish
 convocar lluvia al azar
 
 ### Source
 summon-rain
-### Spanish ***
+### Spanish
 convocar-lluvia
 
 ### Source
 throw thunder randomly
-### Spanish ***
+### Spanish
 lanzar truenos al azar
 
 ### Source
 throw-thunder
-### Spanish ***
-trueno
+### Spanish
+lanzar-trueno
 
 ### Source
 touch-behavior
-### Spanish ***
-comportamiento táctil
+### Spanish
+comportamiento-táctil
 
 ### Source
 wolves
-### Spanish ***
-Lobos
+### Spanish
+lobos
 

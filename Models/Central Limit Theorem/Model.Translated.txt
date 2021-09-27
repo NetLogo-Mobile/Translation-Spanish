@@ -1,56 +1,55 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Language = Spanish
+﻿## Language = Spanish
 ## Plots
 ### Source
 Count
-### Spanish ***
-Contar
+### Spanish
+Conteo
 
 ### Source
 Mean Value
-### Spanish ***
-Valor medio
+### Spanish
+Valor Promedio
 
 ### Source
 means
-### Spanish ***
-medio
+### Spanish
+medias
 
 ### Source
 means-mean
-### Spanish ***
-significa-significa
+### Spanish
+medias-media
 
 ### Source
 Sample-Data Distribution
-### Spanish ***
-Distribución de datos de muestra
+### Spanish
+Distribución de Datos de Muestra
 
 ### Source
 sums
-### Spanish ***
+### Spanish
 sumas
 
 ### Source
 sums-mean
-### Spanish ***
-sumas-significan
+### Spanish
+sumas-medias
 
 ## Widgets
 ### Source
 also-sums?
-### Spanish ***
-también-sumas?
+### Spanish
+¿también-sumas?
 
 ### Source
 Create My Own People
-### Spanish ***
-Crear mi propia gente
+### Spanish
+Crear mi Propia Gente
 
 ### Source
 Create Random People
-### Spanish ***
-Crear personas al azar
+### Spanish
+Crear Personas al Azar
 
 ### Source
 Expected Value

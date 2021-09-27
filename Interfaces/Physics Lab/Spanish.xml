@@ -385,12 +385,12 @@
     <String ID="小卡片中实时显示地球的运动数据。\n点击编辑按钮，展开大卡片。" Status="0" English="Small card shows basic concepts of the earth. Click the Edit button to expand.">La tarjeta pequeña muestra los conceptos básicos de la tierra. Haz clic en el botón Editar para expandir.</String>
     <String ID="在大卡片中了解和调整更多天体参数。\n点击阴影位置，继续教程……" Status="0" English="View and edit more parameters here. Tap the screen and continue...">Ve y edita más parámetros aquí. Toque la pantalla y continúe ...</String>
     <String ID="你也可以创建完全虚构的星系。\n试着将大陆行星拖动到星空之中。" Status="0" English="You can also create fictional galaxies. Drag a continential planet into the space.">También puedes crear galaxias ficticias. Arrastra un planeta continental al espacio.</String>
-    <String ID="祝贺你！点击阴影部分完成教程。\n我们将不断引入更多天体现象和现实数据库。" Status="1" English="Tap the screen to complete the tutorial. We will continue to introduce more features here.">Toque la pantalla para completar el tutorial. Continuaremos presentando más funciones aquí.</String>
+    <String ID="祝贺你！点击阴影部分完成教程。\n我们将不断引入更多天体现象和现实数据库。" Status="0" English="Tap the screen to complete the tutorial. We will continue to introduce more features here.">Toque la pantalla para completar el tutorial. Continuaremos presentando más características aquí.</String>
     <String ID="祝贺你成功完成了新手教程！\n尽情体验物理实验的奥秘吧……" Status="0" English="Congratulations on finishing the tutorial! Try to explore more in Physics Lab...">¡Felicitaciones por terminar el tutorial! Trata de explorar más en el Laboratorio de Física ...</String>
     <String ID="开始实验" Status="0" English="Start experiment">Iniciar experimento</String>
     <String ID="来自全球物理爱好者的作品" Status="0" English="Works from global enthusiasts">Obras de entusiastas globales</String>
     <String ID="创作属于自己的物理实验" Status="0" English="Create your own physical experiment">Crea tu propio experimento físico</String>
-    <String ID="浏览热门实验" Status="1" English="Browse our community">Navega por nuestra comunidad</String>
+    <String ID="浏览热门实验" Status="0" English="Browse our community">Navega por nuestra comunidad</String>
     <String ID="您将学习如何连接一个简单电路。\n首先，将简单开关拖动到桌面上。" Status="0" English="You will learn to connect a simple circuit. First, drag a simple switch to the desktop.">Vas a aprender a conectar un circuito simple. Primero, arrastra un simple interruptor al escritorio.</String>
     <String ID="点击刚刚放置的开关来选中它。" Status="0" English="Click on the switch you just placed to select it.">Haz clic en el interruptor que acabas de colocar para seleccionarlo.</String>
     <String ID="拖动接线柱到电池的红色接线柱上。\n这样，开关和电池就连接起来了。" Status="0" English="Drag the terminal to the red terminal of the battery. This way, the switch and the battery are connected.">Arrastra el terminal al terminal rojo de la batería. Ahora, el interruptor y la batería están conectados.</String>

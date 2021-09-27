@@ -5,8 +5,8 @@
     <String ID="否" Status="0" English="No">No</String>
     <String ID="开" Status="0" English="On">En</String>
     <String ID="关" Status="0" English="Off">Apagado</String>
-    <String ID="真" Status="1" English="True">Cierto</String>
-    <String ID="假" Status="1" English="False">Falso</String>
+    <String ID="真" Status="0" English="True">Verdadero</String>
+    <String ID="假" Status="0" English="False">Falso</String>
     <String ID="返回" Status="0" English="Return">Regresar</String>
     <String ID="后退" Status="0" English="Back">Atrás</String>
     <String ID="退出" Status="0" English="Quit">Salir</String>
@@ -89,7 +89,7 @@
     <String ID="发布内容" Status="0" English="Publish content">Publicar contenido</String>
     <String ID="实验模式" Status="0" English="Experimental mode">Modo experimental</String>
     <String ID="离线模式" Status="0" English="Offline Mode">Modo Offline</String>
-    <String ID="未完成" Status="1" English="Undone">Deshecho</String>
+    <String ID="未完成" Status="0" English="Undone">Deshecho</String>
     <String ID="未命名" Status="0" English="Untitled">Intitulado</String>
     <String ID="加载中" Status="0" English="Loading">Cargando</String>
     <String ID="保存于 {0}" Status="0" English="Saved at {0}">Guardado a {0}</String>
@@ -102,7 +102,7 @@
     <String ID="键盘输入" Status="0" English="Keyboard input">Input del teclado</String>
   </Interfaces>
   <Messages>
-    <String ID="如果网页未能打开，请扫描二维码" Status="1" English="Scan the QR code if fails to load">Escanee el código QR si no se carga</String>
+    <String ID="如果网页未能打开，请扫描二维码" Status="0" English="Scan the QR code if fails to load">Escanea el código QR si no se carga</String>
     <String ID="更多功能将于后续版本中更新。" Status="0" English="More features will be updated in a future release.">Se actualizarán más funciones en una versión futura.</String>
     <String ID="没有适合目前实验模式的 AR 体验！" Status="0" English="No AR experience is found for current experiment!">¡No se encontró experiencia de RA para el experimento actual!</String>
     <String ID="没有可供撤销的操作。" Status="0" English="There are no actions to undo.">No hay acciones para deshacer.</String>
@@ -188,7 +188,7 @@
     <String ID="确定将使每次加载模型时重置 (Setup) 世界！" Status="0" English="Confirm to reset the world every time when loaded!">Confirme para restablecer el mundo cada vez que se cargue.</String>
     <String ID="更新实验状态？" Status="0" English="Update experiment status?">¿Actualizar el estado del experimento?</String>
     <String ID="确定将覆盖原内容中的实验状态！" Status="0" English="Confirm to overwrite the experiment status in the original content!">Confirme para sobrescribir el estado del experimento en el contenido original.</String>
-    <String ID="请在发布界面上传截图，这样才能成功发布实验。" Status="1" English="Please upload a screenshot, so the experiment could be published.">Sube una captura de pantalla para que se pueda publicar el experimento.</String>
+    <String ID="请在发布界面上传截图，这样才能成功发布实验。" Status="0" English="Please upload a screenshot, so the experiment could be published.">Por favor sube una captura de pantalla para que se pueda publicar el experimento.</String>
     <String ID="演示模式中不可用的功能" Status="0" English="Feature not enabled for this demo">Función no permitido para esta demostración</String>
     <String ID="1. 商店版本 {0} 以后更新的实验内容。\n2. 本地 / 云端实验和设置的保存功能。\n3. 活动与成就等用户系统有关的功能。\n4. 充值内购、内容解锁等商城相关功能。" Status="0" English="1. The experimental content updated after the store version {0}. \n2. Local/Cloud Experiment and Settings save function. \n3. Activities related to user systems such as achievements. \n4. Recharge the in-app purchase, content unlock and other mall related functions.">1. El contenido experimental actualizado después de la versión de la tienda {0}. \ n2. Función de guardado de configuración y experimento local / en la nube. \ n3. Actividades relacionadas con los sistemas de los usuarios, como los logros. \ n4. Recargue la compra en la aplicación, el desbloqueo de contenido y otras funciones relacionadas con el centro comercial.</String>
     <String ID="未能找到实验，以下显示离线内容" Status="0" English="No contents found, showing offline contents..">No se encontraron contenidos, se muestran contenidos offline.</String>
@@ -207,7 +207,7 @@
     <String ID="删除过程中遇到错误。" Status="0" English="An error was encountered during the deletion.">Se encontró un error durante la eliminación.</String>
     <String ID="删除内容" Status="0" English="Delete content">Eliminar contenido</String>
     <String ID="删除回复" Status="0" English="Delete">Eliminar</String>
-    <String ID="是否确定删除内容？本地存档将无法找回！" Status="1" English="Do want to delete the content? The local save could not be retrieved!">¿Quieres eliminar el contenido? ¡No se pudo recuperar el guardado local!</String>
+    <String ID="是否确定删除内容？本地存档将无法找回！" Status="0" English="Do want to delete the content? The local save could not be retrieved!">¿Quieres borrar el contenido? ¡No se pudo recuperar la guardada local!</String>
     <String ID="是否确定删除内容？除非您留有本地存档，否则将无法找回！" Status="0" English="Do you want to delete the content? Unless you have a local save, you won&amp;#39;t be able to retrieve it!">¿Quieres eliminar el contenido? A menos que tengas un guardado local, ¡no podrás recuperarlo!</String>
     <String ID="是否确定删除回复？" Status="0" English="Are you sure to delete the reply?">¿Estás seguro de eliminar la respuesta?</String>
     <String ID="设为封面" Status="0" English="Set as cover">Establecer como portada</String>
@@ -364,7 +364,7 @@
   <Preferences>
     <String ID="应用设置" Status="0" English="App Settings">Configuración de Aplicacion</String>
     <String ID="通用设置" Status="0" English="General Settings">Configuración General</String>
-    <String ID="黑暗模式" Status="1" English="Dark Mode">Modo oscuro</String>
+    <String ID="黑暗模式" Status="0" English="Dark Mode">Modo Oscuro</String>
     <String ID="显示通知数量" Status="0" English="Badge Number">Numero de Placa</String>
     <String ID="画面抗锯齿" Status="0" English="Antialiasing">Antialiasing</String>
     <String ID="隐私设置" Status="0" English="Privacy Setting">Configuración de Privacidad</String>
@@ -633,14 +633,14 @@
     <String ID="是否愿意和大家分享你的答案？被点赞将获得奖励！" Status="0" English="Would you like to share your answers? You will get rewards whenever it is liked!">¿Le gustaría compartir sus respuestas? ¡Siempre obtendrás recompensas cuando es gustado!</String>
   </Tutorials>
   <Errors>
-    <String ID="运行错误" Status="1" English="Runtime Error">Error de tiempo de ejecución</String>
-    <String ID="内部错误：" Status="1" English="Internal Error:">Error interno:</String>
-    <String ID="相关代码：" Status="1" English="Related Code:">Código relacionado:</String>
-    <String ID="错误发生在：" Status="1" English="Where it Happened:">Dónde sucedió:</String>
-    <String ID="调用{0} {1} 时" Status="1" English="Called by {0} {1}">Llamado por {0} {1}</String>
-    <String ID="调用{0} {1} 时 (第 {2} 行代码)" Status="1" English="Called by {0} {1} (Line {2})">Llamado por {0} {1} (línea {2})</String>
-    <String ID="抱歉，没有错误的位置信息。" Status="1" English="Sorry, we have no idea where this error occurs.">Lo sentimos, no tenemos idea de dónde ocurre este error.</String>
-    <String ID="如果你觉得这可能是应用 BUG，请和开发者联系。" Status="1" English="Please contact the developer if you think this is a BUG.">Comuníquese con el desarrollador si cree que se trata de un ERROR.</String>
+    <String ID="运行错误" Status="0" English="Runtime Error">Error de Tiempo de Ejecución</String>
+    <String ID="内部错误：" Status="0" English="Internal Error:">Error Interno:</String>
+    <String ID="相关代码：" Status="0" English="Related Code:">Código Relacionado:</String>
+    <String ID="错误发生在：" Status="0" English="Where it Happened:">Dónde Sucedió:</String>
+    <String ID="调用{0} {1} 时" Status="0" English="Called by {0} {1}">Llamado por {0} {1}</String>
+    <String ID="调用{0} {1} 时 (第 {2} 行代码)" Status="0" English="Called by {0} {1} (Line {2})">Llamado por {0} {1} (Línea {2})</String>
+    <String ID="抱歉，没有错误的位置信息。" Status="0" English="Sorry, we have no idea where this error occurs.">Lo sentimos, no tenemos idea de dónde ocurre este error.</String>
+    <String ID="如果你觉得这可能是应用 BUG，请和开发者联系。" Status="0" English="Please contact the developer if you think this is a BUG.">Comuníquese con el desarrollador si crees que es un ERROR.</String>
     <String ID="未能找到名为 {0} 的元件。" Status="0" English="Cannot find the component named {0}.">No se puede encontrar el componente llamado {0}.</String>
     <String ID="未能找到名为 {0} 的元件群组。" Status="0" English="Cannot find the component group named {0}.">No se puede encontrar el grupo de componentes llamado {0}.</String>
     <String ID="未能找到名为 {0} 的图表。" Status="0" English="Cannot find the chart named {0}.">No se puede encontrar el gráfico llamado {0}.</String>

@@ -49,7 +49,7 @@
   <Block>
     <Type>Topic</Type>
     <Header>PUBLICADO</Header>
-    <Subject>My Discussions</Subject>
+    <Subject>Mis discusiones</Subject>
     <TargetLink>discussions://UserID/Mine</TargetLink>
     <FetchSource>User</FetchSource>
     <FetchConfiguration>
@@ -114,9 +114,9 @@
   </Block>
   <Block>
     <Type>List</Type>
-    <Header>FAVORITE DISCUSSIONS</Header>
+    <Header>DISCUSIONES FAVORITAS</Header>
     <TargetLink>discussions://UserID/Mine/Special/Star</TargetLink>
-    <DefaultText>Browse Discussions</DefaultText>
+    <DefaultText>Navegar Discusiones</DefaultText>
     <DefaultLink>discussions://Sort/Popularity</DefaultLink>
     <FetchSource>User</FetchSource>
     <FetchConfiguration>
