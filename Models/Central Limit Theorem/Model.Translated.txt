@@ -53,81 +53,80 @@ Crear Personas al Azar
 
 ### Source
 Expected Value
-### Spanish ***
-Valor esperado
+### Spanish
+Valor Esperado
 
 ### Source
 go
-### Spanish ***
-Vamos
+### Spanish
+ir
 
 ### Source
 Go Once
-### Spanish ***
-Ir una vez
+### Spanish
+Ir Una Vez
 
 ### Source
 max-value
-### Spanish ***
-valor máximo
+### Spanish
+valor-máx
 
 ### Source
 num-samples
-### Spanish ***
-num-samples
+### Spanish
+núm-muestras
 
 ### Source
 Preset 1
-### Spanish ***
+### Spanish
 Preestablecido 1
 
 ### Source
 Preset 2
-### Spanish ***
+### Spanish
 Preestablecido 2
 
 ### Source
 Preset 3
-### Spanish ***
-Preajuste 3
+### Spanish
+Preestablecido 3
 
 ### Source
 Preset 4
-### Spanish ***
-Preajuste 4
+### Spanish
+Preestablecido 4
 
 ### Source
 Preset 5
-### Spanish ***
-Preajuste 5
+### Spanish
+Preestablecido 5
 
 ### Source
 Preset 6
-### Spanish ***
-Preajuste 6
+### Spanish
+Preestablecido 6
 
 ### Source
 sample-size
-### Spanish ***
-tamaño de la muestra
+### Spanish
+tamaño-de-muestra
 
 ### Source
 setup
-### Spanish ***
-configuración
+### Spanish
+preparar
 
 ### Source
 show-ev?
-### Spanish ***
-show-ev?
+### Spanish
+¿mostrar-ev?
 
 ### Source
 std-dev-means
-### Spanish ***
-std-dev-means
+### Spanish
+desv-est-medias
 
 ### Source
 std-dev-sums
-### Spanish ***
-std-dev-sums
-
+### Spanish
+desv-est-sumas
