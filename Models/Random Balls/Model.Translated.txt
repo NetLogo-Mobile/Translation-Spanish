@@ -13,5 +13,5 @@ número
 ### Source
 setup
 ### Spanish
-configuración
+preparar
 

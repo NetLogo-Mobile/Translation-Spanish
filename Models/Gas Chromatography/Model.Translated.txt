@@ -3,12 +3,12 @@
 ### Source
 Gas Output
 ### Spanish
-Salida de gas
+Salida de Gas
 
 ### Source
 Greens
 ### Spanish
-Verduras
+Verdes
 
 ### Source
 Molecules
@@ -23,7 +23,7 @@ Rojos
 ### Source
 Time
 ### Spanish
-Hora
+Tiempo
 
 ## Widgets
 ### Source
@@ -34,12 +34,12 @@ ir
 ### Source
 number-of-pores
 ### Spanish
-número de poros
+número-de-poros
 
 ### Source
 setup
 ### Spanish
-configuración
+preparar
 
 ### Source
 stickiness
@@ -49,10 +49,10 @@ pegajosidad
 ### Source
 thickness-of-medium
 ### Spanish
-espesor-de-medio
+grosor-de-medio
 
 ### Source
 wall-effect?
 ### Spanish
-efecto de pared?
+¿efecto-muro?
 

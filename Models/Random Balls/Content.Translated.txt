@@ -1,7 +1,6 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Que es
+﻿## ¿QUÉ ES?
 
-Random Balls simula una mesa de billar sin fricción.
+Bolas al Azar simula una mesa de billar sin fricción.
 
 ##  COMO FUNCIONA
 
@@ -9,25 +8,25 @@ Las bolas están dibujadas en verde. Se mueven en línea recta y rebotan en las 
 
 ##  COMO USARLO
 
-Seleccione el número de bolas que se utilizarán, luego presione SETUP. Presione GO para ejecutar el modelo.
+Selecciona el número de bolas que se usarán, luego presiona PREPARAR. Presiona IR para ejecutar el modelo.
 
 ##  COSAS PARA NOTAR
 
-Observe cómo se mueve el centro de masa durante un rato. ¿Existe un patrón? ¿Hay una región en el cuadro en la que se queda?
+Observa cómo se mueve el centro de masa durante un rato. ¿Existe un patrón? ¿Hay una región en el cuadro en la que se queda?
 
 ##  COSAS PARA INTENTAR
 
-Utilice el control deslizante de velocidad para ver el modelo en cámara lenta. También intente adelantarlo.
+Utiliza el control deslizante de velocidad para ver el modelo en cámara lenta. También intente adelantarlo.
 
-Ejecute el modelo con muchas tortugas. ¿Qué sucede con el movimiento del centro de masa? ¿Por qué? Ahora ejecútelo con solo un puñado de tortugas. (Pruébelo en cámara lenta). Ahora, ¿qué sucede y por qué?
+Ejecuta el modelo con muchas tortugas. ¿Qué sucede con el movimiento del centro de masa? ¿Por qué? Ahora ejecútelo con solo un puñado de tortugas. (Pruébelo en cámara lenta). Ahora, ¿qué sucede y por qué?
 
-Deje que el modelo funcione durante un tiempo. ¿Qué notas sobre cuánto tiempo pasa el centro de masa a diferentes distancias del origen (su distribución de frecuencia)?
+Deja que el modelo funcione durante un tiempo. ¿Qué notas sobre cuánto tiempo pasa el centro de masa a diferentes distancias del origen (su distribución de frecuencia)?
 
-Presione SETUP, luego en el centro de comando, ingrese:
+Presione PREPARAR, luego en el centro de comando, ingrese:
 
 preguntar bolas [establecer el título 60]
 
-Esto apunta a todas las tortugas en la misma dirección. ¿Qué hace ahora el centro de masa? Pruebe con otros títulos.
+Esto apunta a todas las tortugas en la misma dirección. ¿Qué hace ahora el centro de masa? Prueba con otros títulos.
 
 ##  EXTENDIENDO EL MODELO
 
@@ -35,13 +34,13 @@ Actualmente, las bolas no rebotan entre sí. Si lo hicieran, ¿haría alguna dif
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de Netlogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1998).  NetLogo Random Balls model.  http://ccl.northwestern.edu/netlogo/models/RandomBalls.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -60,3 +59,5 @@ This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SEN
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
 
 <!-- 1998 2001 -->
+
+Translated by: Chelsea Guzman
