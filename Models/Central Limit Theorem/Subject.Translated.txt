@@ -1,1 +1,1 @@
-﻿Central Limit Theorem
+﻿Teorema del Límite Central

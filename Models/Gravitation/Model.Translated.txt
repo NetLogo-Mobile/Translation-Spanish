@@ -8,7 +8,7 @@ colors?
 ### Source
 fade-rate
 ### Spanish
-tasa de desvanecimiento
+tasa-de-desvanecimiento
 
 ### Source
 go
@@ -28,5 +28,5 @@ número
 ### Source
 setup
 ### Spanish
-configuración
+preparar
 

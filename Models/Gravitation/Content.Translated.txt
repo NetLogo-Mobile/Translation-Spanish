@@ -1,65 +1,64 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Que es
+﻿## ¿QUÉ ES?
 
-Este proyecto muestra el fenómeno natural común expresado por la ley del cuadrado inverso. Esencialmente, este modelo muestra lo que sucede cuando la fuerza de la fuerza entre dos objetos varía inversamente con el cuadrado de la distancia entre estos dos objetos.
+Este proyecto demuestra el fenómeno natural común expresado por la ley del cuadrado inverso. Esencialmente, este modelo muestra que pasa cuando la intensidad de la fuerza entre dos objetos varía inversamente con el cuadrado de la distancia entre los dos objetos.
 
 ##  COMO FUNCIONA
 
-En este modelo, la fórmula utilizada para guiar el comportamiento de cada objeto es la fórmula estándar de la Ley de Atracción Gravitacional:
+En este modelo la fórmula que se usa para guiar el comportamiento de cada objeto es la fórmula estándar para la Ley de Atracción Gravitacional:
 
-&gt; (m1 * m2 * G) / r <sup>2</sup>
+	(m1 m2 G) / r<sup>2</sup>
 
-Este es un modelo de fuerza única &#39;n-cuerpo&#39;, donde tenemos un cierto número de partículas pequeñas y una gran masa de acción (el puntero del mouse). La fuerza es completamente unidireccional: la gran masa no se ve afectada por las partículas más pequeñas que la rodean. Y las partículas más pequeñas tampoco se ven afectadas entre sí. (Tenga en cuenta que esto es puramente con fines de simulación. En el mundo real, una fuerza como la gravedad actúa sobre todos los cuerpos a su alrededor).
+Este es un modelo de una fuerza única ‘n-cuerpo’, donde tenemos un cierto número de partículas pequeñas y una gran masa de acción (el puntero del ratón). La fuerza es completamente unidireccional: la masa más grande no se afecta por las partículas más pequeñas que la rodean. Y las partículas más pequeñas tampoco se ven afectadas entre sí mismas. (Tenga en cuenta que esto es puramente con fines de simulación. En el mundo real, una fuerza como la gravedad actúa sobre todos los cuerpos a su alrededor.)
 
-La gravedad es el mejor ejemplo de tal fuerza. Puede ver cómo las partículas forman órbitas elípticas alrededor del puntero del mouse, o ver cómo se deslizan a su alrededor, de manera similar a cómo un cometa pasa junto a nuestro sol. Piense en los objetos individuales como planetas u otros cuerpos solares, y observe cómo reaccionan a varias masas que se mueven o permanecen estacionarias.
+La gravedad es el mejor ejemplo de tal fuerza. Puedes ver cómo las partículas forman órbitas elípticas alrededor del puntero del ratón, o ver cómo se disparan a su alrededor, de manera similar a cómo un cometa pasa junto a nuestro sol. Piensa en los objetos individuales como planetas u otros cuerpos solares, y observa cómo reaccionan a varias masas que pueden mover o permanecen estacionarias. 
 
 ##  COMO USARLO
 
-Primero seleccione el número de partículas con el control deslizante NÚMERO. Luego presione el botón SETUP para crearlos y esparcirlos por todo el mundo.
+Primero, selecciona el número de partículas con el control deslizante NÚMERO. Luego, presiona el botón PREPARAR para crear y dispararlas en el mundo.
 
-El control deslizante MASS establece el valor de la masa de la fuerza actuante. (Por lo tanto, también determina a qué distancias las partículas pueden orbitar con seguridad antes de ser absorbidas por una fuerza abrumadora).
+El control deslizante MASA establece el valor de la masa de la fuerza que actúa. (Por lo tanto, también determina a qué distancias las partículas pueden orbitar con seguridad antes de que sean absorbidas por una fuerza abrumadora.
 
-El control deslizante FADE-RATE controla el porcentaje de color que las trayectorias marcadas por las partículas se desvanecen después de cada ciclo. Por lo tanto, al 100% no habrá rutas, ya que se desvanecen inmediatamente, y al 0% las rutas no se desvanecerán en absoluto. Con esto se pueden ver las elipses y parábolas formadas por los viajes de diferentes partículas.
+El control deslizante TASA-DE-DESVANECIMIENTO controla el porcentaje del color que los caminos marcados por las partículas se desvanecen después de cada ciclo. Por lo tanto, al 100% no habrá caminos, ya que se desvanecen inmediatamente, y al 0% los caminos no se desvanecerán en absoluto. Con esto puedes ver las elipses y parábolas formadas por los viajes de diferentes partículas.
 
-¿Los colores? El interruptor, cuando está en ON, asigna diferentes colores a las partículas; de lo contrario, todas serán blancas.
+El interruptor ¿COLORES?, cuando encendido, asigna diferentes colores a las partículas, y si no, serán blancas.
 
-Cuando los controles deslizantes se hayan configurado en los niveles deseados, presione el botón GO para comenzar la simulación. Mueva el mouse hacia donde desea que comience y haga clic y mantenga presionado el botón del mouse. Esto hará que las partículas se muevan. Si desea detener la simulación (digamos, para cambiar el valor de MASS), suelte el botón del mouse y las partículas dejarán de moverse. A continuación, puede cambiar cualquier configuración que desee (excepto PARTÍCULAS). Luego, para continuar con la simulación, simplemente coloque el mouse en la ventana nuevamente y haga clic y mantenga presionado. Los objetos en la ventana solo se moverán mientras el botón del mouse esté presionado dentro de la ventana.
+Cuando los controles deslizantes han sido colocados a niveles deseados, presiona el botón IR para comenzar la simulación. Mueva el ratón hacia donde deseas que comience y haz clic y mantenga el botón del ratón. Esto hará que las partículas se muevan. Si deseas parar la simulación (por ejemplo, para cambiar el valor de MASA), suelta el botón del ratón y las partículas dejarán de moverse. Puedes cambiar cualquier configuración que deseas (excepto PARTÍCULAS). Para continuar la simulación, simplemente coloca el ratón en la ventana nuevamente y haz clic y manténlo presionado. Los objetos en la ventana solo se moverán mientras que el botón del ratón está presionado dentro de la ventana.
 
 ##  COSAS PARA NOTAR
 
-Lo más importante a observar es el comportamiento de las partículas. Observe que, dado que las partículas no tienen velocidad inicial propia, una sola masa en acción inmóvil las atraerá a todas. Incluso una masa muy pequeña (MASS establecida en un valor pequeño) atraerá todas las partículas. (Debido a la precisión limitada más allá de cierto punto, la fuerza motriz sobre una partícula puede volverse cero).
+Lo más importante es observar el comportamiento de las partículas. Tenga en cuenta que, aunque las partículas no tienen su propia velocidad inicial, un solo masa en acción inmóvil las atraerá a todas. Hasta una masa muy pequeña (MASA establecida a un valor pequeño) atraerá todas las partículas. (Debido a la precisión limitada después de cierto punto, la fuerza motriz sobre una partícula puede volverse cero).
 
-Mueva el mouse: observe lo que sucede si lo mueve rápida o lentamente. Muévelo en un solo lugar o déjalo reposar. Observa en qué patrones caen las partículas. (Mantenga FADE-RATE bajo para ver esto explícitamente).
+Mueve el ratón – observa que pasa si lo mueves rápidamente o lentamente. Agítelo en un solo lugar y luego déjalo sentarse quieto. Observa en qué patrones caen las partículas. (Mantenga TASA-DE-DESVANECIMIENTO bajo para ver esto explícitamente).
 
 ##  COSAS PARA INTENTAR
 
-Hay algunos otros parámetros, establecidos en el código, que afectan el comportamiento del modelo. La fuerza que actúa sobre cada partícula se multiplica por una constante, &#39;g&#39; (otra variable global). Siéntase libre de jugar con sus valores, establecidos en el procedimiento &#39;configuración&#39;. (Por supuesto, el valor predeterminado de g para el modelo, 0.5, es mucho más alto que el valor usado en Mecánica Newtoniana, 6.67e-11).
+Hay algunos otros parámetros establecidos en el código que afectan el comportamiento del modelo. La fuerza que se actúa en cada partícula se multiplica por una constante ‘g’ (otra variable global). No dudes en jugar con tus valores, establecidos en el procedimiento “preparar”. (Por supuesto, el valor predeterminado de g para el modelo, 0.5, es mucho más alto que el valor usado en Mecánicas Newtoniana, 6.67e-11.)
 
-Las condiciones iniciales son muy importantes para un modelo como este. Intente cambiar la forma en que se colocan las partículas durante el procedimiento de &quot;configuración&quot;.
+Condiciones iniciales son muy importantes para un modelo como este. Trata de cambiar como las partículas se colocan durante el procedimiento ‘preparar’.
 
-Asegúrese de observar cómo los diferentes valores del control deslizante MASS impactan en el modelo.
+Asegúrate de observar cómo los diferentes valores del control deslizante MASA impactan el modelo.
 
 ##  EXTENDIENDO EL MODELO
 
-Deje que las partículas comiencen con una velocidad constante, o déles a todas una velocidad aleatoria. Puede agregar un control deslizante que permita al usuario establecer las velocidades y, por lo tanto, poder comparar los efectos de diferentes velocidades. O intente darle a cada partícula una masa variable, que afecta directamente la fuerza de la fuerza que actúa sobre ella.
+Deja que las partículas empiezan con una velocidad constante, o denlas todas una velocidad al azar. Puedes agregar un control deslizante que dejará al usuario establecer las velocidades, y así será posible comparar los efectos de las velocidades diferentes. O intenta dar cada partícula una masa variable, lo cual directamente afecta el poder de la fuerza actuando en el.
 
-El modelo asume que la fuerza es una fuerza de atracción (las partículas tienden a ser atraídas hacia ella). Sin embargo, debería ser un cambio relativamente fácil convertir esto en una fuerza repulsiva. Intente configurar el modelo con una fuerza repulsiva y observe lo que sucede.
+Este modelo asume la fuerza a ser una fuerza atractiva (las partículas tienden tirarse hacia la fuerza). Sin embargo, sería un cambio relativamente fácil para convertirlo en una fuerza repulsiva. Intenta establecer el modelo con una fuerza repulsiva y observa lo que pasa.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Este modelo crea la ilusión de un plano de tamaño infinito, para modelar mejor el comportamiento de las partículas. Tenga en cuenta que, con el marcado de ruta, puede ver la mayor parte de la elipse que dibuja una partícula, aunque la partícula se salga periódicamente de los límites. Esto se hace mediante una combinación de las primitivas básicas de tortuga `hide-turtle` y` show-turtle`, cuando una partícula golpea el límite, manteniendo las `xcor` e` ycor` de cada tortuga como variables especiales de tortuga `xc` e` yc `, y cálculos similares a la primitiva` distancia` que usa `xc` e` yc` en lugar de `xcor` e` ycor`.
+Este modelo crea la ilusión de un plano de tamaño infinito, para mejor modelar el comportamiento de las partículas. Tenga en cuenta que, si trazas los caminos, puedes ver la mayoría del elipse que la partícula dibuja, aunque la partícula periódicamente sale fuera de los límites. Esto es posible por una combinación de básicas primitivas de tortugas esconder-tortuga y enseñar-tortuga, cuando una partícula golpea el límite, manteniendo el xcor e ycor de cada tortuga como variables de tortuga especial xc e yc, y calculaciones similar a la primitiva distancia que usa xc e yc en vez de xcor e ycor.
 
-Cuando examine el código, tenga en cuenta que los comandos estándar de las tortugas como &quot;establecer encabezado&quot;, &quot;fd 1&quot;, etc., no se utilizan aquí. Todo se hace directamente a las coordenadas xey de las tortugas.
+Cuando examinas el código, tenga en cuenta que los comandos de tortugas estándares como set heading, fd 1, y más no se usan aquí. Todo se hace directamente a las coordenadas x e y de las tortugas. 
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1998).  NetLogo Gravitation model.  http://ccl.northwestern.edu/netlogo/models/Gravitation.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -78,3 +77,5 @@ This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SEN
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2002.
 
 <!-- 1998 2002 -->
+
+Translated by: Chelsea Guzman
