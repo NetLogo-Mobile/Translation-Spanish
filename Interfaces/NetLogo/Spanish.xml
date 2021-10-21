@@ -7,18 +7,114 @@
     <String ID="加载错误" Status="0" English="Loading error">Error de carga</String>
     <String ID="模型消息" Status="0" English="Message from the model">Mensaje del modelo</String>
     <String ID="模型输出" Status="0" English="Output from the model">Salida del modelo</String>
-    <String ID="读取 .nlogo 模型" Status="0" English="Load .nlogo model">Cargar modelo .nlogo</String>
+    <String ID="导入导出" Status="1" English="Import and Export">Importar y exportar</String>
     <String ID="正在读取 NetLogo 模型" Status="0" English="Reading NetLogo model...">Leyendo el modelo de NetLogo ...</String>
     <String ID="正在读取 NetTango 模型" Status="0" English="Reading NetTango model...">Leyendo el modelo de NetTango ...</String>
     <String ID="正在读取 NetLogo 教程" Status="0" English="Reading NetLogo tutorial...">Leyendo el tutorial de NetLogo ...</String>
     <String ID="正在读取 NetLogo 本地化信息" Status="0" English="Reading NetLogo localization...">Leyendo la localización de NetLogo ...</String>
+    <String ID="读取 NetLogo/NetTango 模型" Status="1" English="Load NetLogo/NetTango model">Cargar modelo NetLogo / NetTango</String>
+    <String ID="保存 NetLogo/NetTango 模型" Status="1" English="Save NetLogo/NetTango model">Guardar modelo NetLogo / NetTango</String>
+    <String ID="请输入正确的 NetLogo 模型地址！" Status="1" English="Please enter the correct NetLogo model address!">Introduzca la dirección correcta del modelo de NetLogo.</String>
     <String ID="未能成功读取模型……" Status="0" English="Failed to read the model!">¡No se pudo leer el modelo!</String>
     <String ID="未能成功读取教程……" Status="0" English="Failed to read the tutorial...">No se pudo leer el tutorial ...</String>
     <String ID="未能成功读取本地化信息……" Status="0" English="Failed to read the localization information...">No se pudo leer la información de localización ...</String>
-    <String ID="只有初始化时钟 (Tick) 之后才能使用！" Status="0" English="Can only be used after initializing the tick!">¡Solo se puede usar después de inicializar la marca!</String>
+    <String ID="只有初始化时钟 (Tick) 之后才能使用！" Status="1" English="Please use it after initializing the tick counter.">Úselo después de inicializar el contador de ticks.</String>
+    <String ID="请修复控件的错误之后使用！" Status="1" English="Please use it after fixing the error(s).">Úselo después de corregir los errores.</String>
     <String ID="覆盖模型" Status="0" English="Override the model">Anular el modelo</String>
-    <String ID="点击确认将文件覆盖到本地模型；点击取消创建新的工作区。" Status="0" English="Click OK to override the file to the current model; click Cancel to create a new workspace.">Haz clic en OK para reemplazar el archivo al modelo actual; haz clic en Cancelar para crear un nuevo espacio de trabajo.</String>
+    <String ID="覆盖" Status="1" English="Override">Anular</String>
+    <String ID="新模型" Status="1" English="New model">Nuevo modelo</String>
+    <String ID="如果你正在更新同一模型的不同版本，请选择覆盖模型，这将保留海龟实验室支持的特殊能力（教程、翻译等等）。如果你打开的是新模型，请不要选择覆盖。" Status="1" English="&#xA;&#x9;&#x9;If you are updating the same model, please overwrite, which will retain the special capabilities of Turtle Universe. If you are opening a new model, please choose otherwise.">Si está actualizando el mismo modelo, sobrescriba, lo que conservará las capacidades especiales de Turtle Universe. Si está abriendo un nuevo modelo, elija lo contrario.</String>
+    <String ID="模型代码存在问题，请在代码窗口中修复。" Status="1" English="There is a problem with the code. Please fix it first.">Hay un problema con el código. Primero arréglelo.</String>
   </Interfaces>
+  <Widgets>
+    <String ID="编辑控件" Status="1" English="Edit Widgets">Editar widgets</String>
+    <String ID="这个模型没有界面控件。是否进入编辑模式？" Status="1" English="This model has no interface widgets. Do you want to enter edit mode?">Este modelo no tiene widgets de interfaz. ¿Quieres entrar en el modo de edición?</String>
+    <String ID="编辑界面" Status="1" English="Edit Interface">Editar interfaz</String>
+    <String ID="世界设置" Status="1" English="World Setting">Configuración del mundo</String>
+    <String ID="滑动控件" Status="1" English="Slider">Deslizador</String>
+    <String ID="监视控件" Status="1" English="Monitor">Monitor</String>
+    <String ID="选择控件" Status="1" English="Chooser">Elección</String>
+    <String ID="按钮控件" Status="1" English="Button">Botón</String>
+    <String ID="开关控件" Status="1" English="Switch">Cambiar</String>
+    <String ID="输入控件" Status="1" English="Input">Aporte</String>
+    <String ID="控件标题" Status="1" English="Title">Título</String>
+    <String ID="控件在界面上显示的名称。" Status="1" English="The name of the widget, displayed on the interface.">El nombre del widget, que se muestra en la interfaz.</String>
+    <String ID="群组标题" Status="1" English="Title">Título</String>
+    <String ID="控件群组在界面上显示的名称。" Status="1" English="The name of the widget group, displayed on the interface.">El nombre del grupo de widgets, que se muestra en la interfaz.</String>
+    <String ID="记录变更" Status="1" English="Bookmark?">¿Marcador?</String>
+    <String ID="控件的状态更改时，是否在图表中记录下来。" Status="1" English="Should we add a bookmark in plots when the state of the widget changes?">¿Deberíamos agregar un marcador en los gráficos cuando cambia el estado del widget?</String>
+    <String ID="隐藏控件" Status="1" English="Hidden?">¿Oculto?</String>
+    <String ID="是否在界面上隐藏控件。" Status="1" English="Should we hide this widget on the interface?">¿Deberíamos ocultar este widget en la interfaz?</String>
+    <String ID="隐藏群组" Status="1" English="Hidden?">¿Oculto?</String>
+    <String ID="是否在界面上隐藏群组。" Status="1" English="Should we this widget group on the interface?">¿Debemos este grupo de widgets en la interfaz?</String>
+    <String ID="模型代码中还有对全局变量 {0} 的引用，删除可能造成无法运行。是否继续？" Status="1" English="There is also a reference to the global variable {0} in the model code. Deleting it may cause it to fail to run. Whether to continue?">También hay una referencia a la variable global {0} en el código del modelo. Eliminarlo puede hacer que no se ejecute. ¿Continuar?</String>
+    <String ID="全局变量 {0} 已被更名为 {1}。是否自动替换模型代码中的引用？" Status="1" English="The global variable {0} has been renamed {1}. Do you automatically replace references in the model code?">Se ha cambiado el nombre de la variable global {0} a {1}. ¿Reemplaza automáticamente las referencias en el código del modelo?</String>
+    <String ID="此处内容不能为空！" Status="1" English="This field cannot be empty.">Este campo no puede estar vacío.</String>
+    <String ID="模型中已经存在标题为 {0} 的控件！" Status="1" English="A widget titled {0} already exists in the model!">¡Ya existe un widget titulado {0} en el modelo!</String>
+    <String ID="模型中已经存在标题为 {0} 的群组！" Status="1" English="The group titled {0} already exists in the model!">¡El grupo titulado {0} ya existe en el modelo!</String>
+    <String ID="模型中已经存在全局变量名为 {0} 的控件！" Status="1" English="A widget with the global variable {0} already exists in the model!">¡Ya existe un widget con la variable global {0} en el modelo!</String>
+    <String ID="全局变量" Status="1" English="Global Variable">Variable global</String>
+    <String ID="在模型代码中对应的全局变量名称。" Status="1" English="The corresponding global variable name in the model code.">El nombre de la variable global correspondiente en el código del modelo.</String>
+    <String ID="显示单位" Status="1" English="Unit">Unidad</String>
+    <String ID="在界面上显示的单位名称。" Status="1" English="The unit displayed on the interface.">La unidad que se muestra en la interfaz.</String>
+    <String ID="最大值" Status="1" English="Maximum">Máximo</String>
+    <String ID="可供用户选择的最大值，可以为数值或函数表达式。" Status="1" English="The maximum value of this widget. Could be a numeric value or a reporter.">El valor máximo de este widget. Podría ser un valor numérico o un reportero.</String>
+    <String ID="最小值" Status="1" English="Minimum">Mínimo</String>
+    <String ID="可供用户选择的最小值，可以为数值或函数表达式。" Status="1" English="The minimum value of this widget. Could be a numeric value or a reporter.">El valor mínimo de este widget. Podría ser un valor numérico o un reportero.</String>
+    <String ID="步进值" Status="1" English="Step">Paso</String>
+    <String ID="可供用户选择的值之间的最小间隔。例如设为 1 则输入值只能是整数。" Status="1" English="The minimum interval between values that can be selected by the user.">El intervalo mínimo entre valores que puede seleccionar el usuario.</String>
+    <String ID="提示信息" Status="1" English="Tips">Consejos</String>
+    <String ID="用户设置数值时会看到的提示信息。" Status="1" English="Tips for the user. Will be shown when the user tries to edit the value of this field.">Consejos para el usuario. Se mostrará cuando el usuario intente editar el valor de este campo.</String>
+    <String ID="数据来源" Status="1" English="Source">Fuente</String>
+    <String ID="监视器显示的数据来源，可以为变量名或函数表达式。" Status="1" English="The data source displayed by the monitor. Could be the name of a global variable or a reporter.">La fuente de datos que muestra el monitor. Podría ser el nombre de una variable global o un reportero.</String>
+    <String ID="数据精度" Status="1" English="Precision">Precisión</String>
+    <String ID="监视器显示的小数位数。" Status="1" English="The number of decimal places displayed on the monitor.">El número de posiciones decimales que se muestran en el monitor.</String>
+    <String ID="可用选项" Status="1" English="Choices">Opciones</String>
+    <String ID="可供用户选择的所有选项，每行一个。" Status="1" English="Choices available to the user, one per line.">Opciones disponibles para el usuario, una por línea.</String>
+    <String ID="关联主体" Status="1" English="Agent(s)">Agente (s)</String>
+    <String ID="负责执行命令的主体。" Status="1" English="The agent(s) that would be running the code.">El (los) agente (s) que ejecutarían el código.</String>
+    <String ID="执行命令" Status="1" English="Command">Mando</String>
+    <String ID="按钮执行的命令。" Status="1" English="The command that would be executed by the button.">El comando que sería ejecutado por el botón.</String>
+    <String ID="循环执行" Status="1" English="Loop?">¿Círculo?</String>
+    <String ID="按钮激活时，是否永远循环执行。" Status="1" English="Whether to loop forever when the button is activated.">Si se repite para siempre cuando se activa el botón.</String>
+    <String ID="界面关联" Status="1" English="Role">Papel</String>
+    <String ID="按钮是否与特定的界面机制关联。" Status="1" English="Whether the button is associated with a specific interface role.">Si el botón está asociado con una función de interfaz específica.</String>
+    <String ID="重置（初始化）" Status="1" English="Reset (Setup)">Restablecer (configuración)</String>
+    <String ID="播放（执行）" Status="1" English="Play (Go)">Jugar (ir)</String>
+    <String ID="需要计时" Status="1" English="Need ticks?">¿Necesitas garrapatas?</String>
+    <String ID="是否在计时器启用之前禁用按钮。" Status="1" English="Whether to disable the button before ticks start.">Si se debe deshabilitar el botón antes de que comiencen los tics.</String>
+    <String ID="快捷键" Status="1" English="Action Key">Llave de acción</String>
+    <String ID="按钮关联的键盘快捷键。" Status="1" English="The keyboard shortcut associated with the button.">El método abreviado de teclado asociado con el botón.</String>
+    <String ID="变量名称中不能出现空格或中括号。" Status="1" English="No spaces or brackets can appear in the variable name.">No pueden aparecer espacios ni corchetes en el nombre de la variable.</String>
+    <String ID="修改全局变量" Status="1" English="Modify a global variable">Modificar una variable global</String>
+    <String ID="你正在将全局变量 {0} 的名称更改为 {1}，这可能导致模型无法运行。是否自动更改受影响的变量名？" Status="1" English="The name of a global variable {0} is being changed to {1}, which may cause the model to fail. Do you want to automatically replace it in the model?">El nombre de una variable global {0} se cambiará a {1}, lo que puede hacer que el modelo falle. ¿Quieres reemplazarlo automáticamente en el modelo?</String>
+    <String ID="删除全局变量" Status="1" English="Delete a global variable">Eliminar una variable global</String>
+    <String ID="你正在将全局变量 {0} 从模型中删除，这可能导致模型无法运行。是否继续？" Status="1" English="You are removing the global variable {0} from the model, which may cause the model to fail. Whether to continue?">Está eliminando la variable global {0} del modelo, lo que puede provocar que el modelo falle. ¿Continuar?</String>
+    <String ID="数据类型" Status="1" English="Type">Escribe</String>
+    <String ID="字符串" Status="1" English="String">Cuerda</String>
+    <String ID="数字" Status="1" English="Number">Número</String>
+    <String ID="用户可以输入的数据类型。" Status="1" English="The type of data that the user can enter.">El tipo de datos que puede ingresar el usuario.</String>
+    <String ID="多行输入" Status="1" English="Multi-line">Multilínea</String>
+    <String ID="是否允许用户进行多行输入。" Status="1" English="Whether to allow users to enter multiple lines.">Ya sea para permitir que los usuarios ingresen varias líneas.</String>
+    <String ID="自动更改变量名称失败，你可能需要手动编辑模型代码。" Status="1" English="Failed to replace variable names in the model. You may need to edit the code manually.">No se pudieron reemplazar los nombres de las variables en el modelo. Es posible que deba editar el código manualmente.</String>
+    <String ID="模型中可能存在全局变量的引用，你需要手动编辑模型代码。" Status="1" English="There may be references to the global variable. You need to edit the code manually.">Puede haber referencias a la variable global. Necesita editar el código manualmente.</String>
+    <String ID="模型中存在重复的变量或函数名称，自动编译失败。你需要手动编辑模型代码。" Status="1" English="There are duplicate variable or function names in the model, so automatic compilation fails. You need to edit the code manually.">Hay nombres de función o variable duplicados en el modelo, por lo que la compilación automática falla. Necesita editar el código manualmente.</String>
+    <String ID="请先修复模型中的编译错误，然后再编辑元件。" Status="1" English="Please fix the compilation errors in the model before editing widgets.">Corrija los errores de compilación en el modelo antes de editar los widgets.</String>
+    <String ID="最小 X 坐标" Status="1" English="Minimum X">Mínimo X</String>
+    <String ID="格子的最小 X 坐标 (min-pxcor)。" Status="1" English="The minimum X coordinate of patches (min-pxcor).">La coordenada X mínima de los parches (min-pxcor).</String>
+    <String ID="最大 X 坐标" Status="1" English="Maximum X">Máximo X</String>
+    <String ID="格子的最大 X 坐标 (max-pxcor)。" Status="1" English="The maximum X coordinate of patches (max-pxcor).">La máxima coordenada X de los parches (max-pxcor).</String>
+    <String ID="最小 Y 坐标" Status="1" English="Minimum Y">Y mínimo</String>
+    <String ID="格子的最小 Y 坐标 (min-pycor)。" Status="1" English="The minimum Y coordinate of patches (min-pycor).">La coordenada Y mínima de los parches (min-pycor).</String>
+    <String ID="最大 Y 坐标" Status="1" English="Maximum Y">Maximum Y</String>
+    <String ID="格子的最大 Y 坐标 (max-pycor)。" Status="1" English="The maximum Y coordinate of patches (max-pycor).">La coordenada Y máxima de los parches (max-pycor).</String>
+    <String ID="水平环绕" Status="1" English="Wrap horizontally">Envuelva horizontalmente</String>
+    <String ID="模型世界是否在水平方向上构成环绕。" Status="1" English="Whether the world constitutes a cylinder in the horizontal (X) direction.">Si el mundo constituye un cilindro en la dirección horizontal (X).</String>
+    <String ID="垂直环绕" Status="1" English="Wrap vertically">Envuelva verticalmente</String>
+    <String ID="模型世界是否在垂直方向上构成环绕。" Status="1" English="Whether the world constitutes a cylinder in the vertical (Y) direction.">Si el mundo constituye un cilindro en la dirección vertical (Y).</String>
+    <String ID="格子大小" Status="1" English="Patch size">Tamaño del parche</String>
+    <String ID="每个格子的相对尺寸。" Status="1" English="The relative size of each patch.">El tamaño relativo de cada parche.</String>
+  </Widgets>
   <Toolbar>
     <String ID="编译" Status="0" English="Compile">Compilar</String>
     <String ID="编辑" Status="0" English="Edit">Editar</String>
