@@ -3,27 +3,27 @@
 ### Source
 driver-amplitude
 ### Spanish
-amplitud del conductor
+amplitud-del-motivante
 
 ### Source
 driver-frequency
 ### Spanish
-frecuencia del conductor
+frecuencia-del-motivante
 
 ### Source
 driver-size
 ### Spanish
-tamaño del conductor
+tamaño-del-motivante
 
 ### Source
 driver-x
 ### Spanish
-controlador-x
+motivante-x
 
 ### Source
 driver-y
 ### Spanish
-conductor-y
+motivante-y
 
 ### Source
 friction
@@ -38,7 +38,7 @@ ir
 ### Source
 setup
 ### Spanish
-configuración
+preparar
 
 ### Source
 stiffness
@@ -48,10 +48,9 @@ rigidez
 ### Source
 three-d?
 ### Spanish
-tres-d?
+¿tres-d?
 
 ### Source
 view-angle
 ### Spanish
-ángulo de visión
-
+ver-angúlo

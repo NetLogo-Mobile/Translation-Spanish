@@ -1,5 +1,4 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Que es
+﻿## ¿QUÉ ES?
 
 Este modelo simula el movimiento de las ondas en una membrana. Los cuatro bordes de la membrana están fijados a un marco. Un área rectangular verde representa una placa impulsora que se mueve hacia arriba y hacia abajo, exhibiendo un movimiento sinusoidal.
 
@@ -7,7 +6,7 @@ Este modelo simula el movimiento de las ondas en una membrana. Los cuatro bordes
 
 La membrana está formada por líneas de tortugas. Cada tortuga actúa como si estuviera conectada a sus cuatro tortugas vecinas por medio de manantiales. En este modelo, las tortugas se mueven solo hacia arriba y hacia abajo; la dirección de la fuerza ES solo hacia arriba y hacia abajo. Cuanto mayor es la distancia entre una tortuga y sus vecinas, más fuerte es la fuerza.
 
-Cuando las tortugas verdes se mueven hacia arriba, &quot;jalan&quot; a las tortugas que son sus vecinas, que a su vez jalan a las tortugas que son sus vecinas, y así sucesivamente. De esa forma, una onda se mueve a lo largo de la membrana. Cuando la onda alcanza los bordes de la membrana (las tortugas azules), la onda se refleja de regreso al centro de la membrana.
+Cuando las tortugas verdes se mueven hacia arriba, "jalan" a las tortugas que son sus vecinas, que a su vez jalan a las tortugas que son sus vecinas, y así sucesivamente. De esa forma, una onda se mueve a lo largo de la membrana. Cuando la onda alcanza los bordes de la membrana (las tortugas azules), la onda se refleja de regreso al centro de la membrana.
 
 La amplitud de las tortugas verdes se fija independientemente de la rigidez de la membrana. Sin embargo, mover una membrana rígida requiere mucha más fuerza para moverla en la misma cantidad que una membrana rígida. Entonces, incluso cuando se aumenta la rigidez de la membrana, la altura de la ola seguirá siendo la misma porque la amplitud se mantiene igual.
 
@@ -17,33 +16,33 @@ Controles de las propiedades de la membrana:
 
 El control deslizante FRICCIÓN controla la cantidad de fricción o atenuación en la membrana. El control deslizante RIGIDEZ controla la fuerza ejercida sobre una tortuga por una diferencia de deflexión unitaria entre la tortuga y sus cuatro vecinas.
 
-Controles de la fuerza motriz:
+Controles de la fuerza motivante:
 
-El control deslizante DRIVER-FREQUENCY controla la frecuencia a la que el área verde de la membrana (la fuerza impulsora) se mueve hacia arriba y hacia abajo. El control deslizante DRIVER-AMPLITUDE controla la altura máxima del área verde de la membrana.
+El control deslizante FRECUENCIA-DEL-MOTIVANTE controla la frecuencia a la que el área verde de la membrana (la fuerza impulsora) se mueve hacia arriba y hacia abajo. El control deslizante AMPLITUD-DE-MOTIVANTE controla la altura máxima del área verde de la membrana.
 
-Los controles deslizantes DRIVER-X y DRIVER-Y controlan la posición del conductor. El control deslizante DRIVER-SIZE controla el tamaño del controlador.
+Los controles deslizantes MOTIVANTE-X y MOTIVANTE-Y controlan la posición del conductor. El control deslizante TAMAÑO-DEL-MOTIVANTE controla el tamaño del controlador.
 
 Controles de visualización:
 
-¿El TRES-D? El interruptor controla el punto de vista de la proyección. OFF es para la vista superior (2-D mirando hacia abajo) y ON proporciona una vista isométrica, en un ángulo elegido con el control deslizante VIEW-ANGLE.
+El interruptor ¿TRES-D?  controla el punto de vista de la proyección. APAGADO es para la vista superior (2-D mirando hacia abajo) y ENCENDIDO proporciona una vista isométrica, en un ángulo elegido con el control deslizante VER-ANGÚLO.
 
 ##  COSAS PARA INTENTAR
 
-Haga clic en el botón CONFIGURAR para configurar la membrana. Haga clic en IR para hacer que el área seleccionada de la membrana (las tortugas verdes) comience a moverse hacia arriba y hacia abajo.
+Haz clic en el botón PREPARAR para configurar la membrana. Haz clic en IR para hacer que el área seleccionada de la membrana (las tortugas verdes) comience a moverse hacia arriba y hacia abajo.
 
-Pruebe diferentes membranas. Las membranas blandas tienen valores de rigidez más pequeños y las membranas duras tienen valores de rigidez mayores.
+Prueba diferentes membranas. Las membranas blandas tienen valores de rigidez más pequeños y las membranas duras tienen valores de rigidez mayores.
 
-Pruebe diferentes fuerzas impulsoras o intente cambiar la frecuencia o amplitud. Es muy interesante cambiar el tamaño y la posición de la fuerza impulsora para ver movimientos ondulantes simétricos y asimétricos.
+Prueba diferentes fuerzas impulsoras o intente cambiar la frecuencia o amplitud. Es muy interesante cambiar el tamaño y la posición de la fuerza impulsora para ver movimientos ondulantes simétricos y asimétricos.
 
-Intente crear una &quot;onda estacionaria&quot;, en la que algunos puntos de la membrana no se muevan en absoluto.
+Intente crear una "onda estacionaria," en la que algunos puntos de la membrana no se muevan en absoluto.
 
 ##  EXTENDIENDO EL MODELO
 
-En este modelo, el movimiento de las tortugas es solo en dirección vertical, perpendicular a la membrana. Modifique el modelo de modo que el movimiento esté dentro del plano de la membrana, es decir, el plano x / y.
+En este modelo, el movimiento de las tortugas es solo en dirección vertical, perpendicular a la membrana. Modifique el modelo de modo que el movimiento esté dentro del plano de la membrana, es decir, el plano x/y.
 
-También puede intentar agregar fuerzas impulsoras adicionales para hacer un modelo de membrana de múltiples entradas. Otra cosa que puede intentar es aplicar diferentes formas de onda a la fuerza impulsora para ver cómo reacciona la membrana a diferentes entradas. Intente cambiar la forma general de la fuerza motriz.
+También puedes intentar agregar fuerzas impulsoras adicionales para hacer un modelo de membrana de múltiples entradas. Otra cosa que puede intentar es aplicar diferentes formas de onda a la fuerza impulsora para ver cómo reacciona la membrana a diferentes entradas. Intenta cambiar la forma general de la fuerza motriz.
 
-Intente construir un modelo sólido, es decir, un modelo de formas de onda dentro de las tres dimensiones.
+Intenta construir un modelo sólido, es decir, un modelo de formas de onda dentro de las tres dimensiones.
 
 En lugar de utilizar la amplitud para crear la onda, cámbiela para aplicar una cantidad fija de fuerza de forma continua.
 
@@ -61,17 +60,17 @@ En la versión 3-D, no tiene sentido que las tortugas se &quot;envuelvan&quot; s
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-Thanks to Weiguo Yang for his help with this model.
+Gracias a Weiguo Yang por su ayuda con este modelo.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de Netlogo en una publicación, te pedimos que incluyes las citas abajo. 
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1997).  NetLogo Wave Machine model.  http://ccl.northwestern.edu/netlogo/models/WaveMachine.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 

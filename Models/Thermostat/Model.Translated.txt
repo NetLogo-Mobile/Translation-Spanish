@@ -3,12 +3,12 @@
 ### Source
 goal-temp
 ### Spanish
-objetivo-temp
+meta-temp
 
 ### Source
 Temp
 ### Spanish
-Temperatura
+Temp
 
 ### Source
 temperature
@@ -23,7 +23,7 @@ Temperatura
 ### Source
 Time
 ### Spanish
-Hora
+Tiempo
 
 ## Widgets
 ### Source
@@ -34,17 +34,17 @@ ir
 ### Source
 goal-temp
 ### Spanish
-objetivo-temp
+meta-temp
 
 ### Source
 heater-strength
 ### Spanish
-resistencia del calentador
+poder-del-calentador
 
 ### Source
 initial-temp
 ### Spanish
-temperatura inicial
+temp-inicial
 
 ### Source
 insulation
@@ -54,7 +54,7 @@ aislamiento
 ### Source
 setup
 ### Spanish
-configuración
+preparar
 
 ### Source
 temperature
