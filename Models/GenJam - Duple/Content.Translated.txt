@@ -1,147 +1,146 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Que es
+﻿## ¿QUÉ ES?
 
-Este modelo genera ritmos de batería utilizando un algoritmo genético. Utilizando las &quot;reglas&quot; rítmicas de los círculos de tambores de África occidental, los patrones de batería baja, media y alta funcionan en concierto con la evolución para crear ritmos intermitentes. Esta es la versión &quot;doble&quot; del modelo, donde hay 4 &quot;latidos&quot; por cromosoma.
+Este modelo genera ritmos de tambores usando algoritmos genéticos. Usando las “reglas” rítmicas de círculos de batería de África Occidental, los patrones de batería baja, media y alta funcionan en concierto con la evolución para crear ritmos de jam. Esta es la versión “doble” del modelo, donde hay 4 “ritmos” por cada cromosoma.
 
-En muchos países de África occidental, la música forma parte integral de la cultura. En Senegal en particular, la batería y los instrumentos de percusión sirven como puntos focales de interpretación y también como elementos en contextos ceremoniales. Las actuaciones de conjuntos de tambores de África Occidental son grandes eventos con disfraces de colores fuertes, tambores de diferentes formas y tamaños y música colorida y rítmicamente compleja. Estas actuaciones son escenarios para un desarrollo rico, cruzado y polirrítmico porque muchas de las &quot;canciones&quot; son simplemente marcos de improvisación. En Senegal, tres tambores distintos componen el conjunto típico: un tambor bajo llamado dundun, un tambor de timbre medio llamado sabar y un tambor de timbre alto llamado djembe.
+En muchos países de África Occidental, la música funciona como una parte integral de la cultura. En Senegal en particular, tambores e instrumentos de percusión funcionan como puntos focales de interpretación y también como instrumentos en contextos ceremoniales. Las interpretaciones de conjuntos de tambores de África Occidental son grandes eventos incluyendo disfraces de colores fuertes, tambores de diferentes formas y tamaños y música colorida y rítmicamente intrincada. Estas interpretaciones son escenarios para un desarrollo rico, cruzado y polirrítmico porque muchas de las “canciones” simplemente son marcos de improvisación. En Senegal, tres tambores distintos componen el conjunto típico: un tambor bajo llamado el dundun, un tambor de timbre medio llamado el sabar y un tambor de timbre alto llamado el djembe.
 
-Durante una actuación, los bateristas escuchan y se mezclan con sus compañeros para crear el rico sonido que escucha el público. El ritmo está en constante evolución basado en solos, grupos y la atenuación de la &quot;sensación de ritmo fuerte-débil&quot;. Este modelo muestra una forma de intentar generar ritmos de batería agradables automáticamente al estilo de la batería de África Occidental. Si bien la mayoría de los intentos de generar música automáticamente dependen de que un humano seleccione los ritmos que le gustan, este modelo intenta generar ritmos sin preguntarle explícitamente a un humano si le gusta o no un ritmo en particular.
+Durante una interpretación, los bateristas escuchan y se mezclan con sus compañeros para crear un rico sonido que el público escucha. El ritmo está constantemente evolucionando en función de los solos, los grupos y la atenuación de “sensación de ritmo fuerte-débil”. Este modelo te muestra una forma de intentar a generar ritmos de batería agradables automáticamente al estilo de la batería de África Occidental. Aunque muchos intentos de generar música automáticamente depende de que un humano seleccione los ritmos que le gustan, este modelo intenta generar ritmos sin preguntarle explícitamente a un humano si le gusta o no un ritmo en particular.
 
-Un [algoritmo genético] (https://en.wikipedia.org/wiki/Genetic_algorithm#) es una herramienta utilizada en informática para producir soluciones a problemas de optimización y búsqueda. Se basa en técnicas de inspiración biológica para &quot;buscar&quot; en un espacio de parámetros una &quot;solución óptima&quot;. La clave está en representar el problema dado utilizando &quot;material genético&quot; como los cromosomas. Luego, el algoritmo utiliza las técnicas de [selección] (https://en.wikipedia.org/wiki/Genetic_algorithm#Selection), [crossover] (https://en.wikipedia.org/wiki/Genetic_algorithm#Genetic_operators), y [mutación] (https://en.wikipedia.org/wiki/Genetic_algorithm#Genetic_operators) para &quot;evolucionar&quot; la solución.
+Un algoritmo genético es una herramienta que se usa en las ciencias de computación para producir soluciones a problemas de optimización y búsqueda. Se basa en técnicas inspiradas biológicamente para “buscar” un espacio de parámetros para una “solución óptima”. La clave está en representar el problema usando “material genético” como los cromosomas. Después, el algoritmo usa una técnica de selección, cruce y mutación para “evolucionar” la solución.  
 
 ##  COMO FUNCIONA
 
 ### ¿Qué hace que estos ritmos evolucionen?
 
-La idea básica utiliza el concepto de algoritmos genéticos en informática. Un algoritmo genético está destinado a tomar &quot;organismos&quot; con &quot;cromosomas&quot; y simular su evolución hacia algún tipo de objetivo (por lo que, con el tiempo, los organismos tienen una mayor &quot;aptitud&quot;). En este ejemplo, los bateristas son nuestros organismos y cada uno tiene un conjunto de cromosomas compuesto de golpes y silencios que representan el ritmo que tocan.
+La idea básica usa el concepto de algoritmos genéticos en ciencias de computación. Una algoritmia genética toma “organismos” con “cromosomas” y simula su evolución hacia algún objetivo (entonces con el tiempo, los organismos tienen una “aptitud” mejor). En este ejemplo, los bateristas son nuestros organismos y cada uno tiene un conjunto de cromosomas compuesto de golpes y descansos que representan el ritmo que tocan.
 
-Hay 16 baterías: 5 baterías altas, 5 baterías medias y 6 baterías bajas. Aquí estamos usando &quot;bajo&quot;, &quot;medio&quot; y &quot;alto&quot; para describir el tono y el timbre de un tambor. Cada baterista (una tortuga invisible) tiene un conjunto de &quot;cromosomas de ritmo&quot; que dictan qué patrón de batería toca.
+Hay 16 tambores: 5 tambores altos, 5 tambores medianos, y 6 tambores bajos. Aquí estamos usando “bajo”, “mediano”, y “alto” para describir el tono y el timbre de un tambor. Cada baterista (una tortuga invisible) tiene un conjunto de “cromosomos ritmo” que dictan cuál patrón de tambor toca.
 
-En este modelo, cada cromosoma rítmico está representado por una lista de 4 dígitos binarios. Un &#39;0&#39; indica un descanso mientras que un &#39;1&#39; indica un acierto. En este modelo, puede pensar en cada uno de estos dígitos como &#39;semicorcheas&#39;, de modo que cada cromosoma representa un &#39;latido&#39;. Esto significa que hay 2 ^ 4 = 16 tipos diferentes de cromosomas.
+En este modelo, cada cromosoma rítmico se representa con una lista de cuatro dígitos binarios. Un ‘0’ indica un descanso y un ‘1’ indica un golpe. En este modelo, puedes entender que cada de estos dígitos como ‘semicorcheas’ de modo que cada cromosoma representa un ‘ritmo’. Esto significa que hay 2^4 = 16 diferentes tipos de cromosomas.
 
-El usuario especifica la cantidad de cromosomas que componen el código genético de un baterista. El número predeterminado es 4 (que, para los inclinados a la música, resulta en un compás de &quot;cuatro-cuatro&quot;).
+El número de cromosomas que componen el código genético del baterista es especificado por el usuario. El número predeterminado es 4 (que, para los inclinados a la música resulta en un tipo de compás de “cuatro-cuatro”).
 
-Al principio, todos los jugadores comienzan con exactamente los mismos cromosomas (cada jugador solo juega en el ritmo fuerte). Cada jugador juega a través de sus cromosomas en sincronía con los otros jugadores (es decir, todas las tortugas tocan la nota 0 del cromosoma 0, luego la nota 1 del cromosoma 0, etc.). Una vez que las tortugas han terminado de reproducir sus ritmos cromosómicos, las tortugas &quot;evolucionan&quot;.
+Al principio, cada tocador comienza con exactamente los mismos cromosomas (cada tocador solo juega en el ritmo fuerte). Cada tocada toca a través de sus cromosomas en sincronía con los otros tocadores (es decir, todas las tortugas tocan la nota 0 del cromosoma 0, después nota 1 del cromosoma 0, etc…). Una vez que las tortugas terminan de tocar sus ritmos cromosómicos, las tortugas “evolucionan”.
 
-Después de cada ejecución de sus ritmos genéticos, se seleccionan dos de cada tipo de baterista (bateristas alto, medio y bajo) para &quot;reproducir&quot; y &quot;evolucionar&quot;. Cada tortuga selecciona un compañero en función de una función de aptitud (diferente para cada raza). Es más probable que las tortugas con mayor aptitud sean seleccionadas como parejas.
+Después de que toquen sus ritmos genéticos, se seleccionan dos de cada tipo de baterista (bateristas alto, medio y bajo) para ‘reproducir’ y ‘evolucionar’. Cada tortuga elige un compañero basado en la función de aptitud (diferente para cada raza). Las tortugas con una aptitud mejor son más probables para ser elegidas como compañeros. 
 
-En la batería de África occidental, los bateristas bajos se consideran la base del ritmo. Por lo tanto, su aptitud está determinada por el número de latidos fuertes (es decir, las entradas 0 y 2 de cada cromosoma) en las que juegan.
+En la batería de África Occidental, los bateristas bajos se consideran la base del ritmo. Entonces, su aptitud se determina con el número de ritmos fuertes (es decir, el 0 y 2do entradas en cada cromosoma) en cuales están tocando. 
 
-Los bateristas medios suelen ser un poco más solistas que los bateristas bajos, pero a menudo enfatizan los ritmos fuera de ritmo. Por lo tanto, su aptitud se evalúa en función del número de ritmos extraños (es decir, la 1ª y 3ª entrada de cada cromosoma) en los que juegan.
+Los bateristas medianos típicamente son un poco más solistas que los bateristas bajos, pero a menudo enfatizan los tiempos débiles. Su aptitud se evalúa en función del número de tiempos débiles (es decir, la 1a y 3a entrada en cada cromosoma) en cuales están tocando.
 
-Finalmente, los percusionistas altos son considerados los solistas del conjunto. Proporcionan tensión rítmica y tienden a tocar en grupos. Por lo tanto, su aptitud se basa en el número de 3 grupos [0 1 1 1] que juegan, que se consideran independientemente de su posición en el patrón.
+Finalmente, los bateristas altos son considerados los solistas del conjunto. Proporcionan tensión rítmica y tienden a tocar en grupos. Por lo tanto, su aptitud se basa en el número de grupos de 3 [0 1 1 1] que tocan, que se consideran independientemente de su posición en el patrón.
 
-Una vez que se selecciona una pareja, cada pareja elige entre 1 y 4 cromosomas para contribuir a la descendencia (para un total de 4). Este material genético se combina y, según los parámetros del usuario, está sujeto a mutaciones aleatorias. Este nuevo conjunto de material genético se considera una nueva descendencia. Este descendiente luego reemplaza al miembro menos apto del tipo de baterista originalmente seleccionado para evolucionar.
+Una vez que se selecciona un par de compañeros, cada compañero elige entre 1 y 4 cromosomas para contribuir a la descendencia (para un total de 4). Este material genético se combina y, dependiendo de los parámetros del usuario, está a mutaciones aleatorias. Este nuevo conjunto de material genético se considera una nueva descendencia. Esta descendencia reemplaza al miembro menos apto del tipo de baterista originalmente seleccionado para evolucionar.
 
-Una vez que ha tenido lugar esta evolución, ¡todo el proceso se repite nuevamente!
+Una vez que ha tenido lugar esta evolución, ¡el proceso se repite nuevamente!
 
-Esto se diferencia de un algoritmo genético &quot;puro&quot; en algunos aspectos. En primer lugar, las tortugas que se seleccionan para &quot;evolucionar&quot; se seleccionan al azar. Esta fue una decisión de diseño que no debería afectar drásticamente la evolución del modelo. Además, limitamos la población a 16 bateristas al &quot;matar&quot; a los miembros menos aptos de cada raza después de cada ronda de evolución.
+Esto se difiere de un algoritmo genético “puro” en algunas maneras. Para empezar, las tortugas que se seleccionan para “evolucionar” se seleccionan al azar. Esta fue una decisión de diseño que no debe de afectar la evolución del modelo drásticamente. Además, limitamos la población a 16 bateristas al “matar” a los miembros que son menos aptos de cada raza después de cada ronda de evolución.
 
-### ¿Qué demonios muestra la vista?
+### ¿Qué está mostrando la vista?
 
-Este modelo usa la vista NetLogo de una manera no estándar. En lugar de mostrar las interacciones de los agentes, este modelo utiliza la vista para mostrar las propiedades de los agentes. Cada fila de parches representa el patrón de un solo baterista. Un parche de color representa un golpe, mientras que un parche negro representa un descanso. De esta manera, el usuario puede ver simultáneamente los patrones de los 16 bateristas.
+Este modelo usa la vista de NetLogo en una manera no estándar. En vez de mostrar interacciones de agentes, este modelo usa la vista para mostrar las funciones de los agentes. Cada fila de parcelas representa el patrón de un solo baterista. Una parcela colorido representa un golpe y una parcela negra representa un descanso. Así, el usuario puede ver los patrones de todos los 16 bateristas simultáneamente.
 
-Cuando un usuario hace clic en cualquiera de los botones GO, una barra amarilla vertical se mueve a través de la vista e indica en qué parte del ritmo se encuentra cada tortuga.
+Cuando un usuario haga clic en cualquier de los botones de IR, una barra amarilla vertical se mueve por la vista e indica en qué parte del ritmo se encuentra cada tortuga.
 
 ##  COMO USARLO
 
-La idea de este modelo es experimentar con los parámetros para construir un ritmo &quot;grandioso&quot;. Lo que hace un gran ritmo depende completamente de ti.
+La idea completa de este modelo es experimentar con los parámetros para construir un ritmo “grandioso”. Lo que hace un gran ritmo depende completamente de ti.
 
 ### Elementos de la interfaz
-Hay dos elementos de la interfaz que deben configurarse antes de presionar el botón SETUP:
 
-1. NUM-CROMOSOMAS: especifica la cantidad de cromosomas rítmicos que tiene cada jugador.
-2. ¿PIEZAS ALEATORIAS? - Esto es simplemente un cambio de GUI que se baraja alrededor de las líneas del jugador en la vista (solo para que las cosas se vean más geniales)
+Hay dos elementos de interfaz que necesitan estar preparados antes de presionar el botón PREPARAR:
 
-El botón SETUP se utiliza para crear los agentes y actualizar la pantalla. También hará que se reproduzca un tono de prueba para asegurarse de que la extensión de sonido esté funcionando y sus altavoces no estén silenciados.
+1. NÚM-CROMOSOMAS – Especifica el número de cromosomas rítmicos que tiene cada tocador.
+2. BARAJAR-PARTES? – Esto simplemente es un cambio de GUI que baraja alrededor de las líneas de los tocadores en la vista (solo para que las cosas se vean más geniales). 
 
-GO-ONCE se usa para pedir a todas las tortugas que reproduzcan su patrón exactamente una vez y luego evolucionen
+El botón PREPARAR se usa para crear los agentes y actualizar la vista. También causará que un tono de prueba se reproduzca para asegurarse que la extensión de sonido esté funcionando y tus altavoces no estén silenciados.
 
-GO se utiliza para repetir el proceso de jugar y evolucionar una y otra vez.
+IR-UNA-VEZ se usa para pedirle a todas las tortugas que tocan sus patrones exactamente una vez y luego evolucionan.
 
-GO-ONCE-NO-EVOLVE se puede usar para reproducir cualquier patrón en particular exactamente una vez sin evolución
+IR se usa para repetir el proceso de tocar y evolucionar una y otra vez.
 
-GO-NO-EVOLVE se utiliza para repetir un patrón una y otra vez sin evolución
+IR-UNA-VEZ-EVOLUCIONAR se usa para repetir un patrón una y otra vez sin evolución.
 
-¿SONAR? se usa para alternar la salida de sonido
+SONIDO? se utiliza para alternar la salida de sonido
 
-TEMPO-BPM cambia la rapidez con la que se reproduce cada patrón (medido en latidos (o cromosomas) por minuto)
+TEMPO-BPM cambia la velocidad con la que se tocan (medido en ritmos (o cromosomas) por minuto).
 
-### Parámetros de evolución
+### Parámetros de Evolución
 
-HIT-LIMIT define cuánto tiempo puede pasar una tortuga sin verse obligada a evolucionar de alguna manera. Una vez más, esto difiere ligeramente de un algoritmo genético tradicional, pero se puede utilizar para escapar de los ritmos &quot;obsoletos&quot;.
+LÍMITE-GOLPE define cuánto tiempo una tortuga puede continuar sin que tenga que evolucionar de alguna manera. Otra vez, esto difiere ligeramente de un algoritmo genético tradicional, pero se puede usar para escapar de ritmos “obsoletos”.
 
-HIT-DENSITY-MODIFIER es un modificador para especificar qué tan &quot;denso&quot; debe ser un patrón (golpes vs silencios)
+GOLPE-DENSIDAD-MODIFICADOR es un modificador para especificar cuánto “denso” debe ser un patrón (golpes y descansos). 
 
-NUM-MUTATIONS es la cantidad de mutaciones que se aplican a los cromosomas de una descendencia.
+NÚM-MUTACIONES es la cantidad de mutaciones que se aplican a los cromosomas de una descendencia.
 
-LA FUERZA DE LA MUTACIÓN dicta cuánto puede mutar un cromosoma en particular
+FUERZA-MUTACIÓN dicta cuánto puede mutar un cromosoma en particular.
 
-SOLOER es un selector que le permite seleccionar un baterista para un solo
+SOLISTA es un seleccionador que te permite elegir un baterista para un solo.
 
-¿SOLO? dicta si se debe permitir o no que el SOLOER haga un solo. Esto significa que el SOLOER toca su tambor más fuerte y las otras tortugas tocan su batería más suave. Además, el SOLOER tendrá la máxima aptitud
+SOLO? dicta si se debe permitir que el SOLISTA haga un solo. Esto significa que el SOLISTA toca su tambor más fuerte y las otras tortugas tocan sus tambores más suave. Además, el SOLISTA tendrá la máxima aptitud.
 
-### Salidas del modelo
+### Salidas del Modelo
 
-GENERATIONS cuenta cuántas generaciones de jugadores hemos visto
+GENERACIONES cuenta cuántas generaciones de tocadores que hemos visto
 
-DENSIDAD representa la relación actual de golpes a silencios
+DENSIDAD representa la relación actual de golpes a descansos.
 
-Los siguientes son gráficos del modelo:
+Las siguientes son gráficas del modelo:
 
-ESTADO FÍSICO PROMEDIO traza el estado físico promedio de cada tipo de tortuga y el estado físico general promedio a lo largo del tiempo.
+APTITUD-PROMEDIO gráfica la condición física promedio de cada tipo de tortuga y la aptitud física general con el tiempo.
+ 
+GOLPE-DESDE-EVOLUCIÓN es un histograma que muestra cuánto tiempo ha pasado desde que cada tocador ha “evolucionado”.
 
-HITS DESDE LA EVOLUCIÓN es un histograma que muestra cuánto tiempo ha pasado desde que cada jugador ha &#39;evolucionado&#39;
-
-HITS PER DRUMMER es un histograma que muestra cuántos hits ha hecho cada jugador
+GOLPES-POR-BATERISTA es un histograma que muestra cuantos golpes cada tocador ha pegado.
 
 ##  COSAS PARA NOTAR
 
-Cuando inicia el modelo por primera vez, todos comienzan con los mismos cromosomas. Entonces, si desactivas la mutación haciendo MUTATION-STRENGTH 0, ¡tu modelo no evolucionará! Eso es porque los mismos cromosomas se combinan para cada jugador.
+Cuando inicias el modelo, todos comienzan con los mismos cromosomas. Si inhabilitas la mutación con configurar FUERZA-MUTACIÓN en 0, ¡tu modelo no evolucionará! Eso es porque los mismos cromosomas se combinan para cada tocador.
 
-Tenga en cuenta que a veces, una sola tortuga se queda por mucho tiempo (¡porque está súper en forma!)
+Tenga en cuenta que algunas veces, una sola tortuga se queda durante mucho tiempo (¡porque es muy apto!).
 
-Echa un vistazo a la trama Hits per Drummer. ¿Ve alguna tendencia general en el transcurso de la ejecución del modelo? ¿Por qué podría estar ocurriendo esa tendencia?
+Mira la gráfica de Golpes por Baterista. ¿Ves alguna tendencia general a lo largo de la ejecución del modelo? ¿Por qué podría estar ocurriendo esta tendencia?
 
-Tenga en cuenta que la función SOLO no solo hace que un jugador suene más fuerte, lo hace para que el jugador no evolucione o mute. ¿Cómo afecta eso al modelo?
+Tenga en cuenta que la función de SOLO no solo hace que un tocador sea más fuerte, también hace que el tocador no evoluciona o muta. ¿Cómo afecta eso al modelo?
 
 ##  COSAS PARA INTENTAR
 
-Utilice la función SOLO para forzar que un ritmo evolucione alrededor de un solo jugador estable.
+Usa la función SOLO para forzar que un ritmo evoluciona con un solo tocador estable.
 
-¡Intenta crear un ritmo en el que los tres tipos de jugadores encajen &quot;por igual&quot;!
+Intenta y crea un ritmo donde los tres tipos de tocadores son igualmentes “aptos”.
 
-Trate de desarrollar un ritmo donde los tambores altos sean muy escasos.
+Intenta desarrollar un ritmo donde los tambores altos sean muy escasos.
 
-Vea cómo la creación de un medidor &quot;complejo&quot; cambia la forma en que escucha el ritmo. Una manera fácil de hacer esto es establecer el NÚMERO-CROMOSOMAS en 5 y ver si puede escuchar la frase musical.
+Vea cómo la creación de un medidor “complejo” cambia la forma en que escuchas el ritmo. Una manera fácil de hacer esto es establecer el NÚMERO-CROMOSÓMICO en 5 y ver si puedes escuchar la frase musical.
 
 ##  EXTENDIENDO EL MODELO
 
-Intente cambiar los sonidos de los instrumentos para las tortugas. ¿Puedes cambiar de una sensación de círculo de batería a una sensación de ritmo más rock con solo cambiar de instrumento?
+Intente cambiar los sonidos de los instrumentos para las tortugas. ¿Puedes cambiar de una sensación de círculo de batería a una sensación de ritmo más rock con solo cambiar los instrumentos?
 
-Agrega más tipos de bateristas. Vea cómo eso cambia la evolución.
+Añade más tipos de bateristas. Observa cómo cambia la evolución.
 
-Cambie los criterios para un compañero para cada raza y vea cómo eso afecta la evolución del ritmo.
+Cambia el criterio para un compañero para cada raza y observa cómo afecta la evolución del ritmo.
 
-¡Intente agregar la capacidad de que las tortugas jueguen trillizos! Esto haría que los ritmos fueran súper geniales, ¡pero requeriría un poco de tiempo de deformación! (Pista: echa un vistazo a la primitiva play-later en la extensión de sonido)
+¡Intenta agregar la capacidad de que las tortugas jueguen trillizos! Esto haría que los ritmos fueran súper geniales, ¡pero requeriría un poco de tiempo de deformación! (Indicio: consulte la primitiva toca-después en la extensión de sonido).
+
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Observe que este modelo ralentiza a propósito el mundo NetLogo mediante el uso de la primitiva `wait`. ¡Eso es porque la música no ocurre lo más rápido posible! Desafortunadamente, esto no funciona para el primer tic, por lo que el espacio entre el &quot;primer tiempo&quot; y el &quot;segundo tiempo&quot; no es igual al espacio entre el resto de los tiempos.
+Observa que este modelo ralentiza el mundo NetLogo a propósito con el uso de la primitiva de espera. ¡Eso es porque la música no ocurre lo más rápido posible! Desafortunadamente, esto no funciona con el primer tick, por lo que el espacio entre el “primer ritmo” y el “segundo ritmo” no es igual al espacio entre el resto de los tiempos.
 
 ##  MODELOS RELACIONADOS 
 
-Check out the Sound Machines and Drum Machine models in the Models Library!
+¡Vea los modelos de Máquinas de Sonido y Máquina de Tambor en la Biblioteca de Modelos!
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo
 
-For the model itself:
+Para el modelo:
 
 * Bain, C. and Wilensky, U. (2017).  NetLogo GenJam - Duple model.  http://ccl.northwestern.edu/netlogo/models/GenJam-Duple.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -156,3 +155,5 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
 
 <!-- 2017 Cite: Bain, C. -->
+
+Translated by: Chelsea Guzman
