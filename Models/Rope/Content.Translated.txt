@@ -1,19 +1,18 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Que es
+﻿## ¿QUÉ ES?
 
-Este proyecto simula una ola que se mueve a lo largo de una cuerda. El extremo derecho de la cuerda (que se muestra en azul) está fijado a una pared. El extremo izquierdo de la cuerda (que se muestra en verde) proporciona una entrada, moviéndose hacia arriba y hacia abajo en un movimiento sinusoidal. Esto crea una ola que viaja a lo largo de la cuerda.
+Este proyecto simula una ola que se mueve a lo largo de una cuerda. El extremo derecho de la cuerda (que se muestra en azul) está fijado a una pared. El extremo izquierdo de la cuerda (que se muestra en verde) proporciona una entrada, moviéndose hacia arriba y hacia abajo en un movimiento sinusoidal. Esto crea una ola que viaja a lo largo de la cuerda
 
 ##  COMO FUNCIONA
 
-La cuerda está formada por una línea de tortugas. Las tortugas se fijan horizontalmente, pero pueden moverse hacia arriba y hacia abajo. Cada tortuga actúa como si estuviera conectada a sus dos tortugas vecinas con manantiales. Cuando una tortuga vecina está más lejos, ejerce una fuerza más fuerte.
+La cuerda está formada por una línea de tortugas. Las tortugas se fijan horizontalmente, pero pueden moverse hacia arriba y hacia abajo. Cada tortuga actúa como si estuviera conectada a sus dos tortugas vecinas con resortes. Cuando una tortuga vecina está más lejos, ejerce una fuerza más fuerte.
 
-Cuando el extremo izquierdo de la cuerda (la tortuga verde) se mueve hacia arriba, &quot;tira&quot; a la tortuga hacia su derecha, que a su vez tira hacia arriba a la tortuga hacia su derecha, y así sucesivamente. De esa forma, una ola baja por la cuerda. Cuando la ola alcanza el extremo derecho de la cuerda (la tortuga azul), la ola se refleja hacia la izquierda.
+Cuando el extremo izquierdo de la cuerda (la tortuga verde) se mueve hacia arriba, "tira hacia arriba" a la tortuga hacia su derecha, que a su vez tira hacia arriba a la tortuga hacia su derecha, y así sucesivamente. De esa forma, una ola baja por la cuerda. Cuando la ola alcanza el extremo derecho de la cuerda (la tortuga azul), la ola se refleja hacia la izquierda.
 
 ##  COMO USARLO
 
-Haga clic en el botón CONFIGURAR para configurar la cuerda. Haga clic en IR para hacer que el extremo izquierdo de la cuerda (la tortuga verde) comience a moverse hacia arriba y hacia abajo.
+Haz clic en el botón PREPARAR para configurar la cuerda. Haz clic en IR para hacer que el extremo izquierdo de la cuerda (la tortuga verde) comience a moverse hacia arriba y hacia abajo.
 
-El control deslizante FRICCIÓN controla la cantidad de fricción en la cuerda. El control deslizante FREQUENCY controla la velocidad con el extremo izquierdo de la cuerda que se mueve hacia arriba y hacia abajo. El control deslizante AMPLITUD controla la altura máxima del extremo izquierdo de la cuerda.
+El control deslizante FRICCIÓN controla la cantidad de fricción en la cuerda. El control deslizante FRECUENCIA controla la velocidad con el extremo izquierdo de la cuerda que se mueve hacia arriba y hacia abajo. El deslizador AMPLITUD controla la altura máxima del extremo izquierdo de la cuerda.
 
 ##  COSAS PARA NOTAR
 
@@ -21,29 +20,29 @@ Existe una conexión entre la frecuencia con la que el extremo izquierdo de la c
 
 ##  COSAS PARA INTENTAR
 
-Cambie los valores de los controles deslizantes y observe qué sucede con las olas en la cuerda.
+Cambia los valores en los controles deslizantes y observa lo que sucede con las olas en la cuerda.
 
-Intente crear una &quot;onda estacionaria&quot;, en la que algunos puntos de la cuerda no se muevan en absoluto.
+Intenta crear una "onda estacionaria", en la que algunos puntos de la cuerda no se muevan en absoluto.
 
-Cambie la tortuga azul a verde, de modo que haya dos fuerzas impulsoras. Luego cambia una de las tortugas rojas en el medio de la cuerda a azul, de modo que haya un punto fijo en el medio. ¿Qué pasa con las olas?
+Cambia la tortuga azul a verde, de modo que haya dos fuerzas impulsoras. Luego cambia una de las tortugas rojas en el medio de la cuerda a azul, de modo que haya un punto fijo en el medio. ¿Qué pasa con las olas?
 
 ##  EXTENDIENDO EL MODELO
 
-Cambie el extremo derecho de la cuerda para que se mueva libremente, en lugar de estar fijo. ¿Cómo cambia eso el comportamiento de las ondas en la cuerda?
+Cambia el extremo derecho de la cuerda para que se mueva libremente, en lugar de estar fijo. ¿Cómo cambia eso el comportamiento de las ondas en la cuerda?
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Para este proyecto, no tiene sentido que las tortugas se &quot;envuelvan&quot; cuando llegan a la cima o al final del mundo. Entonces, la posición y real de las tortugas se mantiene en una nueva variable (`ypos`), y la tortuga se oculta si` ycor`, su verdadera posición, está más allá de los límites del mundo.
+Para este proyecto, no tiene sentido que las tortugas se "envuelvan" cuando llegan a la cima o al final del mundo. Entonces, la posición-y real de las tortugas se mantiene en una nueva variable (ypos), y la tortuga se oculta si ycor, su verdadera posición, está más allá de los límites del mundo.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1997).  NetLogo Rope model.  http://ccl.northwestern.edu/netlogo/models/Rope.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -64,3 +63,5 @@ This model was developed at the MIT Media Lab using CM StarLogo.  See Resnick, M
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
 
 <!-- 1997 2001 MIT -->
+
+Translated by: Cassandra Lagunas

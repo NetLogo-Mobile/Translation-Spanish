@@ -23,5 +23,5 @@ ir
 ### Source
 setup
 ### Spanish
-configuración
+preparar
 
