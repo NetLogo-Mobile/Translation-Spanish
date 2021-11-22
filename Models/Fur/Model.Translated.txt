@@ -13,22 +13,22 @@ densidad inicial
 ### Source
 inner-radius-x
 ### Spanish
-radio-interior-x
+radio-interno-x
 
 ### Source
 inner-radius-y
 ### Spanish
-radio-interior-y
+radio-interno-y
 
 ### Source
 outer-radius-x
 ### Spanish
-radio-exterior-x
+radio-externo-x
 
 ### Source
 outer-radius-y
 ### Spanish
-radio-exterior-y
+radio-externo-y
 
 ### Source
 ratio
@@ -38,12 +38,12 @@ proporción
 ### Source
 restart
 ### Spanish
-Reanudar
+reestablecer
 
 ### Source
 setup
 ### Spanish
-configuración
+preparar
 
 ### Source
 step

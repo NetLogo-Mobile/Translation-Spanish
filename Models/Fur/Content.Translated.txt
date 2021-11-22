@@ -1,34 +1,33 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Que es
+﻿## ¿QUÉ ES?
 
 ¿Existe un solo mecanismo subyacente a patrones tan diversos como las rayas de una cebra, las manchas de un leopardo y las manchas de una jirafa? Este modelo es una posible explicación de cómo los patrones en la piel de los animales se autoorganizan. Fue propuesto por primera vez por Alan Turing. Si el modelo es correcto, aunque los animales parezcan tener patrones completamente diferentes, las reglas subyacentes a la formación de estos patrones son las mismas y solo algunos de los parámetros (los números en los que funcionan las reglas) son ligeramente diferentes.
 
-Pensar en la formación del pelaje en términos de reglas también nos ayuda a comprender cómo la descendencia de los animales puede tener el mismo tipo de patrón, pero no el mismo patrón exacto. Esto se debe a que lo que han heredado son las reglas y los valores en lugar de una imagen fija. El proceso por el cual las reglas y los valores generan un patrón se ve afectado por factores aleatorios, por lo que el patrón de cada individuo es diferente, pero mientras la descendencia reciba las mismas reglas y valores, su propio pelaje se autoorganizará en el mismo tipo de patrón que sus padres&#39;.
+En pensando en la formación del pelaje en términos de reglas también nos ayuda a comprender cómo la descendencia de los animales puede tener el mismo tipo de patrón, pero no el mismo patrón exacto. Esto se debe a que lo que han heredado son las reglas y los valores en lugar de una imagen fija. El proceso por el cual las reglas y los valores generan un patrón se ve afectado por factores aleatorios, por lo que el patrón de cada individuo es diferente, pero mientras la descendencia reciba las mismas reglas y valores, su propio pelaje se autoorganizará en el mismo tipo de patrón que sus padres.
 
 ##  COMO FUNCIONA
 
-Modelamos la piel del animal mediante una matriz cuadrada de muchos melanocitos (células pigmentarias) que están cada uno en cualquiera de dos estados: colorido (&#39;D&#39; para diferenciado) o no colorido (&#39;U&#39; para indiferenciado). El estado de una célula puede cambiar entre D y U. Las células de color (las D) secretan dos tipos de &quot;morfógenos&quot;: activadores (A) e inhibidores (I). Los activadores, por sí mismos, hacen que una célula central se vuelva colorida; los inhibidores, por sí solos, hacen que la célula central pierda color. Estos morfógenos competidores se secretan en todas las direcciones, por lo que puede pensar que cada célula de color crea un charco que crece a su alrededor y se extiende a otras células.
+Modelamos la piel del animal mediante una matriz cuadrada de muchos melanocitos (células pigmentarias) que están cada uno en cualquiera de dos estados: colorido ('D' para diferenciado) o no colorido ('U' para indiferenciado). El estado de una célula puede cambiar entre D y U. Las células de color (las D) secretan dos tipos de 'morfógenos': activadores (A) e inhibidores (I). Los activadores, por sí mismos, hacen que una célula central se vuelva colorida; los inhibidores, por sí solos, hacen que la célula central pierda color. Estos morfógenos competidores se secretan en todas las direcciones, por lo que puede pensar que cada célula de color crea un charco que crece a su alrededor y se extiende a otras células.
 
-Cada celda, sea colorida o no, es en sí misma el centro de su propio vecindario. Por ahora, suponga que el vecindario es un círculo. Digamos que este vecindario circular tiene un radio de 6 celdas. Esto significa que la celda en el centro puede verse afectada por otras celdas que están a una distancia de hasta 6 celdas de ella en cualquier dirección. Entonces, si hay una célula D dentro de este círculo y secreta morfógenos, estos morfógenos se difundirán hasta esta célula central (pero una célula D a 7 células no la afectará directa o inmediatamente). Además, cada celda tiene un círculo interno de radio, digamos, 3 celdas.
+Cada célula, sea colorida o no, es en sí misma el centro de su propio vecindario. Por ahora, suponga que el vecindario es un círculo. Digamos que este vecindario circular tiene un radio de 6 células. Esto significa que la células en el centro puede verse afectada por otras células que están a una distancia de hasta 6 células de ella en cualquier dirección. Entonces, si hay una célula D dentro de este círculo y secreta morfógenos, estos morfógenos se difundirán hasta esta célula central (pero una célula D a 7 células no la afectará directa o inmediatamente). Además, cada célula tiene un círculo interno de radio, digamos, 3 células.
 
-Cada una de las células D dentro del círculo interno aporta morfógenos de tipo A (activador) a la célula central. Entre el círculo interior y el perímetro del círculo exterior tenemos un anillo de celdas que están a más de 3 celdas del centro pero a 6 celdas o menos del centro. Cada célula D de este anillo exterior aporta morfógenos de tipo I (inhibidor) a la célula central. Entonces, en cada momento, cada célula se ve afectada tanto por las células activadoras como por las inhibidoras en su círculo y la pregunta es si finalmente se activará y se volverá colorida o se inhibirá y perderá su color (o simplemente permanecerá como estaba). La lógica es que si el poder de los activadores es mayor que el poder de los inhibidores, la célula se volverá colorida y viceversa (y si el poder está equilibrado, no pasa nada). La idea de &quot;poder&quot; es que no basta con saber cuántos morfógenos hay de cada tipo que afectan a una célula, sino que hay que multiplicar cada célula por su &quot;poder&quot; (o puedes pensar en el poder en términos de concentración de morfógenos en los barrios interior y exterior). Otra idea es que, dado que multiplicaremos ambos tipos de morfógenos por su poder, también podríamos llamar al poder de los activadores &quot;1&quot; y al poder de los inhibidores &quot;w * 1&quot; o simplemente w. Entonces w es la relación entre el poder de los inhibidores y los activadores. Si w es mayor que 1, eso significa que la potencia de los inhibidores es mayor que la de los activadores (por ejemplo, si w = 2, entonces los inhibidores son el doble de fuertes que cada uno de los activadores y si w = 0,5, los inhibidores son la mitad de fuerte que los activadores). Si w = 0.5 y si tenemos tantos inhibidores como activadores tenemos que están afectando a la célula central, lógicamente asumiríamos que las células centrales estarían más activadas que inhibidas y, por lo tanto, probablemente se volverían (o permanecerían) coloridas en ese paso. (Un punto difícil de notar es que mientras una determinada célula D está activando una célula vecina, esta misma célula D puede estar inhibiendo una célula diferente más alejada).
+Cada una de las células D dentro del círculo interno aporta morfógenos de tipo A (activador) a la célula central. Entre el círculo interior y el perímetro del círculo exterior tenemos un anillo de células que están a más de 3 células del centro pero a 6 células o menos del centro. Cada célula D de este anillo exterior aporta morfógenos de tipo I (inhibidor) a la célula central. Entonces, en cada momento, cada célula se ve afectada tanto por las células activadoras como por las inhibidoras en su círculo y la pregunta es si finalmente se activará y se volverá colorida o se inhibirá y perderá su color (o simplemente permanecerá como estaba). La lógica es que si el poder de los activadores es mayor que el poder de los inhibidores, la célula se volverá colorida y viceversa (y si el poder está equilibrado, no pasa nada). La idea de "poder" es que no basta con saber cuántos morfógenos hay de cada tipo que afectan a una célula, sino que hay que multiplicar cada célula por su "poder" (o puedes pensar en el poder en términos de concentración de morfógenos en los barrios interior y exterior). Otra idea es que, dado que multiplicaremos ambos tipos de morfógenos por su poder, también podríamos llamar al poder de los activadores "1" y al poder de los inhibidores "w * 1&" o simplemente w. Entonces w es la relación entre el poder de los inhibidores y los activadores. Si w es mayor que 1, eso significa que la potencia de los inhibidores es mayor que la de los activadores (por ejemplo, si w = 2, entonces los inhibidores son el doble de fuertes que cada uno de los activadores y si w = 0,5, los inhibidores son la mitad de fuerte que los activadores). Si w = 0.5 y si tenemos tantos inhibidores como activadores tenemos que están afectando a la célula central, lógicamente asumiríamos que las células centrales estarían más activadas que inhibidas y, por lo tanto, probablemente se volverían (o permanecerían) coloridas en ese paso. (Un punto difícil de notar es que mientras una determinada célula D está activando una célula vecina, esta misma célula D puede estar inhibiendo una célula diferente más alejada).
 
-Aquí están las reglas que resumen lo que hemos estado discutiendo: cuente todas las celdas D en el anillo y llame a este número D * I (por ejemplo 2 inhibidores), y cuente todas las celdas D en el círculo de radio tres y llame a este número D * A (por ejemplo, 5 activadores). Luego calcule D * A - w * D * I, y:
-* si es&gt; 0, configure la celda central en D
-* si es &lt;0, configure la celda central en U
-* si es = 0, dejar la celda central sin cambios
+Aquí están las reglas que resumen lo que hemos estado discutiendo: cuente todas las células D en el anillo y llame a este número D * I (por ejemplo 2 inhibidores), y cuente todas las células D en el círculo de radio tres y llame a este número D * A (por ejemplo, 5 activadores). Luego calcule D*A - w*D*I, y:
+* si es > 0, configure la célula central en D
+* si es < 0, configure la célula central en U
+* si es = 0, dejar la célula central sin cambios
 
-Tenga en cuenta que este cálculo ocurre en todas las celdas al mismo tiempo. Después del primer paso y una vez que las celdas se han configurado en consecuencia, todo el negocio comienza en el siguiente paso. Una vez más, las células se cuentan de acuerdo con la misma regla. Las reglas no han cambiado, pero debido a que algunas de las células D ahora son U y viceversa, podríamos obtener diferentes recuentos y, debido a eso, diferentes resultados de la &quot;lucha&quot; entre los morfógenos A e I.
+Tenga en cuenta que este cálculo ocurre en todas las células al mismo tiempo. Después del primer paso y una vez que las células se han configurado en consecuencia, todo el negocio comienza en el siguiente paso. Una vez más, las células se cuentan de acuerdo con la misma regla. Las reglas no han cambiado, pero debido a que algunas de las células D ahora son U y viceversa, podríamos obtener diferentes recuentos y, debido a eso, diferentes resultados de la "lucha" entre los morfógenos A e I.
 
-Entonces, lo que ve es que de un paso a otro, las celdas individuales a menudo cambian de blanco (que representa D o celdas de color) a negro (que representa U o celdas sin color) y la impresión general es que la configuración de blanco y negro cambia como un entero. Pero estas configuraciones no son aleatorias. Verá cómo a menudo toman forma estas configuraciones. Comprender cómo se comporta cada celda, como hemos explicado anteriormente, puede ayudar a comprender cómo toman forma estos patrones globales.
+Entonces, lo que ve es que de un paso a otro, las células individuales a menudo cambian de blanco (que representa D o células de color) a negro (que representa U o células sin color) y la impresión general es que la configuración de blanco y negro cambia como un entero. Pero estas configuraciones no son aleatorias. Verá cómo a menudo toman forma estas configuraciones. Comprender cómo se comporta cada célula, como hemos explicado anteriormente, puede ayudar a comprender cómo toman forma estos patrones globales.
 
 Todas estas explicaciones fueron para barrios circulares. En este modelo, los vecindarios pueden ser elípticos en lugar de circulares. Esto es necesario para producir rayas en lugar de manchas.
 
 ##  COMO USARLO
 
-Para que su primer experimento coincida más o menos con las explicaciones anteriores, debe optar por establecer el control deslizante de densidad inicial en 50% (que le da a cada celda la misma probabilidad de ser blanca o negra para empezar y así todo ventana será aproximadamente un 50% de blanco), establezca los controles deslizantes INNER-RADIUS-X e INNER-RADIUS-Y en 3 y los controles deslizantes OUTER-RADIUS-X y OUTER-RADIUS-Y en 6, y establezca la RELACIÓN en 0,35 (eso significa los morfógenos I son un 35% más potentes que los morfógenos A). Ahora presione SETUP. (En experimentos posteriores, puede cambiar esos ajustes en varias combinaciones). Tardará un poco en completarse. Si presiona PASO, el modelo avanzará un solo paso. Si presiona GO, el modelo seguirá avanzando indefinidamente.
+Para que su primer experimento coincida más o menos con las explicaciones anteriores, debe optar por establecer el control deslizante de densidad inicial en 50% (que le da a cada célula la misma probabilidad de ser blanca o negra para empezar y así todo ventana será aproximadamente un 50% de blanco), establezca los controles deslizantes RADIO-INTERNO-X e RADIO-INTERNO-Y en 3 y los controles deslizantes RADIO-EXTERIOR-X y RADIO-EXTERIOR-Y en 6, y establezca la RELACIÓN en 0.35 (eso significa los morfógenos I son un 35% más potentes que los morfógenos A). Ahora presione PREPARAR. (En experimentos posteriores, puede cambiar esos ajustes en varias combinaciones). Tardará un poco en completarse. Si presiona PASO, el modelo avanzará un solo paso. Si presiona IR, el modelo seguirá avanzando indefinidamente.
 
-Los parches tardan un tiempo en determinar sus vecindarios. Debido a esto, solo presione SETUP cuando cambie los controles deslizantes de radio. Si solo cambia los controles deslizantes INITIAL-DENSITY y RATIO o si desea ejecutar el modelo nuevamente con la misma configuración, presione RESTART en lugar de SETUP. El botón RESTART no pide a los parches que vuelvan a calcular sus vecindarios.
+Las parcelas tardan un tiempo en determinar sus vecindarios. Debido a esto, solo presione PREPARAR cuando cambie los controles deslizantes de radio. Si solo cambia los controles deslizantes DENSIDAD-INICIAL y PROPORCIÓN o si deseas ejecutar el modelo nuevamente con la misma configuración, presione REESTABLECER en lugar de PREPARAR. El botón REESTABLECER no pide a las parcelas que vuelvan a calcular sus vecindarios.
 
 ##  COSAS PARA NOTAR
 
@@ -36,15 +35,15 @@ A medida que se ejecuta el modelo, pueden comenzar a surgir patrones. Finalmente
 
 ##  COSAS PARA INTENTAR
 
-Ejecute el modelo con diferentes configuraciones de DENSIDAD INICIAL. ¿Cómo, en todo caso, afecta el valor de la DENSIDAD-INICIAL al patrón emergente? ¿Obtienes el mismo patrón? ¿Obtienes un patrón diferente? ¿Tarda más?
+Ejecute el modelo con diferentes configuraciones de DENSIDAD-INICIAL. ¿Cómo, en todo caso, afecta el valor de la DENSIDAD-INICIAL al patrón emergente? ¿Obtienes el mismo patrón? ¿Obtienes un patrón diferente? ¿Tarda más?
 
-Tenga en cuenta lo frágil que es la autoorganización de las células a los cambios leves en los parámetros. Si mantiene todos los demás factores y cambia ligeramente solo la RELACIÓN, de una prueba a otra, notará que para proporciones pequeñas obtendrá invariablemente un pelaje completamente blanco y para proporciones altas, invariablemente obtendrá un pelaje completamente negro (¿por qué?). Para las proporciones intermedias, fluctúa. Eso sucede en parte porque la configuración inicial de la coloración blanco / negro tiene un elemento aleatorio (consulte el procedimiento RESTART en el código).
+Tenga en cuenta lo frágil que es la autoorganización de las células a los cambios leves en los parámetros. Si mantiene todos los demás factores y cambia ligeramente solo la PROPORCIÓN, de una prueba a otra, notará que para proporciones pequeñas obtendrá invariablemente un pelaje completamente blanco y para proporciones altas, invariablemente obtendrá un pelaje completamente negro (¿por qué?). Para las proporciones intermedias, fluctúa. Eso sucede en parte porque la configuración inicial de la coloración blanco/negro tiene un elemento aleatorio (consulta el procedimiento REESTABLECER en el código).
 
-Intente cambiar los controles deslizantes para que tengan valores diferentes en las direcciones X e Y.
+Intenta cambiar los controles deslizantes para que tengan valores diferentes en las direcciones X e Y.
 
 ##  EXTENDIENDO EL MODELO
 
-Si encuentra una combinación de valores de control deslizante e interruptor que constantemente le brindan los patrones de pelaje de un animal favorito, podría crear un botón, por ejemplo, &quot;Cebra&quot;, que establezca los controles deslizantes en esos valores. De esa manera, si realiza varios de estos, puede realizar un recorrido de safari virtual moviéndose entre sus animales favoritos. Una de esas combinaciones que podría establecer en un solo botón podría ser: INNER-RADIUS-X 3, INNER-RADIUS-Y 3, OUTER-RADIUS-X 6, OUTER-RADIUS-Y 6, INICIAL-DENSIDAD 50%, RATIO 0.35 .
+Si encuentra una combinación de valores de control deslizante e interruptor que constantemente le brindan los patrones de pelaje de un animal favorito, podría crear un botón, por ejemplo, "Cebra", que establezca los controles deslizantes en esos valores. De esa manera, si realizas varios de estos, puedes realizar un recorrido de safari virtual moviéndose entre sus animales favoritos. Una de esas combinaciones que podría establecer en un solo botón podría ser: RADIO-INTERNO-X 3, RADIO-INTERNO-Y 3, RADIO-EXTERNO-X 6, RADIO-EXTERNO-Y 6, DENSIDAD-INICIAL 50%, RATIO 0.35.
 
 Tal vez podrías llamar a esto, Fish.
 
@@ -52,64 +51,64 @@ Tal vez podrías llamar a esto, Fish.
 
 ##  MODELOS RELACIONADOS 
 
-Voting, in the Social Science section, is based on simpler rules but generates patterns that are similar in some respects.
+Votación en la sección de Ciencias Sociales se basa en reglas más simples pero genera patrones que son similares en algunos aspectos.
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-The mechanism of "diffusion-driven instability" was first proposed by Alan Turing in 1952. B.N. Nagorcka first proposed applying it to hair and fur. The particular variant presented in this model was proposed by David Young.
+El mecanismo de "inestabilidad impulsada por difusión" fue pro puesto por Alan Turing en 1952. B.N. Nagorcka propuso por la primera vez aplicarlo al cabello y luego al pelaje. La variante particular presentada en este modelo fue propuesta por David Young.
 
-In building this model, we used information on this web site: http://users.math.yale.edu/public_html/People/frame/Fractals/Panorama/Biology/Leopard/Leopard.html
+Cuando construimos este modelo, usamos información en este sitio de web: http://users.math.yale.edu/public_html/People/frame/Fractals/Panorama/Biology/Leopard/Leopard.html.
 
-Research published in Nature Genetics (Economou et al, 2012) appears to confirm the mechanisms the model proposes.
+Investigación publicada en Genéticas Naturales (Economou et al, 2012) parece a confirmar los mecasmos que propone el modelo.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3303118/
 
-A news article in IO9 by Alasdair Wilkins describing the research can be found here.
+Un artículo de periódico en I09 por Alasdair Wilkins describiendo la investigación se puede encontrar aquí.
 https://io9.gizmodo.com/scientists-confirm-alan-turings-60-year-old-theory-for-5886406
 
-Here is a quote from the Wilkins article:
+Aquí está una cita del artículo de Wilkins:
 
->Turing's idea was that biological patterns --- such as a tiger's stripes or a
->leopard's spots - are formed by the interactions of a pair of morphogens, which
->are the signaling molecules that govern tissue development. The particular pair
->that Turing proposed was an activator and an inhibitor. Turing proposed that the
->activator would form something like a tiger's stripe, but then interaction with
->the inhibitor would shut down its expression, creating a blank space. Then the
->process would reverse, and the next stripe would form. The interaction of these
->two morphogens would combine to create the full stripe pattern.
+>La idea de Turing era que los patrones biológicos, como las rayas de un tigre o 
+>las manchas de un leopardo, están formados por las interacciones de un par de morfóngenos, los cuales
+>son las moléculas de señalización que gobiernan el desarollo de los tejidos. La par particular
+>que Turing propuso era un activador y un inhibidor. Turing propuso que el 
+>activador formaría algo como una raya de tigre, pero luego la interacción con
+>el inhibidor terminaría su expresión, creando un espacio en blanco. Entonces el
+>proceso se revirtiría y se formaría la próxima raya. La interacción de estos
+>dos morfógenos se combinarían para crear el patrón de rayas completo.
 >
->This hypothesis has remained mostly just speculation until now, as researchers
->at King's College London have now tested the idea in the mouths of mice. The
->roofs of mice's mouths contain regularly spaced ridges, and the researchers
->discovered the precise two morphogens that were working as activator and
->inhibitor to create the pattern, just as Turing suggested. What's more, when the
->researchers tampered with one morphogen or the other to increase or decrease
->their activity,the pattern of the ridges changed just as Turing's initial
->equations predicted they would. Researcher Dr. Jeremy Green adds:
+>Esta hipótesis se ha mantenido en su mayor parte solo como especulación hasta ahora, como los investigadores
+>en el King's College London ahora han probado la idea en la boca de ratones. Los
+>techos de las bocas de los ratones contienen crestas regularmente espaciadas y los investigadores
+>descubrieron los dos morfógenos que actuaban como activadores y 
+>inhibidor para crear el patrono, exactamente como Turing surigió. Es más, cuando los
+>investigadores manipularon un morfógenos o el otro para aumentar o disminuir
+>su actividad, el patrón de las crestas cambió al igual que la inicial de Turing
+>ecuaciones predijeron que lo harían. El investigador Dr. Green agrega: 
 >
->"Regularly spaced structures, from vertebrae and hair follicles to the stripes on
->a tiger or zebrafish, are a fundamental motif in biology. There are several
->theories about how patterns in nature are formed, but until now there was only
->circumstantial evidence for Turing's mechanism. Our study provides the first
->experimental identification of an activator-inhibitor system at work in the
->generation of stripes – in this case, in the ridges of the mouth palate.
->Although important in feeling and tasting food, ridges in the mouth are not of
->great medical significance. However, they have proven extremely valuable here in
->validating an old theory of the activator-inhibitor model first put forward by
->Alan Turing in the 50s."
+>"Estructuras regularmente espaciadas desde las vértebras y los folículos pilosos hasta las rayas en un
+>tigre o una pez cebra, son un motivo fundamental en biología. Hay varias
+>teorías cobre cómo se forman los patrones en la naturaleza, pero hasta ahora solo había
+> evidencia circunstancial del mecanismo de Turing. Nuestro estudio proporciona la primera
+>identificación experimental de un sistema activador-inhibidor en funcionamente en el
+>generación de rayas - en este caso, en las crestas del paladar.
+>Aunque son importantes para sentir y saborear los alimentos, las protuberencias de la boca no son
+>de gran importancia médica. Sin embargo, han demostrado ser extremadamente valiosos aquí en
+>validando una vieja teoría del modelo activador-inhibidor presentada por la primera vez por
+>Alan Turing en los años 50.
 
-Other new research published in the Journal of Experimental Biology (Egri et al, 2011) proposes an evolutionary explanation for the advantage conferred by stripes. https://jeb.biologists.org/content/215/5/736.abstract
+Otras investigaciones publicadas en el Journal of Experimental Biology (Egri et al, 2011) propuso una explicación evolucionario por la ventaja conferido por rayas. https://jeb.biologists.org/content/215/5/736.abstract.
 
-Thanks to Seth Tisue and Dor Abrahamson for their work on this model.
+Gracias a Seth Tisue y Dor Abrahamson por su trabajo en este modelo.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las cita abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (2003).  NetLogo Fur model.  http://ccl.northwestern.edu/netlogo/models/Fur.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -126,3 +125,5 @@ Commercial licenses are also available. To inquire about commercial licenses, pl
 This model was created as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227.
 
 <!-- 2003 -->
+
+Translated by: Chelsea Guzman
