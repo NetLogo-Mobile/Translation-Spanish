@@ -3,7 +3,7 @@
 ### Source
 Aggregate Temperature
 ### Spanish
-Temperatura agregada
+Temperatura Agregada
 
 ### Source
 avg-energy
@@ -13,12 +13,12 @@ energía media
 ### Source
 avg-speed
 ### Spanish
-la velocidad promedio
+vel-promedio
 
 ### Source
 count
 ### Spanish
-contar
+conteo
 
 ### Source
 count (%)
@@ -33,7 +33,7 @@ defecto
 ### Source
 Density Histogram
 ### Spanish
-Histograma de densidad
+Histograma de Densidad
 
 ### Source
 energy
@@ -43,7 +43,7 @@ energía
 ### Source
 Energy Histogram
 ### Spanish
-Histograma de energía
+Histograma de Energía
 
 ### Source
 fast
@@ -58,12 +58,12 @@ altura
 ### Source
 init-avg-energy
 ### Spanish
-init-avg-energy
+ener-prom-inic
 
 ### Source
 init-avg-speed
 ### Spanish
-init-avg-speed
+vel-inic-prom
 
 ### Source
 medium
@@ -83,12 +83,12 @@ velocidad
 ### Source
 Speed Counts
 ### Spanish
-Conteos de velocidad
+Conteos de Velocidad
 
 ### Source
 Speed Histogram
 ### Spanish
-Histograma de velocidad
+Histograma de Velocidad
 
 ### Source
 temperature
@@ -98,23 +98,23 @@ temperatura
 ### Source
 Temperature vs. Height
 ### Spanish
-Temperatura frente a altura
+Temperatura vs. Altura
 
 ### Source
 time
 ### Spanish
-hora
+tiempo
 
 ## Widgets
 ### Source
 average energy
 ### Spanish
-energía media
+energía promedio
 
 ### Source
 average speed
 ### Spanish
-velocidad media
+velocidad promedio
 
 ### Source
 clear trace
@@ -134,17 +134,17 @@ collide?
 ### Source
 go/stop
 ### Spanish
-ir / parar
+ir/parar
 
 ### Source
 gravity-acceleration
 ### Spanish
-aceleración de la gravedad
+aceleración-de-la-gravedad
 
 ### Source
 init-particle-speed
 ### Spanish
-init-partícula-velocidad
+vel-inic-partícula
 
 ### Source
 number-of-particles
@@ -179,10 +179,10 @@ porcentaje lento
 ### Source
 setup
 ### Spanish
-configuración
+preparar
 
 ### Source
 trace?
 ### Spanish
-¿rastro?
+¿trazar?
 
