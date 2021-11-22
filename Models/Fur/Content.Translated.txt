@@ -27,7 +27,7 @@ Todas estas explicaciones fueron para barrios circulares. En este modelo, los ve
 
 Para que su primer experimento coincida más o menos con las explicaciones anteriores, debe optar por establecer el control deslizante de densidad inicial en 50% (que le da a cada célula la misma probabilidad de ser blanca o negra para empezar y así todo ventana será aproximadamente un 50% de blanco), establezca los controles deslizantes RADIO-INTERNO-X e RADIO-INTERNO-Y en 3 y los controles deslizantes RADIO-EXTERIOR-X y RADIO-EXTERIOR-Y en 6, y establezca la RELACIÓN en 0.35 (eso significa los morfógenos I son un 35% más potentes que los morfógenos A). Ahora presione PREPARAR. (En experimentos posteriores, puede cambiar esos ajustes en varias combinaciones). Tardará un poco en completarse. Si presiona PASO, el modelo avanzará un solo paso. Si presiona IR, el modelo seguirá avanzando indefinidamente.
 
-Las parcelas tardan un tiempo en determinar sus vecindarios. Debido a esto, solo presione PREPARAR cuando cambie los controles deslizantes de radio. Si solo cambia los controles deslizantes DENSIDAD-INICIAL y PROPORCIÓN o si deseas ejecutar el modelo nuevamente con la misma configuración, presione REESTABLECER en lugar de PREPARAR. El botón REESTABLECER no pide a las parcelas que vuelvan a calcular sus vecindarios.
+Las parcelas tardan un tiempo en determinar sus vecindarios. Debido a esto, solo presione PREPARAR cuando cambie los controles deslizantes de radio. Si solo cambia los controles deslizantes DENSIDAD-INICIAL y PROPORCIÓN o si deseas ejecutar el modelo nuevamente con la misma configuración, presione RESTABLECER en lugar de PREPARAR. El botón RESTABLECER no pide a las parcelas que vuelvan a calcular sus vecindarios.
 
 ##  COSAS PARA NOTAR
 
@@ -37,7 +37,7 @@ A medida que se ejecuta el modelo, pueden comenzar a surgir patrones. Finalmente
 
 Ejecute el modelo con diferentes configuraciones de DENSIDAD-INICIAL. ¿Cómo, en todo caso, afecta el valor de la DENSIDAD-INICIAL al patrón emergente? ¿Obtienes el mismo patrón? ¿Obtienes un patrón diferente? ¿Tarda más?
 
-Tenga en cuenta lo frágil que es la autoorganización de las células a los cambios leves en los parámetros. Si mantiene todos los demás factores y cambia ligeramente solo la PROPORCIÓN, de una prueba a otra, notará que para proporciones pequeñas obtendrá invariablemente un pelaje completamente blanco y para proporciones altas, invariablemente obtendrá un pelaje completamente negro (¿por qué?). Para las proporciones intermedias, fluctúa. Eso sucede en parte porque la configuración inicial de la coloración blanco/negro tiene un elemento aleatorio (consulta el procedimiento REESTABLECER en el código).
+Tenga en cuenta lo frágil que es la autoorganización de las células a los cambios leves en los parámetros. Si mantiene todos los demás factores y cambia ligeramente solo la PROPORCIÓN, de una prueba a otra, notará que para proporciones pequeñas obtendrá invariablemente un pelaje completamente blanco y para proporciones altas, invariablemente obtendrá un pelaje completamente negro (¿por qué?). Para las proporciones intermedias, fluctúa. Eso sucede en parte porque la configuración inicial de la coloración blanco/negro tiene un elemento aleatorio (consulta el procedimiento RESTABLECER en el código).
 
 Intenta cambiar los controles deslizantes para que tengan valores diferentes en las direcciones X e Y.
 

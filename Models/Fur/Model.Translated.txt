@@ -38,7 +38,7 @@ proporción
 ### Source
 restart
 ### Spanish
-reestablecer
+restablecer
 
 ### Source
 setup
