@@ -1,13 +1,12 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Que es
+﻿## ¿QUÉ ES?
 
-Este modelo simula el comportamiento de dos tipos diferentes de partículas de gas en una caja con tabique. Se puede quitar parte o toda la pared, permitiendo que las partículas se mezclen. Fue una de las aplicaciones originales de CM StarLogo (bajo el nombre GPCEE) y ahora se ha trasladado a NetLogo como parte del proyecto de modelado Connected Mathematics &quot;Making Sense of Complex Phenomena&quot;.
+Este modelo simula el comportamiento de dos tipos diferentes de partículas de gas en una caja con tabique. Se puede quitar parte o toda la pared, permitiendo que las partículas se mezclen. Fue una de las aplicaciones originales de CM StarLogo (bajo el nombre GPCEE) y ahora se ha trasladado a NetLogo como parte del proyecto de modelado Matemáticas Conectadas "Dando Sentido a Los Fenómenos Complejos".
 
 Este modelo es uno de una serie de modelos de GasLab. Utilizan las mismas reglas básicas para simular el comportamiento de los gases. Cada modelo integra diferentes características para resaltar diferentes aspectos del comportamiento del gas.
 
 El principio básico de los modelos es que se supone que las partículas de gas tienen dos acciones elementales: se mueven y chocan, ya sea con otras partículas o con cualquier otro objeto, como paredes.
 
-Este modelo es parte del proyecto de modelado de matemáticas conectadas &quot;Dar sentido a fenómenos complejos&quot;.
+Este modelo es parte del proyecto de modelado de matemáticas conectadas "Dando Sentido a Fenómenos Complejos".
 
 ##  COMO FUNCIONA
 
@@ -17,40 +16,40 @@ La coloración de las partículas es con respecto a una velocidad (10). Las part
 
 La forma exacta en que chocan dos partículas es la siguiente:
 1. Una partícula se mueve en línea recta sin cambiar su velocidad, a menos que choque con otra partícula o rebote en la pared.
-2. Dos partículas &quot;chocan&quot; si se encuentran en el mismo parche.
+2. Dos partículas "chocan" si se encuentran en la misma parcela.
 3. Se elige un eje aleatorio, como si fueran dos bolas que se golpean entre sí y este eje es la línea que conecta sus centros.
 4. Intercambian impulso y energía a lo largo de ese eje, de acuerdo con la conservación del impulso y la energía. Este cálculo se realiza en el sistema de centro de masa.
 5. A cada partícula se le asigna su nueva velocidad, energía y rumbo.
-6. Si una partícula se encuentra en o muy cerca de una pared del contenedor, &quot;rebota&quot;, es decir, refleja su dirección y mantiene su misma velocidad.
+6. Si una partícula se encuentra en o muy cerca de una pared del contenedor, "rebota", es decir, refleja su dirección y mantiene su misma velocidad.
 
 ##  COMO USARLO
 
 Ajustes iniciales:
-- BOX-SIZE: el porcentaje del ancho y alto del mundo que ocupará la caja.
-- NUM-MAGENTAS y NUM-CYAN: el número de partículas de gas de cada color.
-- MAGENTA-INIT-SPEED y CYAN-INIT-SPEED: la velocidad inicial de la partícula respectiva.
-- MAGENTA-MASS y CYAN-MASS: la masa de las respectivas partículas.
+- TAMAÑO-DE-CAJA: el porcentaje del ancho y alto del mundo que ocupará la caja.
+- NUM-MAGENTAS y NUM-CIAN: el número de partículas de gas de cada color.
+- VELOCIDAD-INIC-MAGENTA y VELOCIDAD-INIC-CIAN: la velocidad inicial de la partícula respectiva.
+- MAGENTA-MASA y CIAN-MASA: la masa de las respectivas partículas.
 
-El botón SETUP establecerá estas condiciones iniciales.
-El botón GO comenzará la simulación.
+El botón PREPARAR establecerá estas condiciones iniciales.
+El botón IR comenzará la simulación.
 
 Control S:
 El botón ABRIR abre la pared entre las cámaras de la caja.
 El botón CERRAR cierra la pared entre las cámaras de la caja.
 
 Otros ajustes:
-- ¿COLLIDE ?: Activa y desactiva las colisiones entre partículas.
-- TAMAÑO DE APERTURA: el tamaño de la abertura que se hace como porcentaje del TAMAÑO DE LA CAJA cuando se presiona el botón ABRIR.
+- ¿CHOCAR?: Activa y desactiva las colisiones entre partículas.
+- TAMAÑO-DE-APERTURA: el tamaño de la abertura que se hace como porcentaje del TAMAÑO DE LA CAJA cuando se presiona el botón ABRIR.
 
 Monitores:
 - MAGENTAS EN CÁMARA DERECHA: número de partículas magentas en la cámara derecha.
 - CIANOS EN CÁMARA IZQUIERDA: número de partículas cian en la cámara izquierda
-- ENERGÍA MEDIA MAGENTA o CIAN: energía media de las partículas magenta o cian.
-- VELOCIDAD MEDIA MAGENTA o CIAN: velocidad media de las partículas magenta o cian.
+- ENERGÍA PROMEDIO MAGENTA o CIAN: energía promedio de las partículas magenta o cian.
+- VELOCIDAD PROMEDIO MAGENTA o CIAN: velocidad promedio de las partículas magenta o cian.
 
-Parcelas:
-- ENERGÍA MEDIA: energía media de las diferentes partículas a lo largo del tiempo.
-- VELOCIDAD MEDIA: velocidad media de las diferentes partículas a lo largo del tiempo.
+Gráficas:
+- ENERGÍA PROMEDIO: energía promedio de las diferentes partículas a lo largo del tiempo.
+- VELOCIDAD PROMEDIO: velocidad promedio de las diferentes partículas a lo largo del tiempo.
 
 ##  COSAS PARA NOTAR
 
@@ -64,52 +63,52 @@ Parcelas:
 
 ¿Las partículas más pesadas tienden a tener velocidades más altas o más bajas cuando la distribución de energía ha alcanzado el equilibrio?
 
-¿Es razonable que esta caja pueda considerarse &quot;aislada&quot;?
+¿Es razonable que esta caja pueda considerarse "aislada"?
 
 ##  COSAS PARA INTENTAR
 
-Calcule cuánto tiempo tarda el modelo en alcanzar el equilibrio con diferentes tamaños de ventanas (manteniendo constantes otros parámetros).
+Calcula cuánto tiempo tarda el modelo en alcanzar el equilibrio con diferentes tamaños de ventanas (manteniendo constantes otros parámetros).
 
-Calcule cuánto tiempo tarda el modelo en alcanzar el equilibrio con diferentes velocidades de partículas.
+Calcula cuánto tiempo tarda el modelo en alcanzar el equilibrio con diferentes velocidades de partículas.
 
-Establezca el número de partículas cian en cero. Este es un modelo de un gas que se expande hacia el vacío. Este experimento fue realizado por primera vez por Joule, utilizando dos cámaras aisladas separadas por una válvula. Descubrió que la temperatura del gas seguía siendo la misma cuando se abrió la válvula. ¿Por qué sería esto cierto? ¿Es este modelo consistente con esa observación?
+Establece el número de partículas cian en cero. Este es un modelo de un gas que se expande hacia el vacío. Este experimento fue realizado por primera vez por Joule, utilizando dos cámaras aisladas separadas por una válvula. Descubrió que la temperatura del gas seguía siendo la misma cuando se abrió la válvula. ¿Por qué sería esto cierto? ¿Es este modelo consistente con esa observación?
 
-Pruebe algunas situaciones extremas para poner a prueba su comprensión intuitiva:
+Prueba algunas situaciones extremas para poner a prueba su comprensión intuitiva:
 - masas iguales, velocidades de las dos partículas muy diferentes.
-- Velocidades iguales, masas muy diferentes.
+- velocidades iguales, masas muy diferentes.
 - una cantidad muy pequeña de un tipo de partícula - casi, pero no del todo, un vacío. ¿Qué sucede con esas pocas partículas y cómo afectan al otro tipo?
 
-Intente relacionar cuantitativamente la relación de las velocidades de equilibrio de ambos gases después de que se abre la pared con la relación de las masas de ambos gases. ¿Como están relacionados?
+Intenta relacionar cuantitativamente la relación de las velocidades de equilibrio de ambos gases después de que se abre la pared con la relación de las masas de ambos gases. ¿Como están relacionados?
 
 ##  EXTENDIENDO EL MODELO
 
-Controle la presión en las cámaras derecha e izquierda.
+Controla la presión en las cámaras derecha e izquierda.
 
-Controle la temperatura en las cámaras derecha e izquierda.
+Controla la temperatura en las cámaras derecha e izquierda.
 
-Reemplace la pared divisoria con un pistón móvil, de modo que los dos tipos de partículas puedan empujarse entre sí sin entremezclarse. ¿Llegan entonces a un equilibrio diferente?
+Reemplaza la pared divisoria con un pistón móvil, de modo que los dos tipos de partículas puedan empujarse entre sí sin entremezclarse. ¿Llegan entonces a un equilibrio diferente?
 
-Reemplace la pared divisoria con una superficie que pueda transmitir energía.
+Reemplaza la pared divisoria con una superficie que pueda transmitir energía.
 
-Agregue los histogramas de distribución de energía y velocidad (como los que se encuentran en el modelo &quot;Gas libre&quot;).
+Agrega los histogramas de distribución de energía y velocidad (como los que se encuentran en el modelo "Gas Libre").
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Observe cómo las tortugas detectan las colisiones y cómo el código garantiza que las mismas dos partículas no chocan dos veces. ¿Qué pasa si dejamos que los parches los detecten?
+Observa cómo las tortugas detectan las colisiones y cómo el código garantiza que las mismas dos partículas no chocan dos veces. ¿Qué pasa si dejamos que las parcelas las detecten?
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-This model was developed as part of the GasLab curriculum (http://ccl.northwestern.edu/curriculum/gaslab/) and has also been incorporated into the Connected Chemistry curriculum (http://ccl.northwestern.edu/curriculum/ConnectedChemistry/)
+Este modelo fue desarrollado como parte del plan de estudios de GasLab (http://ccl.northwestern.edu/curriculum/gaslab/) y también ha sido incorporado en el plan de estudios de Química Conectada (http://ccl.northwestern.edu/curriculum/ConnectedChemistry/)
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1997).  NetLogo GasLab Two Gas model.  http://ccl.northwestern.edu/netlogo/models/GasLabTwoGas.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -128,3 +127,5 @@ This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SEN
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2002.
 
 <!-- 1997 2002 -->
+
+Translated by: Chelsea Guzman

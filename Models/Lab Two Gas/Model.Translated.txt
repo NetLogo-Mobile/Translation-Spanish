@@ -3,12 +3,12 @@
 ### Source
 Average Energies
 ### Spanish
-Energías medias
+Energías Promedias
 
 ### Source
 Average Speeds
 ### Spanish
-Velocidades medias
+Velocidades Promedias
 
 ### Source
 cyan
@@ -33,38 +33,38 @@ velocidad
 ### Source
 time
 ### Spanish
-hora
+tiempo
 
 ## Widgets
 ### Source
 average energy cyan
 ### Spanish
-energía media cian
+energía promedio cian
 
 ### Source
 average energy magenta
 ### Spanish
-magenta de energía media
+magenta de energía promedio
 
 ### Source
 average speed cyan
 ### Spanish
-cian de velocidad media
+cian de velocidad promedio
 
 ### Source
 average speed magenta
 ### Spanish
-magenta de velocidad media
+magenta de velocidad promedio
 
 ### Source
 box-size
 ### Spanish
-tamaño de caja
+tamaño-de-caja
 
 ### Source
 close
 ### Spanish
-cerca
+cerrar
 
 ### Source
 collide?
@@ -74,32 +74,32 @@ collide?
 ### Source
 cyan-init-speed
 ### Spanish
-cyan-init-speed
+velocidad-inic-cian
 
 ### Source
 cyan-mass
 ### Spanish
-masa cian
+cian-masa
 
 ### Source
 cyans in right chamber
 ### Spanish
-cyanes en la recámara derecha
+cians en la recámara derecha
 
 ### Source
 go/stop
 ### Spanish
-ir / parar
+ir/parar
 
 ### Source
 magenta-init-speed
 ### Spanish
-magenta-init-speed
+velocidad-inic-cian
 
 ### Source
 magenta-mass
 ### Spanish
-masa magenta
+magenta-masa
 
 ### Source
 magentas in left chamber
@@ -114,7 +114,7 @@ velocidad máx de partículas
 ### Source
 num-cyans
 ### Spanish
-num-cyans
+num-cians
 
 ### Source
 num-magentas
@@ -124,15 +124,15 @@ num-magentas
 ### Source
 open
 ### Spanish
-abierto
+abrir
 
 ### Source
 opening-size
 ### Spanish
-tamaño de apertura
+tamaño-de-apertura
 
 ### Source
 setup
 ### Spanish
-configuración
+preparar
 
