@@ -8,7 +8,7 @@ ir
 ### Source
 gravity-constant
 ### Spanish
-constante de gravedad
+constante-de-gravedad
 
 ### Source
 initial-range-x
@@ -38,27 +38,27 @@ partículas
 ### Source
 rate
 ### Spanish
-Velocidad
+tasa
 
 ### Source
 restitution-coefficient
 ### Spanish
-coeficiente de restitución
+coeficiente-de-restitución
 
 ### Source
 setup
 ### Spanish
-configuración
+preparar
 
 ### Source
 step-size
 ### Spanish
-Numero de pie
+tamaño-de-paso
 
 ### Source
 viscosity-constant
 ### Spanish
-constante de viscosidad
+constante-de-viscosidad
 
 ### Source
 wind-constant-x
