@@ -1,57 +1,56 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Que es
+﻿## ¿QUÉ ES?
 
-En algunas redes, algunos &quot;hubs&quot; tienen muchas conexiones, mientras que todos los demás solo tienen algunas. Este modelo muestra una forma en que pueden surgir tales redes.
+En algunas redes, algunos "centros" tienen muchas conexiones, mientras que todos los demás solo tienen algunas. Este modelo muestra una forma en que pueden surgir tales redes.
 
 Estas redes se pueden encontrar en una gama sorprendentemente amplia de situaciones del mundo real, que van desde las conexiones entre sitios web hasta las colaboraciones entre actores.
 
-Este modelo genera estas redes mediante un proceso de &quot;vinculación preferencial&quot;, en el que los nuevos miembros de la red prefieren establecer una conexión con los miembros existentes más populares.
+Este modelo genera estas redes mediante un proceso de "vinculación preferencial", en el que los nuevos miembros de la red prefieren establecer una conexión con los miembros existentes más populares.
 
 ##  COMO FUNCIONA
 
 El modelo comienza con dos nodos conectados por un borde.
 
-En cada paso, se agrega un nuevo nodo. Un nuevo nodo elige un nodo existente para conectarse al azar, pero con cierto sesgo. Más específicamente, la probabilidad de que un nodo sea seleccionado es directamente proporcional al número de conexiones que ya tiene, o su &quot;grado&quot;. Este es el mecanismo que se llama &quot;apego preferencial&quot;.
+En cada paso, se agrega un nuevo nodo. Un nuevo nodo elige un nodo existente para conectarse al azar, pero con cierto sesgo. Más específicamente, la probabilidad de que un nodo sea seleccionado es directamente proporcional al número de conexiones que ya tiene, o su "grado". Este es el mecanismo que se llama "apego preferencial".
 
 ##  COMO USARLO
 
-Al presionar el botón CONTINUAR UNA VEZ, se agrega un nuevo nodo. Para agregar nodos continuamente, presione GO.
+Al presionar el botón CONTINUAR UNA VEZ, se agrega un nuevo nodo. Para agregar nodos continuamente, presiona IR.
 
-¿El DISEÑO? El conmutador controla si se ejecuta o no el procedimiento de diseño. Este procedimiento intenta mover los nodos para que la estructura de la red sea más fácil de ver.
+El ¿DISEÑO? interruptor controla si se ejecuta o no el procedimiento de diseño. Este procedimiento intenta mover los nodos para que la estructura de la red sea más fácil de ver.
 
-¿La trama? El interruptor apaga los gráficos, lo que acelera el modelo.
+El interruptor ¿TRAMA? apaga los gráficos, lo que acelera el modelo.
 
-El botón RESIZE-NODES hará que todos los nodos adquieran un tamaño representativo de su distribución de grados. Si lo presiona nuevamente, los nodos volverán a tener el mismo tamaño.
+El botón REDIMENSIONAR-NODOS hará que todos los nodos adquieran un tamaño representativo de su distribución de grados. Si lo presiona nuevamente, los nodos volverán a tener el mismo tamaño.
 
-Si desea que el modelo se ejecute más rápido, puede desactivar LAYOUT? y PARCELA? cambia y / o congela la vista (usando el botón de encendido / apagado en la tira de control sobre la vista). ¿El DISEÑO? El interruptor tiene el mayor efecto sobre la velocidad del modelo.
+Si deseas que el modelo se ejecute más rápido, puedes desactivar ¿DISEÑO? y ¿PARCELA? cambia y/o congela la vista (usando el botón de encendido/apagado en la tira de control sobre la vista). el interruptor ¿DISEÑO? tiene el mayor efecto sobre la velocidad del modelo.
 
-Si tienes LAYOUT? apagada, y luego desea que la red tenga un diseño más atractivo, presione el botón REDO-LAYOUT que ejecutará el procedimiento de paso de diseño hasta que presione el botón nuevamente. Puede presionar REDO-LAYOUT en cualquier momento incluso si tenía LAYOUT? encendido e intentará que la red sea más fácil de ver.
+Si tienes ¿DISEÑO? apagada, y luego desea que la red tenga un diseño más atractivo, presiona el botón REHACER-DISEÑO que ejecutará el procedimiento de paso de diseño hasta que presione el botón nuevamente. Puedes presionar REHACER-DISEÑO en cualquier momento incluso si tenía ¿DISEÑO? encendido e intentará que la red sea más fácil de ver.
 
 ##  COSAS PARA NOTAR
 
-Las redes que resultan de ejecutar este modelo a menudo se denominan redes &quot;sin escala&quot; o &quot;con ley de potencia&quot;. Se trata de redes en las que la distribución del número de conexiones de cada nodo no es una distribución normal, sino que sigue lo que se denomina distribución por ley de potencia. Las distribuciones de la ley de potencia son diferentes de las distribuciones normales en que no tienen un pico en el promedio y es más probable que contengan valores extremos (ver Albert y Barabási 2002 para una descripción más detallada de la frecuencia y la importancia de las redes sin escala). . Barabási y Albert describieron originalmente este mecanismo para crear redes, pero existen otros mecanismos para crear redes sin escala, por lo que las redes creadas por el mecanismo implementado en este modelo se denominan redes sin escala Barabási.
+Las redes que resultan de ejecutar este modelo a menudo se denominan redes "sin escala" o "con ley de potencia". Se trata de redes en las que la distribución del número de conexiones de cada nodo no es una distribución normal, sino que sigue lo que se denomina distribución por ley de potencia. Las distribuciones de la ley de potencia son diferentes de las distribuciones normales en que no tienen un pico en el promedio y es más probable que contengan valores extremos (consulta Albert y Barabási 2002 para una descripción más detallada de la frecuencia y la importancia de las redes sin escala). . Barabási y Albert describieron originalmente este mecanismo para crear redes, pero existen otros mecanismos para crear redes sin escala, por lo que las redes creadas por el mecanismo implementado en este modelo se denominan redes sin escala Barabási.
 
-Puede ver la distribución de grados de la red en este modelo mirando las gráficas. El gráfico superior es un histograma del grado de cada nodo. El gráfico inferior muestra los mismos datos, pero ambos ejes están en una escala logarítmica. Cuando la distribución de grados sigue una ley de potencia, aparece como una línea recta en la gráfica logarítmica. Una forma sencilla de pensar en las leyes de potencia es que si hay un nodo con una distribución de grados de 1000, habrá diez nodos con una distribución de grados de 100 y 100 nodos con una distribución de grados de 10.
+Puedes ver la distribución de grados de la red en este modelo mirando las gráficas. El gráfico superior es un histograma del grado de cada nodo. El gráfico inferior muestra los mismos datos, pero ambos ejes están en una escala logarítmica. Cuando la distribución de grados sigue una ley de potencia, aparece como una línea recta en la gráfica logarítmica. Una forma sencilla de pensar en las leyes de potencia es que si hay un nodo con una distribución de grados de 1000, habrá diez nodos con una distribución de grados de 100 y 100 nodos con una distribución de grados de 10.
 
 ##  COSAS PARA INTENTAR
 
-Deje que el modelo funcione un poco. ¿Cuántos nodos son &quot;hubs&quot;, es decir, tienen muchas conexiones? ¿Cuántos tienen solo unos pocos? ¿Algún nodo de bajo grado se convierte alguna vez en un centro? ¿Con qué frecuencia?
+Deja que el modelo funcione un poco. ¿Cuántos nodos son "centros", es decir, tienen muchas conexiones? ¿Cuántos tienen solo unos pocos? ¿Algún nodo de bajo grado se convierte alguna vez en un centro? ¿Con qué frecuencia?
 
-¿Apagar el DISEÑO? cambie y congele la vista para acelerar el modelo, luego permita que se forme una red grande. ¿Cuál es la forma del histograma en el gráfico superior? ¿Qué ves en la gráfica log-log? Observe que la gráfica log-log es solo una línea recta para un rango limitado de valores. ¿Por qué es esto? ¿El grado en el que la gráfica logarítmica se asemeja a una línea recta aumenta a medida que agrega más nodos a la red?
+Si tienes ¿DISEÑO? apagado cambia y congela la vista para acelerar el modelo, luego permita que se forme una red grande. ¿Cuál es la forma del histograma en el gráfico superior? ¿Qué ves en la gráfica log-log? Observe que la gráfica log-log es solo una línea recta para un rango limitado de valores. ¿Por qué es esto? ¿El grado en el que la gráfica logarítmica se asemeja a una línea recta aumenta a medida que agrega más nodos a la red?
 
 ##  EXTENDIENDO EL MODELO
 
 Asigne un atributo adicional a cada nodo. Haga que la probabilidad de apego dependa tanto de este nuevo atributo como del grado. (Un control deslizante de sesgo podría controlar cuánto influye el atributo en la decisión).
 
-¿Se puede mejorar el algoritmo de diseño? Quizás los nodos de diferentes hubs podrían repelerse entre sí con más fuerza que los nodos del mismo hub, para alentar a los hubs a estar físicamente separados en el diseño.
+¿Se puede mejorar el algoritmo de diseño? Quizás los nodos de diferentes hubs podrían repelerse entre sí con más fuerza que los nodos del mismo centro, para alentar a los centros a estar físicamente separados en el diseño.
 
 ##  CONCEPTOS DE RED
 
-Hay muchas formas de mostrar redes gráficamente. Este modelo utiliza un método de &quot;resorte&quot; común donde el movimiento de un nodo en cada paso de tiempo es el resultado neto de las fuerzas de &quot;resorte&quot; que juntan los nodos conectados y las fuerzas de repulsión que empujan a todos los nodos entre sí. Este código se encuentra en el procedimiento `layout-step`. Puede forzar la ejecución de este código en cualquier momento presionando el botón REDO LAYOUT y presionándolo nuevamente cuando esté satisfecho con el diseño.
+Hay muchas formas de mostrar redes gráficamente. Este modelo usa un método de "resorte" común donde el movimiento de un nodo en cada paso de tiempo es el resultado neto de las fuerzas de "resorte" que juntan los nodos conectados y las fuerzas de repulsión que empujan a todos los nodos entre sí. Este código se encuentra en el procedimiento `layout-step`. Puedes forzar la ejecución de este código en cualquier momento presionando el botón REHACER-DISEÑO y presionándolo nuevamente cuando esté satisfecho con el diseño.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Los nodos son agentes tortuga y los bordes son agentes de enlace. El modelo utiliza la primitiva UNO DE para elegir un enlace aleatorio y la primitiva BOTH-EXTREMOS para seleccionar los dos nodos adjuntos a ese enlace.
+Los nodos son agentes de tortuga y los bordes son agentes de enlace. El modelo usa la primitiva UNO DE para elegir un enlace aleatorio y la primitiva AMBOS-EXTREMOS para seleccionar los dos nodos adjuntos a ese enlace.
 
 La primitiva `layout-spring` coloca los nodos, como si los bordes fueran resortes y los nodos se repelieran entre sí.
 
@@ -59,34 +58,34 @@ Aunque no se usa en este modelo, existe una extensión de red para NetLogo que v
 
 ##  MODELOS RELACIONADOS 
 
-See other models in the Networks section of the Models Library, such as Giant Component.
+Consulta otros modelos en la sección de Redes en la Biblioteca de Modelos, tal como Componente Gigante.
 
-See also Network Example, in the Code Examples section.
+También consulta Ejemplo de Red, en la sección de Ejemplos de Código.
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-This model is based on:
+Este modelo está basado en:
 Albert-László Barabási. Linked: The New Science of Networks, Perseus Publishing, Cambridge, Massachusetts, pages 79-92.
 
-For a more technical treatment, see:
+Para un tratamiento más técnico, consulta:
 Albert-László Barabási & Reka Albert. Emergence of Scaling in Random Networks, Science, Vol 286, Issue 5439, 15 October 1999, pages 509-512.
 
-Barabási's webpage has additional information at: https://www.barabasi.com/
+El sitio web de Barabási tiene información adicional en: https://www.barabasi.com/
 
-The layout algorithm is based on the Fruchterman-Reingold layout algorithm.  More information about this algorithm can be obtained at: http://cs.brown.edu/people/rtamassi/gdhandbook/chapters/force-directed.pdf.
+El algoritmo de diseño está basado en el algoritmo de diseño Fruchterman-Reingold. Más información sobre el algoritmo se puede obtener en: http://cs.brown.edu/people/rtamassi/gdhandbook/chapters/force-directed.pdf.
 
-For a model similar to the one described in the first suggested extension, please consult:
+Para un modelo siilar al descrito en la primmera extensión sugerida, consulta:
 W. Brian Arthur, "Urban Systems and Historical Path-Dependence", Chapt. 4 in Urban systems and Infrastructure, J. Ausubel and R. Herman (eds.), National Academy of Sciences, Washington, D.C., 1988.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si menciones este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (2005).  NetLogo Preferential Attachment model.  http://ccl.northwestern.edu/netlogo/models/PreferentialAttachment.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -101,3 +100,4 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
 
 <!-- 2005 -->
+Translated by: Chelsea Guzman

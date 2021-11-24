@@ -13,27 +13,27 @@ defecto
 ### Source
 degree
 ### Spanish
-la licenciatura
+grado
 
 ### Source
 Degree Distribution
 ### Spanish
-Distribución de títulos
+Distribución de Grados
 
 ### Source
 Degree Distribution (log-log)
 ### Spanish
-Distribución de grados (log-log)
+Distribución de Grados (log-log)
 
 ### Source
 log(# of nodes)
 ### Spanish
-log (# de nodos)
+log(# de nodos)
 
 ### Source
 log(degree)
 ### Spanish
-log (grado)
+log(grado)
 
 ## Widgets
 ### Source
@@ -49,7 +49,7 @@ ir
 ### Source
 go-once
 ### Spanish
-ir una vez
+ir-una-vez
 
 ### Source
 layout?
@@ -59,20 +59,20 @@ layout?
 ### Source
 plot?
 ### Spanish
-¿gráfico?
+¿trazar?
 
 ### Source
 redo layout
 ### Spanish
-rehacer el diseño
+rehacer diseño
 
 ### Source
 resize nodes
 ### Spanish
-cambiar el tamaño de los nodos
+redimensionar nodos
 
 ### Source
 setup
 ### Spanish
-configuración
+preparar
 
