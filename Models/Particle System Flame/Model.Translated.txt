@@ -33,20 +33,19 @@ partículas
 ### Source
 rate
 ### Spanish
-Velocidad
+tasa
 
 ### Source
 setup
 ### Spanish
-configuración
+preparar
 
 ### Source
 step-size
 ### Spanish
-Numero de pie
+tamaño-del-paso
 
 ### Source
 wind-constant
 ### Spanish
-viento constante
-
+constante-de-viento
