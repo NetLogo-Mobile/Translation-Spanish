@@ -8,17 +8,17 @@ eficiencia
 ### Source
 Herding Efficiency
 ### Spanish
-Eficiencia de pastoreo
+Eficiencia de Pastoreo
 
 ### Source
 Percent
 ### Spanish
-Por ciento
+Por Ciento
 
 ### Source
 Time
 ### Spanish
-Hora
+Tiempo
 
 ## Widgets
 ### Source
@@ -34,7 +34,7 @@ ir
 ### Source
 num-sheep
 ### Spanish
-num-ovejas
+núm-ovejas
 
 ### Source
 num-shepherds
@@ -44,10 +44,10 @@ número-pastores
 ### Source
 setup
 ### Spanish
-configuración
+preparar
 
 ### Source
 sheep-speed
 ### Spanish
-velocidad de oveja
+velocidad-de-ovejas
 
