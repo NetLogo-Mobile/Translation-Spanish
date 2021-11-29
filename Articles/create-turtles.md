@@ -1,5 +1,13 @@
-﻿*** Machine Translated
-`create-turtles` es una primitiva que crea un número dado de tortugas nuevas en el modelo. Estas nuevas tortugas se colocan en el centro del modelo con la misma forma predeterminada pero con colores y encabezados aleatorios. La versión abreviada de este primitivo es `crt`. por ejemplo, `create-turtles 100`.
+﻿`create-turtles` es una primitiva que crea un número dado de tortugas nuevas en el modelo. Estas nuevas tortugas se colocan en el centro del modelo con la misma forma predeterminada pero con colores y encabezados aleatorios. La versión abreviada de este primitivo es `crt`. por ejemplo, `crt 100`.
+
+
+
+```
+create-turtles 1015
+crt 30
+```
+
+
 
 
 
@@ -16,7 +24,7 @@ create-turtles [
 
 
 
-Cosas para tener en cuenta cuando usando `create-turtles`:
+Cosas para tener en cuenta cuando usas `create-turtles`:
 
 * Puedes usar el formato `create-<breed>` para crear nuevas tortugas de una raza específica como `create-dogs 100` o `create-buildings 5 [ set color gray ]`.
 * Solo el `observador` puede crear nuevas tortugas. No puedes usar esta primitiva dentro de una primitiva `ask`. Por ejemplo, ambas `ask gallkens [create-eggs 1]` y `ask patches [create-plants 1]` mostrarían un mensaje de error. Si necesitas tortugas ya existentes para crear nuevas tortugas, debes usar la primitiva `hatch`. Si necesitas las parcelas para crear nuevas tortugas, debes usar la primitiva `sprout`.

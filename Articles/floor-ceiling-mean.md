@@ -1,5 +1,4 @@
 ﻿### **floor** *número*
-
 ### **ceiling** *número*
 
 `Floor` es una primitiva de redondeo que informa el número entero más cercano debajo del número, redondeando hacia abajo. Por ejemplo, el `show floor 4.8` devolvería 4 y el `show floor -7.5` devolvería -8.
