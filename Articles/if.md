@@ -20,4 +20,4 @@ Cosas a tener en mente cuando usas `if`:
 
 
 
-En el ejemplo de modelo a continuación, tenemos algunos parches que representan trampas para ratones y algunos ratones que se mueven aleatoriamente. Si un ratón pisa una trampa para ratones, establece su variable `trapped?` En `true`. Los ratones que están `not trapped` continúan moviéndose, mientras que los que están atrapados permanecen estacionarios.
+En el ejemplo de modelo a continuación, tenemos algunas parcelas que representan trampas para ratones y algunos ratones que se mueven aleatoriamente. Si un ratón pisa una trampa para ratones, establece su variable `trapped?` En `true`. Los ratones que están `not trapped` continúan moviéndose, mientras que los que están atrapados permanecen estacionarios.

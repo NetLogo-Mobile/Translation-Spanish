@@ -1,5 +1,4 @@
-﻿*** Machine Translated
-`ifelse-value` es una primitiva que nos permite comprobar de forma rápida y concisa una serie de condiciones y elegir un valor en consecuencia. Esta primitiva no nos ayuda a escribir muchos consecutiva `if` o `ifelse` declaraciones.
+﻿`ifelse-value` es una primitiva que nos permite comprobar de forma rápida y concisa una serie de condiciones y elegir un valor en consecuencia. Esta primitiva no nos ayuda a escribir muchos consecutiva `if` o `ifelse` declaraciones.
 
 Por ejemplo, si quisiéramos comprobar en cuál de los cuatro cuadrantes del mundo se encuentra una determinada tortuga, nuestra primera opción es escribir un código de la siguiente manera: 
 
@@ -37,10 +36,15 @@ end
 ```
 
 
-Cosas a tener en cuenta al usar `ifelse-value` :
 
-- Debe envolver todo `ifelse-value` entre paréntesis `()` .
-- Puede proporcionar un último conjunto de comandos entre corchetes pero sin ninguna condición anterior. Este último conjunto de comandos se tratará como una `else` , especificando lo que sucederá si ninguna de las condiciones es verdadera. También puede omitir esta condición final.
+
+
+
+Cosas a tener en cuenta cuando usas `ifelse-value`:
+
+* Debes envolver todo `ifelse-value` entre paréntesis `()`.
+- Puedes proporcionar un último conjunto de comandos entre corchetes pero sin ninguna condición anterior. Este último conjunto de comandos se tratará como una `else` , especificando lo que sucederá si ninguna de las condiciones es verdadera. También puedes omitir esta condición final.
+
 
 
 En el ejemplo de modelo a continuación, tenemos seis formas de dados. Cada vez que hacemos clic en el botón de *rodar todo* , cada tortuga elige un número aleatorio entre 1 y 6. Luego, usamos la `ifelse-value` ifelse para elegir la forma de tortuga correcta para representar el valor del dado correspondiente.

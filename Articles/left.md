@@ -1,5 +1,4 @@
-﻿*** Machine Translated
-`left` es una primitiva que le dice a una tortuga que gire cierto número de grados (entre 0 y 360) hacia la izquierda.
+﻿`left` es una primitiva que le dice a una tortuga que gire cierto número de grados (entre 0 y 360) hacia la izquierda.
 
 
 

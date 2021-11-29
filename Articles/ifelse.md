@@ -1,5 +1,4 @@
-﻿*** Machine Translated
-`ifelse` se usa para definir dos conjuntos de reglas que deben seguir las tortugas condicionalmente: un conjunto si una condición proporcionada es *cierto* y otro conjunto si la condición es *falso*. Para hacerlo, usamos el siguiente formato: `ifelse condition (s) [...] [...]`.
+﻿`ifelse` se usa para definir dos conjuntos de reglas que deben seguir las tortugas condicionalmente: un conjunto si una condición proporcionada es *cierto* y otro conjunto si la condición es *falso*. Para hacerlo, usamos el siguiente formato: `ifelse condition (s) [...] [...]`.
 
 
 
@@ -15,7 +14,7 @@ ask cows [
 
 
 
-Cosas para tener en mente cuando usas `if-else`:
+Cosas para tener en cuenta cuando usas `if-else`:
 
 * Puedes combinar dos o más declaraciones condicionales usando las primitivas `and` o `or`.
 * Puedes usar la primitiva `not` para hacer que las declaraciones ciertas sean falsas, y viceversa.

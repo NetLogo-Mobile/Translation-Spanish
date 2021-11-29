@@ -1,5 +1,4 @@
-﻿*** Machine Translated
-"in-radius" es una primitiva que informa sobre todos los agentes dentro de un cierto radio del agente actual. Por ejemplo, a una tortuga le gustaría saber cuántas otras tortugas hay dentro de un radio de dos unidades de sí misma o a una parcela le gustaría saber cuántas tortugas hay dentro de tres unidades de sí misma.
+﻿"in-radius" es una primitiva que informa sobre todos los agentes dentro de un cierto radio del agente actual. Por ejemplo, a una tortuga le gustaría saber cuántas otras tortugas hay dentro de un radio de dos unidades de sí misma o a una parcela le gustaría saber cuántas tortugas hay dentro de tres unidades de sí misma.
 
 
 
