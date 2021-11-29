@@ -2,7 +2,7 @@
 
 
 
-Por ejemplo, si quisiéramos que una tortuga comiera **solo** si (A) tienen hambre *y* (B) si había comida en el mismo parche, podríamos decir:
+Por ejemplo, si quisiéramos que una tortuga comiera **solo** si (A) tienen hambre *y* (B) si había comida en la mismo parcela, podríamos decir:
 
 
 
@@ -22,4 +22,4 @@ Cosas a tener en cuenta cuando usas `and`:
 
 
 
-En el modelo ejemplo abajo, usamos `and` para generar un río por el medio de nuestro mundo. Una parcela se convierte en azul *si y solo si* las coordenada x es *both* a la izquierda de `(width / 2)` *and* a la derecha de `- (width / 2)`, si no, sigue siendo una parcela verde.
+En el modelo ejemplo abajo, usamos `and` para generar un río por el medio de nuestro mundo. Una parcela se convierte en azul *si y solo si* las coordenada x es *tanto* a la izquierda de `(width / 2)` *y* a la derecha de `- (width / 2)`, si no, sigue siendo una parcela verde.
