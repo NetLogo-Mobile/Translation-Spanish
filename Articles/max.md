@@ -1,5 +1,4 @@
-﻿*** Machine Translated
-`max` informa el valor máximo en una lista determinada. Por ejemplo, `show max [14 -2 7]` reportaría 14. `max` se usa comúnmente para encontrar un agente específico dentro de un conjunto de agentes. Por ejemplo, si quisiéramos crear un modelo de división celular y tener la celda más grande para dividir por la mitad en cada tic, escribiríamos el siguiente código:
+﻿`max` informa el valor máximo en una lista determinada. Por ejemplo, `show max [14 -2 7]` reportaría 14. `max` se usa comúnmente para encontrar un agente específico dentro de un conjunto de agentes. Por ejemplo, si quisiéramos crear un modelo de división celular y tener la célula más grande para dividir por la mitad en cada tic, escribiríamos el siguiente código:
 
 
 

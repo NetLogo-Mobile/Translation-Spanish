@@ -1,5 +1,4 @@
-﻿*** Machine Translated
-`let` crea una nueva variable local y establece su valor inicial. Una variable local es una variable que solo existe dentro del procedimiento en el que se creó o entre paréntesis de una declaración específica de `ask`. Similar a una variable `global`, el valor de una variable local es el mismo para todas las tortugas.
+﻿`let` crea una nueva variable local y establece su valor inicial. Una variable local es una variable que solo existe dentro del procedimiento en el que se creó o entre paréntesis de una declaración específica de `ask`. Similar a una variable `global`, el valor de una variable local es el mismo para todas las tortugas.
 
 
 
