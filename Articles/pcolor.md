@@ -1,5 +1,4 @@
-﻿*** Machine Translated
-`pcolor` es una variable de parche incorporada que informa el color de un parche. Debido a que `pcolor` es una variable, además de un reportero, puede usar `set` para cambiarlo. `pcolor` se puede establecer simplemente indicando el color (por ejemplo, marrón, amarillo, rojo; tenga en cuenta que no hay comillas alrededor de los nombres de los colores) o el color NetLogo (un solo número). Por ejemplo, si quisiéramos que nuestros parches fueran azules para representar un océano y luego crear una isla en el medio, escribiríamos el siguiente código:
+﻿`pcolor` es una variable de parcela incorporada que informa el color de una parcela. Debido a que `pcolor` es una variable, además de un reportero, puedes usar `set` para cambiarlo. `pcolor` se puede establecer simplemente si indicas el color (por ejemplo, marrón, amarillo, rojo; tenga en cuenta que no hay comillas alrededor de los nombres de los colores) o el color NetLogo (un solo número). Por ejemplo, si quisiéramos que nuestras parcelas fueran azules para representar un océano y luego crear una isla en el medio, escribiríamos el siguiente código:
 
 
 
@@ -24,13 +23,13 @@ create-trees 10 [
 ```
 
 
-Cosas a tener en cuenta al usar `pcolor` :
+Cosas a tener en cuenta cuando usas `pcolor`:
 
-- Una tortuga puede acceder directamente al `pcolor` de su parche. Por ejemplo, `ask turtles [set pcolor green]` da como resultado el mismo resultado que `ask turtles [ ask patch-here [ set pcolor green ] ]` .
-- NetLogo utiliza un esquema de numeración personalizado para representar colores. Puede acceder a este esquema de numeración de colores haciendo clic en el *menú Herramientas* y eligiendo la opción *Muestras de color.*
-- Como notó en los ejemplos anteriores, puede usar los nombres de los colores comunes directamente en su código. Estos nombres son: `red` , `green` , `blue` , `brown` , `black` , `pink` , `white` , `violet` , `magenta` , `cyan` y `gray` .
-- Debe escribir el nombre de un color directamente, sin comillas alrededor del nombre del color ( `""` ).
-- Como NetLogo utiliza un esquema de numeración simple para los colores, puede tratar los nombres de los colores como valores numéricos. Esto nos permite manipular la claridad de los colores con matemáticas simples. Por ejemplo, `green + 2` resultará en un color verde más claro, mientras que `green - 2` resultará en un verde más oscuro. También puede utilizar números que no sean enteros para lograr un color aún más preciso, como `red + 0.25` o `blue - 1.85` .
+* Una tortuga puede acceder directamente al `pcolor` de su parcela. Por ejemplo, `ask turtles [set pcolor green]` da como resultado el mismo resultado que `ask turtles [ ask patch-here [ set pcolor green ] ]`.
+* NetLogo usa un esquema de numeración personalizado para representar colores. Puedes acceder a este esquema de numeración de colores haciendo clic en el *menú Herramientas* y eligiendo la opción *Muestras de color.*
+* Como notó en los ejemplos anteriores, puedes usar los nombres de los colores comunes directamente en su código. Estos nombres son: `red`, `green`, `blue`, `brown`, `black`, `pink`, `white`, `violet`, `magenta`, `cyan` y `gray`.
+* Debes escribir el nombre de un color directamente, sin comillas alrededor del nombre del color (`""`).
+- Como NetLogo usa un esquema de numeración simple para los colores, puedes tratar los nombres de los colores como valores numéricos. Esto nos permite manipular la claridad de los colores con matemáticas simples. Por ejemplo, `green + 2` resultará en un color verde más claro, mientras que `green - 2` resultará en un verde más oscuro. También puedes usar números que no sean enteros para lograr un color aún más preciso, como `red + 0.25` o `blue - 1.85`.
 
 
-En el ejemplo de modelo a continuación, tenemos algunas ovejas que deambulan al azar. Usamos `pcolor` para hacer que algunos de nuestros parches sean `brown` para representar el suelo y algunos de nuestros parches `green` para representar la hierba. Las ovejas solo pueden comer cuando están en un parche con pasto, por lo que solo pueden comer `if pcolor = green` . Este modelo no solo cambia el `pcolor` de un parche usando `set` , sino que muestra cómo `pcolor` en declaraciones condicionales.
+En el ejemplo de modelo a continuación, tenemos algunas ovejas que deambulan al azar. Usamos `pcolor` para hacer que algunos de nuestras parcelas sean `brown` para representar el suelo y algunos de nuestras parcelas `green` para representar el pasto. Las ovejas solo pueden comer cuando están en una parcela con pasto, por lo que solo pueden comer `if pcolor = green`. Este modelo no solo cambia el `pcolor` de una parcela usando `set`, sino que muestra cómo `pcolor` en declaraciones condicionales.
