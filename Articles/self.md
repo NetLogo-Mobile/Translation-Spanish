@@ -1,5 +1,4 @@
-﻿*** Machine Translated
-`self` es un elemento primitivo que es útil cuando necesitamos que un agente se refiera a sí mismo dentro de una declaración `ask` `self` es muy útil para asignar una tortuga a una variable global. Por ejemplo, si tuviéramos un parche de restaurante al que todos nuestros clientes tuvieran que ir, escribiríamos el siguiente código 
+﻿`self` es un elemento primitivo que es útil cuando necesitamos que un agente se refiera a sí mismo dentro de una declaración `ask` `self` es muy útil para asignar una tortuga a una variable global. Por ejemplo, si tuviéramos una parcela de restaurante al que todos nuestros clientes tuvieran que ir, escribiríamos el siguiente código 
 
 ```
 globals [the-restaurant]
