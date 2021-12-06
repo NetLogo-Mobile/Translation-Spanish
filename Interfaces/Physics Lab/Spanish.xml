@@ -371,7 +371,7 @@
     <String ID="读取复杂实验" Status="0" English="A complicated experiment">Un experimento complicado</String>
     <String ID="暂停实验" Status="0" English="Pause it">Pausarlo</String>
     <String ID="继续运行" Status="0" English="Keep running">Sigue ejecutando</String>
-    <String ID="这个实验使用了 {0} 个元件，可能导致你的设备卡顿。是否进入时暂停？" Status="1" English="This experiment uses {0} components, which may cause lagging. Do you want to pause when entering?">Este experimento utiliza componentes {0}, que pueden provocar retrasos. ¿Quieres hacer una pausa al entrar?</String>
+    <String ID="这个实验使用了 {0} 个元件，可能导致你的设备卡顿。是否进入时暂停？" Status="0" English="This experiment uses {0} components, which may cause lagging. Do you want to pause when entering?">Este experimento usa componentes {0}, que pueden provocar retrasos. ¿Quieres hacer una pausa al entrar?</String>
     <String ID="实验已被暂停，请点击右下角播放按钮开始运行！" Status="0" English="The simulation is paused. Click the play button on the lower-right to start!">La simulación está en pausa. ¡Haz clic en el botón de reproducción en la parte inferior derecha para comenzar!</String>
   </Messages>
   <Tutorial>
