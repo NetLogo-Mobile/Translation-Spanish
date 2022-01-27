@@ -49,6 +49,7 @@
     <String ID="致谢和版权" Status="0" English="Credit and Copyright">Créditos y Derechos de Autor</String>
     <String ID="否则" Status="0" English="Otherwise">De lo contrario</String>
     <String ID="清空" Status="0" English="Clear">Borrar</String>
+    <String ID="扫码访问" Status="1" English="Scan to access">Escanear para acceder</String>
   </Shared>
   <Interfaces>
     <String ID="进入应用" Status="0" English="Enter app">Entrar en la aplicación</String>
@@ -89,7 +90,7 @@
     <String ID="保存到本地" Status="0" English="Save to disk">Guardar en el disco</String>
     <String ID="从本地读取" Status="0" English="Read from disk">Leer del disco</String>
     <String ID="离开实验" Status="0" English="Leave experiment">Dejar el experimento</String>
-    <String ID="发布内容" Status="0" English="Publish content">Publicar contenido</String>
+    <String ID="发布作品" Status="1" English="Publish the work">Publicar el trabajo</String>
     <String ID="实验模式" Status="0" English="Experimental mode">Modo experimental</String>
     <String ID="离线模式" Status="0" English="Offline Mode">Modo Offline</String>
     <String ID="未完成" Status="0" English="Undone">Deshecho</String>
@@ -215,13 +216,13 @@
     <String ID="{0}至少需要包含两个元件。" Status="0" English="{0} must contain at least two components.">{0} debe contener al menos dos componentes.</String>
     <String ID="成功发布了您的{0}！" Status="0" English="Successfully published your {0}!">¡Publicó su {0} con exitó!</String>
     <String ID="删除过程中遇到错误。" Status="0" English="An error was encountered during the deletion.">Se encontró un error durante la eliminación.</String>
-    <String ID="删除内容" Status="0" English="Delete content">Eliminar contenido</String>
+    <String ID="删除内容" Status="1" English="Delete Content">Eliminar contenido</String>
     <String ID="删除回复" Status="0" English="Delete">Eliminar</String>
     <String ID="是否确定删除内容？本地存档将无法找回！" Status="0" English="Do want to delete the content? The local save could not be retrieved!">¿Quieres borrar el contenido? ¡No se pudo recuperar la guardada local!</String>
     <String ID="是否确定删除内容？除非您留有本地存档，否则将无法找回！" Status="0" English="Do you want to delete the content? Unless you have a local save, you won&amp;#39;t be able to retrieve it!">¿Quieres eliminar el contenido? A menos que tengas un guardado local, ¡no podrás recuperarlo!</String>
     <String ID="是否确定删除回复？" Status="0" English="Are you sure to delete the reply?">¿Estás seguro de eliminar la respuesta?</String>
-    <String ID="设为封面" Status="0" English="Set as cover">Establecer como portada</String>
-    <String ID="刷新内容" Status="0" English="Refresh content">Actualizar contenido</String>
+    <String ID="设为封面" Status="1" English="Set as Cover">Establecer como portada</String>
+    <String ID="刷新内容" Status="1" English="Refresh Content">Actualizar contenido</String>
     <String ID="成功设置为你的封面作品！" Status="0" English="Successfully set as your profile cover!">¡Establecido correctamente como portada de tu perfil!</String>
     <String ID="即将读取的实验版本比您的客户端更新，可能遇到不兼容问题。是否继续？" Status="0" English="The experiment version is newer than your client and may cause incompatibilities. Whether to continue?">La versión del experimento es más reciente que la de su cliente y puede causar incompatibilidades. ¿Continuar?</String>
     <String ID="您需要填写昵称来使用特定功能。" Status="0" English="You need to fill in the nickname to use a specific feature.">Necesitas completar el apodo para usar una función específica.</String>
@@ -229,7 +230,7 @@
     <String ID="您可以竖屏使用输入界面。" Status="0" English="This screen supports portrait mode.">Esta pantalla permite el modo retrato.</String>
     <String ID="点击这里开始编辑" Status="0" English="Click to start editing">Haz clic para comenzar a editar</String>
     <String ID="内容区域中有未保存的修改。是否继续？" Status="0" English="There are unsaved changes in the content area. Whether to continue?">Hay cambios no guardados en el área de contenido. ¿Continuar?</String>
-    <String ID="离开编辑" Status="0" English="Cancel editing">Cancelar la edición</String>
+    <String ID="离开编辑" Status="1" English="Cancel Editing">Cancelar edición</String>
     <String ID="其他希望改进的建议：" Status="0" English="Any other suggestions:">Cualquier otra sugerencia:</String>
     <String ID="作品已经被删除！" Status="0" English="The work has already been deleted!">¡El trabajo ya ha sido eliminado!</String>
     <String ID="周一" Status="0" English="Monday">Lunes</String>
@@ -312,6 +313,7 @@
     <String ID="见习编辑" Status="0" English="Junior Editor">Editor Junior</String>
     <String ID="编辑和管理员" Status="0" English="Editors">Editores</String>
     <String ID="志愿者" Status="0" English="Volunteer">Voluntario</String>
+    <String ID="老用户" Status="1" English="Old-timer">Viejo contador de tiempo</String>
     <String ID="已被封禁" Status="0" English="Banned">Prohibido</String>
     <String ID="封禁" Status="0" English="Ban">Prohibición</String>
     <String ID="解封" Status="0" English="Unban">Levantar la prohibición</String>
@@ -337,13 +339,13 @@
     <String ID="是否确认要解封 {0}？你需要提供合理的理由。" Status="0" English="Do you want to unban {0}? A reason is needed.">¿Quieres desbloquear {0}? Se necesita una razón.</String>
     <String ID="请输入解封理由" Status="0" English="The reason for the unban">El motivo de la desbandada</String>
     <String ID="责任编辑：" Status="0" English="Editor: ">Editor:</String>
-    <String ID="字数统计：" Status="2" />
+    <String ID="字数统计：" Status="1" English="Count: ">Contar:</String>
     <String ID="管理" Status="0" English="Manage">Gestionar</String>
     <String ID="移动到{0}" Status="0" English="Move to {0}">Mover a {0}</String>
-    <String ID="加入精选" Status="0" English="Add to features">Agregar a funciones</String>
-    <String ID="取消精选" Status="0" English="Remove from features">Eliminar de las funciones</String>
-    <String ID="加入知识库" Status="0" English="Add to the knowledge base">Agregar a la base de conocimientos</String>
-    <String ID="移出知识库" Status="0" English="Remove from the knowledge base">Eliminar de la base de conocimientos</String>
+    <String ID="加入精选" Status="1" English="Add to Featured">Agregar a Destacados</String>
+    <String ID="取消精选" Status="1" English="Remove from Featured">Quitar de Destacados</String>
+    <String ID="加入知识库" Status="1" English="Add to Knowledge base">Agregar a la base de conocimientos</String>
+    <String ID="移出知识库" Status="1" English="Remove from Knowledge base">Eliminar de la base de conocimiento</String>
   </Hierarchies>
   <AugmentedReality>
     <String ID="您可以拖动陀螺仪来调整视角。" Status="0" English="Drag the gyroscope to adjust the angle of view.">Arrastre el giroscopio para ajustar el ángulo de visión.</String>

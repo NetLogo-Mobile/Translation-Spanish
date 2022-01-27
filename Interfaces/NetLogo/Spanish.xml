@@ -20,11 +20,15 @@
     <String ID="未能成功读取本地化信息……" Status="0" English="Failed to read the localization information...">No se pudo leer la información de localización ...</String>
     <String ID="只有初始化时钟 (Tick) 之后才能使用！" Status="0" English="Please use it after initializing the tick counter.">Úselo después de inicializar el contador de tics.</String>
     <String ID="请修复控件的错误之后使用！" Status="0" English="Please use it after fixing the error(s).">Úselo después de corregir los errores.</String>
+    <String ID="读取远程模型" Status="1" English="Load remote model">Cargar modelo remoto</String>
+    <String ID="是否确定读取远程模型 {0}？请务必从可信的网站载入模型。" Status="1" English="Please confirm loading remote model {0}. For security reasons, please only load from trusted websites.">Confirme la carga del modelo remoto {0}. Por razones de seguridad, cargue solo desde sitios web confiables.</String>
     <String ID="覆盖模型" Status="0" English="Override the model">Anular el modelo</String>
     <String ID="覆盖" Status="0" English="Override">Anular</String>
     <String ID="新模型" Status="0" English="New model">Modelo Nuevo</String>
-    <String ID="如果你正在更新同一模型的不同版本，请选择覆盖模型，这将保留海龟实验室支持的特殊能力（教程、翻译等等）。如果你打开的是新模型，请不要选择覆盖。" Status="0" English="&#xA;&#x9;&#x9;If you are updating the same model, please overwrite, which will retain the special capabilities of Turtle Universe. If you are opening a new model, please choose otherwise.">Si está actualizando el mismo modelo, sobrescriba, lo que conservará las capacidades especiales del Universo Tortuga. Si está abriendo un nuevo modelo, elija lo contrario.</String>
+    <String ID="如果你正在更新同一模型的不同版本，请选择覆盖模型，这将保留海龟实验室支持的特殊能力（教程、翻译等等）。如果你打开的是新模型，请不要选择覆盖。" Status="1" English="&#xA;&#x9;&#x9;&#x9;If you are updating the same model, please overwrite, which will retain the special capabilities of Turtle Universe. If you are opening a new model, please choose otherwise.&#xA;&#x9;&#x9;">Si está actualizando el mismo modelo, sobrescriba, lo que conservará las capacidades especiales de Turtle Universe. Si está abriendo un nuevo modelo, elija lo contrario.</String>
     <String ID="模型代码存在问题，请在代码窗口中修复。" Status="0" English="There is a problem with the code. Please fix it first.">Hay un problema con el código. Primero arréglelo.</String>
+    <String ID="保存文件" Status="1" English="Save file">Guardar el archivo</String>
+    <String ID="运行中的模型希望保存文件 {0}，大小 {1}K。是否继续？" Status="1" English="The current model wants to save file {0} ({1}K). Do you want to continue?">El modelo actual quiere guardar el archivo {0} ({1}K). ¿Quieres continuar?</String>
   </Interfaces>
   <Widgets>
     <String ID="编辑控件" Status="0" English="Edit Widgets">Editar Widgets</String>
@@ -46,7 +50,7 @@
     <String ID="隐藏控件" Status="0" English="Hidden?">¿Oculto?</String>
     <String ID="是否在界面上隐藏控件。" Status="0" English="Should we hide this widget on the interface?">¿Deberíamos ocultar este widget en la interfaz?</String>
     <String ID="隐藏群组" Status="0" English="Hidden?">¿Oculto?</String>
-    <String ID="是否在界面上隐藏群组。" Status="0" English="Should we this widget group on the interface?">¿Debemos este grupo de widgets en la interfaz?</String>
+    <String ID="是否在界面上隐藏群组。" Status="1" English="Should we hide this widget group on the interface?">¿Deberíamos ocultar este grupo de widgets en la interfaz?</String>
     <String ID="模型代码中还有对全局变量 {0} 的引用，删除可能造成无法运行。是否继续？" Status="0" English="There is also a reference to the global variable {0} in the model code. Deleting it may cause it to fail to run. Whether to continue?">También hay una referencia a la variable global {0} en el código del modelo. Eliminarlo puede hacer que no se ejecute. ¿Continuar?</String>
     <String ID="全局变量 {0} 已被更名为 {1}。是否自动替换模型代码中的引用？" Status="0" English="The global variable {0} has been renamed {1}. Do you automatically replace references in the model code?">Se ha cambiado el nombre de la variable global {0} a {1}. ¿Reemplaza automáticamente las referencias en el código del modelo?</String>
     <String ID="此处内容不能为空！" Status="0" English="This field cannot be empty.">Este campo no puede estar vacío.</String>
@@ -114,6 +118,22 @@
     <String ID="模型世界是否在垂直方向上构成环绕。" Status="0" English="Whether the world constitutes a cylinder in the vertical (Y) direction.">Si el mundo constituye un cilindro en la dirección vertical (Y).</String>
     <String ID="格子大小" Status="0" English="Patch size">Tamaño de la parcela</String>
     <String ID="每个格子的相对尺寸。" Status="0" English="The relative size of each patch.">El tamaño relativo de cada parcela.</String>
+    <String ID="世界自适应" Status="1" English="Adaptive World">Mundo adaptativo</String>
+    <String ID="保持不变" Status="1" English="Disabled">Discapacitado</String>
+    <String ID="水平自适应" Status="1" English="Horizontal">Horizontal</String>
+    <String ID="垂直自适应" Status="1" English="Vertical">Vertical</String>
+    <String ID="世界尺寸如何根据屏幕比例缩放。" Status="1" English="How the dimension of the world scales with the screen aspect ratio.">Cómo la dimensión del mundo escala con la relación de aspecto de la pantalla.</String>
+    <String ID="锁定视野" Status="1" English="Perspective locked">Perspectiva bloqueada</String>
+    <String ID="是否允许用户调整视野？" Status="1" English="Are users allowed to change the field of view?">¿Los usuarios pueden cambiar el campo de visión?</String>
+    <String ID="点击海龟" Status="1" English="Turtle Trigger">Disparador de tortuga</String>
+    <String ID="点击海龟时应当触发什么行为？" Status="1" English="What should be triggered when a turtle is selected?">¿Qué debe activarse cuando se selecciona una tortuga?</String>
+    <String ID="点击格子" Status="1" English="Patch Trigger">Activador de parche</String>
+    <String ID="点击格子时应当触发什么行为？" Status="1" English="What should be triggered when a grid is selected?">¿Qué debe activarse cuando se selecciona una cuadrícula?</String>
+    <String ID="传递到程序" Status="1" English="Pass to the model">Pasar a la modelo</String>
+    <String ID="跟随视野 (Ride)" Status="1" English="Ride">Montar</String>
+    <String ID="跟随视野 (Follow)" Status="1" English="Follow">Seguir</String>
+    <String ID="高亮显示 (Watch)" Status="1" English="Watch">Reloj</String>
+    <String ID="显示详情 (Inspect)" Status="1" English="Inspect">Inspeccionar</String>
   </Widgets>
   <Toolbar>
     <String ID="编译" Status="0" English="Compile">Compilar</String>
