@@ -13,12 +13,12 @@ Valor Promedio
 ### Source
 means
 ### Spanish
-medias
+promedios
 
 ### Source
 means-mean
 ### Spanish
-medias-media
+promedios-media
 
 ### Source
 Sample-Data Distribution
@@ -33,7 +33,7 @@ sumas
 ### Source
 sums-mean
 ### Spanish
-sumas-medias
+sumas-promedios
 
 ## Widgets
 ### Source
@@ -124,7 +124,7 @@ show-ev?
 ### Source
 std-dev-means
 ### Spanish
-desv-est-medias
+desv-est-promedio
 
 ### Source
 std-dev-sums
