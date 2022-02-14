@@ -204,8 +204,8 @@
     <String ID="1. 商店版本 {0} 以后更新的实验内容。\n2. 本地 / 云端实验和设置的保存功能。\n3. 活动与成就等用户系统有关的功能。\n4. 充值内购、内容解锁等商城相关功能。" Status="0" English="1. The experimental content updated after the store version {0}. \n2. Local/Cloud Experiment and Settings save function. \n3. Activities related to user systems such as achievements. \n4. Recharge the in-app purchase, content unlock and other mall related functions.">1. El contenido experimental actualizado después de la versión de la tienda {0}. \ n2. Función de guardado de configuración y experimento local / en la nube. \ n3. Actividades relacionadas con los sistemas de los usuarios, como los logros. \ n4. Recargue la compra en la aplicación, el desbloqueo de contenido y otras funciones relacionadas con el centro comercial.</String>
     <String ID="未能找到实验，以下显示离线内容" Status="0" English="No contents found, showing offline contents..">No se encontraron contenidos, se muestran contenidos offline.</String>
     <String ID="未能查询到符合条件的实验。为您展示离线实验……" Status="0" English="Failed to find eligible experiments. Showing offline selections...">No se pudieron encontrar los experimentos aptos. Mostrando selecciones offline ...</String>
-    <String ID="你没有访问内容或执行操作的权限。" Status="1" English="You do not have permission for this action.">No tienes permiso para esta acción.</String>
-    <String ID="只有 {0} 具有权限。" Status="1" English="Only {0} has permission for this.">Solo {0} tiene permiso para esto.</String>
+    <String ID="你没有访问内容或执行操作的权限。" Status="0" English="You do not have permission for this action.">No tienes permiso para esta acción.</String>
+    <String ID="只有 {0} 具有权限。" Status="0" English="Only {0} has permission for this.">Solo {0} tiene permiso para esto.</String>
     <String ID="这项内容不能被评论。" Status="0" English="This content cannot be commented on.">No puede comentar en este contenido.</String>
     <String ID="请填写{0}的标题。" Status="0" English="Please fill in the title of the {0}.">Complete el título del {0}.</String>
     <String ID="请填写{0}的介绍内容。" Status="0" English="Please fill out the introduction of the {0}.">Complete la introducción de {0}.</String>
@@ -213,7 +213,7 @@
     <String ID="请选择下列标签中的一个：{1}。" Status="0" English="Please choose one of tags: {1}.">Por favor elija una de las etiquetas: {1}.</String>
     <String ID="请选择正确的分类。" Status="0" English="Please choose the correct category.">Por favor elija la categoría correcta.</String>
     <String ID="你输入的内容中包含不适宜字句。" Status="0" English="The content you entered contains inappropriate words.">El contenido que escriviste contiene palabras inapropiadas.</String>
-    <String ID="你输入的 '{0}' 中包含不适宜字句。" Status="1" English="The &amp;#39;{0}&amp;#39; you entered contains inappropriate words.">El &amp;#39;{0}&amp;#39; que ingresó contiene palabras inapropiadas.</String>
+    <String ID="你输入的 '{0}' 中包含不适宜字句。" Status="0" English="The &amp;#39;{0}&amp;#39; you entered contains inappropriate words.">El &amp;#39;{0}&amp;#39; que ingresaste contiene palabras inapropiadas.</String>
     <String ID="请不要过于频繁地发布内容。" Status="0" English="Please do not post too frequently.">No publiques con demasiada frecuencia por favor.</String>
     <String ID="{0}至少需要包含两个元件。" Status="0" English="{0} must contain at least two components.">{0} debe contener al menos dos componentes.</String>
     <String ID="成功发布了您的{0}！" Status="0" English="Successfully published your {0}!">¡Publicó su {0} con exitó!</String>
@@ -224,9 +224,9 @@
     <String ID="是否确定删除内容？除非您留有本地存档，否则将无法找回！" Status="0" English="Do you want to delete the content? Unless you have a local save, you won&amp;#39;t be able to retrieve it!">¿Quieres eliminar el contenido? A menos que tengas un guardado local, ¡no podrás recuperarlo!</String>
     <String ID="是否确定删除回复？" Status="0" English="Are you sure to delete the reply?">¿Estás seguro de eliminar la respuesta?</String>
     <String ID="设为封面" Status="0" English="Set as Cover">Establecer como Portada</String>
-    <String ID="上传问卷" Status="1" English="Upload questionnaire">Subir cuestionario</String>
-    <String ID="移除问卷" Status="1" English="Remove questionnaire">Eliminar cuestionario</String>
-    <String ID="是否确认移除问卷？正在填写中的用户不会受到影响。" Status="1" English="Do you want to remove the questionnaire? Users who are filling in will not be affected.">¿Quieres eliminar el cuestionario? Los usuarios que estén rellenando no se verán afectados.</String>
+    <String ID="上传问卷" Status="0" English="Upload questionnaire">Subir cuestionario</String>
+    <String ID="移除问卷" Status="0" English="Remove questionnaire">Eliminar cuestionario</String>
+    <String ID="是否确认移除问卷？正在填写中的用户不会受到影响。" Status="0" English="Do you want to remove the questionnaire? Users who are filling in will not be affected.">¿Quieres eliminar el cuestionario? Los usuarios que están llenándolo no serán afectados.</String>
     <String ID="刷新内容" Status="0" English="Refresh Content">Actualizar Contenido</String>
     <String ID="成功设置为你的封面作品！" Status="0" English="Successfully set as your profile cover!">¡Establecido correctamente como portada de tu perfil!</String>
     <String ID="即将读取的实验版本比您的客户端更新，可能遇到不兼容问题。是否继续？" Status="0" English="The experiment version is newer than your client and may cause incompatibilities. Whether to continue?">La versión del experimento es más reciente que la de su cliente y puede causar incompatibilidades. ¿Continuar?</String>
@@ -292,16 +292,16 @@
     <String ID="控件" Status="0" English="Widget">Widget</String>
     <String ID="控件群组" Status="0" English="Widget group">Grupo de widgets</String>
     <String ID="{0} {1} 将被彻底删除，无法撤销。是否继续？" Status="0" English="{0} &quot;{1}&quot; will be removed from the model and cannot be undone. Are you sure?">{0} &amp;quot;{1}&amp;quot; se eliminará del modelo y no se puede deshacer. ¿Está seguro?</String>
-    <String ID="增加合作者" Status="1" English="Add a Collaborator">Agregar un colaborador</String>
-    <String ID="每次邀请将消耗 100 积分！" Status="1" English="Each invitation will consume 100 points!">¡Cada invitación consumirá 100 puntos!</String>
-    <String ID="成功邀请对方成为你的合作者！" Status="1" English="Successfully invited your collaborator!">¡Invitaste con éxito a tu colaborador!</String>
-    <String ID="请输入希望邀请成为合作者的昵称或 ID：" Status="1" English="Please enter the nickname or ID you wish to invite as a collaborator:">Por favor ingrese el nickname o ID que desea invitar como colaborador:</String>
-    <String ID="移除合作者" Status="1" English="Remove Collaborator">Quitar colaborador</String>
-    <String ID="是否确认将 {0} 移出合作者列表？" Status="1" English="Are you sure to remove {0} from the collaborators?">¿Está seguro de eliminar {0} de los colaboradores?</String>
-    <String ID="作品最多只能有 {0} 位合作者。" Status="1" English="The work can only have up to {0} collaborators.">El trabajo solo puede tener hasta {0} colaboradores.</String>
-    <String ID="接受邀请" Status="1" English="Accept an Invitation">Acepta una invitación</String>
-    <String ID="是否接受消息中的邀请？" Status="1" English="Accept the invitation in the message?">¿Aceptar la invitación en el mensaje?</String>
-    <String ID="邀请已经被处理过了。" Status="1" English="The invitation has already been processed.">La invitación ya ha sido procesada.</String>
+    <String ID="增加合作者" Status="0" English="Add a Collaborator">Agregar un Colaborador</String>
+    <String ID="每次邀请将消耗 100 积分！" Status="0" English="Each invitation will consume 100 points!">¡Cada invitación consumirá 100 puntos!</String>
+    <String ID="成功邀请对方成为你的合作者！" Status="0" English="Successfully invited your collaborator!">¡Invitaste a tu colaborador con éxito!</String>
+    <String ID="请输入希望邀请成为合作者的昵称或 ID：" Status="0" English="Please enter the nickname or ID you wish to invite as a collaborator:">Por favor ingrese el nickname o ID que deseas invitar como colaborador:</String>
+    <String ID="移除合作者" Status="0" English="Remove Collaborator">Quitar colaborador</String>
+    <String ID="是否确认将 {0} 移出合作者列表？" Status="0" English="Are you sure to remove {0} from the collaborators?">¿Estás seguro que quieres eliminar {0} de los colaboradores?</String>
+    <String ID="作品最多只能有 {0} 位合作者。" Status="0" English="The work can only have up to {0} collaborators.">El trabajo solo puede tener hasta {0} colaboradores.</String>
+    <String ID="接受邀请" Status="0" English="Accept an Invitation">Acepta una Invitación</String>
+    <String ID="是否接受消息中的邀请？" Status="0" English="Accept the invitation in the message?">¿Aceptar la invitación en el mensaje?</String>
+    <String ID="邀请已经被处理过了。" Status="0" English="The invitation has already been processed.">La invitación ya ha sido procesada.</String>
     <String ID="你输入的用户已经是合作者之一了。" Status="2" />
     <String ID="成功处理了邀请！" Status="2" />
   </Messages>
@@ -560,7 +560,7 @@
     <String ID="您确定要在未绑定登录方式的情况下购买订阅吗？" Status="0" English="Do you want to purchase a subscription without a login binded?">¿Quieres comprar una suscripción sin un login vinculado?</String>
     <String ID="和 App Store 服务器的连接失败。是否再试一次？" Status="0" English="Failed to connect to the App Store. Try again?">No se pudo conectar a la App Store. ¿Inténtalo de nuevo?</String>
     <String ID="问卷还没有完成，现在离开将无法得到奖励！" Status="0" English="Please finish the questionnaire in order to get the reward!">¡Complete el cuestionario para obtener la recompensa!</String>
-    <String ID="请更换一家邮件服务商。" Status="1" English="Please change your mail service provider.">Cambie su proveedor de servicios de correo.</String>
+    <String ID="请更换一家邮件服务商。" Status="0" English="Please change your mail service provider.">Por favor cambia su proveedor de servicios de correo.</String>
     <String ID="离开问卷" Status="0" English="Leave the questionnaire">Salir el cuestionario</String>
   </Markets>
   <Forums>
@@ -608,7 +608,7 @@
     <String ID="模型" Status="0" English="Model">Modelo</String>
     <String ID="内容" Status="0" English="Content">Contenido</String>
     <String ID="回复" Status="0" English="Reply">Respuesta</String>
-    <String ID="合作者" Status="1" English="Collaborator">Colaborador</String>
+    <String ID="合作者" Status="0" English="Collaborator">Colaborador</String>
     <String ID="选择分类" Status="0" English="Choose category">Elegir la categoría</String>
     <String ID="返回顶部" Status="0" English="Back to top">Volver arriba</String>
     <String ID="发布到官方模型库" Status="0" English="Publish to the model library">Publicar en la biblioteca de modelos</String>
@@ -639,7 +639,7 @@
     <String ID="讨论{0}" Status="0" English="Discussion{0}">Discusión {0}</String>
     <String ID="评论{0}" Status="0" English="Comment{0}">Comentar {0}</String>
     <String ID="改编{0}" Status="0" English="Remix{0}">Remixar {0}</String>
-    <String ID="合作者{0}" Status="1" English="Collaborator{0}">colaborador{0}</String>
+    <String ID="合作者{0}" Status="0" English="Collaborator{0}">Colaborador{0}</String>
     <String ID="{0} 的评论区" Status="0" English="{0}'s Comments">Comentarios de {0}</String>
     <String ID="简介" Status="0" English="Intro">Intro</String>
     <String ID="在这里开始讨论吧" Status="0" English="Let&amp;#39;s start the discussion here.">Comencemos la discusión aquí.</String>
