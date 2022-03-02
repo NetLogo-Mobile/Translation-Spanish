@@ -1,0 +1,89 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Plots
+### Source
+Avg. Bug Speed vs. Time
+### Spanish ***
+Promedio Velocidad de errores frente a tiempo
+
+### Source
+Bugs Caught
+### Spanish ***
+Errores atrapados
+
+### Source
+Current Bug Population
+### Spanish ***
+Población actual de insectos
+
+### Source
+default
+### Spanish ***
+por defecto
+
+### Source
+frequency
+### Spanish ***
+frecuencia
+
+### Source
+number
+### Spanish ***
+número
+
+### Source
+rate
+### Spanish ***
+calificar
+
+### Source
+speeds
+### Spanish ***
+velocidades
+
+### Source
+time
+### Spanish ***
+hora
+
+## Widgets
+### Source
+bugs
+### Spanish ***
+insectos
+
+### Source
+caught
+### Spanish ***
+atrapó
+
+### Source
+flee?
+### Spanish ***
+¿huir?
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+initial-bugs-each-speed
+### Spanish ***
+errores iniciales-cada-velocidad
+
+### Source
+setup
+### Spanish ***
+configuración
+
+### Source
+show-colors?
+### Spanish ***
+mostrar-colores?
+
+### Source
+wiggle?
+### Spanish ***
+¿menear?
+

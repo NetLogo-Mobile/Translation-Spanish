@@ -1,0 +1,121 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+En este juego, dos colonias de hormigas buscan comida. Aunque cada hormiga sigue un conjunto de reglas simples, las colonias en su conjunto actúan de manera sofisticada. Ant Adaptation simula dos colonias de hormigas una al lado de la otra, cada una controlada por un jugador diferente.
+
+El modelo enseña a los usuarios sobre la complejidad a través del juego. El área de detección de la vista contiene cinco widgets para cada uno de los dos jugadores. Con Ant Adaptation, nuestro objetivo es hacer realidad la promesa del modelado basado en agentes ilustrado originalmente por sistemas como GasLab (Wilensky, 1997) o NIELS (Sengupta y Wilensky, 2009), en un factor de forma de interacción rico para walk-up-and- uso del juego en un espacio de aprendizaje informal.
+
+##  COMO FUNCIONA
+
+En este modelo, dos colonias de hormigas envían a sus recolectores para moverse y encontrar comida. Si caminan sobre la comida, la recogen y regresan a su colonia. Cuando el nido recibe suficiente comida, la colonia produce otra hormiga. El usuario puede interactuar con el modelo pintando (y quitando) feromonas o agregando comida adicional al juego. Si bien los usuarios pueden agregar alimentos, los alimentos (flores) también se reproducen lentamente. Después de un tiempo, las colonias producirán nuevas reinas para fundar nuevas colonias de cada color. Si las hormigas de diferentes colonias se topan entre sí, es posible que se peleen. Cuando las hormigas pelean o devuelven comida de las flores, dejan rastros de feromonas para atraer a otras hormigas.
+
+### SIN INTERACCIÓN DEL USUARIO
+En la configuración, se crean dos colonias de hormigas (una de hormigas rojas y otra de hormigas negras) y varias flores en el mundo. Las hormigas se generan en la colonia de hormigas y luego deambulan hasta que encuentran comida, representada como flores en el modelo. Cuando encuentran comida, obtienen energía personalmente al comer néctar, luego regresan a la colonia mientras depositan una feromona, representada como senderos rosas en este modelo para alimentar a las crías dentro del nido. Las hormigas que se encuentran cerca de los rastros de feromonas se sienten atraídas por el rastro químico más fuerte. A medida que las hormigas agotan una fuente de alimento, una vez más comienzan a deambular hasta que encuentran otra fuente de alimento u otro rastro de feromonas a seguir.
+
+Cuando dos o más hormigas de colonias opuestas se encuentran, luchan o se asustan entre sí, dejando también sustancias químicas que atraen a más hormigas. Para el ganador, esto funciona para proteger la fuente de alimento de las colonias competidoras. La reina de las hormigas se reproduce cuando las hormigas de su colonia recolectan suficiente comida, establecida por el costo de creación de cada colonia. Las flores crecen periódicamente alrededor del mapa, reabasteciendo la comida en el juego. Las hormigas mueren si envejecen demasiado, no pueden encontrar comida o, a veces, cuando pierden una pelea. Los nidos mueren si no tienen más hormigas viviendo en ellos.
+
+Cuando las hormigas tienen suficiente excedente de comida, liberan hormigas aladas macho y hembra para reproducirse. Cuando estas hormigas aladas se encuentran, forman una nueva colonia.
+
+### LA INTERACCIÓN DEL USUARIO
+
+Los usuarios pueden interactuar con el modelo, configurando parámetros para su colonia y hormigas. Idealmente, cada color de colonia sería jugado por un individuo o equipo. Solo se registrará una sola entrada en cualquier momento, por lo que los equipos deberán determinar las prácticas de turnos.
+
+Los equipos de la colonia interactúan con este complejo sistema de dos maneras. Primero, pueden ajustar las características de su colonia y sus hormigas. En segundo lugar, pueden agregar o eliminar ciertas características ambientales del mundo.
+
+Los equipos de colonias pueden decidir cuán grandes y agresivas son sus hormigas. Cuando aumenta el tamaño de las hormigas, se vuelven un poco más rápidas y fuertes en una pelea. Cuando los jugadores hacen que sus hormigas sean más agresivas, aumenta la probabilidad de que las hormigas detecten hormigas opuestas y, por lo tanto, la probabilidad de que ataquen. Los controles deslizantes START-ENERGY establecen la cantidad de energía que tiene una hormiga recién nacida cuando abandona el nido por primera vez. Esto determina qué tan lejos puede caminar antes de encontrar comida.
+
+Los aumentos de tamaño, agresividad o energía inicial reducen la población esperada de la colonia, al aumentar el costo de crear más hormigas, que se muestra en el widget &quot;Crear costo&quot;. Los cambios también aumentan su probabilidad de pelear y ganar a través de interacciones emergentes de parámetros (tamaño y agresividad) y acciones de los agentes (recolectar comida, dejar rastros y pelear).
+
+Los equipos de colonias pueden ajustar el entorno agregando rastros químicos, agregando flores y borrando rastros químicos con vinagre.
+
+##  COMO USARLO
+
+![](hormiga_adaptación_figura.png)
+
+Hay cinco widgets en el centro de la pantalla que controlan las funciones de los equipos de la colonia roja y negra. Como se muestra en el diagrama anterior, marcado 4 arriba, PLAY y STOP controlan el tiempo del modelo medido en ticks. Marcado con 5 en el diagrama, RESTART vuelve a poner el modelo en las condiciones iniciales. El menú desplegable AGREGAR, marcado 6 arriba, le permite elegir colocar flores, rastros de feromonas químicas o borrar rastros con vinagre. Para usarlo, seleccione uno de ellos, luego haz clic en la vista. El control deslizante de TASA DE EVAPORACIÓN, marcado 7 arriba, controla la tasa de evaporación del producto químico.
+
+Cada equipo decide qué tan grandes y agresivas son sus hormigas con los controles deslizantes a la izquierda y a la derecha de la vista, marcados con 2 en el diagrama de arriba. Luego, cada uno selecciona la cantidad de comida con la que comienza cada nueva hormiga. Una vez que los equipos hayan decidido, deben aceptar hacer clic en el botón REINICIAR para configurar los nidos de hormigas (con banderas rojas y negras) y las flores de comida. Al hacer clic en el botón JUGAR, se inicia la simulación.
+
+Si desea cambiar el tamaño, la agresividad o la comida inicial, mueva los controles deslizantes de su equipo antes de presionar REINICIAR o después para afectar a las hormigas recién nacidas.
+
+Marcado con 1, monitorea hormigas rojas y negras en la parte superior, cuenta la población de hormigas llamadas HORMIGAS NEGRAS a la izquierda y HORMIGAS ROJAS a la derecha. Marcados como 2, los tres controles deslizantes en la parte inferior izquierda y derecha son controles deslizantes que los jugadores pueden usar para ajustar el tamaño, la agresividad y la cantidad máxima de energía de sus hormigas, o básicamente cuánto tiempo pueden caminar las hormigas sin comer. Ajustar cualquiera de estos controles deslizantes cambiará el costo de creación. Estos controles deslizantes se pueden ajustar en cualquier momento durante el juego para experimentar con diferentes configuraciones. Marcado con 3, en el medio, Ant Adaptation proporciona un monitor CREAR COSTO. El monitor CREAR COSTO muestra el valor total que actualmente cuesta producir una hormiga más. Específicamente, la colonia produce una nueva hormiga cuando el alimento almacenado es mayor que el COSTE DE CREAR. El costo se calcula en función de los tres controles deslizantes.
+
+##  COSAS PARA NOTAR
+
+La colonia de hormigas generalmente explota las fuentes de alimento en orden, comenzando con el alimento más cercano al nido y terminando con el alimento más alejado del nido. Es más difícil para las hormigas formar un rastro estable hacia el alimento más distante, ya que el rastro químico tiene más tiempo para evaporarse y difundirse antes de reforzarse.
+
+Una vez que la colonia termina de recolectar el alimento más cercano, el rastro químico de ese alimento desaparece naturalmente, liberando hormigas para ayudar a recolectar otras fuentes de alimento. Las fuentes de alimento más distantes requieren un mayor &quot;número crítico&quot; de hormigas para formar un rastro estable.
+
+En la gráfica se muestra la población de cada una de las dos colonias. Los colores de las líneas en la gráfica coinciden con los colores de las colonias.
+
+Cambiar la AGRESIVIDAD o TAMAÑO de un equipo cambia el comportamiento de las hormigas. También cambia la representación de la hormiga en el widget marcado con 8 arriba.
+
+Observe cómo la proximidad de los alimentos a la colonia afecta el crecimiento de la población.
+
+Observe si demasiado químico causa problemas.
+
+Este modelo opera en dos niveles, ambos representan la hormiga individual y la colonia. Esto lo convierte en un modelo basado en agentes de un superorganismo.
+
+##  COSAS PARA INTENTAR
+
+Pruebe diferentes ubicaciones para las fuentes de alimentos. ¿Qué pasa si pones flores más cerca de los nidos? ¿Más lejos? equidistante del nido? Cuando eso sucede en el mundo real, las colonias de hormigas suelen explotar una fuente y luego la otra (no al mismo tiempo).
+
+Explore dónde coloca rastros químicos para que las hormigas los sigan. ¿Cuál es la colocación más efectiva de productos químicos para que las hormigas encuentren comida?
+
+¿Cuánto tiempo puede sobrevivir tu colonia? ¿Qué tan grande puedes hacer tu colonia?
+
+Pruebe diferentes niveles de ser agresivo y grande. ¿Es uno más importante que el otro para el éxito de la colonia?
+
+Intenta recolectar flores pacíficamente.
+
+Intenta iniciar una pelea entre colonias.
+
+##  EXTENDIENDO EL MODELO
+
+En este momento, ambas colonias responden a la misma feromona para recolectar alimentos y pelear. Intente implementar una feromona separada (un químico verde). En el mundo real, las colonias de hormigas combinan 21 aromas para crear acentos para su colonia. Esto les permite pasar mensajes secretos a sus compañeros de colonia. Intente extenderse a múltiples tipos de feromonas y vea cómo esto cambia el resultado.
+
+En este momento, las hormigas pueden luchar contra las hormigas del otro equipo, ¿qué sucede si las hormigas a veces luchan contra las hormigas de su propia colonia?
+
+Cambie el código para que las colonias comiencen en diferentes lugares. ¿Cambiar la proximidad inicial afecta al modelo?
+
+En este momento solo hay un tipo de hormiga: forrajera. Intente agregar castas de hormigas, como soldados.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Este modelo utiliza la primitiva variádica `ifelse` actualizada.
+
+El modelo se construyó originalmente para su uso en un panel táctil de 52 pulgadas en un museo. Si está interesado en usarlo en este contexto, comuníquese con kitmartin@u.northwestern.edu e info@ccl.northwestern.edu.
+
+##  MODELOS RELACIONADOS 
+
+This model extends the NetLogo Ants (Wilensky, 1997) and is based on Hölldobler and Wilson's The Ants (1990).
+
+Hölldobler, B., & Wilson, E. O. (1990). The Ants. Belknap (Harvard University Press), Cambridge, MA.
+
+##  EXPRESIONES DE GRATITUD 
+
+The project gratefully acknowledges the support of the Multidisciplinary Program in Education Sciences for funding the project (Award # R305B090009).
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Martin, K. and Wilensky, U. (2019).  NetLogo Ant Adaptation model.  http://ccl.northwestern.edu/netlogo/models/AntAdaptation.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2019 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2019 Cite: Martin, K. -->

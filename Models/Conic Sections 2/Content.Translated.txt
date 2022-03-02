@@ -1,0 +1,85 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+El modelo muestra dos secciones cónicas básicas: hipérbolas y parábolas. Las figuras se generan conductualmente en lugar de algebraicamente: las tortugas intentan comportarse como puntos en la forma especificada. El compañero de este modelo se llama &quot;Secciones cónicas 1&quot;.
+
+Una parábola es el conjunto de todos los puntos que están a la misma distancia de un punto (foco) y una línea (directriz). Una hipérbola se basa en la misma idea que una parábola excepto que se refleja sobre la directriz.
+
+Los antiguos griegos descubrieron que cada sección cónica se puede encontrar tomando una sección transversal de uno o dos conos con sus puntas apuntando una hacia la otra. Un círculo resulta de tomar una rebanada que es perpendicular al eje, mientras que una elipse resulta de tomar una rebanada de un cono que no es perpendicular al eje. De manera similar, una parábola resulta de una sección transversal que pasa a través de un cono en forma vertical, tal que el plano del corte es paralelo a una cara. Una hipérbola resulta de una sección vertical que pasa por ambos conos.
+
+##  COMO FUNCIONA
+
+Las tortugas usan la retroalimentación para tomar decisiones sobre cómo se comportan. Parten en direcciones aleatorias y luego reciben información sobre si se están acercando o no a donde quieren estar. Si se están acercando, continúan avanzando en la dirección en la que van. Si se alejan más, emprenden una nueva dirección aleatoria. Este proceso es similar al juego infantil de &quot;Caliente y frío&quot;, en el que se les dice a los jugadores si se están volviendo &quot;más calientes&quot; o &quot;más fríos&quot; en relación con un objetivo oculto.
+
+##  COMO USARLO
+
+### Hipérbolas
+
+- Seleccione el número de tortugas con el control deslizante NÚM-TORTUGAS.
+- Pulse CONFIGURACIÓN.
+- ¿Asegúrate de la DIRECTRIX? interruptor está en APAGADO.
+- Presiona IR
+- haga clic en dos puntos de la vista para establecer los focos
+
+### Parábolas
+
+- Seleccione el número de tortugas con el control deslizante NÚM-TORTUGAS.
+- Pulse CONFIGURACIÓN.
+- ¿Asegúrate de la DIRECTRIX? el interruptor está configurado en VERDADERO.
+- Presiona IR
+- haga clic en dos ubicaciones diferentes en la vista para establecer la directriz y el foco.
+
+##  COSAS PARA NOTAR
+
+Al formar una hipérbola, las tortugas ajustan sus posiciones desde dos focos definidos por el usuario para que la diferencia entre sus distancias desde los focos alcance un
+valor de CONSTANTE.
+
+Al formar una parábola, las tortugas se mueven a la misma distancia de la directriz al foco.
+
+##  COSAS PARA INTENTAR
+
+Ajusta la pendiente de la directriz de la parábola o el valor de CONSTANTE para la hipérbola mientras las tortugas todavía se están moviendo. Vea cómo reaccionan a los cambios en su entorno.
+
+Es posible que pueda tener una mejor idea del comportamiento de las tortugas si solo hay unas pocas tortugas en el mundo a la vez. Intente establecer num en un valor pequeño (como 16 o 1) y observe las tortugas.
+
+Ambas secciones cónicas se pueden observar iluminando un cono con una linterna y mirando su sombra. ¿Puedes averiguar en qué ángulos se debe sostener el cono?
+
+##  EXTENDIENDO EL MODELO
+
+Mire el &#39;círculo emergente&#39; del modelo StarLogoT. Mira cómo reaccionan las tortugas entre sí, algo que falta en &#39;Secciones cónicas&#39;. Implemente este comportamiento emergente para una o todas las cónicas de este proyecto.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Al igual que los lenguajes de programación más tradicionales (por ejemplo, Java), NetLogo puede tener procedimientos que informan un valor a la persona que llama. El comando utilizado se llama `informe` --- toma una entrada, el valor que se va a informar. Mira la función `pos`. Toma dos entradas, `x` e `y`, y reporta un valor booleano.
+
+##  MODELOS RELACIONADOS 
+
+Conic Sections 1
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1998).  NetLogo Conic Sections 2 model.  http://ccl.northwestern.edu/netlogo/models/ConicSections2.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1998 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1998 2001 -->

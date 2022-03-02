@@ -1,0 +1,38 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Widgets
+### Source
+draw red cells
+### Spanish ***
+dibujar glóbulos rojos
+
+### Source
+draw white cells
+### Spanish ***
+dibujar celdas blancas
+
+### Source
+go-forever
+### Spanish ***
+ir para siempre
+
+### Source
+go-once
+### Spanish ***
+ir una vez
+
+### Source
+initial-density
+### Spanish ***
+densidad inicial
+
+### Source
+setup-blank
+### Spanish ***
+configuración en blanco
+
+### Source
+setup-random
+### Spanish ***
+configuración aleatoria
+

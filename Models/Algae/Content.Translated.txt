@@ -1,0 +1,80 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+Este es un modelo de un ecosistema acuático simplificado que consiste en una columna de agua que contiene algas, luz y nutrientes. Hay más luz en la parte superior pero más comida en la parte inferior, por lo que las algas se mueven hacia arriba y hacia abajo para equilibrar sus necesidades.
+
+##  COMO FUNCIONA
+
+Las algas necesitan luz y nutrientes (como amoníaco y fosfato) para crecer. Aunque hay mucha luz cerca de la superficie del lago, hay pocos nutrientes. Por otro lado, está oscuro en lo profundo del lago, pero hay mucho amoníaco y fosfato ahí abajo. Algunas algas pueden moverse hacia arriba y hacia abajo en la columna de agua para obtener luz y nutrientes. Estas algas producen sustancias densas usando la energía de la luz para hundirlas y luego queman esas sustancias densas en la oscuridad en las partes más profundas de la columna de agua.
+
+Las algas se mueven hacia arriba y hacia abajo en la columna de agua según su densidad. La densidad de las algas es algo que cambia continuamente según la cantidad de luz que pueden recibir durante el día. La densidad disminuye un poco cada turno porque las algas usan las sustancias densas para producir energía química. Sin embargo, las algas también pueden usar la energía de la luz para producir sustancias densas. Cuanta más luz presente, más densos se vuelven. Cuando se vuelven más densos que el agua, se mueven hacia abajo. El agua más profunda recibe menos luz, por lo que cuanto más profunda es la alga, menos densidad puede agregar. Cuando las algas se vuelven menos densas que el agua, vuelven a subir hacia la superficie. Además, a medida que cambian las estaciones, cambia la duración del día, lo que cambia la cantidad de luz presente durante todo el día.
+
+##  COMO USARLO
+
+El botón SETUP prepara el ecosistema y el botón GO ejecuta la simulación.
+
+El control deslizante LIGHT-SPREADINESS cambia la cantidad de luz que penetra en el agua. Cuanto mayor sea la &quot;dispersión&quot;, más luz puede llegar al agua. Si el DÍA Y LA NOCHE? está encendido, el control deslizante DURACIÓN DEL DÍA cambia la cantidad de luz solar de cada día. Si está apagado, la luz no cambia a lo largo del día. Si el CAMBIO-DÍA-DURACIÓN? interruptor está encendido, DAY-LENGTH cambia a medida que se ejecuta GO, simulando los cambios de las estaciones. Si está desactivado, DAY-LENGTH solo cambiará manualmente.
+
+El gráfico ALTURA MEDIA muestra un historial de la altura media de las algas durante el período de las últimas 24 horas. El gráfico DURACIÓN DEL DÍA muestra el historial del control deslizante DURACIÓN DEL DÍA. El diagrama ALGAE-DISTRIBUTION muestra la posición actual de las algas. Las algas inferiores aparecen más a la derecha en la gráfica.
+
+##  COSAS PARA NOTAR
+
+Observe cómo a medida que los días se hacen más largos, la altura promedio de las algas disminuye. De manera similar, a medida que los días se acortan, la altura promedio de las algas aumenta. Además, cuanto más penetra la luz en el agua, más bajas son las algas en promedio.
+
+El color de los parches indica la intensidad de la luz a esa profundidad en la columna de agua --- cuanto más amarillo, más luz hay.
+
+A veces, las algas se agrupan todas juntas y, a veces, las algas forman múltiples grupos.
+
+##  COSAS PARA INTENTAR
+
+Para que el tiempo pase más rápido, use el control deslizante de velocidad.
+
+¿Desactivar DÍA Y NOCHE? para ver que las algas todavía suben y bajan cuando el sol siempre brilla.
+
+¿Cómo se compara tener mucha ESPARCIDA DE LUZ y una DURACIÓN DEL DÍA pequeña con tener poca ESPARCIMIENTO DE LA LUZ y una DURACIÓN DEL DÍA grande? (¿Ayudará a desactivar CHANGE-DAY-LENGTH?).
+
+##  EXTENDIENDO EL MODELO
+
+Aunque las algas necesitan luz y nutrientes, este modelo simple solo considera el papel de la luz. Agregue un gradiente de nutrientes en la columna de agua. El suelo podría contener nutrientes y las algas podrían contribuir al gradiente cuando mueran.
+
+Cuando las algas reales están sanas, crecen nuevas algas. Además, cuando se les acaba la comida, mueren. Agregue estas reglas al modelo.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+En el procedimiento de `spread-light`, los parches de agua captan la luz del parche directamente encima de ellos. Tenga en cuenta el uso de las primitivas `foreach` y `sort` para garantizar que los parches se soliciten en el orden deseado.
+
+Para mostrar todos los elementos de la tira de control encima, la vista 2D debe tener un ancho mínimo determinado, por lo que el ancho mundial es mayor de lo que debe ser. Los parches necesarios se almacenan como conjuntos de agentes de parches en las variables globales `aire`, `agua` y `tierra` y el procedimiento `setup-environment` &quot;elimina&quot; los parches innecesarios:
+
+pedir parches con [pxcor != 0] [
+conjunto pcolor gris + 1.75
+]
+
+##  CRÉDITOS Y REFERENCIAS 
+
+This model is based on a preliminary model developed by Allan Konopka at the 2004 NetLogo workshop at Northwestern University.
+
+Thanks to Josh Unterman for his work on this model.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (2005).  NetLogo Algae model.  http://ccl.northwestern.edu/netlogo/models/Algae.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2005 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2005 -->

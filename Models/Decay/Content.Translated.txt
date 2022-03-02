@@ -1,0 +1,87 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+Este modelo simula la descomposición espontánea de una colección de núcleos radiactivos. A medida que se descomponen y se estabilizan, la gráfica del número que aún son radiactivos demuestra la noción de &quot;vida media&quot;.
+
+##  COMO FUNCIONA
+
+En cada tic de tiempo, cada núcleo sin desintegrar (azul claro) tiene una cierta probabilidad de desintegrarse. Cuando un núcleo se desintegra, parpadea brevemente en amarillo brillante (como si emitiera radiación) y luego se vuelve azul oscuro. Eventualmente, si espera lo suficiente, todos los núcleos se habrán descompuesto y el modelo se detendrá.
+
+##  COMO USARLO
+
+Establezca el número inicial de núcleos (control deslizante NÚMERO-NUCLEO) y la probabilidad de descomposición durante cada intervalo de tiempo (control deslizante DECAY-CHANCE). Luego presione el botón SETUP. Pulse el botón GO para ejecutar el modelo.
+
+El número de núcleos radiactivos que quedan se muestra en el gráfico &quot;Núcleos radiactivos&quot;. Cada vez que el número de núcleos se reduce a la mitad, aparecen líneas rojas y verdes en la gráfica para marcar el lugar donde se alcanzó cada punto medio. El gráfico &quot;Tasa de decaimiento&quot; muestra el número de decaimientos que ocurren durante cada tic del reloj.
+
+##  COSAS PARA NOTAR
+
+¿Cuál es la forma de la curva de decaimiento (núcleos radiactivos)? ¿Cómo se ve afectado esto por las condiciones iniciales?
+
+¿Por qué la curva de decaimiento tiene esta forma? ¿Es lo mismo que la curva de descomposición que se muestra en los libros?
+
+El tiempo entre las líneas rojas se llama vida media. ¿Cuál es su significado físico? ¿Es constante a medida que disminuye el número de núcleos? ¿Se ve afectado por el número inicial de núcleos o por la probabilidad de descomposición? ¿Crees que es una forma útil de caracterizar un material radiactivo?
+
+¿Cuánto tiempo tardan en desintegrarse todos los núcleos?
+
+Mire un núcleo cuidadosamente. ¿Cuándo decaerá?
+
+La radiactividad depende del número de desintegraciones por unidad de tiempo (tasa de desintegración), porque cada evento de desintegración emite radiación. ¿Qué sucede con la radiactividad de esta muestra con el tiempo? ¿Cuál es la forma de la curva de tasa de decaimiento? ¿Cómo se relaciona con la forma de la curva de decaimiento?
+
+Examine la ecuación estándar para la descomposición nuclear:
+
+&gt; N = No (e exp -(T/tau))
+
+No es el número inicial de núcleos, N es el número en un momento posterior T y tau es el &quot;tiempo de vida medio&quot;. Compare su comportamiento con lo que ve en este modelo. La ecuación correspondiente para la radiación es:
+
+&gt; R = Ro (e exp -(T/tau))
+
+¿Por qué estas dos ecuaciones son tan similares?
+
+##  COSAS PARA INTENTAR
+
+Pruebe los extremos de las condiciones iniciales: muchos o pocos núcleos, alta o baja probabilidad de descomposición. ¿Cómo afecta esto a la &quot;irregularidad&quot; de la gráfica de tasa de decaimiento?
+
+¿Qué hace la gráfica cuando quedan muy pocos núcleos?
+
+¿Qué instrucciones le darías a cada tortuga para que se comporte como un núcleo inestable? Verifique el código en la pestaña Código y vea si es lo que pensó que debería ser.
+
+La datación por carbono-14 implica comparar la proporción de un núcleo estable (C-12) con uno inestable (C-14). Explique ese método en términos de este modelo.
+
+##  EXTENDIENDO EL MODELO
+
+A menudo ocurre en la naturaleza que dos núcleos con diferentes velocidades de desintegración están presentes en la misma muestra. Modifique este modelo para que tenga dos o más tipos de núcleos. ¿Qué sucede con la curva de radiación?
+
+En este modelo, los núcleos no afectan a sus vecinos cuando se descomponen, simplemente desaparecen. Consigue que emitan partículas que a su vez provocan reacciones en otros núcleos. Vea si puede modelar una reacción en cadena. (Consulte los modelos Reactor Top Down y Reactor X-Section).
+
+##  MODELOS RELACIONADOS 
+
+* Reactor Top-Down
+* Reactor X-Section
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1997).  NetLogo Decay model.  http://ccl.northwestern.edu/netlogo/models/Decay.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1997 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1997 2001 -->

@@ -1,0 +1,114 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Plots
+### Source
+Blue
+### Spanish ***
+Azul
+
+### Source
+Population
+### Spanish ***
+Población
+
+### Source
+Populations by Colony Color
+### Spanish ***
+Poblaciones por color de colonia
+
+### Source
+Red
+### Spanish ***
+rojo
+
+### Source
+Time
+### Spanish ***
+Hora
+
+## Widgets
+### Source
+Add
+### Spanish ***
+Agregar
+
+### Source
+Blue Ants
+### Spanish ***
+hormigas azules
+
+### Source
+blue-aggression
+### Spanish ***
+agresión azul
+
+### Source
+blue-size
+### Spanish ***
+tamaño azul
+
+### Source
+blue-start-energy
+### Spanish ***
+blue-start-energia
+
+### Source
+Chemical
+### Spanish ***
+Químico
+
+### Source
+Create Cost
+### Spanish ***
+Crear costo
+
+### Source
+evaporation-rate
+### Spanish ***
+Tasa de evaporación
+
+### Source
+Flower
+### Spanish ***
+Flor
+
+### Source
+Play |>
+### Spanish ***
+Reproducir |&gt;
+
+### Source
+Red Ants
+### Spanish ***
+hormigas rojas
+
+### Source
+red-aggression
+### Spanish ***
+agresión roja
+
+### Source
+red-size
+### Spanish ***
+tamaño rojo
+
+### Source
+red-start-energy
+### Spanish ***
+energía de arranque rojo
+
+### Source
+Restart
+### Spanish ***
+Reiniciar
+
+### Source
+Stop ||
+### Spanish ***
+Detener ||
+
+### Source
+Vinegar
+### Spanish ***
+Vinagre
+

@@ -1,0 +1,78 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+El modelo muestra dos secciones cónicas básicas: círculos y elipses. Las figuras se generan conductualmente en lugar de algebraicamente --- las tortugas intentan comportarse como puntos en la forma especificada.
+
+##  COMO FUNCIONA
+
+Un círculo es el conjunto de todos los puntos a una cierta distancia (radio) de un punto central. Una elipse es el conjunto de puntos tal que la suma de las distancias a dos puntos es constante. Estos dos puntos se llaman focos. El control deslizante CONSTANTE corresponde al radio de los círculos ya la suma de las distancias a los focos de cada tortuga.
+
+Como ilustración de esto, imagina una cuerda enrollada sin apretar alrededor de dos clavos, cada uno de los cuales representa un foco. Si tira de la cuerda con fuerza con la punta de un lápiz y mueve la punta del lápiz alrededor de los focos, dibujará una elipse.
+
+Los antiguos griegos descubrieron que cada sección cónica se puede encontrar tomando una sección transversal de uno o dos conos con sus puntas apuntando una hacia la otra. Un círculo resulta de tomar una rebanada que es perpendicular al eje, mientras que una elipse resulta de tomar una rebanada de un cono que no es perpendicular al eje. De manera similar, una parábola resulta de una sección transversal que pasa a través de un cono en forma vertical, tal que el plano del corte es paralelo a una cara. Una hipérbola resulta de una sección vertical que pasa por ambos conos.
+
+Las tortugas usan la retroalimentación para tomar decisiones sobre cómo se comportan. Parten en direcciones aleatorias y luego reciben información sobre si se están acercando o no a donde quieren estar. Si se están acercando, continúan avanzando en la dirección en la que van. Si se alejan más, emprenden una nueva dirección aleatoria. Este proceso es similar al juego infantil de &quot;Hot &amp; Cold&quot;, en el que se les dice a los jugadores si se están volviendo &quot;más calientes&quot; o &quot;más fríos&quot; en relación con un objetivo oculto.
+
+##  COMO USARLO
+
+### Círculos
+
+- Seleccione el número de tortugas con el control deslizante TORTUGAS.
+- Pulse CONFIGURACIÓN.
+- Asegúrese de que el interruptor SECOND-FOCUS esté en OFF.
+- Presiona el botón MOVER-TORTUGAS. Ajuste el radio del círculo con el control deslizante CONSTANTE. Las tortugas se corregirán automáticamente a medida que cambie CONSTANTE y la ubicación del centro. Puede cambiar el centro del círculo haciendo clic en un nuevo punto.
+
+### Elipses
+
+- Seleccione el número de tortugas con el control deslizante TORTUGAS.
+- Pulse CONFIGURACIÓN.
+- Asegúrese de que el interruptor SECOND-FOCUS esté en ON.
+- Presiona el botón MOVER-TORTUGAS. En cuanto a un círculo, el tamaño de la elipse se puede modificar con CONSTANTE, y se pueden seleccionar nuevos focos haciendo clic con el mouse.
+
+##  COSAS PARA NOTAR
+
+Al formar un círculo, las tortugas intentan alcanzar una distancia CONSTANTE (un valor determinado por el usuario con un control deslizante) desde un centro que el usuario determina señalando y haciendo clic (como se explicó anteriormente).
+
+Al formar una elipse, las tortugas intentan alcanzar una distancia combinada de 2 * CONSTANTE desde los dos focos, nuevamente determinada por los puntos y clics del usuario. Si los focos están demasiado separados, no hay forma de satisfacer esta condición. ¿Qué hacen las tortugas entonces?
+
+##  COSAS PARA INTENTAR
+
+Es posible que pueda tener una mejor idea del comportamiento de las tortugas si solo unas pocas tortugas están vivas una vez. Intente configurar num-turtles en un valor pequeño (como 16 o 1) y observe las tortugas.
+
+Ambas secciones cónicas se pueden observar iluminando un cono con una linterna y mirando su sombra. ¿Puedes averiguar en qué ángulos se debe sostener el cono?
+
+##  EXTENDIENDO EL MODELO
+
+Si tiene acceso a StarLogoT (el antecesor exclusivo para Macintosh de NetLogo), mire el &#39;círculo emergente&#39; del modelo StarLogoT. Mira cómo reaccionan las tortugas entre sí, algo que falta en &#39;Secciones cónicas&#39;. Implemente este comportamiento emergente para una o ambas cónicas en este proyecto.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Las primitivas del mouse se utilizan para manejar la interacción con el usuario.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1998).  NetLogo Conic Sections 1 model.  http://ccl.northwestern.edu/netlogo/models/ConicSections1.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1998 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1998 2001 -->

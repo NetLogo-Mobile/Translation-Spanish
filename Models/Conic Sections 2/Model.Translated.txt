@@ -1,0 +1,28 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Widgets
+### Source
+const
+### Spanish ***
+constante
+
+### Source
+directrix?
+### Spanish ***
+¿directora?
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+num-turtles
+### Spanish ***
+num-tortugas
+
+### Source
+setup
+### Spanish ***
+configuración
+
