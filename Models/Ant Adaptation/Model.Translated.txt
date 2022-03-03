@@ -1,114 +1,113 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Language = Spanish
+﻿## Language = Spanish
 ## Plots
 ### Source
 Blue
-### Spanish ***
+### Spanish
 Azul
 
 ### Source
 Population
-### Spanish ***
+### Spanish
 Población
 
 ### Source
 Populations by Colony Color
-### Spanish ***
-Poblaciones por color de colonia
+### Spanish
+Poblaciones por Color de Colonia
 
 ### Source
 Red
-### Spanish ***
-rojo
+### Spanish
+Rojo
 
 ### Source
 Time
-### Spanish ***
-Hora
+### Spanish
+Tiempo
 
 ## Widgets
 ### Source
 Add
-### Spanish ***
+### Spanish
 Agregar
 
 ### Source
 Blue Ants
-### Spanish ***
-hormigas azules
+### Spanish
+Hormigas Azules
 
 ### Source
 blue-aggression
-### Spanish ***
-agresión azul
+### Spanish
+agresión–azul
 
 ### Source
 blue-size
-### Spanish ***
-tamaño azul
+### Spanish
+tamaño–azul
 
 ### Source
 blue-start-energy
-### Spanish ***
-blue-start-energia
+### Spanish
+energía-inicio-azul
 
 ### Source
 Chemical
-### Spanish ***
+### Spanish
 Químico
 
 ### Source
 Create Cost
-### Spanish ***
-Crear costo
+### Spanish
+Crear Costo
 
 ### Source
 evaporation-rate
-### Spanish ***
-Tasa de evaporación
+### Spanish
+tasa-de-evaporación
 
 ### Source
 Flower
-### Spanish ***
+### Spanish
 Flor
 
 ### Source
 Play |>
-### Spanish ***
-Reproducir |&gt;
+### Spanish
+Tocar |>
 
 ### Source
 Red Ants
-### Spanish ***
-hormigas rojas
+### Spanish
+Hormigas Rojas
 
 ### Source
 red-aggression
-### Spanish ***
-agresión roja
+### Spanish
+agresión-roja
 
 ### Source
 red-size
-### Spanish ***
-tamaño rojo
+### Spanish
+tamaño-rojo
 
 ### Source
 red-start-energy
-### Spanish ***
-energía de arranque rojo
+### Spanish
+energía-inicio-azul
 
 ### Source
 Restart
-### Spanish ***
-Reiniciar
+### Spanish
+Reestablecer
 
 ### Source
 Stop ||
-### Spanish ***
+### Spanish
 Detener ||
 
 ### Source
 Vinegar
-### Spanish ***
+### Spanish
 Vinagre
 
