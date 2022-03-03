@@ -1,54 +1,52 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Language = Spanish
+﻿## Language = Spanish
 ## Plots
 ### Source
 algae distribution
-### Spanish ***
+### Spanish
 distribución de algas
 
 ### Source
 average height
-### Spanish ***
-altura media
+### Spanish
+altura promedio
 
 ### Source
 day length
-### Spanish ***
-Dia largo
+### Spanish
+duración del día
 
 ### Source
 default
-### Spanish ***
+### Spanish
 por defecto
 
 ## Widgets
 ### Source
 change-day-length?
-### Spanish ***
-cambiar-día-duración?
+### Spanish
+¿cambiar-duración-día?
 
 ### Source
 day-and-night?
-### Spanish ***
-¿día y noche?
+### Spanish
+¿día-y-noche?
 
 ### Source
 day-length
-### Spanish ***
-Dia largo
+### Spanish
+duración-del-día
 
 ### Source
 go
-### Spanish ***
+### Spanish
 ir
 
 ### Source
 light-spreadiness
-### Spanish ***
-dispersión de la luz
+### Spanish
+luz-esparcimiento
 
 ### Source
 setup
-### Spanish ***
-configuración
-
+### Spanish
+preparar

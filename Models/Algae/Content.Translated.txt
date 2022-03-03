@@ -1,37 +1,36 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## ¿QUÉ ES??
+﻿## ¿QUÉ ES??
 
-Este es un modelo de un ecosistema acuático simplificado que consiste en una columna de agua que contiene algas, luz y nutrientes. Hay más luz en la parte superior pero más comida en la parte inferior, por lo que las algas se mueven hacia arriba y hacia abajo para equilibrar sus necesidades.
+Esto es un modelo de una ecosistema acuático simplificado que consiste de una columna de agua que contiene algas, luz, y nutrientes. Hay un poco más luz en cima pero más comida al fondo, entonces las algas se mueven hacia arriba y abajo para balancear sus necesidades.
 
 ##  COMO FUNCIONA
 
-Las algas necesitan luz y nutrientes (como amoníaco y fosfato) para crecer. Aunque hay mucha luz cerca de la superficie del lago, hay pocos nutrientes. Por otro lado, está oscuro en lo profundo del lago, pero hay mucho amoníaco y fosfato ahí abajo. Algunas algas pueden moverse hacia arriba y hacia abajo en la columna de agua para obtener luz y nutrientes. Estas algas producen sustancias densas usando la energía de la luz para hundirlas y luego queman esas sustancias densas en la oscuridad en las partes más profundas de la columna de agua.
+Algas necesitan ambas luz y nutrientes (como amonia y fosfato) para que crezcan. Aunque hay mucha luz cerca de la superficie del lago, hay pocos nutrientes. Por otro lado, está oscuro en las profundidades del lago, pero hay mucho amoníaco y fosfato allí abajo. Algunas algas pueden moverse hacia arriba y hacia abajo en la columna de agua para obtener luz y nutrientes. Estas algas producen sustancias densas usando la energía de la luz para hacerlas hundirse y luego quemar esas sustancias densas en la oscuridad en las partes más profundas de la columna de agua.
 
-Las algas se mueven hacia arriba y hacia abajo en la columna de agua según su densidad. La densidad de las algas es algo que cambia continuamente según la cantidad de luz que pueden recibir durante el día. La densidad disminuye un poco cada turno porque las algas usan las sustancias densas para producir energía química. Sin embargo, las algas también pueden usar la energía de la luz para producir sustancias densas. Cuanta más luz presente, más densos se vuelven. Cuando se vuelven más densos que el agua, se mueven hacia abajo. El agua más profunda recibe menos luz, por lo que cuanto más profunda es la alga, menos densidad puede agregar. Cuando las algas se vuelven menos densas que el agua, vuelven a subir hacia la superficie. Además, a medida que cambian las estaciones, cambia la duración del día, lo que cambia la cantidad de luz presente durante todo el día.
+Las algas se mueven hacia abajo y hacia abajo en la columna de agua basada en su densidad. La densidad de las algas es algo que cambia continuamente en función de la cantidad de luz que pueden recibir durante el día. La densidad disminuye un poco cada turno porque las algas usan sustancias densas para producir energía química. Sin embargo, las algas también pueden usar energía luminosa para producir sustancias densas. Cuanto más luz presente, más densos se vuelven. Cuando se vuelven más densos que el agua, se mueven hacia abajo. El agua más profunda recibe menos luz, por lo que cuanto más profundas van las algas, menos densidad puede agregar. Cuando las algas se vuelven menos densas que el agua, vuelven a subir hacia la superficie. Además, a medida que cambian las estaciones, cambia la duración del día, lo que cambia la cantidad de luz presente a lo largo del día.
 
 ##  COMO USARLO
 
-El botón SETUP prepara el ecosistema y el botón GO ejecuta la simulación.
+El botón PREPARAR prepara el ecosistema y el botón IR ejecuta la simulación.
 
-El control deslizante LIGHT-SPREADINESS cambia la cantidad de luz que penetra en el agua. Cuanto mayor sea la &quot;dispersión&quot;, más luz puede llegar al agua. Si el DÍA Y LA NOCHE? está encendido, el control deslizante DURACIÓN DEL DÍA cambia la cantidad de luz solar de cada día. Si está apagado, la luz no cambia a lo largo del día. Si el CAMBIO-DÍA-DURACIÓN? interruptor está encendido, DAY-LENGTH cambia a medida que se ejecuta GO, simulando los cambios de las estaciones. Si está desactivado, DAY-LENGTH solo cambiará manualmente.
+El control deslizante LUZ-ESPARCIMIENTO cambia cuánto penetra la luz en el agua. Cuanto mayor sea la “dispersión”, más luz puede penetrar en el agua. Si el interruptor ¿DIA-Y-NOCHE? Está activado, el control deslizante DURACIÓN-DEL-DÍA cambia la cantidad de luz solar de cada día. Si está apagado, la luz no cambia a lo largo del día. Si el interruptor ¿CAMBIO-DURACIÓN-DÍA? está activado, DURACIÓN-DEL-DÍA cambia a medida que se ejecuta GO, simulando los cambios de estación. Si está apagado, DURACIÓN-DEL-DÍA solo cambiará manualmente. 
 
-El gráfico ALTURA MEDIA muestra un historial de la altura media de las algas durante el período de las últimas 24 horas. El gráfico DURACIÓN DEL DÍA muestra el historial del control deslizante DURACIÓN DEL DÍA. El diagrama ALGAE-DISTRIBUTION muestra la posición actual de las algas. Las algas inferiores aparecen más a la derecha en la gráfica.
+El gráfico de ALTURA-PROMEDIO muestra un historial de la altura promedio de las algas durante el período de las últimas 24 horas. El gráfico DURACIÓN-DEL-DÍA muestra el historial de control deslizante DURACIÓN-DEL-DÍA. El gráfico DISTRIBUCIÓN-DE-ALGAS muestra la posición actual de las algas. Las algas inferiores aparecen más a la derecha en el gráfico.
 
 ##  COSAS PARA NOTAR
 
-Observe cómo a medida que los días se hacen más largos, la altura promedio de las algas disminuye. De manera similar, a medida que los días se acortan, la altura promedio de las algas aumenta. Además, cuanto más penetra la luz en el agua, más bajas son las algas en promedio.
+Observa cómo a medida que los días se alargan, la altura media de las algas disminuye.Del mismo modo, a medida que los días se acortan, la altura promedio de las algas aumenta. Además, cuanto más penetra la luz en el agua, más bajas son las algas en promedio.
 
-El color de los parches indica la intensidad de la luz a esa profundidad en la columna de agua --- cuanto más amarillo, más luz hay.
+El color de las parcelas indica la intensidad de la luz a esa profundidad en la columna de agua: cuanto más amarillo, más luz hay.
 
-A veces, las algas se agrupan todas juntas y, a veces, las algas forman múltiples grupos.
+A veces, las algas se agrupan todas juntas y también a veces las algas forman múltiples grupos. 
 
 ##  COSAS PARA INTENTAR
 
-Para que el tiempo pase más rápido, use el control deslizante de velocidad.
+Para que el tiempo pase más rápido, usa el control deslizante de velocidad.
 
-¿Desactivar DÍA Y NOCHE? para ver que las algas todavía suben y bajan cuando el sol siempre brilla.
+Apaga ¿DIA-Y-NOCHE? para ver las algas todavía suben y bajan cuando el sol siempre brilla.
 
-¿Cómo se compara tener mucha ESPARCIDA DE LUZ y una DURACIÓN DEL DÍA pequeña con tener poca ESPARCIMIENTO DE LA LUZ y una DURACIÓN DEL DÍA grande? (¿Ayudará a desactivar CHANGE-DAY-LENGTH?).
+¿Cómo se compara tener mucha ESPARCIDA-DE-LUZ y una DURACIÓN-DEL-DÍA pequeña con tener poca ESPARCIMIENTO-DE-LA-LUZ y una DURACIÓN-DEL-DÍA grande? (Ayudará a desactivar ¿CAMBIAR-DURACIÓN-DEL-DÍA?).
 
 ##  EXTENDIENDO EL MODELO
 
@@ -41,29 +40,29 @@ Cuando las algas reales están sanas, crecen nuevas algas. Además, cuando se le
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-En el procedimiento de `spread-light`, los parches de agua captan la luz del parche directamente encima de ellos. Tenga en cuenta el uso de las primitivas `foreach` y `sort` para garantizar que los parches se soliciten en el orden deseado.
+En el procedimiento de esparcida de la luz, las parcelas de agua toman la luz de la parcela directamente encima de ellos. Tenga en cuenta el uso de las primitivas foreach y sort para garantizar que las parcelas se soliciten en el orden deseado.
 
-Para mostrar todos los elementos de la tira de control encima, la vista 2D debe tener un ancho mínimo determinado, por lo que el ancho mundial es mayor de lo que debe ser. Los parches necesarios se almacenan como conjuntos de agentes de parches en las variables globales `aire`, `agua` y `tierra` y el procedimiento `setup-environment` &quot;elimina&quot; los parches innecesarios:
+Para mostrar todos los elementos de la tira de control encima, la vista 2D debe tener un ancho mínimo determinado, por lo que el ancho mundial es mayor de lo que debe ser. Las parcelas necesarias se almacenan como conjuntos de agentes de parcelas en las variables globales de aire, agua y tierra y el procedimiento de configuración del entorno "elimina" los parcelas innecesarios:
 
-pedir parches con [pxcor != 0] [
-conjunto pcolor gris + 1.75
+ask patches with [pxcor != 0] [
+  set pcolor gray + 1.75
 ]
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-This model is based on a preliminary model developed by Allan Konopka at the 2004 NetLogo workshop at Northwestern University.
+Este modelo se basa en un modelo preliminar desarrollado por Allan Konopka en el taller NetLogo de 2004 en Northwestern University.
 
 Thanks to Josh Unterman for his work on this model.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (2005).  NetLogo Algae model.  http://ccl.northwestern.edu/netlogo/models/Algae.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -78,3 +77,5 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
 
 <!-- 2005 -->
+
+Translated by: Chelsea Guzman
