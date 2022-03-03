@@ -1,59 +1,58 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## ¿QUÉ ES??
+﻿## ¿QUÉ ES??
 
-Este programa es un ejemplo de autómata celular bidimensional. Si aún no está familiarizado con 2D CA, consulte el modelo &quot;Vida&quot; para obtener una discusión básica.
+Este modelo es un ejemplo de autómata celular bidimensional. Si aún no está familiarizado con 2D AC, consulte el modelo “Vida” para obtener una discusión básica.
 
-Los CA típicos usan dos estados de celda (vivo y muerto), pero el Brian de Brian usa tres: encendido (blanco), refractario (rojo) y muerto (negro).
+Los AC típicos usan dos estados de células (vivo y muerto), pero el Cerebro de Brian usa tres: encendido (blanco), refractario (rojo) y muerto (negro).
 
-Esta CA es especialmente interesante de observar porque tiene muchas configuraciones que se mueven constantemente a través de la red (a diferencia de Life, que tiene relativamente pocas configuraciones de este tipo).
+Esta AC es especialmente interesante de observar porque tiene muchas configuraciones que se mueven constantemente a través de la red (a diferencia de Life, que tiene relativamente pocas configuraciones de este tipo).
 
 ##  COMO FUNCIONA
 
-Las células de disparo (blancas) siempre se vuelven refractarias (rojas) en el siguiente paso de tiempo.
+Las células que están disparando (blancas) siempre se vuelven refractarias (rojas) en el siguiente paso de tiempo.
 
-Las células refractarias (rojas) siempre mueren (se vuelven negras) en el siguiente paso de tiempo.
+Las células refractarias (rojas) siempre mueren (se vuelven negras) en el siguiente paso de tiempo. 
 
-Una nueva celda de disparo (blanca) nace en cualquier celda negra que tenga exactamente dos vecinas de disparo (blancas) (de sus ocho celdas circundantes).
+Una nueva célula de dispara (blanca) nace en cualquier célula negra que tenga exactamente dos vecinas de disparo (blancas) (de sus ocho células circundantes).
 
 ##  COMO USARLO
 
-El control deslizante DENSIDAD INICIAL determina la densidad inicial de las células que se están disparando. SETUP-RANDOM coloca estas celdas. GO-FOREVER ejecuta la regla para siempre. GO-ONCE ejecuta la regla una vez.
+El control deslizante DENSIDAD-INICIAL determina la densidad inicial de las células que están disparando. PREPARAR-AL-AZAR coloca estas células. IR-PARA-SIEMPRE ejecuta la regla para siempre. IR-UNA-VEZ ejecuta la regla una vez.
 
-Si desea dibujar un patrón inicial usted mismo, o modificar el patrón en medio de una ejecución, active el botón DIBUJAR CÉLULAS BLANCAS o DIBUJAR CÉLULAS ROJAS, luego &quot;dibuje&quot; y &quot;borre&quot; con el mouse en la vista.
+Si deseas dibujar un patrón inicial usted mismo, o modificar el patrón en medio de una ejecución, active el botón DIBUJAR-CÉLULAS-BLANCAS o DIBUJAR-CÉLULAS-ROJAS, y luego ”dibuja” y ”borre” con el mouse en la vista.
 
 ##  COSAS PARA NOTAR
 
-Muchos patrones se mantienen estables y se mueven constantemente a través de la cuadrícula. Dichos patrones a menudo se denominan &quot;planeadores&quot;. ¿Cuántos tipos diferentes de planeadores ves? ¿Por qué pasó esto? ¿Cómo las reglas de la CA dan como resultado este comportamiento?
+Muchos patrones se mantienen estables y se mueven constantemente a través de la cuadrícula. Dichos patrones a menudo se denominan ”planeadores”. Cuántos tipos diferentes de planeadores ves? ¿Por qué pasó esto? ¿Cómo las reglas de la AC dan como resultado este comportamiento?
 
 ##  COSAS PARA INTENTAR
 
 ¿Hay formas estables que no se mueven?
 
-¿Hay &quot;pistolas planeadoras&quot; (objetos que emiten un flujo constante de planeadores)?
+¿Hay ”pistolas planeadoras” (objetos que emiten un flujo constante de planeadores)?
 
-En una cuadrícula lo suficientemente pequeña, por lo general, la CA alcanza un estado estable en el que puede haber movimiento, pero no sucede nada nuevo. En Brian&#39;s Brain, una cuadrícula cuadrada generalmente alcanza un estado estable más rápido que una cuadrícula rectangular (¡pruébalo!). ¿Por qué?
+En una cuadrícula lo suficientemente pequeña, por lo general, la AC alcanza un estado estable en el que puede haber movimiento, pero no sucede nada nuevo. En El Cerebro de Brian, una cuadrícula generalmente alcanza un estado estable más rápido que una cuadrícula rectangular (pruébalo!). Por qué?
 
 ##  EXTENDIENDO EL MODELO
 
-Existen muchos otros autómatas 2D de 3 estados interesantes. Experimente con variaciones de las reglas de este modelo.
+Existen muchos otros autómatas 2D de 3 estados interesantes. Experimenta con variaciones de las reglas de este modelo.
 
 ##  MODELOS RELACIONADOS 
 
-See all of the other models in the Cellular Automata subsection of the Computer Science section of the NetLogo Models Library.
+Vea todos los demás modelos en la subsección Autómata Celular de la sección Computación de la biblioteca de modelos de NetLogo.
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-Brian's Brain was invented by Brian Silverman.
+El cerebro de Brian fue inventado por Brian Silverman.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (2002).  NetLogo Brian's Brain model.  http://ccl.northwestern.edu/netlogo/models/Brian'sBrain.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -70,3 +69,5 @@ Commercial licenses are also available. To inquire about commercial licenses, pl
 This model was created as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227.
 
 <!-- 2002 -->
+
+Translated by: Chelsea Guzman

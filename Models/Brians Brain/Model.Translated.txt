@@ -1,38 +1,36 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 draw red cells
-### Spanish ***
-dibujar glóbulos rojos
+### Spanish
+dibujar células rojos
 
 ### Source
 draw white cells
-### Spanish ***
-dibujar celdas blancas
+### Spanish
+dibujar células blancas
 
 ### Source
 go-forever
-### Spanish ***
-ir para siempre
+### Spanish
+ir-para-siempre
 
 ### Source
 go-once
-### Spanish ***
-ir una vez
+### Spanish
+ir-una-vez
 
 ### Source
 initial-density
-### Spanish ***
-densidad inicial
+### Spanish
+densidad-inicial
 
 ### Source
 setup-blank
-### Spanish ***
-configuración en blanco
+### Spanish
+preparar-limpio
 
 ### Source
 setup-random
-### Spanish ***
-configuración aleatoria
-
+### Spanish
+preparar-al-azar
