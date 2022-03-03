@@ -1,93 +1,92 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## ¿QUÉ ES??
+﻿## ¿QUÉ ES??
 
-La reacción de Belousov-Zhabotinsky (o reacción BZ para abreviar) es una reacción química inusual. En lugar de moverse constantemente hacia un solo estado de equilibrio, oscila de un lado a otro entre dos de esos estados. Antes de que se descubriera este &quot;oscilador químico&quot;, se pensaba que tal reacción no podía existir.
+La reacción de Belousov-Zhabotinsky (o reacción B-Z para abreviar) es una reacción química rara. En lugar de moverse constantemente hacia un solo estado de equilibrio, oscila entre dos de esos estados. Antes de que se descubrió este “oscilador químico”, se pensaba que tal reacción no podría existir.
 
-Si haces la reacción en un vaso de precipitados, todo el vaso de precipitados cambia regularmente de color de amarillo a transparente y viceversa, una y otra vez. En este caso, decimos que la reacción es oscilante en el tiempo. Sin embargo, si realiza la reacción en una capa delgada de fluido atrapado entre dos placas de vidrio, emerge un hermoso patrón de ondas concéntricas o espirales de cambio de color que pasan a través del fluido. Aquí, la reacción oscila tanto en el tiempo como en el espacio.
+Si haces la reacción en un vaso de precipitados, todo el vaso cambia regularmente de color amariillo a transparente, una y otra vez. En este caso, decimos que la reacción oscila en el tiempo. Sin embargo, si haces la reacción en una capa delgada de líquido atrapado entre dos placas de vidrio, entonces surge un hermoso patrón de ondas concéntricas o espirales de cambio de color que pasan a través por el liquido. Aquí, la reacción oscila tanto en el tiempo como en el espacio.
 
-Este modelo es un autómata celular (o CA) que produce ondas espirales que se asemejan a las producidas por la reacción BZ. También se han observado ondas espirales similares en sistemas biológicos, como los mohos mucilaginosos.
+Este modelo es un autómata celular (o AC) que produce ondas espirales que se parecen a las producidas por la reacción B-Z. Se han observado ondas espirales similares en sistemas biológicos, como los moldes de slime.
 
-La reacción BZ es una reacción redox que se mueve periódicamente entre un estado oxidado y reducido, y se ha demostrado para varios productos químicos. Este modelo no intenta replicar el mecanismo real de la reacción química, que es bastante complejo (incluyendo 18 reacciones y 21 especies, según el modelo de Fields-Koros-Noyes). Las características abstractas compartidas por la reacción real y este modelo incluyen:
+La reacción B-Z es una reacción rédox que se mueve periódicamente entre un estado oxidado y uno reducido, y se ha demostrado para varias químicas. Este modelo no intenta replicar el mecanismo real de la reacción química, la que es bastante complejo (incluyendo 18 reacciones y 21 especies, según el modelo de Fields-Koros-Noyes). Las características abstractas compartidas por la reacción real y este modelo incluyen:
 
 1. Dos estados finales.
 2. Un mecanismo de retroalimentación positiva.
 3. Un mecanismo de retroalimentación negativa.
 
-El mecanismo de retroalimentación positiva actúa para empujar al sistema más allá en la dirección en la que ya se está moviendo, reforzando y amplificando el cambio inicial. (En la reacción química, la retroalimentación positiva proviene de la autocatálisis). El mecanismo de retroalimentación negativa hace retroceder el sistema en la dirección opuesta una vez que se alcanza un umbral, suprimiendo o contrarrestando el cambio efectuado.
+El mecanismo de retroalimentación positiva actúa para empujar el sistema más en la dirección en la que ya está yendo, reforzando y amplificando el cambio inicial. (En la reacción química, retroalimentación positiva viene de autocatálisis). El mecanismo de retroalimentación negativa empuja el sistema hacia atrás en la dirección opuesta una vez que llegue un umbral, suprimiendo o contrarrestando el cambio efectuado. 
 
 ##  COMO FUNCIONA
 
-Cada celda tiene un estado que es un número entero de 0 a max-state. Elegimos mostrar el estado 0 como negro, el estado máximo como blanco y los estados intermedios como tonos de rojo.
+Cada célula tiene un estado en el que es un entero de 0 a estado-máx. Elegimos mostrar el estado 0 como negro, el estado-máx como blanco y los estados intermedios como tonos de rojo.
 
-Supongamos que llamamos al estado 0 &quot;sano&quot;, al estado máximo &quot;enfermo&quot; y a cualquier punto intermedio &quot;infectado&quot;. Luego, las reglas sobre cómo cambia cada celda en cada paso se pueden describir de la siguiente manera:
+Suponga que llamamos estado 0 “sana”, estado-máx “enfermo” y cualquier cosa entre los dos “infectado”. Entonces las reglas sobre cómo cambia cada célula en cada paso se pueden describir de la siguiente manera:
 
-1. Una célula que está enferma se vuelve saludable.
-2. Una célula sana puede infectarse si una cantidad suficiente de sus ocho vecinas están infectadas o enfermas. Si esto sucede se ve afectado por los controles deslizantes k1 y k2. (Un k1 más bajo significa una mayor tendencia a ser infectado por vecinos infectados; un k2 más bajo significa una mayor tendencia a ser infectado por vecinos enfermos).
-3. Una celda que está infectada calcula su nuevo estado promediando los estados de sí misma y sus ocho vecinos, y luego agrega el valor del control deslizante g. (G más alto significa que las células infectadas se enferman más rápidamente).
+1. Una célula enferma se pone sana.
+2. Una célula sana puede infectarse si suficiente de sus ocho vecinos están infectados o enfermos. Si esto sucede, se ve afectado por los controles deslizantes k1 y k2. (Un k1 más bajo significa una mayor tendencia de ser infectado por vecinos infectados; un k2 más bajo significa una mayor tendencia de ser infectado por vecinos enfermos.)
+3. Una célula infectada calcula su nuevo estado promediando los estados de sí misma y sus ocho vecinos, luego sumando el valor del control deslizante g. (Una g más alta significa que las células infectadas se enferman más rápidamente).
 
-1 es la retroalimentación negativa; 2 y 3 son los comentarios positivos.
+1 es la retroalimentación negativa; 2 y 3 son la retroalimentación positiva.
 
-Estas son sólo descripciones cualitativas. Para ver las matemáticas reales utilizadas, consulte el procedimiento ENCONTRAR-NUEVO-ESTADO en la pestaña Código.
+Estas solo son descripciones cualitativas. Para ver la matemática real que se usó, consulta el procedimiento BUSCAR-NUEVO-ESTADO en la pestaña Código.
 
 ##  COMO USARLO
 
-Pulse SETUP para inicializar cada celda de la cuadrícula en un estado aleatorio.
+Presiona PREPARAR para inicializar cada célula en la cuadrícula a un estado aleatorio
 
-Pulse GO para ejecutar el modelo.
+Presiona IR para ejecutar el modelo. 
 
 ##  COSAS PARA NOTAR
 
-Ejecute el modelo con la configuración del control deslizante predeterminada.
+Ejecuta el modelo con las configuraciones defectas del control deslizante.
 
-¿Qué sucede cerca del comienzo de la carrera?
+¿Qué ocurre cerca del comienzo de la carrera?
 
-Después de aproximadamente 100 tics, debería comenzar a ver emerger espirales.
+Después de 100 tics, debes ver los espirales emergiendo. 
 
-Después de unos 200 tics, las espirales deberían llenar el mundo.
+Después de 200 tics, los espirales deben llenar el mundo.
 
-¿Puedes averiguar por qué las reglas específicas utilizadas producen patrones como los que ves?
+¿Puedes averiguar por qué las reglas específicas usadas producen patrones como los que ves?
 
 ##  COSAS PARA INTENTAR
 
-¿Qué pasa si haces una carrera muy larga? ¿Qué sucede?
+¿Qué pasa si haces una ejecución muy larga?
 
-¿Cuál es el efecto de variar los diferentes controles deslizantes? Puede pensar que k1 y k2 afectan la tendencia de las células sanas a infectarse, y que g afecta la velocidad con la que empeora la infección.
+¿Cuál es el efecto de variar los diferentes controles deslizantes? Puedes pensar que k1 y k2 afectan la tendencia de las células sanas a infectarse y que g afecta la velocidad con la que la infección empeora. 
 
 ##  EXTENDIENDO EL MODELO
 
-Este autómata es un ejemplo de un sistema de &quot;reacción-difusión&quot;. Al modificar las reglas de CA, es posible que pueda simular otros sistemas de reacción-difusión.
+Este autómata es un ejemplo de un sistema “reacción-difusión”. Al modificar las reglas de CA, es posible que puedas simular otros sistemas de reacción-difusión.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-`find-new-state` es un procedimiento largo y bastante complicado. Podría ser más claro si se dividiera en subprocedimientos, pero entonces el modelo no se ejecutaría tan rápido. Dado que esta CA en particular requiere tantas iteraciones para establecerse en su patrón característico, decidimos que la velocidad era importante.
+`find-new-state` (encontrar-nuevo-estado) es un procedimiento largo y bastante complicado. Podría ser más claro si se dividiera en subprocedimientos, pero entonces el modelo no funcionaría tan rápido. Dado que este CA en particular requiere tantas iteraciones para llegar en su patrón característico, decidimos que la velocidad era importante.
 
 ##  MODELOS RELACIONADOS 
 
-Boiling, in the Physics/Heat section, is another cellular automaton that uses similar, though simpler, rules.  The early stages of the Boiling model resemble the early stages of this model.
+Ebullición, en la sección de Física/Calor, es otro autómata celular que usa similar, pero más simple, reglas. Las primeras etapas del modelo de Ebullición se parecen a las primeras etapas de este modelo.
 
-Fireflies, in the Biology section, is analogous to the B-Z reaction in a stirred beaker (the whole beaker "synchronizes" so it's switching back and forth all at once, like the fireflies).
+Luciérnagas, en la sección de Biología, es análoga a la reacción B-Z en un vaso de precipitados agitado (todo del vaso de precipitados se “sincroniza”, entonces cambia de un lado a otro al mismo tiempo, como las luciérnagas).
 
-Many models in the NetLogo models library can be thought as systems composed of positive and/or negative feedback mechanisms.
+Muchos modelos de la biblioteca de modelos de NetLogo se pueden pensar como sistemas compuestos por mecanismos de retroalimentación positiva y/o negativa.
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-The B-Z reaction is named after Boris Belousov and Anatol Zhabotinsky, the Russian scientists who discovered it in the 1950's.
+La reacción B-Z lleva el nombre de Boris Belousov y Anatol Zhabotinsky, los científicos rusos que lo descubrieron en los 1950’s.
 
-A discussion of the chemistry behind the reaction, plus a movie and some pictures, are available at https://www.faidherbe.org/site/cours/dupuis/oscil.htm.
+Una discusión de la química detrás de la reacción, y también una película y algunas imágenes, están disponibles en https://www.faidherbe.org/site/cours/dupuis/oscil.htm.
 
-The cellular automaton was presented by A.K. Dewdney in his "Computer Recreations" column in the August 1988 of Scientific American.
+El autómata celular fue presentado por A.K. Dewdney en su columna de “Computer Recreations” en agosto de 1988 de Scientific American.
 
-See https://web.archive.org/web/20141227154826/http://www.hermetic.ch/pca/bz.htm for a pretty screen shot of the cellular automaton running on a very large grid (using custom software for Windows, not NetLogo).
+Consulta https://web.archive.org/web/20141227154826/http://www.hermetic.ch/pca/bz.htm para una bonita captura de pantalla del autómata celular que se ejecuta en una cuadricula muy grande (usando software personalizado para Windows, no NetLogo).
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (2003).  NetLogo B-Z Reaction model.  http://ccl.northwestern.edu/netlogo/models/B-ZReaction.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -104,3 +103,5 @@ Commercial licenses are also available. To inquire about commercial licenses, pl
 This model was created as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227.
 
 <!-- 2003 -->
+
+Translated by: Chelsea Guzman

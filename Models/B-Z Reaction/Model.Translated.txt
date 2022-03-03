@@ -1,33 +1,31 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 g
-### Spanish ***
-gramo
+### Spanish
+g
 
 ### Source
 go
-### Spanish ***
+### Spanish
 ir
 
 ### Source
 k1
-### Spanish ***
+### Spanish
 k1
 
 ### Source
 k2
-### Spanish ***
+### Spanish
 k2
 
 ### Source
 max-state
-### Spanish ***
-estado máximo
+### Spanish
+estado-máx
 
 ### Source
 setup
-### Spanish ***
-configuración
-
+### Spanish
+preparar
