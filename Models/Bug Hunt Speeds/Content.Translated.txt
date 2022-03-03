@@ -1,73 +1,73 @@
 ﻿*** fe3a06781c30ac8095aa52716cccdc0b
 ## ¿QUÉ ES??
 
-Este es un modelo de selección natural/artificial que muestra el resultado de dos fuerzas que compiten en la selección natural de la velocidad de la presa. Qué fuerza domina depende del comportamiento de los depredadores.
+Este es un modelo de selección natural/artificial que muestra el resultado de dos fuerzas en competencia sobre la selección natural de la velocidad de la presa. La fuerza domina depende del comportamiento de los depredadores.
 
-Una fuerza es que los depredadores que persiguen presas tienden a atrapar presas que se mueven más lentamente con más frecuencia, seleccionando así presas que son más rápidas durante muchas generaciones de descendencia.
+Una fuerza es que los depredadores que persiguen a sus presas tienden a atrapar presas que se mueven más lentamente con más frecuencia, por lo que seleccionan presas que son más rápidas durante muchas generaciones de descendencia.
 
-Otra fuerza es que los depredadores que esperan a su presa sin moverse, tienden a atrapar presas que se mueven más rápido con mayor frecuencia, seleccionando así presas que son más lentas durante muchas generaciones de descendencia.
+Otra fuerza es que los depredadores que esperan a su presa sin moverse, tienden a atrapar presas que se mueven más rápido con más frecuencia, seleccionando así presas que son más lentas durante muchas generaciones de descendencia.
 
-Al ajustar también si los insectos intentan evitar al depredador y la previsibilidad de su movimiento, una diferente de estas fuerzas competidoras tenderá a dominar la presión selectiva sobre la población.
+Al ajustar también si los insectos intentan evitar al depredador y la previsibilidad de su movimiento, una diferente de estas fuerzas en competencia tenderá a dominar la presión selectiva sobre la población.
 
 ##  COMO FUNCIONA
 
-Asumes el papel de un depredador entre una población de insectos. Para comenzar su búsqueda de insectos como depredador, presione SETUP para crear una población de insectos, determinada por seis veces el control deslizante INITIAL-BUGS-EACH-SPEED. Estos errores que se crean se distribuyen aleatoriamente por todo el mundo y se les asigna una velocidad.
+Asumas el papel de un depredador entre una población de insectos. Para comenzar tu búsqueda de insectos como depredador, presiona PREPARAR para crear una población de insectos, determinada por seis veces el control deslizante INSECTOS-INICIAL-CADA-VELOCIDAD. Estos insectos que se crean se distribuyen aleatoriamente por todo el mundo y se les asigna una velocidad.
 
-Cuando presiona GO, los insectos comienzan a moverse a la velocidad designada. A medida que se mueven, trata de comer tantos insectos lo más rápido que puedas haciendo clic en ellos. Alternativamente, puede mantener presionado el botón del mouse y mover al depredador sobre los insectos.
+Cuando presionas IR, los insectos comienzan a moverse a sus velocidades designadas. Mientras se mueven, intenta comer tantos insectos tan rápido como puedas haciendo clic en ellos. Alternativamente, puedes mantener presionado el botón del ratón y mover el depredador sobre los insectos.
 
-Las seis velocidades diferentes a las que se puede mover un insecto se distribuyen entre seis subpoblaciones diferentes de insectos. Estas velocidades se heredan. Con cada insecto que comes, se elige aleatoriamente un nuevo insecto de la población para producir una descendencia. La descendencia es un duplicado exacto del padre (en su velocidad y ubicación). La creación de nuevos descendientes mantiene constante la población total de insectos.
+Las seis velocidades diferentes a las que puede moverse un insecto se distribuyen entre seis subpoblaciones diferentes de los insectos. Estas velocidades se heredan. Con cada insecto que comes, se elige al azar un nuevo insecto de la población para producir una descendencia. La descendencia es un duplicado exacto del padre (en su velocidad y ubicación). La creación de una nueva descendencia mantiene constante la población general de insectos.
 
-Inicialmente hay números iguales de cada subpoblación de errores (por ejemplo, diez errores en cada una de las 6 velocidades). Sin embargo, con el tiempo, a medida que comes bichos, la distribución de los bichos cambiará como se muestra en el histograma &quot;Número de bichos&quot;. En el histograma, es posible que vea que la distribución se desplaza hacia la izquierda (lo que muestra que sobreviven los errores más lentos) o hacia la derecha (lo que muestra que sobreviven los errores más rápidos). A veces, una subpoblación de una sola velocidad de error será exterminada. En este punto, no se pueden crear otros errores de esta velocidad en la población.
+Inicialmente, hay el mismo número de cada subpoblación de insectos (por ejemplo, diez insectos en cada una de las 6 velocidades). Sin embargo, con el tiempo, a medida que comes insectos, la distribución de los insectos cambiará como se muestra en el histograma "Número de insectos". En el histograma, es posible que veas que la distribución se desplaza hacia la izquierda (que muestra que los insectos más lentos están sobreviviendo) o hacia la derecha (que muestra que los insectos más rápidos están sobreviviendo). A veces, una subpoblación de una sola velocidad de insecto será exterminada. En este punto, no se pueden crear otros insectos de esta velocidad en la población.
 
 ##  COMO USARLO
 
-INITIAL-BUGS-EACH-SPEED es el número de errores con los que comienza en cada una de las seis subpoblaciones. La población general de errores se determina multiplicando este valor por 6.
+INSECTOS-INICIAL-CADA-VELOCIDAD es la cantidad de insectos con los que comienza en cada una de las seis subpoblaciones. La población total de insectos se determina multiplicando este valor por 6.
 
-MOSTRAR-COLORES? lo ayuda a aplicar o eliminar la visualización de colores según la velocidad de los errores. Cuando está encendido, muestra 6 colores distintos para las 6 velocidades diferentes que puede tener un error. Estos ajustes de color corresponden la gráfica en los gráficos. Cuando está apagado, cada error es de color gris. Esto evita que el depredador (el jugador modelo) seleccione errores sin querer en función del color.
+¿MOSTRAR-COLORES? te ayuda a aplicar o eliminar la visualización del color según la velocidad de los insectos. Cuando se enciende, muestra 6 colores distintos para las 6 velocidades diferentes que puede tener un insecto. Estos ajustes de color corresponden a los colores de la pluma de trazado en los gráficos. Cuando se apaga, cada insecto es de color gris. Esto evita que el depredador (el jugador modelo) seleccione insectos involuntariamente según el color.
 
-NÚMERO DE ERRORES es un histograma que muestra la distribución de errores a diferentes velocidades.
+NÚMERO DE INSECTOS es un histograma que muestra la distribución de insectos a diferentes velocidades.
 
-BUGS CAUGHT es un histograma que muestra el registro histórico de la distribución de errores capturados a diferentes velocidades.
+INSECTOS ATRAPADOS es un histograma que muestra el registro histórico de la distribución de los insectos detectados a diferentes velocidades.
 
-¿WIGGLE?, cuando se establece en &quot;on&quot;, agrega una pequeña cantidad de giro aleatorio en el movimiento de los insectos a medida que avanzan en cada paso de tiempo.
+¿MENEAR?, cuando se establece en "encendido" agrega una pequeña cantidad de giro aleatorio en el movimiento de los insectos a medida que avanzan en cada paso de tiempo.
 
-¿HUIR?, cuando se establece en &quot;activado&quot;, los insectos giran (para mirar en la dirección opuesta) cuando detectan el clic del mouse (como un depredador) en su cono de detección (un arco de 120 grados que tiene un rango de 2 unidades) . Los insectos pueden detectar al depredador solo en este arco frente a ellos, por lo que no reaccionarán cuando los atrapen por detrás.
+¿HUIR?, cuando se establece en "encendido", los insectos se dan la vuelta (para mirar en la dirección opuesta) cuando detectan el clic del ratón (como un depredador) en su cono de detección (un arco de 120 grados que tiene un alcance de 2 unidades). Los insectos pueden detectar al depredador solo en este arco frente a ellos, por lo que no reaccionarán cuando los atrapan por detrás.
 
 ##  COSAS PARA NOTAR
 
-El histograma FALLOS ACTUALES tiende a desplazarse hacia la derecha (aumentando la velocidad promedio) si asume el rol de perseguir presas fáciles.
+El histograma INSECTOS ACTUALES tiende a desplazarse hacia la derecha (aumentando la velocidad media) si asumes el papel de perseguir presas fáciles.
 
-El histograma FALLOS ACTUALES tiende a desplazarse hacia la izquierda (disminuyendo la velocidad promedio) si asume el papel de esperar a que la presa venga hacia usted. El mismo efecto también se puede lograr moviendo al depredador alrededor del mundo al azar.
+El histograma INSECTOS ACTUALES tiende a desplazarse hacia la izquierda (velocidad promedio decreciente) si asumes el papel de esperar a que la presa venga hacia ti. El mismo efecto también se puede lograr moviendo al depredador alrededor del mundo al azar.
 
 ##  COSAS PARA INTENTAR
 
-Configure el modelo con INITIAL-BUGS-EACH-SPEED establecido en 1. Reduzca la velocidad del modelo y observe de dónde vienen los nuevos insectos cuando come un insecto. Debería ver una nueva escotilla de error de uno de los cinco restantes y debería moverse a la misma velocidad que su padre.
+Configura el modelo con INSECTOS-INICIAL-CADA-VELOCIDAD establecido en 1. Reduce la velocidad del modelo y observa de dónde vienen los nuevos insectos cuando te comes un insecto. Debería ver una nueva eclosión de insecto de uno de los cinco restantes y debería moverse a la misma velocidad que su padre.
 
-Espere en un lugar a que los insectos se acerquen a usted colocando al depredador en un lugar y manteniendo presionado el botón del mouse. Todos los insectos que se encuentren contigo serán devorados.
+Espera en un lugar a que los insectos se acerquen a ti colocando al depredador en un lugar y manteniendo presionado el botón del ratón. Todos los insectos que te encuentren serán devorados.
 
-Persiga a los insectos tratando de atrapar el insecto más cercano a usted en cualquier momento manteniendo presionado el botón del mouse y moviendo al depredador alrededor de la vista detrás del insecto más cercano.
+Persiga insectos tratando de atrapar el insecto más cercano a ti en cualquier momento manteniendo presionado el botón del ratón y moviendo al depredador alrededor de la vista después del insecto más cercano.
 
 ##  EXTENDIENDO EL MODELO
 
-Una versión de HubNet del modelo con poblaciones iniciales ajustables de errores ayudaría a mostrar lo que sucede cuando dos o más competidores asumen estrategias de caza similares frente a diferentes en la misma población al mismo tiempo.
+Una versión de HubNet del modelo con poblaciones iniciales ajustables de insectos ayudaría a mostrar lo que sucede cuando dos o más competidores asumen estrategias de caza similares frente a diferentes en la misma población al mismo tiempo.
 
 ##  MODELOS RELACIONADOS 
 
-Bug Hunt Camouflage
+Camuflaje en la Búsqueda de Insectos
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-Inspired by EvoDots software: https://faculty.washington.edu/herronjc/SoftwareFolder/EvoDots.html/
+Inspirado por el software EvoDots: https://faculty.washington.edu/herronjc/SoftwareFolder/EvoDots.html/
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Novak, M. and Wilensky, U. (2005).  NetLogo Bug Hunt Speeds model.  http://ccl.northwestern.edu/netlogo/models/BugHuntSpeeds.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -82,3 +82,5 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
 
 <!-- 2005 Cite: Novak, M. -->
+
+Translated by: Cassandra Lagunas
