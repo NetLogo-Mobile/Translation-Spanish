@@ -196,14 +196,14 @@
     <String ID="通过例如 {0} 的方式了解某一关键字的信息。" Status="0" English="Learn about a certain keyword by {0}.">Obtenga más información sobre una palabra clave por {0}.</String>
     <String ID="学习 NetLogo 的基本知识。" Status="0" English="Learn the basics of NetLogo.">Aprenda los conceptos básicos de NetLogo.</String>
     <String ID="列出 NetLogo 命令和关键字。" Status="0" English="List NetLogo commands and keywords.">Enumere comandos y palabras claves de NetLogo.</String>
-    <String ID="{0} 命令显示 NetLogo 基本知识指南。" Status="1" English="The {0} shows the NetLogo Basics Guide.">El {0} muestra la Guía básica de NetLogo.</String>
-    <String ID="学习什么是海龟。" Status="1" English="Learn something about turtles.">Aprende algo sobre las tortugas.</String>
-    <String ID="学习什么是格子。" Status="1" English="Learn something about patches.">Aprende algo sobre los parches.</String>
-    <String ID="学习如何让海龟执行命令。" Status="1" English="Learn how to get turtles to do things.">Aprende a hacer que las tortugas hagan cosas.</String>
-    <String ID="学习如何移动海龟的位置。" Status="1" English="Learn how to move turtles.">Aprende a mover tortugas.</String>
-    <String ID="学习如何设置海龟的参数。" Status="1" English="Learn how to set parameters for turtles.">Aprenda a establecer parámetros para tortugas.</String>
-    <String ID="学习如何进行条件判断。" Status="1" English="Learn how to do things with conditions.">Aprende a hacer cosas con condiciones.</String>
-    <String ID="学习模型中的时间概念。" Status="1" English="Learn the concept of time in models.">Aprende el concepto de tiempo en maquetas.</String>
+    <String ID="{0} 命令显示 NetLogo 基本知识指南。" Status="0" English="The {0} shows the NetLogo Basics Guide.">El {0} muestra la Guía Básica de NetLogo.</String>
+    <String ID="学习什么是海龟。" Status="0" English="Learn something about turtles.">Aprende algo sobre las tortugas.</String>
+    <String ID="学习什么是格子。" Status="0" English="Learn something about patches.">Aprende algo sobre las parcelas.</String>
+    <String ID="学习如何让海龟执行命令。" Status="0" English="Learn how to get turtles to do things.">Aprende a dirigir a las tortugas para que hagan cosas.</String>
+    <String ID="学习如何移动海龟的位置。" Status="0" English="Learn how to move turtles.">Aprende a mover tortugas.</String>
+    <String ID="学习如何设置海龟的参数。" Status="0" English="Learn how to set parameters for turtles.">Aprenda a establecer parámetros para tortugas.</String>
+    <String ID="学习如何进行条件判断。" Status="0" English="Learn how to do things with conditions.">Aprende a hacer cosas con condiciones.</String>
+    <String ID="学习模型中的时间概念。" Status="0" English="Learn the concept of time in models.">Aprende el concepto de tiempo en modelos.</String>
     <String ID="下列帮助来自此模型的探索指南：" Status="0" English="Those come from the Guided Intro:">Esos vienen de la introducción guiada:</String>
     <String ID="抱歉，未能找到关于 {0} 的文档信息。" Status="0" English="Sorry, we cannot find anything about {0}.">Lo sentimos, no podemos encontrar nada sobre {0}.</String>
     <String ID="命令" Status="0" English="Command">Mando</String>
@@ -213,7 +213,7 @@
     <String ID="{0} 是一个函数。" Status="0" English="{0} is a reporter.">{0} es reportero.</String>
     <String ID="{0} 是一个变量、一个程序或一个函数的名字。" Status="0" English="{0} is the name of a variable, a procedure, or a reporter.">{0} es el nombre de una variable, un procedimiento o un reportero.</String>
     <String ID="{0} 是一个程序语言规定的常量。" Status="0" English="{0} is a constant defined by NetLogo.">{0} es una constante definida por NetLogo.</String>
-    <String ID="{0} 是一个 NetLogo 的扩展库。" Status="1" English="{0} is a NetLogo extension.">{0} es una extensión de NetLogo.</String>
+    <String ID="{0} 是一个 NetLogo 的扩展库。" Status="0" English="{0} is a NetLogo extension.">{0} es una extensión de NetLogo.</String>
     <String ID="是否将代码重置到最后一次成功编译的状态？" Status="0" English="Do you want to reset the code to the last successful compilation?">¿Quieres restablecer el código a la última compilación exitosa?</String>
     <String ID="请先修复代码中的错误，然后才能执行命令。" Status="0" English="Please fix the error in the code first, then execute the command.">Por favor corrija el error en el código primero y luego ejecuta el comando.</String>
   </Editors>
