@@ -1,28 +1,27 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 constant
-### Spanish ***
+### Spanish
 constante
 
 ### Source
 go
-### Spanish ***
+### Spanish
 ir
 
 ### Source
 num-turtles
-### Spanish ***
-num-tortugas
+### Spanish
+núm-tortugas
 
 ### Source
 second-focus?
-### Spanish ***
-segundo enfoque?
+### Spanish
+¿foco-segundo?
 
 ### Source
 setup
-### Spanish ***
-configuración
+### Spanish
+preparar
 
