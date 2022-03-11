@@ -1,5 +1,4 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## ¿QUÉ ES??
+﻿## ¿QUÉ ES??
 
 Este es un modelo de selección natural/artificial que muestra el resultado de dos fuerzas en competencia sobre la selección natural de la velocidad de la presa. La fuerza domina depende del comportamiento de los depredadores.
 

@@ -1,64 +1,63 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Language = Spanish
+﻿## Language = Spanish
 ## Plots
 ### Source
 Decay Rate
-### Spanish ***
-Tasa de descomposición
+### Spanish
+Tasa de Descomposición
 
 ### Source
 default
-### Spanish ***
+### Spanish
 por defecto
 
 ### Source
 lines
-### Spanish ***
+### Spanish
 líneas
 
 ### Source
 number
-### Spanish ***
+### Spanish
 número
 
 ### Source
 Radioactive Nuclei
-### Spanish ***
+### Spanish
 Núcleos Radiactivos
 
 ### Source
 time
-### Spanish ***
-hora
+### Spanish
+tiempo
 
 ## Widgets
 ### Source
 decay-chance
-### Spanish ***
-oportunidad de decaimiento
+### Spanish
+oportunidad-de-decaimiento
 
 ### Source
 decays
-### Spanish ***
+### Spanish
 decae
 
 ### Source
 go
-### Spanish ***
+### Spanish
 ir
 
 ### Source
 nuclei
-### Spanish ***
+### Spanish
 núcleos
 
 ### Source
 number-nuclei
-### Spanish ***
+### Spanish
 número-núcleos
 
 ### Source
 setup
-### Spanish ***
-configuración
+### Spanish
+preparar
 
