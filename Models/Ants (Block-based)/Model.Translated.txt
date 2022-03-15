@@ -1,0 +1,305 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## NetTango
+### Source
+Ask each ant to do things according to the attach blocks.
+### Spanish ***
+Pídale a cada hormiga que haga las cosas de acuerdo con los bloques adjuntos.
+
+### Source
+Ask the ant to drop food on the ground.
+### Spanish ***
+Pídele a la hormiga que tire comida al suelo.
+
+### Source
+Ask the ant to drop some pheromone smell on the patch.
+### Spanish ***
+Pídale a la hormiga que deje caer un poco de olor a feromonas en el parche.
+
+### Source
+Ask the ant to move forward for 1 step.
+### Spanish ***
+Pídele a la hormiga que avance 1 paso.
+
+### Source
+Ask the ant to pick up food. The ant could only pick up one at a time.
+### Spanish ***
+Pídele a la hormiga que recoja la comida. La hormiga solo podía recoger uno a la vez.
+
+### Source
+Ask the ant to randomly wiggle for certain degrees. If the ant cannot move, it will turn backwards.
+### Spanish ***
+Pídele a la hormiga que se mueva aleatoriamente en ciertos grados. Si la hormiga no puede moverse, girará hacia atrás.
+
+### Source
+Ask the ant to turn right for certain degrees.
+### Spanish ***
+Pídele a la hormiga que gire a la derecha en ciertos grados.
+
+### Source
+Ask the ant to turn towards pheromone smell, indicated by light colors on each patch.
+### Spanish ***
+Pídale a la hormiga que se vuelva hacia el olor a feromonas, indicado por colores claros en cada parche.
+
+### Source
+Ask the ant to turn towards the smell of the nest.
+### Spanish ***
+Pídele a la hormiga que se gire hacia el olor del nido.
+
+### Source
+Attached blocks are executed to reset the simulated world.
+### Spanish ***
+Los bloques adjuntos se ejecutan para restablecer el mundo simulado.
+
+### Source
+Blue
+### Spanish ***
+Azul
+
+### Source
+Color
+### Spanish ***
+Color
+
+### Source
+Create a food pile at
+### Spanish ***
+Crea una pila de comida en
+
+### Source
+Create a food pile at a certain place.
+### Spanish ***
+Crea una pila de comida en un lugar determinado.
+
+### Source
+Create a nest that occupies patches within a certain radius.
+### Spanish ***
+Cree un nido que ocupe parches dentro de un radio determinado.
+
+### Source
+Create a nest with radius
+### Spanish ***
+Crear un nido con radio
+
+### Source
+Create ants
+### Spanish ***
+crear hormigas
+
+### Source
+Cyan
+### Spanish ***
+cian
+
+### Source
+degrees
+### Spanish ***
+grados
+
+### Source
+Degrees
+### Spanish ***
+Grados
+
+### Source
+Diameter
+### Spanish ***
+Diámetro
+
+### Source
+Drop food
+### Spanish ***
+soltar comida
+
+### Source
+Drop pheromone
+### Spanish ***
+Gota de feromona
+
+### Source
+Each ant
+### Spanish ***
+cada hormiga
+
+### Source
+For each slice of time (tick), attached block will be executed once.
+### Spanish ***
+Por cada intervalo de tiempo (tic), el bloque adjunto se ejecutará una vez.
+
+### Source
+Forward
+### Spanish ***
+Hacia adelante
+
+### Source
+Go
+### Spanish ***
+Ir
+
+### Source
+how many?
+### Spanish ***
+¿Cuántos?
+
+### Source
+If I am at the nest
+### Spanish ***
+si estoy en el nido
+
+### Source
+If I am carrying food
+### Spanish ***
+si llevo comida
+
+### Source
+If I am not at the nest
+### Spanish ***
+si no estoy en el nido
+
+### Source
+If I am not carrying food
+### Spanish ***
+si no llevo comida
+
+### Source
+If the ant is carrying food, then do something according to the attached blocks.
+### Spanish ***
+Si la hormiga lleva comida, haga algo de acuerdo con los bloques adjuntos.
+
+### Source
+If the ant is inside the nest, then do something according to the attached blocks.
+### Spanish ***
+Si la hormiga está dentro del nido, haga algo de acuerdo con los bloques adjuntos.
+
+### Source
+If the ant is not carrying food, then do something according to the attached blocks.
+### Spanish ***
+Si la hormiga no lleva comida, haga algo de acuerdo con los bloques adjuntos.
+
+### Source
+If the ant is not inside the nest, then do something according to the attached blocks.
+### Spanish ***
+Si la hormiga no está dentro del nido, haga algo de acuerdo con los bloques adjuntos.
+
+### Source
+If there is food here
+### Spanish ***
+si hay comida aqui
+
+### Source
+If there is food on the same patch (place) of the ant, then do something according to the attached blocks.
+### Spanish ***
+Si hay comida en el mismo parche (lugar) de la hormiga, haga algo de acuerdo con los bloques adjuntos.
+
+### Source
+Pick food
+### Spanish ***
+recoger comida
+
+### Source
+Red
+### Spanish ***
+rojo
+
+### Source
+Setup
+### Spanish ***
+Configuración
+
+### Source
+Sky
+### Spanish ***
+Cielo
+
+### Source
+Spawn some ants in the nest. Each ant will have a random heading.
+### Spanish ***
+Engendra algunas hormigas en el nido. Cada hormiga tendrá un encabezado aleatorio.
+
+### Source
+Turn right
+### Spanish ***
+Dobla a la derecha
+
+### Source
+Turn towards nest smell
+### Spanish ***
+Gire hacia el olor del nido
+
+### Source
+Turn towards pheromone smell
+### Spanish ***
+Gire hacia el olor a feromonas
+
+### Source
+Wiggle
+### Spanish ***
+Menear
+
+### Source
+X Coordinate
+### Spanish ***
+Coordenada X
+
+### Source
+Y Coordinate
+### Spanish ***
+Coordenada Y
+
+### Source
+Yellow
+### Spanish ***
+Amarillo
+
+## Plots
+### Source
+food
+### Spanish ***
+comida
+
+### Source
+Food in each pile
+### Spanish ***
+Comida en cada pila
+
+### Source
+food-in-pile1
+### Spanish ***
+comida-en-pila1
+
+### Source
+food-in-pile2
+### Spanish ***
+comida-en-pila2
+
+### Source
+food-in-pile3
+### Spanish ***
+comida-en-pila3
+
+### Source
+time
+### Spanish ***
+hora
+
+## Widgets
+### Source
+diffusion-rate
+### Spanish ***
+velocidad de difusión
+
+### Source
+evaporation-rate
+### Spanish ***
+Tasa de evaporación
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+setup
+### Spanish ***
+configuración
+
