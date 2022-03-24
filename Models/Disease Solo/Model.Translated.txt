@@ -1,0 +1,99 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Plots
+### Source
+default
+### Spanish ***
+por defecto
+
+### Source
+Number Sick
+### Spanish ***
+número enfermo
+
+### Source
+run 1
+### Spanish ***
+correr 1
+
+### Source
+sick
+### Spanish ***
+enfermo
+
+### Source
+time
+### Spanish ***
+hora
+
+## Widgets
+### Source
+avoid?
+### Spanish ***
+¿evitar?
+
+### Source
+chase?
+### Spanish ***
+¿perseguir?
+
+### Source
+down
+### Spanish ***
+abajo
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+infect
+### Spanish ***
+infectar
+
+### Source
+infection-chance
+### Spanish ***
+probabilidad de infección
+
+### Source
+left
+### Spanish ***
+izquierda
+
+### Source
+num-androids
+### Spanish ***
+num-androids
+
+### Source
+Number Sick
+### Spanish ***
+número enfermo
+
+### Source
+right
+### Spanish ***
+Correcto
+
+### Source
+setup/clear
+### Spanish ***
+configurar/borrar
+
+### Source
+setup/keep
+### Spanish ***
+configurar/mantener
+
+### Source
+step-size
+### Spanish ***
+Numero de pie
+
+### Source
+up
+### Spanish ***
+arriba
+

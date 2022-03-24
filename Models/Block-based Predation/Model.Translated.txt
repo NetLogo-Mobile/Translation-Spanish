@@ -1,4 +1,5 @@
-﻿## Language = Spanish
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
 ## NetTango
 ### Source
 all
@@ -154,6 +155,11 @@ blanco
 wolf
 ### Spanish
 lobo
+
+### Source
+Wolf Sheep Predation
+### Spanish ***
+Depredación de ovejas lobo
 
 ### Source
 wolves

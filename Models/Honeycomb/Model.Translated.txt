@@ -1,0 +1,28 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Widgets
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+hide bees
+### Spanish ***
+esconder abejas
+
+### Source
+num-bees
+### Spanish ***
+num-abejas
+
+### Source
+setup
+### Spanish ***
+configuración
+
+### Source
+show bees
+### Spanish ***
+mostrar abejas
+

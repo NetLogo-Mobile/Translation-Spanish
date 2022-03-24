@@ -1,4 +1,5 @@
-﻿## Language = Spanish
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
 ## Plots
 ### Source
 flashing
@@ -22,9 +23,19 @@ Tiempo
 
 ## Widgets
 ### Source
+advance
+### Spanish ***
+avance
+
+### Source
 cycle-length
 ### Spanish
 duración-del-ciclo
+
+### Source
+delay
+### Spanish ***
+demora
 
 ### Source
 flashes-to-reset

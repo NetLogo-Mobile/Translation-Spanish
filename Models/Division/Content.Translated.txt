@@ -1,0 +1,104 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+&quot;¿Cuánto es 65 dividido por 14?&quot; Hay muchas maneras de responder a esta pregunta. Algunos ejemplos son 4.643, 4, cuatro y nueve catorceavos, y 4 con 9 sobrantes. La última respuesta es un ejemplo del tipo de resultado que daría este modelo.
+
+Así como hay muchas formas de responder a la pregunta &quot;¿Cuánto es 65 dividido por 14?&quot; hay muchos métodos para llegar a cada respuesta. Este modelo muestra un método interesante que distribuye el trabajo de encontrar una solución entre un grupo de agentes separados.
+
+Los círculos de DIVIDENDO se distribuyen lo más uniformemente posible entre los bloques de colores DIVISOR. El resultado es COCIENTE con RESTO sobrante en el bloque negro en el extremo izquierdo. Tenga en cuenta que el RESTO es más pequeño que el número de bloques de colores. De lo contrario, cada uno de los bloques de colores podría tener al menos un círculo más.
+
+##  COMO FUNCIONA
+
+Los bloques se turnan para actuar tratando de lograr el objetivo de distribuir los círculos de manera uniforme.
+
+Los bloques de colores actúan de la siguiente manera: El bloque que está actuando compara cuántos círculos tiene sobre sí mismo con cuántos círculos hay en otro bloque de colores. Si tiene al menos dos más que el otro bloque, puede darse el lujo de darle uno al otro bloque, y así lo hace. Si el bloque activo tiene exactamente un círculo más que el otro bloque, envía ese círculo adicional al bloque negro en el extremo izquierdo. Dado que los bloques de colores actúan de esta manera, ningún bloque de colores puede tener más círculos que cualquier otro bloque de colores.
+
+El bloque negro es especial. Mientras que los bloques de colores intentan distribuir los círculos de manera uniforme, el bloque negro mantiene los círculos adicionales. Cuando el bloque negro actúa, comprueba cuántos círculos tiene. Si tiene suficiente al menos para poner un círculo en cada uno de los bloques de colores, envía todos los círculos a los bloques de colores al azar. Dado que el bloque negro actúa de esta manera, el número máximo de círculos se distribuirá uniformemente en los bloques de colores.
+
+##  COMO USARLO
+
+Establezca DIVIDENDO y DIVISOR en los números deseados, presione SETUP para configurar el problema y presione GO para que el modelo encuentre la respuesta.
+
+DIVIDENDO es el número de círculos que se distribuirán.
+
+DIVISOR es el número de bloques de colores en los que se extenderán los círculos.
+
+SETUP establece el problema.
+
+GO resuelve el problema.
+
+Cuando el modelo se detiene, el monitor COCIENTE muestra el número de círculos en cada uno de los bloques de colores.
+
+Cuando el modelo se detiene, el monitor RESTANTE muestra el número de círculos en el bloque negro, que es el número de círculos que quedan.
+
+Si CICLO-EN-ORDEN? está activado, los bloques se turnan para actuar en orden. Si está desactivado, el siguiente bloque en actuar se elige al azar.
+
+¿SI EL PRÓXIMO ES OTRO? está activado, los bloques de colores se comparan con el bloque a su derecha. Si está apagado, se comparan con otro bloque de colores al azar.
+
+Para ayudar a ver el funcionamiento del algoritmo, hay algunos otros monitores y un botón GO ONCE que tiene solo un bloque de acción a la vez.
+
+BLOCK-TO-GO muestra qué bloque está actuando.
+
+CIRCLES-ON-BLOCK-TO-GO muestra cuántos círculos hay en BLOCK-TO-GO.
+
+OTHER-BLOCK muestra con qué bloque se está comparando BLOCK-TO-GO.
+
+CIRCLES-ON-OTHER-BLOCK muestra cuántos círculos hay en OTHER-BLOCK.
+
+##  COSAS PARA NOTAR
+
+A veces, los círculos se apilan unos encima de otros. Cuando esto sucede, puede parecer que hay menos círculos en un bloque de los que realmente hay.
+
+El tiempo que tarda el algoritmo en funcionar varía bastante, incluso con la misma configuración.
+
+Diferentes residuos cambian el tiempo que tarda el algoritmo. ¿Qué restos son más rápidos? ¿Qué residuos son más lentos?
+
+¿Qué más afecta el tiempo que tarda el algoritmo? ¿De qué maneras?
+
+##  COSAS PARA INTENTAR
+
+¿Qué interruptores, si los hay, hacen una diferencia en el tiempo que tarda el algoritmo en funcionar y de qué manera?
+
+¿Puedes encontrar configuraciones para las que sabes que el algoritmo nunca funcionará? Si es así, ¿cómo lo sabes?
+
+##  EXTENDIENDO EL MODELO
+
+El monitor COCIENTE encuentra el número promedio de círculos en los bloques de colores. Encontrar el promedio implica dividir por DIVISOR. Encuentra otra forma de mostrar el COCIENTE que no use división.
+
+Haga una manera de cronometrar el modelo.
+
+No permita que haya más de un círculo en un solo parche dentro de un bloque a menos que no haya otra forma de colocar los círculos en el bloque.
+
+Modifique el algoritmo para acelerarlo. Algunas ideas: Intente equilibrar los bloques entre sí tanto como sea posible antes de pasar al siguiente bloque. Intente hacer que el algoritmo &quot;establezca dos veces&quot;, es decir, pase una vez tratando de compartir entre los bloques de colores y una vez para enviar extras al resto.
+
+##  CRÉDITOS Y REFERENCIAS 
+
+The algorithm that this model uses comes from a post to the starlogo-users mailing list by Ted Kaehler.
+
+Thanks to Josh Unterman for his work on this model.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (2002).  NetLogo Division model.  http://ccl.northwestern.edu/netlogo/models/Division.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2002 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227.
+
+<!-- 2002 -->

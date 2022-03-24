@@ -1,0 +1,48 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Widgets
+### Source
+cycle-in-order?
+### Spanish ***
+ciclo en orden?
+
+### Source
+dividend
+### Spanish ***
+dividendo
+
+### Source
+divisor
+### Spanish ***
+divisor
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+go once
+### Spanish ***
+ir una vez
+
+### Source
+next-is-other?
+### Spanish ***
+¿el siguiente es otro?
+
+### Source
+quotient
+### Spanish ***
+cociente
+
+### Source
+remainder
+### Spanish ***
+recordatorio
+
+### Source
+setup
+### Spanish ***
+configuración
+

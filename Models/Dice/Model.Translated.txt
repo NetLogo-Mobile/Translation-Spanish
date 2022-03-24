@@ -1,0 +1,124 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Plots
+### Source
+Combination
+### Spanish ***
+Combinación
+
+### Source
+count
+### Spanish ***
+contar
+
+### Source
+Permutations
+### Spanish ***
+permutaciones
+
+### Source
+successes per sample
+### Spanish ***
+éxitos por muestra
+
+### Source
+Successes-per-Sample Distributions
+### Spanish ***
+Distribuciones de éxitos por muestra
+
+## Widgets
+### Source
+#Samples
+### Spanish ***
+#Muestras
+
+### Source
++ # Rolls
+### Spanish ***
++ # Rollos
+
+### Source
+analysis-type
+### Spanish ***
+tipo de análisis
+
+### Source
+bars?
+### Spanish ***
+¿barras?
+
+### Source
+Both
+### Spanish ***
+Ambas cosas
+
+### Source
+Combination
+### Spanish ***
+Combinación
+
+### Source
+Combinations
+### Spanish ***
+combinaciones
+
+### Source
+Combinations : Permutations
+### Spanish ***
+Combinaciones : Permutaciones
+
+### Source
+Hide/Reveal
+### Spanish ***
+Ocultar/Revelar
+
+### Source
+Instructions
+### Spanish ***
+Instrucciones
+
+### Source
+Mean-Combination
+### Spanish ***
+Combinación de medias
+
+### Source
+Mean-Permutations
+### Spanish ***
+Permutaciones medias
+
+### Source
+Permutations
+### Spanish ***
+permutaciones
+
+### Source
+Pick Values
+### Spanish ***
+Seleccionar valores
+
+### Source
+Roll Dice
+### Spanish ***
+Tirar el dado
+
+### Source
+sample-size
+### Spanish ***
+tamaño de la muestra
+
+### Source
+Setup
+### Spanish ***
+Configuración
+
+### Source
+single-success?
+### Spanish ***
+¿éxito único?
+
+### Source
+total-samples
+### Spanish ***
+muestras totales
+

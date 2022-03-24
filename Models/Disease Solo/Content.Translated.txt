@@ -1,0 +1,105 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+Disease Solo es una versión para un jugador de la actividad de HubNet Disease. Simula la propagación de una enfermedad a través de una población. Un agente en la población es una persona controlada por el usuario; los otros son &quot;androides&quot; controlados por la computadora.
+
+##  COMO FUNCIONA
+
+El usuario controla el agente azul a través de los botones y el control deslizante en el lado derecho de la vista. La infección se inicia presionando el botón &quot;infectar&quot;.
+
+Los agentes enfermos se indican con un círculo rojo.
+
+Los androides pueden moverse usando algunas estrategias simples diferentes. De forma predeterminada, simplemente se mueven al azar, sin embargo, al usar el comando EVITAR? y CHASE? interruptores puede indicar que los androides no infectados deben huir de los infectados o que los androides infectados deben perseguir a los no infectados.
+
+La persona también puede contraer la infección.
+
+Los &quot;agentes&quot; sanos en el mismo parche que los agentes enfermos tienen una POSIBILIDAD DE INFECCIÓN de enfermarse.
+
+##  COMO USARLO
+
+Botones ###
+
+SETUP/CLEAR: configura el mundo y borra las tramas.
+CONFIGURAR/MANTENER: configura el mundo sin borrar la gráfica; esto le permite comparar los resultados de diferentes ejecuciones.
+GO - ejecuta la simulación.
+INFECT - infecta a uno de los androides
+
+### Deslizadores
+
+NUM-ANDROIDS: determina cuántos androides se crean en la configuración
+PROBABILIDAD DE INFECCIÓN: la posibilidad de que un agente sano en cada paso de tiempo se enferme si está en el mismo parche que un agente infectado
+
+### Monitores
+
+NÚMERO DE ENFERMOS - el número de agentes enfermos
+
+### Parcelas
+
+NÚMERO DE ENFERMOS - el número de agentes enfermos frente al tiempo
+
+### Interruptores
+
+¿EVITAR? - cuando este interruptor está encendido, cada androide no infectado verifica las cuatro direcciones para ver si puede moverse a un parche que esté a salvo de agentes infectados.
+¿PERSEGUIR? - cuando este interruptor está encendido, cada androide infectado verifica las cuatro direcciones para ver si puede infectar a otro agente.
+
+### Controles de usuario
+
+ARRIBA, ABAJO, IZQUIERDA y DERECHA: mueva a la persona alrededor del mundo, STEP-SIZE determina qué tan lejos se mueve la persona cada vez que se presiona uno de los botones de control.
+
+##  COSAS PARA NOTAR
+
+Piensa en cómo cambiará la gráfica si modificas un parámetro. Alterar la probabilidad de infección tendrá diferentes efectos en la gráfica.
+
+##  COSAS PARA INTENTAR
+
+Realice varias ejecuciones del modelo y registre un conjunto de datos para cada uno usando el botón configurar/mantener. Compara las diferentes parcelas resultantes.
+
+¿Qué sucede con la gráfica a medida que se ejecuta con más y más androides?
+
+##  EXTENDIENDO EL MODELO
+
+Actualmente, los agentes permanecen enfermos una vez infectados. ¿Cómo cambiaría la forma de la gráfica si los agentes finalmente sanaran? Si, después de la curación, fueran inmunes a la enfermedad, o aún pudieran propagarla, ¿cómo se alteraría la dinámica?
+
+El usuario tiene una clara ventaja en esta versión del modelo (suponiendo que el objetivo sea no infectarse o infectar a otros), ya que el usuario puede ver el mundo entero y los androides solo pueden ver un parche delante de ellos. Intenta igualar el campo de juego dando a los androides un campo de visión más amplio.
+
+Determinar el primer agente infectado puede afectar la forma en que la enfermedad se propaga entre la población. Intente cambiar el objetivo de la primera infección para que el usuario pueda determinarlo.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Puede usar el teclado para controlar a la persona. Para activar los métodos abreviados de teclado para el botón de movimiento, oculte el centro de comando o haga clic en el fondo blanco.
+
+El gráfico utiliza plumillas temporales, en lugar de un conjunto fijo de plumillas permanentes, por lo que puede utilizar el botón configurar/mantener para superponer tantas ejecuciones como desee.
+
+##  MODELOS RELACIONADOS 
+
+* Disease (HubNet version)
+* Virus
+* HIV
+
+##  CRÉDITOS Y REFERENCIAS 
+
+This model is a one player version of the HubNet activity Disease.  In the HubNet version, multiple users can participate at once.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (2005).  NetLogo Disease Solo model.  http://ccl.northwestern.edu/netlogo/models/DiseaseSolo.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2005 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2005 -->

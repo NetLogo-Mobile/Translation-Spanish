@@ -1,0 +1,43 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Widgets
+### Source
+color-sep
+### Spanish ***
+color-sep
+
+### Source
+color-shift?
+### Spanish ***
+¿Cambio de color?
+
+### Source
+current-color-sep
+### Spanish ***
+color-actual-sep
+
+### Source
+increase-color?
+### Spanish ***
+aumentar-color?
+
+### Source
+num-turtles
+### Spanish ***
+num-tortugas
+
+### Source
+pattern-1
+### Spanish ***
+patrón-1
+
+### Source
+pattern-2
+### Spanish ***
+patrón-2
+
+### Source
+setup
+### Spanish ***
+configuración
+

@@ -1,0 +1,103 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Widgets
+### Source
+color-sep
+### Spanish ***
+color-sep
+
+### Source
+color-shift
+### Spanish ***
+Cambio de color
+
+### Source
+curr-color-sep
+### Spanish ***
+curr-color-sep
+
+### Source
+decrement
+### Spanish ***
+decremento
+
+### Source
+direction
+### Spanish ***
+dirección
+
+### Source
+expander
+### Spanish ***
+expansor
+
+### Source
+follow-turtle?
+### Spanish ***
+seguir-tortuga?
+
+### Source
+increment
+### Spanish ***
+incremento
+
+### Source
+lift-pen
+### Spanish ***
+pluma elevadora
+
+### Source
+max-num
+### Spanish ***
+max-num
+
+### Source
+num-turtles
+### Spanish ***
+num-tortugas
+
+### Source
+pattern 1
+### Spanish ***
+patrón 1
+
+### Source
+pattern 2
+### Spanish ***
+patrón 2
+
+### Source
+pattern 3
+### Spanish ***
+patrón 3
+
+### Source
+pattern 4
+### Spanish ***
+patrón 4
+
+### Source
+pattern 5
+### Spanish ***
+patrón 5
+
+### Source
+pattern 6
+### Spanish ***
+patrón 6
+
+### Source
+restore
+### Spanish ***
+restaurar
+
+### Source
+setup
+### Spanish ***
+configuración
+
+### Source
+shift-direction
+### Spanish ***
+cambio de dirección
+
