@@ -1,124 +1,123 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Language = Spanish
+﻿## Language = Spanish
 ## Plots
 ### Source
 Combination
-### Spanish ***
+### Spanish
 Combinación
 
 ### Source
 count
-### Spanish ***
-contar
+### Spanish
+conteo
 
 ### Source
 Permutations
-### Spanish ***
-permutaciones
+### Spanish 
+Permutaciones
 
 ### Source
 successes per sample
-### Spanish ***
+### Spanish
 éxitos por muestra
 
 ### Source
 Successes-per-Sample Distributions
-### Spanish ***
-Distribuciones de éxitos por muestra
+### Spanish
+Distribuciones éxitos-por-muestra
 
 ## Widgets
 ### Source
 #Samples
-### Spanish ***
+### Spanish
 #Muestras
 
 ### Source
 + # Rolls
-### Spanish ***
+### Spanish
 + # Rollos
 
 ### Source
 analysis-type
-### Spanish ***
-tipo de análisis
+### Spanish
+tipo-de-análisis
 
 ### Source
 bars?
-### Spanish ***
+### Spanish
 ¿barras?
 
 ### Source
 Both
-### Spanish ***
+### Spanish
 Ambas cosas
 
 ### Source
 Combination
-### Spanish ***
+### Spanish
 Combinación
 
 ### Source
 Combinations
-### Spanish ***
-combinaciones
+### Spanish
+Combinaciones
 
 ### Source
 Combinations : Permutations
-### Spanish ***
+### Spanish
 Combinaciones : Permutaciones
 
 ### Source
 Hide/Reveal
-### Spanish ***
+### Spanish
 Ocultar/Revelar
 
 ### Source
 Instructions
-### Spanish ***
+### Spanish
 Instrucciones
 
 ### Source
 Mean-Combination
-### Spanish ***
-Combinación de medias
+### Spanish
+Combinación-de-promedios
 
 ### Source
 Mean-Permutations
-### Spanish ***
-Permutaciones medias
+### Spanish
+Permutaciones-medias
 
 ### Source
 Permutations
-### Spanish ***
+### Spanish
 permutaciones
 
 ### Source
 Pick Values
-### Spanish ***
-Seleccionar valores
+### Spanish
+Seleccionar Valores
 
 ### Source
 Roll Dice
-### Spanish ***
-Tirar el dado
+### Spanish
+Tirar el Dado
 
 ### Source
 sample-size
-### Spanish ***
-tamaño de la muestra
+### Spanish
+tamaño-de-muestra
 
 ### Source
 Setup
-### Spanish ***
-Configuración
+### Spanish
+Preparar
 
 ### Source
 single-success?
-### Spanish ***
+### Spanish
 ¿éxito único?
 
 ### Source
 total-samples
-### Spanish ***
-muestras totales
+### Spanish
+muestras-totales
 

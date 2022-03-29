@@ -1,145 +1,146 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## ¿QUÉ ES??
+﻿## ¿QUÉ ES??
 
-&quot;Dice&quot; es un laboratorio virtual para aprender sobre probabilidad a través de la realización y análisis de experimentos. Configure un experimento eligiendo una combinación de valores nominales para cada dado, por ejemplo, 3 y 4 (usaremos este ejemplo en todo momento). Luego, el modelo &quot;tira&quot; dos dados repetidamente y registra la frecuencia con la que sus dados coinciden con la combinación elegida.
+"Dado" es un laboratorio virtual para aprender sobre probabilidad mediante la realización y el análisis de experimentos. Puedes configurar un experimento eligiendo una combinación de valores nominales para cada dado, por ejemplo, 3 y 4 (usaremos este ejemplo en todo momento). Luego, el modelo "lanza" dos dados repetidamente y registra la frecuencia con la que coinciden con la combinación elegida.
 
-Los dados del modelo pueden coincidir con su combinación inicial de dos maneras: pueden mostrar los mismos números en el mismo orden; o pueden mostrar los mismos números independientemente del orden. El modelo recopila estadísticas sobre ambos tipos de partidos. Los gráficos y monitores del modelo le brindan diferentes perspectivas sobre los datos acumulados.
+Los dados del modelo pueden coincidir con su combinación inicial de dos formas: pueden mostrar los mismos números en el mismo orden; o pueden mostrar los mismos números independientemente del orden. El modelo recopila estadísticas sobre ambos tipos de coincidencias. Las gráficas y los monitores del modelo le brindan diferentes perspectivas sobre los datos acumulados.
 
-Este modelo es parte del plan de estudios de ProbLab. Para obtener más información sobre el plan de estudios de ProbLab, consulte http://ccl.northwestern.edu/curriculum/ProbLab/.
+Este modelo es parte del plan de estudios de ProbLab. Para obtener más información sobre el plan de estudios de ProbLab, consulta http://ccl.northwestern.edu/curriculum/ProbLab/.
 
 ##  COMO FUNCIONA
 
-El usuario selecciona un valor nominal para cada dado. Después de presionar **Roll Dice**, el modelo lanza dados virtuales una y otra vez para probar con qué frecuencia se lanza la combinación seleccionada por el usuario. El histograma, **Distribuciones de éxitos por muestra**, muestra la frecuencia de las tiradas virtuales correctas.
+El usuario selecciona un valor nominal para cada dado. Después de presionar Tirar Dado, el modelo lanza dados virtuales una y otra vez para probar la frecuencia con la que se lanza la combinación seleccionada por el usuario. El histograma, Distribuciones-de-Éxitos-Por-Muestra, muestra la frecuencia de tiradas virtuales exitosas.
 
 ##  NOTA PEDAGÓGICA
 
-Este modelo presenta herramientas, conceptos, representaciones y vocabulario para describir eventos aleatorios. Entre los conceptos introducidos están &quot;muestreo&quot; y &quot;distribución&quot;.
+Este modelo presenta herramientas, conceptos, representaciones y vocabulario para describir eventos aleatorios. Entre los conceptos introducidos se encuentran "muestreo" y "distribución".
 
-Los diversos modelos de ProbLab utilizan &quot;objetos&quot; basados en computadoras virtuales para enseñar probabilidad. En este modelo, estos objetos son dados virtuales, similares a los familiares físicos. Mediante el uso de objetos familiares, esperamos ayudar a los alumnos a formar un puente conceptual desde su experiencia cotidiana hacia conceptos más abstractos. Usar el modelo Dice ayuda a preparar a los estudiantes para experiencias con otros modelos ProbLab que usan objetos virtuales que son menos familiares.
+Los diversos modelos de ProbLab usan "objetos" virtuales basados-​​en-computadora para enseñar probabilidad. En este modelo, estos objetos son dados virtuales, similares a los familiares, físicos. Mediante el uso de objetos familiares, esperamos ayudar a los alumnos a formar un puente conceptual desde su experiencia diaria hacia conceptos más abstractos. El uso del modelo Dado ayuda a preparar a los estudiantes para las experiencias con otros modelos de ProbLab que usan objetos virtuales que son menos familiares.
 
-Se alienta a los facilitadores a presentar este modelo como una mejora de los experimentos con dados reales. El modelo tiene varias ventajas sobre los dados reales. Los dados virtuales ruedan más rápido y la computadora puede registrar los resultados al instante y con precisión desde múltiples perspectivas simultáneamente.
+Se anima a los facilitadores a presentar este modelo como un mejoramiento de los experimentos con dados reales. El modelo tiene varias ventajas sobre los dados reales. Los dados virtuales se tiran más rápido y la computadora puede registrar los resultados de manera instantánea y precisa desde múltiples perspectivas simultáneamente.
 
 El modelo intenta involucrar al alumno permitiéndole elegir una combinación antes de ejecutar el experimento.
 
 ##  COMO USARLO
 
-Presione **configurar**, luego presione **Seleccionar valores**. Al hacer clic en los dados en la parte superior de la vista, recorre cada cara posible de los dados para finalmente establecer una combinación, por ejemplo [3; 4]. Cuando haya terminado, desmarque **Seleccionar valores**. Presiona **Roll Dice** para comenzar el experimento. Si configura el interruptor **único-éxito?** en &#39;Activado&#39;, el experimento se detendrá en el momento en que se produzca la combinación o una permutación de la combinación que eligió (dependiendo del **tipo de análisis** elegido). Si **single-success?** está desactivado, el experimento seguirá ejecutándose tantas veces como haya establecido los valores de los controles deslizantes **tamaño de muestra** y **muestras totales**. En la gráfica ventana de gráficos, puede ver que los histogramas comienzan a acumularse, mostrando cuántas veces el modelo ha hecho rodar su par en su orden original (**Combinaciones**) y cuántas veces ha descubierto su par en cualquier orden (**Permutación). **).
+Presiona **preparar**, luego presiona **Elegir Valores**. Al hacer clic en los dados en la parte superior de la vista, recorres cada posible cara de los dados para finalmente establecer una combinación, por ejemplo [3; 4]. Cuando hayas terminado, desactiva **Elegir Valores**. Presiona **Tirar Dado** para comenzar el experimento. Si estableces el **éxito-único?** cambia a 'Activado', el experimento se detendrá en el momento en que se lance la combinación o una permutación de la combinación que elegiste (según el **tipo-de-análisis** elegido). Si **éxito-único?** está desactivado, el experimento seguirá ejecutándose tantas veces como hayas establecido los valores de los controles deslizantes de **tamaño-de-muestra** y **total-de-muestras**. En la ventana del gráfico, puedes ver que los histogramas comienzan a apilarse, mostrando cuántas veces el modelo ha rodado tu par en su orden original (**Combinaciones**) y cuántas veces ha descubierto tu par en cualquier orden (**Permutación**).
 
 Botones ###:
 
-**configuración**: comienza un nuevo experimento
+**preparar**: comienza un nuevo experimento
 
-**Elegir valores**: le permite usar el mouse para haz clic en los cuadrados para elegir la cara del dado objetivo. Al hacer clic repetidamente en el mismo cuadrado, las caras del dado pasan por cada opción de valor nominal posible.
+**Elegir Valores**: te permite usar el ratón para hacer clic en los cuadrados para elegir la cara de los dados de objeto. Al hacer clic repetidamente en el mismo cuadrado, las caras del dado se giran a través de cada opción de valor nominal posible.
 
-**Ocultar/Revelar**: alterna entre ocultar y revelar los dados que escogiste. Esta función es útil cuando planteas una adivinanza a un amigo y no quieres que sepa qué dado has elegido.
+**Ocultar / Revelar**: alterna entre ocultar y revelar los dados que elegiste. Esta función es útil cuando planteas un acertijo a un amigo y no quieres que sepan qué dados elegiste.
 
-**Roll Dice**: activa el lanzamiento de dados de la computadora. El programa genera caras de dados aleatorias y compara el resultado con su combinación.
+**Tirar Dado**: activa el lanzamiento de los dados de la computadora. El programa genera caras de dados al azar y compara el resultado con tu combinación.
 
-### Interruptores:
+### **Interruptores**:
 
-**¿único-éxito?**: deja de rodar después de que la combinación se haya emparejado una vez.
+**¿éxito-único?**: deja de rodar después de que la combinación se haya emparejado una vez.
 
-**¿barras?**: alterna entre dos opciones de gráficos: &quot;Activado&quot; es un histograma y &quot;Desactivado&quot; ofrece un gráfico de líneas.
+**¿barras?**: alterna entre dos opciones de gráficos: "Activado" es un histograma y "Desactivado" proporciona un gráfico de líneas.
 
-### Opciones:
+### **Opciones**:
 
-**tipo de análisis**
+**Tipo-de-Análisis**
 
-* &quot;Permutaciones&quot;: No importa el orden, por lo que &#39;4 3&#39; se considera igual a su permutación &#39;3 4&#39; (se registra como un éxito)
-* &quot;Combinación&quot;: el orden importa, por lo que &#39;4 3&#39; no se acepta como lo mismo que su permutación &#39;3 4&#39; (no se registra como un éxito)
-* &quot;Ambos&quot;: &quot;Permutaciones&quot; y &quot;Combinación&quot; cuentan como éxitos
+* "Permutaciones": el orden no importa, por lo que '4 3' se considera igual que su permutación '3 4' (se registra como un éxito)
+* "Combinación": el orden importa, por lo que '4 3' no se acepta como lo mismo que su permutación '3 4' (no se registra como un éxito)
+* "Ambos": "Permutaciones" y "Combinaciones" cuentan como éxitos
 
-### Deslizadores:
 
-**tamaño de muestra**: el número de lanzamientos de dados en una muestra
+### **Deslizadores**:
 
-**total-samples**: el número de muestras que está tomando a lo largo de un experimento.
+**tamaño-de-muestra**: el número de tiradas de dados en una muestra
 
-### Monitores:
+**total-de-muestras**: el número de muestras que estás tomando a lo largo de un experimento.
 
-**#samples**: muestra cuántas muestras se han tomado hasta este punto en este experimento
+### **Monitores**
 
-**+ # Rolls**: muestra cuántos rollos individuales se han producido dentro de la muestra actual.
+**#samples**: muestra cuántas muestras se han tomado hasta este punto de este experimento.
 
-**Combinaciones**: Muestra el número de éxitos (donde importa el orden) en la muestra actual
+**+ # Tiros**: muestra cuántos tiros individuales se han producido dentro de la muestra actual.
 
-**Permutaciones**: Muestra el número de éxitos (donde el orden no importa) en la muestra actual
+**Combinaciones**: muestra el número de éxitos (donde el orden importa) en la muestra actual
 
-**Combinaciones de medias**: La media muestral de los éxitos (el orden es importante). Esto se calcula solo en muestras completas y completas.
+**Permutaciones**: muestra el número de éxitos (donde el orden no importa) en la muestra actual
 
-**Mean-Permutations**: la muestra de la media de los éxitos (el orden no importa). Esto se calcula solo en muestras completas y completas.
+**Combinaciones-Promedias**: el promedio de muestras de éxitos (el orden importa). Esto se calcula sólo en muestras completas.
 
-**Combinaciones: Permutaciones**: La proporción entre las tiradas exitosas de &#39;combinación&#39; y &#39;permutación&#39;. Esto se calcula solo en muestras completas y completas.
+**Permutaciones-Promedias**: el promedio de muestras de éxitos  (el orden no importa). Esto se calcula sólo en muestras completas.
 
-### Parcelas:
+**Combinaciones: Permutaciones**: La proporción entre las tiradas de 'combinación' y 'permutación' exitosas. Esto se calcula solo en muestras completas.
 
-**Distribuciones de éxitos por muestra**: El número de éxitos por muestra. Por ejemplo, si en las primeras cinco muestras, la combinación coincidió 3 veces, 2 veces, 4 veces, 7 veces y 4 veces, entonces el histograma de &quot;Combinaciones&quot; tendrá la misma altura sobre 2, 3 y 7, pero será el doble de alto sobre el 4, porque el 4 ocurrió dos veces.
+### **Graficas**:
+
+**Distribuciones-de-Éxitos-Por-Muestra**: el número de éxitos por muestra. Por ejemplo, si en las primeras cinco muestras, la combinación se hizo coincidir 3 veces, 2 veces, 4 veces, 7 veces y 4 veces, entonces el histograma "Combinaciones" tendrá la misma altura sobre 2, 3 y 7, pero será el doble de alto sobre el 4, porque el 4 ocurrió dos veces.
 
 ##  COSAS PARA NOTAR
 
-A medida que se ejecuta el experimento, las distribuciones de los resultados en las parcelas toman gradualmente una curva en forma de campana.
+A medida que avanza el experimento, las distribuciones de los resultados en las gráficas adoptan gradualmente una curva en forma de campana.
 
-Mientras el modelo lanza sus dados, observe los monitores **Combinaciones** y **Permutaciones**. Tenga en cuenta si están actualizando o no sus valores al mismo ritmo. Para la mayoría de las combinaciones que establezca, **Permutaciones** se actualiza mucho más rápido. Esto se debe a que **Permutaciones** registra un éxito cada vez que el modelo arroja los valores que seleccionó, incluso si aparecen en un orden diferente.
+Mientras el modelo lanza sus dados, observa los monitores **Combinaciones** y **Permutaciones**. Nota si están actualizando sus valores al mismo ritmo o no. Para la mayoría de las combinaciones que establezcas, las **permutaciones** se actualizan mucho más rápido. Esto se debe a que **Permutaciones** registra un éxito cada vez que el modelo tira los valores que seleccionaste, incluso si aparecen en un orden diferente.
 
-Mientras el modelo lanza sus dados, observe el monitor **Combinaciones: Permutaciones**. Al principio, cambia rápidamente y luego cambia cada vez con menos frecuencia. Eventualmente, parece estabilizarse en algún valor. ¿Porqué es eso?
+Mientras el modelo lanza sus dados, observa el monitor **Combinaciones**: **Permutaciones**. Al principio, cambia rápidamente y luego cambia cada vez con menos frecuencia. Finalmente, parece estabilizarse en algún valor. ¿Por qué es eso?
 
-A menos que el histograma rojo (que muestra las permutaciones) cubra completamente el histograma negro (que muestra la combinación), verá que el histograma de permutaciones siempre se vuelve más ancho y más corto que el histograma de combinaciones. Además, el histograma de permutaciones generalmente se extiende sobre un mayor rango de valores que el histograma de combinaciones. Trate de explicar por qué la distribución de permutaciones tiene mayor varianza que la distribución de combinaciones.
+A menos que el histograma rojo (que muestra las permutaciones) cubra el histograma negro (que muestra la combinación) por completo, verás que el histograma-de-permutaciones siempre se vuelve más ancho y más corto que el histograma-de-combinaciones. Además, el histograma-de-permutaciones generalmente se extiende sobre un rango mayor de valores que el histograma-de-combinaciones. Trata de explicar por qué la distribución-de-permutaciones tiene mayor varianza que la distribución-de-combinaciones.
 
-Además, puede notar que los histogramas de permutaciones y combinaciones cubren la misma área. Esto se debe a que el área total de cada histograma, independientemente de su ubicación a lo largo del eje horizontal y de su forma, indica el número de muestras. Como los dos histogramas representan el mismo número de muestras, tienen la misma área.
+Además, puedes notar que los histogramas de permutaciones y combinaciones cubren la misma área. Esto se debe a que el área total de cada histograma, independientemente de su ubicación a lo largo del eje horizontal e independientemente de su forma, indica el número de muestras. Debido a que los dos histogramas representan el mismo número de muestras, tienen la misma área.
 
 ##  COSAS PARA INTENTAR
 
-Generalmente, ¿hay siempre más permutaciones que combinaciones?
+Generalmente, ¿siempre hay más permutaciones que combinaciones?
 
-Ejecute un experimento con un tamaño de muestra de 20 y luego ejecútelo con la misma configuración pero con un tamaño de muestra de 100 o más. En cada experimento, observe la distribución de **Distribuciones de éxitos por muestra**. Vea cómo el experimento con la muestra pequeña resultó en una curva de media campana, mientras que el experimento con la muestra más grande resultó en una curva de campana completa. ¿Porqué es eso?
+Ejecuta un experimento con un tamaño de muestra de 20 y luego ejecútalo con la misma configuración pero con un tamaño de muestra de 100 o más. En cada experimento, observa los **Distribuciones-de-Éxitos-Por-Muestra**. Ve cómo el experimento con la muestra pequeña resultó en una curva de media campana, mientras que el experimento con la muestra más grande resultó en una curva de campana completa. ¿Por qué es eso?
 
-Presionar **Ocultar/Mostrar** después de crear una combinación te permite configurar un experimento para que lo ejecute un amigo. Tu amigo no sabrá cuál es la combinación y tendrá que analizar los gráficos y monitores para hacer una suposición informada. Puede encontrar que algunas combinaciones son más difíciles de adivinar que otras. ¿Porqué es eso? Por ejemplo, compare el caso de la combinación [1; 1] y [3; 4]. ¿Hay alguna buena manera de averiguar si estamos tratando con un doble o no? Esta pregunta también está relacionada con lo siguiente que debe probar.
+Si presionas **Ocultar / Revelar** después de crear una combinación, podrás configurar un experimento para que lo ejecute un amigo. Tu amigo no sabrá cuál es la combinación y tendrá que analizar los gráficos y monitores para hacer una suposición informada. Puedes encontrar que algunas combinaciones son más difíciles de adivinar que otras. ¿Porqué es eso? Por ejemplo, compara el caso de la combinación [1; 1] y [3; 4]. ¿Hay alguna buena forma de saber si estamos tratando con un doble o no? Esta pregunta también está relacionada con lo siguiente para intentar.
 
-Para ciertos valores de dados que elija, si el modelo lanza dados bajo la opción &quot;Ambos&quot; de la elección de **tipo de análisis**, verá solo un único histograma en **Distribuciones de éxitos por muestra**. Trate de elegir combinaciones de dados que produzcan un solo histograma. ¿Qué tienen en común estas combinaciones de dados? ¿Por qué crees que observas un único histograma? ¿Dónde está el otro histograma? ¿Cómo se comportan los monitores cuando tienes un solo histograma?
+Para ciertos valores de dados que elijas, si el modelo lanza dados bajo la opción "Ambos" de la opción de **tipo-de-análisis**, verás solo un histograma en **Distribuciones-de-Éxitos-Por-Muestra**. Intenta elegir combinaciones de dados que produzcan un solo histograma. ¿Qué tienen en común estas combinaciones de dados? ¿Por qué crees que observas solo un histograma? ¿Dónde está el otro histograma? ¿Cómo se comportan los monitores cuando tienes un solo histograma?
 
-Cuando los histogramas de combinaciones y permutaciones no se superponen, podemos hablar de la distancia entre sus medias a lo largo del eje x. ¿Qué elemento del modelo puede afectar esta distancia entre ellos? Por ejemplo, ¿qué debe hacer para obtener una mayor distancia entre estos histogramas? ¿Qué hace que los histogramas sean estrechos? ¿Son realmente más angostos, o es solo porque el valor máximo del eje x es mayor y, por lo tanto, los histogramas están &quot;llenos&quot;?
+Cuando los histogramas de combinaciones y permutaciones no se superponen, podemos hablar de la distancia entre sus promedias a lo largo del eje x. ¿Qué elemento del modelo puede afectar esta distancia entre ellos? Por ejemplo, ¿qué debes hacer para obtener una mayor distancia entre estos histogramas? ¿Qué hace que los histogramas sean angostos? ¿Son realmente más angostos o es simplemente porque el valor máximo del eje x es mayor y, por lo tanto, los histogramas están "abarrotados"?
 
-Establezca **sample-size** en 360 y **total-samples** en su valor máximo. Elige los dados [3; 4], y ejecute el experimento. Obtendrá una media de alrededor de 10 para la condición de Combinación (en la que importa el orden, por lo que solo [3; 4] se considera un éxito), y obtendrá una media de alrededor de 20 para la condición de Permutaciones (donde el orden no importa , por lo que tanto [3; 4] como [4; 3] se consideran éxitos). ¿Por qué 10 y 20? Hay 6*6=36 pares de dados diferentes cuando tomamos en consideración el orden: [1; 1] [1; 2] [1; 3] [1; 4] [1; 5] ... [6; 4] [6; 5] [6; 6]. Entonces, las muestras de 36 rollos tienen en promedio una sola ocurrencia de [3; 4] y una única ocurrencia de [4; 3]. Por lo tanto, las muestras de 360 tienen 10 veces eso: 10 ocurrencias de [3; 4] y 10 de [4; 3], en promedio.
+Establezca el **tamaño-de-muestra** en 360 y **total-de-muestras** en su valor máximo. Elige los dados [3; 4] y ejecuta el experimento. Obtendrás un promedio de aproximadamente 10 para la condición de Combinación (en qué orden importa, por lo que solo [3; 4] se considera un éxito), y obtendrás un promedio de aproximadamente 20 para la condición de Permutaciones (donde el orden no importa , por lo que tanto [3; 4] como [4; 3] se consideran éxitos). ¿Por qué 10 y 20? Hay 6 * 6 = 36 pares de dados diferentes cuando tenemos en cuenta el orden: [1; 1] [1; 2] [1; 3] [1; 4] [1; 5] ... [6; 4] [6; 5] [6; 6]. Por tanto, las muestras de 36 tiras tienen en promedio una sola aparición de [3; 4] y una sola aparición de [4; 3]. Por tanto, las muestras de 360 ​​tienen 10 veces más: 10 apariciones de [3; 4] y 10 de [4; 3], en promedio.
 
 ##  EXTENDIENDO EL MODELO
 
-Agregue una séptima cara de dado. ¡Entonces puedes realizar experimentos con dados de 7 caras!
+Agrega una séptima cara de dado. ¡Entonces puedes ejecutar experimentos con dados de 7 caras!
 
-Agrega una gráfica de la razón entre combinaciones y permutaciones.
+Agrega una gráfica de la proporción entre combinaciones y permutaciones.
 
-Actualmente, el modelo solo lanza dados al azar y registra cuándo su tirada es similar a los valores de dados que eligió. ¿Podría el modelo usar un procedimiento de búsqueda más eficiente para adivinar sus dados? Por ejemplo, en el momento en que uno de los cuadrados tenga la cara correcta del dado, el programa continuaría adivinando solo el otro dado. Otra idea podría ser crear un procedimiento de búsqueda sistemática.
+Actualmente, el modelo simplemente lanza los dados al azar y registra cuando su tirada es similar a los valores de los dados que elegiste. ¿Podría el modelo utilizar un procedimiento de búsqueda más eficiente para adivinar tus dados? Por ejemplo, en el momento en que uno de los cuadrados tenga la cara correcta del dado, el programa continuaría adivinando solo el otro dado. Otra idea podría ser la de crear un procedimiento de búsqueda sistemático.
 
-Debería ser interesante hacer un seguimiento de cuánto tarda el modelo de un éxito a otro. Agregue código, monitores y un gráfico para hacerlo.
+Debería ser interesante hacer un seguimiento del tiempo que tarda el modelo en pasar de un éxito a otro. Agrega código, monitores y una gráfica para hacerlo.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Confiamos en la iteración para distribuir uniformemente los dados en el modelo. En lugar de codificar los valores x e y de cada dado, calculamos un &quot;espacio&quot; entre ellos e iteramos sobre el número de dados (2). La ventaja de esto es que si alguna vez queremos agregar más dados, o si decidimos cambiar el tamaño de la vista del modelo, los dados se distribuirán uniformemente.
+Dependemos de la iteración para distribuir uniformemente los dados en el modelo. En lugar de codificar los valores x e y de cada dado, calculamos un 'espaciado' entre ellos e iteramos sobre el número de dados (2). La ventaja de esto es que si alguna vez queremos agregar más dados, o si decidimos cambiar el tamaño de la vista del modelo, los dados aún se distribuirán de manera uniforme.
 
-Una característica interesante de &quot;Dice&quot;, que no aparece en muchos otros modelos, es el procedimiento para seleccionar el valor nominal de un dado. Busque en el Editor de formas que se encuentra en el menú desplegable Herramientas. Encontrará seis formas de troquel: &quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;, &quot;5&quot; y &quot;6&quot;. Para usted, es obvio que tres puntos significan &quot;3&quot; y que esto es lo mismo que el número 3, pero el programa no &quot;sabe&quot; esto a menos que usted se lo &quot;diga&quot;. Esto no es un problema cuando comprobamos si la computadora ha encontrado una combinación, solo tenemos que comparar los nombres de las formas: ya sea &quot;tres&quot;, &quot;3&quot; o &quot;rinoceronte&quot;, lo importante es que coincidan. .
+Una característica interesante de "Dado", que no aparece en muchos otros modelos, es el procedimiento para seleccionar el valor nominal de un dado. Busca en el Editor de Formas que se encuentra en el menú desplegable Herramientas. Encontrarás seis formas de dado: "1", "2", "3", "4", "5" y "6". Para ti, es obvio que tres puntos significan "3" y que es lo mismo que el número 3, pero el programa no "sabe" esto a menos que se lo "digas". Esto no es un problema cuando comprobamos si el ordenador ha encontrado una combinación, solo tenemos que comparar los nombres de las formas: ya sea "tres", "3" o "rinoceronte", lo importante es que coincidan .
 
-Sin embargo, cuando queremos cambiar la cara de un dado a un número determinado, necesitamos convertir este número en una cadena. NetLogo tiene la primitiva `palabra` para eso: `(palabra 3)` convertirá el número `3` en la cadena `&quot;3&quot;`. Hasta aquí todo bien, pero ¿qué sucede cuando haces haz clic en un dado y pasa al siguiente valor? Las computadoras son buenas para sumar números, ¡pero no para sumar cadenas! El programa necesita mirar el nombre de la forma (`&quot;3&quot;`, en nuestro ejemplo), convertirlo en un número, agregarle `1` y luego volver a convertirlo en una cadena (`&quot;4&quot;` ) para obtener la forma correcta de la cara. La primitiva `read-from-string` hace la conversión de cadena a número.
+Sin embargo, cuando queremos cambiar la cara de un dado a un cierto número, necesitamos convertir este número en una cadena. NetLogo tiene la palabra primitiva para eso: (palabra 3) convertirá el número 3 en la cadena &. Hasta ahora todo va bien, pero ¿qué sucede cuando haces clic en un dado y pasa al siguiente valor? Las computadoras son buenas para sumar números, ¡pero no para sumar cadenas! El programa necesita mirar el nombre de la forma (3, en nuestro ejemplo), convertirlo en un número, agregarle 1 y luego convertirlo de nuevo en una cadena (4) para obtener la forma de la cara derecha. La primitiva lectura-de-cadena realiza la conversión de cadena a número.
 
-¡Y hay una complicación más! ¿Y si ya estamos en la cara número 6 y le sumamos 1? Obtenemos `7`, pero queremos volver a la cara 1. La operación matemática [modulo](https://en.wikipedia.org/wiki/Modulo_operation) (`mod`, en NetLogo) puede ayudarnos aquí: el resultado de cualquier número `mod 6` siempre será un número de `0` a `5`. Para convertir cualquier número (`7`, en nuestro ejemplo) en una cara del 1 al 6, restamos uno del número, aplicamos `mod 6`, volvemos a sumar uno y ¡voilà! Este pequeño baile está a cargo del reportero `shape-for`.
+¡Y hay una complicación más! ¿Qué pasa si ya estamos en la cara número 6 y le agregamos 1? Obtenemos 7, pero queremos volver a la cara 1. La operación módulo matemática (mod, en NetLogo) puede ayudarnos aquí: el resultado de cualquier número mod 6 siempre será un número de 0 a 5. Para convertir cualquier número ( 7, en nuestro ejemplo) a una cara del dado del 1 al 6, restamos uno del número, aplicamos el mod 6, volvemos a sumar uno y ¡voilà! Este pequeño baile está a cargo de la forma-para la reportera.
 
-Sugerencia: si desea agregar una séptima cara para los dados, como se sugirió anteriormente, deberá modificar el reportero `shape-for`...
+Sugerencia: si quisieras agregar una séptima cara para los dados, como se sugirió anteriormente, necesitarías modificar la forma-para el reportero ...
+
 
 ##  MODELOS RELACIONADOS 
 
-The ProbLab model Random Combinations and Permutations builds on Dice. There, you can work with more than just 2 dice at a time. Also, you can work with colors instead of dice faces.
+El modelo ProbLab de Combinaciones y Permutaciones Aleatorias se basa en Dado. Allí, puedes trabajar con más de 2 dados a la vez. Además, puedes trabajar con colores en lugar de caras de dados.
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-This model is a part of the ProbLab curriculum. For more information about the ProbLab Curriculum please refer to http://ccl.northwestern.edu/curriculum/ProbLab/.
+Este modelo es parte del plan de estudios de ProbLab. Para obtener más información sobre el Plan de Estudios de ProbLab, consulta http://ccl.northwestern.edu/curriculum/ProbLab/.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Abrahamson, D. and Wilensky, U. (2004).  NetLogo Dice model.  http://ccl.northwestern.edu/netlogo/models/Dice.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -156,3 +157,5 @@ Commercial licenses are also available. To inquire about commercial licenses, pl
 This model was created as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227.
 
 <!-- 2004 Cite: Abrahamson, D. -->
+
+Translated by: Cassandra Lagunas
