@@ -1,94 +1,101 @@
 ﻿*** fe3a06781c30ac8095aa52716cccdc0b
 ## ¿QUÉ ES??
 
-Disease Solo es una versión para un jugador de la actividad de HubNet Disease. Simula la propagación de una enfermedad a través de una población. Un agente en la población es una persona controlada por el usuario; los otros son &quot;androides&quot; controlados por la computadora.
+Enfermedad Sola es una versión para un-jugador de la actividad Enfermedad de HubNet. Simula la propagación de una enfermedad a través de una población. Un agente de la población es una persona controlada por el usuario; los otros son “androides” controlados por la computadora.
 
 ##  COMO FUNCIONA
 
-El usuario controla el agente azul a través de los botones y el control deslizante en el lado derecho de la vista. La infección se inicia presionando el botón &quot;infectar&quot;.
+El usuario controla el agente azul a través de los botones y el control deslizante en el lado derecho de la vista. La infección empieza cuando presionas el botón “infectar”.
 
-Los agentes enfermos se indican con un círculo rojo.
+Agentes enfermos se indican con un círculo rojo.
 
-Los androides pueden moverse usando algunas estrategias simples diferentes. De forma predeterminada, simplemente se mueven al azar, sin embargo, al usar el comando EVITAR? y CHASE? interruptores puede indicar que los androides no infectados deben huir de los infectados o que los androides infectados deben perseguir a los no infectados.
+Androides se pueden mover usando unas diferentes simples estrategias. Por defecto se mueven aleatoriamente, sin embargo, usando los interruptores  EVITAR? y PERSEGUIR? puedes indicar que los androides que no han sido infectados deben correr de los que si están infectados o que los infectados deben perseguir los que no están infectados.
 
 La persona también puede contraer la infección.
 
-Los &quot;agentes&quot; sanos en el mismo parche que los agentes enfermos tienen una POSIBILIDAD DE INFECCIÓN de enfermarse.
+“Agentes” sanos en la misma parcela que los agentes enfermos tienen una PROBABILIDAD-DE-INFECCIÓN de enfermarse.
 
 ##  COMO USARLO
 
 Botones ###
 
-SETUP/CLEAR: configura el mundo y borra las tramas.
-CONFIGURAR/MANTENER: configura el mundo sin borrar la gráfica; esto le permite comparar los resultados de diferentes ejecuciones.
-GO - ejecuta la simulación.
-INFECT - infecta a uno de los androides
+PREPARAR/LIMPIAR - prepara el mundo y limpia las parcelas.
+
+PREPARAR/MANTENER - prepara el mundo sin limpiar las parcelas; esto te permite comparar los resultados de diferentes ejecuciones. 
+
+IR - ejecuta la simulación. 
+
+INFECTAR- infecta uno de los androides.
+
 
 ### Deslizadores
 
-NUM-ANDROIDS: determina cuántos androides se crean en la configuración
-PROBABILIDAD DE INFECCIÓN: la posibilidad de que un agente sano en cada paso de tiempo se enferme si está en el mismo parche que un agente infectado
+NÚM-ANDROIDES - determina cuantos androides se crean a la preparación. 
+
+PROBABILIDAD-DE-INFECCIÓN - la posibilidad de que un agente sano en cada paso del tiempo se enferme si está en la misma parcela que un agente infectado.
+
 
 ### Monitores
 
-NÚMERO DE ENFERMOS - el número de agentes enfermos
+NÚMERO DE ENFERMOS - el número de agentes enfermos.
 
 ### Parcelas
 
-NÚMERO DE ENFERMOS - el número de agentes enfermos frente al tiempo
+NÚMERO DE ENFERMOS - el número de agentes enfermos versus tiempo.
 
 ### Interruptores
 
-¿EVITAR? - cuando este interruptor está encendido, cada androide no infectado verifica las cuatro direcciones para ver si puede moverse a un parche que esté a salvo de agentes infectados.
-¿PERSEGUIR? - cuando este interruptor está encendido, cada androide infectado verifica las cuatro direcciones para ver si puede infectar a otro agente.
+EVITAR? - cuando este interruptor está activado, cada androide no infectado verifica las cuatro direcciones para ver si se puede mover a una parcela que esté a salvo de agentes infectados. 
+
+PERSEGUIR? - cuando este interruptor está en cada androide infectado verifica las cuatro direcciones para ver si puede infectar a otro agente.
 
 ### Controles de usuario
 
-ARRIBA, ABAJO, IZQUIERDA y DERECHA: mueva a la persona alrededor del mundo, STEP-SIZE determina qué tan lejos se mueve la persona cada vez que se presiona uno de los botones de control.
+ARRIBA, ABAJO, IZQUIERDA y DERECHA - mueve la persona alrededor del mundo, TAMAÑO-PASO determina qué tan lejos se mueve la persona cada vez que se presiona uno de los botones de control.
 
 ##  COSAS PARA NOTAR
 
-Piensa en cómo cambiará la gráfica si modificas un parámetro. Alterar la probabilidad de infección tendrá diferentes efectos en la gráfica.
+Piensa como la gráfica cambiará si alteras un parámetro. La alteración de la probabilidad de infección tendrá diferentes efectos en la gráfica.
 
 ##  COSAS PARA INTENTAR
 
-Realice varias ejecuciones del modelo y registre un conjunto de datos para cada uno usando el botón configurar/mantener. Compara las diferentes parcelas resultantes.
+Haz varias ejecuciones del modelo y registra un conjunto de datos para cada una mediante el botón de configuración/mantenimiento. Compare las diferentes gráficas resultantes.
 
-¿Qué sucede con la gráfica a medida que se ejecuta con más y más androides?
+¿Qué le pasa a la gráfica cuando haces ejecuciones con más y más androides?
 
 ##  EXTENDIENDO EL MODELO
 
-Actualmente, los agentes permanecen enfermos una vez infectados. ¿Cómo cambiaría la forma de la gráfica si los agentes finalmente sanaran? Si, después de la curación, fueran inmunes a la enfermedad, o aún pudieran propagarla, ¿cómo se alteraría la dinámica?
+Actualmente, los agentes siguen enfermos una vez se han infectado. ¿Cómo cambiaría la forma de la gráfica si los agentes finalmente sanaran? Si, después de la curación, fueran inmunes a la enfermedad, o aún pudieran propagarla, ¿cómo se alteraría la dinámica?
 
-El usuario tiene una clara ventaja en esta versión del modelo (suponiendo que el objetivo sea no infectarse o infectar a otros), ya que el usuario puede ver el mundo entero y los androides solo pueden ver un parche delante de ellos. Intenta igualar el campo de juego dando a los androides un campo de visión más amplio.
+El usuario tiene una clara ventaja en esta versión del modelo (asumiendo que el objetivo es no infectarse o infectar a otros), ya que el usuario puede ver el mundo entero y los androides solo pueden ver una parcela delante de ellos. Trata de igualar el campo de juego dándoles a los androides un campo de visión más amplio.
 
-Determinar el primer agente infectado puede afectar la forma en que la enfermedad se propaga entre la población. Intente cambiar el objetivo de la primera infección para que el usuario pueda determinarlo.
+La determinación del primer agente infectado puede afectar la manera en que la enfermedad se propaga por la población. Intenta cambiar el objetivo de la primera infección para que el usuario pueda determinarlo.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Puede usar el teclado para controlar a la persona. Para activar los métodos abreviados de teclado para el botón de movimiento, oculte el centro de comando o haga clic en el fondo blanco.
+Puedes usar el teclado para controlar a la persona. Para activar los atajos de teclado para el botón de movimiento, oculte el centro de comando o haz clic en el fondo blanco.
 
-El gráfico utiliza plumillas temporales, en lugar de un conjunto fijo de plumillas permanentes, por lo que puede utilizar el botón configurar/mantener para superponer tantas ejecuciones como desee.
+La gráfica usa plumas de gráfica temporales, en lugar de un conjunto fijo de plumas de gráfica permanentes, para que puedas usar el botón de configuración/mantener para superponer tantas ejecuciones como deseas.
 
 ##  MODELOS RELACIONADOS 
 
-* Disease (HubNet version)
+* Enfermedad (versión HubNet)
 * Virus
-* HIV
+* VIH
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-This model is a one player version of the HubNet activity Disease.  In the HubNet version, multiple users can participate at once.
+Este modelo es una versión para un jugador de la actividad Enfermedad de HubNet. En la versión de HubNet, varios usuarios pueden participar a la vez.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (2005).  NetLogo Disease Solo model.  http://ccl.northwestern.edu/netlogo/models/DiseaseSolo.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -103,3 +110,5 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
 
 <!-- 2005 -->
+
+Translated by: Chelsea Guzman

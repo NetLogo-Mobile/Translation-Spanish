@@ -1,99 +1,98 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Language = Spanish
+﻿## Language = Spanish
 ## Plots
 ### Source
 default
-### Spanish ***
+### Spanish
 por defecto
 
 ### Source
 Number Sick
-### Spanish ***
-número enfermo
+### Spanish
+Número de Enfermos
 
 ### Source
 run 1
-### Spanish ***
-correr 1
+### Spanish
+ejecución 1
 
 ### Source
 sick
-### Spanish ***
+### Spanish
 enfermo
 
 ### Source
 time
-### Spanish ***
-hora
+### Spanish
+tiempo
 
 ## Widgets
 ### Source
 avoid?
-### Spanish ***
+### Spanish
 ¿evitar?
 
 ### Source
 chase?
-### Spanish ***
+### Spanish
 ¿perseguir?
 
 ### Source
 down
-### Spanish ***
+### Spanish
 abajo
 
 ### Source
 go
-### Spanish ***
+### Spanish
 ir
 
 ### Source
 infect
-### Spanish ***
+### Spanish
 infectar
 
 ### Source
 infection-chance
-### Spanish ***
-probabilidad de infección
+### Spanish
+probabilidad-de-infección
 
 ### Source
 left
-### Spanish ***
+### Spanish
 izquierda
 
 ### Source
 num-androids
-### Spanish ***
-num-androids
+### Spanish
+núm-androids
 
 ### Source
 Number Sick
-### Spanish ***
-número enfermo
+### Spanish
+Número de Enfermos
 
 ### Source
 right
-### Spanish ***
-Correcto
+### Spanish
+derecha
 
 ### Source
 setup/clear
-### Spanish ***
-configurar/borrar
+### Spanish
+preparar/borrar
 
 ### Source
 setup/keep
-### Spanish ***
-configurar/mantener
+### Spanish
+preparar/mantener
 
 ### Source
 step-size
-### Spanish ***
-Numero de pie
+### Spanish
+tamaño-de-paso
 
 ### Source
 up
-### Spanish ***
+### Spanish
 arriba
 
