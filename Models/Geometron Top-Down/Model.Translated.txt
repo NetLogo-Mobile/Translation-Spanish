@@ -1,103 +1,102 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 color-sep
-### Spanish ***
+### Spanish
 color-sep
 
 ### Source
 color-shift
-### Spanish ***
-Cambio de color
+### Spanish
+cambiar-color
 
 ### Source
 curr-color-sep
-### Spanish ***
+### Spanish
 curr-color-sep
 
 ### Source
 decrement
-### Spanish ***
+### Spanish
 decremento
 
 ### Source
 direction
-### Spanish ***
+### Spanish
 dirección
 
 ### Source
 expander
-### Spanish ***
+### Spanish
 expansor
 
 ### Source
 follow-turtle?
-### Spanish ***
-seguir-tortuga?
+### Spanish
+¿seguir-tortuga?
 
 ### Source
 increment
-### Spanish ***
+### Spanish
 incremento
 
 ### Source
 lift-pen
-### Spanish ***
-pluma elevadora
+### Spanish
+levantar-pluma
 
 ### Source
 max-num
-### Spanish ***
-max-num
+### Spanish
+núm-máx
 
 ### Source
 num-turtles
-### Spanish ***
-num-tortugas
+### Spanish
+núm-tortugas
 
 ### Source
 pattern 1
-### Spanish ***
+### Spanish
 patrón 1
 
 ### Source
 pattern 2
-### Spanish ***
+### Spanish
 patrón 2
 
 ### Source
 pattern 3
-### Spanish ***
+### Spanish
 patrón 3
 
 ### Source
 pattern 4
-### Spanish ***
+### Spanish
 patrón 4
 
 ### Source
 pattern 5
-### Spanish ***
+### Spanish
 patrón 5
 
 ### Source
 pattern 6
-### Spanish ***
+### Spanish
 patrón 6
 
 ### Source
 restore
-### Spanish ***
+### Spanish
 restaurar
 
 ### Source
 setup
-### Spanish ***
-configuración
+### Spanish
+preparar
 
 ### Source
 shift-direction
-### Spanish ***
-cambio de dirección
+### Spanish 
+cambiar-dirección
 

@@ -1,153 +1,155 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## ¿QUÉ ES??
+﻿## ¿QUÉ ES??
 
-Este modelo utiliza tortugas para dibujar repetidamente círculos y otras formas geométricas, mientras gira periódicamente, lo que da como resultado patrones complejos que parecen caleidoscopios y molinetes. Demuestra cómo incluso las reglas simples pueden crear patrones complejos y hermosos.
+Este modelo usa tortugas para dibujar repetidamente círculos y otras formas geométricas, mientras gira periódicamente, lo que da como resultado patrones complejos que parecen caleidoscopios y molinetes. Demuestra cómo incluso las reglas simples pueden crear patrones complejos y hermosos.
 
 ##  COMO FUNCIONA
 
 ### PATRÓN-1
-En este patrón, cada 10 tortugas avanza 0,5 pasos y hacia la derecha en DIRECCIÓN grados. Cada llamada al patrón genera una tortuga que realiza la función CÍRCULO DERECHO, luego la función CÍRCULO IZQUIERDO y luego muere. Al aumentar la DIRECCIÓN, las tortugas aumentan los grados en los que giran a la derecha. Esto significa que en cada movimiento hacia adelante, la tortuga gira más cerca de un punto central. Por lo tanto, cuando la DIRECCIÓN se establece en 0, la tortuga simplemente se mueve hacia adelante. Cuanto más se incrementa, digamos de 0 a 1 a 2 a 10, más circular se vuelve el movimiento de las tortugas. Aunque el patrón cambia, debe entenderse que la forma subyacente que se está creando es un círculo.
+En este patrón, cada 10 tortugas avanza 0.5 pasos y hacia la derecha en DIRECCIÓN grados. Cada llamada al patrón genera una tortuga que realiza la función CÍRCULO DERECHO, luego la función CÍRCULO IZQUIERDO y luego muere. Al aumentar la DIRECCIÓN, las tortugas aumentan los grados en los que giran a la derecha. Esto significa que en cada movimiento hacia adelante, la tortuga gira más cerca de un punto central. Por lo tanto, cuando la DIRECCIÓN se establece en 0, la tortuga simplemente se mueve hacia adelante. Cuanto más se incrementa, digamos de 0 a 1 a 2 a 10, más circular se vuelve el movimiento de las tortugas. Aunque el patrón cambia, debe entenderse que la forma subyacente que está creando es un círculo.
 
 ### PATRÓN-2
-Cada tortuga par avanza 1 paso y gira a la derecha 1 grado. Luego eclosiona una tortuga que realiza la función HEXÁGONO y luego muere. Cada tortuga impar avanza 1 paso y gira a la izquierda 1 grado. Luego eclosiona una tortuga que realiza la función OCTAGON y luego muere. Es interesante notar que cuando el control deslizante NÚMERO DE TORTUGAS se eleva a un número alto, es decir, mayor o igual a 20, el patrón en los números más bajos se vuelve irreconocible. Sin embargo, debe entenderse que aunque el nuevo patrón puede parecer diferente, las formas subyacentes que se están creando son el hexágono y el octágono.
+Cada tortuga par avanza 1 paso y gira a la derecha 1 grado. Luego eclosiona una tortuga que realiza la función HEXÁGONO y luego muere. Cada tortuga impar avanza 1 paso y gira a la izquierda 1 grado. Luego eclosiona una tortuga que realiza la función OCTAGON y luego muere. Es interesante notar que cuando el control deslizante NÚMERO DE TORTUGAS se eleva a un número alto, es decir, mayor o igual a 20, el patrón en los números más bajos se vuelve irreconocible. Sin embargo, debe entenderse que aunque el nuevo patrón pueda parecer diferente, las formas subyacentes que se están creando son el hexágono y el octágono. 
 
 ### PATRÓN-3
-Cada quinta tortuga avanza 0,5 pasos y gira a la derecha en DIRECCIÓN grados. Luego eclosiona una tortuga que realiza la función PENTÁGONO y luego muere. PATRÓN-3 y PATRÓN-5 son probablemente los patrones más simples en este modelo en términos de explicar su comportamiento. Básicamente, PATRÓN-3 crea pentágonos, pero debido a que las tortugas avanzan 0,5 y se mueven en la DIRECCIÓN correcta el número de grados, esto es lo que hace que el patrón cambie drásticamente. La ilusión es que las tortugas nacidas de alguna manera están creando diferentes formas, pero la verdad es que están haciendo pentágonos y siempre estarán haciendo pentágonos. Son solo las ligeras variaciones en las influencias externas las que provocan un cambio en el patrón.
+Cada quinta tortuga avanza 0.5 pasos y gira a la derecha DIRECCIÓN grados. Luego eclosiona una tortuga que realiza la función PENTÁGONO y luego muere. PATRÓN-3 y PATRÓN-5 son probablemente los patrones más simples en este modelo en términos de explicar su comportamiento. Básicamente, PATRÓN–3 crea pentágonos, pero debido a que las tortugas avanzan 0.5 y se mueven a la derecha DIRECCIÓN número de grados, esto es lo que hace que el patrón cambie drásticamente. La ilusión es que las tortugas nacidas de alguna manera están creando diferentes formas, pero la verdad es que están haciendo pentágonos y siempre estarán haciendo pentágonos. Son solo las ligeras variaciones en las influencias externas las que provocan en cambio en el patrón.
 
 ### PATRÓN-4
-Cada tercera tortuga gira a la derecha 1 grado y luego eclosiona una tortuga que realiza la función NINE-GON y luego muere. Todas las demás tortugas giran a la izquierda 1 grado y luego eclosionan una tortuga que realiza la función CÍRCULO IZQUIERDO y luego muere.
+Cada tercera tortuga fira a la derecha 1 grado y luego eclosiona una tortuga que realiza la función NUEVE-GÓN y luego muere. Todas las demás tortugas giran a la izquierda 1 grado y luego eclosionan una tortuga que realiza la función de CÍRCULO-IZQUIERDO y luego muere.
 
 ### PATRÓN-5
-Cada tortuga eclosiona otra tortuga que realiza la función LEFT-SQUARE y luego muere.
+Cada tortuga eclosiona otra tortuga que realiza la función CUADRADO-IZQUIERDO y luego muere.
 
 ### PATRÓN-6
-Cada tortuga avanza pasos de DIRECCIÓN y luego eclosiona una tortuga que realiza las siguientes funciones en el siguiente orden: NINE-GON, OCTAGON, RIGHT-CIRRCLE, PENTAGON, HEXAGON y LEFT-CIRCLE. Después de realizar estas funciones, cada tortuga que nace muere.
+Cada tortuga avanza DIRECCIÓN pasos y luego eclosiona una tortuga que realiza las siguientes funciones en el siguiente orden: NUEVE-GÓN, OCTAGÓN, CÍRCULO-DERECHA, PENTÁGONO, HEXÁGONO Y CÍRCULO-IZQUIERDO. Después de realizar estas funciones, cada tortuga que nace muere.
 
 ##  COMO USARLO
 
-Establezca NÚM-TORTUGAS en un valor deseado entre 0 y 36 (el valor predeterminado es 10). NUM-TURTLES determina con cuántas tortugas iniciales desea comenzar. Estas tortugas iniciales generarán otras tortugas formadoras.
+Establece NÚM-TORTUGAS en un valor deseado entre 0 y 36 (el valor predeterminado es 10). NÚM-TORTUGAS determina con cuántas tortugas iniciales deseas comenzar. Estas tortugas iniciales generarán otras tortugas formadoras.
 
-Establezca COLOR-SEP en un valor deseado entre 0 y 30 (el valor predeterminado es 2). COLOR-SEP determina la gama de colores que adoptarán las tortugas (y, por tanto, el caleidoscopio). Cuanto mayor sea el valor, menor será el rango.
+Establece COLOR-SEP en un valor deseado entre 0 y 30 (el valor predeterminado es 2). COLOR-SEP determina la gama de colores que adoptarán las tortugas (y, por tanto, el caleidoscopio). Cuanto mayor sea el valor, menor será el rango.
 
-Establezca MAX-NUM en un valor deseado entre 1024 y 8192 (el valor predeterminado es 4096). MAX-NUM determina el número máximo de tortugas que puede haber en el mundo en cualquier momento. Sin embargo, tenga en cuenta que un valor más alto hará que el modelo funcione más lento.
+Establece NÚM-MÁX en un valor deseado entre 1024 y 8192 (el valor predeterminado es 4096). NÚM-MÁX determina el número máximo de tortugas que puede haber en el mundo en cualquier momento. Sin embargo, tenga en cuenta que un valor más alto hará que el modelo funcione más lento.
 
-Cuando haya configurado COLOR-SEP y NUM-TURTLES, presione el botón SETUP para configurar el modelo.
+Cuando has configurado COLOR-SEP y NÚM-TORTUGAS, presiona el botón PREPARAR para configurar el modelo.
 
-A continuación, elige un patrón. En cada patrón, las tortugas iniciales eclosionan otras tortugas y esas tortugas eclosionadas dibujan diferentes formas geométricas. Cada patrón está representado por un botón para siempre. El usuario no puede cambiar PATRÓN-2, PATRÓN-4 o PATRÓN-6. PATRÓN-1, PATRÓN-3 y PATRÓN-5, sin embargo, permiten el control del usuario mediante los controles deslizantes DIRECCIÓN y EXPANSOR. Para obtener descripciones detalladas de las instrucciones de cada patrón, vaya al final de la ventana de información.
+A continuación, elige un patrón. En cada patrón, las tortugas iniciales eclosionan otras tortugas y esas tortugas eclosionadas dibujan diferentes formas geométricas. Cada patrón está representado por un botón para siempre. El usuario no puede cambiar PATRÓN-2, PATRÓN-4, o PATRÓN-6. PATRÓN-1, PATRÓN-3, y PATRÓN-5, sin embargo, permiten  el control del usuario mediante los controles deslizantes DIRECCIÓN y EXPANSOR. Para ver las descripciones detalladas de las instrucciones de cada patrón, ve al final de la ventana de información.
 
 El control deslizante DIRECCIÓN (el valor predeterminado es 2) está diseñado para PATRÓN-1 y PATRÓN-3. En cada ciclo, la DIRECCIÓN determina la cantidad que las tortugas que hacen patrones giran hacia la derecha. En otras palabras, si la DIRECCIÓN se establece en 12, cada tortuga girará 12 grados a la derecha antes de avanzar.
 
-El control deslizante EXPANDER está diseñado específicamente para el patrón 5 (el valor predeterminado es 80). En cada ciclo de PATRÓN-5, EXPANSOR determina qué tan grande será cada lado del polígono.
+El control deslizante EXPANSOR está diseñado para el patrón 5 (el valor predeterminado es 80). En cada ciclo del PATRÓN-5, EXPANSOR determina qué tan grande será cada lado del polígono.
 
-El usuario también tiene control sobre la distribución de color exhibida por cada patrón. El botón COLOR-SHIFT aumentará o disminuirá continuamente el valor de &#39;curr-color-sep&#39; en una pequeña cantidad aleatoria. Por lo tanto, el valor del control deslizante en sí no cambia, pero sí el valor del color de la tortuga. El selector SHIFT-DIRECTION determina si &#39;curr-color-sep&#39; aumenta o disminuye.
+El usuario también tiene control sobre la distribución de color exhibida por cada patrón. El botón CAMBIO-DE-COLOR aumentará o disminuirá continuamente el valor de ‘curr-cambio-color’ en una pequeña cantidad aleatoria. Por lo tanto, el valor del control deslizante en sí no cambia, pero sí el valor del color de la tortuga. El selector CAMBIO-DIRECCION determina si ‘curr-cambio-color-sep’ aumenta o disminuye.
 
-Otras características del modelo son los botones LIFT-PEN y RESTORE. LIFT-PEN levanta el bolígrafo sobre todas las tortugas y mata a todas las tortugas mayores que NUM-TORTLES. RESTORE mata a todas las tortugas mayores que NUM-TURTLES y les dice a todas las tortugas que dejen su pluma. Matar todas las tortugas mayores que NUM-TURTLES restaura el número original de tortugas en el mundo.
+Otras características del modelo son los botones LEVANTAR-PLUMA y RESTAURAR. LEVANTAR-PLUMA levanta el bolígrafo sobre todas las tortugas y mata a todas las tortugas mayores que NÚM-TORTUGAS. RESTAURAR mata a todas las tortugas mayores que NÚM-TORTUGAS y les dice a todas las tortugas que dejen su pluma. Matar todas las tortugas mayores que NÚM-TORTUGAS restaura el número original de tortugas en el mundo
 
-Una herramienta útil que se puede usar junto con los botones LIFT-PEN y RESTORE es un interruptor llamado FOLLOW-TURTLE. Cuando presiona LIFT-PEN sin que FOLLOW-TURTLE esté activado, verá el esqueleto del patrón ya que las tortugas se están moviendo sin su pluma hacia abajo. Pero cuando se enciende el interruptor, una tortuga recién nacida dejará su pluma. Sin embargo, dado que las tortugas nacen y mueren constantemente, es posible que esta tortuga en particular tarde un tiempo en aparecer. También debe entenderse que debido a que algunos de los patrones dividen a las tortugas en diferentes grupos y les asignan diferentes formas para crear, se le puede pedir a más de una tortuga que deje su bolígrafo para representar lo que están haciendo todas las tortugas en el patrón. .
+Una herramienta útil que se puede usar junto con los botones LEVANTAR-PLUMA y RESTAURAR es un interruptor llamado SEGUIR-TORTUGA. Cuando presionas LEVANTAR-PLUMA sin que SEGUIR-TORTUGA esté activado, ves el esqueleto del patreon ya que las tortugas se están moviendo sin su pluma hacia abajo. Pero cuando se enciende el interruptor, una tortuga recién nacida dejará su pluma. Sin embargo, dado que las tortugas nacen y mueren constantemente, es posible que esta tortuga en particular tarde un tiempo en aparecer. También se debe entender que debido a que algunos de los patrones dividen a las tortugas en diferentes grupos y les asignan diferentes formas para crear, se le puede pedir a más de una tortuga que deje su pluma para representar lo que están haciendo todas las tortugas en el patrón.
 
-Se proporcionan dos monitores en la parte inferior de la ventana de interfaz. COUNT-TURTLES muestra el número actual de tortugas en el mundo. Asimismo, CURR-COLOR-SEP muestra el valor de esa variable, para que sepas cuándo ha sido alterada y en qué medida.
+Se proporcionan dos monitores en la parte inferior de la ventana de interfaz. CONTAR-TORTUGAS muestra el número actual de tortugas en el mundo. Asimismo, CURR-COLOR-SEP muestra el valor de esa variable, para que sepas cuándo ha sido alterada y en qué medida.
 
 ##  COSAS PARA NOTAR
 
-Una cosa importante a notar aquí es el número dado en COUNT-TURTLES. Inmediatamente, se vuelve mucho más grande que NUM-TORTLES, pero rápidamente se convierte en un número grande y agradable. Eche un vistazo a la pestaña CÓDIGO. Inicialmente, al momento de la configuración, hay tortugas NUM-TURTLES. Una vez que se presiona uno de los botones de patrón, cada una de estas tortugas eclosiona repetidamente una nueva tortuga y gira en un grado específico.
+Una cosa importante a notar aquí es el número dado en CONTAR-TORTUGAS. inmediatamente, se vuelve mucho más grande que NÚM-TORTUGA, pero rápidamente se convierte en un número grande y agradable. Presta atención a la pestaña CÓDIGO. Inicialmente, al momento de configuración, hay tortugas NÚM-TORTUGAS. Una vez que se presiona uno de los botones de patrón, cada una de estas tortugas eclosionan repetidamente una nueva tortuga y gira en un grado específico.
 
-Es importante entender que este fenómeno, el hecho de que el NÚM-TORTUGAS inicial explote en un número mucho mayor que el NÚM-TORTUGAS se debe a que otras tortugas están saliendo del cascarón entre el momento en que nace una sola tortuga y el momento en que termina de dibujar su forma dada. Por lo tanto, si tuviéramos que agregar una declaración de `esperar` en uno de los patrones, no se podrían incubar tantas tortugas. En otras palabras, el número de tortugas mayor que NUM-TORTUGAS disminuiría. Como las tortugas ejecutan sus órdenes mucho más rápido que las tortugas nacidas, producen muchas tortugas durante un ciclo de un patrón; eventualmente, sin embargo, las tortugas comienzan a morir. En este punto, el número de tortugas que nacen es aproximadamente igual al número de tortugas que mueren en cualquier paso dado.
+Es importante entender que este fenómeno, el hecho de que el NUM-TORTUGAS inicial explote en un número mucho mayor que el NUM-TORTUGAS se debe a que otras tortugas están saliendo del cascarón entre el momento en que nace una sola tortuga y el momento en que termina de dibujar su forma dada. Por lo tanto, si tuviéramos que agregar una declaración de espera en uno de los patrones, no se podrían incubar tantas tortugas. En otras palabras, el número de tortugas mayor que NÚM-TORTUGAS disminuiría. Como las tortugas ejecutan sus órdenes mucho más rápido que las tortugas nacidas, producen muchas tortugas durante un ciclo de un patrón; eventualmente, sin embargo, las tortugas comienzan a morir. En este punto, el número de tortugas que nacen es aproximadamente igual al número de tortugas que mueren en cualquier paso dado.
 
-También debe notar cómo COLOR-SEP (conocido en el código como &#39;current-color-sep&#39;) altera la apariencia del patrón. Active COLOR-SHIFT y deje que &#39;current-color-sep&#39; se vuelva muy grande. Luego observa lo que sucede cuando es pequeño, tal vez cero o algún número negativo.
+También debes notar cómo COLOR-SEP (‘current-color-sep’ en el código) altera la apariencia del patrón. Activa CAMBIO-DE-COLOR y deje que ‘current-color-sep’ se vuelva muy grande. Luego observa lo que sucede cuando es pequeño, tal vez cero o algún número negativo.
 
 ##  COSAS PARA INTENTAR
 
-Intente jugar con el control deslizante DIRECCIÓN en PATRÓN-1 Y PATRÓN-3 y el control deslizante EXPANSOR en PATRÓN-5. Observe lo que sucede con el patrón a medida que cambia los valores de cada uno. GEOMETRON-TOP-DOWN está destinado a ser un modelo visualmente agradable solo para mirar. Vea qué valores diferentes de COLOR-SEP producen y explore cómo COLOR-SHIFT cambia la apariencia del caleidoscopio. ¿Qué te parece mejor?
+Intenta jugar con el control deslizante DIRECCIÓN en PATRÓN-1 Y PATRÓN-3 y el control deslizante EXPANSOR en PATRÓN-5. Observa lo que pasa con el patrón a medida que cambia los valores de cada uno. GEOMETRÓN-ARRIBA-HACIA-ABAJO está destinado a ser un modelo visualmente agradable solo para mirar. Vea qué valores diferentes de COLOR-SEP producen y explore cóo CAMBIO-DE-COLOR cambia la apariciencia del caleidoscopio. ¿Qué te parece mejor?
 
-Intente cambiar el código en la pestaña Código. Aumente el tamaño de las formas dibujadas por cada una de las tortugas, o intente cambiar el tamaño del ángulo que gira cada una de las tortugas.
+Intenta cambiar el código en la pestaña Código. Aumente el tamaño de las formas dibujadas por cada una de las tortugas, o intente cambiar el tamaño del ángulo que gira cada una de las tortugas.
 
-En lugar de que cada tortuga se mueva o gire una cantidad dada, ¿qué tal si se mueve una pequeña cantidad aleatoria (como en los cambios a curr-color-sep de COLOR-SHIFT). ¿Cuánta aleatoriedad puedes agregar al &#39;caleidoscopio&#39; y aun así mantener algún tipo de estructura general?
+En lugar de que cada tortuga se mueva o gire una cantidad dada, ¿qué tal si se mueve o gira una pequeña cantidad aleatoria (como en los cambios a curr-color-sep de CAMBIO-DE-COLOR)? ¿Cuánta aleatoriedad puedes agregar al ‘caleidoscopio’ y aun así mantener algún tipo de estructura general?
 
-Después de ejecutar uno de los patrones, intente cambiar el número de NUM-TURTLES y luego detenga el patrón y presione CLEAR-PATCHES-LIFT-PEN. Luego comienza el patrón de nuevo. ¿Lo que sucede? ¿Puedes explicar por qué sucede esto?
+Después de ejecutar uno los patrones, intente cambiar el número de NÚM-TORTUGAS y luego detenga el patrón y presiona BORRAR-PARCELAS-LEVANTAR-PLUMA. Luego comienza el patrón de nuevo. ¿Qué pasa? ¿Puedes explicar por qué esto pasa?
 
-Intente cambiar el control deslizante MAX-NUM durante una ejecución, ¿qué sucede? ¿Puedes explicar por qué ocurre esto?
+Intenta cambiar la diapositiva MÁX-NÚMERO durante una ejecución, ¿qué pasa? ¿Puedes explicar por qué ocurre esto?
 
 ##  EXTENDIENDO EL MODELO
 
-Cada vez que una tortuga es incubada por una de NUM-TORTUGAS, procede a dibujar un patrón determinado. Cambie los comandos en `hatch` para que la tortuga dibuje alguna otra forma o patrón. Trate de predecir qué forma general surgirá.
+Cada vez que una tortuga es incubada por una de NÚM-TORTUGAS, procede a dibujar un patrón determinado. Cambia los comandos en sombreado para que la tortuga dibuje alguna otra forma o patrón. Trate de predecir qué forma general surgirá.
 
-Intente escribir un tipo completamente nuevo de proyecto GEOMETRON-TOP-DOWN. En el proyecto actual, las tortugas surgen de un núcleo central de tortugas NUM-TURTLES. En su nuevo proyecto, tal vez las tortugas dibujadas podrían orbitar alrededor de algún punto fijo (o en movimiento); mire los proyectos de NetLogo &#39;n-cuerpos&#39; y &#39;gravitación&#39;.
+Trata de escribir un completamente nuevo tipo de proyecto GEOMETRÓN-ARRIBA-HACIA-ABAJO. En el proyecto actual, las tortugas surgen de un núcleo central de tortugas NÚM-TORTUGAS. En tu nuevo proyecto, tal vez las tortugas dibujadas podrían orbitar alrededor de algún punto fijo (o en movimiento); observa los proyectos de NetLogo ‘n-cuerpos’ y ‘gravitación’.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-GEOMETRON-TOP-DOWN hace un buen uso de la tortuga primitiva `escotilla`. Cada vez que nace una tortuga, ejecuta la lista de comandos que sigue al comando `hatch`. En general, todo lo que hace es cambiar su color o alterar alguna variable; no hay razón para que no pueda ejecutar algún otro procedimiento, posiblemente largo. Que es exactamente lo que sucede aquí.
+GEOMETRÓN-ARRIBA-HACIA-ABAJO hace un buen uso de la escotilla primitiva de tortuga. Cada vez que nace una tortuga, ejecuta la lista de comandos que sigue al comando de nacimiento. En general, todo lo que hace es cambiar su color o alterar alguna variable; no hay razón para que no pueda ejecutar algún otro procedimiento, posiblemente uno que sea largo. Eso es exactamente lo que pasa aquí.
 
-Este modelo es uno de los raros modelos en la biblioteca de modelos de NetLogo que utiliza el modo de actualización de pantalla &quot;continua&quot;. Esto se debe a que este modelo no tiene un concepto de &quot;ticks&quot; ya que cada tortuga sigue un conjunto de reglas en paralelo.
+Este modelo es uno de los modelos raros en la biblioteca de modelos de NetLogo que utiliza el modo de actualización de pantalla “continua”. Esto se debe a que este modelo no tiene un concepto de tics ya que cada tortuga sigue un conjunto de reglas en paralelo.
 
 ##  NOTAS SOBRE LAS FORMAS
 
-La siguiente es una lista de todas las funciones de formas básicas que se utilizan en este modelo para crear los seis patrones. Es importante comprender que la complejidad de los patrones en realidad no son más que diferentes combinaciones de estas funciones de forma. Por ejemplo, el patrón 1 utiliza las funciones de forma derecha e izquierda. Ambas funciones simplemente dibujan círculos. Sin embargo, al agregar ligeras variaciones a lo que hace la tortuga y cuáles lo hacen, es posible crear el patrón representado por el patrón-1. Este, de hecho, es el algoritmo básico que utiliza el modelo para crear todos los patrones. Tome las funciones de forma básicas, agregue ligeras variaciones a lo que hacen las tortugas y elija qué tortugas lo hacen.
+Lo siguiente es una lista de todas las funciones de formas básicas que se utilizan en este modelo para crear los seis patrones. Es importante comprender que la complejidad de los patrones en realidad no son más que diferentes combinaciones de estas funciones de forma. Por ejemplo, el patrón-1 usa las funciones de forma derecha e izquierda. Ambas funciones simplemente dibujan círculos. Sin embargo, al agregar ligeras variaciones a lo que hace la tortuga y cuáles lo hacen, es posible crear el patrón representado por el patrón-1. Esto, de hecho, es el algoritmo básico que usa el modelo para crear todos los patrones. Tome las funciones de forma básica, agregue ligeras variaciones a lo que hacen las tortugas y elija qué tortugas lo hacen.
 
 sobre CÍRCULO DERECHO:
-Realiza el siguiente procedimiento 180 veces:
-Avanza 1,5 pasos y gira a la derecha 2 grados.
-Para ver la forma que crea esta función, intente llamarla en el centro de comando con una tortuga con el lápiz hacia abajo.
-Una tortuga creará un círculo que se dirige en la dirección correcta.
+Realiza el siguiente procedimiento 180 veces: 
+Avanza 1.5 pasos y gira a la derecha 2 grados. 
+Para ver la forma que crea esta función, intente llamarla en el centro de comando con una tortuga con el lápiz hacia abajo. 
+Una tortuga creará un círculo que se dirige a la derecha.
 
-sobre el CÍRCULO IZQUIERDO:
-Realiza el siguiente procedimiento 180 veces:
-Avanza 1,5 pasos y gira a la izquierda 2 grados.
-Para ver la forma que crea esta función, intente llamarla en el centro de comando con una tortuga con el lápiz hacia abajo.
+sobre CÍRCULO IZQUIERDO:
+Realiza el siguiente procedimiento 180 veces: 
+Avanza 1.5 pasos y gira a la izquierda 2 grados. 
+Para ver la forma que crea esta función, intente llamarla en el centro de comando de una tortuga con el lápiz hacia abajo. 
 Una tortuga creará un círculo que se dirige en la dirección izquierda.
 
-sobre el CUADRADO IZQUIERDO:
+sobre CUADRADO IZQUIERDO:
 Realiza el siguiente procedimiento 4 veces:
-Avance los pasos EXPANDER y gire a la derecha 90 grados.
-Para ver la forma que crea esta función, intente llamarla en el centro de comando con una tortuga con el lápiz hacia abajo.
+Avanza EXPANSOR pasos y gira a la derecha 90 grados. 
+Para ver la forma que crea esta función, intente llamarla en el centro de comando con una tortuga con el lápiz hacia abajo. 
 Una tortuga creará un rumbo cuadrado en la dirección izquierda.
 
 sobre TRIÁNGULO RECTÁNGULO:
-Realiza el siguiente procedimiento 3 veces:
-Avanza 35 pasos y gira a la derecha 120 grados.
-Para ver la forma que crea esta función, intente llamarla en el centro de comando con una tortuga con el lápiz hacia abajo.
-Una tortuga creará un triángulo que se dirige en la dirección correcta.
+Realiza el siguiente procedimiento 3 veces: 
+Avanza 35 pasos y gira a la derecha 120 grados. 
+Para ver la forma que crea esta función, intente llamarla en el centro de comando con una tortuga con el lápiz hacia abajo. 
+Una tortuga creará un triángulo que se dirige a la derecha.
 
-sobre octágono:
-Realiza el siguiente procedimiento 8 veces:
-Avanza 30 pasos y gira a la derecha 45 grados.
-Para ver la forma que crea esta función, intente llamarla en el centro de comando con una tortuga con el lápiz hacia abajo.
+
+sobre OCTÁGONO:
+Realiza el siguiente procedimiento 8 veces: 
+Avanza 30 pasos y gira a la derecha 45 grados. 
+Para ver la forma que crea esta función, intenta llamarla en el centro de comando con una tortuga con el lápiz hacia abajo. 
 Una tortuga creará un octágono que se dirige en la dirección correcta.
 
-sobre el PENTÁGONO:
-Realiza el siguiente procedimiento 5 veces:
-Avanza 35 pasos y gira a la derecha 72 grados.
-Para ver la forma que crea esta función, intente llamarla en el centro de comando con una tortuga con el lápiz hacia abajo.
-Una tortuga creará un pentágono que se dirige en la dirección correcta.
+sobre PENTÁGONO:
+Realiza el siguiente procedimiento 5 veces: 
+Avanza 35 pasos y gira a la derecha 72 grados. 
+Para ver la forma que crea esta función, intente llamarla en el centro de comando con una tortuga con el lápiz hacia abajo. 
+Una tortuga creará un pentágono que se dirige a la derecha.
+
 
 sobre HEXÁGONO:
-Realiza el siguiente procedimiento 6 veces:
-Avanza 30 pasos y gira a la derecha 60 grados.
-Para ver la forma que crea esta función, intente llamarla en el centro de comando con una tortuga con el lápiz hacia abajo.
-Una tortuga creará un encabezado hexagonal en la dirección correcta.
+Realiza el siguiente procedimiento 6 veces: 
+Avanza 30 pasos y gira a la derecha 60 grados. 
+Para ver la forma que crea esta función, intenta llamarla en el centro de comando con una tortuga con el lápiz hacia abajo. 
+Una tortuga creará un encabezado hexagonal a la derecha. 
 
 sobre NINE-GON:
 Realiza el siguiente procedimiento 9 veces:
-Avanza 35 pasos y gira a la derecha 40 grados.
+Avanza 35 pasos y gira a la derecha 40 grados. 
 Para ver la forma que crea esta función, intente llamarla en el centro de comando con una tortuga con el lápiz hacia abajo.
-Una tortuga creará un rumbo de nueve ágonos en la dirección correcta.
+Una tortuga creará un rumbo de nueve-gono a la derecha.
+
 
 ##  NOTAS SOBRE EL CÓDIGO
 
-Observe que en cada una de estas funciones, el número de veces que se repite el procedimiento multiplicado por el número de grados que la tortuga gira hacia la derecha o hacia la izquierda es igual a 360 grados. Lo que significa que cada una de las tortugas está creando un polígono.
+Observa que en cada una de estas funciones, el número de veces que se repite el procedimiento multiplicado por el número de grados que la tortuga gira hacia la derecha o hacia la izquierda es igual a 360 grados. Lo que significa que cada una de las tortugas está creando un polígono.
 
-Descubrí que en los patrones en los que la tortuga avanza varios pasos y luego gira a la derecha oa la izquierda en alguna dirección, esta acción cambia significativamente el patrón. Por ejemplo, en el patrón 1, el hecho de que cada tortuga al nacer se mueva 0,5 pasos hacia adelante significa que la forma resultante de la función CÍRCULO DERECHO O CÍRCULO IZQUIERDO se parecerá a un frijol en lugar de un círculo, que es lo que el CÍRCULO DERECHO y la función LEFT-CIRCLE están diseñadas para producir.
+Descubrí que en los patrones en los que la tortuga avanza varios pasos y luego gira a la derecha o a la izquierda en alguna dirección esta acción cambia significativamente el patrón. Por ejemplo, en el patrón-1, el hecho de que cada tortuga que nace se mueva 0.5 pasos hacia adelante significa que la forma resultante de la función CÍRCULO-DERECHO O CÍRCULO-IZQUIERDO se parecerá a un frijol en lugar de un círculo, que es lo que el CÍRCULO-DERECHO y la función CÍRCULO-IZQUIERDO están diseñadas para producir.
 
-Es importante entender que estos patrones se pueden crear porque obedecen ciertas reglas básicas sobre geometría. Por ejemplo, mencioné anteriormente que todas las funciones crean polígonos. Esto se debe a que todo polígono debe tener la suma interior de sus ángulos igual a 360 grados. Sin embargo, ciertas ligeras alteraciones como las mencionadas anteriormente, son suficientes para cambiar la forma y crear una nueva. Por ejemplo, si el control deslizante de DIRECCIÓN comenzó en 0 en el patrón 1, cada tortuga recién nacida simplemente avanzaría 0,5 pasos mientras creaba su patrón. Sin embargo, si aumentamos el control deslizante en incrementos de 0,1, notamos que sus movimientos parecen volverse más y más estrictos hasta que permanece fijo en un lugar y sigue girando alrededor de un punto.
+Es importante entender que estos patrones se pueden crear porque obedecen ciertas reglas básicas sobre geometría. Por ejemplo, mencioné anteriormente que todas las funciones crean polígonos. Esto se debe a que todo polígono debe tener la suma interior de sus ángulos igual a 360 grados. Sin embargo, ciertas ligeras alteraciones como las mencionadas anteriormente, son suficientes para cambiar la forma y crear una nueva. Por ejemplo, si el control deslizante de DIRECCIÓN comenzó en 0 en el patrón-1, cada tortuga recién nacida simplemente avanzaría 0.5 pasos mientras creaba su patrón. Sin embargo, si aumentamos el control deslizante en incrementos de 0.1, notamos que sus movimientos parecen converse más y más estrictos hasta que permanece fijo en un lugar y sigue girando alrededor de un punto.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1998).  NetLogo Geometron Top-Down model.  http://ccl.northwestern.edu/netlogo/models/GeometronTop-Down.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -166,3 +168,5 @@ This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SEN
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
 
 <!-- 1998 2001 -->
+
+Translated by: Chelsea Guzman
