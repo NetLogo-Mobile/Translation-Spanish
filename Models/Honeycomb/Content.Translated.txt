@@ -1,43 +1,42 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## ¿QUÉ ES??
+﻿## ¿QUÉ ES??
 
-¿Cómo pueden los grupos de abejas construir sus panales con hexágonos perfectos? Este modelo ilustra una hipótesis para un posible mecanismo.
+¿Cómo es que los grupos de abejas pueden construir sus panales con hexágonos perfectos? Este modelo ilustra una hipótesis de un posible mecanismo.
 
 ##  COMO FUNCIONA
 
-Cada abeja se mueve en un círculo en el sentido de las agujas del reloj, esparciendo una feromona química detrás de ella. Con el tiempo, la feromona se difunde y eventualmente se evapora. La feromona afecta el comportamiento de las abejas que se arrastran sobre ella de la siguiente manera: las abejas se mueven más rápido cuando hay más feromona, pero también disminuyen su radio de giro. Los efectos de estas dos reglas se equilibran entre sí, dejando el tamaño de los bucles más o menos constante.
+Cada abeja se mueve en un círculo en el sentido de las agujas del reloj, propagando una química feromona detrás de ella. Con el tiempo, la feromona se difunde y finalmente se evapora. La feromona afecta el comportamiento de las abejas que se arrastran sobre ella de la siguiente manera: las abejas se mueven más rápido cuando hay más feromona, pero disminuyen su radio de giro. Los efectos de estas dos reglas se equilibran, dejando el tamaño de los bucles aproximadamente constante.
 
 ##  COMO USARLO
 
-Presiona SETUP para crear algunas abejas y presiona GO para comenzar sus rondas. Si desea que el modelo funcione más rápido, haga que las abejas sean invisibles con el botón OCULTAR ABEJAS. Apague la pantalla a través de los controles de vista para que el modelo se ejecute aún más rápido.
+Presiona PREPARAR para crear algunas abejas, y presiona IR para empezarlas en sus rondas. Si quieres que el modelo se ejecute más rápido, haz que las abejas sean invisibles con el botón OCULTAR ABEJAS. Apague el mostrador a trávez de los controles de vistas para que el modelo se ejecute aún más rápido.
 
 ##  COSAS PARA NOTAR
 
-Inicialmente, las abejas dibujan un gran desorden de bucles irregulares. Pero con el tiempo, los bucles se organizan en una cuadrícula suelta. A medida que pasa el tiempo, la cuadrícula se vuelve más y más regular, acercándose a una red hexagonal perfecta, que es la disposición óptima para maximizar la cantidad de círculos que caben en una superficie.
+Al principio, las abejas dibujan un gran lío de bucles irregulares. Pero con el tiempo, los bucles se clasifican en una cuadrícula suelta. En cuanto el tiempo pasa, la cuadrícula se vuelve cada vez más regular, acercándose a una celosía hexagonal perfecta, la que es la disposición óptima para maximizar el número de círculos que caben en la superficie.
 
 ##  COSAS PARA INTENTAR
 
-Experimente con el efecto de variar el número de abejas.
+Experimenta con el efecto de variar el número de abejas.
 
 ##  EXTENDIENDO EL MODELO
 
-Hay muchos números elegidos arbitrariamente en la pestaña Código. Experimente con el efecto de variarlos.
+Hay muchos números elegidos arbitrariamente en la pestaña Código. Experimenta con el efecto de variarlos.
 
-En esta versión de los modelos, las abejas envuelven los bordes del mundo. Intente modificar el modelo para que las abejas se agrupen cerca del centro del mundo, para evitar que se envuelvan. ¿Lo que sucede?
+En esta versión de los modelos, las abejas rodean los confines del mundo. Intenta modificar el modelo para que las abejas se agrupan cerca del centro del mundo, para evitar que se rodean. ¿Qué pasa?
 
-Además, intente que todas las abejas comiencen desde una ubicación central. ¿Esto todavía produce la red hexagonal en todo el mundo?
+También, intenta que todas las abejas comienzen desde una ubicación central. ¿Sigue produciendo esto la celosía hexagonal en todo el mundo?
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Se necesita tiempo para difundir y evaporar el químico en cada parche del mundo, por lo que en lugar de hacerlo cada paso de tortuga, lo hacemos cada 10 pasos de tortuga. Esto acelera mucho el modelo sin alterar notablemente el comportamiento.
+Se necesita tiempo para difundir y evaporar la química en cada parcela del mundo, así que en lugar de hacerlo en cada paso de tortuga, lo hacemos cada 10 pasos de tortuga. Esto acelera mucho el modelo sin alterar notablemente el comportamiento.
 
 ##  MODELOS RELACIONADOS 
 
-Slime and Ants are other models that use pheromones to coordinate the behavior of individuals into an interesting overall effect.
+Slime y hormigas son otros modelos que usan feromonas para coordinar el comportamiento de individuos para crear un efecto general interesante.
 
 ##  CRÉDITOS Y REFERENCIAS 
 
-The rules for this model were invented by David Little in 1995.  The NetLogo code is adapted from his original MacStarLogo code.  On the starlogo-users list, he wrote:
+Las reglas para este modelo fueron inventadas por David Little en 1995. El código NetLogo está adaptado de su código original MacStarLogo. En la lista de usuarios-starlogo, escribió:
 
 > During a visit to Tilff, in the Belgian Ardennes this summer, I was amazed to watch live beehives that had been built with glass walls, in the Bee Museum there. You could see into the hive, and observe the bees' activity (safely!). As if by magic, the regular architecture of the hive emerges from the seemingly random motions of the workers: the famous hexagonal array, constructed on both sides of plates hung vertically, and evenly spaced apart. The million-dollar question is, how do they do it? Is the beehive determined by their genes? How is it that different sized bees make cells all exactly the same size?
 
@@ -45,7 +44,9 @@ The rules for this model were invented by David Little in 1995.  The NetLogo cod
 
 > I don't claim that real bees work with the same rules, but I've proved my hypothesis anyway!
 
-Researchers have extensively studied honeycomb formation.  Here are some references to consult for further information:
+Investigadores han estudiado extensamente la formación de panales. Aquí hay algunas referencias para consultar para más información:
+
+Researchers have extensively studied honeycomb formation. Here are some references to consult for further information:
 
 Camazine, S., et al., Self-organization in biological systems. 2001, Princeton, NJ: Princeton University Press. 538. (ch.16)
 
@@ -59,13 +60,13 @@ Theraulaz and Eric Bonabeau. Coordination in distributed building. Science, 269(
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software de NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (2003).  NetLogo Honeycomb model.  http://ccl.northwestern.edu/netlogo/models/Honeycomb.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software de NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -82,3 +83,5 @@ Commercial licenses are also available. To inquire about commercial licenses, pl
 This model was created as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227.
 
 <!-- 2003 -->
+
+Translated by: Cassandra Lagunas
