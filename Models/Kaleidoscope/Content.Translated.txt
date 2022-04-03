@@ -1,51 +1,50 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## ¿QUÉ ES??
+﻿## ¿QUÉ ES??
 
-Este modelo usa tortugas NetLogo para dibujar círculos repetidamente, girando periódicamente para que la pantalla dé la impresión de un caleidoscopio o un molinete. Es una demostración de cómo un conjunto de reglas de agentes simples puede dar lugar a patrones complejos y hermosos.
+Este modelo usa tortugas de NetLogo para dibujar círculos repetidamente, girando periódicamente para que el monitor de una impresión de un caleidoscopio o molinillo. 
 
 ##  COMO FUNCIONA
 
-El funcionamiento interno del modelo es bastante simple. Varias tortugas se crean con la pluma hacia abajo (donde sea que se muevan, dibujarán un rastro). En cada tic, cada tortuga original eclosiona una nueva &quot;tortuga dibujante&quot; cuyo único trabajo es dibujar un círculo y luego morir inmediatamente. Entre las eclosiones, lo único que hacen las tortugas originales es girar lentamente. Si bien hay dos patrones incorporados para el modelo, ambos siguen el mismo conjunto de reglas, con la única diferencia de que la mitad de las tortugas dibujadas en el PATRÓN-2 dibujan círculos en el sentido contrario a las agujas del reloj, mientras que todas las tortugas en el PATRÓN-1 dibujan círculos en el sentido de las agujas del reloj. .
+El funcionamiento interno del modelo es bastante simple. Varias tortugas se crean con la pluma hacia abajo (donde sea que se muevan, dibujarán un rastro). En cada tic, cada tortuga original eclosiona una nueva "tortuga dibujante" cuyo único trabajo es dibujar un círculo y luego morir inmediatamente. Entre las eclosiones, lo único que hacen las tortugas originales es girar lentamente. Si bien hay dos patrones incorporados para el modelo, ambos siguen el mismo conjunto de reglas, con la única diferencia de que la mitad de las tortugas dibujadas en el PATRÓN-2 dibujan círculos en el sentido contrario a las agujas del reloj, mientras que todas las tortugas en el PATRÓN-1 dibujan círculos en el sentido de las agujas del reloj.
 
 ##  COMO USARLO
 
-El control deslizante NÚMERO DE TORTUGAS realmente determina el número de &quot;brazos&quot; o &quot;pétalos&quot; que tendrá el caleidoscopio. Comience configurando este control deslizante en el valor deseado (10 está bien).
+El control deslizante NTORTUGAS realmente determina la cantidad de "brazos" o "pétalos" que tendrá el caleidoscopio. Comienza al configurar este control deslizante en el valor deseado (10 está bien).
 
-A continuación, establezca COLOR-SEP en algún valor. COLOR-SEP determina la gama de colores que adoptarán las tortugas (y, por tanto, el caleidoscopio). Cuanto mayor sea el valor, menor será el rango. Para un bonito caleidoscopio de tres colores, establezca COLOR-SEP en 25. Esta relación inversa entre COLOR-SEP y la gama de colores se debe al hecho de que COLOR-SEP actúa como una constante para dividir el color de una tortuga.
+Después, establece COLOR-SEP en algún valor. COLOR-SEP básicamente determina la gama de colores que las tortugas adoptarán (y por tanto el caleidoscopio). Cuanto mayor sea el valor, menor será el alcance. (Para un caleidoscopio bonito de tres colores, establezca COLOR-SEP en 25.) Esta relación inversa entre COLOR-SEP y la gama de colores se debe al hecho de que COLOR-SEP actúa como un constante para dividir el color de una tortuga.
 
-Cuando haya configurado NUM-TURTLES y COLOR-SEP, presione el botón SETUP para preparar su modelo para dibujar.
+Cuando tengas NTORTUGAS y COLOR-SEP configurado, presiona el botón SETUP para establecer tu caleidoscopio en movimiento.  
 
-A continuación, elige el patrón que quieras. Cada patrón tiene su propio botón para siempre que lo controla. El PATRÓN-1 tiene los brazos del caleidoscopio en espiral en el sentido de las agujas del reloj, mientras que el PATRÓN-2 tiene los brazos del caleidoscopio en espiral tanto en el sentido de las agujas del reloj como en el sentido contrario a las agujas del reloj, dando un diseño un poco más complicado.
+A continuación, elige el patrón que deseas. Cada patrón tiene su propio botón para siempre que lo controla. PATRÓN-1 tiene los brazos del caleidoscopio girando en espiral en el sentido de las agujas del reloj, mientras que PATRÓN-2 tiene los brazos del caleidoscopio en espiral en el sentido contrario a las agujas del reloj, lo que da un diseño un poco más complicado.
 
-Finalmente, tienes el poder de cambiar la distribución de color que exhibe este modelo. El botón COLOR-SHIFT aumentará o disminuirá el valor de COLOR-SEP utilizado por las tortugas, guardado internamente como CURR-COLOR-SEP. Por lo tanto, el valor del control deslizante en sí no cambia, pero el número que miran las tortugas cambia constantemente. Este número se cambia por una pequeña cantidad aleatoria. El AUMENTO-COLOR? El interruptor determina si CURR-COLOR-SEP aumenta (verdadero) o disminuye (falso).
+Finalmente, tienes el poder de cambiar la distribución de color exhibida por este modelo. El botón CAMBIO-DE-COLOR aumentará o disminuirá el valor de COLOR-SEP utilizado por las tortugas, guardado internamente como CURR-COLOR-SEP. (Por lo tanto, el valor del control deslizante en sí mismo no cambia, pero sí el número que miran las tortugas). Este número cambia en una pequeña cantidad aleatoria. El INCREMENTAR-C? interruptor determina si CURR-COLOR-SEP aumenta (verdadero) o disminuye (falso).
 
-También tiene un monitor, CURR-COLOR-SEP, que mostrará el valor de esa variable, para que sepa cuándo se ha alterado y cuánto.
+También tienes dos monitores en el fondo de la Ventana de Interfaz. NÚMERO-DE-TORUGAS simplemente mostrará el número actual de tortugas. Del mismo modo, CURR-COLOR-SEP mostrará el valor de esa variable, para que sepas cuándo se ha alterado y en qué medida.
 
 ##  COSAS PARA NOTAR
 
-Primero, intenta jugar y observa lo que sucede. Este está destinado a ser un modelo visualmente agradable solo para mirar. Vea qué valores diferentes de NUM-TURTLES y COLOR-SEP producen, y explore cómo COLOR-SHIFT cambia la apariencia del caleidoscopio. ¿Qué te parece mejor?
+Primero, solo trata de jugar y observar lo que pasa. Esto es para que sea visualmente agradable para mirar. Vea lo que producen los diferentes valores de NTORTUGAS y COLOR-SEP, y explora cómo CAMBIO-DE-COLOR cambia la apariencia del caleidoscopio. ¿Qué te parece mejor?
 
-Una cosa importante a notar aquí es el número dado en COUNT-TURTLES. Inmediatamente, se vuelve mucho más grande que NUM-TORTLES, pero rápidamente se convierte en un número grande y agradable. Echa un vistazo a la ventana de Procedimientos. Realmente hay dos niveles de comandos de tortuga aquí. Inicialmente, al momento de la configuración, hay un número NTURTLES de tortugas. Una vez que se presiona uno de los botones de patrón, cada una de estas tortugas (que componen los &quot;brazos&quot; del caleidoscopio) eclosiona repetidamente una nueva tortuga y gira un solo grado. Las tortugas recién nacidas comienzan a dibujar círculos y se autodestruyen al finalizar. Como las tortugas de &quot;brazo&quot; ejecutan sus comandos mucho más rápido que las tortugas nacidas, producen muchas tortugas durante un bucle de un círculo; eventualmente, sin embargo, las tortugas comienzan a morir. En este punto, el número de tortugas que nacen es aproximadamente igual al número de tortugas que mueren en cualquier paso dado.
+Algo importante para notar es el número dado en NÚMERO-DE-TORTUGAS. De inmediato, se vuelve mucho más grande que NTORTUGAS, pero rápidamente se instala en un buen número grande. Echa un vistazo a la Ventana de Procedimientos. Realmente hay dos niveles de comandos de tortuga aquí. Inicialmente, después de la configuración, hay NTORTUGAS número de tortugas. Una vez que se presiona uno de los botones de patrón, cada una de estas tortugas (que componen los "brazos" del caleidoscopio) eclosiona repetidamente una nueva tortuga y gira por un solo grado. Las tortugas recién nacidas comienzan a dibujar círculos, auto destruyéndose al finalizar. Como las tortugas del "brazo" ejecutan sus órdenes mucho más rápido que las tortugas eclosionadas, producen muchas tortugas durante una vuelta de un círculo; eventualmente, sin embargo, las tortugas comienzan a morir. En este punto, el número de tortugas que nacen es aproximadamente igual al número que muere en cualquier paso dado.
 
-También debe notar cómo COLOR-SEP (o realmente CURR-COLOR-SEP) altera la apariencia del caleidoscopio. ¿Gira CAMBIO DE COLOR? encendido, y deje que CURR-COLOR-SEP se vuelva muy grande. Luego observa lo que sucede cuando es pequeño, tal vez cero o algún número negativo.
+También debes de notar como COLOR-SEP (o realmente CURR-COLOR-SEP) altera la apariencia del caleidoscopio. Active CAMBIO-DE-COLOR y deje que CURR-COLOR-SEP se vuelva muy grande. Luego observa lo que pasa cuando es pequeño, tal vez cero o algún número negativo.
 
 ##  COSAS PARA INTENTAR
 
-Intente cambiar el código en la pestaña Código. Aumente el tamaño de los círculos dibujados por cada una de las tortugas, o intente cambiar el tamaño del ángulo que gira cada una de las tortugas.
+Intenta cambiar el código en la pestaña de Código. Aumente el tamaño de los círculos dibujados por cada una de las tortugas, o intenta cambiar el tamaño del ángulo en el que gira cada una de las tortugas.
 
-En lugar de que cada tortuga se mueva o gire una cantidad dada, ¿qué tal si se mueve una pequeña cantidad aleatoria (como en los cambios a curr-color-sep de COLOR-SHIFT). ¿Cuánta aleatoriedad puede agregar y aún mantener algún tipo de estructura general?
+En vez de que cada tortuga se mueva o gire a una cantidad determinada, ¿qué tal si se mueve una pequeña cantidad aleatoria (como en los cambios a CURR-COLOR-DEP de CAMBIO-DE-COLOR)? ¿Cuánta aleatoriedad puedes agregar y aún mantener algún tipo de estructura general?
 
 ##  EXTENDIENDO EL MODELO
 
-Cada vez que una tortuga es incubada por una de las tortugas &quot;brazo&quot;, se procede a dibujar un círculo. Cambie la lista de comandos `hatch` para que dibuje alguna otra forma o patrón. Trate de predecir qué forma general surgirá.
+Siempre que una tortuga nace de una de las tortugas del "brazo", procede a dibujar un círculo. Cambia la lista de órdenes de escotilla para que dibuje alguna otra forma o patrón. Intenta predecir qué forma general surgirá.
 
-Actualmente, la única diferencia entre los dos patrones es que PATRÓN-2 tiene la mitad del círculo de tortugas &quot;brazo&quot; a la izquierda, la otra mitad a la derecha. Escriba su propio patrón, es decir, proponga un nuevo comando o conjunto de comandos para que estas tortugas los ejecuten.
+Actualmente, la única diferencia entre los dos patrones es que el PATRÓN-2 tiene la mitad de las tortugas del "brazo" circulando a la izquierda y la otra mitad a la derecha. Escribe tu propio patrón, es decir, crea un nuevo comando o conjunto de comandos que las tortugas quedan ejecutar.
 
-Trate de escribir un tipo de modelo completamente nuevo en líneas similares. En el modelo actual, las tortugas surgen de un núcleo central de tortugas NTURTLES. En su nuevo modelo, tal vez las tortugas dibujadas podrían orbitar alrededor de algún punto fijo (o en movimiento), como en los modelos N Bodies y Gravitation de StarLogoT.
+Intenta escribir un tipo de modelo completamente nuevo en líneas similares. En el modelo actual, las tortugas giran de un núcleo central de tortugas NTORTUGAS. En tu nuevo modelo, tal vez las tortugas dibujadores podrían orbitar alrededor de algún punto fijo (o en movimiento), como en los modelos de StarLogoT N Cuerpos y Gravitación.
 
 ##  CARACTERÍSTICAS DE NETLOGO
 
-Esto hace un buen uso de la tortuga primitiva `escotilla`. Cada vez que nace una tortuga, ejecuta la lista de comandos que sigue al comando `hatch`. En la mayoría de los contextos, esto se usa solo para cambiar el color de la nueva tortuga o alterar alguna variable. Pero no hay ninguna razón por la que no pueda ejecutar algún otro procedimiento, posiblemente largo, y eso es exactamente lo que sucede aquí.
+Esto hace un buen uso de la primitiva `hatch` de la tortuga. Siempre que una tortuga nace, ejecuta la lista de comandos que sigue la eclosión comando. En la mayoría de los contextos, esto se usa solo para cambiar el color de la nueva tortuga o alterar alguna variable. Pero no hay razón para que no pueda ejecutar algún otro procedimiento, posiblemente prolongado, y eso es exactamente lo que sucede aquí.
 
 ##  AGRADECIMIENTOS
 
@@ -53,13 +52,13 @@ Gracias a Connor Bain por actualizar este modelo en 2021.
 
 ##  COMO CITAR 
 
-If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+Si mencionas este modelo o el software NetLogo en una publicación, te pedimos que incluyes las citas abajo.
 
-For the model itself:
+Para el modelo:
 
 * Wilensky, U. (1998).  NetLogo Kaleidoscope model.  http://ccl.northwestern.edu/netlogo/models/Kaleidoscope.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-Please cite the NetLogo software as:
+Por favor cita el software NetLogo como:
 
 * Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
@@ -78,3 +77,5 @@ This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SEN
 This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
 
 <!-- 1998 2001 -->
+
+Translated by: Chelsea Guzman
