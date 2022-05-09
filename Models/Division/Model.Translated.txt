@@ -1,5 +1,4 @@
-﻿*** fe3a06781c30ac8095aa52716cccdc0b
-## Language = Spanish
+﻿## Language = Spanish
 ## Widgets
 ### Source
 cycle-in-order?

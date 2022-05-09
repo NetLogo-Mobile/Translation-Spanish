@@ -97,6 +97,6 @@ preparar
 
 ### Source
 shift-direction
-### Spanish 
+### Spanish
 cambiar-dirección
 

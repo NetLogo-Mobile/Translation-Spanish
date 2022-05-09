@@ -106,6 +106,9 @@
     <String ID="随机范围" Status="0" English="Random range">Alcance aleatorio</String>
     <String ID="数值选择" Status="0" English="Numerical slide">Diapositiva numérica</String>
     <String ID="键盘输入" Status="0" English="Keyboard input">Input del teclado</String>
+    <String ID="文本" Status="1" English="Text">Texto</String>
+    <String ID="图像" Status="1" English="Image">Imagen</String>
+    <String ID="文件" Status="1" English="Document">Documento</String>
   </Interfaces>
   <Messages>
     <String ID="如果网页未能打开，请扫描二维码" Status="0" English="Scan the QR code if fails to load">Escanea el código QR si no se carga</String>
@@ -219,7 +222,9 @@
     <String ID="成功发布了您的{0}！" Status="0" English="Successfully published your {0}!">¡Publicó su {0} con exitó!</String>
     <String ID="删除过程中遇到错误。" Status="0" English="An error was encountered during the deletion.">Se encontró un error durante la eliminación.</String>
     <String ID="删除内容" Status="0" English="Delete Content">Elimina contenido</String>
+    <String ID="隐藏内容" Status="1" English="Hide Content">Ocultar contenido</String>
     <String ID="删除回复" Status="0" English="Delete">Eliminar</String>
+    <String ID="是否确定隐藏内容？其他人将无法看到实验！" Status="1" English="Are you sure you want to hide the content? Others will not be able to look at your work!">¿Estás seguro de que quieres ocultar el contenido? ¡Otros no podrán ver tu trabajo!</String>
     <String ID="是否确定删除内容？本地存档将无法找回！" Status="0" English="Do want to delete the content? The local save could not be retrieved!">¿Quieres borrar el contenido? ¡No se pudo recuperar la guardada local!</String>
     <String ID="是否确定删除内容？除非您留有本地存档，否则将无法找回！" Status="0" English="Do you want to delete the content? Unless you have a local save, you won&amp;#39;t be able to retrieve it!">¿Quieres eliminar el contenido? A menos que tengas un guardado local, ¡no podrás recuperarlo!</String>
     <String ID="是否确定删除回复？" Status="0" English="Are you sure to delete the reply?">¿Estás seguro de eliminar la respuesta?</String>
@@ -302,8 +307,8 @@
     <String ID="接受邀请" Status="0" English="Accept an Invitation">Acepta una Invitación</String>
     <String ID="是否接受消息中的邀请？" Status="0" English="Accept the invitation in the message?">¿Aceptar la invitación en el mensaje?</String>
     <String ID="邀请已经被处理过了。" Status="0" English="The invitation has already been processed.">La invitación ya ha sido procesada.</String>
-    <String ID="你输入的用户已经是合作者之一了。" Status="2" />
-    <String ID="成功处理了邀请！" Status="2" />
+    <String ID="你输入的用户已经是合作者之一了。" Status="1" English="The user is already one of the collaborators.">El usuario ya es uno de los colaboradores.</String>
+    <String ID="成功处理了邀请！" Status="1" English="Successfully handled the invitation!">¡Gestionó con éxito la invitación!</String>
   </Messages>
   <Regions>
     <String ID="中文区" Status="0" English="Chinese">Chino</String>

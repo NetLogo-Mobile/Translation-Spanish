@@ -2,6 +2,11 @@
 ## Language = Spanish
 ## NetTango
 ### Source
+arrow
+### Spanish ***
+flecha
+
+### Source
 At least
 ### Spanish
 Por lo menos
@@ -12,9 +17,24 @@ At most
 A lo sumo
 
 ### Source
+black
+### Spanish ***
+negro
+
+### Source
+blue
+### Spanish ***
+azul
+
+### Source
 Brightness
 ### Spanish
 Brillo
+
+### Source
+brown
+### Spanish ***
+marrón
 
 ### Source
 By proportion
@@ -27,14 +47,34 @@ By value
 Por valor
 
 ### Source
+car
+### Spanish ***
+carro
+
+### Source
+circle
+### Spanish ***
+círculo
+
+### Source
 Color
 ### Spanish
 Color
 
 ### Source
-Go 
-### Spanish
-Ir 
+Create your own model
+### Spanish ***
+Crea tu propio modelo
+
+### Source
+green
+### Spanish ***
+verde
+
+### Source
+house
+### Spanish ***
+casa
 
 ### Source
 How far?
@@ -87,19 +127,49 @@ Minimum
 Mínimo
 
 ### Source
+orange
+### Spanish ***
+naranja
+
+### Source
+person
+### Spanish ***
+persona
+
+### Source
+pink
+### Spanish ***
+rosa
+
+### Source
+red
+### Spanish ***
+rojo
+
+### Source
 Rounds/Tick
 ### Spanish
 Rondas/Tick
 
 ### Source
-Setup 
-### Spanish
-Configuración 
+sheep
+### Spanish ***
+oveja
 
 ### Source
 Sniff angle
 ### Spanish
 Ángulo de olfateo
+
+### Source
+tree
+### Spanish ***
+árbol
+
+### Source
+turtle
+### Spanish ***
+Tortuga
 
 ### Source
 Which color?
@@ -117,6 +187,16 @@ Which shape?
 ¿Qué forma?
 
 ### Source
+white
+### Spanish ***
+blanco
+
+### Source
+wolf
+### Spanish ***
+lobo
+
+### Source
 X (Horizontal)
 ### Spanish
 X (Horizontal)
@@ -125,6 +205,11 @@ X (Horizontal)
 Y (Vertical)
 ### Spanish
 Y (Vertical)
+
+### Source
+yellow
+### Spanish ***
+amarillo
 
 ### Source
 Yes or no?
@@ -275,6 +360,16 @@ Yes or no?
  When Turtles Here
 ### Spanish
  Cuando las Tortugas Están Aquí
+
+### Excessive
+ Go 
+### Spanish
+ Ir 
+
+### Excessive
+ Setup 
+### Spanish
+ Configuración 
 
 ### Source
  Ask Patches 
