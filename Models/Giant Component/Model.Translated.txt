@@ -1,0 +1,64 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Plots
+### Source
+Connections per node
+### Spanish ***
+Conexiones por nodo
+
+### Source
+Fraction in giant component
+### Spanish ***
+Fracción en componente gigante
+
+### Source
+Growth of the giant component
+### Spanish ***
+Crecimiento del componente gigante
+
+### Source
+size
+### Spanish ***
+tamaño
+
+### Source
+transition
+### Spanish ***
+transición
+
+## Widgets
+### Source
+Giant component size
+### Spanish ***
+Tamaño de componente gigante
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+go once
+### Spanish ***
+ir una vez
+
+### Source
+layout?
+### Spanish ***
+¿disposición?
+
+### Source
+num-nodes
+### Spanish ***
+num-nodos
+
+### Source
+redo layout
+### Spanish ***
+rehacer el diseño
+
+### Source
+setup
+### Spanish ***
+configuración
+

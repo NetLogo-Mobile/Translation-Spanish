@@ -1,0 +1,129 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+Este modelo explora la relación potencial entre la transición de nuestros primeros ancestros del agua a la tierra y la evolución de sus ojos.
+
+Hace alrededor de 385 millones de años, los vertebrados que habitaban ambientes submarinos comenzaron a evolucionar para vivir en la tierra. Un estudio reciente de MacIver et al. (2017) sugiere que la transformación radical de aleta a extremidad de los primeros tetrápodos (vertebrados con cuatro extremidades) estuvo acompañada de un cambio radical en el tamaño de los ojos. Esto habría aumentado drásticamente el espacio de percepción visual de estos tetrápodos, lo que les permitiría observar las abundantes fuentes de alimento en la tierra y, por lo tanto, ayudaría en la selección de extremidades. En este modelo, investigamos la interacción entre el tamaño de los ojos y la transformación de las aletas en las extremidades, así como la aparición de vertebrados terrestres con ojos grandes.
+
+##  COMO FUNCIONA
+
+Este modelo tiene como objetivo simular la transición de los vertebrados de la vida bajo el agua a la vida en la tierra. Así, la mitad del mundo en nuestra simulación está bajo el agua y la otra mitad es tierra. Los agentes en nuestro modelo son peces que inicialmente nadan bajo el agua. Nos referimos a los agentes en este modelo como peces por motivos de simplicidad, sin embargo, los consideramos más como vertebrados que están al borde de la transición a la vida terrestre. Al comienzo de nuestra simulación, podemos pensar en estos agentes como tetrápodos acuáticos, sin embargo, a medida que pasa el tiempo, evolucionan y algunos de ellos hacen la transición a la vida en la tierra.
+
+Además, hay otros organismos de los que estos peces se alimentan. Nos referimos a ellos como alimento en nuestro modelo, pero podemos pensar en ellos como invertebrados que habitan tanto en el agua como en la tierra.
+
+Cada agente o pez tiene ciertas características. Estos se enumeran a continuación.
+
+* EYE-SIZE: Este es un número real entre 1 y el parámetro MAX-EYE-SIZE establecido por el usuario. El tamaño de los ojos determina el radio del campo de visión del pez. En aras de la simplicidad, asumimos que los peces tienen un campo de visión de 360 grados. Dado que un campo de visión típico de los peces es de 305 grados, esta suposición está justificada. Observamos que el radio del campo de visión también depende de si el pez está en tierra o bajo el agua. Dado que la visibilidad bajo el agua es muy pobre, el radio del campo de visión bajo el agua es significativamente más pequeño que en tierra. Además, un aumento en el tamaño de los ojos proporciona una pequeña mejora en el radio del campo de visión bajo el agua, pero proporciona una mejora espectacular en el radio del campo de visión en tierra.
+
+* MOVILIDAD TERRESTRE: Esta característica es un número real entre 0 y 1, y modela qué tan bien adaptado está el pez a la vida bajo el agua o en tierra. Esta característica tiene como objetivo capturar la morfología del pez (o vertebrado) a medida que experimenta la transformación de aleta a extremidad, y cómo esto se relaciona con su locomoción. Si esta característica es 0, significa que el pez está completamente adaptado a la vida bajo el agua y es probable que tenga aletas. Significa que los peces pueden moverse bajo el agua rápidamente y sin mucho esfuerzo. Sin embargo, apenas puede moverse en tierra y tendría que gastar mucha energía para cubrir una pequeña distancia en tierra. De manera similar, si la movilidad terrestre es 1, el organismo está adaptado a la vida en la tierra y es probable que tenga extremidades. Por ejemplo, aplicando esta característica a especies del mundo real, podríamos suponer que un pez payaso tendría un valor de movilidad terrestre de casi 0, un cocodrilo tendría un valor de movilidad terrestre de aproximadamente 0,25, una rana tendría un valor de movilidad terrestre de 0,5, y finalmente un gato tendría un valor de movilidad terrestre de casi 1.
+
+* PREFERENCIA DE ALIMENTOS EN TIERRA: este valor también es un número real entre 0 y 1. Esta característica tiene como objetivo capturar la preferencia de alimentos de los peces, específicamente si prefieren alimentos en tierra o alimentos bajo el agua. La intuición detrás de esta característica es que un animal terrestre sería más propenso a cazar y comer otro animal terrestre y sería menos probable que cazara un animal acuático.
+
+* ENERGÍA: Esta característica se utiliza para modelar el nivel de nutrición de los peces, que es, en cierto sentido, el nivel de energía de los peces. Los peces obtienen energía al consumir alimentos y pierden energía a medida que se mueven y se reproducen.
+
+Inicialmente, los peces se ubican bajo el agua, porque aún no han hecho la transición a tierra. Tienen el tamaño de ojo más pequeño posible ya que la visibilidad es muy baja bajo el agua. Y están completamente adaptados a la vida bajo el agua, por lo que se mueven rápido y consumen poca energía bajo el agua. Esto significa que se mueven muy lentamente y consumen mucha energía en tierra. Cada pez tiene una preferencia aleatoria hacia la comida en tierra o bajo el agua. Esto podría explicarse por la variabilidad genética y la escasez de alimentos bajo el agua en comparación con la tierra.
+
+En cada paso de tiempo, cada pez se mueve. Si hay comida en el campo de visión del pez, se mueve hacia la comida, de lo contrario, se mueve al azar. La velocidad de su movimiento depende de su valor de movilidad terrestre y si están en tierra o bajo el agua. Los peces con bajos valores de movilidad terrestre se mueven rápido bajo el agua y lentamente en tierra. La comida permanece estacionaria. A medida que los peces se mueven, consumen energía. La cantidad de energía que consumen depende nuevamente de su valor de movilidad terrestre y si están bajo el agua o en tierra. Los peces con bajos valores de movilidad terrestre consumen menos energía bajo el agua que en tierra.
+
+El consumo de energía también depende del tamaño de los ojos del pez. Tener ojos más grandes cuesta más energía, ya que requieren más recursos para funcionar. Si un pez alcanza la comida, la mata y gana energía. Hay una probabilidad fija de que aparezca un nuevo alimento en cada paso de tiempo.
+
+Si el valor energético de un pez cae por debajo de cero, muere. Los peces se reproducen a un ritmo fijo: si su nivel de energía supera un determinado umbral. Cuando un pez se reproduce, su energía se reparte entre él y su descendencia. Además, la descendencia hereda genéticamente las otras características de su padre, sin embargo, cada una de estas características está mutada. La tasa de mutación la determina el usuario.
+
+##  COMO USARLO
+
+El botón SETUP inicializa el modelo.
+
+El botón GO ejecuta el modelo.
+
+Utilice el control deslizante INITIAL-NUMBER-FISH para establecer la cantidad inicial de pescado.
+
+Utilice el control deslizante NÚMERO INICIAL DE COMIDA para establecer la cantidad inicial de comida.
+
+Use el interruptor SHOW-VISION para activar o desactivar la visualización del campo de visión de cada pez.
+
+Use el control deslizante FOOD-REPLENISH-RATE para establecer la probabilidad de que aparezca un nuevo alimento en cada paso de tiempo.
+
+Use el control deslizante ENERGÍA-GANANCIA-DE-ALIMENTOS para establecer cuántas unidades de energía gana un pez cuando come un alimento.
+
+Use el control deslizante ÍNDICE DE REPRODUCCIÓN para establecer la probabilidad de que un pez se reproduzca en cada paso de tiempo y cuánta energía se requiere para la reproducción.
+
+Use el control deslizante MUTATION-RATE para establecer cuánto podría mutar cada característica de la descendencia cuando un pez se reproduce.
+
+Use el control deslizante EYE-COST para establecer cuánta energía cuesta tener ojos grandes.
+
+Use el control deslizante MAX-EYE-SIZE para establecer el tamaño máximo al que pueden evolucionar los ojos de un pez.
+
+La sombra de cada pez representa el valor de movilidad terrestre de ese pez. Los peces de colores más claros tienen valores de movilidad terrestre más bajos (es decir, están más adaptados a vivir bajo el agua). De manera similar, los peces de colores más oscuros tienen valores más altos de movilidad terrestre, es decir, están más adaptados a vivir en tierra.
+
+La gráfica del tamaño promedio de los ojos muestra el tamaño promedio de los ojos de dos poblaciones en función del tiempo. La población terrestre se compone de peces con valores de movilidad terrestre superiores a 0,5, mientras que la población acuática se compone de peces con valores de movilidad terrestre inferiores a 0,5.
+
+El gráfico Tamaño de la población representa el tamaño de la población de peces (que se muestra en cian) y la cantidad de alimento disponible (que se muestra en marrón). El eje x representa el paso del tiempo, y el eje y es el tamaño de la población.
+
+El Histograma de Movilidad Terrestre representa el surgimiento de distintas poblaciones de peces, donde los valores de movilidad terrestre varían de 0 a 1 a lo largo del eje x. Recuerde que un valor de movilidad terrestre de 0 representa peces que están completamente adaptados para vivir en el agua, mientras que un valor de movilidad terrestre de 1 representa peces que están completamente adaptados para vivir en la tierra. El eje y representa el número de peces con cada valor de movilidad terrestre en el paso de tiempo actual.
+
+El histograma del tamaño de los ojos muestra el tamaño de los ojos de todos los peces en el paso de tiempo actual. A lo largo del eje x, el tamaño de los ojos varía de 1 (el más pequeño) a MAX-EYE-SIZE (el más grande). El eje y representa el número de peces con el valor de tamaño de ojo dado en el paso de tiempo actual.
+
+El histograma de preferencia de alimentos representa las preferencias de fuente de alimentos de todos los peces en el paso de tiempo actual. A lo largo del eje x, el valor de preferencia alimentaria de 0 indica que el pez prefiere fuertemente las fuentes de alimento acuático, mientras que un valor de preferencia alimentaria de 1 indica que el pez prefiere fuertemente las fuentes de alimento terrestre. El eje y representa el número de peces con el valor de preferencia de alimento dado en el paso de tiempo actual.
+
+##  COSAS PARA NOTAR
+
+Tenga en cuenta que después de que el tamaño de la población de alimentos alcanza su punto máximo, sigue un salto repentino en el tamaño de la población de peces y los peces comienzan a moverse en la tierra. Después de ese punto, observe cómo el histograma de la característica de movilidad terrestre tiende a tener dos picos en los extremos del espectro que indican dos poblaciones: terrestres y acuáticas.
+
+Observe que después de un tiempo, el tamaño promedio de los ojos de la población terrestre se triplica, mientras que el tamaño de los ojos de la población acuática tiende a permanecer pequeño.
+
+##  COSAS PARA INTENTAR
+
+¿Bajo qué condiciones no surge una población terrestre con ojos más grandes? ¿Por qué?
+
+¿Existe alguna condición en la que no se produzca la transición del agua a la tierra?
+
+Intente cambiar los tamaños de población iniciales, GANANCIA DE ENERGÍA DE LOS ALIMENTOS, TASA DE REPOSICIÓN DE ALIMENTOS y TASA DE REPRODUCCIÓN. ¿Cómo afectan estos cambios a la dinámica de la población?
+
+##  EXTENDIENDO EL MODELO
+
+Hay varias formas de ampliar y mejorar este modelo. Uno de ellos es agregar un componente de profundidad para que los peces puedan asomarse por encima de la línea de flotación y mirar hacia la orilla.
+
+Se podría usar un campo de visión más realista, donde el campo de visión es más estrecho, y la distancia a la fuente de alimento solo se puede medir en un campo de visión binocular donde se usan ambos ojos.
+
+Otra forma es introducir una nueva característica que determine la ubicación del ojo en la cabeza. Luego, modelar cómo esto cambia el campo de visión y la percepción de profundidad de los peces.
+
+Otra interesante extensión de este modelo sería usar LevelSpace de modo que cada agente tenga una red neuronal real que le indique a dónde ir en función de sus entradas. Esto permitiría investigar cómo un aumento en el espacio de percepción visual podría afectar la inteligencia de los agentes al permitirles planificar.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+La primitiva TIE se utiliza para atar una tortuga a cada pez para visualizar el campo de visión de cada pez.
+
+La primitiva IN-RADIUS se utiliza para encontrar todas las fuentes de alimento en el campo de visión de un pez.
+
+##  MODELOS RELACIONADOS 
+
+* BEAGLE Evolution Curricular Models
+* Bug Hunt Models
+
+##  CRÉDITOS Y REFERENCIAS 
+
+MacIver, Malcolm & Schmitz, Lars & Mugan, Ugurcan & D. Murphey, Todd & D. Mobley, Curtis. (2017). Massive increase in visual range preceded the origin of terrestrial vertebrates. Proceedings of the National Academy of Sciences. 114. 201615563. 10.1073/pnas.1615563114.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Gurkan, C., Head, B., Woods, P. and Wilensky, U. (2018).  NetLogo Vision Evolution model.  http://ccl.northwestern.edu/netlogo/models/VisionEvolution.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2018 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2018 Cite: Gurkan, C., Head, B., Woods, P. -->

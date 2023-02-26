@@ -1,0 +1,119 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Plots
+### Source
+Avalanche lifetimes
+### Spanish ***
+Vidas de avalancha
+
+### Source
+Avalanche sizes
+### Spanish ***
+Tamaños de avalancha
+
+### Source
+average
+### Spanish ***
+promedio
+
+### Source
+Average grain count
+### Spanish ***
+Recuento medio de granos
+
+### Source
+default
+### Spanish ***
+por defecto
+
+### Source
+grains
+### Spanish ***
+granos
+
+### Source
+log count
+### Spanish ***
+conteo de registros
+
+### Source
+log lifetime
+### Spanish ***
+vida útil del registro
+
+### Source
+log size
+### Spanish ***
+tamaño de registro
+
+### Source
+ticks
+### Spanish ***
+garrapatas
+
+## Widgets
+### Source
+animate-avalanches?
+### Spanish ***
+animar-avalanchas?
+
+### Source
+average
+### Spanish ***
+promedio
+
+### Source
+center
+### Spanish ***
+centro
+
+### Source
+clear size and lifetime data
+### Spanish ***
+tamaño claro y datos de por vida
+
+### Source
+drop-location
+### Spanish ***
+ubicación de entrega
+
+### Source
+explore
+### Spanish ***
+explorar
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+go once
+### Spanish ***
+ir una vez
+
+### Source
+grains-per-patch
+### Spanish ***
+granos por parche
+
+### Source
+mouse-click
+### Spanish ***
+click del raton
+
+### Source
+random
+### Spanish ***
+aleatorio
+
+### Source
+setup random
+### Spanish ***
+configuración aleatoria
+
+### Source
+setup uniform
+### Spanish ***
+configuración uniforme
+

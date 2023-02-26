@@ -1,0 +1,28 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Widgets
+### Source
+colors
+### Spanish ***
+colores
+
+### Source
+density
+### Spanish ***
+densidad
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+number
+### Spanish ***
+número
+
+### Source
+setup
+### Spanish ***
+configuración
+

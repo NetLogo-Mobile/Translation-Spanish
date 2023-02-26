@@ -1,0 +1,5 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+Ya hay un marco de imagen fija en esta plantilla, solo necesita pegar el código de imagen en él.
+##  Es posible que el portapapeles del método de entrada de terceros no pueda pegar demasiado texto, lo que resulta en una codificación incompleta. Utilice también la función de pegar en la herramienta de texto del sistema.
+Para obtener el código, busque en Internet: imagen a base64
+O acceda directamente a: https://c.runoob.com/front-end/59/ <a>(este es un sitio web chino)</a>

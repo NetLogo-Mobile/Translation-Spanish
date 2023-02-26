@@ -1,0 +1,17 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+<discussion=621ac4d18124cf0001237642>Danza de fuego y hielo - Serie de obras</discussion>
+
+<color=red> <b>Atención: este trabajo proviene del área china, su contenido está diseñado principalmente para jugadores chinos. El enlace a la serie de obras es el enlace del área china.</b></color>
+
+Mundo ∞: hielo y fuego personalizados
+Nivel personalizado - Plantilla en blanco
+
+##  Una danza de fuego y hielo (ADOFI)
+A Dance of Fire and Ice es un juego de ritmo. Los jugadores deben seguir el ritmo de la música para golpear el teclado o la pantalla y manipular la pelota para correr hacia la luz en un calle angosto. Las estrellas y la luna son vastas, el universo es ilimitado y muchos continentes estelares diferentes y música fantástica te esperan para experimentar.
+Con solo presionar una tecla / pantalla, puede controlar la estrella binaria flotante, seguir los pasos de baile que se balancean y continuar avanzando en un calle sinuoso que sigue el ritmo de la música para explorar el universo de la música. El ritmo se presenta hábilmente en una forma visual. Será un viaje musical desafiante, mantén la mente firme y sigue el ritmo del corazón. Este no es un juego que se basa en reacciones rápidas.
+
+##  Cambios de v1.6:
+-optimizado
+-agregó el modo de alto rendimiento y los límites de generación de detalles
+-detalles mejorados
+-Errores arreglados

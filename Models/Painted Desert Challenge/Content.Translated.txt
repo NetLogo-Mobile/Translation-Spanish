@@ -1,0 +1,83 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+Este modelo se basa en el modelo de termitas. En Termites, los agentes siguen un conjunto de reglas simples que les permite mover todas las astillas de madera en una sola pila. Painted Desert Challenge agrega la dimensión de múltiples tipos (colores) de astillas de madera. El desafío es hacer que las termitas clasifiquen cada tipo de chip en su propia pila.
+
+##  COMO FUNCIONA
+
+Cada termita comienza a deambular al azar. Si choca con una astilla de madera, la levanta y continúa deambulando al azar. Cuando choca con otra astilla de madera de ese color, encuentra un espacio vacío cercano y deja su astilla de madera. Con estas sencillas reglas, las astillas de madera finalmente terminan en montones clasificados por color.
+
+##  COMO USARLO
+
+Haga clic en el botón CONFIGURAR para configurar las termitas (blanco) y las astillas de madera (todos los demás colores). Haga clic en el botón GO para iniciar la simulación. Una termita que lleva una viruta de madera cambia el color de la viruta.
+
+El control deslizante NÚMERO controla el número de termitas. (Nota: los cambios en el control deslizante NÚMERO no surten efecto hasta la siguiente configuración). El control deslizante DENSIDAD controla la densidad inicial de las astillas de madera. El control deslizante SIM-DELAY se puede utilizar para reducir la velocidad de la simulación. El control deslizante PILES permite al usuario establecer el número de tipos de fichas diferentes (es decir, el número de pilas diferentes que se van a formar).
+
+##  COSAS PARA NOTAR
+
+A medida que comienzan a formarse montones de astillas de madera, los montones no están &quot;protegidos&quot; de ninguna manera. Es decir, las termitas a veces quitan las astillas de las pilas existentes. Esa estrategia puede parecer contraproducente. Pero si los montones estuvieran &quot;protegidos&quot;, terminaría con muchos montones pequeños, no uno grande.
+
+Las pilas finales son más o menos redondas. ¿Por qué es esto? ¿Qué otras situaciones físicas también producen cosas redondas?
+
+En general, el número de montones disminuye con el tiempo. ¿Por qué? Algunas pilas desaparecen cuando las termitas se llevan todas las fichas. Y no hay forma de comenzar una nueva pila desde cero, ya que las termitas siempre colocan sus astillas de madera cerca de otras astillas de madera. Entonces, el número de montones debe disminuir con el tiempo. (La única forma en que comienza una pila &quot;nueva&quot; es cuando una pila existente se divide en dos).
+
+¿Cómo saben las termitas qué chip de color tomar? Este modelo asigna a cada termita una variable que le indica qué ficha de color recoger. Pero, ¿por qué las termitas clasifican los diferentes tipos en montones discretos? ¿Por qué no hacen agrupaciones mixtas de fichas?
+
+Este proyecto es un buen ejemplo de una estrategia &quot;descentralizada&quot;. No hay termitas a cargo, ni un sitio especial designado previamente para las pilas. Cada termita sigue un conjunto de reglas simples, pero la colonia en su conjunto lleva a cabo una tarea bastante sofisticada.
+
+##  COSAS PARA INTENTAR
+
+¿Cambian los resultados si usa una sola termita? ¿Qué pasa si usas varios miles de termitas?
+
+Intenta cambiar el comando `fd 10` en el método find-new-pile. ¿Cómo afecta el comportamiento de las termitas si el `fd 10` se convierte en un `fd 1`, o se elimina por completo?
+
+Cuando solo quedan dos montones, ¿cuál de ellos es más probable que &quot;gane&quot; como el único monto final? ¿Con qué frecuencia gana la mayor de las dos pilas? Si una pila tiene solo una viruta de madera y la otra pila tiene el resto de las virutas de madera, ¿cuáles son las posibilidades de que gane la primera pila?
+
+##  EXTENDIENDO EL MODELO
+
+Actualmente, cada termita &quot;pertenece&quot; a un tipo de chip. ¿Puedes ampliar el modelo para que una termita pueda recoger astillas de cualquier tipo y aun así ordenar las astillas en montones discretos?
+
+Grafique el número de montones, o su tamaño promedio, o el número de termitas que transportan astillas de madera, a medida que avanza el modelo.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Tenga en cuenta que las astillas de madera no existen como objetos. Simplemente se representan como colores en los parches. Las termitas actualizan los colores del parche a medida que recogen y depositan las astillas de madera. En efecto, la pantalla se utiliza como estructura de datos. Esta estrategia es útil en muchos programas de NetLogo.
+
+##  MODELOS RELACIONADOS 
+
+* Termites
+* Shepherds
+
+##  CRÉDITOS Y REFERENCIAS 
+
+Resnick, M. & Wilensky, U. (1998). Diving into Complexity: Developing Probabilistic Decentralized Thinking through Role-Playing Activities. Journal of Learning Sciences, Vol. 7, No. 2.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1997).  NetLogo Painted Desert Challenge model.  http://ccl.northwestern.edu/netlogo/models/PaintedDesertChallenge.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1997 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was developed at the MIT Media Lab using CM StarLogo.  See Wilensky, U. (1993). Thesis - Connected Mathematics: Building Concrete Relationships with Mathematical Knowledge. Adapted to StarLogoT, 1997, as part of the Connected Mathematics Project.  Adapted to NetLogo, 2001, as part of the Participatory Simulations Project.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1997 2001 Wilensky -->

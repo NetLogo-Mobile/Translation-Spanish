@@ -1,0 +1,81 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+Este modelo ilustra el crecimiento de un tumor y cómo resiste el tratamiento químico. Un tumor consta de dos tipos de células: células madre (tortugas azules) y células transitorias (todas las demás tortugas).
+
+##  COMO FUNCIONA
+
+Durante la mitosis, una célula madre puede dividirse de forma asimétrica o simétrica. En la mitosis asimétrica, una de las dos células hijas sigue siendo una célula madre y reemplaza a su madre. Entonces, una célula madre nunca muere, casi se reencarna después de cada división. La otra célula hija se convierte en una célula transitoria que se mueve hacia el exterior.
+
+Las células transitorias jóvenes pueden dividirse, generando otras células transitorias. Las células transitorias dejan de dividirse a cierta edad y cambian de color de rojo a blanco y finalmente mueren.
+
+Una célula madre también puede dividirse simétricamente en dos células madre (tortugas azules). En este ejemplo, la célula madre original se divide simétricamente solo una vez. La primera célula madre permanece estática, pero la segunda célula madre se mueve hacia la derecha. Esta actividad, en la que la célula avanza hacia sitios distantes y crea otra colonia tumoral, se denomina metástasis. Observe que la metástasis es roja. Está hecho de células que mueren jóvenes, cuando todavía están rojas, en lugar de terminar como puntos negros como en el tumor estático. A medida que avanza la enfermedad, las células mueren cada vez más jóvenes.
+
+##  COMO USARLO
+
+INSTALACIÓN: Limpia el mundo y crea dos células madre neoplásicas (cancerosas) azules. Una celda se queda quieta y la otra se mueve hacia la derecha.
+GO: Ejecuta la simulación.
+MATA LAS CÉLULAS TRANSITORIAS: Mata las células transitorias que tienen menos de 10 pasos de tiempo.
+KILL STEM CELL: Mata una célula madre. Si el interruptor KILL-MOVING-CELL adyacente está en OFF, se elimina el original. Si el interruptor está en ON, se elimina la célula madre en movimiento.
+KILL-MOVING-CELL: Determina qué célula madre se elimina cuando se presiona el botón KILL STEM CELL.
+LEAVE-TRAIL: Si está ON, las células trazan sus caminos; si está APAGADO, no lo hacen.
+CELL-COUNT: Muestra el número total de células vivas.
+GRÁFICO DE CÉLULAS VIVAS: traza el número de células vivas.
+
+##  COSAS PARA NOTAR
+
+Primero, observe el punto azul. Representa una célula madre normal que se ha transformado en una célula madre tumoral. Establezca el interruptor &quot;dejar rastro&quot; en Activado y haga clic en &#39;ir&#39;. Se forma un tumor cuando la célula madre crea células transitorias, que se reproducen. Crece hasta cierto tamaño. A medida que crece, aparece un bulto en el lado derecho. Este es un crecimiento tumoral, causado por la mitosis simétrica de la célula madre. El crecimiento se convertirá en una metástasis y crecerá en regiones remotas.
+
+Después de un tiempo, el tumor y la metástasis parecen alcanzar su tamaño máximo y parece que no sucede nada interesante. Esto ilustra cómo se presenta el tumor al médico: como una masa celular sólida. En realidad, esta masa aparentemente sólida oculta el recambio celular activo. Para revelarlo, configure el interruptor de dejar rastro en Apagado, haz clic en CONFIGURAR y luego haz clic en IR para ejecutar la simulación nuevamente.
+
+Reduzca la velocidad del modelo para que pueda seguir los pasos individuales. Mueva el control deslizante de velocidad hacia la izquierda, haz clic en CONFIGURAR y IR, y observe la célula madre azul. Se divide en dos células madre azules. Uno permanece estático y el otro se mueve hacia la derecha.
+
+Mire la célula madre estática (azul). Produce glóbulos rojos que se mueven hacia afuera y cambian de color a medida que envejecen. Cuando son jóvenes, son rojos y crean más células transitorias. Luego se vuelven blancos, luego negros y luego mueren.
+
+##  COSAS PARA INTENTAR
+
+Pruebe un tratamiento: haz clic en el botón &#39;eliminar celdas transitorias&#39; mientras el modelo se está ejecutando. Esto simula el tratamiento con un agente químico. El agente elimina las células jóvenes (rojas) que se dividen y evita las células más viejas. Tenga en cuenta que el tumor se encoge y vuelve a crecer. Continúe con esta &quot;quimioterapia&quot; haciendo clic nuevamente en el botón y observe la gráfica. Repite el tratamiento varias veces hasta que hayas entendido por qué falla.
+
+La mayoría de los medicamentos de quimioterapia conocidos como venenos M y S inhiben la división celular, pero generalmente no causan la muerte celular. Por lo tanto, se puede representar que la quimioterapia mata las células jóvenes transitorias (rojas), ya que solo las células jóvenes se dividen. Las células transitorias más antiguas que no se dividen no se ven afectadas; continúan envejeciendo y finalmente fallecen.
+
+El problema es que las células madre mantienen el tumor y propagan sus metástasis. También conocidas como células clonogénicas, las células madre son generalmente resistentes a la quimioterapia. Solo se pueden eliminar con altas dosis de productos químicos, que ponen en peligro las células madre sanas. El margen terapéutico de las drogas químicas es extremadamente estrecho. Es decir, hacen aproximadamente la misma cantidad de daño que de bien.
+
+Deja que el tumor crezca de nuevo. Haga clic en &#39;matar células madre en movimiento&#39; y continúe ejecutando el modelo. La célula madre azul derecha desaparece. Su progenie vive un poco más y luego muere. Ahora haz clic en &quot;matar la célula madre original&quot; y observe la desaparición gradual del tumor, ya que no se crean nuevas células y las células existentes continúan envejeciendo hasta que mueren y desaparecen.
+
+¿Alguna pregunta? Antes de preguntar, continúe explorando el modelo hasta que capte su comportamiento. El modelo revela una dimensión oculta que es difícil de entender. Es la dimensión temporal de los tejidos (y del tumor) en el cuerpo.
+
+##  EXTENDIENDO EL MODELO
+
+¿Qué tratamientos alternativos sugeriría? ¿Cómo los modelarías aquí?
+
+##  CRÉDITOS Y REFERENCIAS 
+
+The original StarLogoT Tumor model was contributed in 1997 by Gershom Zajicek M.D., Professor of Experimental Medicine and Cancer Research at The Hebrew University-Hadassah Medical School, Jerusalem. It was adapted and converted to NetLogo by Wilensky and members of the CCL in 1998.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Zacijek, G. and Wilensky, U. (1998).  NetLogo Tumor model.  http://ccl.northwestern.edu/netlogo/models/Tumor.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1998 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1998 2001 Cite: Zacijek, G. -->

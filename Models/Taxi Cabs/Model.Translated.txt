@@ -1,0 +1,369 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Plots
+### Source
+Business Miles
+### Spanish ***
+Millas comerciales
+
+### Source
+Dead Miles
+### Spanish ***
+millas muertas
+
+### Source
+default
+### Spanish ***
+por defecto
+
+### Source
+Miles
+### Spanish ***
+Millas
+
+### Source
+Taxicabs Travelling Distance
+### Spanish ***
+Distancia de viaje de los taxis
+
+### Source
+Total Miles
+### Spanish ***
+Millas totales
+
+### Source
+Trip Distance Distribution
+### Spanish ***
+Distribución de distancia de viaje
+
+### Source
+Trip Duration Distribution
+### Spanish ***
+Distribución de la duración del viaje
+
+### Source
+Trip Income
+### Spanish ***
+Ingresos por viaje
+
+### Source
+Trip Income Distribution
+### Spanish ***
+Distribución de Ingresos por Viajes
+
+## Widgets
+### Source
+AM Peak Marginal
+### Spanish ***
+Máximo marginal AM
+
+### Source
+each-additional-passenger-cost
+### Spanish ***
+costo-cada-pasajero-adicional
+
+### Source
+each-grid-cost
+### Spanish ***
+costo de cada red
+
+### Source
+each-tick-cost
+### Spanish ***
+cada-tick-coste
+
+### Source
+Early Morning Marginal
+### Spanish ***
+Marginal temprano en la mañana
+
+### Source
+Evening Marginal
+### Spanish ***
+Marginal vespertino
+
+### Source
+first-passenger-cost
+### Spanish ***
+costo del primer pasajero
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+go-once
+### Spanish ***
+ir una vez
+
+### Source
+length-of-green-light
+### Spanish ***
+longitud de la luz verde
+
+### Source
+length-of-time-period
+### Spanish ***
+periodo de tiempo
+
+### Source
+Midday Marginal
+### Spanish ***
+Marginal del mediodía
+
+### Source
+num-taxicab
+### Spanish ***
+num-taxi
+
+### Source
+PM Peak Marginal
+### Spanish ***
+Máximo marginal de PM
+
+### Source
+prob-cbd-cbd-AM
+### Spanish ***
+prob-cdb-cdb-AM
+
+### Source
+prob-cbd-cbd-EM
+### Spanish ***
+prob-cdb-cdb-EM
+
+### Source
+prob-cbd-cbd-EVE
+### Spanish ***
+prob-cdb-cdb-EVE
+
+### Source
+prob-cbd-cbd-MD
+### Spanish ***
+prob-cdb-cdb-MD
+
+### Source
+prob-cbd-cbd-PM
+### Spanish ***
+prob-cdb-cdb-PM
+
+### Source
+prob-cbd-com-AM
+### Spanish ***
+prob-cbd-com-AM
+
+### Source
+prob-cbd-com-EM
+### Spanish ***
+prob-cbd-com-EM
+
+### Source
+prob-cbd-com-EVE
+### Spanish ***
+prob-cbd-com-EVE
+
+### Source
+prob-cbd-com-MD
+### Spanish ***
+prob-cbd-com-MD
+
+### Source
+prob-cbd-com-PM
+### Spanish ***
+prob-cbd-com-PM
+
+### Source
+prob-cbd-res-AM
+### Spanish ***
+prob-cdb-res-AM
+
+### Source
+prob-cbd-res-EM
+### Spanish ***
+prob-cdb-res-EM
+
+### Source
+prob-cbd-res-EVE
+### Spanish ***
+prob-cdb-res-EVE
+
+### Source
+prob-cbd-res-MD
+### Spanish ***
+prob-cbd-res-MD
+
+### Source
+prob-cbd-res-PM
+### Spanish ***
+prob-CBD-res-PM
+
+### Source
+prob-com-cbd-AM
+### Spanish ***
+prob-com-cbd-AM
+
+### Source
+prob-com-cbd-EM
+### Spanish ***
+prob-com-cdb-EM
+
+### Source
+prob-com-cbd-EVE
+### Spanish ***
+prob-com-cdb-EVE
+
+### Source
+prob-com-cbd-MD
+### Spanish ***
+prob-com-cbd-MD
+
+### Source
+prob-com-cbd-PM
+### Spanish ***
+prob-com-cdb-PM
+
+### Source
+prob-com-com-AM
+### Spanish ***
+prob-com-com-AM
+
+### Source
+prob-com-com-EM
+### Spanish ***
+prob-com-com-EM
+
+### Source
+prob-com-com-EVE
+### Spanish ***
+prob-com-com-EVE
+
+### Source
+prob-com-com-MD
+### Spanish ***
+prob-com-com-MD
+
+### Source
+prob-com-com-PM
+### Spanish ***
+prob-com-com-PM
+
+### Source
+prob-com-res-AM
+### Spanish ***
+prob-com-res-AM
+
+### Source
+prob-com-res-EM
+### Spanish ***
+prob-com-res-EM
+
+### Source
+prob-com-res-EVE
+### Spanish ***
+prob-com-res-EVE
+
+### Source
+prob-com-res-MD
+### Spanish ***
+prob-com-res-MD
+
+### Source
+prob-com-res-PM
+### Spanish ***
+prob-com-res-PM
+
+### Source
+prob-res-cbd-AM
+### Spanish ***
+prob-res-cbd-AM
+
+### Source
+prob-res-cbd-EM
+### Spanish ***
+prob-res-cdb-EM
+
+### Source
+prob-res-cbd-EVE
+### Spanish ***
+prob-res-cbd-EVE
+
+### Source
+prob-res-cbd-MD
+### Spanish ***
+prob-res-cbd-MD
+
+### Source
+prob-res-cbd-PM
+### Spanish ***
+prob-res-cdb-PM
+
+### Source
+prob-res-com-AM
+### Spanish ***
+prob-res-com-AM
+
+### Source
+prob-res-com-EM
+### Spanish ***
+prob-res-com-EM
+
+### Source
+prob-res-com-EVE
+### Spanish ***
+prob-res-com-EVE
+
+### Source
+prob-res-com-MD
+### Spanish ***
+prob-res-com-MD
+
+### Source
+prob-res-com-PM
+### Spanish ***
+prob-res-com-PM
+
+### Source
+prob-res-res-AM
+### Spanish ***
+prob-res-res-AM
+
+### Source
+prob-res-res-EM
+### Spanish ***
+prob-res-res-EM
+
+### Source
+prob-res-res-EVE
+### Spanish ***
+prob-res-res-EVE
+
+### Source
+prob-res-res-MD
+### Spanish ***
+prob-res-res-MD
+
+### Source
+prob-res-res-PM
+### Spanish ***
+prob-res-res-PM
+
+### Source
+setup
+### Spanish ***
+configuración
+
+### Source
+Time of the Day
+### Spanish ***
+Hora del día
+
+### Source
+wait-time-mean
+### Spanish ***
+tiempo de espera medio
+
+### Source
+wait-time-sd
+### Spanish ***
+tiempo de espera-sd
+

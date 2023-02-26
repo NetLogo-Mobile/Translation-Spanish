@@ -1,0 +1,122 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+El modelo de pila de arena Bak-Tang-Wiesenfeld demuestra el concepto de &quot;criticidad autoorganizada&quot;. Además, demuestra que la complejidad puede surgir de reglas simples y que un sistema puede llegar a un estado crítico de forma espontánea en lugar de mediante el ajuste fino de parámetros precisos.
+
+##  COMO FUNCIONA
+
+Imagina una mesa con arena encima. La superficie de la mesa es una cuadrícula de cuadrados. Cada cuadrado puede contener cómodamente hasta tres granos de arena.
+
+Ahora deja caer granos de arena sobre la mesa, uno a la vez. Cuando un cuadrado alcanza el umbral de sobrecarga de cuatro o más granos, todos los granos (no solo los extras) se redistribuyen a los cuatro cuadrados vecinos. Los vecinos, a su vez, pueden sobrecargarse, desencadenando una &quot;avalancha&quot; de nuevas redistribuciones.
+
+Los granos de arena pueden caer del borde de la mesa, lo que ayuda a garantizar que la avalancha finalmente termine.
+
+Los granos de arena reales, por supuesto, no se comportan así. Es posible que prefiera imaginar que cada cuadrado es el escritorio de un burócrata, con carpetas de trabajo apiladas. Cuando el escritorio de un burócrata se llena, limpia su escritorio pasando las carpetas a sus vecinos.
+
+##  COMO USARLO
+
+Presiona uno de los botones de **configuración** para borrar y volver a llenar la mesa. Puede comenzar con arena al azar, o un número uniforme de granos por cuadrado, usando el botón **configurar uniforme** y el control deslizante **granos por parche**.
+
+El esquema de color de la vista está inspirado en un patrón de &quot;semáforo&quot;:
+
+rojo = 3 granos
+amarillo = 2 granos
+verde = 1 grano
+negro = 0 granos
+
+Si el interruptor **animate-avalanches?** está activado, los parches sobrecargados son blancos.
+
+Presiona **ir** para comenzar a arrojar arena. Puedes elegir dónde dejarlo con **ubicación de destino**. Si la **ubicación de colocación** está configurada en &quot;clic con el mouse&quot;, puede colocar arena haciendo clic en la vista (el botón **ir** debe estar activo para que funcione).
+
+Si comienza con una distribución uniforme de 0 o incluso 1, puede pasar un tiempo antes de que vea avalanchas. Si desea acelerar este proceso, desmarque &quot;ver actualizaciones&quot; durante unos segundos y luego vuelva a marcarlo. Esto hace que el modelo se ejecute más rápido, porque NetLogo no tiene que dibujar el modelo cada tic.
+
+Cuando **animate-avalanches?** está activado, puedes ver cómo ocurre cada avalancha, y luego, cuando la avalancha termina, las áreas tocadas por la avalancha parpadean en blanco.
+
+Mueva el control deslizante de velocidad hacia la derecha para obtener resultados más rápido.
+
+Si presionas **explorar**, al pasar el mouse sobre un cuadrado se mostrará qué tan grande sería la avalancha si se arrojara un grano en ese cuadrado.
+
+##  COSAS PARA NOTAR
+
+Los destellos blancos te ayudan a distinguir avalanchas sucesivas. También te dan una idea de qué tan grande fue cada avalancha.
+
+La mayoría de las avalanchas son pequeñas. Ocasionalmente sucede uno mucho más grande. ¿Cómo es posible que añadiendo un grano de arena a la vez pueda afectar a tantos cuadrados?
+
+¿Puedes predecir cuándo va a ocurrir una gran avalancha? Qué buscas?
+
+Si deja **animar-avalanchas?**, podrá ver el patrón que hace cada avalancha. ¿Cómo describirías los patrones que ves?
+
+Observe la gráfica **Recuento promedio de granos**. ¿Qué sucede con la altura promedio de la arena con el tiempo?
+
+Observe los gráficos de **Tamaños de avalancha** y **Duración de avalancha**. Este histograma está en una escala logarítmica, lo que significa que ambos ejes son logarítmicos. ¿Cuál es la forma de las parcelas a largo plazo? Puede usar el botón **borrar datos de tamaño** para desechar los datos de tamaño recopilados antes de que el sistema alcance el equilibrio.
+
+##  COSAS PARA INTENTAR
+
+Pruebe todas las diferentes combinaciones de configuraciones iniciales y ubicaciones de entrega. ¿En qué se diferencia lo que ves cerca del comienzo de una carrera? Después de que hayan pasado muchos ticks, ¿sigue siendo diferente el comportamiento?
+
+Use una configuración inicial vacía y deje caer granos de arena en el centro. Esto hace que el sistema sea determinista. ¿Qué tipo de patrones ves? ¿La pila de arena es simétrica y, de ser así, qué tipo de simetría muestra? ¿Por qué pasó esto? Cada celda solo conoce a sus vecinos, entonces, ¿cómo los extremos opuestos de la pila producen el mismo patrón si no pueden verse entre sí? ¿Qué forma tiene la pila y por qué? Si cada celda solo agrega arena a la celda de arriba, abajo, a la izquierda y a la derecha, ¿no debería la pila resultante tener forma de cruz también?
+
+Seleccione soltar con un clic del ratón. ¿Puedes encontrar lugares donde agregar un grano resulte en una avalancha? Si tiene una pila simétrica, agregue algunos granos de arena aleatorios estratégicos, luego continúe agregando arena al centro de la pila, ¿qué sucede con el patrón?
+
+##  EXTENDIENDO EL MODELO
+
+Pruebe con un umbral mayor que 4.
+
+Intente incluir también vecinos diagonales en la redistribución.
+
+Trate de redistribuir la arena a los vecinos al azar, en lugar de siempre uno por vecino.
+
+Este modelo exhibe características comúnmente observadas en sistemas naturales complejos, como la criticidad autoorganizada, la geometría fractal, el ruido 1/f y las leyes de potencia. Estos conceptos se explican con más detalle en el libro de Per Bak (ver la referencia a continuación). Agregue código al modelo para medir estas características.
+
+Intente colorear cada cuadrado según el tamaño de la avalancha si arrojara otro grano sobre él. Para ello, utiliza **push-n** y **pop-n** para que puedas volver a la distribución de granos antes de calcular el tamaño de la avalancha.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+* En la configuración mundial, el ajuste en los bordes del mundo está desactivado. Por lo tanto, la primitiva `neighbors4` a veces devuelve solo dos o tres parches.
+
+* Para que el modelo funcione rápido, debemos evitar realizar operaciones que requieran iterar sobre todos los parches. Evitar eso significa hacer un seguimiento del conjunto de parches actualmente involucrados en una avalancha. La línea de código clave es:
+
+`establecer parches activos conjunto de parches [vecinos4] de parches sobrecargados`
+
+* El mismo procedimiento de &quot;configuración&quot; se usa para crear una configuración inicial uniforme o aleatoria. La diferencia es qué tarea le pasamos para que se ejecute cada pasada. Consulte la sección Tareas de la Guía de programación en el Manual del usuario para obtener más información sobre Tareas.
+
+* Para habilitar el modo de exploración, este modelo utiliza una estructura de datos de la informática llamada &quot;pila&quot;. Una pila funciona como una pila de papeles en la vida real: usted coloca (o &quot;empuja&quot;) elementos en la pila de manera que la parte superior de la pila sea siempre el elemento que se colocó más recientemente. Luego puede &quot;sacar&quot; elementos de la parte superior de la pila, revelando su valor y eliminándolos de la pila. Por lo tanto, las pilas son buenas para guardar y restaurar el valor de una variable. Para guardar un valor, inserta el valor de la variable en la pila y luego establece la variable en cualquier valor nuevo que desee. Para restaurar, quita el valor y vuelve a establecer la variable en ese valor.
+
+El modo Explorar en realidad solo necesita un elemento en la pila. Sin embargo, la pila se puede usar para guardar tantos valores como se desee. Por lo tanto, podría extender este modelo para permitir que las personas exploren más y más hacia el futuro y luego permitirles volver a su lugar original.
+
+##  MODELOS RELACIONADOS 
+
+* Sand
+* Sandpile 3D (in NetLogo 3D)
+
+##  CRÉDITOS Y REFERENCIAS 
+
+https://en.wikipedia.org/wiki/Abelian_sandpile_model
+
+https://en.wikipedia.org/wiki/Self-organized_criticality
+
+Bak, P. 1996. How nature works: the science of self-organized criticality. Copernicus, (Springer).
+
+Bak, P., Tang, C., & Wiesenfeld, K. 1987. Self-organized criticality: An explanation of the 1/f noise. Physical Review Letters, 59(4), 381.
+
+The bureaucrats-and-folders metaphor is due to Peter Grassberger.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Weintrop, D., Tisue, S., Tinker, R., Head, B. and Wilensky, U. (2011).  NetLogo Sandpile model.  http://ccl.northwestern.edu/netlogo/models/Sandpile.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+[![CC0](http://ccl.northwestern.edu/images/creativecommons/zero.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+Public Domain: To the extent possible under law, Uri Wilensky has waived all copyright and related or neighboring rights to this model.
+
+<!-- 2011 CC0 Cite: Weintrop, D., Tisue, S., Tinker, R., Head, B. -->

@@ -1,0 +1,86 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+Este modelo demuestra cómo los químicos y biólogos miden el pH de una solución. El valor del pH, como muchas otras medidas químicas, surge de las interacciones y proporciones relativas de las moléculas compuestas dentro de una solución.
+
+##  COMO FUNCIONA
+
+Específicamente, el pH es una medida de la cantidad de iones hidronio (H+ o H3O+) que están presentes en una solución. Los iones de hidronio se generan cuando una molécula de ácido dona un protón a una molécula de agua. Las bases tienen el efecto opuesto en el agua: toman hidrógeno de una molécula de agua y generan iones de hidróxido (OH-). Estas dos reacciones se enumeran a continuación. Tenga en cuenta el equilibrio de carga y la conversión de los átomos. HA denota un ácido fuerte y B denota una base fuerte.
+
+&gt; H <sub>2</sub> O + HA —&gt; H <sub>3</sub> O <sup>+</sup> + A <sup>-</sup>
+&gt; B + H <sub>2</sub> O —&gt; OH <sup>-</sup> + HB <sup>+</sup>
+
+Es importante señalar que este modelo simula la interacción de un ácido fuerte y una base fuerte. Los ácidos y las bases que se clasifican como fuertes se disocian completamente en agua. Eso significa que todo el HA se convierte en iones de hidronio y todo el B se protona, por lo que la concentración del ácido original es igual a la concentración de iones de hidronio. Los medidores de pH son capaces de detectar cuántos iones de hidronio o iones de hidróxido están presentes en una solución. La fórmula para medir el pH se enumera a continuación. También se puede calcular el pOH de manera similar. [] indica concentración en MOLARIDAD.
+
+&gt; pH = -log [H+]
+&gt; pOH = -log [OH-]
+
+Los iones de hidronio y los iones de hidróxido tienen cargas opuestas y reaccionan fácilmente entre sí. Cuando reaccionan, se transfiere un átomo de hidrógeno y se generan dos moléculas de agua en el proceso. Los químicos a menudo valoran ácidos y bases juntos para determinar qué tan estable es el pH de un ácido o base en particular. Este experimento se realiza tomando una cantidad conocida de ácido y añadiéndole varias cantidades de base. La curva de valoración se genera trazando el pH frente al volumen de base añadido.
+
+##  COMO USARLO
+
+Decida cuánto ácido debe estar presente al comienzo de la simulación con el control deslizante VOL-ACID y presione SETUP. Las tortugas se distribuirán aleatoriamente por todo el mundo. Las tortugas AZULES representan moléculas de agua y las tortugas VERDES representan iones de hidronio. Cada vez se agrega una cantidad determinada de moléculas de agua a la solución.
+
+Presione IR. Las tortugas se moverán aleatoriamente por el mundo y el pH de la solución se trazará a lo largo del tiempo y se mostrará en el monitor de pH.
+
+Para observar el efecto de agregar base a la solución, configure el volumen de base que se agregará con el control deslizante VOL-BASE y presione ADD-BASE para agregar las moléculas de base rojas.
+
+Para realizar un experimento de titulación, establezca los controles deslizantes en los valores deseados y presione GO. Mientras se ejecuta el modelo, presione ADD-BASE. Esto agregará VOL-BASE al ácido en el mundo. Espere a que el pH se estabilice como lo haría en un experimento real y luego presione RECORD-PH. Luego se traza un punto en la curva con cada adición de base para que el usuario pueda observar cómo se relaciona el valor del pH con la cantidad de base añadida a la solución.
+
+##  COSAS PARA NOTAR
+
+Observe la forma de la curva de titulación, especialmente donde la pendiente se acerca a uno. ¿Puedes explicar este fenómeno?
+
+¿Cuáles son los valores mínimo y máximo de pH en este modelo? ¿Puedes pensar en una manera de alterar sus valores?
+
+¿Por qué no hay moléculas de ácido en la simulación? De manera similar, ¿por qué no se muestran A y HB en el modelo?
+
+##  COSAS PARA INTENTAR
+
+Trace una curva de titulación usando varios ajustes de VOL-BASE. ¿Cómo afecta esto a la curva de valoración? ¿Es más recomendable utilizar grandes o pequeñas cantidades de base? ¿Deberías usar cantidades constantes de base?
+
+Presione ADD-BASE varias veces y observe el gráfico de pH vs. tiempo. ¿Crees que esta es una trama útil para los experimentos? ¿Qué te dice?
+
+¿Se puede alterar el pH de la solución sin agregar base a la solución?
+
+##  EXTENDIENDO EL MODELO
+
+Actualmente, el código genera dos moléculas de agua cada vez que una molécula de hidronio e hidróxido chocan. Modifique el código para generar un comportamiento para la colisión de hidróxido y agua, de acuerdo con la ecuación química anterior. ¿Cómo cambia esto el modelo?
+
+¿Qué pasaría si solo se generara una molécula de agua y la molécula de hidróxido se destruyera cuando las dos colisionaron? ¿Cómo afectaría esto al pH?
+
+Agregue un botón para agregar más ácido a la solución en cualquier momento, ¿puede usarlo para ajustar el pH a un valor objetivo?
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Tenga en cuenta que en el procedimiento `calculate-pH` el modelo hace uso de la primitiva `count` y algunas matemáticas para convertir el número de tortugas en el mundo en concentraciones como las que se ven en el laboratorio.
+
+##  CRÉDITOS Y REFERENCIAS 
+
+Thanks to Mike Stieff for his work on this model.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Stieff, M. and Wilensky, U. (2001).  NetLogo Strong Acid model.  http://ccl.northwestern.edu/netlogo/models/StrongAcid.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2001 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227.
+
+<!-- 2001 Cite: Stieff, M. -->

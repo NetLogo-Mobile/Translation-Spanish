@@ -1,0 +1,93 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Widgets
+### Source
+cosine
+### Spanish ***
+coseno
+
+### Source
+cubic
+### Spanish ***
+cúbico
+
+### Source
+exponential
+### Spanish ***
+exponencial
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+go once
+### Spanish ***
+ir una vez
+
+### Source
+horizontal
+### Spanish ***
+horizontal
+
+### Source
+hyperbolic
+### Spanish ***
+hiperbólico
+
+### Source
+linear
+### Spanish ***
+lineal
+
+### Source
+logarithmic
+### Spanish ***
+logarítmico
+
+### Source
+num-followers
+### Spanish ***
+num-seguidores
+
+### Source
+quadratic
+### Spanish ***
+cuadrático
+
+### Source
+-quadratic
+### Spanish ***
+-cuadrático
+
+### Source
+random
+### Spanish ***
+aleatorio
+
+### Source
+reveal
+### Spanish ***
+revelar
+
+### Source
+show-leader?
+### Spanish ***
+líder del espectáculo?
+
+### Source
+show-trail?
+### Spanish ***
+show-trail?
+
+### Source
+sine
+### Spanish ***
+seno
+
+### Source
+step-size
+### Spanish ***
+Numero de pie
+

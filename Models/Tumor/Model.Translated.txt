@@ -1,0 +1,49 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Plots
+### Source
+Cells Alive
+### Spanish ***
+células vivas
+
+### Source
+Living Cells
+### Spanish ***
+Células vivas
+
+## Widgets
+### Source
+cell-count
+### Spanish ***
+conteo de células
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+kill moving stem cell
+### Spanish ***
+matar células madre en movimiento
+
+### Source
+kill original stem cell
+### Spanish ***
+matar la célula madre original
+
+### Source
+kill transitory cells
+### Spanish ***
+matar células transitorias
+
+### Source
+leave-trail?
+### Spanish ***
+dejar rastro?
+
+### Source
+setup
+### Spanish ***
+configuración
+

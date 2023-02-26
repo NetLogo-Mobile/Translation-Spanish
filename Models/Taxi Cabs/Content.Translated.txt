@@ -1,0 +1,82 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+El modelo imita el número de pasajeros de taxis en un área urbana. Los usuarios pueden controlar la demanda de pasajeros, el tamaño de la flota, las reglas de tráfico y el cálculo de tarifas. El modelo tiene como objetivo revelar información sobre la rentabilidad de los taxis en función de las características del viaje y la dinámica de la demanda.
+
+##  COMO FUNCIONA
+
+El área urbana se representa como un sistema de cuadrícula, que está formado por calles e intersecciones de dos carriles. El área metropolitana consta de tres regiones: (1) Distrito comercial central (en naranja), (2) Zona comercial (en azul) y (3) Zona residencial (en gris). Las tres regiones pueden formar nueve pares origen-destino (OD), con seis pares de flujos interregionales y tres pares de flujos intrarregionales.
+
+Dado que las demandas de taxis para cada tipo de flujo pueden ser drásticamente diferentes según la hora del día, los usuarios pueden controlar la cantidad de flujo de una región a otra a través de la interfaz.
+
+Los posibles pasajeros aparecen en las carreteras controladas por los usuarios. Cuando pasa un taxi vacío, se detiene y recoge a los pasajeros. Los pasajeros informan al taxi de la coordenada de destino, y el taxi se vuelve violeta claro y comienza el viaje. El taxi viajará desde la coordenada de recogida hasta la coordenada de bajada de color violeta claro por la distancia más corta de Manhattan y completará el viaje cuando llegue a la coordenada de destino.
+
+Después de terminar un viaje, el taxi queda vacante y busca al siguiente pasajero viajando aleatoriamente por las carreteras.
+
+##  COMO USARLO
+
+### Demanda de taxis
+* Flujo espacial e intervalo de tiempo:
+- _Intervalo de tiempo_: El flujo de residentes en un área urbana entre regiones puede ser bastante diferente dependiendo de la hora del día. Para indicar las diferencias en el flujo espacial de los viajes en taxi entre regiones a lo largo del día, se crea un reloj para realizar un seguimiento de la hora en el mundo. Se implementan cinco intervalos de tiempo distintos (1) pico de la mañana, (2) mediodía, (3) pico de la tarde, (4) tarde, (5) temprano en la mañana. Un reportero muestra el intervalo de tiempo actual en la interfaz, y la duración de cada intervalo de tiempo se puede controlar mediante un control deslizante llamado DURACIÓN DEL PERÍODO DE TIEMPO.
+- _Flujo espacial_: la demanda de taxis en los distritos de la ciudad puede ser variable, y los usuarios pueden manipular diferentes cantidades de flujos a través de los controles deslizantes de flujo espacial, que controlan la probabilidad (o proporción) de viajes que van desde un origen a un destino durante un intervalo de tiempo específico. Para tales fines, un reportero muestra las probabilidades marginales de cada intervalo de tiempo en la parte inferior de cada columna deslizante para recordar a los usuarios que la probabilidad marginal debe sumar 1.
+
+### Normas de tráfico
+* Semáforos: la duración de las luces rojas/verdes se puede controlar mediante un control deslizante en la interfaz llamado LENGTH-OF-GREEN-LIGHT.
+
+### Pasajeros
+* El tiempo de espera de los pasajeros está modelado por una distribución normal. Los parámetros de esta distribución normal pueden ser ingresados por los usuarios en la interfaz a través de WAIT-TIME-MEAN y WAIT-TIME-SD.
+
+### Taxis
+* Tamaño de la flota: el tamaño de la flota de taxis se puede controlar mediante un control deslizante NUM-TAXICABS.
+
+* Tarifa de viaje: La tarifa de viaje se calcula en base al taxi amarillo de Chicago. La tarifa del viaje se calcula principalmente por tres variables diferentes: (1) el número de pasajeros a bordo, (2) el número de millas recorridas, (3) la duración del viaje. Estas variables de costo pueden ser determinadas por los usuarios en la interfaz usando PRIMER-PASAJERO-COSTO, CADA-PASAJERO-COSTO-ADICIONAL, CADA-CUADRO-COSTO y CADA-TICK-COSTO.
+
+##  COSAS PARA NOTAR
+
+A medida que se ejecuta el modelo, la compensación entre millas comerciales y millas muertas puede ser contrastante. Las distribuciones de los ingresos, la distancia y la duración de los viajes deben estar correlacionadas, y las formas generales de la distribución son susceptibles a los cambios en las reglas de tránsito y la duración de los intervalos.
+
+##  COSAS PARA INTENTAR
+
+Para una visualización clara del proceso de recogida y devolución, se sugiere comenzar con un taxi para ver cómo se comporta un taxi antes de generar varios taxis.
+
+##  EXTENDIENDO EL MODELO
+
+Hay muchas maneras de extender este modelo. Las vías interesantes serían usar datos del mundo real con la extensión GIS, estrategias de búsqueda más complejas, como el uso de herramientas de IA, e incluir sistemas de viajes compartidos como Uber o Lyft en el modelo, para comprender mejor la relación entre los taxis y los sistemas de viajes compartidos. .
+
+Otra extensión significativa específica para los taxis es descubrir cómo reducir la cantidad de millas muertas, millas recorridas por taxis sin pasajeros a bordo. Las millas muertas son costosas para los conductores porque los conductores necesitan internalizar la depreciación del vehículo y el precio de la gasolina mientras buscan pasajeros. Descubrir estrategias de búsqueda más inteligentes, como ubicar al próximo pasajero inmediatamente después del último descenso, será significativo.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Cada calle en el modelo está formado por dos carriles, y cada carril permite que los taxis viajen en una dirección. Al entregar pasajeros, los taxis harán giros en U para ubicarse en la dirección correcta para comenzar la entrega siguiendo la distancia más corta de Manhattan. Se pueden hacer algunas soluciones para evitar hacer cambios de sentido.
+
+##  MODELOS RELACIONADOS 
+
+- "Traffic Basic": a simple model of the movement of cars on a highway.
+- "Traffic Basic Utility": a version of "Traffic Basic" including a utility function for the cars.
+- "Traffic 2 Lanes": a more sophisticated two-lane version of the "Traffic Basic" model.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Ping, D. and Wilensky, U. (2019).  NetLogo Taxi Cabs model.  http://ccl.northwestern.edu/netlogo/models/TaxiCabs.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+This model was developed as part of the Spring 2019 Multi-agent Modeling course offered by Dr. Uri Wilensky at Northwestern University. For more info, visit http://ccl.northwestern.edu/courses/mam/. Special thanks to Teaching Assistants Sugat Dabholkar, Can Gurkan, and Connor Bain.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2019 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2019 MAM2019 Cite: Ping, D. -->

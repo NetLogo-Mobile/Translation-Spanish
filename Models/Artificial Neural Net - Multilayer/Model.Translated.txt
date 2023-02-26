@@ -1,0 +1,99 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Plots
+### Source
+default
+### Spanish ***
+por defecto
+
+### Source
+Epochs
+### Spanish ***
+Épocas
+
+### Source
+Error
+### Spanish ***
+Error
+
+### Source
+Error vs. Epochs
+### Spanish ***
+Error frente a épocas
+
+## Widgets
+### Source
+0
+### Spanish ***
+0
+
+### Source
+1
+### Spanish ***
+1
+
+### Source
+examples-per-epoch
+### Spanish ***
+ejemplos-por-epoca
+
+### Source
+input-1
+### Spanish ***
+entrada-1
+
+### Source
+input-2
+### Spanish ***
+entrada-2
+
+### Source
+learning-rate
+### Spanish ***
+tasa de aprendizaje
+
+### Source
+or
+### Spanish ***
+o
+
+### Source
+output
+### Spanish ***
+producción
+
+### Source
+setup
+### Spanish ***
+configuración
+
+### Source
+show-weights?
+### Spanish ***
+mostrar-pesos?
+
+### Source
+target-function
+### Spanish ***
+función objetivo
+
+### Source
+test
+### Spanish ***
+prueba
+
+### Source
+train
+### Spanish ***
+tren
+
+### Source
+train once
+### Spanish ***
+entrenar una vez
+
+### Source
+xor
+### Spanish ***
+xor
+

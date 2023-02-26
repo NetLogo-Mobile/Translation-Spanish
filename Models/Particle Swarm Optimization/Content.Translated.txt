@@ -1,0 +1,107 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+La optimización de enjambre de partículas (PSO) es una técnica de búsqueda/optimización en el campo del aprendizaje automático. Aunque PSO generalmente se emplea en espacios de búsqueda con muchas dimensiones, este modelo demuestra su uso en un espacio bidimensional, para facilitar la visualización.
+
+Hablando formalmente, existe una función desconocida f(x,y), y estamos tratando de encontrar valores para x e y, de modo que f(x,y) esté maximizada. f(x,y) a veces se denomina función de aptitud, ya que determina qué tan buena es la posición actual en el espacio para cada partícula. La función de aptitud también se denomina a veces &quot;paisaje de aptitud&quot;, ya que puede estar compuesta por muchos valles y colinas.
+
+Un enfoque (búsqueda aleatoria) sería seguir eligiendo aleatoriamente valores para x e y, y registrar el mayor resultado encontrado. Para muchos espacios de búsqueda esto no es eficiente, por lo que se utilizan otras técnicas de búsqueda más &quot;inteligentes&quot;. La optimización de enjambres de partículas es una de esas técnicas. Las partículas se colocan en el espacio de búsqueda y se mueven a través del espacio de acuerdo con reglas que tienen en cuenta el conocimiento personal de cada partícula y el conocimiento del &quot;enjambre&quot; global. A través de su movimiento, las partículas descubren valores particularmente altos para f(x,y).
+
+Este modelo se basa estrechamente en el algoritmo descrito por el artículo original de Kennedy y Eberhart (consulte la referencia a continuación). Sin embargo, este modelo pretende demostrar el principio, en lugar de ser una réplica exacta. Fueron necesarias algunas modificaciones para tener en cuenta el uso de un mundo toroidal (envolvente) y para mejorar la visualización del movimiento del enjambre. Además, la función que se optimiza es discreta (basada en una cuadrícula de valores), en lugar de continua.
+
+##  COMO FUNCIONA
+
+Cada partícula tiene una posición (xcor, ycor) en el espacio de búsqueda y una velocidad (vx, vy) a la que se mueve a través de ese espacio. Las partículas tienen una cierta cantidad de inercia, lo que las mantiene moviéndose en la misma dirección en la que se movían anteriormente.
+También tienen aceleración (cambio de velocidad), que depende de dos cosas principales.
+
+1) Cada partícula es atraída hacia la mejor ubicación que ha encontrado personalmente (mejor personal) previamente en su historia.
+
+2) Cada partícula es atraída hacia la mejor ubicación que *cualquier* partícula haya encontrado (la mejor global) en el espacio de búsqueda.
+
+La fuerza con la que las partículas son atraídas en cada una de estas direcciones depende de los parámetros ATRACCIÓN A LO MEJOR PERSONAL y ATRACCIÓN A LO MEJOR GLOBAL. A medida que las partículas se alejan más de estas &quot;mejores&quot; ubicaciones, la fuerza de atracción se vuelve más fuerte. También hay un factor aleatorio sobre cuánto se atrae la partícula hacia cada uno de estos lugares.
+
+En este modelo, el enjambre de partículas intenta optimizar una función que está determinada por los valores en la cuadrícula discreta de celdas que se muestra en la vista. El paisaje se crea mediante la asignación aleatoria de valores a cada celda de la cuadrícula, luego se realiza la difusión para suavizar los valores, lo que da como resultado numerosos mínimos (valles) y máximos (colinas) locales. Esta función se eligió meramente con fines ilustrativos. Como ejemplo más plausible de una aplicación real de PSO, las variables (x,y,z,...) podrían corresponder a parámetros de un modelo de predicción bursátil, y la función f(x,y,z,... ) podría evaluar el rendimiento del modelo en datos históricos.
+
+El modelo se ejecuta hasta que alguna partícula en el enjambre haya encontrado el valor óptimo &quot;verdadero&quot; (que es 1,00).
+
+##  COMO USARLO
+
+Presione SETUP para inicializar el paisaje de fitness y coloque las partículas aleatoriamente en el espacio. Cada vez que presiona SETUP, se crea un paisaje aleatorio diferente.
+
+Pulse PASO (para un paso) o IR para ejecutar el algoritmo de optimización de enjambre de partículas.
+
+El control deslizante LANDSCAPE-SMOOTHNESS determina qué tan suave se creará un paisaje cuando se presiona el botón SETUP.
+
+El control deslizante TAMAÑO DE LA POBLACIÓN controla el número de partículas utilizadas.
+
+El control deslizante ATRACCIÓN A LO MEJOR PERSONAL determina la fuerza de atracción de cada partícula hacia la ubicación donde había encontrado previamente el valor más alto (en su propia historia).
+
+El control deslizante ATRACCIÓN A LA MEJOR GLOBAL determina la fuerza de atracción de cada partícula hacia la mejor ubicación jamás descubierta por cualquier miembro del enjambre.
+
+El control deslizante INERCIA DE PARTÍCULAS controla la cantidad en la que las partículas siguen moviéndose en la misma dirección en la que han estado (en lugar de ser arrastradas por las fuerzas de atracción).
+
+El control deslizante LÍMITE DE VELOCIDAD DE PARTÍCULAS controla la tasa máxima de movimiento (en las direcciones x o y) para cada partícula. Aunque esta característica no siempre es parte de
+
+El selector TRAILS-MODE le permite elegir qué tipo de visualización le gustaría para las trayectorias de las partículas (estelas). &quot;Trazas&quot; significa que las partículas dejarán sus caminos indefinidamente en la vista. &quot;Cruz&quot; significa que solo se mostrará el último paso que dieron. &quot;Ninguno&quot; significa que no se mostrarán trayectorias de partículas. Tenga en cuenta que la pantalla no se actualizará hasta que se vuelva a ejecutar GO (o STEP).
+
+El selector HIGHLIGHT-MODE le permite ver la mejor ubicación en cualquier parte del espacio de búsqueda (&quot;La mejor de verdad&quot;) o la mejor ubicación que ha encontrado el enjambre (&quot;Mejor encontrada&quot;). Tenga en cuenta que la pantalla no se actualizará hasta que se vuelva a ejecutar GO (o STEP).
+
+El monitor BEST-VALUE-FOUND muestra el &quot;mejor valor global&quot; del enjambre hasta el momento. Es decir, cuál es el mejor valor que ha encontrado cualquier partícula. El valor máximo que podría alcanzar es 1,0, momento en el que la simulación se detendrá.
+
+##  COSAS PARA NOTAR
+
+A menudo verá partículas que viajan en trayectorias que son aproximadamente elípticas. ¿Por qué crees que es esto? (Piense en los principales factores que influyen en la velocidad de cada partícula).
+
+A veces, el enjambre encuentra rápidamente la solución &quot;perfecta&quot; (valor = 1,0), y otras veces se &quot;atasca&quot; en el área equivocada del espacio de búsqueda, y parece que nunca encontrará la solución perfecta. Esta noción de quedar atrapado cerca de un &quot;máximo local&quot;, cuando hay un mejor &quot;máximo global&quot; en algún lugar del espacio de búsqueda es un problema común que puede surgir en muchas técnicas de optimización (montañas, algoritmos genéticos, recocido simulado). Una variación del algoritmo PSO utiliza una fuerza repulsiva entre partículas para ayudar a mantenerlas dispersas en el espacio, y es menos probable que todas graviten hacia un valor subóptimo.
+
+##  COSAS PARA INTENTAR
+
+Gire HIGHLIGHT-MODE a &quot;Mejor encontrado&quot; y ejecute la simulación varias veces. ¿Con qué frecuencia cambia la ubicación &quot;Mejor encontrada&quot;? ¿Cambia con más frecuencia al principio o cerca del final de la simulación?
+
+Intente variar el control deslizante INERCIA DE PARTÍCULAS. Cuando es 0,0, las partículas se mueven únicamente en función de la ubicación de su &quot;mejor marca personal&quot; y la &quot;mejor marca global&quot;, y no de su historial de movimiento. Cuando es 1,0, las velocidades de las partículas nunca cambian, lo que da como resultado un movimiento en línea recta. ¿Puede encontrar un valor óptimo para la INERCIA DE PARTÍCULAS en algún lugar entre estos extremos? ¿Crees que el valor óptimo depende de otros factores, como el tamaño de la población, la suavidad del paisaje o los parámetros de atracción?
+
+##  EXTENDIENDO EL MODELO
+
+Agregue una fuerza repulsiva entre partículas, para tratar de ayudar a evitar que todas converjan prematuramente en un área pequeña del espacio de búsqueda.
+
+El espacio de búsqueda que se explora en este modelo no tiene sentido, solo un paisaje aleatorio de valores que se ha suavizado. Cámbialo por algo más significativo.
+
+¿Qué sucede si la función que se está optimizando cambia con el tiempo? Es decir, modifique el modelo para que el enjambre de partículas intente encontrar la mejor solución en un entorno dinámico, donde los valores de las celdas de la cuadrícula están cambiando. Si el cambio no ocurre demasiado rápido, ¿puede el enjambre seguir al máximo a medida que se mueve por el espacio?
+
+Hay muchas otras variaciones en PSO. Intente buscar en la web para obtener más información sobre algunos de ellos, o invente el suyo propio.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+El uso de combinaciones de primitivos NetLogo incorporados puede evitar &quot;casos extremos&quot; complicados en mundos toroidales. Al decidir cómo debe cambiar la velocidad de cada partícula, necesitamos alguna forma de obtener un vector desde la ubicación de cada partícula a otra ubicación en el mundo (el mejor personal o el mejor global). En un espacio 2D ilimitado, se podría calcular este vector restando `(x-goal - xcor)` y `(y-goal - ycor)`. Sin embargo, eso no funciona en nuestro mundo envolvente (toroidal). (¿Por qué no?). Entonces, en su lugar, usamos `facexy` para apuntar a la tortuga en la dirección correcta, luego `dx` y `dy` juntos nos dan un vector unitario apuntando hacia el objetivo, y podemos multiplicarlos por la `distancia` a esa ubicación, para obtener un vector de la longitud correcta.
+
+##  MODELOS RELACIONADOS 
+
+Simple Genetic Algorithm, Artificial Neural Net, Perceptron, Hill Climbing Example (Code Example).
+
+##  CRÉDITOS Y REFERENCIAS 
+
+Based on the algorithm presented in the following paper: Kennedy, J. & Eberhart, R. (1995), 'Particle swarm optimization', Neural Networks, 1995. Proceedings., IEEE International Conference on 4.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Stonedahl, F. and Wilensky, U. (2008).  NetLogo Particle Swarm Optimization model.  http://ccl.northwestern.edu/netlogo/models/ParticleSwarmOptimization.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2008 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2008 Cite: Stonedahl, F. -->

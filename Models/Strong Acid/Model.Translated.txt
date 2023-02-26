@@ -1,0 +1,59 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Plots
+### Source
+pH
+### Spanish ***
+pH
+
+### Source
+pH Curve
+### Spanish ***
+Curva de pH
+
+### Source
+Titration Curve
+### Spanish ***
+Curva de titulación
+
+### Source
+Volume base
+### Spanish ***
+Base de volumen
+
+## Widgets
+### Source
+add-base
+### Spanish ***
+añadir base
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+pH
+### Spanish ***
+pH
+
+### Source
+record pH
+### Spanish ***
+registro de pH
+
+### Source
+setup
+### Spanish ***
+configuración
+
+### Source
+vol-acid
+### Spanish ***
+vol-ácido
+
+### Source
+vol-base
+### Spanish ***
+vol-base
+

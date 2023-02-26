@@ -1,0 +1,11 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¡Solo para Turtle Universe 1.1.9 y superior!
+<color=#123456>
+Para aquellos que quieren enviar una discusión sin código. Que necesitas:
+- Encuentra una imagen de portada en línea.
+- Introduzca este modelo.
+- Importa una imagen desde tu dispositivo.
+- ¡Agregue algunos textos y publique!</color>
+
+##  Por favor espere si la imagen es muy grande
+Además, dado que el dibujo cargado es temporal, cualquier persona que remezcle su proyecto no podrá volver a usar la imagen como portada. (Los datos se restablecerán)

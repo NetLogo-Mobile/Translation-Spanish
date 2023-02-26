@@ -1,0 +1,112 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+Este modelo demuestra el uso de un algoritmo genético en un problema muy simple. Los algoritmos genéticos (GA) son una técnica informática de inspiración biológica que combina nociones de la genética mendeliana y la evolución darwiniana para buscar buenas soluciones a los problemas (incluidos los problemas difíciles). El GA funciona generando una población aleatoria de soluciones a un problema, evaluando esas soluciones y luego usando clonación, recombinación y mutación para crear nuevas soluciones al problema.
+
+En este modelo usamos el problema simple de &quot;TODOS UNO&quot; para demostrar cómo es esto posible. Usamos un problema tan simple en este modelo para resaltar solo la técnica de solución. La idea del problema &quot;TODOS UNOS&quot; es encontrar una cadena de bits (es decir, una secuencia de solo unos y ceros) que contenga todos unos y ningún cero. Por tanto, la cadena que mejor resuelve este problema es &quot;111111...111&quot;.
+
+##  COMO FUNCIONA
+
+El algoritmo genético se compone de los siguientes pasos.
+
+1) Se crea una población de soluciones aleatorias. Cada solución consta de una cadena de &quot;1&quot; y &quot;0&quot; mezclados aleatoriamente.
+
+2) Cada solución se evalúa sobre la base de qué tan bien resuelve el problema. Esta medida de la &quot;bondad&quot; de la solución se denomina &quot;adecuación&quot;. En este modelo, nuestro objetivo es simplemente encontrar una solución que consista en todos los &quot;1&quot;. (En las aplicaciones del mundo real del algoritmo genético, los objetivos son mucho más complejos, pero las soluciones aún suelen codificarse como cadenas binarias).
+
+3) Se crea una nueva generación de soluciones a partir de la generación anterior, donde las soluciones que tienen puntajes de aptitud más altos tienen más probabilidades de ser elegidas como soluciones &quot;principales&quot; que aquellas que tienen puntajes de aptitud bajos.
+
+A) El método de selección utilizado en este modelo se llama &quot;selección de torneo&quot;, con un tamaño de torneo de 3. Esto significa que se extraen al azar 3 soluciones de la generación anterior, y se elige la que tiene la aptitud más alta para convertirse en padre.
+
+B) Se elige uno o dos padres para crear hijos. Con uno de los padres, el hijo es un clon o una copia del padre. Con dos padres, el proceso es el análogo digital de la recombinación sexual: los dos hijos heredan parte de su material genético de uno de los padres y parte del otro.
+
+C) También existe la posibilidad de que ocurra una mutación, y algunos de los bits del niño cambiarán de &quot;1&quot; a &quot;0&quot;, o viceversa.
+
+4) Los pasos 2 y 3 anteriores se repiten hasta que se encuentre una solución que resuelva satisfactoriamente el problema.
+
+##  COMO USARLO
+
+Presione el botón SETUP para crear una población aleatoria inicial de soluciones.
+
+Presione el botón PASO para crear una nueva generación a partir de la generación anterior.
+
+Presione el botón GO para ejecutar el algoritmo genético hasta que se encuentre una solución.
+
+La mejor solución encontrada en cada generación se muestra en la VISTA. Cada columna blanca representa un bit &quot;1&quot; y cada columna negra representa un bit &quot;0&quot;.
+
+=== Parámetros ===
+
+El control deslizante TAMAÑO DE LA POBLACIÓN controla el número de soluciones que están presentes en cada generación.
+
+El control deslizante CROSSOVER-RATE controla qué porcentaje de cada nueva generación se crea a través de la reproducción sexual (recombinación o cruzamiento entre el material genético de dos padres), y qué porcentaje (100 - CROSSOVER-RATE) se crea a través de la reproducción asexual (clonación del material genético de uno de los padres). material).
+
+El control deslizante MUTATION-RATE controla el porcentaje de probabilidad de mutación. Esta oportunidad se aplica a cada posición en la cadena de bits de un nuevo individuo. Por ejemplo, si la cadena tiene una longitud de 100 bits y la tasa de mutación se establece en 1%, entonces, en promedio, se cambiará un bit durante la creación de cada nuevo individuo.
+
+La PARCELA-DIVERSIDAD? El interruptor controla si la cantidad de diversidad dentro de la población de soluciones se traza en cada generación, que se muestra en el &quot;Gráfico de diversidad&quot;. ¿Desactivar PLOT-DIVERSITY? aumenta significativamente la velocidad del modelo porque calcular la diversidad requiere mucho cálculo.
+
+El &quot;Gráfico de aptitud&quot; se utiliza para mostrar los mejores, promedio y peores valores de aptitud de las soluciones en cada generación.
+
+##  COSAS PARA NOTAR
+
+Avance lentamente por el modelo y observe la representación visual de la mejor solución encontrada en cada generación, que se muestra en la VISTA. ¿Con qué frecuencia la mejor solución de la Generación X+1 parece ser la descendencia de la mejor solución de la Generación X?
+
+A medida que aumenta la aptitud en la población, la diversidad disminuye. ¿Por qué es esto?
+
+##  COSAS PARA INTENTAR
+
+Explore los efectos de tamaños de población más grandes o más pequeños en la cantidad de generaciones que se necesitan para resolver el problema por completo. ¿Qué sucede si mides la cantidad de tiempo (en segundos) que lleva resolver el problema por completo?
+
+¿Cómo se compara la reproducción asexual con la reproducción sexual para resolver este problema? (¿Qué sucede si la TASA DE CLONACIÓN es 100 o la TASA DE CLONACIÓN es 0?)
+
+¿Cuánta mutación es beneficiosa para el algoritmo genético? ¿Puede el algoritmo genético encontrar una solución perfecta si MUTATION-RATE es 0? ¿Qué pasa si MUTATION-RATE es 10.0? ¿Puedes encontrar una TASA DE MUTACIÓN óptima?
+
+##  EXTENDIENDO EL MODELO
+
+Existen muchas variaciones de este sencillo algoritmo genético. Por ejemplo, algunos algoritmos genéticos incluyen &quot;elitismo&quot;. En este caso, el mejor X% de las soluciones de la generación anterior siempre se copian directamente en la nueva generación. Modifique este modelo para que use elitismo.
+
+Otro tipo de selección para reproducción que a veces se utiliza en algoritmos genéticos se denomina &quot;selección de ruleta&quot;. En este caso, puede imaginar que a cada solución de la población se le asigna una cuña de una rueda de ruleta grande. El tamaño de la cuña se determina dividiendo la aptitud de cada solución por la suma de las aptitudes de todas las soluciones de la población. Por lo tanto, la probabilidad de seleccionar cualquier solución dada para reproducirla es directamente proporcional a su aptitud. Intente implementar este tipo de selección y compare su rendimiento con el método de &quot;selección de torneo&quot; que se utiliza actualmente en este modelo.
+
+Como se señaló anteriormente, el problema de &quot;TODOS UNO&quot; es un problema de juguete que no es muy interesante por derecho propio. Una extensión natural de este modelo es usar el algoritmo genético para resolver un problema que es significativamente más interesante. Afortunadamente, puede cambiar el problema que el algoritmo genético está resolviendo modificando solo una cosa, la &quot;función de aptitud&quot;, que evalúa qué tan buena es una cadena de bits dada para resolver cualquier problema que esté tratando de resolver. Por ejemplo, podría desarrollar reglas sobre cómo debe moverse una tortuga para maximizar su recolección de alimentos mientras viaja por el mundo. Para hacerlo, puede cambiar el procedimiento `ga-calculate-fitness` para ejecutar una pequeña simulación donde una tortuga se mueve en el mundo (de acuerdo con algunas reglas definidas por la cadena de &quot;1&quot; y &quot;0&quot;) , cuente la cantidad de comida que recoge la tortuga y, a continuación, ajuste la aptitud en consecuencia.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Tenga en cuenta que la poderosa capacidad de NetLogo para trabajar con conjuntos de agentes hace que sea muy fácil codificar la &quot;selección de torneos&quot; utilizada en este modelo. El siguiente código es suficiente:
+
+max-one-of (n-of 3 old-generation) [ga-fitness]
+
+##  MODELOS RELACIONADOS 
+
+Echo is another model that is inspired by the work of John H. Holland.  It examines issues of evolutionary fitness and natural selection.
+
+There are several NetLogo models that examine principles of evolution from a more biological standpoint, including Altruism, Bug Hunt Camouflage, Cooperation, Mimicry, Peppered Moths, as well as the set of Genetic Drift models.
+
+Sunflower Biomorph uses an artistic form of simulated evolution, driven by aesthetic choices made by the user.
+
+##  CRÉDITOS Y REFERENCIAS 
+
+This model is based off of work by John H. Holland, who is widely regarded as the father of the genetic algorithms.  See Holland's book "Adaptation in Natural and Artificial Systems", 1992, MIT Press.
+
+Additional information about genetic algorithms is available from a plethora of sources online.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Stonedahl, F. and Wilensky, U. (2008).  NetLogo Simple Genetic Algorithm model.  http://ccl.northwestern.edu/netlogo/models/SimpleGeneticAlgorithm.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2008 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2008 Cite: Stonedahl, F. -->

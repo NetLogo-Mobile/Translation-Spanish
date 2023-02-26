@@ -1,4 +1,5 @@
-﻿## Language = Spanish
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
 ## Plots
 ### Source
 all
@@ -67,11 +68,91 @@ Garrapatas
 
 ## Widgets
 ### Source
+0
+### Spanish ***
+0
+
+### Source
+1
+### Spanish ***
+1
+
+### Source
+10
+### Spanish ***
+10
+
+### Source
+11
+### Spanish ***
+11
+
+### Source
+12
+### Spanish ***
+12
+
+### Source
+13
+### Spanish ***
+13
+
+### Source
+14
+### Spanish ***
+14
+
+### Source
+15
+### Spanish ***
+15
+
+### Source
+2
+### Spanish ***
+2
+
+### Source
+3
+### Spanish ***
+3
+
+### Source
+4
+### Spanish ***
+4
+
+### Source
+5
+### Spanish ***
+5
+
+### Source
+6
+### Spanish ***
+6
+
+### Source
+7
+### Spanish ***
+7
+
+### Source
+8
+### Spanish ***
+8
+
+### Source
+9
+### Spanish ***
+9
+
+### Source
 Density
 ### Spanish
 Densidad
 
-### Source
+### Excessive
 generations
 ### Spanish
 generaciones

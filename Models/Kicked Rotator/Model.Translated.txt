@@ -1,0 +1,69 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Plots
+### Source
+angular position
+### Spanish ***
+posición angular
+
+### Source
+default
+### Spanish ***
+por defecto
+
+### Source
+momentum
+### Spanish ***
+impulso
+
+### Source
+Phase Portrait
+### Spanish ***
+Retrato de fase
+
+## Widgets
+### Source
+continuous-motion?
+### Spanish ***
+movimiento continuo?
+
+### Source
+current angular position
+### Spanish ***
+posición angular actual
+
+### Source
+current momentum
+### Spanish ***
+impulso actual
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+initial-momentum
+### Spanish ***
+impulso inicial
+
+### Source
+initial-position
+### Spanish ***
+posición inicial
+
+### Source
+kick-strength
+### Spanish ***
+fuerza de patada
+
+### Source
+random initial conditions
+### Spanish ***
+condiciones iniciales aleatorias
+
+### Source
+setup
+### Spanish ***
+configuración
+

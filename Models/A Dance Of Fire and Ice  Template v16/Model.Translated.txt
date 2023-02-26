@@ -1,0 +1,68 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Widgets
+### Source
+cps
+### Spanish ***
+cps
+
+### Source
+go
+### Spanish
+ir
+
+### Source
+setup
+### Spanish
+configuración
+
+### Source
+tap
+### Spanish ***
+grifo
+
+### Source
+tap2
+### Spanish ***
+tap2
+
+### Source
+延迟
+### Spanish ***
+延迟
+
+### Source
+延遲
+### Spanish ***
+延遲
+
+### Source
+显示的海龟
+### Spanish ***
+显示的海龟
+
+### Source
+海龜總數
+### Spanish ***
+海龜總數
+
+### Source
+海龟总数
+### Spanish ***
+海龟总数
+
+### Source
+自动？
+### Spanish ***
+自动？
+
+### Source
+自動？
+### Spanish ***
+自動？
+
+### Source
+顯示的海龜
+### Spanish ***
+顯示的海龜
+

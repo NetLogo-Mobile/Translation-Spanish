@@ -1,0 +1,119 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Plots
+### Source
+#
+### Spanish ***
+#
+
+### Source
+acid
+### Spanish ***
+ácido
+
+### Source
+conj. base
+### Spanish ***
+conj. base
+
+### Source
+default
+### Spanish ***
+por defecto
+
+### Source
+hydronium
+### Spanish ***
+hidronio
+
+### Source
+hydroxide
+### Spanish ***
+hidróxido
+
+### Source
+Molecule Counts
+### Spanish ***
+Recuentos de moléculas
+
+### Source
+pH
+### Spanish ***
+pH
+
+### Source
+pH Curve
+### Spanish ***
+Curva de pH
+
+### Source
+time
+### Spanish ***
+tiempo
+
+### Source
+water
+### Spanish ***
+agua
+
+## Widgets
+### Source
+# hydronium
+### Spanish ***
+# hidronio
+
+### Source
+# hydroxide
+### Spanish ***
+# hidróxido
+
+### Source
+add acid
+### Spanish ***
+añadir ácido
+
+### Source
+add base
+### Spanish ***
+añadir base
+
+### Source
+added-acid
+### Spanish ***
+ácido añadido
+
+### Source
+added-base
+### Spanish ***
+base añadida
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+pH
+### Spanish ***
+pH
+
+### Source
+see-starting-water?
+### Spanish ***
+ver-arranque-agua?
+
+### Source
+setup
+### Spanish ***
+configuración
+
+### Source
+starting-acid
+### Spanish ***
+ácido de partida
+
+### Source
+starting-conj-base
+### Spanish ***
+inicio-conj-base
+

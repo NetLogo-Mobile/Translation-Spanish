@@ -1,0 +1,96 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+Las redes neuronales artificiales (ANN) son paralelos computacionales de las neuronas biológicas. El &quot;perceptrón&quot; fue el primer intento de este tipo particular de aprendizaje automático. Intenta clasificar las señales de entrada y generar un resultado. Lo hace dándose muchos ejemplos e intentando clasificarlos, y haciendo que un supervisor le diga si la clasificación fue correcta o incorrecta. Con base en esta información, el perceptrón actualiza sus pesos hasta que clasifica todas las entradas correctamente.
+
+Durante un tiempo se pensó que los perceptrones podrían ser buenas unidades generales de reconocimiento de patrones. Sin embargo, se descubrió que un solo perceptrón no puede aprender algunas tareas básicas como &#39;xor&#39; porque no son linealmente separables. Este modelo ilustra este caso.
+
+##  COMO FUNCIONA
+
+Los nodos de la izquierda son los nodos de entrada. Pueden tener un valor de 1 o -1. Así es como se presenta la entrada al perceptrón. El nodo en el medio es el nodo de sesgo. Su valor se establece constantemente en &#39;1&#39; y permite que el perceptrón use una constante en su cálculo. El único nodo de salida está a la derecha. Los nodos están conectados por enlaces. Cada enlace tiene un peso.
+
+Para determinar su valor, un nodo de salida calcula la suma ponderada de sus nodos de entrada. El valor de cada nodo de entrada se multiplica por el peso del enlace que lo conecta al nodo de salida para dar un valor ponderado. A continuación, se suman todos los valores ponderados. Si el resultado está por encima de un valor de umbral, entonces el valor es 1; de lo contrario, es -1. El valor de umbral para el nodo de salida en este modelo es 0.
+
+Mientras la red está entrenando, las entradas se presentan al perceptrón. El valor del nodo de salida se compara con un valor esperado y los pesos de los enlaces se actualizan para intentar clasificar correctamente las entradas.
+
+##  COMO USARLO
+
+SETUP inicializará el modelo y restablecerá cualquier peso a un pequeño número aleatorio.
+
+Presione TREN UNA VEZ para ejecutar una época de entrenamiento. El número de ejemplos presentados a la red durante esta época se controla mediante el control deslizante EXAMPLES-PER-EPOCH.
+
+Presione TREN para entrenar continuamente la red.
+
+Mover el control deslizante TASA DE APRENDIZAJE cambia la cantidad máxima de movimiento que cualquier ejemplo puede tener en un peso particular.
+
+Presionar PRUEBA ingresará los valores de ENTRADA-1 y ENTRADA-2 al perceptrón y calculará la salida.
+
+En la vista, cuanto mayor es el tamaño del enlace, mayor es el peso que tiene. Si el enlace es rojo, entonces es un peso positivo. Si el enlace es azul, entonces es un peso negativo.
+
+Si MOSTRAR PESOS? está activado, los enlaces se etiquetarán con sus pesos.
+
+El selector TARGET-FUNCTION le permite decidir qué función está tratando de aprender el perceptrón.
+
+##  COSAS PARA NOTAR
+
+El perceptrón aprenderá rápidamente la función &#39;o&#39;. Sin embargo, nunca aprenderá la función &#39;xor&#39;. No solo eso, sino que al tratar de aprender la función &#39;xor&#39;, nunca se establecerá en un conjunto particular de pesos, por lo que es completamente inútil como clasificador de patrones para funciones separables no lineales. Este problema con los perceptrones se puede resolver combinando varios de ellos como se hace en las redes multicapa. Para ver un ejemplo de eso, examine el modelo de red neuronal ANN.
+
+El gráfico REGLA APRENDIDA demuestra visualmente la línea de separación que el perceptrón ha aprendido y presenta las entradas actuales y sus clasificaciones. Los puntos verdes representan puntos que deben clasificarse positivamente. Los puntos rojos representan puntos que deben clasificarse negativamente. La línea que se presenta es lo que ha aprendido el perceptrón. Todo lo que se encuentre a un lado de la línea se clasificará positivamente y todo lo que se encuentre al otro lado de la línea se clasificará negativamente. Como debería ser obvio al ver este gráfico, es imposible dibujar una línea recta que separe los puntos rojo y verde en la función &#39;xor&#39;. Esto es lo que se quiere decir cuando se dice que la función &#39;xor&#39; no es linealmente separable.
+
+El ERROR VS. El gráfico EPOCHS muestra la relación entre el error cuadrático y el número de épocas de entrenamiento.
+
+##  COSAS PARA INTENTAR
+
+Pruebe diferentes tasas de aprendizaje y vea cómo esto afecta el movimiento del gráfico REGLA APRENDIDA.
+
+Intente entrenar al perceptrón varias veces usando la regla &#39;o&#39; y activando SHOW-WEIGHTS? ¿Cambia el modelo alguna vez?
+
+¿Cómo afecta la modificación del número de EJEMPLOS-POR-EPOCA al gráfico de ERROR?
+
+##  EXTENDIENDO EL MODELO
+
+¿Puedes idear una nueva regla de aprendizaje para actualizar los pesos de los bordes que siempre convergerán incluso si la función no es linealmente separable?
+
+¿Puedes modificar el gráfico de la REGLA APRENDIDA para que sea obvio qué lado de la línea es positivo y qué lado es negativo?
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Este modelo hace uso de algunas de las funciones de enlace. También trata a cada nodo y enlace como un agente individual. Esto es distinto de muchos otros lenguajes donde todo el perceptrón sería tratado como un solo agente.
+
+##  MODELOS RELACIONADOS 
+
+Artificial Neural Net shows how arranging perceptrons in multiple layers can overcomes some of the limitations of this model (such as the inability to learn 'xor')
+
+##  CRÉDITOS Y REFERENCIAS 
+
+Several of the equations in this model are derived from Tom Mitchell's book "Machine Learning" (1997).
+
+Perceptrons were initially proposed in the late 1950s by Frank Rosenblatt.
+
+A standard work on perceptrons is the book Perceptrons by Marvin Minsky and Seymour Papert (1969).  The book includes the result that single-layer perceptrons cannot learn XOR.  The discovery that multi-layer perceptrons can learn it came later, in the 1980s.
+
+Thanks to Craig Brozefsky for his work in improving this model.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Rand, W. and Wilensky, U. (2006).  NetLogo Artificial Neural Net - Perceptron model.  http://ccl.northwestern.edu/netlogo/models/ArtificialNeuralNet-Perceptron.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2006 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2006 Cite: Rand, W. -->

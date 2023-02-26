@@ -1,0 +1,117 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+Este modelo demuestra el comportamiento de una solución tamponada. Un tampón es una solución que resiste el cambio de pH cuando se le agrega ácido o base, dentro de ciertos límites. Se ve mejor como el tercer modelo en el paquete ACID-BASE.
+
+Los químicos y los biólogos utilizan las propiedades de los ácidos y las bases para crear soluciones amortiguadoras. A menudo es deseable mantener la acidez, o la concentración de iones hidronio de una solución, lo más constante posible. Ejemplos de tal situación serían: medir la velocidad de una reacción, disolver selectivamente ciertas sales o estudiar el crecimiento de bacterias o plantas. En nuestro organismo, la sangre tiene una capacidad amortiguadora, manteniendo el pH en 7,35. Si el pH sube por encima de 7,7 (alcalosis) o por debajo de 7,0 (acidosis), los resultados son fatales.
+
+##  COMO FUNCIONA
+
+Para lograr esta hazaña, los amortiguadores dependen de la presencia tanto de un ácido débil como de su base conjugada. Con ambas especies en la solución, los ácidos y bases adicionales se neutralizan de acuerdo con las siguientes ecuaciones químicas. HA denota el ácido débil y A- denota su base conjugada.
+
+&gt; HA + OH <sup>-</sup> —&gt; H <sub>2</sub> O + A <sup>-</sup>
+&gt; A <sup>-</sup> + H <sub>3</sub> O <sup>+</sup> —&gt; H <sub>2</sub> O + HA
+
+El pH de un tampón se determina de la misma manera que se determina el pH de un ácido débil: contando el número de iones hidronio e hidróxido y calculando su relación con el número total de iones y moléculas en la solución.
+
+Cuando hay más hidronios, pH = - log (concentración de hidronio)
+
+Cuando hay más hidróxidos, pH = 14 - pOH = 14 - log (concentración de hidróxido)
+
+Los tampones son efectivos solo dentro de su rango de amortiguamiento único. Este rango está determinado por las concentraciones del ácido débil y su base conjugada. Fuera de su rango de amortiguamiento, la solución se comporta como un ácido o base fuerte.
+
+##  COMO USARLO
+
+Decida cuántas moléculas de ácido deben estar presentes al comienzo de la simulación con el control deslizante STARTING-ACID. Establezca el número de moléculas de base conjugada con el control deslizante STARTING-CONJ-BASE.
+
+Presione CONFIGURAR. Las tortugas se distribuirán aleatoriamente por todo el mundo.
+
+Las tortugas AMARILLAS son moléculas de ácido (HA)
+Las tortugas NARANJAS son moléculas de base conjugada (A-)
+Las tortugas VERDES representan iones de hidronio (H30+)
+Las tortugas ROJAS son moléculas de hidróxido (OH-)
+Las tortugas AZULES representan moléculas de agua (H20)
+
+En este modelo asumimos que el 2% de las moléculas de ácido originales se disocian en 2 moléculas de base conjugada y 2 moléculas de hidronio. Esto es cierto solo antes de que las moléculas comiencen a interactuar entre sí.
+
+Presione IR. Las moléculas se moverán al azar por todo el mundo.
+
+Cuando dos tortugas ocupan el mismo parche, se aplican las siguientes reglas:
+1. Cuando un ácido débil y una molécula de agua chocan, la molécula de ácido se disocia en su base conjugada y la molécula de agua se transforma en un ion hidronio.
+2. Cuando los iones hidróxido e hidronio chocan, siempre forman dos moléculas de agua.
+3. Cuando un ácido débil y un hidróxido chocan, tienen una alta probabilidad de transformarse en una base conjugada y una molécula de agua.
+4. Cuando el hidronio y la base conjugada chocan, tienen una alta probabilidad de transformarse en una molécula de ácido débil y una molécula de agua.
+
+Para observar el efecto de agregar base o ácido a la solución, establezca la cantidad de moléculas de ácido que desea agregar con el control deslizante AGREGAR-ÁCIDO y presione AGREGAR-ÁCIDO (H30+)
+Haga lo mismo para agregar base con el control deslizante ADDED-BASE y el botón ADD-BASE.
+
+Se pueden observar una serie de parcelas y monitores:
+El pH de la solución se representa a lo largo del tiempo en el diagrama de PH y en cada momento tic en el monitor de PH. El pH se calcula utilizando la relación entre el número de moléculas de hidronio e hidróxido y el número total de tortugas. Esto es diferente del cálculo químico que relaciona este número con el volumen de la solución.
+Puede ver la cantidad de hidronios e hidróxidos en la solución en sus monitores (#HIDRONIOS, #HIDRÓXIDOS).
+Puede seguir el número de moléculas de cada especie a lo largo del tiempo en el gráfico de CONTEO DE MOLÉCULAS.
+
+Puede elegir ver las moléculas de agua iniciales o no con el VER-AGUA-INICIAL? cambiar.
+
+##  COSAS PARA NOTAR
+
+Después de presionar SETUP, la solución tampón aún no está en equilibrio. Después de que el modelo comienza a funcionar, las moléculas reaccionan hasta que el sistema se equilibra y el pH ya no cambia.
+
+Observe la curva de pH. ¿Cómo se relacionan los números de moléculas de hidronio e hidróxido en los monitores a continuación con el pH?
+
+Examine la forma de la curva de pH. Observe cómo cambia el pH con respecto a la cantidad de base o ácido agregado. ¿El tampón resiste el cambio de pH?
+
+Observa el número de moléculas en la gráfica. Cuando se agrega ácido o base a la solución, desaparecen rápidamente a medida que reaccionan. ¿Puedes determinar qué moléculas reaccionan entre sí? ¿Cuál es la relación entre las dos gráficas: pH y número de moléculas?
+
+¿Qué sucede cuando se agregan grandes cantidades de base o ácido al sistema? ¿Es lo mismo que añadir pequeñas cantidades? ¿La curva de pH refleja esto?
+
+##  COSAS PARA INTENTAR
+
+Agregue una gran cantidad de ácido o base a la solución y observe el efecto. ¿Por qué el pH cambia dramáticamente fuera del rango de amortiguamiento? ¿Sería útil agregar grandes cantidades de base de una sola vez a una solución en el laboratorio si estuviera tratando de ajustar el pH?
+
+¿Puedes relacionar la idea de un &quot;rango amortiguador&quot; con las moléculas y su comportamiento en el modelo?
+
+Intente ejecutar el modelo con diferentes cantidades de ácido o base conjugada. El rango de amortiguamiento de la solución debe cambiar. ¿Cómo se relaciona el cambio con los cambios que hiciste? ¿El cambio de la proporción entre el número de moléculas de ácido débil y de base conjugada tiene un efecto sobre la capacidad amortiguadora?
+
+¿Cómo influye el cambio de la cantidad de moléculas amortiguadoras en la capacidad amortiguadora?
+
+Intente presionar SETUP varias veces con la misma configuración inicial y observe la cantidad de hidronios. ¿El número es siempre el mismo? Pulse GO y observe el cambio de pH. ¿Por qué se alcanza el mismo equilibrio en cada caso?
+
+##  EXTENDIENDO EL MODELO
+
+Aumente la cantidad de hidronio generado originalmente en SETUP aumentando la posibilidad de disociación en los procedimientos. ¿Qué efecto tiene esto sobre el pH inicial?
+
+Agregue un botón y un procedimiento para agregar más base conjugada a la reacción. ¿Cómo podría ayudar esto a un químico que está tratando de mantener el pH de una solución en un valor constante?
+
+Agregue un procedimiento que le permita trazar una curva de titulación para un tampón. ¿Es similar a cualquier otra curva de titulación que haya visto? ¿Qué información adicional puede aprender de la curva de titulación?
+
+Podrían tener lugar interacciones adicionales en una solución además de las establecidas en las reglas. Estos fueron omitidos porque su probabilidad de ocurrencia es baja. Intente incluir una de estas reglas en el procedimiento. Por ejemplo, dos moléculas de agua podrían transformarse en iones hidronio e hidróxido. ¿Hace un cambio?
+
+##  CRÉDITOS Y REFERENCIAS 
+
+Thanks to Mike Stieff for his work on this model.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Stieff, M. and Wilensky, U. (2001).  NetLogo Buffer model.  http://ccl.northwestern.edu/netlogo/models/Buffer.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2001 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227.
+
+<!-- 2001 Cite: Stieff, M. -->

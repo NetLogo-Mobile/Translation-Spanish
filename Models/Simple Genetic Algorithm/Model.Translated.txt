@@ -1,0 +1,79 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Plots
+### Source
+avg
+### Spanish ***
+promedio
+
+### Source
+best
+### Spanish ***
+mejor
+
+### Source
+diversity
+### Spanish ***
+diversidad
+
+### Source
+Diversity Plot
+### Spanish ***
+Parcela de diversidad
+
+### Source
+Fitness Plot
+### Spanish ***
+Parcela de fitness
+
+### Source
+gen #
+### Spanish ***
+generación #
+
+### Source
+raw fitness
+### Spanish ***
+fitness crudo
+
+### Source
+worst
+### Spanish ***
+el peor
+
+## Widgets
+### Source
+crossover-rate
+### Spanish ***
+tasa cruzada
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+mutation-rate
+### Spanish ***
+tasa de mutación
+
+### Source
+plot-diversity?
+### Spanish ***
+¿diversidad de tramas?
+
+### Source
+population-size
+### Spanish ***
+tamaño de la poblacion
+
+### Source
+setup
+### Spanish ***
+configuración
+
+### Source
+step
+### Spanish ***
+paso
+

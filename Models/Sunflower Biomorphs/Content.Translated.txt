@@ -1,0 +1,74 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+Un modelo de evolución donde el usuario aporta la presión selectiva. El usuario elige una o dos flores de una cuadrícula de flores animadas generadas aleatoriamente. Las flores seleccionadas se convierten en los &quot;padres&quot; de la próxima generación. Con el tiempo, las selecciones del usuario hacen que cambien las características de la población.
+
+##  COMO FUNCIONA
+
+Cada flor tiene cuatro genes que determinan su forma. Por ejemplo, una flor puede tener pétalos más grandes o ser más colorida que otra. Cuando el usuario selecciona el padre o los padres de la próxima generación, la pantalla se borra y las flores se vuelven a poblar con genes basados en los genes de sus padres. El usuario puede ejercer presión de selección hacia las flores de colores, por ejemplo, eligiendo la(s) flor(es) más colorida(s) disponible(s).
+
+En el centro de cada &quot;flor&quot; hay un &quot;reproductor&quot; invisible. Permanece en el centro continuamente eclosionando &quot;pétalos&quot; que se mueven hacia afuera. Cada generador contiene las cuatro variables: número de colores, tamaño de paso, modificador de tamaño e incremento de turno. (Dado que cada pétalo necesita saber qué tan lejos avanzar cada vez y qué tan grande crecer, tienen su propio tamaño de paso y modificador de tamaño que es idéntico al valor del generador que los generó). Cada turno, cada generador eclosiona un nuevo pétalo y gira y establece su color apropiadamente (basado en los valores de número de colores e incremento de giro). Una vez que todos los reproductores han incubado un nuevo pétalo, cada pétalo simplemente avanza su tamaño de paso y ajusta su tamaño basado en el distancia recorrida y su modificador de tamaño. Si un pétalo sale de la caja de esa flor, muere.
+
+El usuario puede elegir entre reproducción asexual (un padre) y sexual (dos padres). La próxima generación se crea mutando los valores de los padres para las cuatro variables. Luego, los pétalos existentes se eliminan y se crea la próxima generación.
+
+##  COMO USARLO
+
+Antes de hacer clic en CONFIGURAR, establezca las FILAS y COLUMNAS en los valores deseados. Estos determinan cuántas flores están presentes en el modelo.
+
+Luego establezca la tasa de mutación apropiadamente. Cuanto mayor sea la tasa de mutación, menos flores en la próxima generación se parecerán a sus padres. Si MUTACIÓN CONTROLADA? está activado, el modelo controla la mutación variando dentro de la población; en este modo, la mutación varía entre los individuos de la población; donde la cantidad de MUTACIÓN aumenta en cada individuo que se encuentra a la derecha del anterior (o en la siguiente fila). Por lo tanto, las flores cerca de la parte superior izquierda del modelo tenderán a parecerse más a sus padres que las flores en la parte inferior derecha.
+
+Si se selecciona la selección asexual (¿el interruptor ASEXUAL? está activado), cada clic repoblará las flores en función de los valores del reproductor más cercano a su clic. Si se selecciona la selección sexual, entonces el primer clic selecciona al primer padre (y colorea su fondo gris). Cuando hace clic nuevamente, los dos reproductores seleccionados se &quot;aparean&quot; y pueblan la siguiente generación.
+
+##  COSAS PARA INTENTAR
+
+Intente y haga que surjan ciertos patrones de flores; por ejemplo, intente criar selectivamente hacia una espiral muy estrecha, una &quot;estrella de mar&quot; que no gira o una línea recta.
+
+Recuerde una flor particularmente agradable, luego elimine todas las flores y vea si puede hacer evolucionar su flor favorita nuevamente.
+
+##  EXTENDIENDO EL MODELO
+
+Puede ser bueno permitir que el usuario cambie la cantidad de flores mientras se ejecuta el modelo. Por ejemplo, cambiar el modelo de una cuadrícula de 2x2 a una cuadrícula de 3x3 podría agregar cinco flores nuevas a la población, todas basadas en el padre seleccionado previamente.
+
+Cambiar la forma en que se transmiten los genes de los padres en la reproducción sexual y cómo se expresan.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Este modelo utiliza una raza de reproductores invisibles para realizar un seguimiento de cada flor.
+
+##  MODELOS RELACIONADOS 
+
+Sunflower
+
+##  CRÉDITOS Y REFERENCIAS 
+
+This model is loosely based on the Biomorphs discussed at length in Richard Dawkins' _The Blind Watchmaker_ (1986).
+
+In Dawkins' original model, the user was presented with a series of "insects" that were drawn based on nine separate values.  For example, if insect A has a "leg-length" value of 2 and insect B has a "leg-length" value of 1, then insect A would be drawn with longer legs.  These 9 variables were thus the genotype of each insect-like creature, and the drawing based on those numbers was the phenotype.  If the user clicked on an insect (or "biomorph"), then all the insects would be erased and the chosen biomorph would be used as the basis for a new population of biomorphs.  Each variable would be mutated slightly in the new generation (representing the inheriting of a slightly higher or lower value for the genotype), and these mutated values would be used in the new population of the biomorphs.  In this manner, the new generation of  biomorphs resembled the previously chosen biomorph, with some variation.  For example, if you chose a biomorph with an exceptionally long abdomen, then, because they are all modified versions of the chosen biomorph, biomorphs in the next generation would tend to have longer abdomens than previously.
+
+In this model, "flowers" are used as the biomorphs instead of the insect-like creatures Dawkins used; furthermore, these biomorphs only vary among four variables--num-color, step-size, size-modifier, and turn-increment--and not nine.  The idea is very similar, though.  The user is presented with a number of flowers.  By clicking on a flower, the user can choose the type of flower that will populate the next generation.  If ASEXUAL? is false, the user picks two biomorphs instead of just one; the next generation will be produced by selecting one the values for each of the four genotype variables from either one of the parents.
+
+Thanks to Nate Nichols for his work on this model.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Nichols, N. and Wilensky, U. (2006).  NetLogo Sunflower Biomorphs model.  http://ccl.northwestern.edu/netlogo/models/SunflowerBiomorphs.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2006 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2006 Cite: Nichols, N. -->

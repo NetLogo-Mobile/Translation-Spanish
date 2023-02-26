@@ -1,0 +1,78 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+Este es un modelo matemático que demuestra campos vectoriales abstractos y curvas integrales.
+
+En términos generales, un campo es una &quot;región en la que un cuerpo experimenta una fuerza como resultado de la presencia de otro cuerpo o cuerpos. Un campo es, por lo tanto, un método para representar la forma en que los cuerpos pueden influirse entre sí. Por ejemplo, un cuerpo que tiene masa está rodeado por una región en la que otro cuerpo que tiene masa experimenta una fuerza que tiende a acercar los dos cuerpos... La intensidad de cualquier campo puede describirse como la relación de la fuerza experimentada por un pequeño espécimen apropiado a la propiedad relevante de ese espécimen, por ejemplo, fuerza/masa para el campo gravitatorio&quot; (Minidictionary of Physics de Oxford).
+
+Por &#39;campos vectoriales abstractos&#39; queremos decir que este modelo no está comprometido con ningún tipo específico de fuerza, como la gravedad o el magnetismo. Más bien, simula un campo general, en el que alguna propiedad focal de influencia afecta a una &quot;pequeña muestra apropiada&quot;, o partícula, colocada en el campo.
+
+Normalmente, si observa un campo a simple vista, no necesariamente verá las fuerzas. Por ejemplo, si dejas caer una manzana, cae, aunque no puedas ver la fuerza gravitatoria. La manzana es un objeto en el campo gravitacional. Viste cómo se comportó para que puedas adivinar que hay alguna fuerza que lo hizo caer. Los humanos no perciben (visualmente) las fuerzas de gravitación o las fuerzas electromagnéticas. Sin embargo, en un modelo, podemos usar pequeñas flechas (vectores) para mostrar dónde, con qué fuerza y en qué dirección hay fuerzas en este campo.
+
+##  COMO FUNCIONA
+
+En este modelo, el campo se traza utilizando gráficos vectoriales: las rayas verdes son vectores individuales con tortugas amarillas que sirven como puntas de flecha. La longitud de cada vector es aproximadamente proporcional a la magnitud del campo vectorial en cada punto. En este modelo, es solo la distancia desde el origen: cuanto más lejos del origen, más grande es el vector. Además, todos los vectores apuntan en el sentido de las agujas del reloj a lo largo de tangentes a círculos centrados en el origen.
+
+Los vectores le muestran en qué dirección y con qué fuerza una muestra adecuada, aquí, una &#39;partícula&#39;, será &quot;golpeada&quot; una vez que se coloque en el campo. Una vez que la partícula es &quot;golpeada&quot; a una nueva ubicación, será golpeada una vez más por la fuerza allí (representada por el vector). En realidad, está siendo &quot;golpeado&quot; continuamente, pero en esta simulación, el &quot;golpe&quot; ocurre en puntos discretos del campo. Como la partícula no agota las fuerzas, seguirá siendo golpeada. El camino que toma la partícula se llama su &#39;trayectoria&#39;. Podrá seguir esta trayectoria porque la partícula dejará un rastro rojo detrás de ella a medida que se mueve a lo largo de su trayectoria. Las trayectorias en campos vectoriales se llaman &#39;curvas integrales&#39;.
+
+Aunque el comportamiento de las partículas puede ser interesante y posiblemente imprevisto, debido a que las fuerzas no se distribuyen uniformemente en el campo, o algún otro factor, hemos elegido, para mayor claridad, un campo vectorial con una relación lógica y consistente entre la ubicación en el espacio y el tamaño. /orientación de la fuerza. El campo vectorial elegido para este modelo en particular es
+
+```texto
+- yd/dx + xd/dy
+```
+
+Idealmente, en el campo de fuerza particular modelado aquí, las trayectorias de las partículas deberían ser círculos concéntricos (es decir, la partícula debería dar vueltas y vueltas a lo largo de la misma trayectoria circular).
+
+##  COMO USARLO
+
+CONFIGURACIÓN: Borra el mundo y calcula el campo vectorial.
+COLOCAR PARTÍCULAS: pone el programa en el modo en el que puede colocar partículas de prueba rojas haciendo clic en cualquier parte de la Vista.
+GO: Ejecuta la simulación continuamente para mostrar las curvas integrales.
+
+##  COSAS PARA NOTAR
+
+Observe que los vectores crecen en longitud a medida que se aleja del origen. ¿Qué efecto tienen los vectores cortos en una partícula? ¿Vectores largos?
+
+La forma en que está programado este modelo, cada partícula se mueve una cantidad finita antes de calcular su nuevo rumbo. Por lo tanto, las partículas no giran tanto como lo harían si sus rumbos se recalcularan continuamente. Esto hace que sus trayectorias se muevan lentamente en espiral hacia afuera. (Tienes que dejar que el modelo funcione durante un rato antes de que esto se haga evidente). Tratamos de minimizar esto haciendo que las partículas avancen solo una cantidad muy pequeña en cada paso de tiempo (la variable &#39;tamaño de paso&#39;). No podíamos hacer esta cantidad demasiado pequeña ya que el modelo funcionaría demasiado lento. Si desea que las partículas giren menos en espiral o desea que el modelo se ejecute más rápido, cambie este valor.
+
+##  COSAS PARA INTENTAR
+
+Coloca partículas en diferentes partes del mundo. ¿La posición de la partícula tiene algún efecto sobre la trayectoria?
+
+##  EXTENDIENDO EL MODELO
+
+Pruebe con un campo vectorial diferente cambiándolo en los procedimientos `setup-vector`, `force-x` y `force-y`. Por ejemplo, si elige
+
+```texto
+xd/dx - yd/dy
+```
+
+las curvas integrales serán hipérbolas.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1998).  NetLogo Vector Fields model.  http://ccl.northwestern.edu/netlogo/models/VectorFields.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1998 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2002.
+
+<!-- 1998 2002 -->

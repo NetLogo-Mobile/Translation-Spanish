@@ -1,0 +1,88 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+Un [rotador pateado](https://en.wikipedia.org/wiki/Kicked_rotator) generalmente se imagina como una partícula restringida para moverse en un círculo en un sistema sin fricción ni gravedad que se patea periódicamente. También puedes pensar en ello como un péndulo que se balancea sin gravedad. El movimiento de esta partícula se puede usar para generar lo que se llama el [mapa estándar de Chirikov] (http://www.scholarpedia.org/article/Chirikov_standard_map), una herramienta en física que se puede usar para describir muchos sistemas dinámicos diferentes de el movimiento de partículas en aceleradores a la dinámica de cometas en sistemas solares.
+
+La partícula comienza en una posición aleatoria en el círculo con un momento inicial aleatorio y periódicamente es impulsada por un &quot;campo homogéneo&quot;. Piense en ello como si la gravedad se activara por un instante. Dependiendo de en qué parte del círculo se encuentre la partícula, la patada afecta el movimiento de la partícula de manera diferente. Para fuerzas de patada bajas, el movimiento de las partículas es bastante regular. Sin embargo, con fuerzas de patada más altas, este sistema aparentemente simple se vuelve rápidamente caótico, lo que lo convierte en un candidato perfecto para estudiar [caos dinámico] (https://en.wikipedia.org/wiki/Dynamical_systems_theory#Chaos_theory).
+
+##  COMO FUNCIONA
+
+La partícula está modelada por una sola tortuga que está conectada a un punto de pivote invisible mediante un agente de enlace. Esta partícula tiene dos variables asociadas: posición angular (donde está en el círculo en radianes) y momento. El momento de la partícula puede ser positivo o negativo, donde el momento positivo indica un movimiento en sentido contrario a las agujas del reloj y el momento negativo indica un movimiento en el sentido de las agujas del reloj.
+
+En cada tic, la partícula recibe una patada. Una patada se indica mediante una flecha que se dibuja donde ocurrió la patada en el movimiento de la partícula y en la dirección en que se aplicó la fuerza.
+
+Para calcular el momento de la partícula después de una patada, primero calculamos qué tan &#39;efectivo&#39; es la patada multiplicándolo por el seno de la posición angular de la partícula. Luego agregamos este efecto al impulso anterior.
+
+##  COMO USARLO
+
+Utilice los controles deslizantes INITIAL-POSITION, INITIAL-MOMENTUM y KICK-STRENGTH para definir las condiciones iniciales del modelo. O puede usar el botón CONDICIONES INICIALES ALEATORIAS para comenzar con condiciones iniciales aleatorias.
+
+Después de configurar los parámetros, haga clic en CONFIGURACIÓN. Al hacer clic en IR, se iniciará el modelo.
+
+¿El MOVIMIENTO CONTINUO? El interruptor controla si NetLogo mostrará o no el movimiento de la partícula entre patadas. Esto ralentiza significativamente el modelo porque obliga a NetLogo a dibujar individualmente 10 cuadros de movimiento por 1 patada a la partícula.
+
+##  COSAS PARA NOTAR
+
+Observe el diagrama de &#39;Retrato de fase&#39; en el lado izquierdo del modelo. Esta gráfica muestra la posición angular (en radianes) en el eje x y el momento en el eje y. Así es como los físicos representan las trayectorias de un sistema a lo largo del tiempo.
+
+Observe que cambiar la posición angular inicial y el momento de la partícula, pero manteniendo la misma fuerza de patada, da como resultado un movimiento de la partícula drásticamente diferente.
+
+##  COSAS PARA INTENTAR
+
+Vea si puede hacer un rotador que recorra todo el anillo.
+
+Ahora vea si puede hacer un rotador que no complete una órbita completa.
+
+Pruebe y cree un rotador que tenga un retrato de fase circular. ¿Qué tipo de movimiento tiene ese rotador?
+
+Intente crear un rotador que tenga un retrato de fase que sea una onda periódica. ¿Qué tipo de movimiento tiene ese rotador?
+
+Intente crear un rotador que tenga un comportamiento caótico.
+
+##  EXTENDIENDO EL MODELO
+
+En este momento, la patada viene desde el lado derecho del modelo, forzando a la partícula hacia la izquierda. ¿Puedes cambiar la dirección de la patada para que fuerce a la partícula hacia la derecha?
+
+Vea si puede crear una gráfica que rastree la fuerza centrípeta de la partícula a lo largo del tiempo.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+El rotador pateado es un fenómeno continuo en el que entre patadas la partícula todavía está en movimiento. Sin embargo, en este modo, la partícula se patea en cada tic , lo que significa que solo calculamos la nueva posición y movemos la partícula allí. En esencia, la partícula se &#39;transporta&#39; de un lugar a otro. Para emular el movimiento continuo, ¿cuándo CONTINUOUS-MOTION? está activada, le pedimos a NetLogo que divida una tic en 10 marcos separados. La patada ocurre solo en el primer cuadro, pero el movimiento de la partícula se divide uniformemente entre los 10 cuadros. De esta manera, simulamos el movimiento continuo mientras seguimos usando el tiempo &#39;discreto&#39;.
+
+En lugar de dibujar manualmente la cuerda que constriñe la partícula al anillo, creamos una tortuga de &#39;punto de pivote&#39; oculta y luego creamos un vínculo entre la partícula y el punto de pivote. ¡De esa manera, NetLogo dibuja esta conexión para nosotros!
+
+Las primitivas integradas de NetLogo para seno y coseno solo aceptan grados. Los reporteros `rad-sin` y `rad-cos` primero convierten un parámetro de radianes (la unidad de elección para la física) a grados y luego usan `sin` y `cos`.
+
+La trigonometría en NetLogo es un poco diferente del estándar matemático. Imagina los cuatro cuadrantes en el plano cartesiano. En NetLogo, los cuadrantes 1 y 3 son iguales, pero los cuadrantes 2 y 4 están intercambiados. Esto se debe a que, en NetLogo, los cuadrantes se consideran orientados en el sentido de las agujas del reloj. Además, un rumbo de 0 en NetLogo apunta a la tortuga hacia el norte, pero en trigonometría estándar, que corresponde a pi / 2 radianes, mientras que un rumbo de 0 en trigonometría apunta hacia el este. Para este modelo, no usamos trigonometría NetLogo, y en su lugar usamos trigonometría normal calculando explícitamente las coordenadas cartesianas en lugar de los movimientos habituales basados en tortugas.
+
+##  MODELOS RELACIONADOS 
+
+Take a look at the Kicked Rotators model to see what happens when you have many kicked rotators running in concert.
+
+##  CRÉDITOS Y REFERENCIAS 
+
+This model was inspired by a model used in Dirk Brockmann's Complex Systems in Biology course at the Humboldt University of Berlin.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Brockmann, D., Bain, C., Hjorth, A. & Wilensky, U. (2016).  NetLogo Kicked Rotator model.  http://ccl.northwestern.edu/netlogo/models/KickedRotator.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2016 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2016 Cite: Brockmann, D., Bain, C., Hjorth, A. & Wilensky, U. -->

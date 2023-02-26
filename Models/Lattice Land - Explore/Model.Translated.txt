@@ -1,24 +1,40 @@
-﻿## Language = Spanish
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
 ## Widgets
 ### Source
 action
 ### Spanish
 acción
 
-### Source
+### Excessive
 check-area
 ### Spanish
 comprobar-área
 
-### Source
+### Excessive
 clear-polygons
 ### Spanish
 eliminar-polígonos
 
-### Source
+### Excessive
 clear-segments
 ### Spanish
 eliminar-segmentos
+
+### Source
+Delete Segment
+### Spanish ***
+Eliminar segmento
+
+### Source
+Draw Polygon
+### Spanish ***
+dibujar polígono
+
+### Source
+Draw Segment
+### Spanish ***
+Dibujar segmento
 
 ### Source
 go
@@ -30,7 +46,7 @@ height
 ### Spanish
 altura
 
-### Source
+### Excessive
 perimeter
 ### Spanish
 perímetro

@@ -1,0 +1,102 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+Este modelo demuestra las diferencias en el cálculo del pH al evaluar un ácido débil en solución. Se ve mejor como el segundo modelo en el paquete ACID-BASE.
+
+##  COMO FUNCIONA
+
+A diferencia de un ácido fuerte, un ácido débil tiene una Ka (o constante de disociación ácida) muy baja. En consecuencia, muy poco del ácido se disocia en iones hidronio y base conjugada, como se ve en la siguiente reacción.
+
+&gt; HA + H <sub>2</sub> O &lt;———(1%)———&gt; H <sub>3</sub> O <sup>+</sup> + A <sup>-</sup>
+
+Debido a que hay tan poco ion hidronio presente, el pH de la solución no se puede calcular directamente a partir de la concentración inicial de ácido. Aunque la ecuación para calcular el pH es idéntica a la de una base fuerte,
+
+&gt; pH = - log [H <sub>3</sub> O <sup>+</sup> ]
+
+primero debemos calcular la cantidad de ion hidronio presente en la solución. Esta cantidad depende de la Ka del ácido. Cada ácido tiene un Ka único, que indica la probabilidad de que una molécula de ácido reaccione con una molécula de agua para formar un ion hidronio y un anión. El anión en tal reacción se conoce como la base conjugada del ácido original. Aunque el término base conjugada puede parecer extraño, tiene sentido si observa la ecuación química anterior. Allí A- es la base conjugada de HA porque puede tomar un protón del ion hidronio para generar el ácido original.
+
+Este modelo modela la composición de una solución débilmente ácida y permite al usuario observar cómo la alteración de las especies en solución afecta el pH. En el modelo, la constante de disociación Ka es mucho más alta que la Ka real para un ácido. De hecho, el modelo usa la siguiente fórmula para convertir el Ka del mundo real en un Ka simulado para el modelo:
+
+&gt; Ka para MODELO = 11 - pKa (pKa = - log (Ka del mundo real)
+
+##  COMO USARLO
+
+Decida cuánto ácido debe estar presente al comienzo de la simulación con el control deslizante VOL-ACID y presione SETUP. Las tortugas se distribuirán aleatoriamente por todo el mundo. Las tortugas AZULES representan moléculas de agua, las tortugas VERDES representan iones de hidronio, las tortugas AMARILLAS son moléculas de ácido y, finalmente, las tortugas NARANJAS son moléculas de base conjugada. Cada vez se agrega una cantidad determinada de moléculas de agua a la solución. En este modelo estamos usando la Ka del acético, lo que significa que aproximadamente el 1 % de las moléculas de ácido originales se disocian en 1 molécula de base conjugada y 1 molécula de hidronio.
+
+Presione IR. Las tortugas se moverán aleatoriamente por el mundo y el pH de la solución se trazará con el tiempo en la curva de pH y se mostrará en el monitor de pH.
+
+Observe el efecto de agregar moléculas base ROJAS a la solución configurando el volumen de base con el control deslizante VOL-BASE (mL) y presionando ADD-BASE.
+
+En cualquier momento mientras se presiona go, se puede presionar RECORD-PH para trazar el pH frente a la cantidad de base agregada en la curva de titulación.
+
+##  COSAS PARA NOTAR
+
+Observe cómo cambia la curva de pH con el tiempo con la adición de base. ¿En qué se diferencia esta curva de la que se ve en el modelo de ácido fuerte? Trace una curva de titulación y compárela con un ácido fuerte.
+
+¿El valor de VOL-BASE afecta la curva de titulación de alguna manera? ¿Es esto diferente de la relación entre ácidos fuertes y bases fuertes?
+
+¿Por qué las moléculas de base no reaccionan con las moléculas de agua? ¿Importa?
+
+##  COSAS PARA INTENTAR
+
+Observe que el pH de la solución parece ser un promedio en lugar de una constante. ¿Puede explicar esto?
+
+Comience el modelo con varias cantidades de ácido. ¿Cómo afecta esto a la curva de valoración? ¿Hay alguna diferencia en el punto final de la reacción?
+
+Siga agregando base hasta que el pH suba a alrededor de 10. Observe las razas de tortugas presentes. ¿Cómo depende el pH de las moléculas presentes?
+
+Observe que en nuestros modelos las moléculas de ácido reaccionan con las moléculas de base según el valor de Ka. Cree un control deslizante para que pueda modificar este valor. Observe cómo cambia el sistema con respecto a esta variable. ¿Tu pH está entre 0 y 14?
+
+Tenga en cuenta que hemos establecido una constante para Ka en la ventana de procedimientos. Debe eliminar esa constante cuando la reemplace con un control deslizante del mismo nombre.
+
+##  EXTENDIENDO EL MODELO
+
+Tenga en cuenta que el código requiere que las moléculas de hidróxido reaccionen primero con las moléculas de hidronio en un parche antes de que reaccionen con las moléculas de ácido. Esto se debe a que el hidróxido y el hidronio reaccionan mucho más rápidamente que el hidróxido con un ácido débil. Invierta el código y observe el efecto en el sistema.
+
+Modifique el código para que las tortugas base solo reaccionen con moléculas de hidronio. ¿Qué efecto se observa? ¿Qué cambios adicionales necesita hacer para que el pH continúe aumentando con la adición de base?
+
+Aumente el porcentaje de disociación para que se generen más iones de hidronio en la instalación. ¿Qué le hace esto al pH? ¿Puedes predecir cuál podría ser el Ka de un ácido fuerte?
+
+Intente usar los diversos valores de pKa que se enumeran a continuación para determinar el punto final de cada ácido débil.
+
+<table border>
+<tr><th> ácido débil<th> Ka<th> pKa<th> Ka para el modelo
+<tr><td> HCN<td> 1,26 x 10 <sup>-9</sup><td> 9.1<td> 1.9
+<tr><td> HOAc<td> 1,8 x 10 <sup>-5</sup><td> 4.8<td> 6.2
+<tr><td> <sub>H2CO3</sub> <sub>_</sub><td> 3,16 x 10 <sup>-7</sup><td> 6.5<td> 4.5
+<tr><td> <sub>HCO2H</sub><td> 2,0 x 10 <sup>-4</sup><td> 3.7<td> 7.3
+</table>
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Observe la gran cantidad de razas utilizadas en este modelo. Debido a las complejas interacciones entre las moléculas en una solución débilmente ácida, es necesario separar las tortugas según su identidad. Esto permite que cada raza de tortuga siga instrucciones únicas, lo que permite que el modelo simule la complejidad de las interacciones moleculares.
+
+##  CRÉDITOS Y REFERENCIAS 
+
+Thanks to Mike Stieff for his work on this model.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Stieff, M. and Wilensky, U. (2001).  NetLogo Weak Acid model.  http://ccl.northwestern.edu/netlogo/models/WeakAcid.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2001 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227.
+
+<!-- 2001 Cite: Stieff, M. -->

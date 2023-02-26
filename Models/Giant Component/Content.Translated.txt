@@ -1,0 +1,103 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+En una red, un &quot;componente&quot; es un grupo de nodos (personas) que están todos conectados entre sí, directa o indirectamente. Entonces, si una red tiene un &quot;componente gigante&quot;, eso significa que casi todos los nodos son accesibles desde casi todos los demás. Este modelo muestra qué tan rápido surge un componente gigante si crece una red aleatoria.
+
+##  COMO FUNCIONA
+
+Inicialmente tenemos nodos pero no conexiones (bordes) entre ellos. En cada paso, elegimos dos nodos al azar que no estaban directamente conectados antes y agregamos un borde entre ellos. Todas las conexiones posibles entre ellos tienen exactamente la misma probabilidad de ocurrir.
+
+A medida que se ejecuta el modelo, se forman pequeños &quot;componentes&quot; en forma de cadena, donde los miembros de cada componente están conectados directa o indirectamente entre sí. Si se crea un borde entre nodos de dos componentes diferentes, esos dos componentes se fusionan en uno. El componente con más miembros en un momento determinado es el componente &quot;gigante&quot; y está coloreado en rojo. (Si hay un empate para el más grande, elegimos un componente aleatorio para colorear).
+
+##  COMO USARLO
+
+El control deslizante NUM-NODES controla el tamaño de la red. Elija un tamaño y presione SETUP.
+
+Presionar el botón GO ONCE agrega un nuevo borde a la red. Para agregar bordes repetidamente, presione GO.
+
+A medida que se ejecuta el modelo, los nodos y los bordes intentan posicionarse en un diseño que hace que la estructura de la red sea fácil de ver. Sin embargo, el diseño hace que el modelo funcione más lento. Para obtener resultados más rápido, desactive el DISEÑO? cambiar.
+
+El botón REDO LAYOUT ejecuta el procedimiento de paso de diseño de forma continua para mejorar el diseño de la red.
+
+Un monitor muestra el tamaño actual del componente gigante y la gráfica muestra cómo cambia el tamaño del componente gigante con el tiempo.
+
+##  COSAS PARA NOTAR
+
+El eje y de la gráfica muestra la fracción de todos los nodos que están incluidos en el componente gigante. El eje x muestra el número promedio de conexiones por nodo. La línea vertical en la gráfica muestra dónde el número promedio de conexiones por nodo es igual a 1. ¿Qué sucede con la tasa de crecimiento del componente gigante en este punto?
+
+El modelo demuestra una de las primeras pruebas de la teoría de grafos aleatorios de los matemáticos Paul Erdos y Alfred Renyi (1959). Demostraron que el componente conectado más grande de una red formada al conectar aleatoriamente dos nodos existentes por paso de tiempo, crece rápidamente después de que el número promedio de conexiones por nodo es igual a 1. En otras palabras, el número promedio de conexiones tiene un &quot;punto crítico&quot; donde la red experimenta una &quot;transición de fase&quot; de un mundo bastante desconectado de un montón de componentes pequeños y fragmentados, a un mundo donde la mayoría de los nodos pertenecen al mismo componente conectado.
+
+##  COSAS PARA INTENTAR
+
+Deje que el modelo funcione hasta el final. ¿El &quot;componente gigante&quot; hace honor a su nombre?
+
+Vuelva a ejecutar el modelo, esta vez lentamente, paso a paso. Mira cómo crecen los componentes. ¿Qué sucede cuando la gráfica es más empinada?
+
+Ejecútelo con una pequeña cantidad de nodos (como 10) y observe la gráfica. ¿En qué se diferencia del la gráfica que obtienes cuando lo ejecutas con una gran cantidad de nodos (como 300)? Si realiza varias ejecuciones con el mismo número de nodos, ¿cuánto varía la forma de la gráfica de una ejecución a otra? ¿Puedes desactivar el DISEÑO? cambiar para obtener resultados más rápido.
+
+##  EXTENDIENDO EL MODELO
+
+En este momento, la probabilidad de que dos nodos cualesquiera se conecten entre sí es la misma. ¿Puede pensar en formas de hacer que algunos nodos sean más atractivos para conectarse que otros? ¿Cómo afectaría eso a la formación del componente gigante?
+
+Al crear nuevos enlaces en el procedimiento `add-edge`, es posible que se pregunte por qué no hacemos algo como esto:
+
+pregúntale a una de las tortugas [
+crear-enlace-con una de las otras tortugas con [ no enlace-vecino? mí mismo ]
+]
+
+Imagine que tenemos un nodo en la red que ya está conectado a la mayoría de los otros nodos. En la versión original de `add-edge`, si ese nodo se elige como uno de los dos nodos entre los que intentamos crear un borde, probablemente será rechazado porque es probable que ya esté vinculado con el otro nodo elegido. Sin embargo, en esta versión alternativa de `add-edge`, le decimos a NetLogo que busque explícitamente un nodo que aún no esté conectado al primero (incluso si hay muy pocos). Eso hace una gran diferencia. Pruébelo y vea cómo afecta la formación del componente gigante.
+
+##  CONCEPTOS DE RED
+
+La identificación de los componentes conectados se realiza utilizando un algoritmo de búsqueda estándar denominado &quot;búsqueda en profundidad&quot;. &quot;Profundidad primero&quot; significa que el algoritmo primero profundiza en una rama de conexiones, rastreándolas hasta el final. Para un nodo dado, explora los vecinos de su vecino (y luego sus vecinos, etc.) antes de pasar a su próximo vecino. El algoritmo es recursivo, por lo que finalmente se explorarán todos los nodos accesibles desde un nodo de inicio en particular. Dado que necesitamos encontrar todos los nodos accesibles, y dado que no importa en qué orden los encontremos, otro algoritmo como &quot;búsqueda primero en amplitud&quot; habría funcionado igualmente bien. Elegimos la búsqueda en profundidad porque es la más sencilla de codificar.
+
+La posición de los nodos está determinada por el método de &quot;resorte&quot;, que se describe con más detalle en el modelo de apego preferencial.
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Los nodos son agentes de tortuga y los bordes son agentes de enlace. La primitiva `layout-spring` coloca los nodos, como si los bordes fueran resortes y los nodos se repelieran entre sí.
+
+Aunque no se usa en este modelo, existe una extensión de red para NetLogo que puede descargar en: https://github.com/NetLogo/NW-Extension.
+
+##  MODELOS RELACIONADOS 
+
+See other models in the Networks section of the Models Library, such as Preferential Attachment.
+
+See also Network Example, in the Code Examples section.
+
+There is also a version of this model using the (NW extension)[https://github.com/NetLogo/NW-Extension] in the `demo` folder of the extension.
+
+##  CRÉDITOS Y REFERENCIAS 
+
+This model is adapted from:
+Duncan J. Watts. Six Degrees: The Science of a Connected Age (W.W. Norton & Company, New York, 2003), pages 43-47.
+
+The work Watts describes was originally published in:
+P. Erdos and A. Renyi. On random graphs. Publ. Math. Debrecen, 6:290-297, 1959.
+
+This paper has some additional analysis:
+S. Janson, D.E. Knuth, T. Luczak, and B. Pittel. The birth of the giant component. Random Structures & Algorithms 4, 3 (1993), pages 233-358.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (2005).  NetLogo Giant Component model.  http://ccl.northwestern.edu/netlogo/models/GiantComponent.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2005 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2005 -->

@@ -1,0 +1,115 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+Este es un modelo de una red neuronal muy pequeña. Se basa en el modelo Perceptron, pero en lugar de una capa, esta red tiene dos capas de &quot;perceptrones&quot;. Además, las capas se activan entre sí de forma no lineal. Estas dos adiciones significan que puede aprender operaciones que una sola capa no puede.
+
+El objetivo de una red es tomar entradas de sus nodos de entrada en el extremo izquierdo y clasificar esas entradas de manera apropiada en los nodos de salida en el extremo derecho. Lo hace dándose muchos ejemplos e intentando clasificarlos, y haciendo que un supervisor le diga si la clasificación fue correcta o incorrecta. En base a esta información, la red neuronal actualiza su peso hasta que clasifica correctamente todas las entradas.
+
+##  COMO FUNCIONA
+
+Inicialmente los pesos sobre los enlaces de las redes son aleatorios.
+
+Los nodos de la izquierda se denominan nodos de entrada, los nodos del medio se denominan nodos ocultos y el nodo de la derecha se denomina nodo de salida.
+
+Los valores de activación de los nodos de entrada son las entradas a la red. Los valores de activación de los nodos ocultos son iguales a los valores de activación de los nodos de entrada, multiplicados por sus pesos de enlace, sumados y pasados a través de la [función sigmoide] (https://en.wikipedia.org/wiki/Sigmoid_function). De manera similar, el valor de activación del nodo de salida es igual a los valores de activación de los nodos ocultos, multiplicados por los pesos de enlace, sumados y pasados a través de la función sigmoide. La salida de la red es 1 si la activación del nodo de salida es mayor a 0,5 y 0 si es menor a 0,5.
+
+La función sigmoidea asigna valores negativos a valores entre 0 y 0,5, y asigna valores positivos a valores entre 0,5 y 1. Los valores aumentan de forma no lineal entre 0 y 1 con una transición pronunciada en 0,5.
+
+Para que la red aprenda algo, necesita ser entrenada. En este ejemplo, el algoritmo de entrenamiento utilizado se denomina algoritmo de retropropagación. Consta de dos fases: propagar y retropropagar. La fase de propagación se describió anteriormente: propaga los valores de activación de los nodos de entrada al nodo de salida de la red.
+En la fase de retropropagación, el error en el valor producido se transmite a través de la red capa por capa.
+
+Para realizar la fase de retropropagación, primero se calcula el error como una diferencia entre la salida correcta (esperada) y la salida real de la red. Dado que todos los nodos ocultos conectados a la salida contribuyen al error, todos los pesos deben actualizarse. Para hacer esto, necesitamos calcular cuánto contribuyó cada uno de los nodos al error general en la salida. Esto se hace calculando un gradiente local para cada uno de los nodos, excluyendo los nodos de entrada (dado que la entrada es la activación que proporcionamos a la red, y por lo tanto no tiene ningún error asociado).
+
+Los gradientes locales se calculan capa por capa. Para los nodos de salida, es la multiplicación del error por el resultado de pasar el valor de activación a la derivada de la función de activación. Dado que, en este modelo, la función de activación es la función sigmoidea, su derivada simplificada resulta ser:
+
+valor_activación * (1 - valor_activación)
+
+Si deseáramos usar una función de activación diferente, usaríamos la derivada de esa función en su lugar.
+
+Para cada nodo oculto, el gradiente local se calcula de la siguiente manera:
+
+1. Para cada nodo de salida conectado al nodo oculto, multiplique su gradiente local por el peso del enlace que los conecta;
+
+2. Sumar todos los resultados del paso anterior;
+
+3. Multiplica esa suma por el resultado de pasar el valor de activación del nodo oculto a la derivada de la función de activación.
+
+Para actualizar los pesos de cada uno de los enlaces, multiplicamos la tasa de aprendizaje con el gradiente local de `end2` (este será el nodo de salida en caso de que el enlace conecte un nodo oculto con el nodo de salida) y el valor de activación de `end1 ` (este será el nodo oculto en caso de que el enlace conecte un nodo oculto con el nodo de salida). Luego, el resultado se agrega al peso anterior.
+
+Las fases de propagación y retropropagación se repiten para cada ejemplo que se muestra a la red.
+
+##  COMO USARLO
+
+Para usarlo, presione SETUP para crear la red e inicializar los pesos a pequeños números aleatorios.
+
+Presione TREN UNA VEZ para ejecutar una época de entrenamiento. El número de ejemplos presentados a la red durante esta época se controla mediante el control deslizante EXAMPLES-PER-EPOCH.
+
+Presione TREN para entrenar continuamente la red.
+
+En la vista, cuanto mayor es el tamaño del enlace, mayor es el peso que tiene. Si el enlace es rojo, entonces tiene un peso positivo. Si el enlace es azul, entonces tiene un peso negativo.
+
+Si MOSTRAR PESOS? está activado, los enlaces se etiquetarán con sus pesos.
+
+Para probar la red, configure INPUT-1 e INPUT-2, luego presione el botón TEST. Aparecerá un cuadro de diálogo que le indicará si la red pudo o no clasificar correctamente la entrada que le proporcionó.
+
+LEARNING-RATE controla cuánto aprenderá la red neuronal de cualquier ejemplo.
+
+TARGET-FUNCTION le permite elegir qué función está tratando de resolver la red.
+
+##  COSAS PARA NOTAR
+
+A diferencia del modelo Perceptron, este modelo puede aprender tanto OR como XOR. Puede aprender XOR porque la capa oculta (los nodos intermedios) y la activación no lineal permiten que la red dibuje dos líneas que clasifican la entrada en regiones positivas y negativas. Un perceptrón con una activación lineal solo puede dibujar una sola línea. Como resultado, uno de los nodos aprenderá esencialmente la función OR de que si alguna de las entradas está activada, debería estar activada, y el otro nodo aprenderá una función de exclusión de que si ambas entradas o activadas debería estar activada (pero ponderada). negativamente).
+
+Sin embargo, a diferencia del modelo de perceptrón, el modelo de red neuronal tarda más en aprender cualquiera de las funciones, incluida la función OR simple. Esto se debe a que tiene mucho más que necesita aprender. El modelo de perceptrón tuvo que aprender tres pesos diferentes (los enlaces de entrada y el enlace de polarización). El modelo de red neuronal tiene que aprender diez pesos (4 pesos de entrada a capa oculta, 2 pesos de capa oculta a salida y los tres pesos de sesgo).
+
+##  COSAS PARA INTENTAR
+
+Manipule el parámetro TASA DE APRENDIZAJE. ¿Se puede acelerar o ralentizar el entrenamiento?
+
+Cambie de un lado a otro entre OR y XOR varias veces durante una ejecución. ¿Por qué la red tarda menos tiempo en volver a 0 errores cuanto más tiempo funciona la red?
+
+##  EXTENDIENDO EL MODELO
+
+Agregue funciones adicionales para que la red aprenda junto a OR y XOR. Esto puede requerir que agregue nodos ocultos adicionales a la red.
+
+La retropropagación mediante descenso de gradiente se considera poco realista como modelo de neuronas reales, porque en el sistema neuronal real no hay forma de que el nodo de salida devuelva su error. ¿Puede implementar otra regla de actualización de peso que sea más válida?
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Este modelo utiliza las primitivas de enlace. También hace un uso intensivo de las listas.
+
+##  MODELOS RELACIONADOS 
+
+This is the second in the series of models devoted to understanding artificial neural networks.  The first model is Perceptron.
+
+##  CRÉDITOS Y REFERENCIAS 
+
+The code for this model is inspired by the pseudo-code which can be found in Tom M. Mitchell's "Machine Learning" (1997).
+
+See also Haykin (2009) Neural Networks and Learning Machines, Third Edition.
+
+Thanks to Craig Brozefsky for his work in improving this model and to Marin Aglić Čuvić for info tab improvements.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Rand, W. and Wilensky, U. (2006).  NetLogo Artificial Neural Net - Multilayer model.  http://ccl.northwestern.edu/netlogo/models/ArtificialNeuralNet-Multilayer.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2006 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+<!-- 2006 Cite: Rand, W. -->

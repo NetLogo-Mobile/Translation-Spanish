@@ -1,0 +1,74 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Plots
+### Source
+grass
+### Spanish ***
+césped
+
+### Source
+Pop
+### Spanish ***
+Estallido
+
+### Source
+Populations
+### Spanish ***
+Poblaciones
+
+### Source
+rabbits
+### Spanish ***
+conejos
+
+### Source
+weeds
+### Spanish ***
+malas hierbas
+
+## Widgets
+### Source
+birth-threshold
+### Spanish ***
+umbral de nacimiento
+
+### Source
+count rabbits
+### Spanish ***
+contar conejos
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+grass-energy
+### Spanish ***
+hierba-energía
+
+### Source
+grass-grow-rate
+### Spanish ***
+tasa de crecimiento de la hierba
+
+### Source
+number
+### Spanish ***
+número
+
+### Source
+setup
+### Spanish ***
+configuración
+
+### Source
+weed-energy
+### Spanish ***
+hierba-energia
+
+### Source
+weeds-grow-rate
+### Spanish ***
+tasa de crecimiento de malezas
+

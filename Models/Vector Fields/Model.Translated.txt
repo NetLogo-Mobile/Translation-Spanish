@@ -1,0 +1,18 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Widgets
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+place-particles
+### Spanish ***
+colocar-partículas
+
+### Source
+setup-field
+### Spanish ***
+campo de configuración
+

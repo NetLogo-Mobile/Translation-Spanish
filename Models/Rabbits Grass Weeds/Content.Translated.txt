@@ -1,0 +1,82 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+Este proyecto explora un ecosistema simple compuesto por conejos, pasto y maleza. Los conejos deambulan al azar, y la hierba y las malas hierbas crecen al azar. Cuando un conejo tropieza con hierba o maleza, se come la hierba y gana energía. Si el conejo gana suficiente energía, se reproduce. Si no gana suficiente energía, muere.
+
+La hierba y las malas hierbas se pueden ajustar para que crezcan a diferentes ritmos y proporcionen a los conejos diferentes cantidades de energía. El modelo se puede utilizar para explorar las ventajas competitivas de estas variables.
+
+##  COMO USARLO
+
+Haga clic en el botón CONFIGURAR para configurar los conejos (rojo), la hierba (verde) y las malas hierbas (violeta). Haga clic en el botón GO para iniciar la simulación.
+
+El control deslizante NÚMERO controla el número inicial de conejos. El control deslizante BIRTH-THRESHOLD establece el nivel de energía en el que se reproducen los conejos. El control deslizante GRASS-GROWTH-RATE controla la velocidad a la que crece el césped. El control deslizante WEEDS-GROWTH-RATE controla la velocidad a la que crecen las malas hierbas.
+
+La configuración predeterminada del modelo es tal que al principio las malas hierbas no están presentes (tasa de crecimiento de malas hierbas = 0, energía de malas hierbas = 0). Esto es para que puedas ver la interacción de solo conejos y pasto. Una vez que haya hecho esto, puede comenzar a agregar el efecto de las malas hierbas.
+
+##  COSAS PARA NOTAR
+
+Mire el monitor COUNT RABBITS y la gráfica POBLACIONES para ver cómo cambia la población de conejos con el tiempo. Al principio, no hay suficiente pasto para los conejos y muchos conejos mueren. Pero eso permite que la hierba crezca más libremente, proporcionando abundante comida para los conejos restantes. Los conejos ganan energía y se reproducen. La abundancia de conejos conduce a la escasez de pasto y el ciclo comienza de nuevo.
+
+La población de conejos pasa por una oscilación amortiguada y eventualmente se estabiliza en un rango estrecho. La cantidad total de hierba también oscila, desfasada con la población de conejos.
+
+Estas oscilaciones duales son características de los sistemas depredador-presa. Dichos sistemas generalmente se describen mediante un conjunto de ecuaciones diferenciales conocidas como ecuaciones de Lotka-Volterra. NetLogo proporciona una nueva forma de estudiar los sistemas depredador-presa y otros ecosistemas.
+
+##  COSAS PARA INTENTAR
+
+Dejando otros parámetros solos, cambie la tasa de crecimiento del césped y deje que el sistema se estabilice nuevamente. ¿Esperarías que ahora hubiera más hierba? ¿Más conejos?
+
+Cambie solo el umbral de nacimiento de los conejos. ¿Cómo afecta esto a los niveles de estado estacionario de conejos y pasto?
+
+Con la configuración actual, la población de conejos pasa por una oscilación amortiguada. Al cambiar los parámetros, ¿puedes crear una oscilación no amortiguada? ¿O una oscilación inestable?
+
+En la versión actual, cada conejo tiene el mismo umbral de nacimiento. ¿Qué pasaría si cada conejo tuviera un umbral de nacimiento diferente? ¿Qué pasaría si el umbral de nacimiento de cada nuevo conejo fuera ligeramente diferente del umbral de nacimiento de su progenitor? ¿Cómo evolucionarían con el tiempo los valores del umbral de nacimiento?
+
+Ahora agregue las malas hierbas haciendo que los controles deslizantes MALEZAS-PROPORCIÓN DE CRECIMIENTO sean iguales a CÉSPED-ÍNDICE DE CRECIMIENTO y MALEZAS-ENERGÍA lo mismo que CÉSPED-ENERGÍA. Observe que la cantidad de pasto y maleza es casi la misma.
+
+Ahora haz que la hierba y la maleza crezcan a ritmos diferentes. ¿Lo que sucede?
+
+¿Qué pasa si las malas hierbas crecen al mismo ritmo que el pasto, pero dan menos energía a los conejos cuando se las comen (ENERGÍA DE MALEZAS es menor que ENERGÍA DE HIERBA)?
+
+Piensa en otras formas en que dos especies de plantas pueden diferir y pruébalas para ver qué sucede con sus poblaciones relativas. Por ejemplo, ¿qué pasaría si una mala hierba pudiera crecer donde ya había hierba, pero la hierba no pudiera crecer donde había una mala hierba? ¿Qué pasa si los conejos prefieren la planta que les da más energía?
+
+Ejecute el modelo por un momento, luego cambie repentinamente el umbral de nacimiento a cero. ¿Lo que sucede?
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Tenga en cuenta que cada parche negro tiene una probabilidad aleatoria de crecer hierba o
+desmaleza cada turno, usando la regla:
+
+si random-float 1000 &lt;tasa de crecimiento de malezas
+[ establecer pcolor violeta ]
+si random-float 1000 &lt; grass-grow-rate
+[establecer pcolor verde]
+
+##  MODELOS RELACIONADOS 
+
+Wolf Sheep Predation is another interacting ecosystem with different rules.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (2001).  NetLogo Rabbits Grass Weeds model.  http://ccl.northwestern.edu/netlogo/models/RabbitsGrassWeeds.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 2001 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227.
+
+<!-- 2001 -->

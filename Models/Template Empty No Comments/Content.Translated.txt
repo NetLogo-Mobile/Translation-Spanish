@@ -1,0 +1,8 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿Qué es?
+Esta es una plantilla vacía para crear un modelo de NetLogo, ¡sin comentarios!
+
+##  ¿Cómo usarlo?
+Abra el modelo, no habrá nada allí, ¡porque esta es la versión &quot;sin comentarios&quot; de la plantilla! Abre el panel de código para hacer tu propio modelo.
+
+**¿Alguna pregunta? ¡Siéntase libre de dejarlo en el área de comentarios! **

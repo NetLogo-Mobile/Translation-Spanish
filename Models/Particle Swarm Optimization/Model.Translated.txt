@@ -1,0 +1,83 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Widgets
+### Source
+attraction-to-global-best
+### Spanish ***
+atracción-a-lo-mejor-global
+
+### Source
+attraction-to-personal-best
+### Spanish ***
+atracción-a-lo-mejor-personal
+
+### Source
+Best found
+### Spanish ***
+Mejor encontrado
+
+### Source
+best-value-found
+### Spanish ***
+mejor valor encontrado
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+highlight-mode
+### Spanish ***
+modo de resaltado
+
+### Source
+landscape-smoothness
+### Spanish ***
+paisaje-suavidad
+
+### Source
+particle-inertia
+### Spanish ***
+inercia de partículas
+
+### Source
+particle-speed-limit
+### Spanish ***
+límite de velocidad de partículas
+
+### Source
+population-size
+### Spanish ***
+tamaño de la poblacion
+
+### Source
+setup
+### Spanish ***
+configuración
+
+### Source
+step
+### Spanish ***
+paso
+
+### Source
+Tails
+### Spanish ***
+Cruz
+
+### Source
+Traces
+### Spanish ***
+huellas
+
+### Source
+trails-mode
+### Spanish ***
+modo senderos
+
+### Source
+True best
+### Spanish ***
+verdadero mejor
+

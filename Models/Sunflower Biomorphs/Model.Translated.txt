@@ -1,0 +1,38 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Widgets
+### Source
+asexual?
+### Spanish ***
+¿asexual?
+
+### Source
+columns
+### Spanish ***
+columnas
+
+### Source
+controlled-mutation?
+### Spanish ***
+¿mutación controlada?
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+mutation
+### Spanish ***
+mutación
+
+### Source
+rows
+### Spanish ***
+filas
+
+### Source
+setup
+### Spanish ***
+configuración
+

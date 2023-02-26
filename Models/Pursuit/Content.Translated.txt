@@ -1,0 +1,214 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## ¿QUÉ ES??
+
+En este modelo hay una tortuga líder y un grupo de tortugas seguidoras. Diviértete un poco: esconde al líder e intenta adivinar el camino por el que se está moviendo. Observar a los seguidores le da pistas sobre el camino del líder.
+
+##  COMO FUNCIONA
+
+El líder se mueve a lo largo de un camino de acuerdo con una fórmula preseleccionada, como y = x ^ 2.
+
+El líder comienza en el borde izquierdo del mundo.
+
+El líder siempre se mueve de izquierda a derecha en incrementos de una unidad a lo largo del eje x. Tenga en cuenta que, para varias funciones, sin embargo, la función está escalada por algún factor para que su forma encaje bien dentro del mundo.
+
+La coordenada y de la directriz se basa en la fórmula seleccionada y la coordenada x actual. Por ejemplo, si la fórmula actual es y = x ^ 2 y el valor xcor actual del líder es -3, el valor ycor se establecerá en 9.
+
+Cada seguidor se vuelve hacia el líder y luego avanza una cantidad fija.
+
+##  COMO USARLO
+
+Utilice el control deslizante NÚMERO DE SEGUIDORES para seleccionar cuántos seguidores seguirán al líder. Si se seleccionan exactamente cuatro seguidores, se colocarán en los cuatro rincones del mundo. Si se selecciona un número diferente, los seguidores se ubicarán en lugares aleatorios del mundo.
+
+Use el control deslizante STEP-SIZE para decidir qué tan lejos de su ubicación actual se moverá un seguidor después de cada paso del líder.
+
+Cuando presiona SETUP, las líneas grises claras que aparecen son el eje x y el eje y.
+
+Interruptores de líder:
+¿LÍDER DEL ESPECTÁCULO? hace que el líder se muestre u oculte. Este interruptor debe configurarse antes de presionar SETUP.
+Cuando el interruptor está activado, el líder será visible.
+Cuando el interruptor está desactivado, el líder se ocultará.
+
+SHOW-TRAIL?, cuando está activado, hace que el líder deje una marca en cada ubicación determinada por su fórmula. Este interruptor se puede encender y apagar en cualquier momento durante la persecución.
+Cuando el interruptor está activado, el rastro será visible.
+Cuando el interruptor está desactivado, el rastro se ocultará.
+
+Presione RANDOM o cualquiera de los botones de función cuando haya realizado todas las selecciones anteriores. Esto creará el líder y el número seleccionado de seguidores.
+
+RANDOM elige una función aleatoria para que la siga el líder, y se usa mejor con SHOW-LEADER? y SHOW-TRAIL? apagado para que la función se pueda adivinar en función de los movimientos de los seguidores.
+
+Los otros botones eligen una función específica para que la siga el líder.
+
+Presione GO-ONCE para que el líder incremente su valor de xcor en uno y para que los seguidores den un paso hacia el líder.
+
+Presione GO para que el líder y los seguidores se muevan continuamente.
+Para detenerlos, presione el botón GO nuevamente.
+
+El control deslizante SLOWDOWN controla qué tan rápido se mueven todas las tortugas.
+
+Presione REVEAL después de que el modelo haya terminado para ver cuál fue el camino del líder si SHOW-TRAIL? estaba apagado. Puede usar esto para verificar su suposición de cuál era la función.
+
+##  COSAS PARA NOTAR
+
+Intente comenzar con 4 seguidores con un tamaño de paso de 1. No muestre el líder ni el rastro del líder.
+
+Usa configuraciones para que el mundo sea cuadrado.
+
+Presione ALEATORIO y luego presione IR.
+
+Vea si puede adivinar la fórmula que usa el líder al observar el camino de cada seguidor.
+
+Para cada una de las siguientes preguntas, considere las preguntas de seguimiento &quot;¿Por qué o por qué no?&quot; y &quot;¿Cómo puedes saberlo?&quot;
+
+¿La velocidad del líder parece cambiar con el tiempo?
+
+¿La velocidad de un seguidor parece cambiar con el tiempo?
+
+¿Todos los seguidores viajan a la misma velocidad?
+
+¿Qué puedes decir sobre la fórmula del líder en función del camino de cada seguidor?
+
+¿Qué rasgos del camino de cada seguidor te dan información sobre la fórmula del líder? ¿Cuál de estos rasgos encuentras más útil? ¿Por qué?
+
+Para cambiar la fórmula del líder:
+Se han almacenado varias fórmulas en los procedimientos para este modelo. Para activar explícitamente una fórmula determinada, elija el botón de la fórmula que desee en lugar de ALEATORIO.
+
+Consulte la sección EXTENDIENDO EL MODELO para obtener instrucciones sobre cómo agregar sus propias fórmulas al modelo.
+
+Hay varias características del camino de cada seguidor y del sendero del líder que vale la pena señalar.
+
+Pendiente del camino del seguidor:
+¿Qué significa si la pendiente del camino es creciente?
+¿Qué significa si la pendiente del camino es decreciente?
+¿Qué significa si una sección del camino tiene una pendiente más pronunciada que otra parte?
+¿Qué significa si la pendiente del camino es constante?
+
+Para pensar en la pendiente de un camino, considere si el camino parece ir &#39;cuesta arriba&#39; o &#39;cuesta abajo&#39; y si la &#39;colina&#39; es empinada o plana.
+
+Concavidad de la trayectoria del seguidor:
+¿Qué significa si el camino tiene una sección que es cóncava hacia arriba?
+¿Qué significa si el camino tiene una sección que es cóncava hacia abajo?
+¿Qué significa si el camino tiene secciones de ambos tipos?
+¿Qué significa si el camino no tiene secciones cóncavas hacia arriba ni cóncavas hacia abajo?
+
+Un camino cóncavo hacia arriba tendrá la forma de una taza de café vertical.
+Un camino que sea cóncavo hacia abajo tendrá la forma de una taza de café al revés.
+
+Relaciones entre caminos:
+¿Los caminos tienen alguna simetría? ¿Esperarías que lo hicieran? ¿Por qué o por qué no?
+
+Distancias entre el líder y un seguidor:
+Una vez que haya determinado la fórmula para el líder, ejecute una simulación con el rastro del líder activado. (Tenga en cuenta que hay otras sugerencias para verificar su respuesta en la sección COSAS PARA INTENTAR . Asegúrese de haber probado al menos algunas de estas antes de mostrar la ruta. Si muestra la ruta antes de estar realmente seguro de que tiene razón, es posible que termina arruinando toda tu diversión, ¡no hay vuelta atrás una vez que hayas visto el rastro del líder!)
+
+Encuentre un camino en el que un seguidor parezca acercarse al líder solo para que el líder parezca acelerar y escapar del seguidor.
+
+¿Por qué pasó esto? ¿Qué tipo de generalizaciones puedes hacer sobre las fórmulas o relaciones para las que esto sucede?
+
+¿Cómo se relacionan las distancias entre las marcas del rastro del líder con la velocidad percibida del líder?
+
+Proximidad de marca de líder:
+Dependiendo de la ruta que siga el líder, es posible que las marcas del rastro del líder no estén espaciadas uniformemente.
+
+¿Qué significa cuando los pasos están espaciados uniformemente?
+¿Qué significa cuando los pasos no están espaciados uniformemente?
+¿Qué significa cuando las marcas están más juntas?
+¿Qué significa cuando las marcas están más separadas?
+
+##  COSAS PARA INTENTAR
+
+Intente mover a los seguidores a ubicaciones específicas después de presionar SETUP pero antes de presionar GO. Haz predicciones sobre cómo serían útiles las diferentes ubicaciones.
+
+¿Qué puedes aprender si un seguidor comienza en cualquiera de las siguientes ubicaciones?
+- a lo largo del borde derecho del mundo
+- a lo largo del borde izquierdo del mundo
+- a lo largo del borde superior del mundo
+- a lo largo del borde inferior del mundo
+- a lo largo del eje x
+- a lo largo del eje y
+- Al origen
+
+¿Cuál es la primera ubicación más útil para un seguidor? (¡La ubicación en la parte superior del líder está, por supuesto, fuera de discusión!)
+
+¿Cuál es la ubicación de seguimiento más útil para un solo seguidor o para un grupo de seguidores?
+
+Piense en una estrategia para colocar seguidores de modo que pueda determinar el camino del líder con bastante rapidez. Describa su estrategia.
+
+Puede usar el centro de comando o la ventana de tortuga para mover un seguidor. El líder es tortuga 0, los seguidores son todos tortugas con quien &gt; 0.
+
+Intenta aumentar el número de seguidores.
+(Incluso si cree que tiene la fórmula descifrada, intente usar valores de NÚMERO DE SEGUIDORES más grandes antes de mostrar el líder o el rastro del líder).
+¿Por qué el uso de un valor de NÚMERO DE SEGUIDORES más grande hace que sea más fácil adivinar la fórmula del líder?
+
+Intente aumentar el TAMAÑO DE PASO de los seguidores.
+(Incluso si cree que tiene la fórmula descifrada, intente usar valores de TAMAÑO DE PASO más grandes antes de mostrar el líder o el rastro del líder).
+¿Por qué usar un valor de TAMAÑO DE PASO más grande hace que sea más fácil adivinar la fórmula del líder?
+
+Todas las discusiones anteriores implican tratar de adivinar el camino del líder. Alternativamente, puedes conocer la fórmula del líder e intentar adivinar los caminos de los seguidores.
+
+Si conoce la fórmula de un líder y está tratando de adivinar el patrón de las rutas de los seguidores, asegúrese de registrar su suposición antes de ejecutar la simulación. Compare sus resultados previstos con los resultados reales.
+- ¿Qué razonamiento te llevó a corregir las predicciones?
+- ¿Qué suposiciones que hizo necesitan ser revisadas?
+
+##  EXTENDIENDO EL MODELO
+
+Para agregar sus propias fórmulas, debe agregar un nuevo Procedimiento líder al modelo (los demás se declaran en la parte inferior de la pestaña Código.
+
+Agregue su fórmula a la lista actual.
+- Dentro del conjunto de comandos, es posible que deba escalar el eje y para evitar que el líder se envuelva. (Véase, por ejemplo, la función cúbica.)
+- Debe restringir el dominio del líder si su fórmula tiene valores para los que no estaría definido. (Véase, por ejemplo, la función logaritmo.)
+- Agregue fórmula-nombre al procedimiento MOVE-LEADER y agregue un botón para la elección.
+- Incremente el número después de `random` en el código del botón RANDOM para agregar su función a la lista de posibles funciones que RANDOM elegirá.
+
+En esta simulación, el líder usa solo coordenadas x enteras. ¿Para qué fórmulas podrían ser diferentes los resultados si el líder se moviera a lo largo de intervalos más pequeños?
+
+¿Qué sucedería si el TAMAÑO DEL PASO de los seguidores se estableciera siempre para igualar la distancia que recorrió el líder durante su paso más reciente?
+
+Ajuste los procedimientos para que los mundos rectangulares no causen un envoltorio inesperado.
+
+¿Alguno de estos cambios afecta las respuestas a alguna de las preguntas formuladas anteriormente?
+
+Cree funciones de líder y elija una ubicación de seguidor para obtener las siguientes formas en la ruta del seguidor:
+- una recta con pendiente positiva
+- una recta con pendiente negativa
+- una línea horizontal
+- un bucle
+- un circulo
+- una curva con una &quot;joroba&quot;
+- una curva con dos &quot;jorobas&quot;
+- una curva con tres &quot;jorobas&quot;
+- una curva con n &quot;jorobas&quot;
+
+##  CARACTERÍSTICAS DE NETLOGO
+
+Los corrales de tortuga se utilizan para dibujar los caminos de los seguidores.
+
+El comando `sello` se usa para dibujar el camino del líder.
+
+El comando `face` se usa para orientar a los seguidores.
+
+##  COMO CITAR 
+
+If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.
+
+For the model itself:
+
+* Wilensky, U. (1998).  NetLogo Pursuit model.  http://ccl.northwestern.edu/netlogo/models/Pursuit.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+Please cite the NetLogo software as:
+
+* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+##  DERECHOS DE AUTOR Y LICENCIA 
+
+Copyright 1998 Uri Wilensky.
+
+![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu.
+
+This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML).  The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.
+
+This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001.
+
+<!-- 1998 2001 -->

@@ -1,6 +1,7 @@
 ﻿*** fe3a06781c30ac8095aa52716cccdc0b
-Este es el PATIO ESCONDIDO de Turtle Universe.
+El patio de juegos POCKETWORLD de Turtle Universe. Explóralo, juega con él y crea tu propio mundo de bolsillo con la ayuda de nuestro... Asistente mecánico. ¡Por favor, comparte tus mundos de bolsillo cuando termines!
 
-Explórelo y obtendrá lo que desea. ¡Comparta sus artefactos cuando haya terminado!
+PD: si encuentra algún problema, comente sobre este modelo y dígame cuál es el problema y cómo lo obtuvo. Si cree que se necesita algún bloque de construcción para su micromundo, también deje su idea. Estoy más que feliz de hacer realidad tu sueño más salvaje para ti.
 
-PD: Si tiene algún problema, comente sobre este modelo y dígame cuál es el problema y cómo lo consiguió. Si crees que se necesita algún bloque para tu micromundo, deja también tu idea. Estoy más que feliz de realizar tu sueño más salvaje para ti.
+***Versión 1.0***
+El lanzamiento inicial.

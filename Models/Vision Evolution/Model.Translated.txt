@@ -1,0 +1,139 @@
+﻿*** fe3a06781c30ac8095aa52716cccdc0b
+## Language = Spanish
+## Plots
+### Source
+Aquatic
+### Spanish ***
+Acuático
+
+### Source
+Average Eye Size
+### Spanish ***
+Tamaño medio de los ojos
+
+### Source
+Avg Eye Size
+### Spanish ***
+Tamaño medio de los ojos
+
+### Source
+default
+### Spanish ***
+por defecto
+
+### Source
+Eye Size
+### Spanish ***
+Tamaño de los ojos
+
+### Source
+Eye Size Histogram
+### Spanish ***
+Histograma de tamaño de ojo
+
+### Source
+Fish
+### Spanish ***
+Pez
+
+### Source
+Food
+### Spanish ***
+Alimento
+
+### Source
+Food Pref
+### Spanish ***
+Preferencia de comida
+
+### Source
+Food Preference Histogram
+### Spanish ***
+Histograma de preferencia de alimentos
+
+### Source
+Land Mobility
+### Spanish ***
+Movilidad Terrestre
+
+### Source
+Land Mobility Histogram
+### Spanish ***
+Histograma de movilidad terrestre
+
+### Source
+Number of Fish
+### Spanish ***
+Número de peces
+
+### Source
+Population
+### Spanish ***
+Población
+
+### Source
+Population Size
+### Spanish ***
+Tamaño de la poblacion
+
+### Source
+Terrestrial
+### Spanish ***
+Terrestre
+
+## Widgets
+### Source
+energy-gain-from-food
+### Spanish ***
+ganancia-de-energia-de-los-alimentos
+
+### Source
+eye-cost
+### Spanish ***
+ojo-costo
+
+### Source
+food-replenish-rate
+### Spanish ***
+tasa de reposición de alimentos
+
+### Source
+go
+### Spanish ***
+ir
+
+### Source
+initial-number-fish
+### Spanish ***
+número-inicial-pez
+
+### Source
+initial-number-food
+### Spanish ***
+número-inicial-comida
+
+### Source
+max-eye-size
+### Spanish ***
+tamaño máximo de ojos
+
+### Source
+mutation-rate
+### Spanish ***
+tasa de mutación
+
+### Source
+reproduction-rate
+### Spanish ***
+tasa de reproducción
+
+### Source
+setup
+### Spanish ***
+configuración
+
+### Source
+show-vision?
+### Spanish ***
+espectáculo-visión?
+
